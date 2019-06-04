@@ -1,0 +1,19 @@
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+              urn="urn:cts:cdli:X001001">
+  <!-- Test doc from pyoracc tiny corpus JCS 48, 089 -->
+  <ti:groupname xml:lang="eng">belsunu</ti:groupname>
+  <ti:groupname xml:lang="akk">bēlšunu</ti:groupname>
+  
+  <ti:work
+    groupUrn="urn:cts:cdli:X001001"
+    urn="urn:cts:cdli:X001001"
+    xml:lang="akk">
+      <ti:title xml:lang="akk">bēlšunu</ti:title>
+      <ti:title xml:lang="eng">belsunu</ti:title>
+      <ti:edition
+        workUrn="urn:cts:cdli:X001001"
+        urn="urn.cts:cdli:X001001.belsunu-akk1"
+      >
+      </ti:edition>
+  </ti:work>
+</ti:textgroup>

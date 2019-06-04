@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+    <title>JCS 48, 089</title>
+  </titleStmt>
+  <publicationStmt>
+    <p>Converted from ATF by atf2tei.</p>
+  </publicationStmt>
+  <sourceDesc>
+    <idno type="CDLI">X001001</idno>
+  </sourceDesc>
+</fileDesc>
+</teiHeader>
+
+<text>
+<body>
+  <div type="tablet">
+    <div type="obverse">
+      <l>[MU] 1.03-KAM {iti}AB GE₆ U₄ 2-KAM</l>
+      <l>[{m}]{d}60--EN-šu₂-nu a-lid</l>
+      <!-- Ruling: 
+$ single ruling -->
+      <!-- Comment: # I've added various things for test purposes -->
+      <l>U₄!-BI? 20* [(ina)] 9.30 ina(DIŠ) MAŠ₂!(BAR)</l>
+      <l>&lt;30&gt; &lt;(ina)&gt; 12 GU U₄-ME-šu₂ GID₂-MEŠ{{ir-ri-ku}}</l>
+      <l>BABBAR# ina SAG GIR₂.TAB ma-ma NUN qat₂-[su DAB]{+bat}</l>
+      <l>[{lu₂}TUR] ina#? GU KI dele-bat a-lid DUMU#-MEŠ TUKU</l>
+      <l>[GU₄].U₄ ina MAŠ₂ GENNA ina MIN&lt;(MAŠ₂)&gt;</l>
+      <l>[AN] ina ALLA &lt;&lt;ALLA&gt;&gt;</l>
+      <l>$BI x X |DU.DU| |GA₂×AN| |DU&amp;DU| |LAGAB&amp;LAGAB| DU@g GAN₂@t 4(BAN₂)@v</l>
+      <!-- State: $ (a loose dollar line) -->
+    </div>
+    <div type="reverse">
+      <!-- State: $ reverse blank -->
+    </div>
+    <div>
+<!-- Translation: @translation parallel en project
+@obverse
+
+1.	Year 63, Ṭebetu (Month X), night of day 2:^1^
+
+
+@note ^1^ A note to the translation.
+
+
+
+2.	Anu-belšunu was born.
+
+3.	That day, the Sun was 9;30˚ in the Goat.
+
+4.	The Moon was 12˚ in the Bucket: his days will be long.
+
+5.	Jupiter was at the head of the Scorpion: someone will take the prince's hand.
+
+6.	[The child] was born in the Bucket in the region of Venus: he will have sons.
+
+7.	Mercury was in the Goat; Saturn was in the Goat;
+
+8.	Mars was in the Crab.
+
+ -->
+      <!-- OraccObject: @obverse
+
+1.	Year 63, Ṭebetu (Month X), night of day 2:^1^
+
+
+@note ^1^ A note to the translation.
+
+
+
+2.	Anu-belšunu was born.
+
+3.	That day, the Sun was 9;30˚ in the Goat.
+
+4.	The Moon was 12˚ in the Bucket: his days will be long.
+
+5.	Jupiter was at the head of the Scorpion: someone will take the prince's hand.
+
+6.	[The child] was born in the Bucket in the region of Venus: he will have sons.
+
+7.	Mercury was in the Goat; Saturn was in the Goat;
+
+8.	Mars was in the Crab.
+ -->
+    </div>
+  </div>
+
+</body>
+</text>
+</TEI>
