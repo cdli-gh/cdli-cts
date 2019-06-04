@@ -1,0 +1,10 @@
+image: xenial
+language: python
+python:
+  - 3.7
+
+install:
+  pip install pipenv
+  pipenv install
+script:
+  pipenv run hooktest --console --verbose 10 .
