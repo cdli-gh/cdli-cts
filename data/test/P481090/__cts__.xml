@@ -1,0 +1,14 @@
+<ti:work
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:cdli:test"
+       urn="urn:cts:cdli:test.P481090"
+  xml:lang="akk">
+  <ti:title xml:lang="eng">SIL 034</ti:title>
+  <ti:edition
+    workUrn="urn:cts:cdli:test.P481090"
+        urn="urn:cts:cdli:test.P481090.SIL-034.xml"
+  >
+    <ti:label xml:lang="en">CDLI P481090 LAOS 1, 4</ti:label>
+    <ti:description xml:lang="en">LAOS 1, 47</ti:description>
+  </ti:edition>
+</ti:work>

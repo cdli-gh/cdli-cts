@@ -12,27 +12,41 @@
     <idno type="CDLI">X001001</idno>
   </sourceDesc>
 </fileDesc>
+<encodingDesc>
+  <refsDecl n="CTS">
+    <cRefPattern n="line"
+                 matchPattern="(\\w+).(\\w+)"
+                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+        <p>This pointer pattern extracts a specific line.</p>
+    </cRefPattern>
+    <cRefPattern n="surface"
+                 matchPattern="(\\w+)"
+                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+        <p>This pointer pattern extracts an inscribed surface.</p>
+    </cRefPattern>
+  </refsDecl>
+</encodingDesc>
 </teiHeader>
 
-<text>
+<text n="urn:cts:cdli:test.X001X001.belsunu" xml:lang="akk">
 <body>
-  <div type="tablet">
-    <div type="obverse">
-      <l>[MU] 1.03-KAM {iti}AB GE₆ U₄ 2-KAM</l>
-      <l>[{m}]{d}60--EN-šu₂-nu a-lid</l>
+  <div type="edition" n="urn:cts:cdli:test.X001X001.belsunu">
+    <div type="textpart" n="obverse">
+      <l n="1">[MU] 1.03-KAM {iti}AB GE₆ U₄ 2-KAM</l>
+      <l n="2">[{m}]{d}60--EN-šu₂-nu a-lid</l>
       <!-- Ruling: 
 $ single ruling -->
       <!-- Comment: # I've added various things for test purposes -->
-      <l>U₄!-BI? 20* [(ina)] 9.30 ina(DIŠ) MAŠ₂!(BAR)</l>
-      <l>&lt;30&gt; &lt;(ina)&gt; 12 GU U₄-ME-šu₂ GID₂-MEŠ{{ir-ri-ku}}</l>
-      <l>BABBAR# ina SAG GIR₂.TAB ma-ma NUN qat₂-[su DAB]{+bat}</l>
-      <l>[{lu₂}TUR] ina#? GU KI dele-bat a-lid DUMU#-MEŠ TUKU</l>
-      <l>[GU₄].U₄ ina MAŠ₂ GENNA ina MIN&lt;(MAŠ₂)&gt;</l>
-      <l>[AN] ina ALLA &lt;&lt;ALLA&gt;&gt;</l>
-      <l>$BI x X |DU.DU| |GA₂×AN| |DU&amp;DU| |LAGAB&amp;LAGAB| DU@g GAN₂@t 4(BAN₂)@v</l>
+      <l n="3'">U₄!-BI? 20* [(ina)] 9.30 ina(DIŠ) MAŠ₂!(BAR)</l>
+      <l n="4'">&lt;30&gt; &lt;(ina)&gt; 12 GU U₄-ME-šu₂ GID₂-MEŠ{{ir-ri-ku}}</l>
+      <l n="5'">BABBAR# ina SAG GIR₂.TAB ma-ma NUN qat₂-[su DAB]{+bat}</l>
+      <l n="6'">[{lu₂}TUR] ina#? GU KI dele-bat a-lid DUMU#-MEŠ TUKU</l>
+      <l n="7'">[GU₄].U₄ ina MAŠ₂ GENNA ina MIN&lt;(MAŠ₂)&gt;</l>
+      <l n="8'">[AN] ina ALLA &lt;&lt;ALLA&gt;&gt;</l>
+      <l n="9'">$BI x X |DU.DU| |GA₂×AN| |DU&amp;DU| |LAGAB&amp;LAGAB| DU@g GAN₂@t 4(BAN₂)@v</l>
       <!-- State: $ (a loose dollar line) -->
     </div>
-    <div type="reverse">
+    <div type="textpart" n="reverse">
       <!-- State: $ reverse blank -->
     </div>
     <div>

@@ -1,0 +1,68 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+    <title>LAOS 1, 47</title>
+  </titleStmt>
+  <publicationStmt>
+    <p>Converted from ATF by atf2tei.</p>
+  </publicationStmt>
+  <sourceDesc>
+    <idno type="CDLI">P481090</idno>
+  </sourceDesc>
+</fileDesc>
+<encodingDesc>
+  <refsDecl n="CTS">
+    <cRefPattern n="line"
+                 matchPattern="(\\w+).(\\w+)"
+                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+        <p>This pointer pattern extracts a specific line.</p>
+    </cRefPattern>
+    <cRefPattern n="surface"
+                 matchPattern="(\\w+)"
+                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+        <p>This pointer pattern extracts an inscribed surface.</p>
+    </cRefPattern>
+  </refsDecl>
+</encodingDesc>
+</teiHeader>
+
+<text n="urn:cts:cdli:test.P481090.SIL-034" xml:lang="akk">
+<body>
+  <div type="edition" n="urn:cts:cdli:test.P481090.SIL-034">
+    <div type="textpart" n="obverse">
+      <l n="1">a-na be-el-szu-nu</l>
+      <l n="2">qi2-bi2-ma</l>
+      <l n="3">um-ma qur2-di-sza-ma</l>
+      <l n="4">{d}utu li-ba-al-li-it,-ka</l>
+      <l n="5">ki-a-am ta-asz-pu-ra-am</l>
+      <l n="6">um-ma at-ta!-ma</l>
+      <l n="7">_1(bur3) 1(esze3) GAN2 a-sza3_ ma-as,-s,a-ri</l>
+      <l n="8">am-ta-ha-as,</l>
+      <l n="9">isz-tu _gu4-hi-a_ ta-ak-lu-ku</l>
+      <l n="10">_1(bur3) 1(esze3) GAN2 a-sza3_ ma-as,-s,a-ri</l>
+      <l n="11">ta-am!(A2)-ha-as,</l>
+      <l n="12">sza-at-tu-um</l>
+      <l n="13">u2-ul it-ta-la-ak-ma!(KA)</l>
+      <l n="14">ki-ma te-isz-mu-u2</l>
+      <l n="15">sza#-at-tam _sze_-am</l>
+      <l n="16">u2-ul* el-qe2-e</l>
+      <l n="17">_a-sza3_ sza {d}utu-li-s,i2</l>
+      <l n="18">i-na me-e na-di-in*</l>
+    </div>
+    <div type="textpart" n="reverse">
+      <l n="19">ta#-[asz]-ni _a-sza3_ sza!-tu</l>
+      <l n="20">_sze-gesz-i3_ e-pu-usz</l>
+      <l n="21">_sze-gesz-i3_ sza te-pu-szu</l>
+      <l n="22">lu ha-ar-pu</l>
+      <l n="23">ni-di a-hi-im</l>
+      <l n="24">la# ta-ra-szi-ma</l>
+      <l n="25">[x]-e?*-ka la ip*-pa-sza-ar</l>
+      <!-- State: $ space blank -->
+    </div>
+  </div>
+
+</body>
+</text>
+</TEI>
