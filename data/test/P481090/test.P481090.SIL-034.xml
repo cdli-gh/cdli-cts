@@ -32,33 +32,33 @@
 <body>
   <div type="edition" n="urn:cts:cdli:test.P481090.SIL-034">
     <div type="textpart" n="obverse">
-      <l n="1">a-na be-el-szu-nu</l>
+      <l n="1">a-na be-el-šu-nu</l>
       <l n="2">qi2-bi2-ma</l>
-      <l n="3">um-ma qur2-di-sza-ma</l>
-      <l n="4">{d}utu li-ba-al-li-it,-ka</l>
-      <l n="5">ki-a-am ta-asz-pu-ra-am</l>
+      <l n="3">um-ma qur2-di-ša-ma</l>
+      <l n="4"><hi rend="superscript">d</hi>utu li-ba-al-li-iṭ-ka</l>
+      <l n="5">ki-a-am ta-aš-pu-ra-am</l>
       <l n="6">um-ma at-ta!-ma</l>
-      <l n="7">_1(bur3) 1(esze3) GAN2 a-sza3_ ma-as,-s,a-ri</l>
-      <l n="8">am-ta-ha-as,</l>
-      <l n="9">isz-tu _gu4-hi-a_ ta-ak-lu-ku</l>
-      <l n="10">_1(bur3) 1(esze3) GAN2 a-sza3_ ma-as,-s,a-ri</l>
-      <l n="11">ta-am!(A2)-ha-as,</l>
-      <l n="12">sza-at-tu-um</l>
+      <l n="7"><emph rend="small-caps">1(bur3) 1(eše3) GAN2 a-ša3</emph> ma-aṣ-ṣa-ri</l>
+      <l n="8">am-ta-ha-aṣ</l>
+      <l n="9">iš-tu <emph rend="small-caps">gu4-hi-a</emph> ta-ak-lu-ku</l>
+      <l n="10"><emph rend="small-caps">1(bur3) 1(eše3) GAN2 a-ša3</emph> ma-aṣ-ṣa-ri</l>
+      <l n="11">ta-am!(A2)-ha-aṣ</l>
+      <l n="12">ša-at-tu-um</l>
       <l n="13">u2-ul it-ta-la-ak-ma!(KA)</l>
-      <l n="14">ki-ma te-isz-mu-u2</l>
-      <l n="15">sza#-at-tam _sze_-am</l>
+      <l n="14">ki-ma te-iš-mu-u2</l>
+      <l n="15">ša#-at-tam <emph rend="small-caps">še</emph>-am</l>
       <l n="16">u2-ul* el-qe2-e</l>
-      <l n="17">_a-sza3_ sza {d}utu-li-s,i2</l>
+      <l n="17"><emph rend="small-caps">a-ša3</emph> ša <hi rend="superscript">d</hi>utu-li-ṣi2</l>
       <l n="18">i-na me-e na-di-in*</l>
     </div>
     <div type="textpart" n="reverse">
-      <l n="19">ta#-[asz]-ni _a-sza3_ sza!-tu</l>
-      <l n="20">_sze-gesz-i3_ e-pu-usz</l>
-      <l n="21">_sze-gesz-i3_ sza te-pu-szu</l>
-      <l n="22">lu ha-ar-pu</l>
-      <l n="23">ni-di a-hi-im</l>
-      <l n="24">la# ta-ra-szi-ma</l>
-      <l n="25">[x]-e?*-ka la ip*-pa-sza-ar</l>
+      <l n="1">ta#-[aš]-ni <emph rend="small-caps">a-ša3</emph> ša!-tu</l>
+      <l n="2"><emph rend="small-caps">še-geš-i3</emph> e-pu-uš</l>
+      <l n="3"><emph rend="small-caps">še-geš-i3</emph> ša te-pu-šu</l>
+      <l n="4">lu ha-ar-pu</l>
+      <l n="5">ni-di a-hi-im</l>
+      <l n="6">la# ta-ra-ši-ma</l>
+      <l n="7">[x]-e?*-ka la ip*-pa-ša-ar</l>
       <!-- State: $ space blank -->
     </div>
   </div>
