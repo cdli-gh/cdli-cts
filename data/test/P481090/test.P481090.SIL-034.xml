@@ -1,3 +1,4 @@
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 <teiHeader>
@@ -15,14 +16,19 @@
 <encodingDesc>
   <refsDecl n="CTS">
     <cRefPattern n="line"
-                 matchPattern="(\\w+).(\\w+)"
-                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+                 matchPattern="(\w+)\.(\w+)\.(\w+)"
+                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
         <p>This pointer pattern extracts a specific line.</p>
     </cRefPattern>
     <cRefPattern n="surface"
-                 matchPattern="(\\w+)"
-                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                 matchPattern="(\w+)\.(\w+)"
+                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
         <p>This pointer pattern extracts an inscribed surface.</p>
+    </cRefPattern>
+    <cRefPattern n="object"
+                 matchPattern="(\w+)"
+                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+        <p>This pointer pattern extracts a specific artefact, usually a tablet.</p>
     </cRefPattern>
   </refsDecl>
 </encodingDesc>
@@ -30,7 +36,8 @@
 
 <text n="urn:cts:cdli:test.P481090.SIL-034" xml:lang="akk">
 <body>
-  <div type="edition" n="urn:cts:cdli:test.P481090.SIL-034">
+  <div type="edition">
+  <div type="textpart" n="tablet">
     <div type="textpart" n="obverse">
       <l n="1">a-na be-el-šu-nu</l>
       <l n="2">qi2-bi2-ma</l>
@@ -63,6 +70,7 @@
     </div>
   </div>
 
+  </div>
 </body>
 </text>
 </TEI>
