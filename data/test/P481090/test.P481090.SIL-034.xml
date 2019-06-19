@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 <teiHeader>
@@ -18,22 +18,22 @@
     <cRefPattern n="line"
                  matchPattern="(\w+)\.(\w+)\.(\w+)"
                  replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
-        <p>This pointer pattern extracts a specific line.</p>
+      <p>This pointer pattern extracts a specific line.</p>
     </cRefPattern>
     <cRefPattern n="surface"
                  matchPattern="(\w+)\.(\w+)"
                  replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-        <p>This pointer pattern extracts an inscribed surface.</p>
+      <p>This pointer pattern extracts an inscribed surface.</p>
     </cRefPattern>
     <cRefPattern n="object"
                  matchPattern="(\w+)"
                  replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-        <p>This pointer pattern extracts a specific artefact, usually a tablet.</p>
+      <p>This pointer pattern extracts a specific artefact,
+         usually a tablet.</p>
     </cRefPattern>
   </refsDecl>
 </encodingDesc>
 </teiHeader>
-
 <text n="urn:cts:cdli:test.P481090.SIL-034" xml:lang="akk">
 <body>
   <div type="edition">
@@ -69,8 +69,8 @@
       <!-- State: $ space blank -->
     </div>
   </div>
-
   </div>
+
 </body>
 </text>
 </TEI>

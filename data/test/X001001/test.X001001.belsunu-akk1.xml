@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 <teiHeader>
@@ -18,22 +18,22 @@
     <cRefPattern n="line"
                  matchPattern="(\w+)\.(\w+)\.(\w+)"
                  replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
-        <p>This pointer pattern extracts a specific line.</p>
+      <p>This pointer pattern extracts a specific line.</p>
     </cRefPattern>
     <cRefPattern n="surface"
                  matchPattern="(\w+)\.(\w+)"
                  replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-        <p>This pointer pattern extracts an inscribed surface.</p>
+      <p>This pointer pattern extracts an inscribed surface.</p>
     </cRefPattern>
     <cRefPattern n="object"
                  matchPattern="(\w+)"
                  replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-        <p>This pointer pattern extracts a specific artefact, usually a tablet.</p>
+      <p>This pointer pattern extracts a specific artefact,
+         usually a tablet.</p>
     </cRefPattern>
   </refsDecl>
 </encodingDesc>
 </teiHeader>
-
 <text n="urn:cts:cdli:test.X001001.belsunu" xml:lang="akk-x-stdbab">
 <body>
   <div type="edition">
@@ -46,7 +46,7 @@ $ single ruling -->
       <!-- Comment: # I've added various things for test purposes -->
       <l n="5">U₄!-BI? 20* [(ina)] 9.30 ina(DIŠ) MAŠ₂!(BAR)</l>
       <l n="6">&lt;30&gt; &lt;(ina)&gt; 12 GU U₄-ME-šu₂ GID₂-MEŠ{<hi rend="superscript">ir-ri-ku</hi>}</l>
-      <l n="7">BABBAR# ina ṢG GIR₂.TAB ma-ma NUN qat₂-[su DAB]<hi rend="superscript">+bat</hi></l>
+      <l n="7">BABBAR# ina SAG GIR₂.TAB ma-ma NUN qat₂-[su DAB]<hi rend="superscript">+bat</hi></l>
       <l n="8">[<hi rend="superscript">lu₂</hi>TUR] ina#? GU KI dele-bat a-lid DUMU#-MEŠ TUKU</l>
       <l n="9">[GU₄].U₄ ina MAŠ₂ GENNA ina MIN&lt;(MAŠ₂)&gt;</l>
       <l n="10">[AN] ina ALLA &lt;&lt;ALLA&gt;&gt;</l>
@@ -56,59 +56,23 @@ $ single ruling -->
     <div type="textpart" n="reverse">
       <!-- State: $ reverse blank -->
     </div>
-    <div>
-<!-- Translation: @translation parallel en project
-@obverse
-
-1.	Year 63, Ṭebetu (Month X), night of day 2:^1^
-
-
-@note ^1^ A note to the translation.
-
-
-
-2.	Anu-belšunu was born.
-
-3.	That day, the Sun was 9;30˚ in the Goat.
-
-4.	The Moon was 12˚ in the Bucket: his days will be long.
-
-5.	Jupiter was at the head of the Scorpion: someone will take the prince's hand.
-
-6.	[The child] was born in the Bucket in the region of Venus: he will have sons.
-
-7.	Mercury was in the Goat; Saturn was in the Goat;
-
-8.	Mars was in the Crab.
-
- -->
-      <!-- OraccObject: @obverse
-
-1.	Year 63, Ṭebetu (Month X), night of day 2:^1^
-
-
-@note ^1^ A note to the translation.
-
-
-
-2.	Anu-belšunu was born.
-
-3.	That day, the Sun was 9;30˚ in the Goat.
-
-4.	The Moon was 12˚ in the Bucket: his days will be long.
-
-5.	Jupiter was at the head of the Scorpion: someone will take the prince's hand.
-
-6.	[The child] was born in the Bucket in the region of Venus: he will have sons.
-
-7.	Mercury was in the Goat; Saturn was in the Goat;
-
-8.	Mars was in the Crab.
- -->
+  </div>
+  </div>
+  <div type="translation">
+    <div type="textpart" n="tablet">
+      <div type="textpart" n="obverse">
+        <l n="1">Year 63, Ṭebetu (Month X), night of day 2:</l>
+        <l n="2">Anu-belšunu was born.</l>
+        <l n="3">That day, the Sun was 9;30˚ in the Goat.</l>
+        <l n="4">The Moon was 12˚ in the Bucket: his days will be long.</l>
+        <l n="5">Ŋupiter was at the head of the Scorpion: someone will take the prince's hand.</l>
+        <l n="6">[The child] was born in the Bucket in the region of Venus: he will have sons.</l>
+        <l n="7">Mercury was in the Goat; Saturn was in the Goat;</l>
+        <l n="8">Mars was in the Crab.</l>
+      </div>
     </div>
   </div>
 
-  </div>
 </body>
 </text>
 </TEI>
