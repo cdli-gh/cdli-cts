@@ -34,7 +34,7 @@
   </refsDecl>
 </encodingDesc>
 </teiHeader>
-<text n="urn:cts:cdli:test.X001001.belsunu" xml:lang="akk-x-stdbab">
+<text n="urn:cts:cdli:test.X001001" xml:lang="akk-x-stdbab">
 <body>
   <div type="edition">
   <div type="textpart" n="tablet">
@@ -65,7 +65,7 @@ $ single ruling -->
         <l n="2">Anu-belšunu was born.</l>
         <l n="3">That day, the Sun was 9;30˚ in the Goat.</l>
         <l n="4">The Moon was 12˚ in the Bucket: his days will be long.</l>
-        <l n="5">Ŋupiter was at the head of the Scorpion: someone will take the prince's hand.</l>
+        <l n="5">Jupiter was at the head of the Scorpion: someone will take the prince's hand.</l>
         <l n="6">[The child] was born in the Bucket in the region of Venus: he will have sons.</l>
         <l n="7">Mercury was in the Goat; Saturn was in the Goat;</l>
         <l n="8">Mars was in the Crab.</l>

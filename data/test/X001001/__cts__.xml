@@ -1,16 +1,8 @@
-<ti:work
-  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
-  groupUrn="urn:cts:cdli:test"
-       urn="urn:cts:cdli:test.X001001"
-  xml:lang="akk">
-  <ti:title xml:lang="akk">bēlšunu</ti:title>
-  <ti:title xml:lang="eng">belsunu</ti:title>
-  <ti:edition
-    workUrn="urn:cts:cdli:test.X001001"
-        urn="urn:cts:cdli:test.X001001.belsunu-akk1"
-  >
-    <ti:label xml:lang="en">CDLI X001001 belsunu</ti:label>
-    <ti:label xml:lang="akk">CDLI X001001 bēlšunu</ti:label>
-    <ti:description xml:lang="en">Test doc from pyoracc tiny corpus JCS 48, 089</ti:description>
-  </ti:edition>
+<?xml version="1.0" ?>
+<ti:work groupUrn="urn:cts:cdli:test" urn="urn:cts:cdli:test.X001001" xml:lang="akk-x-stdbab" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+	<ti:title>JCS 48, 089</ti:title>
+	<ti:edition urn="urn:cts:cdli:test.X001001.akk-x-stdbab" workUrn="urn:cts:cdli:test.X001001">
+		<ti:label>CDLI X001001 JCS 48, 089</ti:label>
+		<ti:description>Test doc converted from atf.</ti:description>
+	</ti:edition>
 </ti:work>

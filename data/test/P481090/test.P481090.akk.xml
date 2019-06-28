@@ -34,7 +34,7 @@
   </refsDecl>
 </encodingDesc>
 </teiHeader>
-<text n="urn:cts:cdli:test.P481090.SIL-034" xml:lang="akk">
+<text n="urn:cts:cdli:test.P481090" xml:lang="akk">
 <body>
   <div type="edition">
   <div type="textpart" n="tablet">
@@ -69,6 +69,10 @@
       <!-- State: $ space blank -->
     </div>
   </div>
+  </div>
+  <div type="translation">
+    <div type="textpart" n="tablet">
+    </div>
   </div>
 
 </body>
