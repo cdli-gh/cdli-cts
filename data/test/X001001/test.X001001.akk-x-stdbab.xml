@@ -39,18 +39,18 @@
   <div type="edition">
   <div type="textpart" n="tablet">
     <div type="textpart" n="obverse">
-      <l n="1">[MU] 1.03-KAM <hi rend="superscript">iti</hi>AB GE₆ U₄ 2-KAM</l>
-      <l n="2">[<hi rend="superscript">m</hi>]<hi rend="superscript">d</hi>60--EN-šu₂-nu a-lid</l>
+      <l n="1">[MU] 1.03-KAM <c type="determinative">iti</c>AB GE₆ U₄ 2-KAM</l>
+      <l n="2">[<c type="determinative">m</c>]<c type="determinative">d</c>60--EN-šu₂-nu a-lid</l>
       <!-- Ruling: 
 $ single ruling -->
       <!-- Comment: # I've added various things for test purposes -->
-      <l n="5">U₄!-BI? 20* [(ina)] 9.30 ina(DIŠ) MAŠ₂!(BAR)</l>
-      <l n="6">&lt;30&gt; &lt;(ina)&gt; 12 GU U₄-ME-šu₂ GID₂-MEŠ{<hi rend="superscript">ir-ri-ku</hi>}</l>
-      <l n="7">BABBAR# ina SAG GIR₂.TAB ma-ma NUN qat₂-[su DAB]<hi rend="superscript">+bat</hi></l>
-      <l n="8">[<hi rend="superscript">lu₂</hi>TUR] ina#? GU KI dele-bat a-lid DUMU#-MEŠ TUKU</l>
-      <l n="9">[GU₄].U₄ ina MAŠ₂ GENNA ina MIN&lt;(MAŠ₂)&gt;</l>
-      <l n="10">[AN] ina ALLA &lt;&lt;ALLA&gt;&gt;</l>
-      <l n="11">$BI x X |DU.DU| |GA₂×AN| |DU&amp;DU| |LAGAB&amp;LAGAB| DU@g GAN₂@t 4(BAN₂)@v</l>
+      <l n="3">U₄!-BI? 20* [(ina)] 9.30 ina(DIŠ) MAŠ₂!(BAR)</l>
+      <l n="4">&lt;30&gt; &lt;(ina)&gt; 12 GU U₄-ME-šu₂ GID₂-MEŠ{<c type="determinative">ir-ri-ku</c>}</l>
+      <l n="5">BABBAR# ina SAG GIR₂.TAB ma-ma NUN qat₂-[su DAB]<c type="determinative">+bat</c></l>
+      <l n="6">[<c type="determinative">lu₂</c>TUR] ina#? GU KI dele-bat a-lid DUMU#-MEŠ TUKU</l>
+      <l n="7">[GU₄].U₄ ina MAŠ₂ GENNA ina MIN&lt;(MAŠ₂)&gt;</l>
+      <l n="8">[AN] ina ALLA &lt;&lt;ALLA&gt;&gt;</l>
+      <l n="9">$BI x X |DU.DU| |GA₂×AN| |DU&amp;DU| |LAGAB&amp;LAGAB| DU@g GAN₂@t 4(BAN₂)@v</l>
       <!-- State: $ (a loose dollar line) -->
     </div>
     <div type="textpart" n="reverse">
