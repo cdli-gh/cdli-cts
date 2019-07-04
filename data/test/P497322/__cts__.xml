@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <ti:work groupUrn="urn:cts:cdli:test" urn="urn:cts:cdli:test.P497322" xml:lang="akk" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
-	<ti:title>CDLI Literary Descent of Ishtar (composite)</ti:title>
+	<ti:title xml:lang="eng">CDLI Literary Descent of Ishtar (composite)</ti:title>
 	<ti:edition urn="urn:cts:cdli:test.P497322.akk" workUrn="urn:cts:cdli:test.P497322">
-		<ti:label>CDLI P497322 CDLI Literary Descent of Ishtar (composite)</ti:label>
+		<ti:label xml:lang="eng">CDLI P497322 CDLI Literary Descent of Ishtar (composite)</ti:label>
 		<ti:description>Test doc converted from atf.</ti:description>
 	</ti:edition>
 </ti:work>
