@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LAOS 1, 47</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P481090</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:test.P481090.cdli-akk" type="edition" xml:lang="akk">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">a-na be-el-šu-nu</l>
+            <l n="2">qi2-bi2-ma</l>
+            <l n="3">um-ma qur2-di-ša-ma</l>
+            <l n="4">{d}utu li-ba-al-li-iṭ-ka</l>
+            <l n="5">ki-a-am ta-aš-pu-ra-am</l>
+            <l n="6">um-ma at-ta!-ma</l>
+            <l n="7">_1(bur3) 1(eše3) GAN2 a-ša3_ ma-aṣ-ṣa-ri</l>
+            <l n="8">am-ta-ha-aṣ</l>
+            <l n="9">iš-tu _gu4-hi-a_ ta-ak-lu-ku</l>
+            <l n="10">_1(bur3) 1(eše3) GAN2 a-ša3_ ma-aṣ-ṣa-ri</l>
+            <l n="11">ta-am!(A2)-ha-aṣ</l>
+            <l n="12">ša-at-tu-um</l>
+            <l n="13">u2-ul it-ta-la-ak-ma!(KA)</l>
+            <l n="14">ki-ma te-iš-mu-u2</l>
+            <l n="15">⸢ša⸣-at-tam _še_-am</l>
+            <l n="16">u2-ul* el-qe2-e</l>
+            <l n="17">_a-ša3_ ša {d}utu-li-ṣi2</l>
+            <l n="18">i-na me-e na-di-in*</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">⸢ta⸣-[aš]-ni _a-ša3_ ša!-tu</l>
+            <l n="2">_še-geš-i3_ e-pu-uš</l>
+            <l n="3">_še-geš-i3_ ša te-pu-šu</l>
+            <l n="4">lu ha-ar-pu</l>
+            <l n="5">ni-di a-hi-im</l>
+            <l n="6">⸢la⸣ ta-ra-ši-ma</l>
+            <l n="7">[x]-e?*-ka la ip*-pa-ša-ar</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+    </body>
+  </text>
+</TEI>

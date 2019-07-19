@@ -1,4 +1,4 @@
 <?xml version="1.0" ?>
 <ti:textgroup urn="urn:cts:cdli:test" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
-	<ti:groupname xml:lang="eng">atf2cts test examples</ti:groupname>
+  <ti:groupname xml:lang="eng">Test samples converted by atf2cts</ti:groupname>
 </ti:textgroup>
