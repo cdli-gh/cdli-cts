@@ -33,7 +33,7 @@
   </teiHeader>
   <text>
     <body>
-      <div n="urn:cts:cdli:test.X001001.cdli-akk-x-stdbab" type="edition" xml:lang="akk-x-stdbab">
+      <div n="urn:cts:cdli:X001001.X001001.cdli-akk-x-stdbab" type="edition" xml:lang="akk-x-stdbab">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
             <l n="1">[MU] 1.03-KAM {iti}AB GE₆ U₄ 2-KAM</l>

@@ -33,9 +33,9 @@
   </teiHeader>
   <text>
     <body>
-      <div n="urn:cts:cdli:test.P464358.cdli-akk" type="edition" xml:lang="akk">
+      <div n="urn:cts:cdli:P464358.P464358.cdli-akk" type="edition" xml:lang="akk">
         <div n="object" type="textpart">
-          <div n="surface" type="textpart">
+          <div n="prologue" type="textpart">
             <l n="1">i3-nu an ṣi-ru-um</l>
             <l n="2">_lugal_ {d}a-nun-na-ki</l>
             <l n="3">{d}en-lil2</l>
@@ -340,7 +340,7 @@
             <l n="302">ši-ir ni-ši u2-ṭi-ib</l>
             <l n="303">i-nu-mi-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 1" type="textpart">
             <l n="304">šum-ma a-wi-lum a-wi-lam</l>
             <l n="305">u2-ub-bi-ir-ma</l>
             <l n="306">ne-er-tam e-li-šu</l>
@@ -349,7 +349,7 @@
             <l n="309">mu-ub-bi-ir-šu</l>
             <l n="310">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 2" type="textpart">
             <l n="311">šum-ma a-wi-lum</l>
             <l n="312">ki-iš-pi2</l>
             <l n="313">e-li a-wi-lim id-di-ma</l>
@@ -375,7 +375,7 @@
             <l n="333">_e2_ mu-ub-bi-ri-šu</l>
             <l n="334">i-tab-ba-al</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 3" type="textpart">
             <l n="335">šum-ma a-wi-lum</l>
             <l n="336">i-na di-nim</l>
             <l n="337">a-na ši-bu-ut</l>
@@ -388,7 +388,7 @@
             <l n="344">a-wi-lum šu-u2</l>
             <l n="345">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 4" type="textpart">
             <l n="346">šum-ma a-na ši-bu-ut</l>
             <l n="347">_še_ u3 _ku3-babbar_</l>
             <l n="348">u2-ṣi-a-am</l>
@@ -396,7 +396,7 @@
             <l n="350">di-nim šu-a-ti</l>
             <l n="351">it-ta-na-aš-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 5" type="textpart">
             <l n="352">šum-ma da-a-a-nu-um</l>
             <l n="353">di-nam i-di-in</l>
             <l n="354">pu-ru-sa3-am</l>
@@ -423,7 +423,7 @@
             <l n="375">i-na di-nim</l>
             <l n="376">u2-ul uš-ša-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 6" type="textpart">
             <l n="377">šum-ma a-wi-lum</l>
             <l n="378">_nig2-gur10 dingir_</l>
             <l n="379">u3 _e2-gal_</l>
@@ -435,7 +435,7 @@
             <l n="385">im-hu-ru</l>
             <l n="386">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 7" type="textpart">
             <l n="387">šum-ma a-wi-lum</l>
             <l n="388">lu _ku3-babbar_</l>
             <l n="389">lu _ku3-sig17_</l>
@@ -453,7 +453,7 @@
             <l n="401">a-wi-lum šu-u2</l>
             <l n="402">šar-ra-aq id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 8" type="textpart">
             <l n="403">šum-ma a-wi-lum</l>
             <l n="404">lu _gu4_ lu _udu_ lu _anše_ lu _šah2_</l>
             <l n="405">u3 lu _{geš}ma2_</l>
@@ -468,7 +468,7 @@
             <l n="414">ša na-da-nim la i-šu</l>
             <l n="415">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 9" type="textpart">
             <l n="416">šum-ma a-wi-lum</l>
             <l n="417">ša mi-im-mu-šu hal-qu2</l>
             <l n="418">mi-im-ma-šu</l>
@@ -518,7 +518,7 @@
             <l n="462">_ku3-babbar_ iš-qu2-lu</l>
             <l n="463">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 10" type="textpart">
             <l n="464">šum-ma ša-a-a-ma-nu-um</l>
             <l n="465">na-di-in</l>
             <l n="466">id-di-nu-šum</l>
@@ -534,7 +534,7 @@
             <l n="476">hu-lu-uq-šu</l>
             <l n="477">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 11" type="textpart">
             <l n="478">šum-ma be-el hu-ul-qi2-im</l>
             <l n="479">ši-bi mu-de</l>
             <l n="480">hu-ul-qi2-šu</l>
@@ -543,7 +543,7 @@
             <l n="483">tu-uš-ša-am-ma id-di</l>
             <l n="484">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 12" type="textpart">
             <l n="485">šum-ma na-di-na-nu-um</l>
             <l n="486">a-na ši-im-tim</l>
             <l n="487">it-ta-la-ak</l>
@@ -555,7 +555,7 @@
             <l n="493">_a-ra2_ 5(diš)-šu</l>
             <l n="494">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 13" type="textpart">
             <l n="495">šum-ma a-wi-lum šu-u2</l>
             <l n="496">ši-bu-šu la qer-bu</l>
             <l n="497">da-a-a-nu a-da-nam</l>
@@ -568,14 +568,14 @@
             <l n="504">a-ra-an di-nim šu-a-ti</l>
             <l n="505">it-ta-na-aš-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 14" type="textpart">
             <l n="506">šum-ma a-wi-lum</l>
             <l n="507">_dumu_ a-wi-lim</l>
             <l n="508">ṣe-eh-ra-am</l>
             <l n="509">iš-ta-ri-iq</l>
             <l n="510">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 15" type="textpart">
             <l n="511">šum-ma a-wi-lum</l>
             <l n="512">lu _ARAD2 e2-gal_</l>
             <l n="513">lu _geme2 e2-gal_</l>
@@ -584,7 +584,7 @@
             <l n="516">_abul_ uš-te-ṣi2</l>
             <l n="517">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 16" type="textpart">
             <l n="518">šum-ma a-wi-lum</l>
             <l n="519">lu _ARAD2_ lu _geme2_</l>
             <l n="520">hal-qa2-am</l>
@@ -598,7 +598,7 @@
             <l n="528">be-el _e2_ šu-u2</l>
             <l n="529">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 17" type="textpart">
             <l n="530">šum-ma a-wi-lum</l>
             <l n="531">lu _ARAD2_ lu _geme2_</l>
             <l n="532">hal-qa2-am</l>
@@ -610,7 +610,7 @@
             <l n="538">be-el _ARAD2_</l>
             <l n="539">i-na-ad-di-iš-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 18" type="textpart">
             <l n="540">šum-ma _ARAD2_ šu-u2</l>
             <l n="541">be-el-šu</l>
             <l n="542">la iz-za-kar</l>
@@ -621,7 +621,7 @@
             <l n="547">a-na be-li2-šu</l>
             <l n="548">u2-ta-ar-ru-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 19" type="textpart">
             <l n="549">šum-ma _ARAD2_</l>
             <l n="550">šu-a-ti</l>
             <l n="551">i-na bi-ti-šu</l>
@@ -632,7 +632,7 @@
             <l n="556">a-wi-lum šu-u2</l>
             <l n="557">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 20" type="textpart">
             <l n="558">šum-ma _ARAD2_</l>
             <l n="559">i-na qa2-at</l>
             <l n="560">ṣa-bi-ta-ni-šu</l>
@@ -643,7 +643,7 @@
             <l n="565">i-za-kar-ma</l>
             <l n="566">u2-ta-aš-šar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 21" type="textpart">
             <l n="567">šum-ma a-wi-lum</l>
             <l n="568">bi-tam</l>
             <l n="569">ip-lu-uš</l>
@@ -653,7 +653,7 @@
             <l n="573">i-du-uk-ku-šu-ma</l>
             <l n="574">i-ha-al-la-lu-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 22" type="textpart">
             <l n="575">šum-ma a-wi-lum</l>
             <l n="576">hu-ub-tam</l>
             <l n="577">ih-bu-ut-ma</l>
@@ -661,7 +661,7 @@
             <l n="579">a-wi-lum šu-u2</l>
             <l n="580">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 23" type="textpart">
             <l n="581">šum-ma ha-ab-ba-tum</l>
             <l n="582">la it-ta-aṣ-ba-at</l>
             <l n="583">a-wi-lum</l>
@@ -681,14 +681,14 @@
             <l n="597">hal-qa2-am</l>
             <l n="598">i-ri-a-ab-bu-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 24" type="textpart">
             <l n="599">šum-ma na-pi2-iš-tum</l>
             <l n="600">_iri_ u3 ra-bi-a-nu-um</l>
             <l n="601">_1(diš) ma-na ku3-babbar_</l>
             <l n="602">a-na ni-ši-šu</l>
             <l n="603">i-ša-qa2-lu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 25" type="textpart">
             <l n="604">šum-ma i-na _e2_ a-wi-lim</l>
             <l n="605">i-ša-tum</l>
             <l n="606">in-na-pi2-ih-ma</l>
@@ -705,7 +705,7 @@
             <l n="617">a-na i-ša-tim šu-a-ti</l>
             <l n="618">in-na-ad-di</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 26" type="textpart">
             <l n="619">šum-ma lu _aga3-us2_</l>
             <l n="620">u3 lu _šu-ku6_</l>
             <l n="621">ša a-na har-ra-an šar-ri-im</l>
@@ -723,7 +723,7 @@
             <l n="633">_e2_-su2</l>
             <l n="634">i-tab-ba-al</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 27" type="textpart">
             <l n="635">šum-ma lu _aga3-us2_</l>
             <l n="636">u3 lu _šu-ku6_</l>
             <l n="637">ša i-na dan-na-at</l>
@@ -742,7 +742,7 @@
             <l n="650">šu-ma i-li-ik-šu</l>
             <l n="651">i-il-la-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 28" type="textpart">
             <l n="652">šum-ma lu _aga3-us2_</l>
             <l n="653">u3 lu _šu-ku6_</l>
             <l n="654">ša i-na dan-na-at</l>
@@ -755,7 +755,7 @@
             <l n="661">i-li-ik a-bi-šu</l>
             <l n="662">i-il-la-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 29" type="textpart">
             <l n="663">šum-ma _dumu_-šu</l>
             <l n="664">ṣe-he-er-ma</l>
             <l n="665">i-li-ik a-bi-šu</l>
@@ -767,7 +767,7 @@
             <l n="671">um-ma-šu</l>
             <l n="672">u2-ra-ab-ba-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 30" type="textpart">
             <l n="673">šum-ma lu _aga3-us2_</l>
             <l n="674">u3 lu _šu-ku6_</l>
             <l n="675">_a-ša3_-šu _{geš}kiri6_-šu u3 _e2_-su2</l>
@@ -791,7 +791,7 @@
             <l n="693">it-ta-al-ku</l>
             <l n="694">šu-ma i-il-la-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 31" type="textpart">
             <l n="695">šum-ma ša-at-tam</l>
             <l n="696">iš-ti-a-at-ma</l>
             <l n="697">u4-da-ap-pi2-ir-ma</l>
@@ -801,7 +801,7 @@
             <l n="701">šu-ma i-li-ik-šu</l>
             <l n="702">i-il-la-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 32" type="textpart">
             <l n="703">šum-ma lu _aga3-us2_</l>
             <l n="704">u3 lu _šu-ku6_</l>
             <l n="705">ša i-na har-ra-an</l>
@@ -829,7 +829,7 @@
             <l n="727">a-na ip-ṭe-ri-šu</l>
             <l n="728">u2-ul in-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 33" type="textpart">
             <l n="729">šum-ma lu _gidri-gidri_</l>
             <l n="730">u3 lu _nu-banda3_</l>
             <l n="731">_erin2_ ni-is-ha-tim</l>
@@ -843,7 +843,7 @@
             <l n="739">u3 lu _nu-banda3_ šu-u2</l>
             <l n="740">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 34" type="textpart">
             <l n="741">šum-ma lu _gidri-gidri_</l>
             <l n="742">u3 lu _nu-banda3_</l>
             <l n="743">nu-ma-at _aga3-us2_ il-te-qe2</l>
@@ -859,7 +859,7 @@
             <l n="753">u3 lu _nu-banda3_ šu-u2</l>
             <l n="754">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 35" type="textpart">
             <l n="755">šum-ma a-wi-lum</l>
             <l n="756">_ab2-gu4-hi-a_</l>
             <l n="757">u3 _u8-udu-hi-a_</l>
@@ -871,14 +871,14 @@
             <l n="763">i-na _ku3-babbar_-šu</l>
             <l n="764">i-te-el-li</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 36" type="textpart">
             <l n="765">_a-ša3_-um _{geš}kiri6_ u3 _e2_</l>
             <l n="766">ša _aga3-us2 šu-ku6_</l>
             <l n="767">u3 na-ši bi-il-tim</l>
             <l n="768">a-na _ku3-babbar_</l>
             <l n="769">u2-ul i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 37" type="textpart">
             <l n="770">šum-ma a-wi-lum</l>
             <l n="771">_a-ša3 {geš}kiri6_ u3 _e2_</l>
             <l n="772">ša _aga3-us2 šu-ku6_</l>
@@ -892,7 +892,7 @@
             <l n="780">a-na be-li2-šu</l>
             <l n="781">i-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 38" type="textpart">
             <l n="782">_aga3-us2 šu-ku6_</l>
             <l n="783">u3 na-ši _un_</l>
             <l n="784">i-na _a-ša3 {geš}kiri6_ u3 _e2_</l>
@@ -903,7 +903,7 @@
             <l n="789">u3 a-na i-il-ti-šu</l>
             <l n="790">u2-ul i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 39" type="textpart">
             <l n="791">i-na _a-ša3 kiri6_ u3 _e2_</l>
             <l n="792">ša i-ša-am-mu-ma</l>
             <l n="793">i-ra-aš-šu-u2</l>
@@ -913,7 +913,7 @@
             <l n="797">u3 a-na e-hi-il-ti-šu</l>
             <l n="798">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 40" type="textpart">
             <l n="799">_lukur dam-gar3_</l>
             <l n="800">u3 il-kum a-hu-u2-um</l>
             <l n="801">_a-ša3_-šu _{geš}kiri6_-šu</l>
@@ -925,7 +925,7 @@
             <l n="807">ša i-ša-am-mu</l>
             <l n="808">i-il-la-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 41" type="textpart">
             <l n="809">šum-ma a-wi-lum</l>
             <l n="810">_a-ša3 {geš}kiri6_ u3 _e2_</l>
             <l n="811">ša _aga3-us2 šu-ku6_</l>
@@ -941,7 +941,7 @@
             <l n="821">ša in-na-ad-nu-šum</l>
             <l n="822">i-tab-ba-al</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 42" type="textpart">
             <l n="823">šum-ma a-wi-lum</l>
             <l n="824">_a-ša3_ a-na er-re-šu-tim</l>
             <l n="825">u2-še-ṣi-ma</l>
@@ -953,7 +953,7 @@
             <l n="831">a-na be-el _a-ša3_</l>
             <l n="832">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 43" type="textpart">
             <l n="833">šum-ma _a-ša3_-am la i-ri-iš-ma</l>
             <l n="834">it-ta-di</l>
             <l n="835">_še_ ki-ma i-te-šu</l>
@@ -966,7 +966,7 @@
             <l n="842">a-na be-el _a-ša3_</l>
             <l n="843">u2-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 44" type="textpart">
             <l n="844">šum-ma a-wi-lum</l>
             <l n="845">_{a-ša3}kankal_</l>
             <l n="846">a-na _mu 3(diš)_</l>
@@ -986,7 +986,7 @@
             <l n="860">_u še gur_</l>
             <l n="861">i-ma-ad-da-ad</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 45" type="textpart">
             <l n="862">šum-ma a-wi-lum</l>
             <l n="863">_a-ša3_-šu a-na _gun_</l>
             <l n="864">a-na er-re-ši-im</l>
@@ -1000,7 +1000,7 @@
             <l n="872">bi-ti-iq-tum</l>
             <l n="873">ša er-re-ši-im-ma</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 46" type="textpart">
             <l n="874">šum-ma _gun a-ša3_-šu</l>
             <l n="875">la im-ta-ha-ar</l>
             <l n="876">u3 lu a-na mi-iš-la-ni</l>
@@ -1013,7 +1013,7 @@
             <l n="883">a-na ap-ši-te-em</l>
             <l n="884">i-zu-uz-zu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 47" type="textpart">
             <l n="885">šum-ma er-re-šum</l>
             <l n="886">aš-šum i-na ša-at-tim</l>
             <l n="887">mah-ri-tim</l>
@@ -1028,7 +1028,7 @@
             <l n="896">ki-ma ri-ik-sa-ti-šu</l>
             <l n="897">_še_ i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 48" type="textpart">
             <l n="898">šum-ma a-wi-lum</l>
             <l n="899">hu-bu-ul-lum</l>
             <l n="900">e-li-šu</l>
@@ -1050,7 +1050,7 @@
             <l n="916">ša ša-at-tim šu-a-ti</l>
             <l n="917">u2-ul i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 49" type="textpart">
             <l n="918">šum-ma a-wi-lum</l>
             <l n="919">_ku3-babbar_ it-ti _dam-gar3_</l>
             <l n="920">il-qe2-ma</l>
@@ -1079,7 +1079,7 @@
             <l n="943">a-na _dam-gar3_</l>
             <l n="944">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 50" type="textpart">
             <l n="945">šum-ma _a-ša3_ er-ša-am</l>
             <l n="946">u3 lu-u2</l>
             <l n="947">_a-ša3 še-giš-i3_</l>
@@ -1092,7 +1092,7 @@
             <l n="954">_ku3-babbar_ u3 ṣi-ba-su2</l>
             <l n="955">a-na _dam-gar3_ u2-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 51" type="textpart">
             <l n="956">šum-ma _ku3-babbar_</l>
             <l n="957">a-na tu-ur2-ri-im</l>
             <l n="958">la i-šu</l>
@@ -1105,7 +1105,7 @@
             <l n="965">šar-ri-im</l>
             <l n="966">a-na _dam-gar3_ i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 52" type="textpart">
             <l n="967">šum-ma er-re-šum</l>
             <l n="968">i-na _a-ša3_ še-am</l>
             <l n="969">u3 lu _še-giš-i3_</l>
@@ -1113,7 +1113,7 @@
             <l n="971">ri-ik-sa-ti-šu</l>
             <l n="972">u2-ul i-in-ni</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 53" type="textpart">
             <l n="973">šum-ma a-wi-lum</l>
             <l n="974">a-na _kar a-ša3_-šu</l>
             <l n="975">du-un-nu-nim</l>
@@ -1129,7 +1129,7 @@
             <l n="985">_še_ ša u2-hal-li-qu2</l>
             <l n="986">i-ri-a-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 54" type="textpart">
             <l n="987">šum-ma _še_ ri-a-ba-am</l>
             <l n="988">la i-le-i</l>
             <l n="989">šu-a-ti</l>
@@ -1141,7 +1141,7 @@
             <l n="995">mu-u2 ub-lu</l>
             <l n="996">i-zu-uz-zu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 55" type="textpart">
             <l n="997">šum-ma a-wi-lum</l>
             <l n="998">a-tap-pa-šu</l>
             <l n="999">a-na ši-qi2-tim ip-te</l>
@@ -1151,7 +1151,7 @@
             <l n="1003">_še_ ki-ma i-te-šu</l>
             <l n="1004">i-ma-ad-da-ad</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 56" type="textpart">
             <l n="1005">šum-ma a-wi-lum</l>
             <l n="1006">me-e ip-te-ma</l>
             <l n="1007">ep-še-tim ša _a-ša3_ i-te-šu</l>
@@ -1160,7 +1160,7 @@
             <l n="1010">_1(u) še gur_</l>
             <l n="1011">i-ma-ad-da-ad</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 57" type="textpart">
             <l n="1012">šum-ma _sipa_</l>
             <l n="1013">a-na ša-am-mi</l>
             <l n="1014">_u8 udu hi-a_ šu-ku-lim</l>
@@ -1181,7 +1181,7 @@
             <l n="1029">a-na be-el _a-ša3_</l>
             <l n="1030">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 58" type="textpart">
             <l n="1031">šum-ma iš-tu _u8 udu hi-a_</l>
             <l n="1032">i-na _a-gar3_</l>
             <l n="1033">i-te-li-a-nim</l>
@@ -1200,7 +1200,7 @@
             <l n="1046">a-na be-el _a-ša3_</l>
             <l n="1047">i-ma-ad-da-ad</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 59" type="textpart">
             <l n="1048">šum-ma a-wi-lum</l>
             <l n="1049">ba-lum be-el _{geš}kiri6_</l>
             <l n="1050">i-na _{geš}kiri6_ a-wi-lim</l>
@@ -1208,7 +1208,7 @@
             <l n="1052">1/2(diš) _ma-na ku3-babbar_</l>
             <l n="1053">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 60" type="textpart">
             <l n="1054">šum-ma a-wi-lum</l>
             <l n="1055">_a-ša3_ a-na _{geš}kiri6_ za-qa2-pi2-im</l>
             <l n="1056">a-na _nu-{geš}kiri6_ id-di-in</l>
@@ -1227,7 +1227,7 @@
             <l n="1069">i-na-sa3-aq-ma</l>
             <l n="1070">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 61" type="textpart">
             <l n="1071">šum-ma _nu-{geš}kiri6_</l>
             <l n="1072">_a-ša3_ i-na za-qa2-pi2-im</l>
             <l n="1073">la ig-mur-ma</l>
@@ -1236,7 +1236,7 @@
             <l n="1076">a-na li-ib-bi _ha-la_-šu</l>
             <l n="1077">i-ša-ak-ka-nu-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 62" type="textpart">
             <l n="1078">šum-ma _a-ša3_</l>
             <l n="1079">ša in-na-ad-nu-šum</l>
             <l n="1080">a-na _{geš}kiri6_ la iz-qu2-up</l>
@@ -1252,7 +1252,7 @@
             <l n="1090">i-ip-pe2-eš-ma</l>
             <l n="1091">a-na be-el _a-ša3_ u2-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 63" type="textpart">
             <l n="1092">šum-ma _a-ša3 dubad_</l>
             <l n="1093">_a-ša3_ ši-ip-ra-am</l>
             <l n="1094">i-ip-pe2-eš-ma</l>
@@ -1264,7 +1264,7 @@
             <l n="1100">iš-ti-a-at</l>
             <l n="1101">i-ma-ad-da-ad</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 64" type="textpart">
             <l n="1102">šum-ma a-wi-lum</l>
             <l n="1103">_{geš}kiri6_-šu</l>
             <l n="1104">a-na _nu-{geš}kiri6_</l>
@@ -1279,7 +1279,7 @@
             <l n="1113">ša-lu-uš-tam</l>
             <l n="1114">šu-u2 i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 65" type="textpart">
             <l n="1115">šum-ma _nu-{geš}kiri6_</l>
             <l n="1116">_{geš}kiri6_ la u2-ra-ak-ki-ib-ma</l>
             <l n="1117">bi-il-tam um-ta-ṭi</l>
@@ -1296,7 +1296,7 @@
             <l n="1128'">_dam-gar3_-šu</l>
             <l n="1129'">i-ip-pa-al</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 101" type="textpart">
             <l n="1130'">šum-ma a-šar il-li-ku</l>
             <l n="1131'">ne-me-lam</l>
             <l n="1132'">la i-ta-mar</l>
@@ -1305,7 +1305,7 @@
             <l n="1135'">_šaman2-la2_ a-na _dam-gar3_</l>
             <l n="1136'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 102" type="textpart">
             <l n="1137'">šum-ma _dam-gar3_</l>
             <l n="1138'">a-na _šaman2-la2_</l>
             <l n="1139'">_ku3-babbar_ a-na ta-ad-mi-iq-tim</l>
@@ -1316,7 +1316,7 @@
             <l n="1144'">qa2-qa2-ad _ku3-babbar_</l>
             <l n="1145'">a-na _dam-gar3_ u2-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 103" type="textpart">
             <l n="1146'">šum-ma har-ra-nam</l>
             <l n="1147'">i-na a-la-ki-šu</l>
             <l n="1148'">na-ak-ru-um</l>
@@ -1326,7 +1326,7 @@
             <l n="1152'">i-za-kar-ma</l>
             <l n="1153'">u2-ta-aš-šar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 104" type="textpart">
             <l n="1154'">šum-ma _dam-gar3_</l>
             <l n="1155'">a-na _šaman2-la2_</l>
             <l n="1156'">_še siki i3-giš_</l>
@@ -1342,7 +1342,7 @@
             <l n="1166'">i-na-ad-di-nu</l>
             <l n="1167'">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 105" type="textpart">
             <l n="1168'">šum-ma _šaman2-la2_</l>
             <l n="1169'">i-te-gi-ma</l>
             <l n="1170'">ka-ni-ik _ku3-babbar_</l>
@@ -1353,7 +1353,7 @@
             <l n="1175'">a-na ni-ik-ka-as-si2-im</l>
             <l n="1176'">u2-ul iš-ša-ak-ka-an</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 106" type="textpart">
             <l n="1177'">šum-ma _šaman2-la2_</l>
             <l n="1178'">_ku3-babbar_ it-ti _dam-gar3_</l>
             <l n="1179'">il-qe2-ma</l>
@@ -1368,7 +1368,7 @@
             <l n="1188'">_a-ra2_ 3(diš)-šu a-na _dam-gar3_</l>
             <l n="1189'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 107" type="textpart">
             <l n="1190'">šum-ma _dam-gar3 ku3-babbar_</l>
             <l n="1191'">_šaman2-la2_ i-qi2-ip-ma</l>
             <l n="1192'">_šaman2-la2_ mi-im-ma</l>
@@ -1389,7 +1389,7 @@
             <l n="1207'">a-na _šaman2-la2_</l>
             <l n="1208'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 108" type="textpart">
             <l n="1209'">šum-ma _munus-kurun-na_</l>
             <l n="1210'">a-na _sa10 kaš_</l>
             <l n="1211'">_še_ la im-ta-har</l>
@@ -1402,7 +1402,7 @@
             <l n="1218'">a-na me-e</l>
             <l n="1219'">i-na-ad-du-u2-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 109" type="textpart">
             <l n="1220'">šum-ma _munus-kurun-na_</l>
             <l n="1221'">sa3-ar-ru-tum</l>
             <l n="1222'">i-na _e2_-ša</l>
@@ -1414,7 +1414,7 @@
             <l n="1228'">_munus-kurun-na_ ši-i</l>
             <l n="1229'">id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 110" type="textpart">
             <l n="1230'">šum-ma _lukur nin-dingir_</l>
             <l n="1231'">ša i-na _ga2-gi4-a_</l>
             <l n="1232'">la wa-aš-ba-at</l>
@@ -1425,14 +1425,14 @@
             <l n="1237'">a-wi-il-tam šu-a-ti</l>
             <l n="1238'">i-qal-lu-u2-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 111" type="textpart">
             <l n="1239'">šum-ma _munus-kurun-na_</l>
             <l n="1240'">1(diš) _kaš dida ka gag_</l>
             <l n="1241'">a-na qi2-ip-tim id-di-in</l>
             <l n="1242'">i-na _buru14_</l>
             <l n="1243'">5(ban2) _še_ i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 112" type="textpart">
             <l n="1244'">šum-ma a-wi-lum</l>
             <l n="1245'">i-na har-ra-nim</l>
             <l n="1246'">wa-ši-ib-ma</l>
@@ -1459,7 +1459,7 @@
             <l n="1267'">a-na be-el ši-bu-ul-tim</l>
             <l n="1268'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 113" type="textpart">
             <l n="1269'">šum-ma a-wi-lum</l>
             <l n="1270'">e-li a-wi-lim</l>
             <l n="1271'">_še_ u3 _ku3-babbar_ i-šu-ma</l>
@@ -1479,7 +1479,7 @@
             <l n="1285'">ma-la id-di-nu</l>
             <l n="1286'">i-te-el-li</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 114" type="textpart">
             <l n="1287'">šum-ma a-wi-lum</l>
             <l n="1288'">e-li a-wi-lim</l>
             <l n="1289'">_še_ u3 _ku3-babbar_</l>
@@ -1490,7 +1490,7 @@
             <l n="1294'">1/3(diš) _ma-na ku3-babbar_</l>
             <l n="1295'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 115" type="textpart">
             <l n="1296'">šum-ma a-wi-lum</l>
             <l n="1297'">e-li a-wi-lim</l>
             <l n="1298'">_še_ u3 _ku3-babbar_</l>
@@ -1504,7 +1504,7 @@
             <l n="1306'">ru-gu-um-ma-am</l>
             <l n="1307'">u2-ul i-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 116" type="textpart">
             <l n="1308'">šum-ma ni-pu-tum</l>
             <l n="1309'">i-na _e2_ ne-pi2-ša</l>
             <l n="1310'">i-na ma-ha-ṣi2-im</l>
@@ -1522,7 +1522,7 @@
             <l n="1322'">ma-la id-di-nu</l>
             <l n="1323'">i-te-el-li</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 117" type="textpart">
             <l n="1324'">šum-ma a-wi-lam</l>
             <l n="1325'">e-'i3-il-tum</l>
             <l n="1326'">iṣ-ba-su2-ma</l>
@@ -1538,7 +1538,7 @@
             <l n="1336'">an-du-ra-ar-šu-nu</l>
             <l n="1337'">iš-ša-ak-ka-an</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 118" type="textpart">
             <l n="1338'">šum-ma _ARAD2_ u3 lu _geme2_</l>
             <l n="1339'">a-na ki-iš-ša-tim</l>
             <l n="1340'">it-ta-an-di-in</l>
@@ -1546,7 +1546,7 @@
             <l n="1342'">a-na _ku3-babbar_ i-na-ad-din</l>
             <l n="1343'">u2-ul ib-ba-qar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 119" type="textpart">
             <l n="1344'">šum-ma a-wi-lam</l>
             <l n="1345'">e-'i3-il-tum</l>
             <l n="1346'">iṣ-ba-su2-ma</l>
@@ -1556,7 +1556,7 @@
             <l n="1350'">be-el _geme2_ i-ša-qal-ma</l>
             <l n="1351'">_geme2_-su2 i-pa-ṭar2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 120" type="textpart">
             <l n="1352'">šum-ma a-wi-lum</l>
             <l n="1353'">še-šu a-na na-aš-pa-ku-tim</l>
             <l n="1354'">i-na _e2_ a-wi-lim</l>
@@ -1578,7 +1578,7 @@
             <l n="1370'">a-na be-el _še_</l>
             <l n="1371'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 121" type="textpart">
             <l n="1372'">šum-ma a-wi-lum</l>
             <l n="1373'">i-na _e2_ a-wi-lim</l>
             <l n="1374'">_še_ iš-pu-uk</l>
@@ -1587,7 +1587,7 @@
             <l n="1377'">_a2_ na-aš-pa-ki-im</l>
             <l n="1378'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 122" type="textpart">
             <l n="1379'">šum-ma a-wi-lum</l>
             <l n="1380'">a-na a-wi-lim</l>
             <l n="1381'">_ku3-babbar ku3-sig17_</l>
@@ -1602,7 +1602,7 @@
             <l n="1390'">a-na ma-ṣa-ru-tim</l>
             <l n="1391'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 123" type="textpart">
             <l n="1392'">šum-ma ba-lum ši-bi</l>
             <l n="1393'">u3 ri-ik-sa-tim</l>
             <l n="1394'">a-na ma-ṣa-ru-tim</l>
@@ -1613,7 +1613,7 @@
             <l n="1399'">ru-gu-um-ma-am</l>
             <l n="1400'">u2-ul i-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 124" type="textpart">
             <l n="1401'">šum-ma a-wi-lum</l>
             <l n="1402'">a-na a-wi-lim</l>
             <l n="1403'">_ku3-babbar ku3-sig17_</l>
@@ -1628,7 +1628,7 @@
             <l n="1412'">uš-ta-ša-na-ma</l>
             <l n="1413'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 125" type="textpart">
             <l n="1414'">šum-ma a-wi-lum</l>
             <l n="1415'">mi-im-ma-šu</l>
             <l n="1416'">a-na ma-ṣa-ru-tim id-di-in-ma</l>
@@ -1650,7 +1650,7 @@
             <l n="1432'">it-ti šar-ra-qa2-ni-šu</l>
             <l n="1433'">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 126" type="textpart">
             <l n="1434'">šum-ma a-wi-lum</l>
             <l n="1435'">mi-im-mu-šu</l>
             <l n="1436'">la ha-li-iq-ma</l>
@@ -1669,7 +1669,7 @@
             <l n="1449'">a-na ba-ab-ti-šu</l>
             <l n="1450'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 127" type="textpart">
             <l n="1451'">šum-ma a-wi-lum</l>
             <l n="1452'">e-li _nin-dingir_</l>
             <l n="1453'">u3 a-ša-at a-wi-lim</l>
@@ -1681,7 +1681,7 @@
             <l n="1459'">u3 mu-ut-ta-su2</l>
             <l n="1460'">u2-gal-la-bu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 128" type="textpart">
             <l n="1461'">šum-ma a-wi-lum</l>
             <l n="1462'">aš-ša-tam</l>
             <l n="1463'">i-hu-uz-ma</l>
@@ -1690,7 +1690,7 @@
             <l n="1466'">_munus_ ši-i</l>
             <l n="1467'">u2-ul aš-ša-at</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 129" type="textpart">
             <l n="1468'">šum-ma aš-ša-at a-wi-lim</l>
             <l n="1469'">it-ti zi-ka-ri-im</l>
             <l n="1470'">ša-ni-im</l>
@@ -1704,7 +1704,7 @@
             <l n="1478'">u3 šar-ru-um</l>
             <l n="1479'">_ARAD2_-su2 u2-ba-la-aṭ</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 130" type="textpart">
             <l n="1480'">šum-ma a-wi-lum</l>
             <l n="1481'">aš-ša-at a-wi-lim</l>
             <l n="1482'">ša zi-ka-ra-am</l>
@@ -1720,7 +1720,7 @@
             <l n="1492'">_munus_ ši-i</l>
             <l n="1493'">u2-ta-a-ša-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 131" type="textpart">
             <l n="1494'">šum-ma aš-ša-at</l>
             <l n="1495'">a-wi-lim</l>
             <l n="1496'">mu-sa3 u2-ub-bi-ir-ši-ma</l>
@@ -1731,7 +1731,7 @@
             <l n="1501'">i-za-kar-ma</l>
             <l n="1502'">a-na _e2_-ša i-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 132" type="textpart">
             <l n="1503'">šum-ma aš-ša-at</l>
             <l n="1504'">a-wi-lim</l>
             <l n="1505'">aš-šum zi-ka-ri-im ša-ni-im</l>
@@ -1746,7 +1746,7 @@
             <l n="1514'">{d}i7</l>
             <l n="1515'">i-ša-al-li</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 133" type="textpart">
             <l n="1516'">šum-ma a-wi-lum</l>
             <l n="1517'">iš-ša-li-il-ma</l>
             <l n="1518'">i-na _e2_-šu</l>
@@ -1768,7 +1768,7 @@
             <l n="1534'">a-na me-e</l>
             <l n="1535'">i-na-ad-du-u2-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 134" type="textpart">
             <l n="1536'">šum-ma a-wi-lum</l>
             <l n="1537'">iš-ša-li-il-ma</l>
             <l n="1538'">i-na _e2_-šu</l>
@@ -1780,7 +1780,7 @@
             <l n="1544'">_munus_ ši-i</l>
             <l n="1545'">ar-nam u2-ul i-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 135" type="textpart">
             <l n="1546'">šum-ma a-wi-lum</l>
             <l n="1547'">iš-ša-li-il-ma</l>
             <l n="1548'">i-na _e2_-šu</l>
@@ -1802,7 +1802,7 @@
             <l n="1564'">a-bi-šu-nu</l>
             <l n="1565'">i-il-la-ku</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 136" type="textpart">
             <l n="1566'">šum-ma a-wi-lum</l>
             <l n="1567'">_iri_-šu id-di-ma</l>
             <l n="1568'">it-ta-bi-it</l>
@@ -1821,7 +1821,7 @@
             <l n="1581'">a-na mu-ti-ša</l>
             <l n="1582'">u2-ul i-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 137" type="textpart">
             <l n="1583'">šum-ma a-wi-lum</l>
             <l n="1584'">a-na {munus}šu-gi4-tim</l>
             <l n="1585'">ša _dumu-meš_ ul-du-šum u3 lu _lukur_ ša _dumu-meš_</l>
@@ -1848,7 +1848,7 @@
             <l n="1606'">mu-tu li-ib-bi-ša</l>
             <l n="1607'">i-ih-ha-as-si2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 138" type="textpart">
             <l n="1608'">šum-ma a-wi-lum</l>
             <l n="1609'">hi-ir-ta-šu</l>
             <l n="1610'">ša _dumu-meš_ lā ul-du-šum</l>
@@ -1861,19 +1861,19 @@
             <l n="1617'">u2-ša-lam-ši-im-ma</l>
             <l n="1618'">i-iz-zi-ib-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 139" type="textpart">
             <l n="1619'">šum-ma ter-ha-tum</l>
             <l n="1620'">la i-ba-aš-ši</l>
             <l n="1621'">1(diš) ma-na _ku3-babbar_</l>
             <l n="1622'">a-na u2-zu-ub-be2-em</l>
             <l n="1623'">i-na-ad-di-iš-ši-im</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 140" type="textpart">
             <l n="1624'">šum-ma _|MAŠ.EN.GAG|_</l>
             <l n="1625'">1/3(diš) _ma-na ku3-babbar_</l>
             <l n="1626'">i-na-ad-di-iš-ši-im</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 141" type="textpart">
             <l n="1627'">šum-ma aš-ša-at a-wi-lim</l>
             <l n="1628'">ša i-na _e2_ a-wi-lim</l>
             <l n="1629'">wa-aš-ba-at</l>
@@ -1902,7 +1902,7 @@
             <l n="1652'">i-na _e2_ mu-ti-ša</l>
             <l n="1653'">uš-ša-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 142" type="textpart">
             <l n="1654'">šum-ma _munus_ mu-sa3 i-ze-er-ma</l>
             <l n="1655'">u2-ul ta-ah-ha-za-an-ni</l>
             <l n="1656'">iq-ta-bi</l>
@@ -1923,7 +1923,7 @@
             <l n="1671'">a-na _e2_ a-bi-ša</l>
             <l n="1672'">it-ta-al-la-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 143" type="textpart">
             <l n="1673'">šum-ma la na-aṣ-ra-at-ma</l>
             <l n="1674'">wa-ṣi2-a-at</l>
             <l n="1675'">bi-sa3 u2-sa3-ap-pa-ah</l>
@@ -1932,7 +1932,7 @@
             <l n="1678'">a-na me-e</l>
             <l n="1679'">i-na-ad-du-u2-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 144" type="textpart">
             <l n="1680'">šum-ma a-wi-lum</l>
             <l n="1681'">_lukur_ i-hu-uz-ma</l>
             <l n="1682'">_lukur_ ši-i</l>
@@ -1949,7 +1949,7 @@
             <l n="1693'">{munus}šu-gi4-tam</l>
             <l n="1694'">u2-ul i-ih-ha-az</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 145" type="textpart">
             <l n="1695'">šum-ma a-wi-lum</l>
             <l n="1696'">_lukur_ i-hu-uz-ma</l>
             <l n="1697'">_dumu-meš_ la u2-šar-ši-šu-ma</l>
@@ -1966,7 +1966,7 @@
             <l n="1708'">it-ti _lukur_</l>
             <l n="1709'">u2-ul uš-ta-ma-ah-ha-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 146" type="textpart">
             <l n="1710'">šum-ma a-wi-lum</l>
             <l n="1711'">_lukur_ i-hu-uz-ma</l>
             <l n="1712'">_geme2_ a-na mu-ti-ša</l>
@@ -1985,14 +1985,14 @@
             <l n="1725'">it-ti _geme2 hi-a_</l>
             <l n="1726'">i-ma-an-nu-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 147" type="textpart">
             <l n="1727'">šum-ma _dumu-meš_</l>
             <l n="1728'">la u2-li-id</l>
             <l n="1729'">be-le-sa3</l>
             <l n="1730'">a-na _ku3-babbar_</l>
             <l n="1731'">i-na-ad-di-iš-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 148" type="textpart">
             <l n="1732'">šum-ma a-wi-lum</l>
             <l n="1733'">aš-ša-tam</l>
             <l n="1734'">i-hu-uz-ma</l>
@@ -2011,7 +2011,7 @@
             <l n="1747'">uš-ša-am-ma</l>
             <l n="1748'">a-di ba-al-ṭa-at it-ta-na-aš-ši-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 149" type="textpart">
             <l n="1749'">šum-ma _munus_ ši-i</l>
             <l n="1750'">i-na _e2_ mu-ti-ša</l>
             <l n="1751'">wa-ša-ba-am</l>
@@ -2022,7 +2022,7 @@
             <l n="1756'">u2-ša-lam-šim-ma</l>
             <l n="1757'">it-ta-al-la-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 150" type="textpart">
             <l n="1758'">šum-ma a-wi-lum</l>
             <l n="1759'">a-na aš-ša-ti-šu</l>
             <l n="1760'">_a-ša3 {geš}kiri6 e2_</l>
@@ -2040,7 +2040,7 @@
             <l n="1772'">a-na a-hi-im</l>
             <l n="1773'">u2-ul i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 151" type="textpart">
             <l n="1774'">šum-ma _munus_</l>
             <l n="1775'">ša i-na _e2_ a-wi-lim</l>
             <l n="1776'">wa-aš-ba-at</l>
@@ -2068,7 +2068,7 @@
             <l n="1798'">be-el hu-bu-ul-li-ša</l>
             <l n="1799'">mu-sa3 u2-ul i-ṣa-ba-tu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 152" type="textpart">
             <l n="1800'">šum-ma iš-tu</l>
             <l n="1801'">_munus_ ši-i</l>
             <l n="1802'">a-na _e2_ a-wi-lim</l>
@@ -2079,7 +2079,7 @@
             <l n="1807'">ki-la-la-šu-nu</l>
             <l n="1808'">_dam-gar3_ i-ip-pa-lu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 153" type="textpart">
             <l n="1809'">šum-ma aš-ša-at a-wi-lim</l>
             <l n="1810'">aš-šum zi-ka-ri-im</l>
             <l n="1811'">ša-ni-im</l>
@@ -2087,14 +2087,14 @@
             <l n="1813'">_munus_ šu-a-ti i-na ga-ši-ši-im</l>
             <l n="1814'">i-ša-ak-ka-nu-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 154" type="textpart">
             <l n="1815'">šum-ma a-wi-lum</l>
             <l n="1816'">_dumu-munus_-su2</l>
             <l n="1817'">il-ta-ma-ad</l>
             <l n="1818'">a-wi-lam šu-a-ti</l>
             <l n="1819'">_iri_ u2-še-eṣ-ṣu2-u2-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 155" type="textpart">
             <l n="1820'">šum-ma a-wi-lum</l>
             <l n="1821'">a-na _dumu_-šu</l>
             <l n="1822'">_e2-gi4-a_ i-hi-ir-ma</l>
@@ -2108,7 +2108,7 @@
             <l n="1830'">a-na me-e</l>
             <l n="1831'">i-na-ad-du-u2-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 156" type="textpart">
             <l n="1832'">šum-ma a-wi-lum</l>
             <l n="1833'">a-na _dumu_-šu</l>
             <l n="1834'">_e2-gi4-a_</l>
@@ -2126,7 +2126,7 @@
             <l n="1846'">mu-tu li-ib-bi-ša</l>
             <l n="1847'">i-ih-ha-as-si2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 157" type="textpart">
             <l n="1848'">šum-ma a-wi-lum</l>
             <l n="1849'">wa-ar-ki a-bi-šu</l>
             <l n="1850'">i-na su2-un um-mi-šu</l>
@@ -2134,7 +2134,7 @@
             <l n="1852'">ki-la-li-šu-nu</l>
             <l n="1853'">i-qal-lu-u2-šu-nu-ti</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 158" type="textpart">
             <l n="1854'">šum-ma a-wi-lum</l>
             <l n="1855'">wa-ar-ki a-bi-šu</l>
             <l n="1856'">i-na su2-un</l>
@@ -2145,7 +2145,7 @@
             <l n="1861'">i-na _e2 a-ba_</l>
             <l n="1862'">in-na-as-sa3-ah</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 159" type="textpart">
             <l n="1863'">šum-ma a-wi-lum</l>
             <l n="1864'">ša a-na _e2_ e-mi-šu</l>
             <l n="1865'">bi-ib-lam</l>
@@ -2161,7 +2161,7 @@
             <l n="1875'">ša ib-ba-ab-lu-šum</l>
             <l n="1876'">i-tab-ba-al</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 160" type="textpart">
             <l n="1877'">šum-ma a-wi-lum</l>
             <l n="1878'">a-na _e2_ e-mi-im</l>
             <l n="1879'">bi-ib-lam</l>
@@ -2176,7 +2176,7 @@
             <l n="1888'">uš-ta-ša-an-na-ma</l>
             <l n="1889'">u2-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 161" type="textpart">
             <l n="1890'">šum-ma a-wi-lum</l>
             <l n="1891'">a-na _e2_ e-mi-šu</l>
             <l n="1892'">bi-ib-lam u2-ša-bil2</l>
@@ -2196,7 +2196,7 @@
             <l n="1906'">i-bi-ir-šu</l>
             <l n="1907'">u2-ul i-ih-ha-az</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 162" type="textpart">
             <l n="1908'">šum-ma a-wi-lum</l>
             <l n="1909'">aš-ša-tam</l>
             <l n="1910'">i-hu-uz</l>
@@ -2210,7 +2210,7 @@
             <l n="1918'">še-ri-ik-ta-ša</l>
             <l n="1919'">ša _dumu-meš_-ša-ma</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 163" type="textpart">
             <l n="1920'">šum-ma a-wi-lum</l>
             <l n="1921'">aš-ša-tam</l>
             <l n="1922'">i-hu-uz-ma</l>
@@ -2229,7 +2229,7 @@
             <l n="1935'">še-ri-ik-ta-ša</l>
             <l n="1936'">ša _e2_ a-bi-ša-ma</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 164" type="textpart">
             <l n="1937'">šum-ma e-mu-šu</l>
             <l n="1938'">ter-ha-tam</l>
             <l n="1939'">la ut-te-er-šum</l>
@@ -2240,7 +2240,7 @@
             <l n="1944'">a-na _e2_ a-ta-ša</l>
             <l n="1945'">u2-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 165" type="textpart">
             <l n="1946'">šum-ma a-wi-lum</l>
             <l n="1947'">a-na _ibila_-šu</l>
             <l n="1948'">ša i-in-šu mah-ru</l>
@@ -2260,7 +2260,7 @@
             <l n="1962'">mi-it-ha-ri-iš</l>
             <l n="1963'">i-zu-uz-zu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 166" type="textpart">
             <l n="1964'">šum-ma a-wi-lum</l>
             <l n="1965'">a-na _dumu-meš_ ša ir-šu-u2</l>
             <l n="1966'">aš-ša-tim i-hu-uz</l>
@@ -2285,7 +2285,7 @@
             <l n="1985'">aš-ša-tam</l>
             <l n="1986'">u2-ša-ah-ha-zu-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 167" type="textpart">
             <l n="1987'">šum-ma a-wi-lum</l>
             <l n="1988'">aš-ša-tam</l>
             <l n="1989'">i-hu-uz-ma</l>
@@ -2309,7 +2309,7 @@
             <l n="2007'">mi-it-ha-ri-iš</l>
             <l n="2008'">i-zu-uz-zu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 168" type="textpart">
             <l n="2009'">šum-ma a-wi-lum</l>
             <l n="2010'">a-na _dumu_-šu</l>
             <l n="2011'">na-sa-hi-im</l>
@@ -2327,7 +2327,7 @@
             <l n="2023'">i-na ap-lu-tim</l>
             <l n="2024'">u2-ul i-na-sa3-ah</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 169" type="textpart">
             <l n="2025'">šum-ma ar-nam kab-tam</l>
             <l n="2026'">ša i-na ap-lu-tim</l>
             <l n="2027'">na-sa-hi-im</l>
@@ -2341,7 +2341,7 @@
             <l n="2035'">i-na ap-lu-tim</l>
             <l n="2036'">i-na-sa3-ah</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 170" type="textpart">
             <l n="2037'">šum-ma a-wi-lum</l>
             <l n="2038'">hi-ir-ta-šu</l>
             <l n="2039'">_dumu-meš_ u2-li-sum2</l>
@@ -2366,7 +2366,7 @@
             <l n="2058'">i-na-sa3-aq-ma</l>
             <l n="2059'">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 171" type="textpart">
             <l n="2060'">u3 šum-ma a-bu-um</l>
             <l n="2061'">i-na bu-ul-ṭi3-šu</l>
             <l n="2062'">a-na _dumu-meš_ ša _geme2_ ul-du-šum</l>
@@ -2401,7 +2401,7 @@
             <l n="2091'">wa-ar-ka-sa3</l>
             <l n="2092'">ša _dumu-meš_-ša-ma</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 172" type="textpart">
             <l n="2093'">šum-ma mu-sa3</l>
             <l n="2094'">nu-du-un-na-am</l>
             <l n="2095'">la id-di-iš-ši-im</l>
@@ -2438,7 +2438,7 @@
             <l n="2126'">mu-ut li-ib-bi-ša</l>
             <l n="2127'">i-ih-ha-as-si2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 173" type="textpart">
             <l n="2128'">šum-ma _munus_ ši-i</l>
             <l n="2129'">a-šar i-ru-bu</l>
             <l n="2130'">a-na mu-ti-ša</l>
@@ -2450,7 +2450,7 @@
             <l n="2136'">u3 wa-ar-ku-tum</l>
             <l n="2137'">i-zu-uz-zu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 174" type="textpart">
             <l n="2138'">šum-ma a-na mu-ti-ša</l>
             <l n="2139'">wa-ar-ki-im</l>
             <l n="2140'">_dumu-meš_ la it-ta-la-ad</l>
@@ -2458,7 +2458,7 @@
             <l n="2142'">_dumu-meš_ ha-wi-ri-ša-ma</l>
             <l n="2143'">i-le-qu2-u2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 175" type="textpart">
             <l n="2144'">šum-ma lu _ARAD2 e2-gal_</l>
             <l n="2145'">u3 lu _ARAD2_</l>
             <l n="2146'">_|MAŠ.EN.GAG|_</l>
@@ -2472,7 +2472,7 @@
             <l n="2154'">a-na wa-ar-du-tim</l>
             <l n="2155'">u2-ul i-ra-ag-gu-um</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 176" type="textpart">
             <l n="2156'">u3 šum-ma _ARAD2 e2-gal_</l>
             <l n="2157'">u3 lu _ARAD2 |MAŠ.EN.GAG|_</l>
             <l n="2158'">_dumu-munus_ a-wi-lim</l>
@@ -2519,7 +2519,7 @@
             <l n="2199'">_dumu-munus_ a-wi-lim</l>
             <l n="2200'">a-na _dumu-meš_-ša i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 177" type="textpart">
             <l n="2201'">šum-ma _nu-mu-su_</l>
             <l n="2202'">ša _dumu-meš_-ša</l>
             <l n="2203'">ṣe-eh-he-ru</l>
@@ -2560,7 +2560,7 @@
             <l n="2238'">_nig2-gur11_ a-na be-li2-šu</l>
             <l n="2239'">i-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 178" type="textpart">
             <l n="2240'">šum-ma _nin-dingir lukur_</l>
             <l n="2241'">u3 lu _{munus}zi-ik-ru-um_</l>
             <l n="2242'">ša a-bu-ša</l>
@@ -2613,7 +2613,7 @@
             <l n="2289'">ap-lu-sa3</l>
             <l n="2290'">ša ah-hi-ša-ma</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 179" type="textpart">
             <l n="2291'">šum-ma _nin-dingir lukur_</l>
             <l n="2292'">u3 lu {munus}_zi-ik-ru-um_</l>
             <l n="2293'">ša a-bu-ša</l>
@@ -2638,7 +2638,7 @@
             <l n="2312'">ah-hu-ša</l>
             <l n="2313'">u2-ul i-ba-aq-qa2-ru-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 180" type="textpart">
             <l n="2314'">šum-ma a-bu-um</l>
             <l n="2315'">a-na _dumu-munus_-šu</l>
             <l n="2316'">_lukur ga2-gi4-a_</l>
@@ -2657,7 +2657,7 @@
             <l n="2329'">wa-ar-ka-sa3</l>
             <l n="2330'">ša ah-hi-ša-ma</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 181" type="textpart">
             <l n="2331'">šum-ma a-bu-um</l>
             <l n="2332'">_lukur nu-gig_</l>
             <l n="2333'">u3 lu _nu-bar_</l>
@@ -2675,7 +2675,7 @@
             <l n="2345'">wa-ar-ka-sa3</l>
             <l n="2346'">ša ah-hi-ša-am-ma</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 182" type="textpart">
             <l n="2347'">šum-ma a-bu-um</l>
             <l n="2348'">a-na _dumu-munus_-šu</l>
             <l n="2349'">_lukur_ {d}marduk</l>
@@ -2699,7 +2699,7 @@
             <l n="2367'">ṭa-bu</l>
             <l n="2368'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 183" type="textpart">
             <l n="2369'">šum-ma a-bu-um</l>
             <l n="2370'">a-na _dumu-munus_-šu šu-gi4-tim</l>
             <l n="2371'">še-ri-ik-tam</l>
@@ -2714,7 +2714,7 @@
             <l n="2380'">i-na _nig2-gur11 e2 a-ba_</l>
             <l n="2381'">u2-ul i-za-az</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 184" type="textpart">
             <l n="2382'">šum-ma a-wi-lum</l>
             <l n="2383'">a-na _dumu-munus_-šu</l>
             <l n="2384'">šu-gi4-tim</l>
@@ -2732,7 +2732,7 @@
             <l n="2396'">a-na mu-tim</l>
             <l n="2397'">i-na-ad-di-nu-ši</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 185" type="textpart">
             <l n="2398'">šum-ma a-wi-lum</l>
             <l n="2399'">ṣe-eh-ra-am</l>
             <l n="2400'">i-na me-e-šu</l>
@@ -2742,7 +2742,7 @@
             <l n="2404'">tar-bi-tum ši-i</l>
             <l n="2405'">u2-ul ib-ba-aq-qar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 186" type="textpart">
             <l n="2406'">šum-ma a-wi-lum</l>
             <l n="2407'">ṣe-eh-ra-am</l>
             <l n="2408'">a-na ma-ru-tim il-qe2</l>
@@ -2755,13 +2755,13 @@
             <l n="2415'">a-na _e2_ a-bi-šu</l>
             <l n="2416'">i-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 187" type="textpart">
             <l n="2417'">_dumu giri3-se3-ga_</l>
             <l n="2418'">mu-za-az _e2-gal_</l>
             <l n="2419'">u3 _dumu {munus}zi-ik-ru-um_</l>
             <l n="2420'">u2-ul ib-ba-aq-qar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 188" type="textpart">
             <l n="2421'">šum-ma _dumu um-mi-a_</l>
             <l n="2422'">_dumu_ a-na tar-bi-tim</l>
             <l n="2423'">il-qe2-ma</l>
@@ -2769,14 +2769,14 @@
             <l n="2425'">uš-ta-hi-su2</l>
             <l n="2426'">u2-ul ib-ba-qar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 189" type="textpart">
             <l n="2427'">šum-ma ši-pi2-ir qa2-ti-šu</l>
             <l n="2428'">la uš-ta-hi-su2</l>
             <l n="2429'">tar-bi-tum ši-i</l>
             <l n="2430'">a-na _e2_ a-bi-šu</l>
             <l n="2431'">i-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 190" type="textpart">
             <l n="2432'">šum-ma a-wi-lum</l>
             <l n="2433'">ṣe-eh-ra-am</l>
             <l n="2434'">ša a-na ma-ru-ti-šu</l>
@@ -2788,7 +2788,7 @@
             <l n="2440'">a-na _e2_ a-bi-šu</l>
             <l n="2441'">i-ta-ar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 191" type="textpart">
             <l n="2442'">šum-ma a-wi-lum</l>
             <l n="2443'">ṣe-eh-ra-am</l>
             <l n="2444'">ša a-na ma-ru-ti-šu</l>
@@ -2810,7 +2810,7 @@
             <l n="2460'">u3 _e2_</l>
             <l n="2461'">u2-ul i-na-ad-di-iš-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 192" type="textpart">
             <l n="2462'">šum-ma _dumu giri3-se3-ga_</l>
             <l n="2463'">u3 lu _dumu {munus}zi-ik-ru-um_</l>
             <l n="2464'">a-na a-bi-im</l>
@@ -2822,7 +2822,7 @@
             <l n="2470'">_eme_-šu</l>
             <l n="2471'">i-na-ak-ki-su</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 193" type="textpart">
             <l n="2472'">šum-ma _dumu giri3-se3-ga_</l>
             <l n="2473'">u3 lu _dumu {munus}zi-ik-ru-um_</l>
             <l n="2474'">_e2_ a-bi-šu</l>
@@ -2837,7 +2837,7 @@
             <l n="2483'">i-in-šu</l>
             <l n="2484'">i-na-sa3-hu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 194" type="textpart">
             <l n="2485'">šum-ma a-wi-lum</l>
             <l n="2486'">_dumu_-šu a-na mu-še-ni-iq-tim</l>
             <l n="2487'">id-di-in-ma</l>
@@ -2857,26 +2857,26 @@
             <l n="2501'">_ubur_-ša</l>
             <l n="2502'">i-na-ak-ki-su</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 195" type="textpart">
             <l n="2503'">šum-ma _dumu a-ba_-šu</l>
             <l n="2504'">im-ta-ha-aṣ</l>
             <l n="2505'">_kišib3-la2_-šu</l>
             <l n="2506'">i-na-ak-ki-su</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 196" type="textpart">
             <l n="2507'">šum-ma a-wi-lum</l>
             <l n="2508'">i-in _dumu_ a-wi-lim</l>
             <l n="2509'">uh2-tap-pi2-id</l>
             <l n="2510'">i-in-šu</l>
             <l n="2511'">u2-ha-ap-pa-du</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 197" type="textpart">
             <l n="2512'">šum-ma _giri3-pad-ra2_ a-wi-lim</l>
             <l n="2513'">iš-te-bi-ir</l>
             <l n="2514'">_giri3-pad-ra2_-šu</l>
             <l n="2515'">i-še-eb-bi-ru</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 198" type="textpart">
             <l n="2516'">šum-ma i-in _|MAŠ.EN.GAG|_</l>
             <l n="2517'">uh2-tap-pi2-id</l>
             <l n="2518'">u3 lu _giri3-pad-ra2 |MAŠ.EN.GAG|_</l>
@@ -2884,7 +2884,7 @@
             <l n="2520'">_1(diš) ma-na ku3-babbar_</l>
             <l n="2521'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 199" type="textpart">
             <l n="2522'">šum-ma i-in _ARAD2_ a-wi-lim</l>
             <l n="2523'">uh2-tap-pi2-id</l>
             <l n="2524'">u3 lu _giri3-pad-ra2 ARAD2_ a-wi-lim</l>
@@ -2892,20 +2892,20 @@
             <l n="2526'">mi-ši-il _sa10_-šu</l>
             <l n="2527'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 200" type="textpart">
             <l n="2528'">šum-ma a-wi-lum</l>
             <l n="2529'">ši-in-ni a-wi-lim</l>
             <l n="2530'">me-eh-ri-šu</l>
             <l n="2531'">it-ta-di</l>
             <l n="2532'">ši-in-na-šu i-na-ad-du-u2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 201" type="textpart">
             <l n="2533'">šum-ma ši-in-ni</l>
             <l n="2534'">_|MAŠ.EN.GAG|_ it-ta-di</l>
             <l n="2535'">_1/3(diš) ma-na ku3-babbar_</l>
             <l n="2536'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 202" type="textpart">
             <l n="2537'">šum-ma a-wi-lum</l>
             <l n="2538'">le-e-et a-wi-lim</l>
             <l n="2539'">ša e-li-šu ra-bu-u2</l>
@@ -2914,7 +2914,7 @@
             <l n="2542'">i-na _{kuš}usan3 gu4_</l>
             <l n="2543'">1(diš) šu-ši im-mah-ha-aṣ</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 203" type="textpart">
             <l n="2544'">šum-ma _dumu_ a-wi-lim</l>
             <l n="2545'">le-e-et _dumu_ a-wi-lim</l>
             <l n="2546'">ša ki-ma šu-a-ti</l>
@@ -2922,20 +2922,20 @@
             <l n="2548'">_1(diš) ma-na ku3-babbar_</l>
             <l n="2549'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 204" type="textpart">
             <l n="2550'">šum-ma _|MAŠ.EN.GAG|_</l>
             <l n="2551'">le-e-et _|MAŠ.EN.GAG|_</l>
             <l n="2552'">im-ta-ha-aṣ</l>
             <l n="2553'">_1(u) gin2 ku3-babbar_ i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 205" type="textpart">
             <l n="2554'">šum-ma _ARAD2_ a-wi-lim</l>
             <l n="2555'">le-e-et _dumu_ a-wi-lim</l>
             <l n="2556'">im-ta-ha-aṣ</l>
             <l n="2557'">u2-zu-un-šu</l>
             <l n="2558'">i-na-ak-ki-su</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 206" type="textpart">
             <l n="2559'">šum-ma a-wi-lum a-wi-lam</l>
             <l n="2560'">i-na ri-is-ba-tim</l>
             <l n="2561'">im-ta-ha-aṣ-ma</l>
@@ -2947,7 +2947,7 @@
             <l n="2567'">i-tam-ma</l>
             <l n="2568'">u3 _a-zu_ i-ip-pa-al</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 207" type="textpart">
             <l n="2569'">šum-ma i-na ma-ha-ṣi2-šu</l>
             <l n="2570'">im-tu-ut</l>
             <l n="2571'">i-tam-ma-ma</l>
@@ -2955,12 +2955,12 @@
             <l n="2573'">_1/2(diš) ma-na ku3-babbar_</l>
             <l n="2574'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 208" type="textpart">
             <l n="2575'">šum-ma _dumu |MAŠ.EN.GAG|_</l>
             <l n="2576'">_1/3(diš) ma-na ku3-babbar_</l>
             <l n="2577'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 209" type="textpart">
             <l n="2578'">šum-ma a-wi-lum</l>
             <l n="2579'">_dumu-munus_ a-wi-lim</l>
             <l n="2580'">im-ha-aṣ-ma</l>
@@ -2970,13 +2970,13 @@
             <l n="2584'">a-na ša li-ib-bi-ša</l>
             <l n="2585'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 210" type="textpart">
             <l n="2586'">šum-ma _munus_ ši-i</l>
             <l n="2587'">im-tu-ut</l>
             <l n="2588'">_dumu-munus_-su2</l>
             <l n="2589'">i-du-uk-ku</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 211" type="textpart">
             <l n="2590'">šum-ma _dumu-munus |MAŠ.EN.GAG|_</l>
             <l n="2591'">i-na ma-ha-ṣi2-im</l>
             <l n="2592'">ša li-ib-bi-ša</l>
@@ -2984,13 +2984,13 @@
             <l n="2594'">_5(diš) gin2 ku3-babbar_</l>
             <l n="2595'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 212" type="textpart">
             <l n="2596'">šum-ma _munus_ ši-&amp;lt;i&amp;gt;</l>
             <l n="2597'">im-tu-ut</l>
             <l n="2598'">_1/2(diš) ma-na ku3-babbar_</l>
             <l n="2599'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 213" type="textpart">
             <l n="2600'">šum-ma _geme2_ a-wi-lim</l>
             <l n="2601'">im-ha-aṣ-ma</l>
             <l n="2602'">ša li-ib-bi-ša</l>
@@ -2998,13 +2998,13 @@
             <l n="2604'">_2(diš) gin2 ku3-babbar_</l>
             <l n="2605'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 214" type="textpart">
             <l n="2606'">šum-ma _geme2_ ši-i</l>
             <l n="2607'">im-tu-ut</l>
             <l n="2608'">1/3(diš) _ma-na ku3-babbar_</l>
             <l n="2609'">i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 215" type="textpart">
             <l n="2610'">šum-ma _a-zu_</l>
             <l n="2611'">a-wi-lam si2-im-ma-am kab-tam</l>
             <l n="2612'">i-na _gir2 gag zabar_</l>
@@ -3018,18 +3018,18 @@
             <l n="2620'">_1(u) gin2 ku3-babbar_</l>
             <l n="2621'">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 216" type="textpart">
             <l n="2622'">šum-ma _dumu |MAŠ.EN.GAG|_</l>
             <l n="2623'">_5(diš) gin2 ku3-babbar_</l>
             <l n="2624'">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 217" type="textpart">
             <l n="2625'">šum-ma _ARAD2_ a-wi-lim</l>
             <l n="2626'">be-el _ARAD2_ a-na _a-zu_</l>
             <l n="2627'">2(diš) _gin2 ku3-babbar_</l>
             <l n="2628'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 218" type="textpart">
             <l n="2629'">šum-ma _a-zu_ a-wi-lam</l>
             <l n="2630'">si2-im-ma-am kab-tam</l>
             <l n="2631'">i-na _gir2 gag zabar_</l>
@@ -3041,14 +3041,14 @@
             <l n="2637'">uh2-tap-pi2-id</l>
             <l n="2638'">_kišib3-la2_-šu i-na-ki-su</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 219" type="textpart">
             <l n="2639'">šum-ma _a-zu_ si2-im-ma-am kab-tam</l>
             <l n="2640'">_ARAD2 |MAŠ.EN.GAG|_</l>
             <l n="2641'">i-na _gir2 gag zabar_</l>
             <l n="2642'">i-pu-uš-ma uš-ta-mi-it</l>
             <l n="2643'">_ARAD2_ ki-ma _ARAD2_ i-ri-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 220" type="textpart">
             <l n="2644'">šum-ma na-kap-ta-šu</l>
             <l n="2645'">i-na _gir2 gag zabar_</l>
             <l n="2646'">ip-te-ma</l>
@@ -3056,7 +3056,7 @@
             <l n="2648'">_ku3-babbar_ mi-ši-il</l>
             <l n="2649'">_sa10_-šu i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 221" type="textpart">
             <l n="2650'">šum-ma _a-zu_</l>
             <l n="2651'">_giri3-pad-ra2_ a-wi-lim</l>
             <l n="2652'">še-bi-ir-tam</l>
@@ -3069,19 +3069,19 @@
             <l n="2659'">5(diš) _gin2 ku3-babbar_</l>
             <l n="2660'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 222" type="textpart">
             <l n="2661'">šum-ma _dumu |MAŠ.EN.GAG|_</l>
             <l n="2662'">_3(diš) gin2 ku3-babbar_</l>
             <l n="2663'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 223" type="textpart">
             <l n="2664'">šum-ma _ARAD2_ a-wi-lim</l>
             <l n="2665'">be-el _ARAD2_</l>
             <l n="2666'">a-na _a-zu_</l>
             <l n="2667'">_2(diš) gin2 ku3-babbar_</l>
             <l n="2668'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 224" type="textpart">
             <l n="2669'">šum-ma _a-zu gu4_</l>
             <l n="2670'">u3 lu _anše_</l>
             <l n="2671'">lu _gu4_ u3 lu _anše_</l>
@@ -3094,7 +3094,7 @@
             <l n="2678'">_a2_-šu</l>
             <l n="2679'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 225" type="textpart">
             <l n="2680'">šum-ma _gu4_ u3 lu _anše_</l>
             <l n="2681'">si2-im-ma-am kab-tam</l>
             <l n="2682'">i-pu-uš-ma</l>
@@ -3103,7 +3103,7 @@
             <l n="2685'">a-na be-el _gu4_ u3 lu _anše_</l>
             <l n="2686'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 226" type="textpart">
             <l n="2687'">šum-ma _šu-i_</l>
             <l n="2688'">ba-lum be-el _ARAD2_</l>
             <l n="2689'">ab-bu-ti _ARAD2_ la še-e-em</l>
@@ -3111,7 +3111,7 @@
             <l n="2691'">_kišib3-la2 šu-i_ šu-a-ti</l>
             <l n="2692'">i-na-ak-ki-su2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 227" type="textpart">
             <l n="2693'">šum-ma a-wi-lum</l>
             <l n="2694'">_šu-i_ i-da-aṣ-ma</l>
             <l n="2695'">ab-bu-ti</l>
@@ -3126,7 +3126,7 @@
             <l n="2704'">i-tam-ma-ma</l>
             <l n="2705'">u2-ta-aš-šar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 228" type="textpart">
             <l n="2706'">šum-ma _šitim_</l>
             <l n="2707'">_e2_ a-na a-wi-lim</l>
             <l n="2708'">i-pu-uš-ma</l>
@@ -3136,7 +3136,7 @@
             <l n="2712'">a-na qi2-iš-ti-šu</l>
             <l n="2713'">i-na-ad-di-iš-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 229" type="textpart">
             <l n="2714'">šum-ma _šitim_</l>
             <l n="2715'">a-na a-wi-lim</l>
             <l n="2716'">_e2_ i-pu-uš-ma</l>
@@ -3147,20 +3147,20 @@
             <l n="2721'">be-el _e2_ uš-ta-mi-it</l>
             <l n="2722'">_šitim_ šu-u2 id-da-ak</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 230" type="textpart">
             <l n="2723'">šum-ma _dumu_ be-el _e2_</l>
             <l n="2724'">uš-ta-mi-it</l>
             <l n="2725'">_dumu šitim_ šu-a-ti</l>
             <l n="2726'">i-du-uk-ku</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 231" type="textpart">
             <l n="2727'">šum-ma _ARAD2_ be-el _e2_</l>
             <l n="2728'">uš-ta-mi-it</l>
             <l n="2729'">_ARAD2_ ki-ma _ARAD2_</l>
             <l n="2730'">a-na be-el _e2_</l>
             <l n="2731'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 232" type="textpart">
             <l n="2732'">šum-ma _nig2-gur11_</l>
             <l n="2733'">uh2-ta-al-li-iq</l>
             <l n="2734'">mi-im-ma</l>
@@ -3173,7 +3173,7 @@
             <l n="2741'">ra-ma-ni-šu</l>
             <l n="2742'">_e2_ im-qu2-tu i-ip-pe2-eš</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 233" type="textpart">
             <l n="2743'">šum-ma _šitim e2_</l>
             <l n="2744'">a-na a-wi-lim i-pu-uš-ma</l>
             <l n="2745'">ši-pi2-ir-šu</l>
@@ -3184,7 +3184,7 @@
             <l n="2750'">_e2-gar8_ šu-a-ti</l>
             <l n="2751'">u2-dan-na-an</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 234" type="textpart">
             <l n="2752'">šum-ma _ma2-lah5_</l>
             <l n="2753'">_{geš}ma2 1(geš2) gur_</l>
             <l n="2754'">a-na a-wi-lim ip-he</l>
@@ -3192,7 +3192,7 @@
             <l n="2756'">a-na qi2-iš-ti-šu</l>
             <l n="2757'">i-na-ad-di-iš-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 235" type="textpart">
             <l n="2758'">šum-ma _ma2-lah5_</l>
             <l n="2759'">_{geš}ma2_ a-na a-wi-lim</l>
             <l n="2760'">ip-he-ma</l>
@@ -3211,7 +3211,7 @@
             <l n="2773'">a-na be-el _{geš}ma2_</l>
             <l n="2774'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 236" type="textpart">
             <l n="2775'">šum-ma a-wi-lum</l>
             <l n="2776'">_{geš}ma2_-šu</l>
             <l n="2777'">a-na _ma2-lah5_</l>
@@ -3224,7 +3224,7 @@
             <l n="2784'">a-na be-el _{geš}ma2_</l>
             <l n="2785'">i-ri-a-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 237" type="textpart">
             <l n="2786'">šum-ma a-wi-lum</l>
             <l n="2787'">_ma2-lah5_ u3 _{geš}ma2_</l>
             <l n="2788'">i-gur-ma</l>
@@ -3244,7 +3244,7 @@
             <l n="2802'">u2-hal-li-qu2</l>
             <l n="2803'">i-ri-a-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 238" type="textpart">
             <l n="2804'">šum-ma _ma2-lah5_</l>
             <l n="2805'">_{geš}ma2_ a-wi-lim</l>
             <l n="2806'">u2-ṭe4-eb-bi-ma</l>
@@ -3252,14 +3252,14 @@
             <l n="2808'">_ku3-babbar_ mi-ši-il _sa10_-ša</l>
             <l n="2809'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 239" type="textpart">
             <l n="2810'">šum-ma a-wi-lum</l>
             <l n="2811'">_ma2-lah5_ i-gur</l>
             <l n="2812'">_6(aš) še gur_</l>
             <l n="2813'">i-na ša-na-at</l>
             <l n="2814'">i-na-ad-di-iš-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 240" type="textpart">
             <l n="2815'">šum-ma _{geš#}ma2_</l>
             <l n="2816'">ša ma-hi-ir-tim</l>
             <l n="2817'">_{geš}ma2_ ša mu-uq-qe2-el-pi2-tim</l>
@@ -3275,13 +3275,13 @@
             <l n="2827'">_{geš}ma2_-šu u3 mi-im-ma-šu hal-qa2-am</l>
             <l n="2828'">i-ri-a-ab-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 241" type="textpart">
             <l n="2829'">šum-ma a-wi-lum</l>
             <l n="2830'">_gu4_ a-na ni-pu-tim</l>
             <l n="2831'">it-te-pe2</l>
             <l n="2832'">_1/3(diš) ma-na ku3-babbar_ i-ša-qal</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="laws 242-243" type="textpart">
             <l n="2833'">šum-ma a-wi-lum _gu4_</l>
             <l n="2834'">a-na _mu 1(diš)_ i-gur</l>
             <l n="2835'">_a2 gu4-a2-ur3-ra_</l>
@@ -3290,14 +3290,14 @@
             <l n="2838'">_3(aš) še gur_ a-na be-li2-šu</l>
             <l n="2839'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 244" type="textpart">
             <l n="2840'">šum-ma a-wi-lum</l>
             <l n="2841'">_gu4 anše_ i-gur-ma</l>
             <l n="2842'">i-na ṣe-ri-im</l>
             <l n="2843'">_ur-mah_ id-du-uk-šu</l>
             <l n="2844'">a-na be-li2-šu-ma</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 245" type="textpart">
             <l n="2845'">šum-ma a-wi-lum</l>
             <l n="2846'">_gu4_ i-gur-ma</l>
             <l n="2847'">i-na me-gu-tim</l>
@@ -3307,7 +3307,7 @@
             <l n="2851'">a-na be-el _gu4_</l>
             <l n="2852'">i-ri-a-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 246" type="textpart">
             <l n="2853'">šum-ma a-wi-lum</l>
             <l n="2854'">_gu4_ i-gur-ma</l>
             <l n="2855'">_giri3_-šu iš-te-bi-ir</l>
@@ -3317,7 +3317,7 @@
             <l n="2859'">a-na be-el _gu4_</l>
             <l n="2860'">i-ri-a-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 247" type="textpart">
             <l n="2861'">šum-ma a-wi-lum</l>
             <l n="2862'">_gu4_ i-gur-ma</l>
             <l n="2863'">_igi_-šu uh2-tap-pi2-id</l>
@@ -3325,7 +3325,7 @@
             <l n="2865'">a-na be-el _gu4_</l>
             <l n="2866'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 248" type="textpart">
             <l n="2867'">šum-ma a-wi-lum</l>
             <l n="2868'">_gu4_ i-gur-ma</l>
             <l n="2869'">_si_-šu iš-bi-ir</l>
@@ -3335,7 +3335,7 @@
             <l n="2873'">_ku3-babbar igi 4(diš)-gal2 sa10_-šu</l>
             <l n="2874'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 249" type="textpart">
             <l n="2875'">šum-ma a-wi-lum</l>
             <l n="2876'">_gu4_ i-gur-ma</l>
             <l n="2877'">i-lum im-ha-su2-ma</l>
@@ -3345,7 +3345,7 @@
             <l n="2881'">i-za-kar-ma</l>
             <l n="2882'">u2-ta-aš-šar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 250" type="textpart">
             <l n="2883'">šum-ma _gu4_ su2-qa2-am</l>
             <l n="2884'">i-na a-la-ki-šu</l>
             <l n="2885'">a-wi-lam</l>
@@ -3355,7 +3355,7 @@
             <l n="2889'">ru-gu-um-ma-am</l>
             <l n="2890'">u2-ul i-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 251" type="textpart">
             <l n="2891'">šum-ma _gu4_ a-wi-lim</l>
             <l n="2892'">na-ak-ka-pi2-ma</l>
             <l n="2893'">ki-ma na-ak-ka-pu-u2</l>
@@ -3371,12 +3371,12 @@
             <l n="2903'">_1/2(diš) ma-na ku3-babbar_</l>
             <l n="2904'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 252" type="textpart">
             <l n="2905'">šum-ma _ARAD2_ a-wi-lim</l>
             <l n="2906'">_1/3(diš) ma-na ku3-babbar_</l>
             <l n="2907'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 253" type="textpart">
             <l n="2908'">šum-ma a-wi-lum a-wi-lam</l>
             <l n="2909'">a-na pa-ni _a-ša3_-šu</l>
             <l n="2910'">u2-zu-uz-zi-im</l>
@@ -3392,14 +3392,14 @@
             <l n="2920'">it-ta-aṣ-ba-at</l>
             <l n="2921'">_kišib3-la2_-šu i-na-ak-ki-su</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 254" type="textpart">
             <l n="2922'">šum-ma _al du3-a_-am</l>
             <l n="2923'">il-qe2-ma _ab2 gu4 hi-a_</l>
             <l n="2924'">u2-te-en-ni-iš</l>
             <l n="2925'">ta-aš-na _še_ ša im-ḫu-ru</l>
             <l n="2926'">i-ri-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 255" type="textpart">
             <l n="2927'">šum-ma _ab2 gu4 hi-a_</l>
             <l n="2928'">a-wi-lim a-na ig-ri-im</l>
             <l n="2929'">it-ta-di-in</l>
@@ -3410,27 +3410,27 @@
             <l n="2934'">i-na _buru14 1(bur3) GAN2-e_</l>
             <l n="2935'">_1(geš2) še gur_ i-ma-ad-da-ad</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 256" type="textpart">
             <l n="2936'">šum-ma pi2-ha-su2</l>
             <l n="2937'">a-pa-lam la i-le-i</l>
             <l n="2938'">i-na _a-ša3_ šu-a-ti i-na _ab2 gu4 hi-a_</l>
             <l n="2939'">im-ta-na-aš-ša-ru-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 257" type="textpart">
             <l n="2940'">šum-ma a-wi-lum</l>
             <l n="2941'">_engar_ i-gur</l>
             <l n="2942'">8(aš) _še gur_</l>
             <l n="2943'">i-na _mu 1(diš)-kam_</l>
             <l n="2944'">i-na-ad-di-iš-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 258" type="textpart">
             <l n="2945'">šum-ma a-wi-lum</l>
             <l n="2946'">_ša3 gu4_ i-gur</l>
             <l n="2947'">_6(aš) še gur_</l>
             <l n="2948'">i-na _mu 1(diš)-kam_</l>
             <l n="2949'">i-na-ad-di-iš-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 259" type="textpart">
             <l n="2950'">šum-ma a-wi-lum</l>
             <l n="2951'">{geš}apin i-na _a-gar3_</l>
             <l n="2952'">iš-ri-iq</l>
@@ -3438,14 +3438,14 @@
             <l n="2954'">a-na be-el _{geš}apin_</l>
             <l n="2955'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 260" type="textpart">
             <l n="2956'">šum-ma _{geš}apin tug2-gur10_</l>
             <l n="2957'">u3 lu _GAN2 ur3_</l>
             <l n="2958'">iš-ta-ri-iq</l>
             <l n="2959'">_3(diš) gin2 ku3-babbar_</l>
             <l n="2960'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 261" type="textpart">
             <l n="2961'">šum-ma a-wi-lum</l>
             <l n="2962'">_na-gada_ a-na _ab2 gu4 hi-a_</l>
             <l n="2963'">u3 _u8 udu hi-a_</l>
@@ -3454,7 +3454,7 @@
             <l n="2966'">i-na _mu 1(diš)-kam_</l>
             <l n="2967'">i-na-ad-di-iš-šum</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 262" type="textpart">
             <l n="2968'">šum-ma a-wi-lum</l>
             <l n="2969'">_gu4_ u3 lu _udu_</l>
             <l n="2970'">a-na [...]</l>
@@ -3465,7 +3465,7 @@
             <l n="2975'">[...]</l>
             <l n="2976'">[...]</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 263" type="textpart">
             <l n="2977'">šum-ma _gu4_ u3 lu _udu_</l>
             <l n="2978'">ša in-na-ad-nu-šum</l>
             <l n="2979'">uh2-ta-al-li-iq</l>
@@ -3474,7 +3474,7 @@
             <l n="2982'">a-na be-li2-šu-nu</l>
             <l n="2983'">i-ri-a-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 264" type="textpart">
             <l n="2984'">šum-ma _sipa_</l>
             <l n="2985'">ša _ab2 gu4 hi-a_</l>
             <l n="2986'">u3 lu _u8 udu hi-a_</l>
@@ -3493,7 +3493,7 @@
             <l n="2999'">u3 bi-il-tam</l>
             <l n="3000'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 265" type="textpart">
             <l n="3001'">šum-ma _sipa_</l>
             <l n="3002'">ša _ab2 gu4 hi-a_</l>
             <l n="3003'">u3 lu _u8 udu hi-a_</l>
@@ -3510,7 +3510,7 @@
             <l n="3014'">a-na be-li2-šu-nu</l>
             <l n="3015'">i-ri-a-ab</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 266" type="textpart">
             <l n="3016'">šum-ma i-na _tur3_</l>
             <l n="3017'">li-pi2-it _dingir_ it-tab-ši</l>
             <l n="3018'">u3 lu _ur-mah_ id-du-uk _sipa_ ma-har _dingir_</l>
@@ -3518,7 +3518,7 @@
             <l n="3020'">mi-qi2-it-ti _tur3_</l>
             <l n="3021'">be-el _tur3_ i-mah-har-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 267" type="textpart">
             <l n="3022'">šum-ma _sipa_ i-gu-ma</l>
             <l n="3023'">i-na _tur3_ pe2-sa3-tam uš-tab-ši</l>
             <l n="3024'">_sipa_ hi-ṭi-it pe2-sa3-tim</l>
@@ -3528,36 +3528,36 @@
             <l n="3028'">a-na be-li2-šu-nu</l>
             <l n="3029'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 268" type="textpart">
             <l n="3030'">šum-ma a-wi-lum _gu4_</l>
             <l n="3031'">a-na di-a-ši-im i-gur</l>
             <l n="3032'">_2(ban2) še a2_-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 269" type="textpart">
             <l n="3033'">šum-ma _anše_</l>
             <l n="3034'">a-na di-a-ši-im i-gur</l>
             <l n="3035'">_1(ban2) še a2_-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 270" type="textpart">
             <l n="3036'">šum-ma _maš2_</l>
             <l n="3037'">a-na di-a-ši-im i-gur</l>
             <l n="3038'">_1(diš) sila3 še a2_-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 271" type="textpart">
             <l n="3039'">šum-ma a-wi-lum</l>
             <l n="3040'">_ab2 gu4 hi-a {geš}mar-gid2-da_</l>
             <l n="3041'">u3 mu-ur2-te-di-ša i-gur</l>
             <l n="3042'">i-na _u4 1(diš)-kam 3(barig) še_</l>
             <l n="3043'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 272" type="textpart">
             <l n="3044'">šum-ma a-wi-lum</l>
             <l n="3045'">_{geš}mar-gid2-da_-ma</l>
             <l n="3046'">a-na ra-ma-ni-ša i-gur</l>
             <l n="3047'">i-na _u4 1(diš)-kam 4(ban2) še_</l>
             <l n="3048'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 273" type="textpart">
             <l n="3049'">šum-ma a-wi-lum</l>
             <l n="3050'">_{lu2}hun-ga2_ i-gur</l>
             <l n="3051'">iš-tu re-eš ša-at-tim</l>
@@ -3571,7 +3571,7 @@
             <l n="3059'">i-na _u4 1(diš)-kam_</l>
             <l n="3060'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 274" type="textpart">
             <l n="3061'">šum-ma a-wi-lum</l>
             <l n="3062'">_dumu um-mi-a_</l>
             <l n="3063'">i-ig-ga-ar</l>
@@ -3598,26 +3598,26 @@
             <l n="3084'">i-na _u4 1(diš)-kam_</l>
             <l n="3085'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 275" type="textpart">
             <l n="3086'">šum-ma a-wi-lum</l>
             <l n="3087'">[_ma2..._] i-gur</l>
             <l n="3088'">i-na _u4 1(diš)-kam_</l>
             <l n="3089'">_3(diš) še ku3-babbar a2_-šu</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 276" type="textpart">
             <l n="3090'">šum-ma ma-hi-ir-tam i-gur</l>
             <l n="3091'">_2(diš) 1/2(diš) še ku3-babbar a2_-ša</l>
             <l n="3092'">i-na _u4 1(diš)-kam_</l>
             <l n="3093'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 277" type="textpart">
             <l n="3094'">šum-ma a-wi-lum</l>
             <l n="3095'">_{geš}ma2 1(geš2) gur_ i-gur</l>
             <l n="3096'">i-na _u4 1(diš)-kam_</l>
             <l n="3097'">_igi 6(diš)-gal2 ku3-babbar a2_-ša</l>
             <l n="3098'">i-na-ad-di-in</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 278" type="textpart">
             <l n="3099'">šum-ma a-wi-lum</l>
             <l n="3100'">_ARAD2 geme2_ i-ša-am-ma</l>
             <l n="3101'">_iti_-šu la im-la-ma</l>
@@ -3628,14 +3628,14 @@
             <l n="3106'">_ku3-babbar_ iš-qu2-lu</l>
             <l n="3107'">i-le-qe2</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 279" type="textpart">
             <l n="3108'">šum-ma a-wi-lum</l>
             <l n="3109'">_ARAD2 geme2_ i-ša-am-ma</l>
             <l n="3110'">ba-aq-ri ir-ta-ši</l>
             <l n="3111'">na-di-na-an-šu</l>
             <l n="3112'">ba-aq-ri i-ip-pa-al</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 280" type="textpart">
             <l n="3113'">šum-ma a-wi-lum</l>
             <l n="3114'">i-na ma-at</l>
             <l n="3115'">nu-ku-ur2-tim</l>
@@ -3653,7 +3653,7 @@
             <l n="3127'">an-du-ra-ar-šu-nu</l>
             <l n="3128'">iš-ša-ak-ka-an</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 281" type="textpart">
             <l n="3129'">šum-ma _dumu-meš_ ma-tim ša-ni-tim</l>
             <l n="3130'">ša-a-a-ma-nu-ma</l>
             <l n="3131'">i-na ma-har i-lim</l>
@@ -3664,7 +3664,7 @@
             <l n="3136'">i-na-ad-di-in-ma</l>
             <l n="3137'">lu _ARAD2_-su2 lu _geme2_-su2 i-pa-ṭar</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="law 282" type="textpart">
             <l n="3138'">šum-ma _ARAD2_ a-na be-li2-šu</l>
             <l n="3139'">u2-ul be-li2 at-ta</l>
             <l n="3140'">iq-ta-bi</l>
@@ -3672,7 +3672,7 @@
             <l n="3142'">u2-ka-an-šu-ma</l>
             <l n="3143'">be-el-šu u2-zu-un-šu i-na-ak-ki-is</l>
           </div>
-          <div n="surface" type="textpart">
+          <div n="epilogue" type="textpart">
             <l n="3144'">di-na-a-at</l>
             <l n="3145'">mi-ša-ri-im</l>
             <l n="3146'">ša {diš}ha-am-mu-ra-pi2</l>

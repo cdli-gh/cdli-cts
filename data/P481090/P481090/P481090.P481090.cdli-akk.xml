@@ -33,7 +33,7 @@
   </teiHeader>
   <text>
     <body>
-      <div n="urn:cts:cdli:test.P481090.cdli-akk" type="edition" xml:lang="akk">
+      <div n="urn:cts:cdli:P481090.P481090.cdli-akk" type="edition" xml:lang="akk">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
             <l n="1">a-na be-el-šu-nu</l>

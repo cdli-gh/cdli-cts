@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<ti:work groupUrn="urn:cts:cdli:test" urn="urn:cts:cdli:test.P481090" xml:lang="akk" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+<ti:work groupUrn="urn:cts:cdli:P481090" urn="urn:cts:cdli:P481090.P481090" xml:lang="akk" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
   <ti:title xml:lang="eng">LAOS 1, 47</ti:title>
-  <ti:edition urn="urn:cts:cdli:test.P481090.cdli-akk" workUrn="urn:cts:cdli:test.P481090">
+  <ti:edition urn="urn:cts:cdli:P481090.P481090.cdli-akk" workUrn="urn:cts:cdli:P481090.P481090">
     <ti:label xml:lang="eng">CDLI P481090 LAOS 1, 47</ti:label>
     <ti:description xml:lang="eng">Test doc converted from atf.</ti:description>
   </ti:edition>

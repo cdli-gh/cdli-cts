@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<ti:work groupUrn="urn:cts:cdli:test" urn="urn:cts:cdli:test.X001001" xml:lang="akk-x-stdbab" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
-  <ti:title xml:lang="eng">JCS 48, 089</ti:title>
-  <ti:edition urn="urn:cts:cdli:test.X001001.cdli-akk-x-stdbab" workUrn="urn:cts:cdli:test.X001001">
-    <ti:label xml:lang="eng">CDLI X001001 JCS 48, 089</ti:label>
-    <ti:description xml:lang="eng">Test doc converted from atf.</ti:description>
-  </ti:edition>
-</ti:work>

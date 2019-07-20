@@ -33,9 +33,9 @@
   </teiHeader>
   <text>
     <body>
-      <div n="urn:cts:cdli:test.P497322.cdli-akk" type="edition" xml:lang="akk">
+      <div n="urn:cts:cdli:P497322.P497322.cdli-akk" type="edition" xml:lang="akk">
         <div n="object" type="textpart">
-          <div n="surface" type="textpart">
+          <div n="a" type="textpart">
             <l n="1">a-na _kur-nu-gi4-a_ qaq-qa-ri {d}ereš-ki-gal</l>
             <l n="2">{d}inanna _dumu-munus_ {d}sin u2-zu-un-ša2 iš-kun</l>
             <l n="3">iš-kun-ma _dumu-munus_ {d}sin u2-zu-un-ša2</l>

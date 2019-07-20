@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<ti:work groupUrn="urn:cts:cdli:test" urn="urn:cts:cdli:test.P464358" xml:lang="akk" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+<ti:work groupUrn="urn:cts:cdli:P464358" urn="urn:cts:cdli:P464358.P464358" xml:lang="akk" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
   <ti:title xml:lang="eng">RIME 4.03.06.add21 (Codex Hammurapi) composite</ti:title>
-  <ti:edition urn="urn:cts:cdli:test.P464358.cdli-akk" workUrn="urn:cts:cdli:test.P464358">
+  <ti:edition urn="urn:cts:cdli:P464358.P464358.cdli-akk" workUrn="urn:cts:cdli:P464358.P464358">
     <ti:label xml:lang="eng">CDLI P464358 RIME 4.03.06.add21 (Codex Hammurapi) composite</ti:label>
     <ti:description xml:lang="eng">Test doc converted from atf.</ti:description>
   </ti:edition>
