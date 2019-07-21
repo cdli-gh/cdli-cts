@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000561, ex. 006</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346264</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346264.P346264.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[lugal]-⸢gu10⸣-ra u3-na-⸢a⸣-[du11]</l>
+            <l n="2">⸢maš2⸣ hur-sag-ga2 a2 sa6-sa6-[...]</l>
+            <l n="3">sisix(|ANŠE.KUR|) hur-sag-ga2 umbin u11-ri2-in-x-[...]</l>
+            <l n="4">{geš}gešimmar ki sikil-e mu2-a zu2-lum za-gin3 ⸢la2⸣-[...]</l>
+            <l n="5">u3-ne-de3-tah</l>
+            <l n="6">{diš}a-ba-nam-da-sa2 ugula aga-us2 zu2-keš2</l>
+            <l n="7">sag-⸢ki⸣ zalag lugal-la-na-⸢ta⸣</l>
+            <l n="8">ša3 lugal-la-na du10-du10-ge-ra</l>
+            <l n="9">ARAD-zu na-ab-be2-a</l>
+            <l n="10">kal-ga me-en aga-us2-zu he2-me-en</l>
+            <l n="11">⸢ma2⸣ gub-ba {geš}gisal mu-un-si-ge</l>
+            <l n="12">[...] še mu-un-si-ge</l>
+            <l n="13">[...] x-⸢ga2⸣ mu-un-zalag-ge</l>
+            <l n="14">[...] x x im-ma-ak-en</l>
+            <l n="15">[...]-ga2 ⸢mu⸣-⸢un⸣-du3-u3-nam mu-⸢dur7⸣-re im-gurum-e</l>
+            <l n="16">[...]-⸢ga2⸣ ⸢lu2⸣ ⸢mu⸣-⸢un⸣-da-la2-a šu-gu10 eš2 im-ma-an-la2</l>
+            <l n="17">[...] ⸢tug2⸣ dan6#?-na mi#?-ni-mur10-ra [tug2] mu-dur7-ra ba-an-mur10</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">lag-e a mi-ni-in-tu5-x#? sahar igi-ga2 ba-e-gub</l>
+            <l n="2">ur-re adda ib2-gu7 gaba-bi ib2-zix(GAB)-zix(GAB)</l>
+            <l n="3">ušumgal-e sag geš ib2-ra-ra ka da13-da13 ib2-tak4</l>
+            <l n="4">geš-gi izi ub-gu7-a a-nigin2 i3-da13-da13</l>
+            <l n="5">{d}utu i3 un-gu7 gar9 un-gu7 {geš}banšur ukur3-ra-še3 šu-ni ib2-ši-in-tum3</l>
+            <l n="6">ga2-e me-en-na-a ša3 {d}šul-gi lugal-gu10 ki-bi ha-ma-gi4-gi4</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">After you speak to my king</l>
+        <l n="2">To my buck of the mountain range with beautiful horns</l>
+        <l n="3">Horse of the mountain range with claws of an eagle</l>
+        <l n="4">My date palm grown in a pure place from which shining dates hang down from</l>
+        <l n="5">After you repeat to him</l>
+        <l n="6">For(!?) Abaindasa, the overseer of the arrayed troops</l>
+        <l n="7">He who by delighting his king</l>
+        <l n="8">Pleases the heart of his king</l>
+        <l n="9">Your servant, thus says</l>
+        <l n="10">I am powerful, and therefore am your soldier</l>
+        <l n="11">(When) the boat is idle, (I) prepare the oars</l>
+        <l n="12">(When) the wind is still, (I) prepare(?) the grain</l>
+        <l n="13">(When) ..., (I) illuminate ...</l>
+        <l n="14">(When) the water is still, I make it flow</l>
+        <l n="15">(But now, as if) I was planted like a tree in my forest, (I) bend over as one who is dirty(?)</l>
+        <l n="16">The one who could tie (me) in my chair(?) has bound my hands with rope</l>
+        <l n="17">In my city, I, the one who wore a clean garment, (now) wears a dirty garment</l>
+        <l n="1">As one who has washed with mud clods, I caked(?) dirt on my face</l>
+        <l n="2">A dog that has eaten carrion has (also) retreated</l>
+        <l n="3">An ušumgal creature that kills has (also) left behind scraps(?)</l>
+        <l n="4">After the reedbed is consumed by fire, the ponds remain</l>
+        <l n="5">After Utu has eaten butter and cream, he touches(?) the table/platter of the poor person</l>
+        <l n="6">As for me, when will the heart of Shulgi my king be returned to its place on my behalf?</l>
+      </div>
+    </body>
+  </text>
+</TEI>

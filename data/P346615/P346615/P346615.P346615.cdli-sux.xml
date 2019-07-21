@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0578</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346615</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346615.P346615.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">⸢{d#}nanna⸣ en gal ⸢za3⸣ an-ki-ke4#? nun kilib!-ba šu du7</l>
+            <l n="2">{d}suen be-lum ⸢ra⸣-bu-u sa3-hi-ip pa-ti ša-me-e ⸢u3⸣ er-ṣe-tim ru-bu ki-ib-ra-tim šu-uk-lu-lu</l>
+            <l n="3">[...] {d#}dil-⸢im2⸣-babbar x [...] x [...]</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1'">x [...]</l>
+            <l n="2'">x [...]</l>
+            <l n="3'">⸢a⸣-gu#?-[...] u3 [...]</l>
+            <l n="4'">x [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="1'" type="textpart">
+            <l n="1'">[...] x x [...] ba-lum AB-[...] li-A2-x [...]</l>
+            <l n="2'">AN-[...] {d}utu [...] nig2-gig {d#?}[...] na AN ha-ba-da#?-[...]-x [...]</l>
+            <l n="3'">an-nu-um [...]</l>
+          </div>
+          <div n="2'" type="textpart"/>
+          <div n="3'" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">...</l>
+        <l n="2">(Sum) Nanna, great lord of the borders of the universe, prince that perfects everything (Akk) Sîn, great lord (of?) the whole of the districts of heaven and earth, prince that perfects the world's edges</l>
+        <l n="3">... Dilimbabbar ...</l>
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="1'">... without ...</l>
+        <l n="2'">...</l>
+        <l n="3'">(Sum) ..., Utu(?) ... anathema of ..., may ... (Akk) sin/yes(?) ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

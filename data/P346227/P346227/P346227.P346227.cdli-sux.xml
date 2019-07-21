@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000383, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346227</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346227.P346227.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">iri me nun-na a gal-la diri-ga a-e ba-da-ri x x [...]</l>
+            <l n="2">sug dagal-bi giri3 ba-an-ga2-ga2 ša3-ba {geš}ad2 kur-ra KA x [...]</l>
+            <l n="3">ma2 giri17-zal-la ma2-durah-abzu a-e ba-da-ab-tak4#? sumur3-bi peš10#? bi2-ib2-te#?</l>
+            <l n="4">{d}sirsir {d}ab-ba-u2 lu2 ma2-u5 na-nam ma2 sag-ga2 x igi-bi-da ba-e-šu2-bu-uš</l>
+            <l n="5">e2-a lu2-erim2-e mu-un-hul-uš me-bi šu suh3-a ⸢ba⸣-ab-du11</l>
+            <l n="6">gi-gun4-na eb e2-a lu2-erim2-e ba-ab-gul geš-hur {geš}esi? ba#?-ab#?-kur2#?-[...]</l>
+            <l n="7">e2-u6-nir eš3 an-gin7 sag-bi mu-un-il2 gissu x x ab?-te?-ga2? IM#? [...]</l>
+            <l n="8">ka2 gu-la ka2 igi pirig-ga2 ⸢ki⸣ nam tar-ra lu2-erim2-[...] {geš}ig-bi-ne ba-ab-[...]</l>
+            <l n="9">{d}ka-he-gal2 {d}igi-he-gal2 i3-du8 e2-a a? [...]</l>
+            <l n="10">[e2]-mah#? {d}en-ki-ke4 ki ⸢u3⸣-di du7-a geštu2 kalam-ma#? [...]</l>
+            <l n="11">[...] ⸢ki⸣-šu-peš zu-zu ME {d}a-nun-x [...]</l>
+            <l n="12">[...]-⸢bi⸣ bi2-ib2-de2-a kalam-ma x [...]</l>
+            <l n="13">[...] x-gin7 x-ga x [...]</l>
+            <l n="14">[...] x ša3 gur-x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">eridu#{ki#}-⸢ga⸣ [...]</l>
+            <l n="2'">iri geš-gi izi [...]</l>
+            <l n="3'">eridu{ki}-ga gu4 du7#?-[...]</l>
+            <l n="4'">šah2 geš-gi nu-me-⸢a⸣ [...]</l>
+            <l n="5'">eridu{ki}-ga gu4-gin7 x [...]</l>
+            <l n="6'">nin iri-ke4 e2-gu10 im-me iri#? [...] ⸢me⸣-⸢li⸣-e-[a ...]</l>
+            <l n="7'">⸢ki⸣-⸢ru⸣-⸢gu2⸣ 3(diš)-⸢kam⸣-ma-[am3]</l>
+            <l n="8'">a-a {d}en-ki a e2-zu a iri-zu a nam-lu2-lu7-zu kur-ra [...]</l>
+            <l n="9'">geš-gi4-gal2-bi-[im]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">The city of the princely me floating in the flood water was set/sailed upstream(?) in the water ...</l>
+        <l n="2">(One could?) set foot in its broad marsh (as if it was dry land?), in its midst the thornbush of the mountain ...</l>
+        <l n="3">The boat of joy, the ibex of the Abzu, abandoned(?) the water, its reed cabin(?) was brought near(?) to the riverbank(?)</l>
+        <l n="4">Sirsir (and) Abba'u, who are indeed the men of the barge, at the prow of the boat they ... both eyes(?)</l>
+        <l n="5">Within the temple the enemy destroyed, its me were thrown into confusion</l>
+        <l n="6">The enemy destroyed the giguna structure and the oval of the temple, they (irreparably) changed(?) (its) plans ...</l>
+        <l n="7">The Eunir temple, the shrine that had raised its head like heaven(?), (its) protective aegis(?) ...</l>
+        <l n="8">The greatest gate, the “face of a lion” gate, where fate is determined, the enemy tore out? the doors</l>
+        <l n="9">Kahegal and Igiḫegal, the doorkeepers of the temple ...</l>
+        <l n="10">(At) the Emah temple of Enki, a place suitable for awe, the wisdom of the land ...</l>
+        <l n="11">... who made the cultic place known(?) ... of the Anuna(?) ...</l>
+        <l n="12">The one who shouted(?) ... in the land</l>
+        <l n="13">...</l>
+        <l n="14">... exuberant? ...</l>
+        <l n="1'">In(?) Eridu ...</l>
+        <l n="2'">The marshland (of?) the city fire(?) ...</l>
+        <l n="3'">In Eridu a goring(?) ox ...</l>
+        <l n="4'">(Although?) ... was not a marsh boar ...</l>
+        <l n="5'">In(?) Eridu like a bull ...</l>
+        <l n="6'">The lady of the city says “my city” the city ... alas! ...</l>
+        <l n="7'">It is the 3rd kirigu</l>
+        <l n="8'">Father Enki, alas, your temple, alas, your city, alas, your people! In the land ...</l>
+        <l n="9'">It is the gešgigal “response”</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000343, ex. 033</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346094</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346094.P346094.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">⸢abul⸣ 5(diš)-kam-ma ku4-ku4-da-ni-⸢ta⸣</l>
+            <l n="2">tu-di-tum lu2 ga2-nu ga2-nu lu2 ba-da-an-zi</l>
+            <l n="3">a-na-am3 e-ne</l>
+            <l n="4">si-a {d}inanna me! kur-ra-ke4 šu al-du7-⸢du7⸣</l>
+            <l n="5">⸢[{d}]inanna⸣ garza kur-ra-ke4 inim-zu na-be2-e</l>
+            <l n="6">[abul] ⸢6(diš)⸣-kam-ma ku4-ku4-da-ni-ta</l>
+            <l n="7">[...] sag-ki-na lu2 ba-da-an-zi</l>
+            <l n="8">[a-na]-⸢am3⸣ e-ne</l>
+            <l n="9">[si-a ⸢{d}]inanna⸣ me kur-⸢ra⸣-ke4 šu al-du7-⸢du7⸣</l>
+            <l n="10">⸢{d#}inanna⸣ ⸢garza⸣ kur-ra-ke4 inim-zu na-be2-e</l>
+            <l n="11">abul 7(diš)-kam-ma ku4-ku4-da-ni-ta</l>
+            <l n="12">tug2 palax(|NAM.EN.NA|) tug2 nam-ereš-a lu2 ba-da-an-⸢zi⸣</l>
+            <l n="13">a-na-am3 e-ne</l>
+            <l n="14">si-a {d}inanna me kur-ra-ke4 šu al-du7-du7</l>
+            <l n="15">{d}inanna garza kur-ra-ke4 inim-zu na-be2-e</l>
+            <l n="16">gir-gir-ma-ni ugu za3-ga?-⸢še3⸣</l>
+            <l n="17">ze2-ze2-la#?-ni lu2 ma-an-de6</l>
+            <l n="18">nin9-x-[...]-⸢za⸣-ta im-ma-an-zi-ga</l>
+            <l n="19">[...] nin9?-a-ni dur2 bi2-in-⸢gar⸣</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] ⸢imin⸣-bi di mu-un-da-ku5-ru-ne</l>
+            <l n="2">x [...]-⸢in⸣-e3-a inim gig-ga in-e#?</l>
+            <l n="3">gu3 mu-un-na-de2-e gu3 nam-tag-ga-ka</l>
+            <l n="4">nig2-lil2? dal-⸢la2⸣-gin7 dal-la2 lu2#? [...]-ta#? ba-ni-⸢in⸣-[...]</l>
+            <l n="5">iti imin-kam zal-la-ta#?</l>
+            <l n="6.a">sukkal-a-ni {d}nin-šubur-ra</l>
+            <l n="6.b">inim ga-ša-an-na-ke4 ⸢geštux(|GIŠ.TUG2|)⸣ [...]-ši-in-[...]</l>
+            <l n="7">er2 du11-du11-dam ba-gar-ra-x</l>
+            <l n="8">šem3#!? gu3-en-na ma#?-x-x</l>
+            <l n="9">⸢e2⸣ dingir-re-⸢e⸣-⸢ne⸣ x-x-nigin#?</l>
+            <l n="10">igi mu-un-hur#? giri17#? ⸢mu⸣-⸢un⸣-⸢hur⸣</l>
+            <l n="11">ki lu2-da nu-u6?-⸢di⸣ haš2#? gal#? mu#?-un#?-hur#?</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">As Inanna was entering the5th gate</l>
+        <l n="2">The man removed the toggle pin/pectoral (that says) “Come, man, come!”</l>
+        <l n="3">What? How?</l>
+        <l n="4">Be satisfied, Inanna! This is the rite of the netherworld that is being completed</l>
+        <l n="5">Inanna! This is the procedure of the netherworld, you should not speak aloud (to anyone to interrupt it)</l>
+        <l n="6">As Inanna was entering the 6th gate</l>
+        <l n="7">The man removed the allure(?) from upon her forehead</l>
+        <l n="8">What? How?</l>
+        <l n="9">Be satisfied, Inanna! This is the rite of the netherworld that is being completed</l>
+        <l n="10">Inanna! This is the procedure of the netherworld, you should not speak aloud (to interrupt it)</l>
+        <l n="11">As Inanna was entering the 7th gate</l>
+        <l n="12">The man removed the pala garment, the garment of queenship</l>
+        <l n="13">What? How?</l>
+        <l n="14">Be satisfied, Inanna! This is the rite of the netherworld that is being completed</l>
+        <l n="15">Inanna! This is the procedure of the netherworld, you should not speak aloud (to interrupt it)</l>
+        <l n="16">When she bent over, upon the shoulder(?) ...</l>
+        <l n="17">When she split apart(?), the man brought ... away</l>
+        <l n="18">He sister raised her up from her throne</l>
+        <l n="19">She sat upon the throne of her sister</l>
+        <l n="1">The seven judges of the Anuna were judging her</l>
+        <l n="2">The one who brought out .../appeared in ... was speaking a bitter word(?)</l>
+        <l n="3">They(?) shouted at her, it was a(n accusatory) cry of wrongdoing</l>
+        <l n="4">The man(?) ... her from ... as something ... hung(!?) like ...</l>
+        <l n="5">After seven months had passed</l>
+        <l n="6.a">Her vizier Ninšubur</l>
+        <l n="6.b">paid attention to the word of the lady</l>
+        <l n="7">She made “the lament of ruin heaps” for her(?)</l>
+        <l n="8">She played(?) the šem drum of the assembly/throne room for her</l>
+        <l n="9">She circled(?) the temples of the gods for her</l>
+        <l n="10">She scratched her face, she scratched her nose</l>
+        <l n="11">The place unseen (when) with a man, she scratched her (inner) thigh</l>
+      </div>
+    </body>
+  </text>
+</TEI>

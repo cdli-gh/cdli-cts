@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000764, ex. 006</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346126</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346126.P346126.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">2(diš@t)-kam-ma-še3! mušen-e ku6-ra ⸢in⸣ [...]</l>
+            <l n="2">ku6 lipiš tuku a2 nam-ur-sag-ga2#!? [...]</l>
+            <l n="3">muru9 dugud-gin7 ni2 ki bi2-ib2-us2 [...]</l>
+            <l n="4">in mušen-e a-na mu-ni-in-dub2-ba ša3-še3! nu-mu-⸢un⸣-⸢na⸣-an-gid2</l>
+            <l n="5">gu2 surx(SAG) ba-da-an-gar inim BUR2-bi im-me</l>
+            <l n="6">2(diš@t)-kam-ma-še3! ku6-e mušen-ra mu-⸢na⸣-ni-ib-gi4-gi4</l>
+            <l n="7">a2-ur2 gu2-guru5 giri3 su#?-ul-su#!?-ul KA x eme sal-sal</l>
+            <l n="8">nam-nu-zu-a-ta KA e-da-ra-HAR ni2-zu umun2 li-bi2-ak</l>
+            <l n="9">mah gu7-gu7 sag#? šu zi bi2-ib2-du11-ga kisal-e šed6! si-si</l>
+            <l n="10">kisal-luh tur e2 ⸢sa⸣ lax(ME)-e eš2! mu-ri-ib2-sar-re</l>
+            <l n="11">muhaldim {lu2}lunga?-e i3-du8 e2 ti-la zi mu-da-ri-eš</l>
+            <l n="12">mušen nam-mah-gu10 egir-bi nu-zukumx(|LAL2.SAR|)-zukumx(|LAL2.SAR|) bar-ga2 en3 li-bi2-tar</l>
+            <l n="13">si-ga kal-ga-ga2 nu-mu-⸢e⸣-⸢da⸣-zu#? ⸢inim⸣ u3-bu-bu-ul i3-bala!</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">nig2-ak-ga2 ki-bi nu-mu-x-x diri-še3! ni2 sun5-ni-ib</l>
+            <l n="2">inim-zu nam-bur2-ra im-da-ab#?-tum3 ni2-zu ⸢ad⸣ li-bi-gi4</l>
+            <l n="3">ga2-e ku6-me-en he2-gal2 AB sikil-la teš2-bi ⸢gar⸣-gar#?-me-en</l>
+            <l n="4">du8 mah nindaba gal-gal dingir-re-ne-ka sag il2-la DU?-me-en</l>
+            <l n="5">{d}ašnan-gin7 ša3#?-gar#? kalam-ma-ke4 ba-gal2-e-en [...]-⸢tah⸣-ni ga2-e-me-en</l>
+            <l n="6">ug3-e geštux(|GIŠ.TUG2|)-ga ma-du3-du3 igi-bi mu-e-ši-gal2</l>
+            <l n="7">kur ezem-gin7 mu-e-da-hul2!?-e en3 tar-gu10 i3-gal2</l>
+            <l n="8">nig2-gal-gal a-na me-dim2-ma-zu gur4-ra-zu#? ga-ri-ib-zu</l>
+            <l n="9">sun7-na ⸢inim⸣ lul-la bala-zu šu-zu ga-ba-ni-ib-si</l>
+            <l n="10">u4-bi-a ku6-e mušen-ra sa2 im-si-si-ge</l>
+            <l n="11">si-⸢ga⸣ lul-ba a2-ba mu-un-DU-DU</l>
+            <l n="12">u4 mušen gud3-bi zi-ga-a-gin7 amar-bi-še3! ⸢nig2⸣-gu7-bi tum3-de3</l>
+            <l n="13">ku6-e ki si-ga a2-ba mu-un-[...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">A 2nd time the bird insulted the fish</l>
+        <l n="2">The fish, possessed of anger, trusting in the heroic might of the deep water(?)</l>
+        <l n="3">Like a heavy rain cloud it set itself on the ground, it stood in an adamin contest</l>
+        <l n="4">Whatever insults the bird had struck it with, in did not ponder</l>
+        <l n="5">It was able to(?) submit furious(ly)(?), it was speaking freely/humbly(?)</l>
+        <l n="6">A 2(diš)nd time fish was answering the bird</l>
+        <l n="7">(Possessor of) trimmed limbs, crippled(?) feet, a ... mouth/beak, and a thinned out/flattened(?) tongue</l>
+        <l n="8">By means of ignorance you have been able to sneer/shout/chew(?), (but) you yourself have not contemplated(?)</l>
+        <l n="9">Eating way too much, ..., filling the courtyard with feces</l>
+        <l n="10">The young courtyard sweeper who is sweeping in the temple is braiding(?) a rope for you</l>
+        <l n="11">The cook, the brewer, and the gatekeeper who reside in the temple are distressed with (you)</l>
+        <l n="12">Bird, (you are one who) my greatness does not tread behind, (you are one who) does not inquire after me</l>
+        <l n="13">You cannot know (either) my weakness(?) or my strength, (you) have conversed in an inflammatory manner(?)</l>
+        <l n="1">You have not sought the site of my deeds, (now) humble yourself excessively!</l>
+        <l n="2">Your word has brought “release,” you have not taken counsel with yourself</l>
+        <l n="3">I, the fish, am the one who piles up(?) the abundance of the pure shrine/sea(?) together</l>
+        <l n="4">At(?) The supreme mound(?), I am the one who brings/goes/stands among(?) the great nindaba offerings of the gods proudly</l>
+        <l n="5">Like (the grain goddess) Ašnan (I) am here as the sustenance of the land, I am her helper</l>
+        <l n="6">The people have listened to me, they have looked to me</l>
+        <l n="7">The land(?) rejoices with me as if (it was) a festival, my inquirer is there(?)</l>
+        <l n="8">Bird, what is your great thing that (you) accomplished? I will make you know your (over) exuberance</l>
+        <l n="9">I want to give (back into) your hand your arrogance and false speech</l>
+        <l n="10">At that time the fish was setting plans in place against the bird</l>
+        <l n="11">Silently and deceptively(?) it went on its “arms”</l>
+        <l n="12">When the bird got up from its nest in order to bring (back) food for its chick</l>
+        <l n="13">The fish sought? the place silent(ly) “on its arms”</l>
+      </div>
+    </body>
+  </text>
+</TEI>

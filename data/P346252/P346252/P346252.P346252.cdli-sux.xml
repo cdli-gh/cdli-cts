@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000757, ex. 003</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346252</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346252.P346252.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">lu2-tur ⸢dumu⸣ [...]</l>
+            <l n="2">tukumbi ⸢dumu⸣ e2-dub-ba-[...]</l>
+            <l n="3">[eme]-gir15 ⸢e⸣-⸢zu⸣-⸢u3⸣-⸢am3⸣</l>
+            <l n="4">[eme]-gir15-ta ⸢inim⸣ e-da-bala-e-en</l>
+            <l n="5">[...] al#?-⸢tur⸣-re-en a-na-gin7-nam x-za ⸢inim⸣ ab-bala-e-en</l>
+            <l n="6">⸢nig2⸣ ⸢ka⸣ ⸢um⸣-mi-a-ga2-⸢ka⸣ diš min geš ba-ni-tuku-am3</l>
+            <l n="7">⸢inim⸣-⸢bi⸣ ga-mu-ra-ab-gi4</l>
+            <l n="8">nig2#? &amp;lt;&amp;lt;AB?&amp;gt;&amp;gt; ab-gi4-gi4-na-zu he2-ib-da-gal2 ⸢a⸣-na-am3 ab-sar-re-en</l>
+            <l n="9">⸢tukumbi⸣ nig2 ab#?-sar-re-en-na-gu10 en3 ⸢mu⸣-e-ši-tar-re</l>
+            <l n="10">x x x ⸢e2⸣-⸢dub⸣-⸢ba⸣-a i-in-ti-e-na-gu10 [...] x iti eš5-am3 ba-ra-ab-lal</l>
+            <l n="11">x ⸢ki⸣-⸢en⸣-⸢gi⸣ ⸢ki⸣-uri-ke4 a-a me-me-ta</l>
+            <l n="12">x-x-še3#? i3#?-⸢šid⸣ u3 i3-sar</l>
+            <l n="13">⸢mu⸣ ⸢didli⸣ {d}inanna-teš2-ta</l>
+            <l n="14">⸢en⸣-na nig2-⸢zi⸣-gal2 edin-na za3 lu2 šu-ka i3-sar</l>
+            <l n="15">⸢gu⸣-⸢šum2⸣-bi mu-da-pa3-de3-en</l>
+            <l n="16">⸢sar⸣-re-bi u3 ki-bur2-bi inim-gu10 a-ab-si</l>
+            <l n="17">egir-gu10 ⸢ha⸣-ha-za-mu-un</l>
+            <l n="18">nig2-na-me nu-mu-ra-da-gib-be2-en</l>
+            <l n="19">u3 lu2 šu im-šu-ga2 lu2 ma-an-gub-ba</l>
+            <l n="20">mu 1(geš'u)-kam a-ra2-bi mu-da-ab-šum2-mu</l>
+            <l n="21">⸢nig2⸣-⸢ka9⸣ u4 e2-dub-ba-a i3-tuš-u3-na-gu10 gar-ra</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">u4 duh-a-gu10 iti-da u4 eš5-am3</l>
+            <l n="2">ezem didli-bi iti-da u4 eš5-am3</l>
+            <l n="3">ša3-ba iti-da u4 2(u) 4(diš)-am3</l>
+            <l n="4">e2-dub-ba-a i-in-ti-i-na-gu10 u4-da gid2-da nam-me</l>
+            <l n="5">u4 diš-e um-mi-a-gu10 nig2-sur-ru-gu10 4(diš)-ta-am3 mu-ub-šum2-mu</l>
+            <l n="6">nig2-ka9-bi gar-ra nam-dub-sar i3!-zu-a-gu10 nu-ub-tum3</l>
+            <l n="7">a-da-al-ta ša3 dub-ba a-ra2 nig2-ka9-še3 ba-e-de3-ga2-ga2-de3-en</l>
+            <l n="8">nam-dub-sar mu gar nig2-sur-ru nu-u3-gar NIG2 ba-ba-e-de3-KA</l>
+            <l n="9">um-mi-a-gu10 inim sa6-sa6-ge du10-u4 ak</l>
+            <l n="10">nam-gi4-me-eš3 ak nig2 ša3 hul2-le-dam</l>
+            <l n="11">nam-dub-sar-gu10 mu-ub-zu-zu</l>
+            <l n="12">nig2-na-me nu-mu-ši-ib-sir3-re-en</l>
+            <l n="13">um-mi-a-gu10 gu-šum2 ⸢diš⸣-⸢am3⸣ mu-pa3-⸢de3⸣-a</l>
+            <l n="14">geštux(|GIŠ.TUG2|)-gu10-ta diš [...] ⸢bi2⸣-ib-tah-e-en</l>
+            <l n="15">ki uludin-gu10-uš a-ba#?-da#?-tuš-u3-na</l>
+            <l n="16">eme-gir15 nam-dub-sar ša3 dub-ba šid nig2-ka9-še3</l>
+            <l n="17">e-da-sa2-sa2-e-en</l>
+            <l n="18">eme-gir15-ta inim e-da-bala-e-en</l>
+            <l n="19">he2-eb-da-gal2 KA-gir15 i-ri-dul-la-aš</l>
+            <l n="20">⸢dub⸣ sar-re-de3! ⸢ga⸣-⸢DU⸣</l>
+            <l n="21">dub aš še gur-ta za3 ⸢1(geš'u)⸣ [...]</l>
+            <l n="22">dub diš gin2-ta ⸢za3⸣ [...]</l>
+            <l n="23">nam-tab-ba gurum2 aš ⸢gu2⸣ [...]</l>
+            <l n="24">⸢e2⸣ ⸢a⸣-⸢ša3⸣ {geš#?}[kiri6 ...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Young man, are you a student of the eduba'a? (Yes,) I am a student of the eduba'a</l>
+        <l n="2">If you are a student of the eduba'a</l>
+        <l n="3">Do you know Sumerian?</l>
+        <l n="4">I can converse by means of Sumerian</l>
+        <l n="5">... (if) you are young/junior, how can you converse in/translate your ...</l>
+        <l n="6">If I hear that of the mouth of my master once or twice</l>
+        <l n="7">I can repeat that speech (lit. answer) for you</l>
+        <l n="8">(But even) if your reproduction of that is present, what will you write?</l>
+        <l n="9">If you(?) inquire after that which I write (you will find out that)</l>
+        <l n="10">... my dwelling in the eduba'a ... could not have been less than three months(?)</l>
+        <l n="11">... of Sumer and Akkad, from the “syllable alphabet(s)” a-a (Syllable Alphabet B) and me-me (Syllable Alphabet A)</l>
+        <l n="12">To ... (I) counted out (the number of lines in a given manuscript?) and (I) wrote</l>
+        <l n="13">From the various entries/names of (the personal name list) Inanna</l>
+        <l n="14">Until “the animals of the steppe” (commentary or perhaps the ur5-ra list of animals) to the end of “person” (=) “he” (the lexical list lu2 = ša), (I) wrote</l>
+        <l n="15">I can find their signs</l>
+        <l n="16">Thus I explain their writings and solutions</l>
+        <l n="17">Follow me (lit. seize behind me)</l>
+        <l n="18">I cannot block anything for you</l>
+        <l n="19">And the (extract of) the professions list lu2 = šu that was assigned to me on my “hand tablet”</l>
+        <l n="20">I(?) can produce a sequence of six hundred entries</l>
+        <l n="21">The account of my days residing in the school are established</l>
+        <l n="1">My idle days are three days per month</l>
+        <l n="2">The various festivals are three days per month</l>
+        <l n="3">In the midst (of what remains) in the month there are 24 days</l>
+        <l n="4">My dwelling in the school is not (measured with) deductible days</l>
+        <l n="5">In each single day, my master (requires) that I produce my nigsuru assignment(?) 4 times</l>
+        <l n="6">The account having been established, my knowledge of the scribal art is not taken away(?)</l>
+        <l n="7">Now I can apply myself(?) to the contents of tablets, to multiplication tables and calculations(?)</l>
+        <l n="8">The scribal art, putting entries (in their context)(!?), without(?) nigsuru assignments(?) ...</l>
+        <l n="9">My master, speaking pleasantly, (his) prayer (on my behalf!?)</l>
+        <l n="10">(His) treating (me) as a colleague, it is something that is to make the heart rejoice</l>
+        <l n="11">I know my scribal art</l>
+        <l n="12">I do not restrict ... concerning anything</l>
+        <l n="13">My master selects one sign</l>
+        <l n="14">From my memory I add one or two (more)</l>
+        <l n="15">At the agreed point, after I reside (there)</l>
+        <l n="16">Regarding the Sumerian language, the scribal art, (its) content, counting and accounting(?)</l>
+        <l n="17">I equal you</l>
+        <l n="18">I (would) converse with you by means of Sumerian</l>
+        <l n="19">But (even) if it (the option of my answering!?) is present(?), on account of the fact that Sumerian is obscure for you</l>
+        <l n="20">I shall go to write a tablet (instead)</l>
+        <l n="21">The tablet of one gur of barley until 600 gur of barley (metrological table)</l>
+        <l n="22">The tablet of one gin silver until 10 mana of silver (metrological table)</l>
+        <l n="23">Partnership (model contracts), so that one can choose (to include) the inspection of a one gun amount (of silver)</l>
+        <l n="24">Purchasing a house, field, orchard, or male or female slave (model contracts)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

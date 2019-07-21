@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000485, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346181</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346181.P346181.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[{d}nin]-⸢i3⸣-si-na dumu x an-[na] e2-gi4-a gal#? nir-ra#?</l>
+            <l n="2">⸢[{d}]li⸣-pi2-it-eš18-dar ⸢u2⸣-a-⸢zu⸣ he2-am3 e-ne-ra mu-na-an-du11</l>
+            <l n="3">ša3-ba-tuku-am3</l>
+            <l n="4">ka-ta e3-a-ni {d}en-lil2-la2-še3#?</l>
+            <l n="5">{d}nin-i3-si-na-ka-še3 geštu2 ba-ši-in-gub sun5-na-bi mu-na!-ni-ib-gi4-gi4</l>
+            <l n="6">a-a {d}en-lil2 dingir ušum pa e3 i-bi2-MU nun#?-gal#?-e#!?-ne#?</l>
+            <l n="7">en an#?-ki#? me-zu#? me-a dab a2 ag2-zu#? a2 ag2-ta rib#?</l>
+            <l n="8">sipa zi ša3-ge! ⸢pa3⸣-da-zu#?</l>
+            <l n="9">x x u3-mu-un {d}li-pi2-it-eš18-dar-ra?</l>
+            <l n="10">[...] x x x x-⸢ra⸣-ba#? u3-mu-ni-IL2</l>
+            <l n="11">[...] ⸢ha⸣-⸢ra⸣-x-x?-⸢e⸣</l>
+            <l n="12">[...] x-x-in-gar</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...]-na?-ka-⸢še3⸣ [...] geštu2 ba-ši-in-⸢gub⸣</l>
+            <l n="2">[...]-⸢na⸣-an-de2-[...] ⸢mu⸣-ni-ib-tar-re</l>
+            <l n="3">⸢[{d}]li⸣-pi2-⸢it⸣-eš18-dar mu pa3-da-gu10-me-⸢en⸣ ug3-ga2 sag mi-ni-in-⸢il2⸣</l>
+            <l n="4">zi-gal2-e ama a-a ugu-bi-gin7 igi-bi he2-en-gal2</l>
+            <l n="5">kal-ga sag-en3-tar e2!-kur-ra ensi2 eš3 mah-am3#?</l>
+            <l n="6">u4-ta-ulu3{+lu} ki šen-šen-na-⸢ka⸣ a2-tah-zu he2-am3</l>
+            <l n="7">hul-du-zu buru5{mušen}-gin7 ha-ra-ur4-ru zar-re-eš ha-ra-ab-sal-e</l>
+            <l n="8">ki-ru-gu2 4(diš)-kam-ma</l>
+            <l n="9">nun {d}li-pi2-it-eš18-dar {d}nu-nam-nir-ra en du11-ga nu-kur2-ru-de3 ug3 šar2-ra-ba mu-ni im-mi-mah</l>
+            <l n="10">geš-gi4-gal2-bi-im</l>
+            <l n="11">{d}en-lil2-me-en an-še3 u5!?-me-en ki-še3 en me#? 1(šar2)-me-en</l>
+            <l n="12">{d}li-pi2-it-eš18-dar nam du10 mi-ni-ib-tar-re</l>
+            <l n="13">šir3-nam-gala {d}nin-i3-si-na-ke4</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Ninisina, ... child of An, great bride of the lordly one(?)</l>
+        <l n="2">... said to her “may Lipit-Ištar be you provider”</l>
+        <l n="3">It is the šagbatuku</l>
+        <l n="4">To his utterance, to that of Enlil,</l>
+        <l n="5">NinIsina(!) paid attention and answered him humbly</l>
+        <l n="6">Father Enlil, god who is an emergent ušum creature(?), foremost(?) of the great princes (Igigi)</l>
+        <l n="7">Lord of the universe, your me exceed (other) me(?), your commands surpass (other) commands(?)</l>
+        <l n="8">You shepherd chosen in the heart</l>
+        <l n="9">... lord Lipit-Ištar</l>
+        <l n="10">After you(?) raised/carried ... among(?)</l>
+        <l n="11">May ...</l>
+        <l n="12">... placed ...</l>
+        <l n="1">... Enlil(?) paid attention to the spoken word of Ninisina</l>
+        <l n="2">He cries out truthfully to ... and decrees a fate</l>
+        <l n="3">Lipit-Ištar, you are the one I chose by name, (you) have raised (your) head among the people</l>
+        <l n="4">The people look towards (you) like their birth parents</l>
+        <l n="5">The powerful one, caretaker of the Ekur temple, who is ensi official of the supreme shrine</l>
+        <l n="6">Utaulu (Ninurta), may he be your helper at the place of combat</l>
+        <l n="7">May he gather up your enemy like small birds (in a net) for you, may he spread them out into sheaves for you</l>
+        <l n="8">It is the 4th kirugu</l>
+        <l n="9">Ruler Lipit-Ištar, Nunamnir, the lord who will not change his utterance, glorifies(?) his name among the many people</l>
+        <l n="10">It is the gešgigal “response”</l>
+        <l n="11">I am Enlil, heavenwards I am riding(?), towards the earth I am lord (of) the many cosmic powers(?)</l>
+        <l n="12">I will decree a good fate (for) Lipit-Ištar and therefore it is something that cannot be changed</l>
+        <l n="13">Song of the gala priesthood of Ninisina</l>
+      </div>
+    </body>
+  </text>
+</TEI>

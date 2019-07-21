@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000623, ex. 010</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346193</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346193.P346193.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1'">[...] x [...]</l>
+            <l n="2'">⸢ni2⸣ me-lam2 ulu3{+lu#}-[...]</l>
+            <l n="3'">[nig2]-⸢me⸣-gar hušx(GIR3)-bi igi-še3 mu#?-[...]</l>
+            <l n="4'">me-ta me hušx(GIR3)-bi šu ba-⸢re⸣-[...]</l>
+            <l n="5'">i-dab!(TUG2) er2-ra-ke4 gal2 ma3-ra-an-⸢tak4⸣</l>
+            <l n="6'">e2!? a-mir!? gal-gal sila-ba mu-ri-du</l>
+            <l n="7'">igi me6-ta nig2 ⸢ma⸣-ra-ab-ta-si-ig</l>
+            <l n="8'">nin-gu10 a2 ni2-za zu2-zu2 i3-⸢gu7⸣-e</l>
+            <l n="9'">u4 du7-du7-gin7 i3-du7-du7-&amp;lt;&amp;lt;GIM&amp;gt;&amp;gt;-en</l>
+            <l n="10'">u4 gu3 ra-ra-ta gu7 im-da-ab-ra-ra</l>
+            <l n="11'">{d}iškur-gin7 šu mu-da-ab-gi4-gi4</l>
+            <l n="12'">im-hul-im-hul-da im-da-UD-ux(|IGI.LUxU|)?-de3</l>
+            <l n="13'">giri3-za nu-kuš2-u3 i-im-si</l>
+            <l n="14'">balag er2-ra-ta i-lu im-da-ab-be2</l>
+            <l n="15'">nin-gu10 a-{d}nun-na dingir gal-gal-e-ne</l>
+            <l n="16'">su-din dal-dal-a-gin7 du10-de3 mu-ši-ib2-ra-aš</l>
+            <l n="17'">igi huš-a-⸢za⸣ ⸢la⸣-ba-si-ge-de3-eš</l>
+            <l n="18'">⸢sag⸣-ki huš-a-za ⸢sag⸣ nu-mu-de3-ga2-ga2</l>
+            <l n="19'">⸢ša3⸣ ib2-ba-a#?-zu#? [...]-⸢te⸣-en</l>
+            <l n="20'">x [...]</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1'">{gi#}[ma-sa2-ab ...]</l>
+            <l n="2'">ki-si#?-[ga ...]</l>
+            <l n="3'">u4-⸢de3⸣ [...]</l>
+            <l n="4'">⸢gissu⸣-[...]</l>
+            <l n="5'">ka [...]</l>
+            <l n="6'">nig2 x [...]</l>
+            <l n="7'">nam-[...]</l>
+            <l n="8'">an-⸢ra⸣ [...]</l>
+            <l n="9'">a-da-[...]</l>
+            <l n="10'">nam [...]</l>
+            <l n="11'">kur a-[...]</l>
+            <l n="12'">munus-⸢bi⸣ [...]</l>
+            <l n="13'">⸢gub⸣-[...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="1'" type="textpart">
+            <l n="1'">[...]-du11-[...]</l>
+            <l n="2'">[...]</l>
+            <l n="3'">[...]-mir#?-za ga#?-[...]</l>
+            <l n="4'">[...]-⸢dub⸣ šu-⸢luh⸣ x bi2-[...]</l>
+            <l n="5'">[...]-⸢an⸣-gar#? x x x x x</l>
+            <l n="6'">⸢im⸣-[...]-diri#?-ga#?-ta#? nin UN#?-gal#? ma-x-x</l>
+            <l n="7">[...]-⸢u3⸣-⸢na⸣ ma-ra-an-⸢du11⸣-⸢ga⸣-⸢am3⸣</l>
+            <l n="8'">⸢gala⸣ an#?-bar7#?-x šu hu#?-[...]</l>
+            <l n="9'">⸢dam⸣ dab5#?-[...]-⸢ke4⸣-[eš]</l>
+            <l n="10'">⸢ib2⸣-[...]</l>
+            <l n="11'">⸢nin⸣ gu2#?-[...]</l>
+            <l n="12'">⸢siskur2⸣-[...]</l>
+            <l n="13'">x [...]</l>
+            <l n="14'">x x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">Along with the aura and radiance, and the southern stormwind(?), you have brought(?) for yourself(?) the furious(?) stupor of the people to the fore</l>
+        <l n="4'">You have taken the (most) furious of the me for yourself</l>
+        <l n="5'">The “threshold(!?) of mourning” has opened for you(!)</l>
+        <l n="6'">... goes on the street of the temple(?) of greatest lamentation/great lamentations(!) (i.e., the netherworld?) for you</l>
+        <l n="7'">From the front of battle things (that are shot, flung?) are removed for you (i.e., diverted?)</l>
+        <l n="8'">My lady, in/with your own power “teeth consume&quot;(!?)</l>
+        <l n="9'">You are to thrash like a thrashing storm</l>
+        <l n="10'">(You) shout together with the shouting storm</l>
+        <l n="11'">As if with Iškur(?) (you) avenge(?)</l>
+        <l n="12'">You are to ... together with the destructive winds</l>
+        <l n="13'">(But) inexhaustiveness is worn on your feet (as footwear)</l>
+        <l n="14'">... performs a lament with the balag drum of weeping</l>
+        <l n="15'">My lady, the Anuna(!), the great gods</l>
+        <l n="16'">Like flying/winged? bats, they have they have been driven(?) into(!?) the ruin mound/cracks(?) because of you</l>
+        <l n="17'">They are not to stand(?) at your furious face</l>
+        <l n="18'">Not one (of them) can confront your furious forehead</l>
+        <l n="19'">The cooling(!?) of your malevolent heart is a supreme (undertaking)</l>
+        <l n="20'">...</l>
+        <l n="1'">The masab basket was carried, the asila was intoned</l>
+        <l n="2'">... established funerary offerings/a “good site&quot;?, (as if?) I was not living there(?)</l>
+        <l n="3'">(I?) approached the sunlight, the sunlight was burning</l>
+        <l n="4'">(I?) approached the shade, but it was covered by (lit. along with) a southern storm(?)</l>
+        <l n="5'">My “honey mouth” was ...</l>
+        <l n="6'">My “thing that gladdened the liver” was turned back with the dust(?)/I turned that which pleased me back with the dust(?</l>
+        <l n="7'">My fate, (involving?) Suen and lugalane</l>
+        <l n="8'">Speak to An, so that he undoes it for me</l>
+        <l n="9'">Now, speak to An, he will undo it for me</l>
+        <l n="10'">The woman will take away the fate (of, from?) lugalane</l>
+        <l n="11'">Mountain and flood alike lie/crouch at her feet</l>
+        <l n="12'">That woman is also supreme, she can shake the city</l>
+        <l n="13'">Stand/serve, so that she is cooled in her heart to/for me</l>
+        <l n="1'">(This is) what has not been said (of) Nanna('s), (but) what has been said of you</l>
+        <l n="2'">My lady, (you did these things?) the greatest(?), you are supreme</l>
+        <l n="3'">My lady beloved of An, I shall speak of(?) your anger(?)</l>
+        <l n="4'">The charcoal has been piled up, the cleansing rites ...</l>
+        <l n="5'">The “holy tavern” has been set up for you(?), ...</l>
+        <l n="6'">After it (the matter) became too much, lady and queen, (as has) been spoken to you(?)</l>
+        <l n="7">That which was said to you in the nighttime</l>
+        <l n="8'">The lamentation priest shall repeat at(?) noon for you</l>
+        <l n="9'">Because of your captured spouse, because of your captured child</l>
+        <l n="10'">Your anger has been maximized, your heart does not cool</l>
+        <l n="11'">Perfect lady, authoritative one of the assembly</l>
+        <l n="12'">She accepted her siskur offering/ritual on her (Enheduana's) behalf</l>
+        <l n="13'">...</l>
+        <l n="14'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

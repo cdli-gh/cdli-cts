@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000782, ex. 010</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346256</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346256.P346256.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">ur5 tuku na-an-bad-e lu2-bi ša-ba-⸢ri⸣-[...]</l>
+            <l n="2">sun7-na-da GAN2 na-an-da-ga2-ga2-⸢an⸣</l>
+            <l n="3">⸢gi4⸣-⸢in⸣-še3 du-de3 ši-me-ši-ib2-⸢šub⸣-[...]</l>
+            <l n="4">uru17 tuš ⸢lu2⸣-ka na-ab-ta-bala-[...]-⸢de3⸣-en</l>
+            <l n="5">⸢igi⸣ ⸢du⸣-⸢un⸣ igi du-un ši-me-ši-ib2-x-x &amp;lt;&amp;lt;en&amp;gt;&amp;gt;</l>
+            <l n="6">⸢gi⸣-⸢sig⸣-ga {geš}kiri6-ka da-ga nam-bi-⸢duh⸣-e</l>
+            <l n="7">⸢su⸣-⸢ga⸣-⸢ab⸣ su-ga-ab ši-me-ši-ib2-be2-ne &amp;lt;&amp;lt;en&amp;gt;&amp;gt;</l>
+            <l n="8">⸢ur⸣ ⸢nam⸣-⸢mu⸣-gu7#?-⸢e⸣ du14? mu-ur3-ur3-re</l>
+            <l n="9">⸢dumu⸣-⸢gu10⸣ nam#?-silig#? nam-mu-ak-en lu2 ki us2-en?</l>
+            <l n="10">⸢dumu⸣ x-x geš3 ⸢a2⸣ ⸢zi⸣ na-an-ne-en x-e bi2-zu-zu</l>
+            <l n="11">[...]-⸢an⸣-uš2-⸢en⸣ ⸢bad3⸣-sila3 na-an-⸢gul⸣-x-x</l>
+            <l n="12">[...]-en iri x na-an-gur-ru &amp;lt;&amp;lt;re&amp;gt;&amp;gt;</l>
+            <l n="13">lu2#? [...]-ke4 ⸢igi⸣ {geš}balak-gin7 ši-šir5-šir5</l>
+            <l n="14">igi na#?-[...]-⸢bu⸣-de3#?-en ša3-ge bi2-kur2-kur2</l>
+            <l n="15">⸢lu2⸣-⸢lul⸣-⸢la⸣-gin7#? x-x-⸢ka⸣ ka ⸢nam⸣-tar-tar-re</l>
+            <l n="16">ki#!? x-nita-ka um-ma-⸢te⸣ ⸢šu⸣ ⸢na⸣-an-gu4-gu4-⸢de3⸣-⸢en⸣</l>
+            <l n="17">ur-sag#? dili ⸢na⸣-nam dili-ni ⸢lu2⸣ šar2-⸢ra⸣-am3#?</l>
+            <l n="18">⸢{d#}utu⸣ ⸢dili⸣ ⸢na⸣-⸢nam⸣ dili-⸢ni⸣ lu2 ⸢šar2⸣-⸢ra⸣-am3#!?</l>
+            <l n="19">[...]-sag#?-[...] x gub#?-bu-da zi-zux(SU) [he2]-⸢en⸣-⸢da⸣-an-gal2</l>
+            <l n="20">{d}[utu-... gub]-⸢bu⸣-da zi-zux(SU) ⸢he2⸣-⸢en⸣-da-an-gal2</l>
+            <l n="21">[... dumu]-⸢ni⸣-ra#? na-še3 mu-ri-ni-in-de5</l>
+            <l n="22">[...] ⸢dumu⸣-ni-ra [...]-un#?-de5-[...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">dumu-gu10 na ge-de5 ⸢na⸣ ⸢de5⸣-gu10 ⸢he2⸣-⸢dab5⸣</l>
+            <l n="2">zi-u4-su13-ra2-ra inim ⸢ga⸣-⸢ra⸣-ab-du11 ⸢gizzal⸣ he2-em-⸢ši⸣-[...]</l>
+            <l n="3">na de5-ga-ga2 [...] ⸢nam⸣-bi2-⸢bar⸣-[...]</l>
+            <l n="4">⸢inim⸣ du11-ga-⸢ga2⸣ [...]-⸢ta⸣-bala-[...]</l>
+            <l n="5">ka kaš ⸢nag⸣-a [...]</l>
+            <l n="6">lu2-tur-⸢gu10⸣ x x [...]-x</l>
+            <l n="7">ka kaš#! nag-⸢a⸣ [...]-x</l>
+            <l n="8">⸢{d#}nin⸣-⸢ka⸣-⸢si⸣ ⸢ša3⸣-[...]-x</l>
+            <l n="9-10">[...] x-ur3-ur3#?-[...]-in? ... [...]-x-ur3-ur3-re</l>
+            <l n="11">[...] x ⸢a⸣ mu-⸢un⸣-⸢ni⸣-⸢il2⸣-il2</l>
+            <l n="12">[...] x ⸢im⸣-sar-re</l>
+            <l n="13">[...] x ⸢im⸣-ta-ab-gur4-gur4-re</l>
+            <l n="14">[...]-za-ke4 nu-e-ši-su-su</l>
+            <l n="15">x-x [...] gi u2 na-nam ša3-bi inim#?-sig-ga-⸢am3⸣</l>
+            <l n="16">⸢e2⸣-⸢gal⸣ i7-da mah-e ša3-bi gu4 du7-du7-⸢dam⸣</l>
+            <l n="17">⸢nig2⸣ ku4-ku4 nig2#? sa2 nu-di-dam</l>
+            <l n="18">⸢nig2⸣ e3!-e nu-siligx(AK)?-ge-de3</l>
+            <l n="19">nig2 lu2-ka ga-ra-ab-šum2-bi! ku-nu-a</l>
+            <l n="20">šum2-mu-da-bi an bad-ra2-am3</l>
+            <l n="21">⸢ga⸣-⸢ra⸣-⸢ab⸣-šum2-bi lu2-ra ga-&amp;lt;ni&amp;gt;-in-us2</l>
+            <l n="22">⸢nu⸣-⸢ra⸣-ab-šum2-mu nig2 igi-bi-še3 ti-la-am3</l>
+            <l n="23">[nig2]-u2-rum nig2 a2! si!-ga-a-da</l>
+            <l n="24">⸢lu2⸣-tur-gu10 nig2 nu-um-da-sa2</l>
+          </div>
+          <div n="bottom" type="textpart">
+            <l n="1">($ blank space $) 4(u@v) 6(diš)</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Do not remove a debt-bearer, that man will be(?) estranged to you</l>
+        <l n="2">Do not put down a field adjacent to an arrogant/shy(?) (person)</l>
+        <l n="3">He will leave it to you to go to(?) that female worker</l>
+        <l n="4">You are not to rebel from the resident city of that man</l>
+        <l n="5">(Even if?) “Lead, lead!” they(!) will say to you</l>
+        <l n="6">Do not release the bond(?) at the reed fence of an orchard</l>
+        <l n="7">“Replace it, replace it!” they(!) will say</l>
+        <l n="8">One should not feed a dog/stranger, one should not drag around(?) a quarrel(?)</l>
+        <l n="9">Do not use force, put(!?) a man on the ground</l>
+        <l n="10">Do not rape the child of a man, it will be learned of(?) in the assembly(?)</l>
+        <l n="11">Do not kill a strong man, do not destroy the outer wall(?)</l>
+        <l n="12">Do not kill a young man, do not return him ... the city(?)</l>
+        <l n="13">The slanderer, like a spindle, spins his eyes/gaze</l>
+        <l n="14">Do not to stand at the front, you(?) may have changed your mind(?)</l>
+        <l n="15">Do not (overly) praise/boast like a liar in a tavern(?)</l>
+        <l n="16">After you have approached the “place of manhood(?),” do not make your hand shake</l>
+        <l n="17">He is indeed a hero, he alone is (the equivalent) of many men</l>
+        <l n="18">He is indeed Utu, he alone is (the equivalent) of many men</l>
+        <l n="19">In order to stand with the hero, he must have your life with him</l>
+        <l n="20">In order to stand with Utu, he must have your life with him</l>
+        <l n="21">(The resident of?) Šuruppak instructed his son</l>
+        <l n="22">He was instructing his son Ziusudra</l>
+        <l n="1">My son, I shall instruct, may (you) grasp my instruction</l>
+        <l n="2">Ziusudra, I want to speak a word to you, may (you) pay attention to it</l>
+        <l n="3">Do not forget my instruction</l>
+        <l n="4">Do not transgress my spoken word</l>
+        <l n="5">The mouth that drinks beer(?)</l>
+        <l n="6">My child, you are corrupting (another) man(?)</l>
+        <l n="7">You multiply things with (your) mouth that drinks beer</l>
+        <l n="8">Ninkasi ... his heart/stomach ...</l>
+        <l n="9-10">... drags ...</l>
+        <l n="11">... raised ...</l>
+        <l n="12">... chases ...</l>
+        <l n="13">...</l>
+        <l n="14">&quot;Your own man&quot;(?) should not(!) repay(?) ... because of you(?)</l>
+        <l n="15">The reed bed is indeed (consisting of) reeds and plants/reeds of one cubit length(?), its midst is slander</l>
+        <l n="16">The palace, the great river, its midst is a bull that is to gore</l>
+        <l n="17">That which enters is not to be regular</l>
+        <l n="18">That which leaves is to be unceasing(!)</l>
+        <l n="19">That of a man(?) (which makes him say?) “I want to give ... to you&quot;(?) is close (i.e., easy?)</l>
+        <l n="20">(But) the (actual) giving to be done is distant (like) the heavens (i.e., hard?)</l>
+        <l n="21">(You say) I shall follow the (one who says) I shall give ... to you</l>
+        <l n="22">But he will not give it to you(?), (saying) “that which is before it(?) is used up”</l>
+        <l n="23">Property is something to be ...</l>
+        <l n="24">My child, nothing compares with it</l>
+        <l n="1">(Total:) 46 (entries).</l>
+      </div>
+    </body>
+  </text>
+</TEI>

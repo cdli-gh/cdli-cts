@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000564, ex. 002</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346601</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346601.P346601.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] ⸢ku4⸣-ku4-⸢de3⸣ [...]</l>
+            <l n="2'">[...] iri{ki} gibil-bi-am3#? [...]</l>
+            <l n="3'">⸢ugnim⸣-bi ⸢gu2⸣ [...]</l>
+            <l n="4'">⸢šeg12⸣ du3-u3-de3 ⸢du⸣-[...]</l>
+            <l n="5'">⸢u3⸣ i7 ba-al-[...]</l>
+            <l n="6'">⸢tukumbi⸣ ⸢lugal⸣-[...]</l>
+            <l n="7'">⸢[{geš}]pana⸣ {geš}gag pana!? {geš#}[...]</l>
+            <l n="8'">⸢[{geš}]ma2⸣ tur-tur šu-⸢ku6⸣-[...]</l>
+            <l n="9'">[...]-la2 ⸢keš2⸣-[...]</l>
+            <l n="10'">[...] x-ke4 [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">I(?) did not allow this army to enter the ancient upper part of the city</l>
+        <l n="2'">They are dwelling in the city that is new(er)(?)</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">This army, at the (far?) bank of the Amar-Suen canal, serves(?) by constructing brickwork, working/fortifying Dunnum(?), and excavating the canal</l>
+        <l n="6'">...</l>
+        <l n="7'">...</l>
+        <l n="8'">...</l>
+        <l n="9'">...</l>
+        <l n="10'">If my king has not brought out from ... Elam(ite troops), bows, arrow, small boats bound with sacks for the “fishermen,” weapons, ..., (all) the furnishings of battle.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

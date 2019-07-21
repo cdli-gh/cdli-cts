@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000604, ex. 003</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346600</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346600.P346600.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...]-x</l>
+            <l n="2'">[...]-⸢en⸣</l>
+            <l n="3'">[...]-x [...]-x-x-x-UŠ</l>
+            <l n="4'">⸢mušen⸣ ⸢gud3⸣-⸢de3⸣ [...] x pa {geš}[...]-en#?</l>
+            <l n="5'">ku6 a ⸢bar!(KIN?)⸣-⸢ra⸣ x-[...]-gu10#? mi-ni-ib2-il2-il2</l>
+            <l n="6'">{geš}kiri6 a šu-⸢ta⸣ nu#?-[...] ⸢gurun⸣ ⸢la⸣-ba#?-il2-en</l>
+            <l n="7'">a-ša3 a-la-bi-ta ⸢kin2⸣ [...]-ak#?-e u2#?-[...]-gar#?-x</l>
+            <l n="8'">⸢igi⸣ la2 tur gu7-a ba-⸢tuš⸣-[...] x x [...]</l>
+            <l n="9'">⸢di4⸣-di4-la2-gu10 u2#? [...] dili-[...]</l>
+            <l n="10'">[...] x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">zarah#!? a-nir-[...] x [...]</l>
+            <l n="2'">eh hur#?-[...] x ⸢eh⸣ LA ⸢im⸣-x-[...]</l>
+            <l n="3'">du-lum-e {uzu}šuš2-gin7 ba-de5-de5-[...] ak-bi nu-mu-e-da-il2-i</l>
+            <l n="4'">šu sug4-ta ⸢lu2⸣ nu-mu-da-kin2-ge26 geštu2 de5-ge#? nu-tuku</l>
+            <l n="5'">⸢lugal⸣-gu10 a-ga-gu10 giri3#? zukumx(|ZI&amp;amp;ZI.MIN|)-e lu2-⸢lul⸣-la nu-me-en</l>
+            <l n="6'">⸢tukumbi⸣ lugal-ga2 an-na-du10</l>
+            <l n="7'">[...]-gu10 nam-ba-uš2-de3-en</l>
+            <l n="8'">[...] ⸢nam⸣-ba-ra-bala-e</l>
+            <l n="9'">[...]-x-ke4 [...]-x-⸢e3⸣</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">...</l>
+        <l n="4'">Like a bird ... in(?) a nest, I ... the branches of the ... tree(?)</l>
+        <l n="5'">Like a fish a the edge of the water, my life has been carried (away)</l>
+        <l n="6'">Like an orchard that is not watered by hand, I do not bear fruit</l>
+        <l n="7'">The field is not worked by means of its plenty(?), the seed is not planted(!?)</l>
+        <l n="8'">I sit watching, eating little(?), no one looks towards me</l>
+        <l n="9'">My tiny ones, having learned about (where?) food and water (was?) fled alone</l>
+        <l n="10'">...</l>
+        <l n="1'">Wailing and lamentation ...</l>
+        <l n="2'">uplum lice, scabies(?) nābum lice(?) and parasites ..., I dry out/shrink from hunger and thirst(?)</l>
+        <l n="3'">Misery gathers me up like grease, I cannot bear its commission(?)</l>
+        <l n="4'">(I) cannot seek anyone empty-handedly, (I) do not have a listener</l>
+        <l n="5'">My king, my back is being trampled, even though I am not a liar/criminal</l>
+        <l n="6'">If it is pleasing to my king</l>
+        <l n="7'">I should not die (because of) my unknown (i.e., non-existent?) crime</l>
+        <l n="8'">(I) should not be drawn like water in the place of slaughter(?)</l>
+        <l n="9'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000364, ex. 057</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346525</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346525.P346525.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[... im]-⸢ma⸣-⸢an⸣-[dab5]</l>
+            <l n="2'">[...]-x ⸢nu⸣-⸢un⸣-dab5 [kur-re] ⸢im⸣-ma-an-dab5</l>
+            <l n="3'">[...] ⸢me3⸣-a nu-⸢un⸣-šub kur-re im-ma-an-dab5</l>
+            <l n="4'">[... ⸢{d}]nergal⸣ sag du3-a nu-un-dab5 kur-re im-⸢ma⸣-⸢an⸣-⸢dab5⸣</l>
+            <l n="5'">[...]-⸢lil2⸣ inim-bi nu-mu-un-de3-gub eridu{ki}-[...]</l>
+            <l n="6'">[...] kur-še3 mu-da-⸢an⸣-[...]</l>
+            <l n="7'">[...] mu-⸢da⸣-[...]</l>
+            <l n="8'">[...] x x [...]</l>
+            <l n="9'">a-a {d}[...]</l>
+            <l n="10'">ur-sag sul {d}utu ⸢gu3⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...]-x ab-lal3 kur-ra ⸢gal2⸣ [...]</l>
+            <l n="2">[...]-a-ni kur-ta ⸢e11⸣-[...]</l>
+            <l n="3">[...] sul {d}utu dumu {d}nin-gal [...]</l>
+            <l n="4">[...] ⸢kur⸣-ra gal2 mu-na#?-[...]-x-[...]</l>
+            <l n="5">[...]-x kur-ta im-ma-⸢da⸣-ra-ab-⸢e11⸣-⸢de3⸣</l>
+            <l n="6">[...]-⸢ni⸣ gu2-da mu-un-la2-la2 e-ne ne mu-⸢un⸣-su#?-⸢su⸣-⸢ub⸣-[...]</l>
+            <l n="7">en3#? ⸢tar⸣-re im-ma-ni-in-kuš2-u3</l>
+            <l n="8">[nu-uš]-⸢ma⸣-ab-be2-en gu5-li-gu10 nu-uš-ma-ab-be2-en</l>
+            <l n="9">[...]-ga2 kur-ra-ke4 igi bi2-duh-am3</l>
+            <l n="10">[nu-uš-ma-ab]-⸢be2⸣-en gu5-li-gu10 nu-uš-ma-⸢ab⸣-[be2-en]</l>
+            <l n="11">[...] x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">... did not seize him, the netherworld seized him</l>
+        <l n="2'">... did not seize him, the netherworld seized him</l>
+        <l n="3'">The site of(?) manhood did not fell him in battle, the netherworld seized him</l>
+        <l n="4'">The udug demon begotten by(!?) Nergal, did not seize him, the netherworld seized him</l>
+        <l n="5'">Father Enlil did not stand with him in this matter, so he set out alone to Eridu</l>
+        <l n="6'">... cast my ball into the netherworld</l>
+        <l n="7'">... cast my mallet into the netherworld</l>
+        <l n="8'">...</l>
+        <l n="9'">Father Enki stood with him(!) in the matter</l>
+        <l n="10'">He was speaking to the hero and youth, Utu</l>
+        <l n="1">Now, after you(!) open a hole in the netherworld</l>
+        <l n="2">Bring up his servant from the netherworld</l>
+        <l n="3">The hero, youth Utu, the son given birth to be Ningal</l>
+        <l n="4">He opened up a hole in the netherworld</l>
+        <l n="5">By means of his “breeze” (Utu's son, a dream god), he brought it (an aspect of Enkidu?) out from the netherworld</l>
+        <l n="6">He (repeatedly) hugged him and kissed him</l>
+        <l n="7">He was exhausting him with inquiries</l>
+        <l n="8">Would that you will speak to me, would that you will speak to me</l>
+        <l n="9">You are someone that has seen the orders of the netherworld</l>
+        <l n="10">Would that you will speak to me, would that you will speak to me</l>
+        <l n="11">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

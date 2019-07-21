@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0470</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346508</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346508.P346508.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x x [...]</l>
+            <l n="2'">[...] ki#? siskur2 DU ⸢nu⸣-[...]</l>
+            <l n="3'">[...] ki ša3 hul2-la nu-tum2</l>
+            <l n="4'">[...]-gu10 a ni2-gu10 a geš-ge-ge-na-⸢gu10⸣</l>
+            <l n="5'">[...]-gu10 a nu-tu5-tux(NAGA) i3 nu-⸢šeš4⸣</l>
+            <l n="6'">[...] x-gu10 a geš-ge-na-gu10 HI-HI#?</l>
+            <l n="7'">[...] ⸢uludin2⸣ sa6-ga-gu10 x [...]</l>
+            <l n="8'">[...] ⸢ga⸣-am3-du11 a ama ⸢ugu⸣-[...]-x-x</l>
+            <l n="9'">[... ga]-⸢am3⸣-du11 a nin9 ama5#? [...]-⸢na⸣ ga-am3-⸢du11⸣</l>
+            <l n="10'">[...] til#? ša3 sag3-ga-gu10 [ga]-⸢am3⸣-du11 nu-til#?</l>
+            <l n="11'">[...] x-e-ne mu-un-x-eš-am3#?</l>
+            <l n="12'">[...]-⸢ni⸣-in-tu-u4-de3#?-en</l>
+            <l n="13'">[...]-ba#? mu-un-DU</l>
+            <l n="14'">[...] x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">... where the siskur prayer/offering/ritual ... is not known, where rejoicing ... is not known</l>
+        <l n="3'">... a place unsuitable for a rejoicing heart</l>
+        <l n="4'">... alas, my ..., alas, myself, alas, my limbs</l>
+        <l n="5'">My ... not bathed, not anointed in oil</l>
+        <l n="6'">... alas, my ..., alas, my beautiful/scratched(?) limbs</l>
+        <l n="7'">... my beautiful features ...</l>
+        <l n="8'">I want to say ..., I want to say “Alas, my birth mother”</l>
+        <l n="9'">I want to say ..., I want to say alas, sister, mother(?) Geštinanna(?)</l>
+        <l n="10'">I want to say ... my distress, it is unceasing(?)</l>
+        <l n="11'">It is ... that ... (pl.) decreed(?)</l>
+        <l n="12'">... bore me/you</l>
+        <l n="13'">Who took away from(?) my ...?</l>
+        <l n="14'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

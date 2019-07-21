@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000380, ex. 016</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346210</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346210.P346210.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[...] geš-hur ha-lam-me-[de3]</l>
+            <l n="2">[...] ⸢teš2⸣-bi i3-gu7-e#?</l>
+            <l n="3">[...]-⸢gi⸣-⸢ra⸣ šu bala ak-de3</l>
+            <l n="4">[...] ⸢sa6⸣-ga e2-ba gi4-gi4-de3</l>
+            <l n="5">[...] ⸢gul⸣-gul-lu-de3 e2 gul-gul-⸢lu⸣-de3</l>
+            <l n="6">[...] gul-gul-lu-de3 amaš tab-⸢tab⸣-[be2]-de3</l>
+            <l n="7">[gu4]-⸢bi⸣ tur3-bi-a nu-gub-bu-de3</l>
+            <l n="8">[udu]-⸢bi⸣ amaš-a nu-dagal-e-de3</l>
+            <l n="9">[i7]-de3 a mun4-na tum2-mu-⸢de3⸣</l>
+            <l n="10">[...] zi-de3 {u2}hirim mu2-mu2-⸢de3⸣</l>
+            <l n="11">[...] u2 a-nir mu2-⸢mu2⸣-[de3]</l>
+            <l n="12">[...]-⸢ni⸣-ir ⸢ki⸣ ⸢nu⸣-[...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[...] x [...]</l>
+            <l n="2'">[...] ⸢ki⸣-tuš-ba ⸢bi2⸣-⸢in⸣-⸢hu⸣-⸢luh⸣ ⸢ug3⸣-[...]</l>
+            <l n="3'">[...] ⸢u4⸣ gig-ga mu-un-zal iri{ki}-⸢a⸣ [...]</l>
+            <l n="4'">[...] ama5 kalam-ma-ka {geš}ig-šu-⸢ur2⸣ [...]</l>
+            <l n="5'">[...] {i7#}idigna {i7}buranun-na ⸢a⸣ [...]</l>
+            <l n="6'">[... im]-gid2-da 1(diš)-kam-ma</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">In order to overturn the day, in order to destroy the plans</l>
+        <l n="2">The storm ravages like a stormwind</l>
+        <l n="3">In order to overturn the me of Sumer</l>
+        <l n="4">In order to confine the good reign in its house</l>
+        <l n="5">In order to destroy the city, in order to destroy the temple</l>
+        <l n="6">In order to destroy the cattlepen, in order to flatten the sheepfold</l>
+        <l n="7">So that the ox does not does not stand in its cattlepen</l>
+        <l n="8">So that the sheep does not expand (in number?) in the sheepfold</l>
+        <l n="9">So that the canal irrigates with (only) brackish water</l>
+        <l n="10">So that hirin grass grows in the fertile field</l>
+        <l n="11">So that the “lamentation plant” grows in the plain</l>
+        <l n="12">So that the mother does not seek the whereabouts of her child</l>
+        <l n="1'">...</l>
+        <l n="2'">An terrified within the dwelling of Sumer, the people were frightened</l>
+        <l n="3'">Enlil made a painful day elapse, silence befell the city</l>
+        <l n="4'">Nintur set (open?) the bolt (in the street) at the women's quarters of the land</l>
+        <l n="5'">Enki bound up the water away from the Tigris and Euphrates</l>
+        <l n="6'">... 1st &quot;long-tablet&quot; (in a series)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

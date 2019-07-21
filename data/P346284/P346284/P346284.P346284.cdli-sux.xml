@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0199</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346284</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346284.P346284.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[... kur-gi4]{mušen} 1(diš)-am3</l>
+            <l n="2">x ⸢mušen⸣-du3-ka i3-gub-bu</l>
+            <l n="3">uga#{mušen}</l>
+            <l n="4">bad3#?-AB-si e2?-me-en i3-gub</l>
+            <l n="5">⸢sukud⸣-da-zu-ne dagal-la-zu-ne</l>
+            <l n="6">⸢a⸣-⸢na⸣-am3 i3-im-gub-en i3-še3</l>
+            <l n="7">sa-zu ma-nu2-ma</l>
+            <l n="8">še-numun-zu ma-an-gar-ra-ma</l>
+            <l n="9">sa-zu mu-ra-an-dab-be2</l>
+            <l n="10">a-na-am3 sa-⸢zu⸣ la-ba-ra-an-bur12</l>
+            <l n="11">la-ba-da-dal-dal še3</l>
+            <l n="12">geš-bur2 im-ma-an-dab</l>
+            <l n="13">la-ba-da-dal-dal eš2</l>
+            <l n="14">⸢kur⸣-gi4{mušen} uga{mušen}-ra</l>
+            <l n="15">[gu3] ⸢mu⸣-un-na-de2-e</l>
+            <l n="16">[...]-zu#? u3 za-e ugu-gu10-uš</l>
+            <l n="17">[...]-gu10-še3 he2-dab-be2 i3-še3</l>
+            <l n="18">uga#{mušen} kur-gi4{mušen#?}-&amp;lt;ra&amp;gt;</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...]-ni-ib-gi4-gi4</l>
+            <l n="2">[...] ⸢nu2⸣-zu sa ba-bar-ra-zu?-zu</l>
+            <l n="3">[...] ki#!-ta-zu ga2-e im-ta-zu</l>
+            <l n="4">[...] im-ta-zu x ki-ta-zu</l>
+            <l n="5">⸢dam⸣ ⸢mušen⸣-du3-kam! geš-⸢gan⸣ mi-ni-in-tuku-tuku</l>
+            <l n="6">u3-zu gu? mu-da-KA</l>
+            <l n="7">NIG2 ba-ni-in-gal2</l>
+            <l n="8">na-zi ba-an-gar</l>
+            <l n="9">sa-zu i3-nu2-ma</l>
+            <l n="10">še-numun-zu ba-an-gar-ma</l>
+            <l n="11">⸢sa⸣-zu ⸢mu⸣-na-dab-be2 i3-še3</l>
+            <l n="12">⸢kur⸣-gi4#{mušen} uga#{mušen}-ra</l>
+            <l n="13">⸢gu3⸣ ⸢mu⸣-⸢na⸣-⸢de2⸣-e</l>
+            <l n="14">x [...] x-am3</l>
+            <l n="15">[...] ⸢ga2⸣-e im-ta-⸢zu⸣</l>
+            <l n="16">[...] x x ⸢ki⸣-⸢ta⸣-zu</l>
+            <l n="17">[...] x x x</l>
+            <l n="18">x x-e#?-ne#?-ke4</l>
+            <l n="19">x ⸢sa⸣-zu NIG2 x gu7-x</l>
+            <l n="20">[...] x nu-um-zu#?</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">When the goose, who was one/alone</l>
+        <l n="2">Standing in the ... of the fowler</l>
+        <l n="3">The raven</l>
+        <l n="4">Was standing, you are on the parapet(!?) of the temple/house(?!)</l>
+        <l n="5">(And said) “when you were high-(ranging?), when you were wide(-ranging?)</l>
+        <l n="6">Why(?) do you (now) stand (here)?”</l>
+        <l n="7">(The Goose said) “Your net was laid down for me</l>
+        <l n="8">(The fowler) is the one who set down your seed for me</l>
+        <l n="9">Your net holds me(?) to your benefit (i.e., instead of you)”</l>
+        <l n="10">(The raven said(?)) “(But) why(?) have you(?) not uprooted your net?</l>
+        <l n="11">(Why) can't you(?) fly away?” he said</l>
+        <l n="12">“The snare has taken hold (of me)(?)</l>
+        <l n="13">(and thus) I cannot fly away” he said</l>
+        <l n="15">The goose spoke to the raven</l>
+        <l n="16">... and you (are?) upon me</l>
+        <l n="17">May/thus you(?) seize/pass towards my ...</l>
+        <l n="1">The raven answered the goose</l>
+        <l n="2">Your cast net(?), your ... net</l>
+        <l n="3">... (am I?) below you, (or am I) above you?(?)</l>
+        <l n="4">... (am I?) above you, (or am I) below you?(?)</l>
+        <l n="5">The spouse of the fowler was listening(!?)</l>
+        <l n="6">...</l>
+        <l n="7">... had ... there</l>
+        <l n="8">... put ...</l>
+        <l n="9">Your net was laid out</l>
+        <l n="10">... placed your seed</l>
+        <l n="11">And thus you net catches for him</l>
+        <l n="13">The goose spoke to the raven</l>
+        <l n="14">...</l>
+        <l n="15">... (am I?) below you, (or am I) above you?(?)</l>
+        <l n="16">... below you</l>
+        <l n="18">...</l>
+        <l n="19">... your net ...</l>
+        <l n="20">... did not know</l>
+      </div>
+    </body>
+  </text>
+</TEI>

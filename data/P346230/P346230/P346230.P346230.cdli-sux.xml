@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000375, ex. 019</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346230</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346230.P346230.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">hur-sag {na4}za-gin3-na-gin7 tar-re-gin7</l>
+            <l n="2">iri {d}iškur-re ba-an-de2-a-gin7 gu2 ki-še3! ga2-ga2-dam</l>
+            <l n="3">e2-e kur {geš}erin ku5 nu-me-a</l>
+            <l n="4">{uruda}ha-zi-in gal-gal ba-ši-in-de2-de2</l>
+            <l n="5">{uruda}aga-silig-ga a2 min-a-bi-da u4-sar ba-an-ak</l>
+            <l n="6">ur2-bi-a {uruda}gi2-dim ba-an-gar</l>
+            <l n="7">suhuš kalam-ma-ke4 ki ba-e-la2</l>
+            <l n="8">pa-bi-a {uruda}ha-zi-in ba-an-⸢gar⸣</l>
+            <l n="9">e2-e guruš ug5-ga-gin7 gu2 ki-še3 ⸢ba⸣-[...]</l>
+            <l n="10">gu2 kur-kur-ra gu2 ki-še3 ⸢ba⸣-[...]</l>
+            <l n="11">alal-bi im-ma-ra-an-x-[...]</l>
+            <l n="12">im šeg3-šeg3 an-na ⸢ba⸣-⸢e⸣-[...]</l>
+            <l n="13">{geš}ka2-bi ba-ra-an-si-ig teš2-bi#? [...]</l>
+            <l n="14">ka2 še nu-ku5-da še i-ni-⸢in⸣-[...]</l>
+            <l n="15">šu kalam-ma-ta še ba-⸢da⸣-[...]</l>
+            <l n="16">[...] ⸢silim⸣-ma-bi {geš}al-e [...]</l>
+            <l n="17">kur-⸢kur⸣-[...] silim-silim-bi [...]</l>
+            <l n="18">a-gar3 ⸢mah⸣-e a-eštub{ku6#} [...]</l>
+            <l n="19">e2-kur-ra ⸢{uruda}gi2⸣-[dim] ⸢gal⸣-gal-la#?-[...]</l>
+            <l n="20">itima{+ma} ⸢e2⸣ u4 nu-⸢zu⸣ x x [...]</l>
+            <l n="21">dub-šen ku3 dingir-re-e-ne uri#?[{ki} ...]</l>
+            <l n="22">la-ha-ma dub-la2 gal ⸢e2⸣-[...]</l>
+            <l n="23">lu2 an-zil gu7-a nu-⸢me⸣-[eš]</l>
+            <l n="24">{d}na-ra-am-{d}suen šu gibil#?-ke4 bi2-in-sag3</l>
+            <l n="25">{geš}erin {geš}šu-ur2-me {geš}za-ba-lum ⸢{geš}taškarin⸣</l>
+            <l n="26">geš gi-gun4-na-bi-eš KUM ba-an-sur-sur</l>
+            <l n="27">ku3-sig17-bi mi-si-ra bi2-in-e11</l>
+            <l n="28">ku3-babbar-bi (|SU.LU.ŠE3|%|SU.LU.ŠE3|)-šir-ra bi2-in-ak</l>
+            <l n="29">uruda-bi še mah de6-a-gin7 kar-re bi2-in-si-si</l>
+            <l n="30">⸢ku3⸣-bi ku3-dim2-e im-dim2-e</l>
+          </div>
+          <div n="bottom" type="textpart">
+            <l n="1">3(u)</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">za-bi za-dim2-e im-dim2-e</l>
+            <l n="2">uruda-bi simug im-tu11-be2</l>
+            <l n="3">nig2-gur11 iri hul-a nu-me-a</l>
+            <l n="4">e2-e ma2 gal-gal kar-ra ba-an-us2</l>
+            <l n="5">e2 {d}en-lil2-la2-še3 ma2 gal-gal kar-ra ba-an-us2</l>
+            <l n="6">nig2-gur11 uru17-ta ba-ra-e3</l>
+            <l n="7">nig2-gur11 uru17-ta e3-da-bi</l>
+            <l n="8">a-ga-de3 dim2-ma#?-bi ba-ra-e3</l>
+            <l n="9">ma2-e kar ib2-kur2-[...] a-ga-de3 ba-kur2</l>
+            <l n="10">u4 te-eš du11-⸢ga⸣ kalam teš2-a gar-ra</l>
+            <l n="11">⸢a⸣-ma-ru zi-⸢ga⸣ gaba-šu-gar nu-tuku</l>
+            <l n="12">{d#}en-lil2-le nam [...]</l>
+            <l n="13">kur gu2-⸢bi2⸣-na#?-[...]</l>
+            <l n="14">hur-⸢sag⸣ [...]</l>
+            <l n="15">ug3-ga2 nu-⸢si⸣-[...]</l>
+            <l n="16">gu-ti-um{ki} [...]</l>
+            <l n="17">dim2-⸢ma⸣ ⸢lu2⸣-x-x [...]</l>
+            <l n="18">{d}en-lil2-le kur-⸢ta⸣ [...]</l>
+            <l n="19">ka9-ka9 buru5{mušen}-gin7#? [...]</l>
+            <l n="20">a2-bi gu maš-⸢anše⸣-[...]</l>
+            <l n="21">nig2-na-me a2-bi [...]</l>
+            <l n="22">lu2 ⸢na⸣-me a2-bi [...]-x-[...]</l>
+            <l n="23">{lu2}kinx(UR4)-gi4-a har-⸢ra⸣-an-na nu-⸢mu⸣-[...]</l>
+            <l n="24">ma2 ra-gaba i7!-da nu-mu-un-⸢dab⸣-⸢be2⸣</l>
+            <l n="25">ud5!? sig17 {d}en-lil2-la2 amaš-ta ba-ra-ra-aš na-⸢gada⸣-bi bi2-in-us2-u2-us2</l>
+            <l n="26">šilam ⸢tur3⸣-bi-ta ba-ra-⸢ra⸣-⸢aš⸣ unu3-bi bi2-in-us2-u2-us2</l>
+            <l n="27">geš gu2-ka en-nu-ug3 ba-e-zal</l>
+            <l n="28">har-ra-an-na {lu2}sa-gaz2 ba-e-tuš</l>
+            <l n="29">⸢abul⸣ kalam-ma-ka {geš}ig IM-ma bi2-in-gub</l>
+            <l n="30">⸢kur⸣-kur-re bad3 uru17-ne-ne-ke4 gu3 gig mi-ni-ib2-be2-ne</l>
+          </div>
+          <div n="bottom" type="textpart">
+            <l n="1">1(geš2)</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">As if to(?) cut/separate(?) it like the mountain range of lapis lazuli</l>
+        <l n="2">In order to bring (its) neck to the ground like a city that Iškur had poured (upon)</l>
+        <l n="3">Although the temple was not (in/of) the mountain of the cut cedar/juniper</l>
+        <l n="4">He brought(?) great hazin axes towards it</l>
+        <l n="5">He sharpened along both edges of the agasilig ax</l>
+        <l n="6">He set the gidim implement into its base</l>
+        <l n="7">It was excavated up to the foundation of the land</l>
+        <l n="8">He set the hazin ax into its “branches”</l>
+        <l n="9">The house fell with its neck to the ground like a dead young man</l>
+        <l n="10">The whole of the lands fell with their necks to the ground</l>
+        <l n="11">He split its rainpipe away from it</l>
+        <l n="12">The rain that had fallen went (back) up into heaven</l>
+        <l n="13">He removed (the ornaments?) from the gate/door, (the temple's/land's?) dignity changed</l>
+        <l n="14">He cut down barley at the gate/door where barley was not cut</l>
+        <l n="15">He cut off barley from the hand of the land</l>
+        <l n="16">He made the pickax strike the gate/door of well being</l>
+        <l n="17">The well-being of all the lands(?) changed</l>
+        <l n="18">Like(?) a great meadow in which(?) the carp flood expands(?)</l>
+        <l n="19">The great gidim implements of (i.e., for use against?) the Ekur temple he set (its metal) into molds</l>
+        <l n="20">The people saw (into) the itima chamber, the building where sunlight is unknown</l>
+        <l n="21">Agade saw (into) the holy treasure box of the gods</l>
+        <l n="22">Its lahama creatures, the great pilasters stationed at the temple</l>
+        <l n="23">Who did not commit taboo</l>
+        <l n="24">Naram-Sîn, the “renovator” struck them down</l>
+        <l n="25">Cedar, cypress, juniper, boxwood</l>
+        <l n="26">Concerning(?) the woods of its giguna structure, he ...</l>
+        <l n="27">He had its gold brought up/down in misir bags(?)</l>
+        <l n="28">He had its silver put in lubšir bags</l>
+        <l n="29">He had its copper loaded into the harbor like barley brought (in) great (quantity)</l>
+        <l n="30">(And thus) the precious metal worker would (re)fashion its precious metal</l>
+        <l n="1">(Subtotal:) 30 (lines)</l>
+        <l n="1">(And thus) the stone cutter would (re)fashion its precious stone</l>
+        <l n="2">(And thus) the metalworker would strike its copper</l>
+        <l n="3">As if(?) the property was not of a destroyed city</l>
+        <l n="4">At the temple he parked great boats in the harbor</l>
+        <l n="5">Towards/concerning the temple of Enlil he parked great boats in the harbor</l>
+        <l n="6">(Thus) the property left the city</l>
+        <l n="7">When the property left the city</l>
+        <l n="8">The reasoning/mood of Agade left (as well)</l>
+        <l n="9">(When?) the boat(s) changed(?) harbors, the mood of Agade changed</l>
+        <l n="10">The storm that erupted(?) and beset the land all together</l>
+        <l n="11">The risen flood that had not rival</l>
+        <l n="12">Enlil, because his beloved Ekur was destroyed, what was that which would be done more (than that as revenge)(?)</l>
+        <l n="13">He raised his eye towards the land/mountain of Gubin</l>
+        <l n="14">He stripped the whole (of the population) away from the broad mountain ranges</l>
+        <l n="15">(Those who were) not placed among the people, not counted among the land</l>
+        <l n="16">Gutium, a people(?) who knew no attachment</l>
+        <l n="17">(Possessing) the intellect of a man, the counsel of a dog, and the features of a monkey</l>
+        <l n="18">Enlil brought out from the mountains</l>
+        <l n="19">They(?) touched the ground like the copulation/superimposing(?) of small birds(?)</l>
+        <l n="20">They(?) stretched out their arms in the plain for him like a net (for the) herd</l>
+        <l n="21">Nothing escaped their reach</l>
+        <l n="22">Their reach spared no one</l>
+        <l n="23">The messenger did not go on the road</l>
+        <l n="24">The boat of the rider was not passing the river</l>
+        <l n="25">Towards the yellow goat(s)(?) of Enlil driven from the sheepfold, he made its herder follow</l>
+        <l n="26">Towards the cow(s) driven from the cattle pen, he made its herder follow</l>
+        <l n="27">A guard was in effect (lit. spent time) upon the trees of the riverbank(?)</l>
+        <l n="28">The robber dwelled on the highway</l>
+        <l n="29">At the gate of the land, he made the door stand ...</l>
+        <l n="30">The lands were crying out bitterly in the walls of their cities</l>
+        <l n="1">(Total:) 60 (lines)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

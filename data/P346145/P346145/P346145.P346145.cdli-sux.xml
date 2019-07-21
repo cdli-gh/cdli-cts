@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000364, ex. 051</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346145</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346145.P346145.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">⸢lu2⸣ ⸢ki⸣ ⸢me3⸣-⸢a⸣-⸢ka⸣ šub#?-x ⸢igi⸣ bi2-⸢duh⸣</l>
+            <l n="2">⸢ki⸣ ⸢ama⸣-⸢ni⸣ sag#?-x x x ⸢nu⸣-un!-⸢dab5⸣-⸢be2⸣ x-⸢ni⸣ ⸢er2⸣ x-⸢še8⸣-⸢še8⸣ x-a-⸢ni⸣ edin-na ba-an-nu2</l>
+            <l n="3">[...] x x-ne#?-ke4?-e#? igi#!? ⸢bi2⸣-⸢duh⸣</l>
+            <l n="4">[...] x x ⸢NE⸣ x x x x x-x-x-en</l>
+            <l n="5">[...] x x [...] ⸢bi2⸣-⸢duh⸣</l>
+            <l n="6">[...]-x</l>
+            <l n="7">[... bi2]-duh#?</l>
+            <l n="8">[...]-x</l>
+            <l n="9">[... bi2]-⸢duh⸣</l>
+            <l n="10">[...]-x</l>
+            <l n="11">[...] ba#?-an-kar-aš#?</l>
+            <l n="12'">[...] x-da#?-an#!?-gul#?-e#?</l>
+            <l n="13">[...] x x igi bi2#!?-⸢duh⸣</l>
+            <l n="14">[...]-x-x-⸢ge⸣</l>
+            <l n="15">[...]-⸢ib⸣-bala#?-x</l>
+            <l n="16">[...] al#?-x-e</l>
+            <l n="17">[...] ⸢bi2⸣-duh</l>
+            <l n="18">[...] x sila šub-ba ⸢i3⸣-gu7#?-x</l>
+            <l n="19">[...] ⸢bi2⸣-duh</l>
+            <l n="20">[... e]-ne#?-⸢di⸣ ⸢im⸣-⸢de⸣-ne</l>
+            <l n="21">[...] nu#?-bi2#?-tak4#?-a</l>
+            <l n="22">[...] x x-a i3-sub#?-be2?</l>
+            <l n="23">[...]-x-x</l>
+            <l n="24">[...]-x</l>
+            <l n="25">[... bi2]-duh#?</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[...] x [...] ⸢im⸣-⸢mi⸣-⸢gi4⸣-gi4#?-[...]</l>
+            <l n="2'">x-x im-mi-gi4-gi4-x-[...]</l>
+            <l n="3'">{geš}šu-kara2 a2-kar2-ra {geš!?}pa-a-šu a2-gid2-da#? da-da-ra-še3 mi-ni-in-x</l>
+            <l n="4'">e2-gal-la-na!? hul2-⸢hul2⸣-la mi-ni-in-gar</l>
+            <l n="5'">ug3 ki-sikil unu{ki}-ga sag#?-tuku bur-šum2-ma ⸢kul⸣-[aba4{ki} ...]</l>
+            <l n="6'">alan-bi igi mu-un-bar-bar-re-ne im-ma-hul2-hul2-la</l>
+            <l n="7'">{d}utu agrun-na-ta e3-a-na#? sag mu-un-na-mi-ni-in-il2#?</l>
+            <l n="8'">a2-bi mu-un-da-an-ag2</l>
+            <l n="9'">a-a-gu10 u3 ama-gu10 a ⸢si⸣-⸢ig⸣-ga#? nag#?-ze2#?-⸢en⸣</l>
+            <l n="10'">u4 nu-mu-un-da-sa9 am3-da-diri AGA?-bi in-ši-in-TAG-ne</l>
+            <l n="11'">{d}gilgameš2-e ki-⸢hul⸣-a ba-an-šub</l>
+            <l n="12'">u4 9(diš)-kam ki-hul-a ba-an-šub</l>
+            <l n="13'">ug3 ki-sikil unu{ki}-ga sag#?-tuku ⸢bur⸣-šu-ma kul-aba4{ki} er2 ba-še8-še8</l>
+            <l n="14'">bi2-in-du11-ga-gin7-nam</l>
+            <l n="15'">dumu gir2-su{ki}-a za3 bi2-in-tag</l>
+            <l n="16'">a-a-gu10 u3 ama-gu10 a si-ig nag#?-ze2?-en</l>
+            <l n="17'">ur-sag {d}gilgameš2 dumu {d}nin-sun2-ka za3-mi2-zu du10-ga-am3</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Did you see the man who fell a the site of battle?</l>
+        <l n="2">His mother does not seize his head(?) there, his spouse weeps, his ghost(?) has laid down in the plain</l>
+        <l n="3">Did you see ...?</l>
+        <l n="4">...</l>
+        <l n="5">Did you see ...?</l>
+        <l n="6">...</l>
+        <l n="7">Did you see ...?</l>
+        <l n="8">...</l>
+        <l n="9">Did you see ...?</l>
+        <l n="10">...</l>
+        <l n="11">... took away(?) ...</l>
+        <l n="12'">...</l>
+        <l n="13">Did you see ...?</l>
+        <l n="14">...</l>
+        <l n="15">...</l>
+        <l n="16">..., he is eating/drinking ...</l>
+        <l n="17">Did you see the ghost who had no one to place food (as a funerary offering)/who had no funerary offering?</l>
+        <l n="18">Scraping the pot, he is eating bread crumbs that have fallen into the street</l>
+        <l n="19">Did you see the little stillbirths, who do not know their own names?</l>
+        <l n="20">They play in/on a trough/table of gold and silver</l>
+        <l n="21">... not abandoned/opened(?)</l>
+        <l n="22">Suckling/rubbing(?) ...</l>
+        <l n="23">...</l>
+        <l n="24">...</l>
+        <l n="25">Did you see ...?</l>
+        <l n="1'">... was returning</l>
+        <l n="2'">... was returning(?)</l>
+        <l n="3'">He girded himself/his long arms(?) with implements, armor, the pašu ax, and a spear(?)</l>
+        <l n="4'">He initiated constant/much rejoicing in his palace</l>
+        <l n="5'">The young men(!?) and women of Uruk, the foremost(?) and the matrons of Kulaba</l>
+        <l n="6'">The were looking at the statue/form (of Gilgamesh?) and rejoicing intensely</l>
+        <l n="7'">When Utu emerged from his chamber (at sunrise), he (Gilgamesh?) raised his head</l>
+        <l n="8'">He gave this(?) order</l>
+        <l n="9'">(Saying) “My father and mother, drink clear water!”</l>
+        <l n="10'">The day could not reach the halfway point, it (the libation?) was overflowing(?), they were ...</l>
+        <l n="11'">Gilgamesh cast down the mourning site(?)</l>
+        <l n="12'">It was the 9th day, that he had cast down the mourning site(?)</l>
+        <l n="13'">The young men(!?) and young women of Uruk and the foremost(?) and the matrons of Kulaba wept</l>
+        <l n="14'">It was when he said (this)</l>
+        <l n="15'">He rejected/shoved away the citizen(s) of girsu</l>
+        <l n="16'">(Saying?) “my father and mother, drink clear water!”</l>
+        <l n="17'">Hero Gilgamesh, sun of Ninsun, your praise is sweet</l>
+      </div>
+    </body>
+  </text>
+</TEI>

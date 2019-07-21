@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0653</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346690</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346690.P346690.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x x-še3 ga#?-x x [...]</l>
+            <l n="2'">[...] ⸢al⸣-mur10-ra al-kalx(NIR)-ga al-x-[...]</l>
+            <l n="3'">[...]-am3 e2-gi4-a nam-⸢ušbar⸣-ra-ga2 x x x-zu lu2-nig2-tuku he2-am3</l>
+            <l n="4'">[...] ⸢gu3⸣ de2 {geš}kiri6 me-te-bi bi2-za-za gu3 de2</l>
+            <l n="5'">[...]-x me-te-bi dar{mušen} gu3 de2 a-gar3 me-te-bi</l>
+            <l n="6'">[...] x su-lum mar-re-da-kam!? su-lum mar-re keš2-da</l>
+            <l n="7'">[...]-zu#?-ne-ne-ta-am3 dingir-re-e-ne x-am3</l>
+            <l n="8'">[...] KA ga am3 x x en!?</l>
+            <l n="9'">[...] x lu2-lu7-am3 nam-za ⸢ga⸣-ra-an nu-me#?-a#!?</l>
+            <l n="10'">[...] x ta AN x [...]</l>
+            <l n="11'">[...] x-⸢a⸣-ke4#? x x [...]</l>
+            <l n="12'">[...] MU#? x [...]</l>
+            <l n="13'">[...] x x x x x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...]-ri#?-ib-dul-dul-[...]</l>
+            <l n="2">[...] ša3 iri?-a si? mu-un-tu11-tu11 sag-kal? ša3 [...]</l>
+            <l n="3">[...] x lugal-a-ni-⸢ir⸣ i3-sag3-ge</l>
+            <l n="4">[...] šu x x-na#?-kam#? u3 e-ne munus uš-bar-e#?</l>
+            <l n="5">[...] x KA-na-kam</l>
+            <l n="6">[...] x da? nu-ke3-de3 {geš}šu-kara2 GIR2 lugal x-a</l>
+            <l n="7">[...]-ke4? gu2-ni im-ga2-ga2</l>
+            <l n="8">[...]-x-na-kam he2-ti igi-bi ama5-ni-še3-am3</l>
+            <l n="9">[...] lugal ki-in-da-a-kam</l>
+            <l n="10">[...] gal2#?-la#? sa2 nu-ub-du11</l>
+            <l n="11">[...] x a-ba? al-kikken2-e</l>
+            <l n="12">[...] x x NIG2 x x [...] x-zu</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">... the one who is clothed, the one who is mighty/reinforced(!?), the one who is ...</l>
+        <l n="3'">... is ..., my bride of (i.e. subject to) inlaw status, may your ... be a rich man</l>
+        <l n="4'">...</l>
+        <l n="5'">The pigeon is the ornament of the orchard, the croaking frog is the ornament of the marsh, and the chirping francolin is the ornament of the meadow</l>
+        <l n="6'">The ... of whom is to slander is bound by that slander</l>
+        <l n="7'">It is by means of/apart from your (pl.)(?) the ... gods are(!)</l>
+        <l n="8'">...</l>
+        <l n="9'">... is a man, in your destiny(!?) there is not a string of fruit(!?)</l>
+        <l n="10'">...</l>
+        <l n="11'">...</l>
+        <l n="12'">...</l>
+        <l n="13'">...</l>
+        <l n="1">... covered/covers ...</l>
+        <l n="2">... struck with the horns(?) in the midst of the city(?), the steadfast one(?) in the midst of(?) ...</l>
+        <l n="3">... was smiting for his king/master</l>
+        <l n="4">... and she(?), the weaver</l>
+        <l n="5">... of her mouth/nose/tooth(?)</l>
+        <l n="6">... is not to ..., the tool/carpenter(?) ...</l>
+        <l n="7">... will submit</l>
+        <l n="8">... if ... lives(?) its eye/face towards her women's quarters</l>
+        <l n="9">The strong one is the king/master of the earth</l>
+        <l n="10">... did not ... regularly/boast(?)</l>
+        <l n="11">... who seeks ...?</l>
+        <l n="12">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

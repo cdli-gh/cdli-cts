@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000351, ex. 045</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346088</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346088.P346088.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">x [...]</l>
+            <l n="2">x [...]</l>
+            <l n="3'">[...]-x</l>
+            <l n="4'">[...]</l>
+            <l n="5'">[...]-x</l>
+            <l n="6'">[...]</l>
+            <l n="7'">[...]-x-NE</l>
+            <l n="8'">[...]</l>
+            <l n="9'">[...]-x</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...]-⸢un⸣-ur4-ur4 {i7#}idigna im-ma-an-si</l>
+            <l n="2">[...]{ku6#} a-⸢gar3⸣-ra mi-ni-in-de2-de2</l>
+            <l n="3">[i3]-ne-eš2 u4-da#? nig2-ki-šar2-ra-ke4</l>
+            <l n="4">lugal#? kalam-ma en {d}nin-urta-ra su3-u4-bi mu-un-hul2-e-eš</l>
+            <l n="5">GAN2-ne2 še gu-nu-a mi-ni-in-si</l>
+            <l n="6">[...] ⸢pu2⸣ {geš}kiri6-ke4 šu im-mi-in-il2</l>
+            <l n="7">⸢guru7⸣ du6-de3 gu2 im-mi-in-gur-gur</l>
+            <l n="8">en-e kalam-x kar? im-ta-an-e11</l>
+            <l n="9">dingir-re-e-ne ur5-bi mu-un-sa6</l>
+            <l n="10">{d}nin-urta a-a-ni {d}en-lil2-le me-teš2 me-i-i-ne</l>
+            <l n="11">u4-bi-a munus-ra arhuš-a sa2 nam-ga-mu-ni-ib2-du11</l>
+            <l n="12">{d}nin-mah-e ki geš3 du11-ga-ni-še3 u3 nu-um-ši-ku-ku</l>
+            <l n="13">⸢siki⸣ u8 dugud-gin7 bar-ra bi2-in-dul</l>
+            <l n="14">i-lu kur ⸢giri3⸣ nu-gal2-la-ba gal-gal-bi mi-ni-ib2-⸢be2⸣</l>
+            <l n="15">u3-mu-un ⸢a2⸣ mah-a-ni kur-⸢re⸣ ⸢nu⸣-u8-⸢il2⸣-[...]</l>
+            <l n="16">ur-sag gal an-gin7 [...]</l>
+            <l n="17">u4 sur2 ki-a gen ⸢uš11⸣ [...]</l>
+            <l n="18">en ši {d}mu-ul-lil2-⸢la2⸣ [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">...</l>
+        <l n="2">...</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">...</l>
+        <l n="6'">...</l>
+        <l n="7'">...</l>
+        <l n="8'">...</l>
+        <l n="9'">...</l>
+        <l n="1">He gathered up (that which had been destroyed in the mountain) and placed it (in) the Tigris</l>
+        <l n="2">He irrigated the meadow with the carp flood</l>
+        <l n="3">Now, today(?) that of the horizon/entire earth (everything?),</l>
+        <l n="4">The kings of the homeland profoundly rejoiced for Ninurta</l>
+        <l n="5">The field ripened with/placed barley</l>
+        <l n="6">The harvest of the irrigated orchard yielded (fruit)</l>
+        <l n="7">He heaped up the grain piles</l>
+        <l n="8">The lord brought up harbors/trading colonies from within the land</l>
+        <l n="9">He made the mood of the gods pleasant</l>
+        <l n="10">And they were praising Ninurta and his father Enlil(?)</l>
+        <l n="11">At that time he also reached (a) compassion(ate state) for the woman</l>
+        <l n="12">Ninmah because of the place where ... had sex with her was not sleeping</l>
+        <l n="13">She made her hair cover her back like a heavy (i.e. unshorn?) ewe(?)</l>
+        <l n="14">She was greatly intoning a lament in the mountain that had not been stepped on/had no trails</l>
+        <l n="15">The mountain does not bear the supreme strength of the lord</l>
+        <l n="16">The hero who, like An in his anger, his might no one approaches</l>
+        <l n="17">The furious storm that moves upon the earth, depositing(?) poison on its “chest”</l>
+        <l n="18">Lord, the “life”(?) of Enlil, of whom the crown is appropriate upon his head</l>
+      </div>
+    </body>
+  </text>
+</TEI>

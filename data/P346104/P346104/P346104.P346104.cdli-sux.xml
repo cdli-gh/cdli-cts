@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000347, ex. 009</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346104</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346104.P346104.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[gu5]-⸢li⸣-gu10 sag u2-a he2-en-šub ⸢ki⸣-⸢ni⸣ ba-ra-⸢an⸣-[...]</l>
+            <l n="2">⸢{d#}dumu⸣-⸢zi⸣-de3 sag u2-a mu-ni-in-kinx(UR4)#?-kinx(UR4)#?-ne#? nu-mu-⸢un⸣-pa3-de3-eš#?</l>
+            <l n="3">sag u2-a di4-di4-la2 he2-en-⸢šub⸣ ki-ni ba#?-⸢ra⸣-[...]</l>
+            <l n="4">⸢{d#}dumu⸣-⸢zi⸣-⸢de3⸣ ⸢sag⸣ u2-a di4-di4-la2 mu-ni-⸢in⸣-⸢kinx(UR4)⸣-[...] nu-mu-un-⸢pa3⸣-de3#?-[...]</l>
+            <l n="5">⸢sag⸣ ⸢u2⸣-⸢a⸣ [gal]-⸢gal⸣-la ⸢he2⸣-⸢en⸣-[...]</l>
+            <l n="6">⸢{d#}dumu⸣-⸢zi⸣-⸢de3⸣ ⸢sag⸣ ⸢u2⸣-[...]</l>
+            <l n="7">⸢e⸣ a-ra-⸢li⸣-ka#? [...]</l>
+            <l n="8">{d}dumu-zi-⸢de3⸣ [...]</l>
+            <l n="9">{d}dumu-zi-⸢de3⸣ [...]</l>
+            <l n="10">iri{ki}-a nin9-⸢gu10⸣ x-[...] MU#? [...]</l>
+            <l n="11">dumu nin9-gu10 sila#!?-⸢a⸣ [...]</l>
+            <l n="12">dumu gu5-li sila#?-[...]</l>
+            <l n="13">⸢lu2⸣ ba-⸢nigin⸣-⸢ne⸣-[...]</l>
+            <l n="14">gu mu-un-⸢na⸣-x-[...]</l>
+            <l n="15">gu zi-ip-pa#?-tum#? [...]</l>
+            <l n="16">{geš}ma-nu mu-&amp;lt;...&amp;gt;</l>
+            <l n="17">⸢lu2⸣ ⸢igi⸣-⸢na⸣-ke4 [...]</l>
+            <l n="18">lu2 murgu2#?-&amp;lt;&amp;lt;GIM#?&amp;gt;&amp;gt;-na-ke4 diš#? kuš3#?-gin7#? x-x-[...]</l>
+            <l n="19.a">šu-ni šu-du8-a ba#!-e-⸢dab5⸣</l>
+            <l n="19.b">a2#?-ni#? [...]</l>
+            <l n="20">guruš-e {d}utu-ra an-še3 šu-⸢ni⸣ [...]</l>
+            <l n="21">{d}utu uru8-gu10-me-en mi2#?-us2-sa2?-[...]</l>
+            <l n="22">⸢e2⸣-an-na-⸢še3⸣ u2 ⸢gur3⸣-ru-gu10-[...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[unu]{ki}-ga nig2-mi2-us2-⸢sa2⸣ ⸢ak⸣-[...]</l>
+            <l n="2">⸢nundum⸣ ku3-ga ne-e KU-⸢ub⸣-[...]</l>
+            <l n="3">⸢dub3⸣ ku3-ga dub3 {d}inanna-ke4 e-⸢ne⸣-[...]</l>
+            <l n="4">šu-gu10 šu maš-da3 [...]</l>
+            <l n="5">giri3 MAŠ? giri3 maš-da3 [...]</l>
+            <l n="6">KU-bi-ri-la2-a-⸢KU⸣-ri-a2-ri-⸢eš⸣ [...]</l>
+            <l n="7">{d}utu er2-na kadra-gin7 šu#? [...]</l>
+            <l n="8">lu2 arhuš-a-gin7 arhuš ba#?-[...]</l>
+            <l n="9">šu-ni šu maš-da3 u3-mu-[...]</l>
+            <l n="10">giri3-ni giri3 maš-da3 u3-mu-[...]</l>
+            <l n="11">KU-bi-ri-la2-a-KU-ri-a2-⸢ri⸣-[eš ...]</l>
+            <l n="12">galla-ne-⸢ne⸣ mu-ni-⸢in⸣-[...] ⸢nu⸣-⸢mu⸣-[...]</l>
+            <l n="13">ga2-nam-ma-⸢an⸣-⸢ze2⸣-en#? [...] ⸢ga⸣-an#?-ši-⸢re7⸣-x-[...]</l>
+            <l n="14">{d}dumu-zi-de3 KU-bi-⸢ri⸣-⸢la2⸣-a-KU-aš?-a2-ri-⸢eš⸣ mu-⸢ni⸣-in-dab5-be2-ne</l>
+            <l n="15">lu2 ba!-nigin-ne-eš a-nigin2#? ⸢ba⸣-ni-in-duh?-x</l>
+            <l n="16">gu mu-un-na-sur-ru-ne sa mu-un-na-keš2#?-x-[...]</l>
+            <l n="17">gu zi-ip-⸢pa⸣-tum mu-un-na-sur-⸢ru⸣-ne#?</l>
+            <l n="18">{geš}ma-nu-&amp;lt;&amp;lt;mu#&amp;gt;&amp;gt; mu-un-na-bur2-re</l>
+            <l n="19">lu2 igi-na-⸢ke4⸣ nig2 mu-un-ra-ra</l>
+            <l n="20">lu2 murgu2#?-[...]-ke4#? diš kuš3!-gin7 mu-un-bur2-re</l>
+            <l n="21.a">⸢šu⸣-⸢ni⸣ šu-⸢du8⸣-⸢a⸣ ba#?-e!?-dab5#?</l>
+            <l n="21.b">a2-ni a2-la2-a ba!?-x</l>
+            <l n="22">[...]-e {d}utu-ra#! an-še3 šu-ni mu-na-an-zi</l>
+            <l n="23">[...] ⸢uru8⸣-gu10-me-en mi2-us2-sa2-⸢gu10⸣-me-en</l>
+            <l n="24">[...]-na-še3 u2 gur3-ru-gu10-me-en</l>
+            <l n="25">[unu]{ki#}-ga nig2-&amp;lt;&amp;lt;MU&amp;gt;&amp;gt;-mi2-us2-sa2 x x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">If my friend dropped his head in the plants then no one can know his place</l>
+        <l n="2">Dumuzi! They were seeking his head in the plants, no one found him</l>
+        <l n="3">If he dropped his head in the tiny plants then no one can know his place</l>
+        <l n="4">Dumuzi! They were seeking his head in the tiny plants, no one found him</l>
+        <l n="5">If he dropped his head in the large plants then no one can know his place</l>
+        <l n="6">Dumuzi! They were seeking his head in the large plants, no one found him</l>
+        <l n="7">If he dropped (his) head in the dikes of Arali then no one can know his place</l>
+        <l n="8">Dumuzi! They were catching him in the dikes of Arali</l>
+        <l n="9">Dumuzi wept and made sobbing noises</l>
+        <l n="10">My sister sustained me in the city, my friend killed me in the city</l>
+        <l n="11">May my sister station (her) son in the street, and may he be kissed</l>
+        <l n="12">May (my) friend station (his) son in the street, and may he not be kissed</l>
+        <l n="13">They surrounded the man, they ... the reservoir</l>
+        <l n="14">They were braiding a cord for him, they were knotting a net for him</l>
+        <l n="15">They were braiding the zippatum cord for him</l>
+        <l n="16">They were “scratching&quot;(?) sticks of manu wood for him</l>
+        <l n="17">The man before him was pelting him</l>
+        <l n="18">The man behind him was pulling him out (from his hiding place) as (if he was merely?) one cubit (tall?)</l>
+        <l n="19.a">His hands were seized in handcuffs,</l>
+        <l n="19.b">his arms were bound in manacles</l>
+        <l n="20">The young man raised his hands heavenward for Utu</l>
+        <l n="21">Utu, you are my brother in law, I am your in-law</l>
+        <l n="22">You are my food carrier to the Eanna temple</l>
+        <l n="1">I am the one who made a betrothal gift in Uruk</l>
+        <l n="2">I am the one who kissed the holy lips</l>
+        <l n="3">I am the one who played on the holy knees, the knees of Inanna</l>
+        <l n="4">After you have prepared my hands as the hands of a gazelle</l>
+        <l n="5">After you have prepared my feet as the feet of a gazelle</l>
+        <l n="6">I want to run for my life towards ...</l>
+        <l n="7">Utu accepted his tears as a kadra gift</l>
+        <l n="8">Like a compassionate person he ... mercy</l>
+        <l n="9">After he prepared his hands as the hands of a gazelle</l>
+        <l n="10">After he prepared his feet as the feet of a gazelle</l>
+        <l n="11">He ran for his life towards ...</l>
+        <l n="12">The galla demons were seeking him, no one was finding him</l>
+        <l n="13">Come, let us go to ...</l>
+        <l n="14">Dumuzi! They seized him at ...</l>
+        <l n="15">They encircled the man and ... the reservoir</l>
+        <l n="16">They were braiding a cord for him, they were knotting a net for him</l>
+        <l n="17">They were braiding the zippatum cord for him</l>
+        <l n="18">They were “scratching&quot;(!?) sticks of manu wood for him</l>
+        <l n="19">The man before him was pelting him</l>
+        <l n="20">The man behind him was pulling him out (from his hiding place) as (if he was merely?) one cuibit (tall?)</l>
+        <l n="21.a">His hands were seized in handcuffs,</l>
+        <l n="21.b">his arms were bound in manacles</l>
+        <l n="22">The young man raised his hands heavenward for Utu</l>
+        <l n="23">Utu, you are my brother in law, I am your in-law</l>
+        <l n="24">You are my food carrier to the Eanna temple</l>
+        <l n="25">I am the one who made a betrothal gift in Uruk</l>
+      </div>
+    </body>
+  </text>
+</TEI>

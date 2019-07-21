@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0739</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346776</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346776.P346776.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] ⸢ZA⸣ x x [...]</l>
+            <l n="2'">[...] x-e hu-mu-da-la2-e#?</l>
+            <l n="3'">[...] ⸢a⸣ šed7 ha-ma-de2-⸢de2⸣</l>
+            <l n="4'">[...] a šed7 ha-ma-de2-⸢de2⸣</l>
+            <l n="5'">[...] unu#?{ki}-ga igi-ni-še3 ha-ba-sug2-ge#?-[...]</l>
+            <l n="6'">[...] unu#?{ki}-ga igi-ni-še3 ha-ba-sug2-ge#?-[...]</l>
+            <l n="7'">[...] ⸢muš⸣ za-gin3-na hu-mu-da-la2-e</l>
+            <l n="8'">[...] x igi-ni-še3 mu-da-tuš?</l>
+            <l n="9'">[...] x-na-gu10</l>
+            <l n="10'">[...] x ⸢bad⸣-⸢bad⸣-e#?</l>
+            <l n="11'">[...] x-⸢gu10⸣</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">... may ... be attached to(?) ...</l>
+        <l n="3'">... may cool water be poured for me(?) ...</l>
+        <l n="4'">... may cool water be poured for me(?) ...</l>
+        <l n="5'">... may the ... of Uruk(?) stand before him</l>
+        <l n="6'">... may the ... of Uruk stand before him/her</l>
+        <l n="7'">... may ... be suspended over/encompass(?) the lapis sacred space/platform(?)</l>
+        <l n="8'">... sits(?) before him/her</l>
+        <l n="9'">...</l>
+        <l n="10'">... opening(?) ...</l>
+        <l n="11'">My ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

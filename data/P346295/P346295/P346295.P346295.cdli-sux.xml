@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000799, ex. 012</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346295</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346295.P346295.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">ur-mah-e ud5 hu-na mu-ni-dab5</l>
+            <l n="2">⸢šu⸣ ba-am3 u8 tab-ba-gu10 gur4-ra</l>
+            <l n="3">[ga]-mu-ra-ab-šum2</l>
+            <l n="4">⸢tukumbi⸣ šu mu-un-ši-bar-re-en</l>
+            <l n="5">[...] du11-ma-ab ud5-e ur-mah-e</l>
+            <l n="6">[...]-ib-gi4-gi4 za-e mu-gu10 nu-zu</l>
+            <l n="7">[...]-⸢ak⸣ mu-gu10 u4 e2-tur3-ra-še3 ⸢i3⸣-[...]</l>
+            <l n="8">[...]-na#?-gu10 gu3 mu-na-de2-⸢e⸣</l>
+            <l n="9">[...] gu3#? ri-a mu-na-ni-ib-⸢gi4⸣-[...]</l>
+            <l n="10">[...] ⸢udu⸣ hi-a nu-dur2-ru-na e-[še]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">The lion seized the she-goat in (its) weakness(?)</l>
+        <l n="3">(Who said) “Release (me), and I shall give my thick(er) companion ewe to you”</l>
+        <l n="4">(The lion said) “If I release you towards her(?), tell me your name”</l>
+        <l n="6">The she-goat was answering the lion “You have not known my name?”</l>
+        <l n="7">&quot;I can be intelligent” (is) my name!” When (the lion) went to the pen</l>
+        <l n="8">He was shouting to her “my(?) ...”</l>
+        <l n="9">She was answering him from afar</l>
+        <l n="10">&quot;I have been intelligent! Instead of sheep(?), nothing dwells (here)!”</l>
+      </div>
+    </body>
+  </text>
+</TEI>

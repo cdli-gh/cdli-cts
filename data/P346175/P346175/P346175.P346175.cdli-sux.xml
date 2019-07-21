@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0090</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346175</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346175.P346175.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">x [...]</l>
+            <l n="2'">a-a {d}[...]</l>
+            <l n="3'">ša3 šeg9-⸢bar⸣ [...]</l>
+            <l n="4'">en gal-zu x x [...]</l>
+            <l n="5'">me zi-de3-eš x [...]</l>
+            <l n="6'">eridu{ki} ki ⸢sikil⸣ [...]</l>
+            <l n="7'">eš3 ⸢PAP⸣ x [...] GIM#? [...]</l>
+            <l n="8'">me-ni [...] nu-[...]</l>
+            <l n="9'">geštu2 mah#? [...]</l>
+            <l n="10">eb nig2-nam x [...]</l>
+            <l n="11'">mu-ra-an-x-[...]</l>
+            <l n="12'">garza garza2 ki-šu-peš ki-ur3 x [...]</l>
+            <l n="13'">igi mu-e-ši-in-zu-[...]</l>
+            <l n="14'">kalam ki-bi-še3 ma-ra-ni-⸢in⸣-[...]</l>
+            <l n="15'">geš-hur siskur2 šen-⸢šen⸣-[...]</l>
+            <l n="16'">mu-ra-an-[...]</l>
+            <l n="17'">nam-lugal-zu ⸢NE⸣ [...]</l>
+            <l n="18'">gizzal x [...]</l>
+            <l n="19'">eme ha-[mun ...]</l>
+            <l n="20'">sag-e-eš x [...]</l>
+            <l n="21'">a-a ⸢{d}nanna⸣ [...]</l>
+            <l n="22'">AN x [...]</l>
+            <l n="23'">eš3 e2-⸢kiš⸣-[nu-gal2 ...]</l>
+            <l n="24'">x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[...] x [...]</l>
+            <l n="2'">sar-ra-bi#? [...]</l>
+            <l n="3'">za3-bi-še3 [...]</l>
+            <l n="4'">a2-bi [...]</l>
+            <l n="5'">a2 bad tal2 ak#? [...]</l>
+            <l n="6'">gal2 he2-[...]</l>
+            <l n="7'">ša3-bi ⸢IGI⸣ [...]</l>
+            <l n="8'">{d}lamma ur-⸢mah⸣ [...]</l>
+            <l n="9'">sag-e-eš he2-x-[...]</l>
+            <l n="10'">{d}ri-im-⸢{d}suen⸣ [...]</l>
+            <l n="11'">nir mu2 ur-⸢sag⸣ [...]</l>
+            <l n="12'">ša3 ku3-ta nam-⸢lugal⸣ [...]</l>
+            <l n="13'">nun mah-di me šar2-⸢ra⸣ [...]</l>
+            <l n="14'">lugal kal-ga sag-us2-sa x [...]</l>
+            <l n="15'">sul {d}utu ku3-ku3-ge-de3 bi2-in-x-[...]</l>
+            <l n="16'">eš3 e2-babbar-ra zi-de3-[eš2 ...]</l>
+            <l n="17'">bi2-in-DU x [...]</l>
+            <l n="18'">ur-sag ME KAR2 sikil {d}en-⸢ki⸣ [...]</l>
+            <l n="19'">eridu{ki}-ga nam-šita-aš gub#?-[...]</l>
+            <l n="20'">{d}ri-im-⸢{d}suen⸣ [...]</l>
+            <l n="21'">sipa ug3 lu-[...]</l>
+            <l n="22'">u2-a e2 {d}en-⸢lil2⸣-[...]</l>
+            <l n="23'">nemur ka duh-a x [...]</l>
+            <l n="24'">ulu3{+lu}-gin7 ⸢zi⸣-[...]</l>
+            <l n="25'">lugal an {d}en-lil2 [...]</l>
+            <l n="26'">⸢ni2⸣ huš#? [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">Father Enki(?) ...</l>
+        <l n="3'">The “heart of the fallow deer” (the Abzu) ...</l>
+        <l n="4'">Wise lord ...</l>
+        <l n="5'">... the cosmic powers faithfully</l>
+        <l n="6'">Eridu ... pure place</l>
+        <l n="7'">The shrine(?) ...</l>
+        <l n="8'">His me ... cannot be ...(?)</l>
+        <l n="9'">Superior wisdom ...</l>
+        <l n="10">The oval/Uraš(?) ... everything</l>
+        <l n="11'">...</l>
+        <l n="12'">The royal and divine(?) rites ... the shrine and complex/foundation ...</l>
+        <l n="13'">... displayed on your behalf</l>
+        <l n="14'">... restored the land to its place</l>
+        <l n="15'">The purest plans and siskur rituals</l>
+        <l n="16'">...</l>
+        <l n="17'">Your kingship ...</l>
+        <l n="18'">Attention/understanding ...</l>
+        <l n="19'">“Harmonious speech” ...</l>
+        <l n="20'">... bestowed</l>
+        <l n="21'">Father Nanna ...</l>
+        <l n="22'">Holy An(?) ...</l>
+        <l n="23'">Shrine Ekišnugal ...</l>
+        <l n="1'">...</l>
+        <l n="2'">Its ...</l>
+        <l n="3'">Towards its border(?) ...</l>
+        <l n="4'">Its arm/power/side(?) ...</l>
+        <l n="5'">Spreading open arms (in protection) ...</l>
+        <l n="6'">May ... open</l>
+        <l n="7'">Its inside? ...</l>
+        <l n="8'">The protective lamma spirit, a lion ...</l>
+        <l n="9'">May ... bestow(?)</l>
+        <l n="10'">Rīm-Sîn ...</l>
+        <l n="11'">Bearded one, hero ...</l>
+        <l n="12'">Selected for(?) the kingship (while still) in the holy womb</l>
+        <l n="13'">Exalted ruler, ... the many me</l>
+        <l n="14'">The mighty king, constant one ...</l>
+        <l n="15'">The youth Utu ... purification</l>
+        <l n="16'">In shrine Ebabbar ... faithfully</l>
+        <l n="17'">Brought in(?)</l>
+        <l n="18'">Hero, pure ... Enki ...</l>
+        <l n="19'">Standing in order to (give?) the šita prayer(?) in Eridu ...</l>
+        <l n="20'">Rīm-Sîn ...</l>
+        <l n="21'">Shepherd who tends the people ...</l>
+        <l n="22'">Provider of the temple of Enlil ...</l>
+        <l n="23'">Gaping-mouthed leopard, ...</l>
+        <l n="24'">Risen like a southern storm ...</l>
+        <l n="25'">King who(?) An and Enlil ...</l>
+        <l n="26'">Fierce aura(?) ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

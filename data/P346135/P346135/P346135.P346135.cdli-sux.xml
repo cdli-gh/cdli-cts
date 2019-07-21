@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000365, ex. 024</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346135</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346135.P346135.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1'" type="textpart">
+            <l n="1'">[... muš]-sag-kal šeg11#? gi4#?-[...] x [...]</l>
+            <l n="2'">[... a]-ge6-⸢gin7⸣ kur-ra gaba [...]</l>
+            <l n="3'">[...] nimx(TUM3)-gin7 i3-gir2-gir2-re da-bi-še3#? [...]</l>
+            <l n="4'">[... ur]-sag sul {d}utu {d}gilgames3-ra [...]</l>
+            <l n="5'">[...] x [...] hur-sag-ga2-ke4 hu-mu-ni-in-tum2-tum2#?-[...]</l>
+            <l n="6'">[{geš}]erin#? ku5-⸢ku5⸣-de3#? hul2-la-gin7 im-ma-na-ni-ib2#?-[...]</l>
+            <l n="7'">[... {d}]gilgames3-e hul2-la-gin7 im-ma-na-ni-⸢ib2⸣-[...]</l>
+            <l n="8'">[...]-na#? lu2 dili-gin7 si gu3 ba-ni-in-[...]</l>
+            <l n="9'">[...] ⸢2(diš)⸣ tab-ba-gin7 gu3 teš2 ba-ni-⸢in⸣-[...]</l>
+            <l n="10'">[...] e2-a-ni-še3 ama tuku ama#?-[...]</l>
+            <l n="11'">[...]-dili ga2-gin7 ak ⸢a2⸣-⸢gu10⸣-⸢še3⸣ hu#?-[...]</l>
+            <l n="12'">[...] e2-a-ni-še3 ama ⸢tuku⸣ ama#?-[...]</l>
+            <l n="13'">[...]-gin7 ⸢ak⸣ ninnu-am3 a2-ni-še3 ba-x-[...]</l>
+            <l n="14'">[...] simug-⸢še3⸣ giri3-ni bi2#?-[...]</l>
+            <l n="15'">[{uruda}]a2#?-aš#?-gar#? aga#?-URUDU-SAL a2 nam-ur-sag-ga2-ka ⸢im⸣-x-[...]</l>
+            <l n="16'">[...]-⸢na⸣ ⸢giri3⸣-[...]</l>
+            <l n="17'">[... {geš}]taškarin#?-na-ka im-⸢ma⸣-[...]</l>
+            <l n="18'">[...] x [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1'">⸢eš2!(TUG2)⸣ eš5 tab-ba [...]</l>
+            <l n="2'">bad3-da [...]</l>
+            <l n="3'">e2 gi-sig-ga [...]</l>
+            <l n="4'">za-e ga2-e tah-ma-ab ⸢ga2⸣-[...]</l>
+            <l n="5'">ba-su-a-⸢ba⸣ [...]</l>
+            <l n="6'">u4 ma2 ma2-gan{ki} [...]</l>
+            <l n="7'">ma2-GI ma2-gi-lum [...]</l>
+            <l n="8'">ma2-&amp;lt;da&amp;gt;-la2 ma2 zi-ša3-gal2-la-ka#? [...]</l>
+            <l n="9'">ga2-nam!-ma ga-an-ši-re7{+re}-[...]</l>
+            <l n="10'">tukumbi [...]</l>
+            <l n="11'">ni2 i3-gal2 [...]</l>
+            <l n="12'">umun2 i3-gal2 [...]</l>
+            <l n="13'">nig2-ša3-zu ga2-nam-ma ga-an-⸢ši⸣-[...]</l>
+            <l n="14'">uš 1(geš2) ninda#{+a#}-[...]</l>
+            <l n="15'">hu-wa-wa e2 {geš}erin-na-ka-ni x-[...]</l>
+            <l n="16'">igi mu-ši-in-bar igi#? [...]</l>
+            <l n="17'">sag mu-na-tuku4-tuku4 sag#? [...]</l>
+            <l n="18'">⸢guruš⸣ ba#?-da#?-me-en-na iri ama tu-da#?-[...]</l>
+            <l n="19'">[...] ⸢giri3⸣-na ni2 ba-an-ri ni2 [...]</l>
+            <l n="20'">[...] ⸢li⸣-⸢bi2⸣-[...]</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1'">⸢hu⸣-⸢wa⸣-⸢wa⸣ ⸢usu⸣-⸢ni⸣-ta#? x [...] x tuš-a mu-⸢na⸣-x-[...]</l>
+            <l n="2'">ur-UR-e dur2 im-ma-⸢gar⸣ [er2 im]-⸢ma⸣-⸢an⸣-pa3 si12-si12 i3-⸢ga2⸣-[...]</l>
+            <l n="3'">hu-wa-wa &amp;lt;dur2&amp;gt; im-ma-gar er2 ⸢im⸣-⸢ma⸣-an-pa3 si12-si12 i3-⸢ga2⸣-[...]</l>
+            <l n="4'">hu-wa-wa {d}gilgames3-⸢ra⸣ ša3-ne-ša4 KA [...]</l>
+            <l n="5'">{d}gilgames3 šu-⸢ba⸣-mu#?-u8#?</l>
+            <l n="6'">{d}utu inim ga-mu-na-ab-be2#?</l>
+            <l n="7'">⸢{d#}utu⸣ ama tu-da-ga2 nu-zux(SU) a-a bulug3-ga2-[...]</l>
+            <l n="8'">[kur]-⸢ra⸣ mu-tu-de3-en za-e bulug3-[...]</l>
+            <l n="9'">{d}gilgames3 zi an-na mu-un-pa3 zi ki-a mu-⸢un⸣-[pa3] zi kur-ra mu-un-[pa3]</l>
+            <l n="10'">[...]-⸢še3⸣ mu-un-dab5 ki-za nam-ba-an-[...]</l>
+            <l n="11'">[...]-ba#? {d}gilgames3 dumu-egir ša3-ga-na arhuš ba-an-[...]</l>
+            <l n="12'">[{d}]gilgames3 en-ki-du10-ra gu3 mu-un-na-⸢de2⸣-e</l>
+            <l n="13'">⸢en⸣-ki-du10 mušen dab5-ba ki-bi-še3 ⸢ha⸣-[x]-DU</l>
+            <l n="14'">⸢guruš⸣ ⸢dab5⸣-ba ur2 ama-ni-še3 he2-⸢gi4⸣-⸢gi4⸣</l>
+            <l n="15'">[...]-ni en-ki-du10-e gu3 mu-un-ni-ib-[...]</l>
+            <l n="16'">[...]-ra2 dim2-ma [...]</l>
+            <l n="17'">[...] nam-tar [...]-⸢SU⸣</l>
+            <l n="18'">[...] ⸢ki⸣-bi ⸢du⸣-[...]-bi</l>
+            <l n="19'">[...]-dam</l>
+            <l n="20'">[...]-⸢de3⸣</l>
+            <l n="21'">[...]-hul#?</l>
+            <l n="22'">[...]-⸢de2⸣-e</l>
+            <l n="23'">[...]-hul#?</l>
+            <l n="24'">[...] x</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">The 5th is ..., a screaming sagkal snake, ...(?), splitting the mountain range</l>
+        <l n="2'">The 6th is ..., beating its breast against the mountain like a flood</l>
+        <l n="3'">The 7th is ... flashing like lightning(!), no one will approach its side</l>
+        <l n="4'">The seven heroes, the youth Utu gave to Gilgamesh</l>
+        <l n="5'">They(?) will bring the boats for portage to the base of the mountain range</l>
+        <l n="6'">It was made pleasing there for the one who cuts the juniper</l>
+        <l n="7'">It was made pleasing there for lord Gilgamesh</l>
+        <l n="8'">In his city as a single man he sounded the horn</l>
+        <l n="9'">As two companions (he and Enkidu), (they) shouted together</l>
+        <l n="10'">The one who has a household to his household, the one who has (lives with) a mother to his mother</l>
+        <l n="11'">May single males acting(?) like me, act on behalf of my power</l>
+        <l n="12'">The one who has a household to his household, the one who has (lives with) a mother to his mother</l>
+        <l n="13'">The single males acting(?) like me, fifty of them, have acted on behalf of my power</l>
+        <l n="14'">He set out to the house of the blacksmith</l>
+        <l n="15'">He was pouring (the metal for) the (blade of the) a'ašgar ax, the agasilig axe(!?), the arms of heroism</l>
+        <l n="16'">He set out to the grove of deep shade</l>
+        <l n="17'">He was striking (down) the axe handle(?) of halub wood, apple wood, and boxwood</l>
+        <l n="18'">...</l>
+        <l n="1'">No one can cut a three-ply rope(?)</l>
+        <l n="2'">On a wall, water does not overwhelm a man(?)</l>
+        <l n="3'">Fire cannot be extinguished in a house with a reed fence</l>
+        <l n="4'">You help me, I shall help you, what is it of ours that someone can take (away)?</l>
+        <l n="5'">When it sank, when it sank</l>
+        <l n="6'">When the Magan boat sank</l>
+        <l n="7'">When the barge(?), Magilum, sank</l>
+        <l n="8'">A raft, a lifeboat, seized ...</l>
+        <l n="9'">Come! let us go and have a look!</l>
+        <l n="10'">(But) if we go</l>
+        <l n="11'">There will be an aura, there will be an aura, turn back!</l>
+        <l n="12'">There will be cunning(?) there will be cunning, turn back!</l>
+        <l n="13'">(This is) your thought, (but) come, let's go!</l>
+        <l n="14'">After someone has not even approached (within) 3600(?) ninda</l>
+        <l n="15'">Huwawa has (already) “seized” (him in) his house of juniper/cedar</l>
+        <l n="16'">He has looked, it is the look of death</l>
+        <l n="17'">He has shaken his head (taking an oath?), its is a head filled with (punishment for?) sin</l>
+        <l n="18'">You who are a young man to your detriment, you will not return to the city of your mother</l>
+        <l n="19'">He imposed his aura into his muscles and his feet</l>
+        <l n="20'">He could not turn his foot (i.e., take a step) on the ground</l>
+        <l n="1'">Huwawa by means of his own strength ..., he said? to him “sit”</l>
+        <l n="2'">The hero(!) sat down, wept, and made sobbing noises</l>
+        <l n="3'">Huwawa sat down, wept, and made sobbing noises</l>
+        <l n="4'">Huwawa ... compassion for Gilgamesh</l>
+        <l n="5'">Gilgamesh, release me!</l>
+        <l n="6'">So that I may speak a word with Utu</l>
+        <l n="7'">Utu, (I) do not know the mother that bore me, (I) do not know the father that reared me</l>
+        <l n="8'">I was born in the mountain, you reared me</l>
+        <l n="9'">Gilgamesh swore an oath by heaven, he swore an oath by earth, he swore an oath by the netherworld</l>
+        <l n="10'">He seized his hand(?), (saying): “you shall not be deprived”</l>
+        <l n="11'">At that time, Gilgamesh, the native, had compassion in his heart</l>
+        <l n="12'">Gilgamesh was speaking to Enkidu</l>
+        <l n="13'">Enkidu, may the captured bird go (back) to its place for me(?)</l>
+        <l n="14'">May the captured youth be returned to the lap of his mother</l>
+        <l n="15'">His servant Enkidu was replying</l>
+        <l n="16'">The tall, (if) he lacks intellect</l>
+        <l n="17'">The Namtar demon/fate will consume him, the Namtar demon/fate having not been revealed</l>
+        <l n="18'">The caught bird that is to go back to its place</l>
+        <l n="19'">The caught youth that is to be returned to the lap of its mother</l>
+        <l n="20'">You will not return to the city of your birth mother</l>
+        <l n="21'">...</l>
+        <l n="22'">Huwawa was speaking to Enkidu</l>
+        <l n="23'">Enkidu is defaming me</l>
+        <l n="24'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

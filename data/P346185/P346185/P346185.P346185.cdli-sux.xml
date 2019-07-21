@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000515, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346185</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346185.P346185.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[...] ⸢ki⸣ ag2 an-⸢na⸣ me? kilib3-ba#? gar</l>
+            <l n="2">{d#?}inanna#? x šar2-ra-ma sig7-ga za3 keš2-da#?</l>
+            <l n="3">{d}nin-tur5-re u3-tu-za ša3 mi-ni-in-x-x nam gal ša-mu-ri-in-tar#?</l>
+            <l n="4">sag-ki! hi-li bi2-in-ak TAB-NIG2-⸢zu⸣ [nir]-nir#?</l>
+            <l n="5">me-dim2-zu alim nun-na alan-zu sukud! x gun3#?</l>
+            <l n="6">bar-su3-am3</l>
+            <l n="7">nam-munus-sa2-e sa6#?-⸢ga⸣ hi-li-e si</l>
+            <l n="8">{d}inanna he2-du7 an sikil-la nam-ereš-a tum2-ma x x</l>
+            <l n="9">x-ga šu ša-mu-u8-du7 nam SU ⸢ba⸣ SI#?-A?-x</l>
+            <l n="10">[...]-za ug3 u6 ab-be2!-en ug3 kilib3 he2#?-DU?-DU-en</l>
+            <l n="11">[...]-⸢zi⸣-gal2 a-na ⸢me⸣-⸢a⸣-⸢bi⸣ lugal#?-bi#? za#?-e#!?-me-en</l>
+            <l n="12">[...] x x [... mu]-un-ni#?-ib2#?-x-x</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[...] IGI#? x x</l>
+            <l n="2'">⸢ri⸣-⸢im⸣-{d}suen sag#? x NI x x bi2#?-ib-x UN x x x x</l>
+            <l n="3'">lu2 nig2-si-sa2 inim bur2-e du7 gu3 teš2 he2-en-si-si</l>
+            <l n="4'">mu he2-gal2-la u4 du10 asil3-la2-a nam-sipa he2-ak-ke4</l>
+            <l n="5'">ri-im-{d}suen lu2 nig2-si-sa2 inim bur2-e du7 gu3 teš2 he2-en-si-⸢si⸣</l>
+            <l n="6'">mu he2-gal2-la u4 du10 asil3-la2-a nam-sipa he2-ak-ke4</l>
+            <l n="7">sa-&amp;lt;gar&amp;gt;-ra-am3</l>
+            <l n="8">{d}inanna ri-im-{d}suen numun nig2-zi ri ša3 du10-ga-za bala?-a-ni su3 šum2-ma-ni-ib</l>
+            <l n="9">nu-u8-gig diri gušurx(|LAGABxNIR|)#? mah an!-na#?-e x-a</l>
+            <l n="10">{d}inanna nu-u8-gig diri gušurx(|LAGABxNIR|)#? mah an-na#?-e x-a</l>
+            <l n="11">[...] x mi2 du11-ga hi-li su13-a-za</l>
+            <l n="12">[...] x x gal#?-gal#? ri-im-{d}suen ti-mu-ni-ib</l>
+            <l n="13">[u18]-⸢ru12⸣-bi-im</l>
+            <l n="14">[a-da]-⸢ab⸣ {d}inanna-kam</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Beloved ... of An, who has established all of the cosmic powers(?)</l>
+        <l n="2">Inanna, arrayed in many ..., verdant/beautiful(?) ...,</l>
+        <l n="3">Nintur rejoiced(!?) at your birth and thus decreed a great fate for you</l>
+        <l n="4">She furnished (your) forehead with allure, stretched out your ...</l>
+        <l n="5">Your limbs (are that of) an outstanding alim bovid, your stature is tall ... and dappled(?)</l>
+        <l n="6">It is the barsud</l>
+        <l n="7">Beautified by (her) womanhood(?), filled by(?) allure</l>
+        <l n="8">Inanna, ornament of pure heaven, suitable for the queenship ...</l>
+        <l n="9">And therefore(?) you perfected ..., ...</l>
+        <l n="10">You make the people admire(?) your ...., and thus(?) you ... all the people(?)</l>
+        <l n="11">People and? living creatures, as many as there are, you are their master</l>
+        <l n="12">...</l>
+        <l n="1'">...</l>
+        <l n="2'">Rīm-Sîn ....</l>
+        <l n="3'">May the one who is suitable to disseminate(?) justice put the voice (of the people?) together in agreement</l>
+        <l n="4'">He shall exercise the shepherdship in a year of abundance (consisting of?) good days of(?) rejoicing</l>
+        <l n="5'">May Rīm-Sîn, who is suitable to disseminate(?) justice, put the voice (of the people?) together in agreement</l>
+        <l n="6'">He shall exercise the shepherdship in a year of abundance (consisting of?) good days of(?) rejoicing</l>
+        <l n="7">It is the sagar</l>
+        <l n="8">Inanna, give Rīm-Sîn, the seed of(?) justice planted(?) in your good womb, his lengthy reign</l>
+        <l n="9">The surpassing(?) nugig midwife, ... supreme roofbeam/timber(?) of heaven</l>
+        <l n="10">Inanna, the surpassing(?) midwife, ... supreme roofbeam/timber(?) of heaven</l>
+        <l n="11">One who cares for .../cared for by ...(?), when(?) you exude allure</l>
+        <l n="12">Very great.../who makes great ...(?), sustain Rīm-Sîn!</l>
+        <l n="13">It is its uru</l>
+        <l n="14">It is an adab song of Inanna</l>
+      </div>
+    </body>
+  </text>
+</TEI>

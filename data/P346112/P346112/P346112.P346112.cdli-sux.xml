@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0027</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346112</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346112.P346112.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">e2 ama-gu10-ta di-lim-da-gu10 he2-en#?-[...]</l>
+            <l n="2">e2 ni2-ta-ni mu-un-DU-a [...]</l>
+            <l n="3">ki-tuš ni2-ta-ni mu-un-gar-ra ba?-[...]</l>
+            <l n="4">nin {d}nin-a2-zi-mu2-a-ra ur5-gin7 gu3 mu-[...]</l>
+            <l n="5">kin2-gi4-a-ka didli-bi nin {d}nin-a2-zi-[mu2-a-ra] šu#!? x ba!?-an-gi4#?-[...]</l>
+            <l n="6">u4-ba nin-e ⸢er2⸣ im#?-ma#?-an-⸢pa3⸣ si12-si12-ga#? i3-⸢ga2⸣-⸢ga2⸣</l>
+            <l n="7">nin {d}nin-a2-zi-⸢mu2⸣-⸢a⸣ x [...] ⸢im⸣-x-[...]</l>
+            <l n="8">x gul-la-zu a-ba [...]</l>
+            <l n="9">[...] x gul-la-zu!? x [...]</l>
+            <l n="10">[...]-IG#? gu-la#?-zu x [...]</l>
+            <l n="11">i7#? ma2-gur8-⸢ra⸣-zu ⸢mu⸣-[...]</l>
+            <l n="12">har-ra-an {geš}gigir-zu ⸢mu⸣-[...]</l>
+            <l n="13">pu2 a du10-ga mu-un-ba-[al ...]</l>
+            <l n="14">pu2 a ses mu-un-ba-⸢al⸣ [...]</l>
+            <l n="15">i7 mu-un-DU mu-un#?-[...]</l>
+            <l n="16">a-ša3 mu-un-DU-zu? x [...] x [...]</l>
+            <l n="17">e2 ad-da#?-zu dur2-ru UR-zu [...]</l>
+            <l n="18">e2 du5!?-mu-zu di-lim-da-gu10 x [...]</l>
+            <l n="19">u3-mu-un-zi-da-ra ur5-gin7#? [...]</l>
+            <l n="20">kin2-gi4-a-ka didli-bi x [...]</l>
+            <l n="21">⸢u4⸣-⸢ba⸣ lugal-gu10 er2 x-[...]</l>
+            <l n="22">⸢[{d}]nin⸣-geš-zi-da x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] gidlam#? ur2 KA x [...] na-an-x-x [...]</l>
+            <l n="2">[...] {d#}nin-a2-zi-mu2-a-ra gu3 al#?-[...] x [...]</l>
+            <l n="3">gi4#?-bi nu-me-en nu-mu-un-⸢da⸣-[...]</l>
+            <l n="4">šu nigin2 nu-me-en nu-mu-⸢un⸣-da#?-[...]</l>
+            <l n="5">kaskal-ga2 gur-ru nu-gal2-⸢la⸣ [...]</l>
+            <l n="6">igi x šu NIG2-ba-ni e2-še3#? x [...]</l>
+            <l n="7">geštu2 edin?-še3 ⸢du3⸣-du3#? ⸢er2⸣ [...]</l>
+            <l n="8">ama-gu10 siki sag-ki-na ni2 ⸢he2⸣-[...]</l>
+            <l n="9">ab-lal er2-ra-ka-ni x [...]</l>
+            <l n="10">ab-lal ša3 hul2-la-ka-⸢ni⸣ [...]</l>
+            <l n="11">ama ugu ir an-ur2#? x [...]</l>
+            <l n="12">x u2-šim-gin7 ki-in-dar-[ra-ba ...] ⸢igi⸣ [...]</l>
+            <l n="13">u2-šim {geš}erin?-gin7 ⸢ki⸣-⸢in⸣-[dar-ra-ba ...]</l>
+            <l n="14">u2-šim-gin7 ki-in-⸢dar⸣-ra-⸢ba⸣ [...]</l>
+            <l n="15">u2-šim {geš}erin-gin7 ki-⸢in⸣-⸢dar⸣-⸢ra⸣-ba#? [...]</l>
+            <l n="16">{u2}NUMUN2? nu-me-en edin nu-⸢mu2⸣ ⸢mu⸣ [...]</l>
+            <l n="17">igi ŠEŠ-e bar ba-da-an-x-[...]</l>
+            <l n="18">{geš}taškarin-gin7 šu sa6-ga-gin7 x x [...]</l>
+          </div>
+          <div n="bottom" type="textpart">
+            <l n="1">a-ra2 2(diš)-kam#? x en#?-e x gal x x [...] NI x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">From(?) the house of my mother my tilimda vessel(?) ...</l>
+        <l n="2">The one who has ... his own house ...</l>
+        <l n="3">The one who has established(?) his own dwelling ...</l>
+        <l n="4">To lady Ninazimua ... thus spoke</l>
+        <l n="5">Several/each of the messengers(?) repeated to(?) lady Ninazimua</l>
+        <l n="6">At that time the lady wept, making sobbing noises</l>
+        <l n="7">Lady Ninazimua ....</l>
+        <l n="8">Who(?) ... your destroyed(?) ...</l>
+        <l n="9">... your destroyed(?) ...</l>
+        <l n="10">... your great ...</l>
+        <l n="11">The river ... your barge ...</l>
+        <l n="12">The road ... your chariot ...</l>
+        <l n="13">... dug a well (for) fresh water ...</l>
+        <l n="14">... dug a well (for) brackish water ...</l>
+        <l n="15">The river/canal ...</l>
+        <l n="16">The field ...</l>
+        <l n="17">The house of your father/your patrimony ..., your pride/dog ...</l>
+        <l n="18">The house of your son(?), my tilimda vessel ...</l>
+        <l n="19">... thus spoke to Ningešzida</l>
+        <l n="20">Several of the messengers(?) repeated to(?) ...</l>
+        <l n="21">At that time, my king wept ...</l>
+        <l n="22">Ningešzida ...</l>
+        <l n="1">.... spouse(?) ... lap ...</l>
+        <l n="2">He was speaking(?) to lady Ninazimua ...</l>
+        <l n="3">I(?) am not one who is returning(?), ...</l>
+        <l n="4">I(?) am not one making a return trip(?), ...</l>
+        <l n="5">On my journey, there is no return ...</l>
+        <l n="6">... towards the house ...</l>
+        <l n="7">Listening for(?) the plain, ... weeps(?)</l>
+        <l n="8">My mother ... the hair of her head</l>
+        <l n="9">The window/nook(?) of her weeping(?) ...</l>
+        <l n="10">The window/nook(?) of her rejoicing heart ...</l>
+        <l n="11">The birth mother ... the horizon(?) ...</l>
+        <l n="12">... like vegetation in the cracks, who(?) shall you(?) see?</l>
+        <l n="13">Vegetation in the cracks like cedar trees, who(?) shall you see?</l>
+        <l n="14">Like vegetation in the cracks, who(?) shall you see?</l>
+        <l n="15">Vegetation in the cracks like cedar/juniper trees, who(?) shall you see?</l>
+        <l n="16">You(?) are not a ... rush, you(?) do not grow in the plain, ...</l>
+        <l n="17">A bitter/guarded(?) glance(!?) ...</l>
+        <l n="18">Like a boxwood tree, like one with “good hands&quot;(?) ...</l>
+        <l n="1">It is the second (extract in a series), the composition “the lord(?) ...”</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0159</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346244</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346244.P346244.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...]-gu10#? [...]</l>
+            <l n="2'">[...]-na#?-am3#? [...]</l>
+            <l n="3'">[...] x ta? [...]</l>
+            <l n="4'">mu#?-[...]-še3! x-[...]</l>
+            <l n="5'">a2 mu#?-⸢e⸣-da-ag2#?-[...]</l>
+            <l n="6'">⸢a2⸣ ⸢ag2⸣-⸢ga2⸣ ⸢ma⸣-x-[...]</l>
+            <l n="7'">x x ⸢a⸣-⸢da⸣-⸢al⸣ x-[...]</l>
+            <l n="8'">⸢za⸣-⸢e⸣ ⸢tilla2⸣-⸢a⸣ ⸢im⸣-[...]-ni10#?-⸢ni10⸣-[...]</l>
+            <l n="9'">[...] ⸢he2⸣-⸢tuku⸣ [...]</l>
+            <l n="10'">[...]-⸢ba⸣-še3 du#?-[...]</l>
+            <l n="11'">[...]-⸢gu10⸣ mu-e-⸢kin2⸣-ge26 en3#? [...]</l>
+            <l n="12'">[...]-lu2-lu7 su2-zu nu-x-[...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">lipiš#?-zu? mu-zu sag-gu10-da DU-[...] šu ba-ab-x-[...]</l>
+            <l n="2">diri ga2-e ugu-za al-gub-bu-na-x</l>
+            <l n="3">lu2 na-me ugu dumu-na-ka nu-gub-[...]</l>
+            <l n="4">umun2 ak tud2-ba#? nig2 nu-mu-da-si-ge#?-[...]</l>
+            <l n="5">a2 ag2-ga2 nu-ub-zu!?-a-gin7 a-ra-dim2-me umuš?-za lu2 nu-me-en</l>
+            <l n="6">ša3 gi4-me-a-gu10-ne-ka lu2 bi2-⸢ib2⸣-x x x lu2 mu-⸢da⸣-ab-si-ge-a ba-ra-gal2</l>
+            <l n="7">nig2 ga2-e za-ra ab-šid-na-gu10</l>
+            <l n="8">u2 hub2 ku3-zu ba-an-ku4-ku4</l>
+            <l n="9">hu-ru ZI maš!?-zu ba-ak</l>
+            <l n="10">muš-e KA-⸢KA⸣-e ba-ab-x-x-[...]</l>
+            <l n="11">sag3-ge-de3 sag3-ge-de3 zi ba-ir x [...]</l>
+            <l n="12">x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">I know(?)--(until) my master has left</l>
+        <l n="2'">..., what will I do(?)</l>
+        <l n="3'">If ..., what will I do(?)</l>
+        <l n="4'">Because of you, ... touched the body(?)</l>
+        <l n="5'">If I was to(?) give you an order</l>
+        <l n="6'">You will say “(who are) you, giving orders to me”</l>
+        <l n="7'">... now, I shall serve you(?)</l>
+        <l n="8'">You are to loiter about in the square</l>
+        <l n="9'">If success is to be obtained, you need to seek it(?)</l>
+        <l n="10'">Go to the eduba'a school, it will be good for you</l>
+        <l n="11'">You(?) will seek after my task, you(?) will inquire about it</l>
+        <l n="12'">By means of a “humanity” that does not know your body</l>
+        <l n="1">Your heart/anger and your reputation(?) going apart from(?) my head/lead(?), ...</l>
+        <l n="2">In excess of(?) (the time that) I stand over you</l>
+        <l n="3">No one (should) stand over their son</l>
+        <l n="4">Your beatings of (i.e., during?) instruction(?), (in which) nothing compares with you</l>
+        <l n="5">You behave like someone who does not know the rules, in your understanding(?) you a not a man</l>
+        <l n="6">Among my colleagues, comparing with each man(?) I conducted(?), (and) no one who compares with you is present</l>
+        <l n="7">This is what I recite to you</l>
+        <l n="8">(By it) deafness/stupidity turns into wisdom</l>
+        <l n="9">(By it) wisdom is made (from?) ... inferiority</l>
+        <l n="10">It seizes the snake(!?) (as if using!?) incantations/murmuring(?)</l>
+        <l n="11">I have become weary of always having to beat (you) and have let (that form of punishment) go</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,235 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000451, ex. 007</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346564</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346564.P346564.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1'">[...] x</l>
+            <l n="2'">[...] ⸢šu⸣ ⸢ti⸣-a</l>
+            <l n="3'">[...] ⸢nig2⸣-ul-la</l>
+            <l n="4'">[...] keš2-da</l>
+            <l n="5'">[...]-⸢da⸣ ⸢limmu2⸣-[...]</l>
+            <l n="6'">[...]-dul4#?</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1'">[...] x</l>
+            <l n="2'">[...] x-a</l>
+            <l n="3'">[{d}en]-⸢lil2⸣-la2-še3</l>
+            <l n="4'">an-ne2</l>
+            <l n="5'">gu3 zi-de3-eš</l>
+            <l n="6'">ga2-ar</l>
+            <l n="7'">ha-ma-an-de2</l>
+            <l n="8'">šibir2 eškiri2</l>
+            <l n="9'">šu-gu10 he2-em-ma-an-šum2</l>
+            <l n="10'">{d}uraš-e</l>
+          </div>
+          <div n="3" type="textpart">
+            <l n="1'">[...]-x-in-⸢gin6⸣-[...]</l>
+            <l n="2'">{d}nin-⸢urta⸣</l>
+            <l n="3'">ur-sag kalx(DAG)-⸢ga⸣</l>
+            <l n="4'">{d}en-lil2-la2-⸢ke4⸣</l>
+            <l n="5'">[{d}]nu-nam-nir</l>
+            <l n="6'">[...]-ma#? ha-ma-[ni]-⸢in⸣-⸢gub⸣</l>
+            <l n="7'">[...]-⸢ga⸣</l>
+            <l n="8'">[{d}en]-lil2</l>
+            <l n="9'">⸢[{d}]nin⸣-⸢lil2⸣-la2</l>
+            <l n="10'">⸢ga2⸣-ar hu-mu-na-ag2</l>
+            <l n="11'">nam-lugal-la</l>
+            <l n="12'">bala-gu10</l>
+            <l n="13'">he2-bi2-in-diri</l>
+            <l n="14'">nam-en-na</l>
+            <l n="15'">ga2-e</l>
+            <l n="16'">he2-em-mi-in-gal-e</l>
+            <l n="17'">a2-tah-gu10 he2-e</l>
+            <l n="18'">⸢e2⸣-kur-ra</l>
+            <l n="19'">šu hu-mu-da-gal2-gal2</l>
+            <l n="20'">maškim</l>
+          </div>
+          <div n="4" type="textpart">
+            <l n="1'">u4#? su3#?-su3#?-re-ga2</l>
+            <l n="2'">nam-en</l>
+            <l n="3'">nam-lugal-da tab-e-ga2</l>
+            <l n="4'">e2-an-na-ka</l>
+            <l n="5'">muš3 nu-tum2-mu-ga2</l>
+            <l n="6'">ki unu{ki}-ga</l>
+            <l n="7'">am-gin7 gu2 peš-ga2</l>
+            <l n="8'">kul-aba4{ki}</l>
+            <l n="9'">me-lam2-gu10 dul4-lu-da</l>
+            <l n="10'">inim ku3 nu-kur2-ru-da</l>
+            <l n="11'">he2-bi2-in-du11</l>
+            <l n="12'">⸢{d#}en⸣-⸢ki⸣</l>
+            <l n="13'">{d}nin9-ki</l>
+            <l n="14'">{d}en-ul</l>
+            <l n="15'">{d}nin9-ul</l>
+            <l n="16'">{d}a-nun-na</l>
+            <l n="17'">en nam tar-re-bi</l>
+            <l n="18'">{d}udug nibru{ki}</l>
+          </div>
+          <div n="5" type="textpart">
+            <l n="1'">x-[...]</l>
+            <l n="2'">⸢ki⸣-[...]</l>
+            <l n="3'">⸢nig2⸣-[...]</l>
+            <l n="4'">x-[...]</l>
+            <l n="5'">⸢gu2⸣ [...]</l>
+            <l n="6'">⸢e2⸣-[...]</l>
+            <l n="7'">me-⸢bi⸣ [...]</l>
+            <l n="8'">geš-⸢hur⸣ [...]</l>
+            <l n="9'">⸢en3⸣ [...]</l>
+            <l n="10'">⸢garza⸣</l>
+            <l n="11'">šu-ta ⸢šub⸣-[...]</l>
+            <l n="12'">ki-bi ⸢he2⸣-[...]-⸢in⸣-[...]</l>
+            <l n="13'">{d}en-⸢lil2⸣-[...]</l>
+            <l n="14'">⸢me⸣ [...]</l>
+          </div>
+          <div n="6" type="textpart"/>
+          <div n="reverse" type="textpart"/>
+          <div n="1" type="textpart"/>
+          <div n="2" type="textpart">
+            <l n="1">geš [...]</l>
+          </div>
+          <div n="3" type="textpart">
+            <l n="1">x [...]-a</l>
+            <l n="2">x [...]</l>
+            <l n="3">[...]</l>
+            <l n="4">gada#?-la2 [...]</l>
+            <l n="5">⸢he2⸣-⸢ni⸣-[...]</l>
+            <l n="6">x [...]</l>
+          </div>
+          <div n="4" type="textpart">
+            <l n="1">[...] x he2-ni-zi</l>
+            <l n="2">gaba gi4</l>
+            <l n="3">na-an-tuku-tuku</l>
+            <l n="4">⸢nam⸣-sa6-ga [...]-x-ta</l>
+            <l n="5">[...] x-nu</l>
+            <l n="6">[...] x</l>
+          </div>
+          <div n="5" type="textpart">
+            <l n="1">[...] x</l>
+            <l n="2">[...]-gar [...]-a</l>
+          </div>
+          <div n="6" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">Possessed of everything and anything of the cosmic powers</l>
+        <l n="3'">...</l>
+        <l n="4'">Girded with ancient designs</l>
+        <l n="5'">...</l>
+        <l n="6'">Southern storm that covers the four corners of the world</l>
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">On behalf/because of the ... of Enlil(?)</l>
+        <l n="4'">...</l>
+        <l n="5'">...</l>
+        <l n="6'">...</l>
+        <l n="7'">Thus An spoke faithfully to be</l>
+        <l n="8'">...</l>
+        <l n="9'">And gave my hand the staff and nose-rope</l>
+        <l n="10'">Thus Uraš took care of me on her holy knee</l>
+        <l n="1'">Thus he (Nuska) established (these things) by means of making the heart of Enlil rejoice</l>
+        <l n="2'">...</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">...</l>
+        <l n="6'">Thus Ninurta, mighty hero of Enlil, submitted a matter to Nunamnir</l>
+        <l n="7'">...</l>
+        <l n="8'">...</l>
+        <l n="9'">...</l>
+        <l n="10'">&quot;Measured for himself&quot; (?) the good words of (i.e., to win over) Enlil and Ninlil on my behalf</l>
+        <l n="11'">...</l>
+        <l n="12'">...</l>
+        <l n="13'">He made my turn of kingship surpassing</l>
+        <l n="14'">...</l>
+        <l n="15'">...</l>
+        <l n="16'">He makes me great in lordship</l>
+        <l n="17'">He acts as my helper</l>
+        <l n="18'">...</l>
+        <l n="19'">He sets his hands along with (me?) in the Ekur temple</l>
+        <l n="20'">He acts as baliff of my kingship</l>
+        <l n="1'">Regarding my long-lasting (residence) in the gipar residence</l>
+        <l n="2'">...</l>
+        <l n="3'">Regarding my pairing of the en priesthood with the kingship</l>
+        <l n="4'">...</l>
+        <l n="5'">Regarding my unceasing (activity) in the Eanna temple</l>
+        <l n="6'">...</l>
+        <l n="7'">Regarding my neck-thickening like a wild bull in the region of Unug</l>
+        <l n="8'">...</l>
+        <l n="9'">Regarding my aura, which is to cover Kulaba</l>
+        <l n="10'">...</l>
+        <l n="11'">She orders/effects(?) by means of her unchanging command</l>
+        <l n="12'">...</l>
+        <l n="13'">...</l>
+        <l n="14'">...</l>
+        <l n="15'">...</l>
+        <l n="16'">...</l>
+        <l n="17'">...</l>
+        <l n="18'">Enki, Ninki, Enul and Ninul (ancestors of Enlil), the Anuna, the fate-determining lord(s), the udug protective spirit of Nibru, the lamma protective spirits of the Ekur temple, (all?) the great gods who have determined fate, spoke the irrevocable “it is so”</l>
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">And thus (I) have set justice in place in Sumer</l>
+        <l n="4'">...</l>
+        <l n="5'">Nibru has embraced(?) the heavens</l>
+        <l n="6'">...</l>
+        <l n="7'">(I) have gathered up the cosmic powers into the Ekur temple</l>
+        <l n="8'">...</l>
+        <l n="9'">(I) have made inquiries about the ancient plans</l>
+        <l n="10'">...</l>
+        <l n="11'">...</l>
+        <l n="12'">I have restored the rites that have “fallen from the hand” (into disuse)</l>
+        <l n="13'">...</l>
+        <l n="14'">I am Išme-Dagan and thus(?) ... the most precious cosmic powers of Enlil</l>
+        <l n="1">...</l>
+        <l n="1">...</l>
+        <l n="2">...</l>
+        <l n="3">...</l>
+        <l n="4">...</l>
+        <l n="5">May the gadala priest(?) ...</l>
+        <l n="6">...</l>
+        <l n="1">... shall rise there(?)</l>
+        <l n="2">...</l>
+        <l n="3">... shall have no rival</l>
+        <l n="4">By(?) goodness and ...</l>
+        <l n="5">...</l>
+        <l n="1">...</l>
+        <l n="2">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

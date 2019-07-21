@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000451, ex. 008</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346565</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346565.P346565.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1'" type="textpart">
+            <l n="1'">[...] x</l>
+            <l n="2'">[...] x</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1'">[...]-KA#?</l>
+            <l n="2'">[...]-un#!?-⸢peš⸣-⸢e⸣</l>
+            <l n="3'">⸢gaba⸣ nu#?-ša#?-ra#?-x-gu10?</l>
+            <l n="4'">{d}en-lil2-la2-ke4</l>
+            <l n="5'">nig2 he2-em-mi-dab#?-⸢dab⸣</l>
+            <l n="6'">i3 SAR</l>
+            <l n="7'">[...] SAR</l>
+          </div>
+          <div n="3'" type="textpart">
+            <l n="1'">[...] u#? x-[...]</l>
+            <l n="2'">⸢šu⸣ ⸢ha⸣-ma-ab-ak#!?</l>
+            <l n="3'">nig2-erim2</l>
+            <l n="4'">nig2-a2-zi</l>
+            <l n="5'">ka-ba he2-em-mi-gi4</l>
+            <l n="6'">nig2-gi-na</l>
+            <l n="7'">ki-en-gi ki-uri{ki?}</l>
+            <l n="8'">he2-ni-gar</l>
+          </div>
+          <div n="4'" type="textpart">
+            <l n="1'">[...] ⸢im⸣-[...]</l>
+            <l n="2'">nig2-gul#?-[...]</l>
+            <l n="3'">hu-mu-[...]</l>
+            <l n="4'">nig2-si#?-[...]</l>
+            <l n="5'">us2? zi#? [...]</l>
+            <l n="6'">x [...]</l>
+            <l n="7'">hu-[...]</l>
+            <l n="8'">a#?-[...]</l>
+            <l n="9'">x [...]</l>
+            <l n="10'">x [...]</l>
+            <l n="11'">x [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="1'">...</l>
+        <l n="2'">And therefore(?) inside and outside the temple, like ... (I!?) spread the scent (of) supreme and superlative things(?)</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">My “unshrinking chest” provisions that of Enlil(?)</l>
+        <l n="6'">...</l>
+        <l n="7'">... butter and cream ...</l>
+        <l n="1'">...</l>
+        <l n="2'">Half loaves of bread/one half (of the following?)(!?), barley, butter, and sheep's wool were therefore tithed and prepared/taken care of(?)</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">Therefore evil and violence was “returned into their mouths” (i.e., eradicated)</l>
+        <l n="6'">...</l>
+        <l n="7'">...</l>
+        <l n="8'">Therefore truth was established in Sumer and Akkad</l>
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">Therefore the robbers that occupy the plain have been pulverized</l>
+        <l n="4'">...</l>
+        <l n="5'">Justice has taken the proper path(?)</l>
+        <l n="6'">...</l>
+        <l n="7'">... followed ...</l>
+        <l n="8'">In the field a man ... authoritatively</l>
+        <l n="9'">...</l>
+        <l n="10'">...</l>
+        <l n="11'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

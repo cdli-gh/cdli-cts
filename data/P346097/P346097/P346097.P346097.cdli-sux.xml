@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000339, ex. 018</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346097</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346097.P346097.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">⸢in⸣-nin ⸢me⸣ ⸢huš⸣-a ni2 ⸢gur3⸣-ru ⸢me⸣ ⸢gal⸣-⸢la⸣ u5-a</l>
+            <l n="2">{d}inanna a2-kar2 KA#? šu du7 mud-bi [...] gu2 e3</l>
+            <l n="3">me gal-gal-la hub2 sar-re-gin7 {kuš}gur21{+ur3}-bi ki us2-sa</l>
+            <l n="4">u4 mar-rux(TE)-a šu sa2 du11-ga</l>
+            <l n="5">nin gal {d}inanna-ra šen-šen-na sa2 si-si-ga! gal-zu</l>
+            <l n="6">kur gul-gul ti a2-ta x-še3 i-ni-in-bad kur-re a2-bi mi-ni-in-⸢sag3⸣</l>
+            <l n="7">pirig-gin7 an-ki-a šegx(|KAxLI|) i-ni-in-gi4 ug3-e su i-ni-sag3</l>
+            <l n="8">am gal-gin7 kur gu2-erim2-gal2-la u3-na ba-gub-be2</l>
+            <l n="9">pirig huš-gin7 uru16-na nu-še-ga-za ze2-za bi2-ib2-⸢te⸣-en-te-en</l>
+            <l n="10">nin-gu10 an-gin7 bulug3-ga2-za</l>
+            <l n="11">ki-sikil {d}inanna ki-gin7 mah-a-za</l>
+            <l n="12">{d}utu lugal-gin7 e3-za a2 dagal su3-su3-za</l>
+            <l n="13">an-ne2 DU-a-za ni2 huš gur3-ru-za</l>
+            <l n="14">[...]-a#? ⸢u4⸣ še-er-zi gur3-ru-⸢za⸣</l>
+            <l n="15">[...]-ga2 gen-na sa za-gin3 e3-⸢za⸣</l>
+            <l n="16">[...] x-x a tu5-[za]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] kur#? ki sikil u3-tu-u4-da-za</l>
+            <l n="2">[...] en-ul-gin7 udug2 mur10-⸢mur10⸣-ra-za</l>
+            <l n="3">[...] {geš}tukul BIR-ra?-gin7 sag gur4-gur4-za</l>
+            <l n="4">[...]-x-⸢ga⸣ šir3-re-eš ib2-ra</l>
+            <l n="5">kur#?-⸢kur⸣-⸢re⸣ i-lu-lam-ma-bi du10-⸢ge⸣-eš i-mi-ib2-be2</l>
+            <l n="6">x x a dumu gal {d}suen-na</l>
+            <l n="7">ki-sikil#? {d}inanna me-teš2-e ga-i-⸢i⸣</l>
+            <l n="8">⸢in⸣-[...]-⸢en⸣ an nigin2-na-gu10-ne! ki ⸢nigin2⸣-na-⸢gu10⸣-ne</l>
+            <l n="9">{d}inanna-me-en an nigin2-na-gu10-ne ki ⸢nigin2⸣-⸢na⸣-gu10-ne</l>
+            <l n="10">elam{ki} su-bir4{ki} ki#? nigin2-⸢na⸣-gu10-ne</l>
+            <l n="11">⸢kur⸣ lu5!-lu5-⸢a⸣ ki#? ⸢nigin2⸣-⸢na⸣-gu10-ne</l>
+            <l n="12">kur ša3-⸢ga⸣ du-du-⸢da⸣-a-gu10-ne</l>
+            <l n="13">in-nin9 [...] kur-⸢re⸣ ⸢te⸣-a-me-en ni2-bi na-ma-⸢ra⸣-be2</l>
+            <l n="14">⸢{d}inanna⸣ [...]-⸢re⸣ ⸢te⸣-a [...] ni2-bi na-ma-ra-ab-be2</l>
+            <l n="15">⸢hur⸣-sag#? kur#? ebih#{ki}-ke4 te-a-me-en ni2-bi na-ma-ra-⸢ab⸣-⸢be2⸣</l>
+            <l n="16">ni2-bi-⸢ta⸣ na-ma-ra-ab-NI-gin7</l>
+            <l n="17">giri17-bi ki-še3! na-ma-ra-ab-te!-a-gin7</l>
+            <l n="18">⸢sum4⸣ sahar-ra na-ma-ra-ab-⸢ur3⸣-ra-gin7</l>
+            <l n="19">ib#?-ni#?-{d}suen</l>
+          </div>
+          <div n="left" type="textpart">
+            <l n="1">{iti}NE-NE-gar!? 2(u)? 4(diš)?-kam</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Lady who bears an aura amongst the furious me, who rides the great me</l>
+        <l n="2">Inanna, equipped with the ... a'ankar weapon, cloaking the battle(field) with its blood/terror(?)</l>
+        <l n="3">Who leans the shield upon the ground like one who runs amid the great battles(?)</l>
+        <l n="4">Who clutches(?) the storm and the stormwind</l>
+        <l n="5">For(!?) great lady Inanna, counsel is dispensed in battle, wise one</l>
+        <l n="6">Destroyer of the mountain, she unleashed the arrow towards ... by means of (her) power, who smote(?) with the arm(?) in the mountain</l>
+        <l n="7">She screamed in the universe like a pirig creature and made the people tremble</l>
+        <l n="8">Like a great wild bull she stands wildly in the hostile land</l>
+        <l n="9">Like a furious pirig creature you(!) extinguish ... among(?) the mighty/clever(?) and those disobedient to you in your bile</l>
+        <l n="10">My lady, as you grow like heaven</l>
+        <l n="11">Young woman Inanna, as you are supreme like the earth</l>
+        <l n="12">As you come out like Utu, the king, as you move widely about</l>
+        <l n="13">As you move in/are suitable for(?) heaven, as you bear a furious aura</l>
+        <l n="14">As you carry the brilliant sunlight on the earth</l>
+        <l n="15">One who goes in the mountain range, as you bring out a lapis net</l>
+        <l n="16">As you bathe in the pure/flowering mountain</l>
+        <l n="1">As you fashion the šuba mountain, the mountain, the pure place</l>
+        <l n="2">As your wear the udug/šita mace(!?) like (the ancestral deities) Enšar and Enul</l>
+        <l n="3">As you make heads roll(?) in its battles like (you were using?) a ... weapon</l>
+        <l n="4">The black-headed (shout) (this) with song</l>
+        <l n="5">In(?) all the lands (the blackheaded) sing this ilulama song sweetly</l>
+        <l n="6">The lady of battle(?), the great/eldest child of Suen</l>
+        <l n="7">Young woman Inanna, I want to praise you</l>
+        <l n="8">(Inanna said) I am the lady, when I go around heaven, when I go around earth</l>
+        <l n="9">I am Inanna, when I go around heaven, when I go around earth</l>
+        <l n="10">When I go around the earth, (namely?) Elam and Subir</l>
+        <l n="11">When I go around the earth, (namely?) the land of lulubi</l>
+        <l n="12">When I am to thrash around in the inner mountain</l>
+        <l n="13">I am the lady, I am the one that had approached the mountain, it should not/indeed it did(?) act fearfully towards me(?)</l>
+        <l n="14">I am Inanna, I am the one that had approached the mountain, it should not/indeed it did(?) act fearfully towards me(?)</l>
+        <l n="15">I am the one that had approached the mountain range (with?) the mountain of Ebih, it should not/indeed it did(?) act fearfully towards me(?)</l>
+        <l n="16">Like one who should not/indeed did(?) ... towards me(?) from/by means of its fear</l>
+        <l n="17">Like one who should not/indeed did(?) bring its nose(?) near to the ground towards me</l>
+        <l n="18">Like one who should not/indeed did(?) drag (its) beard in the dust for me</l>
+        <l n="19">Ibni-Sîn (was the scribe)</l>
+        <l n="1">(It is the month of) NENEgar, the 24th(?) day</l>
+      </div>
+    </body>
+  </text>
+</TEI>

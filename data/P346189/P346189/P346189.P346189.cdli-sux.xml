@@ -1,0 +1,223 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000512, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346189</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346189.P346189.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[...] x x šu-luh ku3-ga tum2-ma</l>
+            <l n="2">[{d}ri-im]-{d}suen išib an-na siskur2 sikil-la tum2-ma</l>
+            <l n="3">[...] x ku3-ta bi2-pa3-da-zu nam-en kalam-ma-še3 i-ni-il2-la</l>
+            <l n="4">nam#?-sipa sag-gig2-ga i-ni-in-gar-ra</l>
+            <l n="5">eškiri2 kalam ge-en-ge-en šu-ni bi2-in-si-a</l>
+            <l n="6">šibir ug3 zi-gal2 lah5-lah5-e za3-ga-na bi2-in-la2</l>
+            <l n="7">ša-ra-da-gub šu sikil-la ak-a-ni nig2-nam mi-ni-in-du10-du10</l>
+            <l n="8">ga {d}ašnan-ma ir du10-ga ma-dam kalam-ma-ka</l>
+            <l n="9">he-nun ša3-tum2-ma he2-gal2 nu-silig-ge</l>
+            <l n="10">1(u) kurun geštin pa e3-a</l>
+            <l n="11">ulušin3 ku7#?-ku7-da a2 sikil-da šar2-ra</l>
+            <l n="12">kaš hušx(GIR3)? šu? sikil kur? unu2? a-nag nam-en-na-zu</l>
+            <l n="13">kaš tab-ba kaš mah šu ku3-zu tum2-ma</l>
+            <l n="14">lal3 babbar mu-pa3-da-zu hur-sag-ta e3-a</l>
+            <l n="15">i3 ab2 ku3-ga i3-nun me-te nam-nun-na-zu</l>
+            <l n="16">i3-geš bara2-ga i3-li sag si-ga</l>
+            <l n="17">ga-šex(SIG7)-a me-te e2-tur3-re unu2 ku3 nam-dingir-zu</l>
+            <l n="18">sul geš tuku-zu lugal ki ag2-zu</l>
+            <l n="19">sipa {d}ri-im-{d}suen nam-ti-la-ni-še3 tum2-ma-da gin6-ne2-de3</l>
+            <l n="20">1(u) ki-lugal-DU ku3 šita-še3 ba-ab-du7-a siskur2 ša3 hul2-la ša-ra-ra-de2-de2</l>
+            <l n="21">u2 sikil-la u2-bi gu7-&amp;lt;a&amp;gt; a sikil-la a-bi nag-a</l>
+            <l n="22">ne-sag KA-BI-zu ša3 hul2-la-zu-ta šu te-en-ši-ib</l>
+            <l n="23">a-⸢ra⸣-⸢zu⸣-ni še-ga-an za-e nir he2-gal2</l>
+            <l n="24">sun5-⸢na⸣-bi inim mu-ra-ab-⸢sa6⸣-ge nam-ti-bi du11-ga-ab</l>
+            <l n="25">ki-en-DU ku3 ki-en-DU mah-e zi-de3-eš DU-DU-ab</l>
+            <l n="26">ki gub-ba-ni-ta silim#?-ma#? gar-mu-na-ab</l>
+            <l n="27">nam-lugal-la-ni igi-zu-še3 ⸢du⸣-ri2-še3 he2-LI</l>
+            <l n="28">⸢sag⸣-⸢kal⸣ [...] x EN!? nun x NE he2-a</l>
+            <l n="29">x-[...]-x-ta ⸢an⸣-ki#?-gin7 sag2 nu-di</l>
+            <l n="30">1(u) x x ug3 šar2-ra-ka he2-en-&amp;lt;...&amp;gt;</l>
+            <l n="31">ka ⸢ba⸣-a-ni-še3 dingir amalu-x-zu#? gizzalx(|GIŠ.TUG2.PI.SILA3|) he2-em-&amp;lt;...&amp;gt;</l>
+            <l n="32">du11-ga-ni-še3 ha-ba-⸢dur2⸣-⸢ru⸣-ne-eš</l>
+            <l n="33">nam-ti šu gi4-a he2-ni-tum2#?-⸢tum2⸣-mu</l>
+            <l n="34">nam-lu2-lu7{lu}-bi ša3 hul2-la he2-eb#?-ke3-e</l>
+            <l n="35">u4-bi-še3 u2-a zi-bi he2-em</l>
+            <l n="36">me-lam2 mir-a-ni muru9 &amp;lt;dugud&amp;gt;-da-gin7 lugal gu2 du3-a-ni he2-em-dul</l>
+            <l n="37">nig2-nam sa6-ga-ni maš2-da-re-a-bi he2-ni-in-ku4-ku4</l>
+            <l n="38">sipa zi {d}ri-im-{d}suen za-ra dingir-bi?-gin7 igi-bi ma-ra-ši-gal2</l>
+            <l n="39">nam-ti ki ag2-ga2-ni geš-šub-ba-ni gar-ni</l>
+            <l n="40">1(u) ša3 ⸢hul2⸣-la rig7-bi2-ib u4-gin7 ha-ba-mu2-mu2</l>
+            <l n="41">[...] ⸢šu⸣ mu-ra-mu2-mu2 ⸢šud3⸣-da-ni geš tuku-bi2-ib</l>
+            <l n="42">[...] sa6#?-sa6-ge-da-ni zi-ni ti-mu-na-ab</l>
+            <l n="43">[...] x nir he2-gal2 za3 ša4 na-an-tuku-tuku</l>
+            <l n="44">[...]-mu-ra-an-gal2 u4-bi su3-u4 ba-ni-ib</l>
+            <l n="45">[...]-ti-la-ka-na#? ⸢nam⸣-lugal#?-la a2#?-bi ga2-x-[...]-x</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] ka#? ba?-a-ni x x gil-sa he2-em</l>
+            <l n="2">[...]-ni#? ša3 hul2-la [...]-ke3-e!</l>
+            <l n="3">[...] x šu gi4-a ur-mah ⸢nam⸣-x x x-bi-še3 he2-da-ab-ri-eš</l>
+            <l n="4">⸢u3⸣-⸢gul⸣ ga2-ga2-ni-še3 bar#? [... he2]-en-na-tam</l>
+            <l n="5">1(u) x-zu? nam-ti-la x [...] šum2?-mu-na-ab</l>
+            <l n="6">inim#? ku3-zu nam-ti-la x [...] he#!?-em-tum2-me</l>
+            <l n="7">⸢šu⸣ il2-la-ni-še3 x-[...]-ib? nam du10 tar-mu-na-ab</l>
+            <l n="8">nam-ti kaš-gin7 x [...] x ⸢ma⸣-da-na he2-eb-du10</l>
+            <l n="9">⸢ub⸣-⸢da⸣ limmu2 giri3-ni-še3 gur2-mu-x-[...] e-ne lugal-bi he2-em</l>
+            <l n="10">x x-na u2-sal-⸢la⸣ nu2-a</l>
+            <l n="11">x x ⸢ša3⸣ hul2-la u4 hu-mu-ni-ib-zal-e</l>
+            <l n="12">nun#? x x lugal še-ga-zu za-a-še3 gal2-la</l>
+            <l n="13">{d}ri-im-⸢{d}suen⸣ en {d}dil-⸢im2⸣-babbar mu-ni bi2-in-še21-a</l>
+            <l n="14">u4 bala-ni ⸢su3⸣-⸢u4⸣-ba#?-ni-ib zi x x [...]-x</l>
+            <l n="15">1(u) aga zi mah x x x [...]-x-SAR#?-SAR#?</l>
+            <l n="16">nam-ti-la-ni šu? x [...]-x?-i</l>
+            <l n="17">{geš}gu-za-zu? AN x x [...] ⸢suhuš⸣-⸢bi⸣ he2-ge-en</l>
+            <l n="18">ur5 sa6-ge ša3 zalag-ge a-la-bi ša3 he2-eb-si</l>
+            <l n="19">x-bi-še3 nam-x x x x-bi-še3 silim-ma he2-em</l>
+            <l n="20">u3-luh nig2-⸢si⸣-sa2#? x [...] x šu#?-ni-še3 si-bi2-ib ug3 šar2-ra he2-lu-⸢lu⸣</l>
+            <l n="21">u4 zalag-ga sag x x x x za#?-e mu-na-RU-ab</l>
+            <l n="22">iti giri17-zal asilx(EZEN)#?-la2-x nig2-ba-aš ba-mu-na-ab</l>
+            <l n="23">mu hi-a!? mul an za-gin3-gin7 šid-bi nu-til-le sag-e-eš rig7-mu-na-ab</l>
+            <l n="24">nam-lugal-la bala ša3 hul2-la du-ri2-še3 he2-eb-ke3-e</l>
+            <l n="25">1(u) lugal u2-a zi he2-ti-le</l>
+            <l n="26">{d}ri-im-{d}suen u2-a zi he2-ti-le</l>
+            <l n="27">nam-lugal-la-ni su-za-a he2-eb-du10</l>
+            <l n="28">u4 nam-ti-la-ka-ni su3-u4-ba-ni-ib</l>
+            <l n="29">ma-da ki-bi gi4-a nam-lugal-bi šum2-mu-na-ab</l>
+            <l n="30">ša3 ma-da du10-ga-na-ab giri3 ma-da si sa2-na-ab</l>
+            <l n="31">gu3 kalam-ma teš2-a si-ge5-mu-na-ab</l>
+            <l n="32">{d}ri-im-{d}suen sipa ša3 še-ga-zu he2-ti-le</l>
+            <l n="33">ix(|A.TUG2|)?-bi a hu-mu-na-ab-tum3</l>
+            <l n="34">a-ša3-ga še hu-mu-na-ab-mu2-mu2</l>
+            <l n="35">1(u) pu2-{geš}kiri6 lal3 geštin hu-mu-na-ab-tum3</l>
+            <l n="36">sug ku6 mušen ul-le-eš hu-mu-na-ab-gar-gar</l>
+            <l n="37">e2-tur3-e udu-utuwa2?-a gu4?-de3 ha-ba-lu-lu</l>
+            <l n="38">šegx(|IM.A|) an-ta a-eštub idim-ta he2-en-na-ge-en</l>
+            <l n="39">e2-gal zi su3-u4 gal2 he2-en-da-ab-si</l>
+            <l n="40">{d}ri-im-{d}suen lugal-gu10</l>
+            <l n="41">šu-nigin2 1(geš2){+šu-ši} 2(u) 5(diš) mu-ni igi duh-a lugal</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">..., suitable for the holy cleansing ritual</l>
+        <l n="2">Rīm-Sîn, išib priest of An, suitable for the pure siskur offering/ritual</l>
+        <l n="3">Your ..., chosen in/by means of the pure ..., the one raised towards the lordship of the land</l>
+        <l n="4">The one whose shepherdship was established upon the black-headed people</l>
+        <l n="5">(Whose) nose rope that solidifies the land was made to fill his hand</l>
+        <l n="6">(Whose) crook moves the people and animals, attached to his shoulder</l>
+        <l n="7">If he is able to serve you, he should have made everything satisfactory involving(?) his hand purification</l>
+        <l n="8">The cream/milk(!?) of Ezina(?), sweet-scented, the abundance of the land</l>
+        <l n="9">The plenty of the pasture, unceasing abundance</l>
+        <l n="10">(10) “Manifest”(?) liquor and wine</l>
+        <l n="11">Sweet emmer beer, mixed by pure arms/mixed with pure water(?)</l>
+        <l n="12">Red beer(?) pure hands ..., the drink of your en priesthood</l>
+        <l n="13">Marked (i.e., choice(?)) beer(?), superb beer, suitable for your pure hands</l>
+        <l n="14">White/dry? honey , your gift(?) that was brought down from the mountain range</l>
+        <l n="15">Butter of a pure cow and ghee, the symbol of princeliness</l>
+        <l n="16">Filtered vegetable oil, first quality clear fine oil</l>
+        <l n="17">Yellowed milk, the symbol of(?) the cattlepen, the dining hall of your divinity</l>
+        <l n="18">Your attentive youth, your beloved king</l>
+        <l n="19">Shepherd Rīm-Sîn, who is to bring and make permanent (these offerings) on behalf of his life</l>
+        <l n="20">At the holy “royal standing place”, which is appropriate for the šita prayer/vessel/priest(?), he shall libate the siskur offerings/rites that make the heart rejoice</l>
+        <l n="21">The pure food, this food (for) eating(?), the pure water, this water (for) drinking?</l>
+        <l n="22">Accept your ... first-fruit offering by means of your joyful heart</l>
+        <l n="23">Consent to his arazu prayer, so that you trust him</l>
+        <l n="24">Humbly he makes his speech pleasant to you/prays, (so) order (his) life!</l>
+        <l n="25">Faithfully ... in the holy “standing place of the en functionary,” the supreme “standing place of the en functionary”</l>
+        <l n="26">Initiate a greeting at his station</l>
+        <l n="27">His kingship shall ... before you forever</l>
+        <l n="28">He shall be foremost ...</l>
+        <l n="29">By means of(?) ..., which, like the universe(?), cannot be scattered</l>
+        <l n="30">(10) ... shall ... the ... of the many people</l>
+        <l n="31">Your(?) (personal) god and goddess(?) like(?) ... shall pay attention to his speech</l>
+        <l n="32">According to his command, they shall sit (in assembly?)</l>
+        <l n="33">Life and pardon/repaid life(?) shall be brought there</l>
+        <l n="34">He shall make the people rejoice</l>
+        <l n="35">At that time he (Rīm-Sîn) shall their true provider</l>
+        <l n="36">His furious aura shall cover kings that hate him like a heavy fog</l>
+        <l n="37">He shall bring everything that is good (to him) as a mašdaria delivery</l>
+        <l n="38">The true shepherd Rīm-Sîn looks(?) to you like his(?) personal god(?)</l>
+        <l n="39">Set in place his loving of life (as) his lot</l>
+        <l n="40">(10) Bestow a rejoicing heart (upon him), so that (his face?) shines like the sun</l>
+        <l n="41">... prays to you, hear his šud prayer</l>
+        <l n="42">When he is to make his speech (to you) pleasant(?), sustain his life</l>
+        <l n="43">If he trusts ..., he shall have no rival</l>
+        <l n="44">(If) he strokes his nose (in submission) to you(?), allocate (a reign of) distant days</l>
+        <l n="45">In the ... of his life(?) ... kingship</l>
+        <l n="1">... his speech/when he speaks(?) ... shall be a treasure</l>
+        <l n="2">... his ... rejoicing</l>
+        <l n="3">Repaid/avenged ... lion ... shall drive ... from .... towards(?) ...</l>
+        <l n="4">May (you) examine(?) his plea</l>
+        <l n="5">Give(?) ... your ..., life ...</l>
+        <l n="6">Your holy word shall bring life(?) ...</l>
+        <l n="7">... towards his raised hands (in prayer), decree him a good fate</l>
+        <l n="8">So that life, like beer(?) ... shall be sweetened in the ... of his land</l>
+        <l n="9">Make the four corners of the world bow to his feet, so that he is their king/how he shall be their king(?)</l>
+        <l n="10">..., having laid down in the meadows</l>
+        <l n="11">... spends time rejoicing</l>
+        <l n="12">The ... ruler, your obedient king who is present on your behalf</l>
+        <l n="13">Rīm-Sîn, named by lord Dilimbabbar</l>
+        <l n="14">Make distant the days of his reign, ... his life(?)</l>
+        <l n="15">(10) A true and supreme tiara ...</l>
+        <l n="16">... his life, ...</l>
+        <l n="17">Your(!?) throne, ..., may its foundations(?) be firm</l>
+        <l n="18">May the exuberance of a (mood typified by a) pleased liver and brightened heart fill his(?) heart</l>
+        <l n="19">... shall be well</l>
+        <l n="20">Entrust a scepter of justice ... to his hand, so that the many people ...</l>
+        <l n="21">... shining light ... for him</l>
+        <l n="22">Give him a month of happiness and rejoicing as a gift</l>
+        <l n="23">Bestow upon him an assortment/multitude of(?) years, as inexhaustible as the stars of blue heaven</l>
+        <l n="24">May he exercise the kingship, a reign of rejoicing, forever</l>
+        <l n="25">(10) May the king, the faithful provider, live</l>
+        <l n="26">May Rīm-Sîn, the faithful provider, live</l>
+        <l n="27">May his kingship be made pleasing in your flesh</l>
+        <l n="28">Make the days of his life extensive</l>
+        <l n="29">Give to him the overlordship of restoring the (cultic) places of the land</l>
+        <l n="30">Sweeten the heart of the land for him, set the paths of the land in order for him</l>
+        <l n="31">Put the voice of the land in unison/the land in agreement for him</l>
+        <l n="32">So that Rim-Suen, your obedient-hearted shepherd, lives</l>
+        <l n="33">May its canal irrigate water for him</l>
+        <l n="34">In the field may barley grow for him</l>
+        <l n="35">(10) May the irrigated orchard bring syrup and wine for him</l>
+        <l n="36">May the swamp pile up fishes and birds joyfully/in a swollen state for him</l>
+        <l n="37">In the holding pen may the ram(?) and the ox(?) teem for him</l>
+        <l n="38">May rain from above and the carp-flood from the (river) source be constant for him</l>
+        <l n="39">May (his) palace fill him/be filled with possession of a long life</l>
+        <l n="40">Rīm-Sîn, my king!</l>
+        <l n="41">Total: 85 (are) its(!) lines, viewed by the king/(for the) seeing (of Nanna?) by the king(?).</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000357, ex. 003</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346146</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346146.P346146.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">nam-lu2-lux(URU) mu#?-da-ab-dim2-dim2-eš</l>
+            <l n="2">[nig2]-ki#? gu3#? teš2-a ki?-⸢ta⸣ lu-lu-a-ba</l>
+            <l n="3">⸢maš2⸣-anše ⸢nig2⸣-⸢ur2⸣-⸢limmu2⸣ [edin-na] me-te-aš bi2-ib2-gal2-eš</l>
+            <l n="4">an-edin-na? [u2]-⸢šim⸣ giri17-zal-la dagal-bi ba-ni!-ib2-[...]</l>
+            <l n="5">u4-ba ⸢i7⸣ nu-dun-⸢dun⸣ [...] x x x x [...] x</l>
+            <l n="6">e pa5-re#! [...] x</l>
+            <l n="7">gu4 apin x x ⸢NAM⸣ [...] x</l>
+            <l n="8">kur-kur-re ⸢us2⸣ dil-am3#? [... dab5 ...]</l>
+            <l n="9">nam-lu2-lux(URU) ⸢igi⸣-⸢bi⸣ [...]</l>
+            <l n="10">{d}šakkan bar-rim4-ma#? [...]</l>
+            <l n="11">tug2-sag-šu tuku5 x [...]</l>
+            <l n="12">nam-lu2-lux(URU) [...]</l>
+            <l n="13">u4-ba muš nu-[gal2-...]</l>
+            <l n="14">ur-mah nu-gal2-[...]</l>
+            <l n="15">ur-gir15 ur-[bar-ra nu-gal2-...]</l>
+            <l n="16">nam-lu2-lux(URU) [...]-la#?</l>
+            <l n="17">ni2 ti-ga2 x [...]-la?</l>
+            <l n="18">lu2 ki? [...]-e</l>
+            <l n="19">lugal x [...]-TU</l>
+            <l n="20">x [...]-NE</l>
+            <l n="21">[...]-NIG2</l>
+            <l n="22">[...]-la</l>
+            <l n="23">[...]-tuku</l>
+            <l n="24">[...] x [...] x</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[1(diš@t)-kam-ma-še3? ... ⸢{d}]asal⸣-lu2-hi-še3 [mu-na-ni-ib]-⸢šum2⸣-mu</l>
+            <l n="2'">[2(diš@t)-kam-ma-še3 ...]-ki [mu-na-ni-ib]-⸢šum2⸣-mu</l>
+            <l n="3'">3(diš@t)-kam-ma-[še3 la-ra-ak{ki} {d}pa-bil2]-sag-ga2-ra [mu-na-ni-ib]-šum2-mu</l>
+            <l n="4'">4(diš@t)-kam-ma-še3 [... mu]-na-ni-ib-šum2-mu-ne</l>
+            <l n="5'">5(diš@t)-kam-ma-še3 šuruppak#[{ki} ... mu-na-ni]-ib-šum2-mu</l>
+            <l n="6'">iri{ki}-bi-ne [...] x a2-dam-bi [...]-a</l>
+            <l n="7'">an {d}en-lil2 [{d}en-ki? {d}nin-hur]-⸢sag⸣-ga2-ke4</l>
+            <l n="8'">ša3!? iri-bi-ne eridu{ki} [...] sag#?-bi-še3 / [...]-x-gar-eš</l>
+            <l n="9'">lu2-lux(URU) ug3 ⸢dagal⸣ ⸢šar2⸣-ra ba-nu2#? [...]-da-ab-ak-eš</l>
+            <l n="10'">an {d}en-lil2 {d}en-ki a-a dingir-[re]-e-ne</l>
+            <l n="11'">nam-sipa kilib3? ug3 šar2-ra-ba a-lulimx(GIR3)? [...]-an-pa3-de3-[...]</l>
+            <l n="12'">a!-lulimx(GIR3)? ⸢mu⸣-bi ba-ab-še21-eš x x [...].</l>
+            <l n="13'">HAR kab2 du11#?-ga a2 ag2-e mu-un-sug2-eš-a-[ba?]</l>
+            <l n="14'">nam-lu2-lux(URU)#? nig2 a-na mu še21-a-ba giri3-ni dab5-be2-[...]</l>
+            <l n="15'">šer7-[da? še?]-bi-da šu-na ba-da-an-gar-re-[...]</l>
+            <l n="16'">[...] x e-ne-ra mu-na-ab-⸢šum2⸣-[...]</l>
+            <l n="17'">[...] x ⸢mu⸣-[...]</l>
+            <l n="18'">[...] x [...] x mu-na-ab-x-[...]</l>
+            <l n="19'">uš-x x x-mu-u2</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">They created humanity</l>
+        <l n="2">After(?) the animals in unison proliferated below(?)</l>
+        <l n="3">They put the domestic herds and quadrupeds appropriately in the plain/0?</l>
+        <l n="4">In the upper steppe ... joy, the birth mother(?) ....</l>
+        <l n="5">At that time, the canal was not dug ...</l>
+        <l n="6">The dike and ditch were not dredged ...</l>
+        <l n="7">The plow(!?) ...</l>
+        <l n="8">The lands followed a single track(?)</l>
+        <l n="9">Humanity ... their eyes/faces</l>
+        <l n="10">Sumuqan did not go out? in the desert ...</l>
+        <l n="11">Weaving the cap/headcloth(?) ... ...</l>
+        <l n="12">Humanity ...</l>
+        <l n="13">At that time, the snake was not present, the scorpion was not present ...</l>
+        <l n="14">The lion was not present, ...</l>
+        <l n="15">The dog and the wolf was not present ...</l>
+        <l n="16">Humanity had no opponent ...</l>
+        <l n="17">Fear and gooseflesh(!?) were not present ...</l>
+        <l n="18">The man ...</l>
+        <l n="19">The king ...</l>
+        <l n="20">...</l>
+        <l n="21">...</l>
+        <l n="22">...</l>
+        <l n="23">...</l>
+        <l n="24">...</l>
+        <l n="1'">For the 1st (time), ... were giving Eridu or Ku'ara? to Asalluhi</l>
+        <l n="2'">For the 2nd time ... were giving ...</l>
+        <l n="3'">For the 3rd (time) ... were giving Larak to Pabilsag</l>
+        <l n="4'">For the 4th (time) ... were giving ...</l>
+        <l n="5'">For the 5th (time) ... were giving Shuruppak? to Sud?</l>
+        <l n="6'">Those cities ... their settlements ...</l>
+        <l n="7'">An, Enlil, Enki? and Ninhursag</l>
+        <l n="8'">Among(?) those cities, Eridu ... they established at the front/as the leader(?)</l>
+        <l n="9'">They led(?) a man who was lying(?) among its vast and many people ...</l>
+        <l n="10'">An, Enlil, and Enki, the father(s) of the gods(?)</l>
+        <l n="11'">They chose Alulim for the shepherdship of the entirety of the many people</l>
+        <l n="12'">They named him(!) Alulim</l>
+        <l n="13'">After they served according to the command to check thusly/for ever after(?)</l>
+        <l n="14'">Humanity, whoever possessed a name, grasping his feet (in submission?)/following his path (i.e., his instruction?) ...</l>
+        <l n="15'">They put both (capital) offense and negligence(?) in his hand</l>
+        <l n="16'">.... gave(?) ... to him</l>
+        <l n="17'">...</l>
+        <l n="18'">...</l>
+        <l n="19'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

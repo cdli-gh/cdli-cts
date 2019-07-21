@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0168</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346253</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346253.P346253.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">e2#?-dub#?-ba?-a-še3 x [...]</l>
+            <l n="2'">šu MU x x šu#? [...]</l>
+            <l n="3'">lu2 kisal-la2-ke4 šu x [...]</l>
+            <l n="4'">lu2 pa mušen-na-x [...] mu x [...]</l>
+            <l n="5'">ki dub3 gam-ma-⸢ka⸣ [...]</l>
+            <l n="6'">tukumbi [...]</l>
+            <l n="7'">im pa mušen-[na ...]</l>
+            <l n="8'">ki dub3 gam-⸢ma⸣-[...]</l>
+            <l n="9'">lu2 kisal-⸢la2⸣-[...]</l>
+            <l n="10'">tuš-u3 IGI [...]</l>
+            <l n="11'">⸢tukumbi⸣ [...]</l>
+            <l n="12'">dur2-ru-⸢un⸣ [...]</l>
+            <l n="13'">⸢lu2⸣ x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">x x [...]</l>
+            <l n="2'">šeš gal-e [...]</l>
+            <l n="3'">im#!?-šu-ka-ne-ne-a-ka x [...] an#?-na x e#?-NE [...]</l>
+            <l n="4'">umun2 ke3-da-ni x x x [...] al-du-un x [...]</l>
+            <l n="5'">lu2 tag-tag-ge-da-ke4#? x [...] sahar ŠEŠ ab-DU x [...]</l>
+            <l n="6'">lu2 bur2-ra-⸢bi⸣ al-DU-x [...] im-⸢ma⸣ bi2-in-x-[...]</l>
+            <l n="7'">dumu e2#?-dub#!?-ba#?-a#?-ke4#? x [...] x x [...]</l>
+            <l n="8'">x x-na [...] x [...] x [...]</l>
+            <l n="9'">[...] x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">... going(?) towards the eduba'a school ...</l>
+        <l n="2'">...</l>
+        <l n="3'">The “man of/attached to the courtyard”... touched/adorned/chose the ground(?) ...</l>
+        <l n="4'">“The man of the bird feather” ... ... brings out ... at? the “place of kneeling”</l>
+        <l n="5'">At the “place of kneeling” ... struck(?) ...</l>
+        <l n="6'">If ... touched ...</l>
+        <l n="7'">The “clay of the bird feather”/clay ... on the bird feather(?) ... stood/positioned/entered (on a tablet?)</l>
+        <l n="8'">From the “place of kneeling” ... bring out(?)</l>
+        <l n="9'">The “man of/attached to the courtyard”... touched/adorned/chose the ground(?) ...</l>
+        <l n="10'">Sit!(?) ...</l>
+        <l n="11'">If ...</l>
+        <l n="12'">Sit! (pl.)(?) ...</l>
+        <l n="13'">...</l>
+        <l n="2'">The “big brother” ...</l>
+        <l n="3'">Their “tablets of the hand” ...</l>
+        <l n="4'">His instruction to be given(?) ... comes ...</l>
+        <l n="5'">The man “who is to (repeatedly) touch” ...</l>
+        <l n="6'">The man ... the solution/release(?) ... on(?) clay</l>
+        <l n="7'">Member of the eduba'a school(?) ...</l>
+        <l n="8'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

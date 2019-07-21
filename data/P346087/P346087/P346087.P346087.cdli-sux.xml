@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000352, ex. 002</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346087</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346087.P346087.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">du11-ga-ni-ta {geš}tukul-zu hul-a mu-ni-in-tag</l>
+            <l n="2">me šu-ga2 šu ba-ba-mu-ne ⸢me⸣-⸢bi⸣ abzu-še3 ba-an-gi4</l>
+            <l n="3">geš-hur šu-⸢ga2⸣ šu ba-⸢ba⸣-mu-ne geš-hur-bi abzu-še3 ba-an-gi4</l>
+            <l n="4">⸢dub⸣ [nam-tar-ra]-⸢bi⸣ abzu-še3 ba-an-gi4 me ab-la2-e-en</l>
+            <l n="5">[inim amar] anzu2#{mušen}-še3 ur-sag {d}nin-urta lul-aš ba-an-si</l>
+            <l n="6">[{d}nin-men]-⸢na⸣-ke4 a-nir im-ga2-ga2</l>
+            <l n="7">[ge26-e me]-bi šu-mu-uš ⸢li⸣-⸢bi2⸣-ku4 nam-en-⸢bi⸣ ⸢nu⸣-ak-⸢e⸣</l>
+            <l n="8">[ge26-e] ⸢e⸣-ne-⸢gin7⸣ ⸢eš3⸣-⸢e⸣ ⸢abzu⸣-⸢a⸣ ⸢nu⸣-mu-un-til</l>
+            <l n="9">[a-a] ⸢{d#}en⸣-⸢ki⸣ ⸢inim⸣ ⸢mu⸣-[un-du11]-⸢du11⸣-ga-a abzu-a ba-da-an-zu</l>
+            <l n="10">[ur]-⸢sag⸣ {d}nin-urta amar anzu2#{mušen}-de3 šu-ni bi2-in-ti</l>
+            <l n="11">ki ⸢{d}en⸣-ki-ka3-še3 ⸢abzu⸣-še3 im-ma-⸢da⸣-⸢te⸣</l>
+            <l n="12">{d}u4-ta-u18-lu amar anzu2{mušen}-de3 abzu-še3 ba-an-gi4</l>
+            <l n="13">en-e ur-sag-ra ba-ši-hul2</l>
+            <l n="14">a-a {d}en-ki [ur-sag] {d}nin-urta-ra ba-ši-hul2</l>
+            <l n="15">en {d}nu-⸢dim2⸣-[mu4-e mi2] ⸢zi⸣ mu-un-i-i-de3</l>
+            <l n="16">ur-sag-e dingir šeš-[zu-ne]-a dingir ⸢na⸣-me ur5-gin7 nu-mu-un-ak-e</l>
+            <l n="17">mušen {geš}tukul ⸢kal⸣-[ga]-⸢zu⸣ bi2-dab5-ba-še3</l>
+            <l n="18">u4 me-da u4 ul-⸢le2⸣-⸢še3⸣ [gu2]-⸢bi⸣ ⸢giri3⸣-zu ⸢ba⸣-[gub-be2-en]</l>
+            <l n="19">dingir gal-gal-e-ne a2 nam-[ur-sag-ga2-zu] me-teš2 [he2-i-i-ne]</l>
+            <l n="20">a-a-zu {d}en-lil2-le nig2-du11-[zu] ⸢he2⸣-⸢ak⸣</l>
+            <l n="21">{d}nin-men-na-ke4 kig2-⸢si3⸣-⸢ga⸣-zu na-an-⸢dim2⸣-e</l>
+            <l n="22">za-e-gin7 ni2 na-ab-tuku ⸢dingir⸣ ⸢na⸣-⸢me⸣ igi-zu-še3 šu si sa2 na-⸢an⸣-⸢sa2⸣-⸢e⸣</l>
+            <l n="23">iti-da eš3-e ⸢abzu⸣-⸢a⸣ igi-⸢du8⸣-⸢a⸣ ⸢e2⸣-⸢zu⸣ ⸢sag⸣ ⸢he2⸣-⸢us2⸣</l>
+            <l n="24">[an] zag gal-⸢la⸣ mu-zu ⸢he2⸣-pad3-⸢de3⸣</l>
+            <l n="25">ur-sag nam-tar-⸢ra⸣-⸢bi⸣ ⸢ša3⸣-bi nu-hul2</l>
+            <l n="26">ki-gub-ba-ni a-[gi6] ⸢i⸣-⸢im⸣-ku10-ku10-⸢ge⸣ i-sig7-sig7-ge</l>
+            <l n="27">ša3-bi nig2 ⸢gal⸣-⸢gal⸣ ⸢i⸣-⸢im⸣-⸢bal⸣-bal ⸢ša3⸣-bi i3-kur2-kur2</l>
+            <l n="28">inim da-bi ⸢nu⸣-⸢ub⸣-⸢tuku⸣-a bar-bi i-im-du11-du11</l>
+            <l n="29">ur-sag ⸢{d}nin⸣-⸢urta⸣ ⸢igi⸣-bi ki-šar2-ra ba-ni-in-gar</l>
+            <l n="30">lu2 na-me nu-ub-du11 ša3-bi zi nu-x-x</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">en gal {d}en-ki ki ni2-te-na-ke4 inim ša3-bi ba-x-[zu]</l>
+            <l n="2">eš3-e abzu-a a-gi6 mu4 i-im-tuku4-tuku4-[e]</l>
+            <l n="3">sukkal {d}isimudx(|PAB.NUN.ME.EZEN|)-de3 e2-e giri3 mu-un-ru-gu2</l>
+            <l n="4">ur-sag {d}nin-urta ed2-de3 nu-mu-un-še-še</l>
+            <l n="5">sukkal {d}isimudx(|PAB.NUN.ME.EZEN|)-de3-eš2 šu-ni ba-an-zi</l>
+            <l n="6">{d}en-ki-ke4 im abzu-a ba-⸢al⸣-gu7 ba-da-an-dim2</l>
+            <l n="7">⸢ki⸣ ⸢sun5⸣-na kan4 abzu-a ba-al-gu7 ba-da-an-gub</l>
+            <l n="8">⸢{d}en⸣-ki-ke4 ki-lul-la-ke4 mu-un-na-ab-du11-du11</l>
+            <l n="9">ki-gub-⸢ba⸣ ba-al-gi4-še3 ba-da-an-tum3</l>
+            <l n="10">ba-al-⸢gu7⸣ eger-ra-ni sa-bi ba-da-an-dab5</l>
+            <l n="11">ur-sag {d#}nin-urta giri3-bi ba-da-an-gi4</l>
+            <l n="12">{d}en-ki [nu]-zu-gin7 a-na-am3 ne-e im-me</l>
+            <l n="13">umbin-giri3-⸢bi⸣ ki bi2-in-⸢hur⸣ habrud hul ba-da-an-dun u4</l>
+            <l n="14">ur-sag {d}nin-urta ša3-⸢bi⸣ ba-da-an-šub</l>
+            <l n="15">ur-sag-e ga-[...] ed3-de3 nu-mu-un-zu-am3</l>
+            <l n="16">ba-al-gu7 ⸢giri3⸣ [umbin-giri3]-⸢bi⸣ ⸢ba⸣-an-sur-sur</l>
+            <l n="17">⸢en⸣ ⸢gal⸣ ⸢{d}en⸣-[ki]-⸢ke4⸣ [gu3 mu-un]-na-de2-e</l>
+            <l n="18">⸢me⸣ [x] ⸢kur⸣-ta ⸢mu⸣-⸢ni⸣-in-nigin2-nigin2 ⸢mu⸣-pad3-de3</l>
+            <l n="19">ge26-ra sag ⸢geš⸣ ra-mu-uš igi-⸢zu⸣ mu-e-gar-ra-⸢am3!⸣</l>
+            <l n="20">x-bil2-ga gal-gal di ge26-e bi2-⸢ib2⸣-ga2-ga2 ge26-e bi2-ib2-zi-de3</l>
+            <l n="21">za-e ge26-ra a-gin7 igi-zu mu-gar-ra</l>
+            <l n="22">ki-gub-ba-zu a-na-am3 mu-ra-an-dab5 a-ra2-bi a-na-gin7-nam / a igi ab?-x-x</l>
+            <l n="23">nam-⸢kal⸣-ga-zu me-še3 ba-an-gen nam-ur-sag-zu me-a</l>
+            <l n="24">hur-sag gal-gal-e mu-ni-in-gul-gul e-ne-eš2 a-na-nam mu-ed3-de3</l>
+            <l n="25">⸢{d#}nin⸣-⸢men⸣-na-ke4 inim-bi ba-da-an-⸢pad3⸣</l>
+            <l n="26">tug2 bar-ra-na ⸢al⸣-⸢bir7⸣-re KAŠ4 im-sar-[sar-re]</l>
+            <l n="27">{u2}ug gu7-gu7-mu-uš [za-e] ⸢a⸣-⸢ba⸣-a mu-⸢ra⸣-ab-⸢tum2⸣</l>
+            <l n="28">lu2 sag-bi mu-un-bul-bul ba-[...]-un-GIL-x za-⸢e⸣ a-[ba-a] ⸢mu⸣-ra-⸢ab⸣-tum2</l>
+            <l n="29">{d}am-an-ki mu-bi nu-me-a u4-⸢gu7⸣-⸢gu7⸣-nu-de2-de2 mu-bi-im!</l>
+            <l n="30">nam-uš2 šu gar nu-tuku-a za-e a-[ba]-⸢a⸣ mu-ra-ab-tum2</l>
+          </div>
+          <div n="bottom" type="textpart">
+            <l n="1">iti udru{duru5} u4 8(diš@v)-⸢kam⸣</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+    </body>
+  </text>
+</TEI>

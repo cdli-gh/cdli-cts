@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000767, ex. 051</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346667</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346667.P346667.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[... nu]-ub-⸢da⸣-[sa2]</l>
+            <l n="2'">[...] ki-bi! bi2-ib-gi4#?</l>
+            <l n="3'">[...] za3#? lu2 šu-ka-še3</l>
+            <l n="4'">[...] ⸢nu⸣-ub-da-sa2</l>
+            <l n="5'">[...] ⸢za3⸣-bi-še3 nu-e-zu</l>
+            <l n="6'">[...] ki us2 nu-ra-dab5</l>
+            <l n="7'">[...] ki#? nu-ra-ab-gi4</l>
+            <l n="8'">[...] ⸢nam⸣-dumu-e2-dub-ba-a-ke4</l>
+            <l n="9'">[...]-in-tum2</l>
+            <l n="10'">[...]-⸢ib2⸣-šum2-mu</l>
+            <l n="11'">[...]-x</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[... nu2]-nu2#?</l>
+            <l n="2'">[...]-ka#? til-til</l>
+            <l n="3'">[...] zi3-munu4 gu7-gu7</l>
+            <l n="4'">[...] ŠE3#? TAR-ta bar-bar</l>
+            <l n="5'">[...] eme#?-za3-ga-bar-bar</l>
+            <l n="6'">[...] ga2-da mu-da-ab-sa2-⸢en⸣</l>
+            <l n="7'">[...] ⸢dim2⸣-ma {ugu}ugu4-bi</l>
+            <l n="8'">[...] e-sir2-ra nu2-nu2</l>
+            <l n="9'">[...]-⸢ka⸣ titab2 i-ni-bara2-bara2</l>
+            <l n="10'">[...]-⸢na⸣-ta e11-[...]</l>
+            <l n="11'">[...] ⸢al⸣-⸢bil2⸣-[...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">Your hand has not kept up with your mouth</l>
+        <l n="2'">If (the contents of the) scribal art is recited(?), it is &lt;not&gt; restored (to) its place (executed properly, placed in proper context?)</l>
+        <l n="3'">As (you?) (write) from “the animals of the steppe” (commentary or perhaps the ur5-ra list of animals) to the end of “person” (=) “he” (the lexical list lu2 = ša)</l>
+        <l n="4'">Your tongue does not function properly for the Sumerian language</l>
+        <l n="5'">If multiplication (tables) are (i.e., have to be manually) counted(?), you did not (actually) know them</l>
+        <l n="6'">If you (manage to) solve(?) the reciprocals, the foundation (i.e. basis) is not grasped for you</l>
+        <l n="7'">The problem involving the computation of river silt (volume?)(?) ... is not put in its place for you</l>
+        <l n="8'">The topics/vocabularies(?) of the art of the scribal student</l>
+        <l n="9'">By your hand they are produced(?)</l>
+        <l n="10'">(But no one?) asks after you, (saying(?)) “do not entrust(?) it (your tablet?) (to anyone?)”</l>
+        <l n="11'">...</l>
+        <l n="1'">Slave, idiot lying next to the potter's kiln</l>
+        <l n="2'">Merchant apprentice/purse bearer that exhausts the silver of the merchant</l>
+        <l n="3'">Brewer eating the zidmunu ration</l>
+        <l n="4'">One who has half (his hair shaved), come, ...</l>
+        <l n="5'">Childish fool, driveling(?)</l>
+        <l n="6'">How is it that you compare with me?</l>
+        <l n="7'">Lunatic, idiot, (possessing) the intellect of a monkey</l>
+        <l n="8'">Homeless one lying in the street</l>
+        <l n="9'">Spreading out residue left from fermentation at the “oven of mankind” (a collective oven or a reference to the sun-baked ground?)</l>
+        <l n="10'">When you bring out the bowl (filled with) groats up from the oven</l>
+        <l n="11'">It shatters to your detriment(?) due to the heat of the bowl(?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

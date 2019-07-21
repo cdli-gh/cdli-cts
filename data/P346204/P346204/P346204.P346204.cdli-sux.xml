@@ -1,0 +1,309 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000335, ex. 047</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346204</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346204.P346204.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">[...]-⸢a⸣ nam ba-tar-⸢ra⸣-a-ba</l>
+            <l n="2">[...]-gal2 an u3-tu-da</l>
+            <l n="3">[...]-⸢e⸣ u2-šim-gin7 ki in-dar-ra-a-ba</l>
+            <l n="4">[...] ⸢abzu⸣ lugal {d}en-ki-ke4</l>
+            <l n="5">[... ⸢{d}]en⸣-ki ⸢en⸣ nam tar-tar-re-⸢de3⸣</l>
+            <l n="6">[...]-⸢a⸣-ni ku3 {na4}za-gin3-na teš2-bi ba-ni-in-⸢du3⸣</l>
+            <l n="7">[...] {na4#}za-gin3-bi u4 kar2-kar2-a-ka</l>
+            <l n="8">[...] ⸢abzu⸣ ul im-ma-ni-in-du3</l>
+            <l n="9">[...] ⸢galam⸣ du11-ga abzu-ta e3-a</l>
+            <l n="10">[...]-dim2-mud-ra mu-un-na-sug2-sug2-ge-eš</l>
+            <l n="11">[...]-⸢ga⸣-am3 i-ni-in-du3</l>
+            <l n="12">⸢[{na4}]za⸣-gin3-na-am3 i-ni-in-gun3</l>
+            <l n="13">[...]-⸢le⸣-eš ku3-sig17-ga šu tag ba-⸢ni⸣-in-du11</l>
+            <l n="14">[...]{ki#}-ga e2 gu2-a bi2-in-du3</l>
+            <l n="15">[...]-bi inim du11-du11 ad ⸢gi4⸣-gi4</l>
+            <l n="16">[...]-bi gu4-gin7 ⸢murum⸣ [...]-ša4</l>
+            <l n="17">[...]-x-[...] ⸢gu3⸣ ⸢nun⸣ [...]-⸢dam⸣</l>
+            <l n="18">[...] ⸢im⸣-ma-an-DU du10-bi-eš2 mu-na#?-⸢ga2⸣-⸢ga2⸣</l>
+            <l n="19">[...] ⸢sukkal⸣ {d}|PAP.SIG7.NUN.ME.BAD3.X|-de3 im#?-[...]</l>
+            <l n="20">[...] ⸢gu3⸣ mu-⸢un⸣-[...]</l>
+            <l n="21">[...] ⸢gu3⸣ im-ma-ab-⸢šum2⸣-[...]</l>
+            <l n="22">[...] x x x x [...]</l>
+            <l n="23">[...] ⸢mi2⸣ ⸢du11⸣-ga</l>
+            <l n="24">[...]-⸢NUN⸣-na ⸢me⸣ ⸢mah⸣ [...]-a</l>
+            <l n="25">[...] gaba#?-[...]-x</l>
+            <l n="26">[...] ⸢gur3⸣-⸢ru⸣</l>
+            <l n="27">[...] ⸢du11⸣-ga</l>
+            <l n="28">{gi#}kid ⸢za⸣-⸢gin3⸣-⸢na⸣ [{geš}]gušur-x ⸢gun3⸣-a</l>
+            <l n="29">⸢nir⸣-gam-⸢ma⸣-zu ⸢am⸣ si ⸢gur3⸣-ru</l>
+            <l n="30">ka2#?-⸢zu⸣ ⸢ur⸣-⸢mah⸣ lu2 ⸢šu⸣ ⸢ti⸣-a</l>
+            <l n="31">[...]-x-zu ug2 ⸢lu2⸣-⸢ra⸣ ⸢e3⸣-⸢de3⸣</l>
+            <l n="32">⸢abzu⸣ ki sikil me-⸢te⸣ ⸢gal2⸣</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">e2-⸢engur⸣-ra lugal-zu giri3 im-ma-⸢ri⸣-⸢gub⸣</l>
+            <l n="2">{d}en-ki lugal abzu-ke4</l>
+            <l n="3">temen-zu {na4}gug im-ma-da-an-si-ig</l>
+            <l n="4">mux(|KAxŠE|)-mux(|KAxŠE|) za-gin3-na mi2 im-ma-ri-in-du11</l>
+            <l n="5">e2 {d}en-ki-ke4 lal3-hur-ra ku3 gurum2 ak</l>
+            <l n="6">gu4 ⸢lugal⸣-bi-ir us2-a si-ga</l>
+            <l n="7">ni2-bi-še3 murum ša4 teš2-bi ad gi4-gi4</l>
+            <l n="8">⸢e2⸣-⸢engur⸣-⸢ra⸣ {d}en-ki-ke4 {gi}dub-ba-an ku3 la2-a</l>
+            <l n="9">⸢ša3⸣-⸢zu⸣-ta#!? bara2 mah ki gar-ra</l>
+            <l n="10">⸢za3⸣-⸢du8⸣-⸢zu⸣ aškud2#? ku3 an-⸢na⸣</l>
+            <l n="11">en geštu2 lugal {d}en-⸢ki⸣-⸢ke4⸣</l>
+            <l n="12">{d}nu-dim2-mud en eridu{ki}-ga-[ke4]</l>
+            <l n="13">ša3 šeg9-bar-ra lu2 ⸢igi⸣ nu-⸢bar⸣-[...]-de3#?</l>
+            <l n="14">abgal-zu ⸢siki⸣ ⸢bar⸣-⸢ra⸣ ⸢bi2⸣-⸢in⸣-⸢duh⸣</l>
+            <l n="15">eridu{ki} {d}en-ki-⸢ke4⸣ [...] ⸢ag2⸣-⸢ga2⸣-[...]</l>
+            <l n="16">e2-engur-ra ša3 ⸢he2⸣-⸢gal2⸣ x-[...]</l>
+            <l n="17">abzu zi kalam-⸢ma⸣ ⸢ki⸣ ag2#? {d}en#?-[...]</l>
+            <l n="18">e2 za3-ga du3-a me ⸢galam⸣-ma tum2#?-[...]</l>
+            <l n="19">eridu{ki} gissu-zu ab ša3-⸢ga⸣ ⸢la2⸣-[...]</l>
+            <l n="20">a-ab zi-ga ⸢gaba⸣-[...] nu#?-[...]</l>
+            <l n="21">i7 mah ni2 ⸢gal2⸣-[...]</l>
+            <l n="22">⸢e2⸣-engur#?-ra#? u18-⸢ru⸣ ⸢mah⸣ [...]</l>
+            <l n="23">⸢e2⸣ ⸢da⸣ e2#?-engur-ra pirig ⸢abzu⸣ [...]</l>
+            <l n="24">⸢e2⸣ ⸢mah⸣ {d#?}en#?-⸢ki⸣-ke4#? ⸢geštux(|GIŠ.TUG2|)⸣ [...]</l>
+            <l n="25">[...] zi#?-ga#?-⸢gin7⸣</l>
+            <l n="26">[...]-x [{d}]en-ki-⸢ra⸣ mu-⸢un⸣-⸢na⸣-du12-am3</l>
+            <l n="27">e2 ku3-ga-ni!-še3! ⸢du10⸣-bi-še3 mu-un-na-ga2-ga2</l>
+            <l n="28">{geš}za3-mi2 ⸢{geš}al⸣-gar {kuš}balag ⸢{geš}sur9⸣-⸢za⸣</l>
+            <l n="29">{geš}har-har {geš}sa-bi2-tum {geš}mi-rix(U18)-tum e2 si-ga-am3#?</l>
+            <l n="30">ad du10-ga nundum bur2-re bulug5-ge26#!</l>
+            <l n="31">ša3 ni2-ba-ke4-eš ad ha-ba-ni-⸢ib⸣-ša4</l>
+            <l n="32">⸢{geš#}al⸣-gar ku3 {d}en-ki-ke4 ni2-bi-a mu-na-an-du12</l>
+            <l n="33">⸢nar⸣ ⸢imin⸣-e ad he2-em-mi-ib-ša4</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">du11-⸢ga⸣ {d#}en-ki-ke4 šu nu-bala-e-de3</l>
+            <l n="2">KA-x ki-bi-še3 gal2-la-am3</l>
+            <l n="3">⸢šeg12⸣ e2-engur-ra-ka šir3 du10-ge-eš im-me</l>
+            <l n="4">mu-un-du3-a-ba mu-un-du3-a-ba</l>
+            <l n="5">eridu#{ki} {d}en-ki-ke4 im-ma-ni-in-il2-a-⸢ba⸣</l>
+            <l n="6">⸢hur⸣-⸢sag⸣ galam gar3-gin7 a-e ba-diri</l>
+            <l n="7">za3-ga-ni-a geš-gi ba-an-⸢tuš⸣</l>
+            <l n="8">{geš}kiri6 sig7-ga gurun il2-a-ba</l>
+            <l n="9">mušen-e giri3!?-bi mu-un-ga2-ga2</l>
+            <l n="10">suhur{ku6}-e a-lal3-e e-ne mu-un-⸢e3⸣-de3#?</l>
+            <l n="11">eštub#?{ku6#}-e gi-zi ⸢di4⸣-di4-la2-aš? ⸢kun⸣ ⸢mu⸣-[...]</l>
+            <l n="12">{d#}[...] x x [...] x x x [...]</l>
+            <l n="13">⸢abzu⸣-e u6#!?-⸢e⸣ ⸢im⸣-[...]</l>
+            <l n="14">⸢e2⸣-engur hul2-la-am3 mu-ni-[...]</l>
+            <l n="15">⸢a⸣-ab-ba-gin7 ⸢ni2⸣ mu-un-⸢da⸣-[...]</l>
+            <l n="16">i7 mah-am3 ⸢su⸣-zi! mu-un-⸢da⸣-[...]</l>
+            <l n="17">{i7}buranun-na {tu15}ulu3{+lu} sur2 mu-da-an#?-[...]</l>
+            <l n="18">{geš}gi-muš-a-ni muš-{d}nerah-a-ni</l>
+            <l n="19">{geš}gisal-ni ki{mušen} tur-tur-ra-⸢ni⸣</l>
+            <l n="20">{d#}en-ki u5-a-ni mu he2-gal2 sug4-ga [...]</l>
+            <l n="21">⸢ma2⸣ ⸢ni2⸣-bi nam-duh eš2! ⸢ni2⸣-bi nam-dab5!-x</l>
+            <l n="22">⸢e2⸣ eridu{ki}-ga-še3 x-⸢da⸣-kar-ra [...]</l>
+            <l n="23">⸢i7⸣-da lugal-bi-ir ⸢ad⸣ im-⸢mi⸣-ib-gi4-gi4</l>
+            <l n="24">gu3-bi gu3 amar-ra gu3 ab2 du10-ga-ke4</l>
+            <l n="25">{d}en-ki-ke4 gu4 im-ma-ab-⸢gaz⸣-e udu! im-ma-ab-⸢šar2⸣-re</l>
+            <l n="26">{kuš}a2-la nu-gal2-la ki-bi-še3 bi2-in-gi4</l>
+            <l n="27">šem5{zabar} nu-gal2-la ⸢ki⸣-bi-še3 im-mi-in-e3</l>
+            <l n="28">nibru{ki}-še3 giri3-ni dili mu-un-gub</l>
+            <l n="29">gi-gun4-na eš3 nibru{ki}-še3 im-ma-da-an-ku4-ku4</l>
+            <l n="30">{d}en-ki-ke4 kaš-kaš-e ba-de2 kurun2-kurun2-e ba-de2</l>
+            <l n="31">⸢kurun2⸣ sig17 zabar ba-ni-in-de2</l>
+            <l n="32">{kaš}|KU.AN| dili-am3 ba-ni-in-sur</l>
+            <l n="33">{dug}ku-kur-du3 kaš du10-du10-ga duh-ba bi2-in-sa2-sa2</l>
+            <l n="34">ka-⸢bi⸣ lal3 zu2-lum-ma nig2-GIR3 ba-ni-in-de2?</l>
+            <l n="35">duh-bi nig2 lu-lu-a-aš sed4-e ⸢bi2⸣-in#?-⸢duh⸣</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">[{d}]en-⸢ki⸣-⸢ke4⸣ eš3-e nibru#{ki#}-am3</l>
+            <l n="2">[a]-⸢a⸣-ni {d}en-lil2-ra ninda mu-⸢un⸣-gu7#?-e</l>
+            <l n="3">[...] ki mah-⸢am3⸣ x ⸢im⸣-⸢ma⸣-an-tuš</l>
+            <l n="4">[...]-⸢ra⸣ ⸢{d}en⸣-lil2#? im-ma-ni-in-us2</l>
+            <l n="5">⸢[{d}]nin⸣-⸢tur5⸣ za3#? [...]-⸢la⸣ im-ma-an-tuš</l>
+            <l n="6">[...]-us2-bi im-mi-in-dur2-ru-ne-eš</l>
+            <l n="7">[...]-⸢na8⸣-na8-e kurun2 i-du10-du10-ge4?-eš</l>
+            <l n="8">[...] im-gur4-gur4-e-ne</l>
+            <l n="9">[... a]-⸢da⸣-min3 im-di-e-ne</l>
+            <l n="10">[...]-MIR-MIR-e-ne</l>
+            <l n="11">[...]-⸢du10⸣-ga-ta</l>
+            <l n="12">[...]-ra#?-gar-ra-ta</l>
+            <l n="13">[...]{ki#?}-⸢a⸣ ⸢mu⸣-ni-x-x</l>
+            <l n="14">[...]-⸢na⸣-ke4-ne gu3 mu-⸢na⸣-de2-e</l>
+            <l n="15">[...] i3-sug2-ge-eš-za-na</l>
+            <l n="16">[...]-na#?-ka si bi2-in-sa2-NE-en</l>
+            <l n="17">[...]-⸢du3⸣ lugal {d}en-ki-ke4</l>
+            <l n="18">[...] ki-ta ba-ra-an-ri</l>
+            <l n="19">[...] e2 im-ma-an-du3</l>
+            <l n="20">[...] ⸢nu⸣-ku4-ku4-de3</l>
+            <l n="21">[...] {na4}za-gin3-na gun3-a</l>
+            <l n="22">[...] ⸢sa2⸣-e nam-šub šum2-ma</l>
+            <l n="23">[...] e2 ki al-du10-ga</l>
+            <l n="24">[... ⸢{d}]en⸣-ki!-ke4 me galam-⸢ma⸣ ⸢tum2⸣-⸢ma⸣</l>
+            <l n="25">[...] ⸢e2⸣ ku3-ga du3-⸢a⸣-[...]</l>
+            <l n="26">[...] za3-mi2</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">In those distant days when fate was determined</l>
+        <l n="2">The year (of?) abundance engendered by An/The year in which abundance and heaven (alike) were born(?)</l>
+        <l n="3">When the people split (through) the earth like vegetation</l>
+        <l n="4">The lord of the Abzu, king Enki</l>
+        <l n="5">...(?) Enki, the lord who is to determine fate</l>
+        <l n="6">Built his temple (with) the combination of(?) silver and lapis</l>
+        <l n="7">The silver and lapis was something that (lit. of) glowing sunlight</l>
+        <l n="8">He made(?) rosette/star decorations(?) in shrine Abzu</l>
+        <l n="9">In the pure cultic space/crown(?) that was artfully crafted/furnished with stairs(?), coming out from the Abzu</l>
+        <l n="10">... stood for/served lord Nudimmud</l>
+        <l n="11">It was silver that he built the temple with</l>
+        <l n="12">It was lapis that he made it colorful with</l>
+        <l n="13">He adorned it(!?) greatly in gold</l>
+        <l n="14">In Eridu he built the temple on the riverbank</l>
+        <l n="15">Its brickwork speaks words and gives advice</l>
+        <l n="16">Its reed layers within the brick bellowed like a bull</l>
+        <l n="17">The temple of Enki is to shout nobly</l>
+        <l n="18">The temple brought praise at(?) night for the king while presenting it sweetly/bending its knee (to him)(?)</l>
+        <l n="19">For Enki, the vizier Isimud was speaking(?)</l>
+        <l n="20">He stood in the temple and was speaking</l>
+        <l n="21">He stood in the brickwork and was giving voice/explicating</l>
+        <l n="22">House that was founded in silver and lapis, its foundation set in the Abzu</l>
+        <l n="23">Cared for by the prince in the Abzu</l>
+        <l n="24">Who accepted (its) supreme me(?) and aura in/from(?) the Tigris and Euphrates</l>
+        <l n="25">Your door lock has no rival</l>
+        <l n="26">Your bolt is a lion bearing an aura</l>
+        <l n="27">Your roof beam is the bull of heaven, a pure cultic space/crown(?) that was artfully crafted/furnished with stairs(?)</l>
+        <l n="28">(Your) reed mat sparkles in lapis/blue? towards the roof beams(?)</l>
+        <l n="29">Your vault is a wild bull raising its horns</l>
+        <l n="30">Your gate is a lion seizing a man</l>
+        <l n="31">Your threshold is an ug creature going out towards a man</l>
+        <l n="32">The Abzu, a pure place, fitting</l>
+        <l n="1">E'engura temple, your king has set foot (there) for you</l>
+        <l n="2">Enki, the king of the Abzu</l>
+        <l n="3">He has set(?) carnelian along(?) your foundation</l>
+        <l n="4">With incantations/noise(?) he has taken care of (your) lapis(?)</l>
+        <l n="5">Temple whose pure wax design(?) has been inspected by Enki</l>
+        <l n="6">A bull that is set on track for its master</l>
+        <l n="7">Roaring on behalf of its aura(?) and advising (on behalf of) its dignity(?)</l>
+        <l n="8">E'engura temple, (whose) pure reed fence has been hung/bound (together) by Enki</l>
+        <l n="9">In your midst a supreme dais is founded</l>
+        <l n="10">Your door jamb is the pure aškud bolt(?) of heaven/An</l>
+        <l n="11">The lord of wisdom, king Enki</l>
+        <l n="12">Nudimmud, the lord of Eridu</l>
+        <l n="13">(In?) the “heart of the fallow deer,” into which no one can see</l>
+        <l n="14">He has made(?) your abgal priest loosen (his) hair upon the back</l>
+        <l n="15">When Enki loves Eridu(!?)</l>
+        <l n="16">The midst of the E'engura temple is(?) filled with abundance</l>
+        <l n="17">Abzu, the life of the land, beloved by Enki</l>
+        <l n="18">Temple build on the edge, suitable for the elaborate cosmic powers</l>
+        <l n="19">Eridu, your shade extends into the midst of the sea</l>
+        <l n="20">Risen sea that has no rival</l>
+        <l n="21">Supreme river possessing an aura and giving the land gooseflesh</l>
+        <l n="22">E'engur temple, great flood(?) that touches the ground</l>
+        <l n="23">Temple adjoining the deep water(!?), pirig creature in/of the inner Abzu</l>
+        <l n="24">Supreme temple of Enki giving wisdom in the land</l>
+        <l n="25">Your shout, like a risen river</l>
+        <l n="26">Is singing for king Enki</l>
+        <l n="27">Towards the holy temple he presents sweetly/bends (his?) knee (to it)(?)</l>
+        <l n="28">The lyre, the algar instrument, the balag drum, and the tamborine/rattle</l>
+        <l n="29">The harhar instrument, the sabitum instrument, and the “Mari instrument” that silences the temple(?)</l>
+        <l n="30">(The ones with) a sweet voice and “releasing and growing&quot; lips</l>
+        <l n="31">May they resound because of(?) their own hearts (i.e., their distinct sounds?)</l>
+        <l n="32">The holy algar instrument of Enki has played itself for him</l>
+        <l n="33">May the seven musicians sing/play(?)</l>
+        <l n="1">The utterance of Enki, which is not to be changed</l>
+        <l n="2">... is set towards its (proper) place</l>
+        <l n="3">He is singing sweetly about(?) the brickwork of the E'engura temple</l>
+        <l n="4">When/In that which he had built (the temple), in that he had built (the temple)</l>
+        <l n="5">In that which Enki had raised in Eridu</l>
+        <l n="6">Like/as a mountain range that is craftily knotted/equipped with stairs(?) it floats on the water</l>
+        <l n="7">The reedbed dwells at its border(?)</l>
+        <l n="8">In its verdant orchards that bear fruit</l>
+        <l n="9">The bird sets foot/treads there(?)</l>
+        <l n="10">The suhur carp plays(?) in the ulal plants(?)</l>
+        <l n="11">The eštub carp flap their tails for him towards(!?) the tiny gizi reed grouth</l>
+        <l n="12">When Enki rises, the fish rise as a wave</l>
+        <l n="13">In the Abzu, he stands amid admiration</l>
+        <l n="14">In the E'engura temple rejoicing ...</l>
+        <l n="15">Like the sea, he can possess(?) an aura</l>
+        <l n="16">He is a supreme river who can cast(?) a radiance</l>
+        <l n="17">In the Euphrates river he can raise a furious southern wind</l>
+        <l n="18">His boat pole (is) his serpent(?), Neraḫ</l>
+        <l n="19">His oar(s) (are) his little kib birds</l>
+        <l n="20">When Enki sails, the year is filled with abundance</l>
+        <l n="21">The boat released itself and seized its own ropes(?)</l>
+        <l n="22">After(?) he “fled” towards the temple of Eridu</l>
+        <l n="23">In(?) the river ... was advising its king</l>
+        <l n="24">(The one whose) voice (was) the voice of a calf, the voice of a sweet cow</l>
+        <l n="25">Enki was slaughtering bulls and slaughtering sheep</l>
+        <l n="26">He restored the ala drum that was not present to its (proper) place</l>
+        <l n="27">He brought out the šem drum that was not present to its (proper) place</l>
+        <l n="28">He set out alone towards Nibru</l>
+        <l n="29">He was entering into the giguna terrace (of) shrine Nibru</l>
+        <l n="30">Enki approached(!) the beer, he approached(!) the kurun liquor</l>
+        <l n="31">He poured yellow(?) kurun liquor into a bronze (bowl?)</l>
+        <l n="32">He filtered ulušin beer that was singular (in quality, frequency, or “he alone&quot;?)</l>
+        <l n="33">He made kukurdu containers settle(?) in/with(?) the residue(?) of the very good/sweetened beer(?)</l>
+        <l n="34">In its (the vessel's?) mouth he poured(?) date syrup ...</l>
+        <l n="35">He “released&quot;(?) the residue by cooling it(?), (making it?) into “that which is mixed(!?)”</l>
+        <l n="1">Enki, who was in shrine Nibru</l>
+        <l n="2">For his father, Enlil, he was “making bread be eaten”</l>
+        <l n="3">He seated ... An in what was the supreme place</l>
+        <l n="4">For An, he made Enlil follow there</l>
+        <l n="5">He seated Nintur in the “seat of honor” (lit. great(er) side)</l>
+        <l n="6">He sat the Anuna gods in their “foundations&quot;(?)</l>
+        <l n="7">They (lit. the people) were drinking, they were making themselves sweet(!?)with kurun liquor</l>
+        <l n="8">They were rolling around (i.e., knocking over?) the bronze vessels (like/filled with?) apples(!?)</l>
+        <l n="9">(They were making?) the bronze (bowls) have a contest with Uraš (i.e. the earth, by knocking them onto the ground)(?)</l>
+        <l n="10">They were ... the bowl (shaped like?) the holy barge (i.e., the crescent moon?)(?)</l>
+        <l n="11">After beer was drunk and kurun liquor was “enjoyed”</l>
+        <l n="12">After they set foot away from the temple</l>
+        <l n="13">Enlil ... rejoicing in Nibru</l>
+        <l n="14">Enlil was speaking to the Anuna</l>
+        <l n="15">Great gods who are present</l>
+        <l n="16">Anuna, you who (assemble) properly in the Ubšu'ukken</l>
+        <l n="17">My son built the temple, king Enki</l>
+        <l n="18">He made Eridu distant(?) from the ground like a mountain range</l>
+        <l n="19">It was a good place that he built the temple (in)</l>
+        <l n="20">(In) Eridu, the pure place which no one is to enter</l>
+        <l n="21">The temple built in silver and made colorful in lapis</l>
+        <l n="22">The temple that (plays) the seven tigi drums properly and produces incantations/namšub prayers(?)</l>
+        <l n="23">The pure and dignified(!?) šir songs that make the temple site sweet(?)</l>
+        <l n="24">Shrine Abzu, the goodness of Enki, suitable for the elaborate me</l>
+        <l n="25">It is the building of temple of silver of (i.e., in) Eridu</l>
+        <l n="26">Enki, praise</l>
+      </div>
+    </body>
+  </text>
+</TEI>

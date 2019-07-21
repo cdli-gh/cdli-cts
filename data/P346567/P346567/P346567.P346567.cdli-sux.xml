@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000451, ex. 010</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346567</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346567.P346567.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="reverse" type="textpart"/>
+          <div n="1'" type="textpart">
+            <l n="1'">⸢tu⸣-[...]</l>
+            <l n="2'">e2 ⸢{d}en⸣-[...]</l>
+            <l n="3'">{d}nin-⸢lil2⸣-[...]</l>
+            <l n="4'">nin-⸢ga2⸣-[...]</l>
+            <l n="5'">hu-⸢mu⸣-[...]</l>
+            <l n="6'">{uruda}[...]</l>
+          </div>
+          <div n="2'" type="textpart">
+            <l n="1'">⸢ša3⸣-⸢bi⸣ [...]</l>
+            <l n="2'">a-⸢ra2⸣-[hi]</l>
+            <l n="3'">bala-⸢bala⸣-[e]</l>
+            <l n="4'">kun-gar-bi</l>
+            <l n="5'">nar gal-an-zu-e-ne</l>
+            <l n="6'">ma-an-gar-re-eš-am3</l>
+            <l n="7'">en3-du#?</l>
+            <l n="8'">ki? du12-a-x</l>
+            <l n="9'">mu-[gu10]</l>
+            <l n="10'">mi-ni-⸢gal⸣-[...]</l>
+            <l n="11'">⸢nig2⸣-⸢nam⸣-[...]</l>
+            <l n="12'">⸢geštux(|GIŠ.TUG2|)⸣ ⸢dagal⸣-[la]-⸢ga2⸣</l>
+            <l n="13'">DU-DU-MU erin2-ga2</l>
+            <l n="14'">mu-zu!-a-ga2</l>
+            <l n="15'">⸢ki⸣ {geš}tukul-la-ka</l>
+            <l n="16'">⸢igi⸣ mi-ni!-zalag-ge</l>
+            <l n="17'">sipa ku3-zu</l>
+            <l n="18'">ug3 lah5-lah5-e-⸢ga2⸣</l>
+            <l n="19'">gal-zu nig2-nam-ma</l>
+            <l n="20'">i3-me-en-na-ga2</l>
+            <l n="21'">[...]-⸢e⸣</l>
+            <l n="22'">⸢igi⸣ zi mu-ri-in-bar-ra</l>
+            <l n="23'">[...]-⸢ta⸣</l>
+          </div>
+          <div n="3'" type="textpart">
+            <l n="1'">[...]-x</l>
+            <l n="2'">[...]-x-ra</l>
+            <l n="3'">[...]-⸢til⸣-la</l>
+            <l n="4'">[...]-⸢nar⸣-ra</l>
+            <l n="5'">[...] x-gu10</l>
+            <l n="6'">[...]-x-ma</l>
+            <l n="7'">[...] za3-mi2</l>
+            <l n="8'">[...]-bi</l>
+            <l n="9'">[...]-zu-a</l>
+            <l n="10'">[...] ad-ba?</l>
+            <l n="11'">nir#? ⸢mi⸣-ni-gal2-la</l>
+            <l n="12'">sa šu-si</l>
+            <l n="13'">geš-gu3-di KA#?</l>
+            <l n="14'">gun3-gun3 [...]</l>
+            <l n="15'">x-[...]</l>
+          </div>
+          <div n="4'" type="textpart">
+            <l n="1'">[...] x x</l>
+            <l n="2'">[...]-x-gu10</l>
+            <l n="3'">[...]-ri2?-še3?</l>
+            <l n="4'">[... {d}en]-lil2-la2-ka</l>
+            <l n="5'">[nam]-sipa</l>
+            <l n="6'">[...]-na-ke3-e</l>
+            <l n="7'">[{d}en]-lil2</l>
+            <l n="8'">[...]-gu10#?-ra#?</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="5'">I am (Išme-Dagan) and thus I brought a statue of my birth father into the temple of Enlil and Ninlil, my lady</l>
+        <l n="6'">The statue of my grandfather, which was ...</l>
+        <l n="6'">It is (the case that)(?) the skilled musicians established for me širgida songs and royal praise whose contents were complete, the arahi, balbale, zamzam and kungar songs</l>
+        <l n="10'">They exalted my name in the site where the endu songs are sung</l>
+        <l n="12'">It is (the case that)(?) I know everything and have broad wisdom</l>
+        <l n="14'">It is (the case that)(?) I know the ... of my troops</l>
+        <l n="16'">At the place of weapons (i.e., battle), (my?) face shines</l>
+        <l n="18'">It is (the case that?) I conveyed the people(?) (as a?) wise shepherd</l>
+        <l n="20'">It is (the case that?) I am skilled in everything</l>
+        <l n="22'">An has looked favorably at me(!?)</l>
+        <l n="23'">By the word of Enlil, which has might by itself(?)</l>
+        <l n="3'">It is (the case that?) I had reached the limits of ... of the scribal art</l>
+        <l n="6'">It is (the case that?) I ... the art of the musician</l>
+        <l n="9'">It is (the case that?) (I) know the venue/regulation(?) of praise</l>
+        <l n="11'">It is (the case that?) I(?) relied upon/exerted authority upon(?) the voices of the ensemble of musicians/singer and musician(?)</l>
+        <l n="15'">It is (the case that?) I(?) knew the exchanging(?) of charming speech with the fingering of the lute/harp(?)</l>
+        <l n="6'">My descendants? for eternity(?) shall practice the shepherdship in the temple of Enlil</l>
+        <l n="8'">And intone my songs(?) for Enlil, my king</l>
+      </div>
+    </body>
+  </text>
+</TEI>

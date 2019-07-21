@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000411, ex. 003</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346179</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346179.P346179.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x mah#? [...]</l>
+            <l n="2'">[...]</l>
+            <l n="3'">[...] x x [...]</l>
+            <l n="4'">x x [...] ⸢mu⸣-⸢ra⸣-⸢ab⸣-[...]</l>
+            <l n="5'">GIR2-GIR2 a [...]</l>
+            <l n="6'">x {d}nin#?-[EZEN ...] x x x [...]</l>
+            <l n="7'">x [...] x x x [...]</l>
+            <l n="8'">erim2 hul-gal2 ⸢sa⸣-⸢par4⸣-⸢ra⸣-[za]</l>
+            <l n="9'">lu2-hul-gal2 {d}šul-⸢gi⸣-⸢re⸣ ⸢la⸣-[...]</l>
+            <l n="11'">{d}nin-EZEN? [a mu-zu]</l>
+            <l n="12'">{d}nergal-ka ša3 ur-mah-⸢a⸣ [...]</l>
+            <l n="13'">a2#? sa-par4-ra#? hul-du {d}šul-⸢gi⸣-⸢re⸣ la-⸢ba⸣-an#?-[...]</l>
+            <l n="14'">{uruda}dur10-gag#? [...] lu2#? sag x mu-ni-ib2-[...]</l>
+            <l n="15'">{geš}tukul? [...] x-gin7 x-bi he2-TAG-x</l>
+            <l n="16'">⸢{d}nergal⸣ a mu-[zu]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">{d}nin-urta ur-sag sag {d}en-lil2-la2 nam-[...]</l>
+            <l n="2">kal-ga a2 gal tuku usu mah [...]</l>
+            <l n="3">{d}nin-urta u4 te-eš du11-ga MUNUS [...]</l>
+            <l n="4">{d}nin-⸢urta⸣ ⸢a⸣ [mu-zu]</l>
+            <l n="5">⸢{d}nin⸣-ki-⸢ur3⸣-ra nam-mah-zu e-ne#? [...]</l>
+            <l n="6">inim ku3-zu a-ma-&amp;lt;ru&amp;gt; sag2 x [...]</l>
+            <l n="7">nam-mah a#?-ar2#!?-re-zu x [...]</l>
+            <l n="8">{d}nin-ki-ur3-⸢ra⸣ x x [...]</l>
+            <l n="9">KA-zu sag sal-la x [...]</l>
+            <l n="10">{d}nin-ki-⸢ur3⸣-⸢ra⸣ [a mu-zu]</l>
+            <l n="11">⸢{d}nanna⸣ [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">...</l>
+        <l n="6'">... Ningublaga(?) ...</l>
+        <l n="7'">...</l>
+        <l n="8'">The evil enemy in your sabar net</l>
+        <l n="9'">The evildoer that Shulgi did not ...</l>
+        <l n="11'">Ningublaga, alas, your name</l>
+        <l n="12'">Nergal, the heart of a lion(?) ..</l>
+        <l n="13'">In (your) arm, the sabar net, is(?) the enemy that Shulgi has not caught</l>
+        <l n="14'">Your? DUR10-GAG weapon(?) ...</l>
+        <l n="15'">And therefore your? weapon ... like ...</l>
+        <l n="16'">Nergal, alas, your name</l>
+        <l n="1">Ninurta, foremost(?) hero of Enlil, ...</l>
+        <l n="2">Mighty one, possessed of great strength, supreme strength ...</l>
+        <l n="3">Ninurta, loud(?) storm, ...</l>
+        <l n="4">Ninurta, alas, your name</l>
+        <l n="5">NinKi'ura, your greatness ...</l>
+        <l n="6">Your holy word(?) is a flood that cannot be dispersed ...</l>
+        <l n="7">Your greatness and praise(?) ...</l>
+        <l n="8">NinKi'ura ...</l>
+        <l n="9">Your deprecated(?) mouth/word ...</l>
+        <l n="10">Nin-Kiura, alas, your name</l>
+        <l n="11">Nanna, ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

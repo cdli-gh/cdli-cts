@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000380, ex. 017</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346213</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346213.P346213.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[...]-⸢ib⸣-bala-bala numun ba-ni-ib-i-[...]</l>
+            <l n="2">[...]-⸢ma⸣-ni ⸢er2⸣ gig mu-⸢un⸣-⸢šeš4⸣-⸢šeš4⸣</l>
+            <l n="3">[...] ⸢gul⸣-la-gu10 ⸢gig⸣-⸢ga⸣-bi im-me</l>
+            <l n="4">[... gi]-⸢gun4⸣-na ku3-⸢ge⸣ ⸢šu⸣ lil2-la2 ba-ab-du11</l>
+            <l n="5">[... {d}]inanna#? [...]-da#?-gur? ki-erim2-e ba-ab-du11</l>
+            <l n="6">[...] ge6-par4 ku3#?-[...] erim2-e igi mi-ni-in-bar</l>
+            <l n="7">[...] ⸢nam⸣-en-na-[...] šu ba-e-lal-lal</l>
+            <l n="8">[...] ⸢ge6⸣-par4-ta ba-x-[...] x ⸢ki⸣-⸢erim2⸣-e ba-ab-du11</l>
+            <l n="9">[umma]{ki#?} šeg12-hur-ša3-⸢ga⸣ [...] u4 gig-ga ⸢ba⸣-e-ri</l>
+            <l n="10">[...]-mah ⸢ki⸣-⸢tuš⸣ ki ag2-ga2-ni giri3 kur2 ba-ra-⸢an⸣-dab5</l>
+            <l n="11">nin#? mul#?-mul-e uru17{ki} ⸢hul⸣-lu-a-na er2 gig mu-un-šeš2-šeš2</l>
+            <l n="12">⸢x⸣ la-la-bi lu2 nu-mu-un-gi4-a-gu10 gig-ga-bi im-me</l>
+            <l n="13">⸢gir2⸣-su{ki} iri{ki} ur-sag-ga2-e-ne-ke4 IM GIR2-e ba-ab-du11</l>
+            <l n="14">⸢{d}nin⸣-gir2-su-⸢ke4⸣ e2-ninnu-ta giri3 kur2 ba-ra-an-dab5</l>
+            <l n="15">ama {d}ba-ba6 e2-uru17-ku3-ga-na er2 gig mu-un-šeš2-šeš2</l>
+            <l n="16">a iri{ki} gul-la e2 gul-la-gu10 gig-ga-bi im-me</l>
+            <l n="17">u4-ba inim u4-dam al-du7-du7 ša3-bi a-ba-a mu-un-zu</l>
+            <l n="18">inim {d}en-lil2-la2 zi-da-aš gilim-ge26-de3 gab2?-bu su-su-de3</l>
+            <l n="19">{d#}en-lil2 lu2 nam tar-tar-re-de3 a-na bi2-in-ak-a-ba</l>
+            <l n="20">{d}en-lil2-le elam{ki} lu2-kur-ra kur-ta im-ta-an-e3</l>
+            <l n="21">{d}nanše dumu-gir15 iri bar-ra mu-un-na-tuš-am3</l>
+            <l n="22">{d}nin-mar{ki}-ra eš3 gu2-a-ab-zu-ka izi im-ma-da-an-ten</l>
+            <l n="23">⸢ku3⸣ {na4}za-gin3-bi ma2 gal-gal-e bala-še3 i3-ke3-e</l>
+            <l n="24">nin nig2-gur11-ra-ni hul-lu ti-la-am3 ku3 {d}nin-mar{ki}-ke4</l>
+            <l n="25">u4-ba u4 KA-NE-gin7 bar7-ra im-ma-da-ab-tar-re</l>
+            <l n="26">ki lagaš{aš} ki-e elam{ki} šu-ni-a im-ma-ši-in-gi4</l>
+            <l n="27">u4-bi-a nin-ga2 u4-da-a-ni sa2 nam-ga-mu-ni-ib-du11</l>
+            <l n="28">{d}ba-ba6 lu2-lu7#?-gin7 u4-da-a-ni sa2 nam-ga-mu-ni-ib-du11</l>
+            <l n="29">[me]-⸢li⸣-e-a u4-de3 šu-ni-a im-ma-ši-in-gi4-⸢gi4⸣</l>
+            <l n="30">[...] x gul-gul-e šu-ni-a im-ma-ši-in-gi4-⸢gi4⸣</l>
+            <l n="31">[...] gul-gul-e šu-ni-a im-ma-ši-in-gi4-⸢gi4⸣</l>
+            <l n="32">[...]-⸢abzu⸣ ⸢e2⸣-bi ki-nu-nir-ša3-ba ni2 im-ma-da-an-⸢te⸣</l>
+            <l n="33">[...]{ki#} uru17 nam-dumu-gir15-ni-gin7 kar-kar-re-de3 ba#?-[...]</l>
+            <l n="34">[...] uru17-ni nigin6#!{ki}-a kur-re ba-[...]</l>
+            <l n="35">[...]-AD?-TAG{ki}-a ki-tuš ki ag2-ga2-ni giri3 kur2! ba#?-⸢ra⸣-[...]</l>
+            <l n="36">[...] ⸢gul⸣-la e2 gul-la-gu10 gig-ga-bi ⸢im⸣-[me]</l>
+            <l n="37">[...] ⸢ku3⸣ nam-en-na-ba šu ba-e-lal-⸢lal⸣</l>
+            <l n="38">[...] ge6-par4-ta ba-da-gur ki-erim2-e ⸢ba⸣-ab-⸢du11⸣</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...]-x {d}nanna-ka a2 dugud ba-ši-in-de2</l>
+            <l n="2">[...]-GAN2#? e2 danna {d}suen-na tur3 dugud-gin7 ba-an-gul</l>
+            <l n="3">[...]-ra#?-bi! maš ⸢kar⸣-ra-gin7 teš2-e im-me-e-da</l>
+            <l n="4">[...]-es#{ki#} ga-gin7 ur-⸢e⸣ ba-an-de2 i3-gul-gul-lu-de3</l>
+            <l n="5">[...] dim2#?-ma uludin2 sa6-⸢ga⸣-bi me-ze-er-ze-re-de3</l>
+            <l n="6">[ge6]-⸢par4⸣ ku3 nam-en-na-ba šu ba-e-lal-lal</l>
+            <l n="7">en-⸢bi⸣ ge6-par4-ta ⸢ba⸣-⸢da⸣-an#!-⸢kar⸣ ⸢ki⸣-erim2-e ba-ab-du11</l>
+            <l n="8">x x x bara2 ⸢an⸣-na-da gid2-da-⸢bi⸣-⸢a⸣ ⸢a⸣-nir ba-da-ab-si</l>
+            <l n="9">⸢{geš#}gu⸣-za an-⸢na⸣-bi ⸢nu⸣-ub#?-x-x [...] ⸢me⸣-⸢te⸣-⸢aš⸣ li-bi2-ib-gal2</l>
+            <l n="10">{geš}gešimmar-⸢gin7⸣ [...]-gur5#? ba-ab-⸢du11⸣ ⸢teš2⸣-bi ba-ra-an-kad4</l>
+            <l n="11">aš-šu2 e2? ⸢i7⸣-[...]-a-ri [...] ba#?-da-an-BU</l>
+            <l n="12">nig2-erim2 [... ⸢{d}]nanna⸣-ka lu2-⸢erim2⸣-e ba-e-dab</l>
+            <l n="13">⸢e2⸣ BIR#?-re#? [...] x-an-ba e2 pu-⸢uh2⸣-[ru]-⸢um⸣-ma ša3 sug4-ga ba-ab-gar</l>
+            <l n="14">⸢ki⸣-⸢ab2⸣-rig7#?-ga{ki} ⸢ab2⸣ lu-[...]-ri#? tur3 dugud-gin7 ba-an-⸢gul⸣</l>
+            <l n="15">⸢[{d}]nin⸣-[...] ga2-bur-ta giri3 kur2 ba-ra-an-dab5</l>
+            <l n="16">[...]-⸢gara2⸣-ke4 ni2-te-na er2 gig mu-un-šeš4-šeš4</l>
+            <l n="17">⸢a⸣ x [gul]-la e2 gul-la-gu10 gig-ga-bi im-me</l>
+            <l n="18">ge6-par4 ⸢ku3⸣ ⸢nam⸣-⸢en⸣-na-ba šu ba-e-lal-lal</l>
+            <l n="19">en-bi ge6-⸢par4⸣-⸢ta⸣ ba-da-an-kar ki-erim2-e ba-ab-du11</l>
+            <l n="20">{d}nin-a-zu ⸢e2⸣-⸢gid⸣-da {geš}tukul ub-ba i-ni-gub</l>
+            <l n="21">{d}nin-hur-sag e2-⸢nu⸣-tur-ra-ke4 u4 hul ba-an-da-RI</l>
+            <l n="22">tum12{mušen}-gin7 ab-⸢lal3⸣-⸢ta⸣ ba-da-an-dal edin-na bar bi2-ib2-gub</l>
+            <l n="23">a iri{ki} gul-la e2 ⸢gul⸣-la-gu10 gig-ga-bi im-me</l>
+            <l n="24">geš-banda3{+da} e2 er2-re ⸢gal2⸣-⸢la⸣-ri gi er2-⸢ra⸣ ba-an-mu2</l>
+            <l n="25">{d}nin-geš-zi-da geš-banda3{+da#} ⸢giri3⸣ kur2 ba-ra-an-dab5</l>
+            <l n="26">da2-zi-⸢mu2⸣-a ⸢nin⸣ uru17-a-⸢ke4⸣ ⸢er2⸣ ⸢gig⸣ mu-un-šeš4-šeš4</l>
+            <l n="27">a iri{ki#} ⸢gul⸣-⸢la⸣ e2 gul-⸢la⸣-⸢gu10⸣ gig-ga-bi im-me</l>
+            <l n="28">[...]-lu#? lu2 kukku5-a ba-an-dur2-ru-ne-eš</l>
+            <l n="29">[...]-⸢hul⸣-lu-de3 lu2 kukku5-a ba-an-dur2-ru-ne-eš</l>
+            <l n="30">[...]-ma#?-ke4 er2 ⸢gig⸣ mu-un-šeš4-šeš4</l>
+            <l n="31">[...] ⸢gul⸣-la e2 gul-la-gu10 gig-ba-bi im-me</l>
+            <l n="32">[...]-ul4-e tug2 ba-da-mur10 giri16#?-lu? mu-un-ša4#?</l>
+            <l n="33">[...] ki-tuš ki ag2-ga2-ni ⸢giri3⸣ ⸢kur⸣ ba-ra-an-dab5</l>
+            <l n="34">[...]-⸢la⸣ e2 gul-la-gu10 gig-ga-bi im-me</l>
+            <l n="35">[...] diri#?-ga a nag-e ba-am3-til!?</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Gutium procreated there, they issued (their) seed there</l>
+        <l n="2">Nintur wept bitterly on behalf of her creation</l>
+        <l n="3">She was saying “Alas, my destroyed city, alas, my destroyed temple” bitterly</l>
+        <l n="4">At the site of Zabalam the pure giguna was rendered into an empty wind</l>
+        <l n="5">Inanna turned away(?) from Uruk, enemy territory ...</l>
+        <l n="6">(In?) the Eanna complex the enemy saw the holy gipar shrine</l>
+        <l n="7">The office of the en priest(ess) of the gipar was actively diminished(?)</l>
+        <l n="8">The en priest(ess) turned away from(?) the gipar, enemy territory ...</l>
+        <l n="9">(In) Umma the painful storm/day imposed (itself) in the Šeghurša temple</l>
+        <l n="10">(Šara) took to a different path (away from) the Emah temple, his beloved dwelling</l>
+        <l n="11">The shining lady(?) wept bitterly on behalf of her destroyed city</l>
+        <l n="12">She was saying “The charms of the city satisfy no one(?)” bitterly</l>
+        <l n="13">... in Girsu, the city of heroes</l>
+        <l n="14">Ningirsu took to a different path (away from) the Eninnu temple</l>
+        <l n="15">Mother Baba wept bitterly in her temple of the Irikug precinct</l>
+        <l n="16">She was saying “Alas, my destroyed city, my destroyed temple”</l>
+        <l n="17">At that time, the word, which was a storm, was thrashing about--who could have known its midst?</l>
+        <l n="18">The word of Enlil is to twist towards(?) the right, it is to drown(?) on the left(?)</l>
+        <l n="19">What was it that Enlil, the one who is to determine fates, did?</l>
+        <l n="20">Enlil brought down the Elamite, the foreigner, from the mountain</l>
+        <l n="21">Nanše, the native citizen, was dwelling in the suburbs</l>
+        <l n="22">... could extinguish the fire(?) for Ninmar in the shrine of Gu'a'abba</l>
+        <l n="23">Its precious metal and lapis lazuli was made to traverse (into the river) in large boats</l>
+        <l n="24">The lady whose property was destroyed and brought to an end(!?)--pure Ninmar</l>
+        <l n="25">At that time he was able to(?) decree(?) a day scorching like ...</l>
+        <l n="26">The site of lagash! It returned it (to) Elam in its (own) hand</l>
+        <l n="27">At that time the day of “my lady” was also not regularly performed</l>
+        <l n="28">Baba, like a human, her day was also not regularly performed</l>
+        <l n="29">(Saying) “Woe, the storm returned it in its (own) hand</l>
+        <l n="30">The storm that destroys the city returned it in its (own) hand</l>
+        <l n="31">The storm that destroys the temple returned it in its (own) hand</l>
+        <l n="32">Dumuzi'Abzu was afraid in the temple (of?) Kinirša</l>
+        <l n="33">Kinunir, just as(!?) her native city, (its impending) plundering was spoken/ordered</l>
+        <l n="34">The mountain (i.e., the Guti?) set ... in the city of Nanše, in Nigin</l>
+        <l n="35">She wandered away from(!) Sirara, her beloved dwelling</l>
+        <l n="36">She was saying “Alas, my destroyed city, my destroyed temple” bitterly</l>
+        <l n="37">The office of the en priest(ess) of the holy gipar was actively diminished(?)</l>
+        <l n="38">The en priest(ess) turned away from(?) the gipar, enemy territory ...</l>
+        <l n="1">It brought a heavy arm towards the banks of the princely canal of Nanna</l>
+        <l n="2">He destroyed the settlements and travel houses of Suen like a cattlepen heavy (with dairy products!?)</l>
+        <l n="3">Its fugitivies left(?) together(?) like fleeing goats</l>
+        <l n="4">He poured out Ga'eš like milk among the dogs, it is to be destroyed</l>
+        <l n="5">The beautiful features of the fashioned statues are to be torn out/broken ...(?)</l>
+        <l n="6">The office of the en priestess of the holy gipar was actively diminished(?)</l>
+        <l n="7">He took away the en priestess from(?) the gipar, enemy territory ...</l>
+        <l n="8">A lament filled(?) the dais that extended with the heavens(?)</l>
+        <l n="9">The upper part of the throne(?) was not ..., (its) top was not fitting</l>
+        <l n="10">Like a date palm it was cut down, he bound them together</l>
+        <l n="11">Aššu, where the temple was attached to the canal, he muddied the water/removed it from(?) the water(?)</l>
+        <l n="12">At (the place where) evil does not pass of Nanna, the evildoer passed through</l>
+        <l n="13">The temple ..., in the “house of the assembly” famine was introduced</l>
+        <l n="14">He destroyed Ki'abrig, where cows ...(?) are numerous, like a cattlepen heavy (with dairy products!?)</l>
+        <l n="15">Ningublaga took to a different path (away from) the gabur temple</l>
+        <l n="16">Nini'gara wept bitterly by herself</l>
+        <l n="17">She was saying “Alas, my destroyed city, my destroyed temple” bitterly</l>
+        <l n="18">The office of the en priest(ess) of the holy gipar was actively diminished(?)</l>
+        <l n="19">The en priestess fled from the gipar, enemy territory ...</l>
+        <l n="20">Ninazu stood his weapon in the corner in the Egida temple</l>
+        <l n="21">An evil storm flew on/was cast upon(?) Ninhursag in the Enutur temple</l>
+        <l n="22">Like a wild dove she flew away from the window and stood aside in the plain</l>
+        <l n="23">She was saying “Alas, my destroyed city, my destroyed temple” bitterly</l>
+        <l n="24">In {geš}banda, the temple where there was mourning, the reed of lamentation grew</l>
+        <l n="25">Ningešzida took to a different path (away from) the {geš}banda temple, his beloved dwelling</l>
+        <l n="26">Azimua, the lady of the city, wept bitterly</l>
+        <l n="27">She was saying “Alas, my destroyed city, my destroyed temple” bitterly</l>
+        <l n="28">At that time the southern storm made the people dwell in darkness</l>
+        <l n="29">(As a prelude to) destroying the city of Ku'ara, it made the people dwell in darkness</l>
+        <l n="30">NineHAma wept bitterly</l>
+        <l n="31">She was saying “Alas, my destroyed city, my destroyed temple” bitterly</l>
+        <l n="32">Asalluhi dressed hurriedly and intoned a lament(?)</l>
+        <l n="33">Lugalbanda took to a different path (away from) his beloved dwelling</l>
+        <l n="34">She (Ninsumun?) was saying “Alas, my destroyed city, my destroyed temple” bitterly</l>
+        <l n="35">(In?) Eridu, which had been floated in a flood, drinking water ceased(?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

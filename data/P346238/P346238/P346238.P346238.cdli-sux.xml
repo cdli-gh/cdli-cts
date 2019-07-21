@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0153</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346238</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346238.P346238.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">x [...]-ta#? ⸢MUNUS⸣ ⸢ZI⸣ ⸢e3⸣-[...]</l>
+            <l n="2'">za-e KA DI-bi! nu-ra-x-[...]</l>
+            <l n="3'">lu2 kiši4 an-ak-a-gin7 teš2 la-ba-e-tuku</l>
+            <l n="4'">inim nu-e-šar2 ni2-za ad nu-e-ni-gi4</l>
+            <l n="5'">inim-bi ša3-za nu-e-tur-tur</l>
+            <l n="6'">i-gi4-in-zu šu ab-kar2 na-ab-be2-⸢en⸣ li-bi2-du11</l>
+            <l n="7'">ki šu kar2 gi4-zu {geš}kim nu-ra-ab-tuku</l>
+            <l n="8'">eme-sig-zu nig2 gux(EME)-u3-dam</l>
+            <l n="9'">ki-umun2 ša3-zu nu-ub-zu-a am3-ti-le-me-en</l>
+            <l n="10'">gi4-me-a-aš-zu-ne nu-ra-ab-lib4-lib4-e-ne ur5-da nir ba-e-gal2</l>
+            <l n="11'">ni2-zu!-a sag-⸢ki⸣ la-ba-e-ni-gar</l>
+            <l n="12'">dub2-dub2-bu lu2-ra gig hul gig gi4-me-a-aš-e-ne</l>
+            <l n="13'">lu2 nig2 hul-dim2-ma sa-hir lu2-erim2-ma</l>
+            <l n="14'">KA hul igi sag3-sag3 lu2 eme si nu-sa2</l>
+            <l n="15'">inim kur2 igi bala lu2 nig2 gur3-ru-ma</l>
+            <l n="16'">ni2-gu10-a sag-ki ba-e-ni-gal2</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">e2 ad-da-ga2 ka-ta du11-ga-gu10-uš#?</l>
+            <l n="2'">ab-diri-ge na-an-⸢na⸣ la-ba-an-lal-a ga-ra-ab#?-[...]</l>
+            <l n="3">ni2-zu nig2-ka9-ra nu-ra-gal2-la-ta</l>
+            <l n="4">in gi4-me-a-aš-gu10-ne ga-bi2-ib-du11 bi2-du11-a-ta</l>
+            <l n="5">in-zu sag-bi-še3 ga2-e ga-mu-ra-ab-til</l>
+            <l n="6">ša3 min bar min lu2 igi bala</l>
+            <l n="7">lu2 nig2 nu-gin6-na ka eme!-sig-gu7!-gu7!</l>
+            <l n="8">lu2-tu15 ⸢inim⸣ lul-la bala-bala</l>
+            <l n="9">a-na-am3 nig2 ab-til-le-ne-a</l>
+            <l n="10">ama-zu ninda du8-du8 muhaldim iri!(RA){ki}-ka</l>
+            <l n="11">ad-da-zu e2 dam-gar3-ra-ka giri17-zal-še3! gub-ba-am3</l>
+            <l n="12">šeš-zu-ne šah2 zuh-zuh lu2 iri-a nu-tuš-u3 me-eš</l>
+            <l n="13">nin9-zu-ne lu2 še sa-sa-me-eš</l>
+            <l n="14">gi-gur šub{+ub} še sa-sa ganba-ka ab-ta-ab-ta-e3-de3</l>
+            <l n="15">in i-ri-dub2-ba-gu10 gaba-ri-bi mu-e-dub2-ba na-an-na</l>
+            <l n="16">[in]-⸢gu10⸣ in-nu teš2 la-ba-tuku-tuku</l>
+            <l n="17">[...] ša3-še3 la-ba-gig-gig</l>
+            <l n="18'">[...] lu2 e2 du3-a-kam</l>
+            <l n="19'">[...] al-sug2-ge-eš</l>
+            <l n="20'">[...] ⸢lugal⸣-la-kam</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">You do not speak a conciliatory word(?)</l>
+        <l n="3'">Like a person whose head is half shaved, you have had no dignity</l>
+        <l n="4'">You have not deliberated, you have not advised yourself</l>
+        <l n="5'">You did not diminish(?) the word in you heart</l>
+        <l n="6'">As if insulted, you have not said “do not speak”</l>
+        <l n="7'">(In) your place where denigration is returned(?) the password (pun?) is not available to you</l>
+        <l n="8'">Your slander is to be undertaken(?)</l>
+        <l n="9'">(And yet) you are dwelling in the place of learning, which your heart does not understand</l>
+        <l n="10'">Your colleagues do not attack(?) against(?) you and therefore you were confident</l>
+        <l n="11'">You did not confront(?) yourself</l>
+        <l n="12'">Insulting(?), hurtful(?) to another person, hated by his colleagues(?)</l>
+        <l n="13'">Evildoer, (carrying) net of the enemy</l>
+        <l n="14'">(Possessor of) an evil mouth/words, (possessor of) a “smiting face,” one of incorrect language</l>
+        <l n="15'">&quot;Word-changer,” “eye-turner,” “one who carries things&quot;(!?)</l>
+        <l n="16'">I (however) confronted(?) myself</l>
+        <l n="1">In the estate of my father, according to my utterance</l>
+        <l n="2'">It is indeed the case that he(?) has made a surplus, he(?) did not diminish (its value), and I can prove it to you</l>
+        <l n="3">After you yourself were not present for(?) the account</l>
+        <l n="4">(As for) (my) insults, after my colleagues have said “I want to say (them too?)</l>
+        <l n="5">I want to put an end to your insults at the outset(?)</l>
+        <l n="6">(Possessor) of “two insides and two outsides” (duplicitous, hypocritical?), “eye turner”</l>
+        <l n="7">One of injustice, with the mouth of a slanderer</l>
+        <l n="8">Idiot who converses falsely</l>
+        <l n="9">What is it that you(?) will putting an end to?(?)</l>
+        <l n="10">Your mother bakes (for) the cook of the city</l>
+        <l n="11">You father gladly served at the house of the merchant</l>
+        <l n="12">Your brothers steal pigs, they do not dwell in the city</l>
+        <l n="13">Your sisters are grain roasters</l>
+        <l n="14">(Who) bring out roasted grain of the market rate from the cast down/abandoned gigur containers</l>
+        <l n="15">My insults against you are indeed the equal of that which you insulted (me with)</l>
+        <l n="16">My insults are nothing, they are shameless</l>
+        <l n="17">My words are nothing, they should not trouble the heart</l>
+        <l n="18'">My mother is a matriarch of a (well established) household</l>
+        <l n="19'">Before her ... serve</l>
+        <l n="20'">My father is a royal general and judge</l>
+      </div>
+    </body>
+  </text>
+</TEI>

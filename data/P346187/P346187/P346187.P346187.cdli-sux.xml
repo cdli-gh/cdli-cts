@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000510, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346187</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346187.P346187.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">sipa mu pa3-da an ku3-ge nam gal an-na tar</l>
+            <l n="2">{d}ri-im-{d}suen mu pa3-da an ku3-ge nam gal an-na tar</l>
+            <l n="3">nun ša3 zi-ta nam-lugal-la mu-un-sa2</l>
+            <l n="4">nam-men ug3 šar2-ra-še3 gal-le-eš kikken2-&amp;lt;me&amp;gt;-en</l>
+            <l n="5">larsa{ki}-ma kur še21 me nam-nun-na de2-a</l>
+            <l n="6">nam-sipa ki-en-gi ki-uri-še3 zi-de3-eš2 pa3-da-me-en</l>
+            <l n="7">an gal mah an-ki-a en nig2-nam gal-zu</l>
+            <l n="8">a-a dingir-re-e-ne nam tar-tar-re-de3 ki-bi-še3 igi gar</l>
+            <l n="9">du11-ga dugud inim-bi nu-u5-ge</l>
+            <l n="10">1(u) an-ša3-ga sikil-la DU gal2</l>
+            <l n="11">nun {d}ri-im-{d}suen sipa ša3-ge e3-a-de3-me-en!(|DIŠ.MAH|)?</l>
+            <l n="12">an gal-e ša3 ki ag2-a-ni dalla hu-mu-ra-in-e3</l>
+            <l n="13">nig2-si-sa2-zu-še3 gu3 zi-de3-eš2 hu-mu-ra-ab-de</l>
+            <l n="14">an-ša3-ge su3-ra2 u4 nam-ti-zu hu-mu-ra-ab-diri-ga</l>
+            <l n="15">nam-lugal kur nig2-dagal-la u4 su3-ra2-še3 hu-mu-ra-ab-mah</l>
+            <l n="16">ka ku3-ga-ne-ne-a nam nam-ti-la hu-mu-ra-ab-tar</l>
+            <l n="17">du11-ga nig2-nam nu-kur2-da zi su3-ra2 hu-mu-ra-ab-tah</l>
+            <l n="18">aga ku3-ge sag-za-a he2-ni-ib-ge-en</l>
+            <l n="19">{geš}gu-za nam-ti-la-ka gal-bi hu-mu-ra-ab-tuš</l>
+            <l n="20">u3-luh nig2-si-sa2 šu-zu-še3 hu-mu-ra-ab-si</l>
+            <l n="21">eškiri2 kalam ge-en-ge-en sux(ZU)-zu-a he2-bi-la2</l>
+            <l n="22">šibir ug3 lu-a hu-mu-ra-ab-LU?</l>
+            <l n="23">ubur an su3-ag2 gal2 hu-mu-ra-ab-tak4 šegx(|IM.A|) an-na hu-mu-ra-ab-šeg3</l>
+            <l n="24">mu ma!-da u4 ⸢nam⸣-⸢he2⸣ an-ša3-he2#? ⸢za3⸣ hu-mu-ra-ab-keš2</l>
+            <l n="25">iti7 nig2#? ⸢giri17⸣-zal ⸢ša3⸣ hul2-la u4-zu-še3 hu-mu-ra-ab-gar</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">bala nig2-du10 nig2-si-&amp;lt;sa2&amp;gt;-e? diri šu-zu-še3 hu-mu-ra-ab-gar</l>
+            <l n="2">an gal-e su3-ra2-še3 a2-bad-gal2 nam-lugal-la-zu he2-a</l>
+            <l n="3">{d}ri-im-{d}suen lugal-gu10</l>
+            <l n="4">2(u) 8(diš) mu-ni</l>
+            <l n="5">šud3-de3 an</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Shepherd nominated by holy An, (for whom) a great fate was determined in heaven</l>
+        <l n="2">Rīm-Sîn, nominated by holy An, (for who) a great fate was determined in heaven</l>
+        <l n="3">The ruler has attained/met (the demands of)(?) the kingship from (the moment he emerged from) the fertile womb</l>
+        <l n="4">You are the one who(?) continually executes/pursues(?) the en-ship greatly on behalf of the many people</l>
+        <l n="5">In larsa, ... mountain that fashions(?) the cosmic power of rulership</l>
+        <l n="6">You have been faithfully chosen for the shepherdship of Sumer and Akkad</l>
+        <l n="7">Great An, supreme one of the universe, lord who is wise (in) everything</l>
+        <l n="8">Father of the gods who looks to determine fate on behalf of its place</l>
+        <l n="9">(Whose) command is weighty, his(!?) word cannot be replied to(?)</l>
+        <l n="10">... in the holy midst of heaven</l>
+        <l n="11">Ruler Rīm-Sîn, you are the shepherd who is to come out in the midst (of the people)(?)/make (his) intentions clear(?)</l>
+        <l n="12">And therefore great An made his loving heart shine for you</l>
+        <l n="13">Because of your justice, he(!) spoke faithfully to you</l>
+        <l n="14">In(?) the distant midst of heaven, the days of your life shall be made surpassing for you</l>
+        <l n="15">Kingship of the vast land has been made supreme for you for a long time</l>
+        <l n="16">In their holy mouths a fate of life has been decided for you</l>
+        <l n="17">With(?) the utterance from which nothing is to be changed a long life shall be added for you</l>
+        <l n="18">The holy crown shall be firm upon your head</l>
+        <l n="19">The throne of life shall be seated down(!?) greatly for you</l>
+        <l n="20">The uluh scepter shall be given over to your hand</l>
+        <l n="21">The nose-rope(?) that solidifies the land has been fastened to your flesh(!?)</l>
+        <l n="22">The staff shall seize/pasture(?) the teeming people for you</l>
+        <l n="23">The breast of shining heaven shall be opened for you, the rain of heaven shall be poured for you</l>
+        <l n="24">A year of abundance and a day of plenty shall be arrayed(?) ... the midst of heaven(!?) for you</l>
+        <l n="25">A month/moonlight(?), that of joy and rejoicing, shall be established for you on behalf of your days/time</l>
+        <l n="1">A good reign, surpassing in justice(?), shall be placed at your disposal</l>
+        <l n="2">Great An protecting you profoundly, this shall be (what characterizes) your kingship</l>
+        <l n="3">Rīm-Sîn, my king</l>
+        <l n="4">28 (are) its lines</l>
+        <l n="5">šude prayer of An</l>
+      </div>
+    </body>
+  </text>
+</TEI>

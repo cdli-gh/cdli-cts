@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000451, ex. 009</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346566</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346566.P346566.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="1'" type="textpart">
+            <l n="1'">[...]-⸢lul⸣</l>
+            <l n="2'">[...]-⸢lam⸣-ma</l>
+            <l n="3'">[...]-e</l>
+            <l n="4'">[...]-⸢mi⸣-sag3</l>
+            <l n="5'">[...]-a</l>
+            <l n="6'">[...]-x</l>
+          </div>
+          <div n="2'" type="textpart">
+            <l n="1'">[...]-tuku#? kaš4 ⸢di⸣-[me-en]</l>
+            <l n="2'">{tu15}mir? DU-⸢DU⸣-[me-en]</l>
+            <l n="3'">gal!?-an-zu#?</l>
+            <l n="4'">nig2-nam-ta ⸢e3⸣-[a]-⸢me⸣-⸢en⸣</l>
+            <l n="5'">am u3-na gub-ba#?</l>
+            <l n="6'">sahar#? pešx(|ŠU.KAD4|)-pešx(|ŠU.KAD4|)-[...]</l>
+            <l n="7'">gu4-si-⸢AŠ⸣</l>
+            <l n="8'">bad3#!?-⸢da⸣ sud2#?-sud2?-da-me-[en]</l>
+            <l n="9'">[{kuš}]gur21#{ur3#?}-[...]</l>
+            <l n="10'">[...] x [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">...</l>
+        <l n="4'">Therefore the wind smote (the one who commits?) rebellion, the liar of(?) destruct(ive effect?)</l>
+        <l n="5'">Therefore the one who is bound, the orphan, the widow, the one who says “Alas, Utu, alas, Nanna, their case has been proven “in the mouth”(?)</l>
+        <l n="1'">I am a sprinting runner</l>
+        <l n="2'">I am a moving(?) northern storm</l>
+        <l n="3'">...</l>
+        <l n="4'">I am a wise one who has departed from everything (else, i.e., peerless?)</l>
+        <l n="5'">...</l>
+        <l n="6'">I am(?) a wild bull standing furiously crushing the dust/wreaking havoc(?)</l>
+        <l n="7'">...</l>
+        <l n="8'">I am the battering ram that grinds down(?) the city wall</l>
+        <l n="9'">...</l>
+        <l n="10'">I am the very shield that stands in the breach(?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

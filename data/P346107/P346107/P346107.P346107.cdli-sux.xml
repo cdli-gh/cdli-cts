@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000641, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346107</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346107.P346107.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[...] x nin9 ki ag2 {d}dumu-zi-de3</l>
+            <l n="2">[...] x gur3-ru ki ag2 {d}dur7-dur7-e</l>
+            <l n="3">a#? x x zi-de3 ša3-ga ri-a</l>
+            <l n="4">⸢nin9⸣-gu10 nam-nin-e tu-da</l>
+            <l n="5">e2-turx(ŠILAM)-e i3 gara2#? x mu-un-da-ab-si</l>
+            <l n="6">amaš-e ⸢i3⸣ [... mu]-un-da-an-BU-x</l>
+            <l n="7">an-edin-ne2#? x [...] x-a-gu10 {d}geštin-an-na-me-en</l>
+            <l n="8">a ki-sikil x [... na]-nam</l>
+            <l n="9">TUR-TUR-zu [...] ⸢na⸣-⸢nam⸣</l>
+            <l n="10">unu{ki}-ga [...]-bi na-⸢nam⸣</l>
+            <l n="11">kul-aba4{ki} x x-bi na-⸢nam⸣</l>
+            <l n="12">mu-ut-⸢tin⸣-na-me-en ru-ru-a na-nam#!</l>
+            <l n="13">ki-sikil-e#? x šeš-a-na-[...]</l>
+            <l n="14">igi ⸢mu⸣-⸢un⸣-na-hur giri17 mu-un-⸢na⸣-[hur]</l>
+            <l n="15">ki lu2-da nu-u6!-di haš2 gal mu-⸢na⸣-[...]</l>
+            <l n="16">e2-eš2-dam e2-gal-la si ba-ni-in-⸢sa2⸣</l>
+            <l n="17">sukkal lu2 e2-gal-la-ta e3-a ki-sikil-e en3#{en!?} mu-un-tar-re-en</l>
+            <l n="18">sukkal lu2 e2-gal-⸢la⸣-⸢ta⸣ e3-a ki-sikil-ra#? mu-un-na-ni#?-ib#?-gi4-gi4</l>
+            <l n="19">šeš-zu nam-⸢en⸣-še3 šu mu-un-ga2-ga2-a</l>
+            <l n="20">⸢nam⸣-en unu#{ki}-⸢ga⸣ NIG2? U x x x-e</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">me hal-hal-ne u išib-ne</l>
+            <l n="2">ki za-za-a-ne a-tu5-a-tu5-a-ne susbu2{+be2}-e-ne</l>
+            <l n="3">iti-da eš3 gal-e ex (|ITI.DU|)-ne muš3 nu-tum2-mu-ne šeš-zu nam-en-še3 šu mu-un-ga2-ga2-a</l>
+            <l n="4">u4-bi-a imin he2-en-na-me-eš imin he2-en-na-me-eš</l>
+            <l n="5">šir3 du11-du11 unu{ki}-ga imin-me-eš</l>
+            <l n="6">zabala{ki} ad ša4-ša4 ninnu-me-eš</l>
+            <l n="7">e-ne-ne an-na mul zu-me-eš ki har-ra-an zu-me-eš</l>
+            <l n="8">an-na mul zu murub4 il2-la-me-eš</l>
+            <l n="9">e-ne-ne šir3 im-zi-zi-ne šir3 im-ga2-ga2-ne</l>
+            <l n="10">šir3-e sag-bi nu-mu-un-ne-pa3-ne</l>
+            <l n="11">ad-da ki-gub-ba nu-mu-un-ga2-ga2-me-eš</l>
+            <l n="12">nin9 banda3{+da} murub4-bi-a ti-la gu3 mu-un-na-de2-e</l>
+            <l n="13">gaba ba-da-ab-gu-la gaba ba-da-⸢ab⸣-[...] gu3 mu-⸢un⸣-[...]</l>
+            <l n="14">me-e-de3 šir3 ⸢im⸣-⸢zi⸣-⸢zi⸣-ne e#?-ne#?-ne#? [...]-⸢ga2⸣-⸢ga2⸣-ze2-en</l>
+            <l n="15">[...]-bi#?-a nu-mu-un-ti</l>
+            <l n="16">[...] x-ma-ka mu-un-ti</l>
+            <l n="17">[...] x-ma kur ku3 za-gin3-a-ka KA dim-ma?-ba? mu-un-ti</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">... beloved sister of Dumuzi</l>
+        <l n="2">Exuding/bearing ..., beloved of Durtur</l>
+        <l n="3">(Whose) seed was planted in the womb by the true ...</l>
+        <l n="4">My sister, born into ladyship</l>
+        <l n="5">She is able to ... fill the cattle pen with butter and cream</l>
+        <l n="6">In the sheepfold she is able to ...</l>
+        <l n="7">In the plain ... you are my ..., {geš}tinanna</l>
+        <l n="8">Oh, the young woman is indeed ...</l>
+        <l n="9">Your little ones/children ... are indeed ...</l>
+        <l n="10">She is indeed the ... of Unug</l>
+        <l n="11">She is indeed the ... of Kulaba</l>
+        <l n="12">You are ..., indeed she is ...</l>
+        <l n="13">The young lady ... for her brother</l>
+        <l n="14">Scratched her face, scratched(?) her nose</l>
+        <l n="15">Scratched her upper thighs, the place not seen (when) with a man,</l>
+        <l n="16">She made straight away to the tavern of(?) the palace</l>
+        <l n="17">The young woman, she(!) was inquiring of the minister who was leaving the palace</l>
+        <l n="18">The minister who was leaving the palace was answering the young woman</l>
+        <l n="19">Your brother is setting his hands upon(?) the en-ship</l>
+        <l n="20">The en-ship of Unug ...</l>
+        <l n="1">The ones dividing up the me, ten išib priests</l>
+        <l n="2">The ones bowing down, the lustration priests, the susbu priests</l>
+        <l n="3">The ones that leave(?) the great shrine monthly/in the moonlight(?), the unceasing ones, (in their presence?) your brother is setting his hands upon(?) the en-ship</l>
+        <l n="4">At that time there should be seven for him, there should be seven for him</l>
+        <l n="5">The song performers of Unug are seven</l>
+        <l n="6">In Zabalam there were fifty lamenters</l>
+        <l n="7">They know the stars in heaven, they know the roads (on) earth</l>
+        <l n="8">The ones that know the stars in heaven are “carrying/raising the middle&quot;(?)</l>
+        <l n="9">They were “raising” the song and “putting down” the song</l>
+        <l n="10">In (performing) the song they(?) could not find “its head” (beginning, soloist, director or (proper) tuning?) for themselves(?)</l>
+        <l n="11">It was them who were not “putting” (the song?) into the (proper) voice and “station&quot;(?)</l>
+        <l n="12">The little sister dwelling in the midst was speaking/singing?</l>
+        <l n="13">She was making (her) chest great (i.e., inhaling, or a technical musical term?), she was ... her chest, she was speaking/singing</l>
+        <l n="14">We will “raise” the song, and you(!) will “put down” the song</l>
+        <l n="15">... did not live in ...</l>
+        <l n="16">... lived in the ... of(?) ...</l>
+        <l n="17">She lived in the ..., the mountain of silver and lapis lazuli, in its ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

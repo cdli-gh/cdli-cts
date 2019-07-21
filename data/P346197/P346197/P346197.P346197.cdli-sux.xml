@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000750, ex. 015</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346197</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346197.P346197.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">⸢mu⸣ du10-ga#? [...]</l>
+            <l n="2'">ša3-zu {d}[...]</l>
+            <l n="3'">e2!-galga-⸢su3⸣ [...]</l>
+            <l n="4'">gi-sa-⸢še3⸣ [...]</l>
+            <l n="5'">tar-sirx(SUD)-sirx(SUD) [...] me i3-i ki?-ri ⸢šu⸣ gal2</l>
+            <l n="6'">nun-zu ša3-la2 tuku#? [...]</l>
+            <l n="7'">nin a-zu gal [...]</l>
+            <l n="8'">nam iri{ki}-⸢na⸣ [...]</l>
+            <l n="9'">dumu sag an ku3-ga ama#? [...]</l>
+            <l n="10'">e2 iri{ki#?}-[...]</l>
+            <l n="11'">⸢muš⸣-⸢za⸣ e2 bi2-⸢in⸣-[gub]</l>
+            <l n="12'">bara2-za dur2 bi2-⸢in⸣-[gar]</l>
+            <l n="13'">e2-bur-sag12-sag12 an-e ⸢sug2⸣-[...]</l>
+            <l n="14'">{+u2-nu}unu6 {en#?}en KA ku3-gin7 sa2 [...]</l>
+            <l n="15'">he-nun ab ša3-ga unu2 [...]</l>
+            <l n="16'">sumur3? ku3-ZI UBUR? [...] u2-x u2-gu-ul gar-ra</l>
+            <l n="17'">a-si-lu-lu [...]</l>
+            <l n="18'">e2-mah e2 {d}šara2 e2#? lu2 zi#?-[...]</l>
+            <l n="19'">šu mu-ra-ni-⸢in⸣-[...]</l>
+            <l n="20'">e2-zu e2-⸢mah⸣ ⸢nun⸣-zu dumu ⸢nun⸣ [...]</l>
+            <l n="21'">šeg10#? ⸢sal⸣-sal x ⸢he⸣-nun [...]</l>
+            <l n="22'">[...] x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[e2]-še-er-zi-⸢gur3⸣-[ru ...]</l>
+            <l n="2'">⸢ni2⸣ gal nigar{gar} ⸢ku3⸣ [...]</l>
+            <l n="3'">me zi me e3 šu x [...] x [...] x x [...]</l>
+            <l n="4'">zabalax(|MUŠ3.ZA.UNUG|){ki} eš3 MUŠ3 KUR#? [...] x x [...]</l>
+            <l n="5'">ku-ur-{ku}kurku2 ad mi-x-[...]</l>
+            <l n="6'">unu2{ki} zi-za nu-gig#?-[...]</l>
+            <l n="7'">kur-ku ma-ra-ni-[...]</l>
+            <l n="8'">nin-zu {d}inanna MUNŠUB? [...] dili{+di-li}</l>
+            <l n="9'">ušumgal lu2 dili ur2 dab5-ba [...]</l>
+            <l n="10'">nig2-babbar2 sag SAR-SAR ki-bala-še3 [...]</l>
+            <l n="11'">geš-he u2-sa11-an-na ni2-ta-[...]</l>
+            <l n="12'">dumu gal ⸢{d#}suen⸣-na ⸢{d}inanna⸣-[ke4]</l>
+            <l n="13'">e2 ⸢ki⸣ zabalax(|MUŠ3.ZA.UNUG|)#[{ki}]</l>
+            <l n="14'">muš-za ⸢e2⸣ ⸢bi2⸣-in-[gub]</l>
+            <l n="15'">bara2-za dur2 ⸢bi2⸣-[in-gar]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">Named a good name</l>
+        <l n="2'">Your interior is the river ordeal</l>
+        <l n="3'">Egalgasud temple, storehouse that makes silver and lapis</l>
+        <l n="4'">Into treasure</l>
+        <l n="5'">Etarsirsir temple, enunciating/effecting(?) decisions and the cosmic powers, one who strokes the nose (in submission)</l>
+        <l n="6'">Your ruler, possessed of pity ...</l>
+        <l n="7'">Lady, great physician of the black headed</l>
+        <l n="8'">Who decrees the fate of her city</l>
+        <l n="9'">Eldest child of holy An, mother Bau</l>
+        <l n="10'">Temple of the Irikug sacred precinct</l>
+        <l n="11'">She erected a temple in your sacred space</l>
+        <l n="12'">She sat on your dais</l>
+        <l n="13'">Ebursagsag temple, (where beautiful stone bowls) are set up under heaven</l>
+        <l n="14'">The dining hall/sanctum, consistently supplied (with offerings?) like the lord of the pure mouth(!?)</l>
+        <l n="15'">The abundance of the midst of the sea, ... inner sanctum</l>
+        <l n="16'">Pure(?) roof/hair?(?), ..., ..., ... interceding</l>
+        <l n="17'">Rejoicing ...</l>
+        <l n="18'">The Emah temple, temple of Šara, the temple(?) where the faithful man in(?) abundance</l>
+        <l n="19'">Prayed to you</l>
+        <l n="20'">Your temple, the Emah, your prince, the princely son of the nugig midwife (Inanna)(?)</l>
+        <l n="21'">It voice thinned/spread out(?), (its) sacred space(?) producing(?) abundance</l>
+        <l n="1'">Ešerzidguru temple, inner sanctum hung with šuba stones</l>
+        <l n="2'">(Possessing) a great aura, the nigar sanctary of holy Inanna</l>
+        <l n="3'">Adorning/touching the true me, the emerging(?) me, broadly</l>
+        <l n="4'">Zabalam, shrine ..., shrine at daybreak(?)</l>
+        <l n="5'">She has found the voice of (i.e. found expression for?) the wish(?)</l>
+        <l n="6'">In your true inner sanctum, the nugig midwife</l>
+        <l n="7'">Laid down the wish</l>
+        <l n="8'">Your lady, Inanna, singular ...</l>
+        <l n="9'">ušumgal creature grabbing the limbs(?) of the single(?) man, ...</l>
+        <l n="10'">Shining as something white, advancing toward the rebel land</l>
+        <l n="11'">The firmament in the evening made beautiful by her own (doing)</l>
+        <l n="12'">The eldest child of Suen, Inanna</l>
+        <l n="13'">Temple of Zabalam</l>
+        <l n="14'">She erected a temple in your sacred space</l>
+        <l n="15'">She sat on your dais</l>
+      </div>
+    </body>
+  </text>
+</TEI>

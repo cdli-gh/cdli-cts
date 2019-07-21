@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000511, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346188</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346188.P346188.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">{d}ri-im-{d}suen lugal nam-he2-gal2-la</l>
+            <l n="2">palil mah bara2-bara2-ge2-e-ne</l>
+            <l n="3">⸢{d#}nig2⸣-zi {d}nig2-si-sa2 a2-tah-zu he2-a</l>
+            <l n="4">[...] du10-ga ha-ra-ab-ga2-ga2-ne</l>
+            <l n="5">x [...] x ha-ra-ab-ga2-ga2-ne</l>
+            <l n="6">⸢{d#}ri⸣-⸢im⸣-⸢{d#}suen⸣ ⸢mu⸣ ⸢pa3⸣-da an-e {d}en-lil2-le</l>
+            <l n="7">iri#?{ki#?} x x abul mah uri2#{ki}-ma ku4-ku4-da-zu-ne2</l>
+            <l n="8">⸢{d#}udug⸣ ⸢sa6⸣-ga {d}lamma silim-ma</l>
+            <l n="9">i3-⸢du8⸣ ⸢abul⸣ mah-a-ke4</l>
+            <l n="10">⸢igi⸣-zu-še3#? x [...] ha-ra-ab-zalag-ge-ne</l>
+            <l n="11">inim ⸢sa6⸣ x x {d}nanna {d}nin-gal-ra</l>
+            <l n="12">he2-ni-ib#?-[...]-ku4-re-eš-a</l>
+            <l n="13">⸢nam⸣-ti silim-ma zi#? he2-ri-ib-gi4-ne</l>
+            <l n="14">x [...] sa6#?-ga nig2 ša3 hul2-la i5-gar šu gi4-a</l>
+            <l n="15">x [...]-kiš#?-⸢nu⸣-⸢gal2⸣-la [...] ha-ra-ab-e3-ne</l>
+            <l n="16">dingir#? ⸢nam⸣-ti-la x ⸢abul⸣ mah-a-ke4</l>
+            <l n="17">x x? [...] hu-mu-ab-tak4-tak4-aš</l>
+            <l n="18">dingir silim-ma en-nu-ug3 abul mah-a-ke4</l>
+            <l n="19">igi-zu-še3 he2-NE-da-hul2-le-ne</l>
+            <l n="20">⸢muš3⸣-me-ne ha-ra-ab-zalag-ge-ne</l>
+            <l n="21">x x ha-ra-ab-še-ša4-e-ne</l>
+            <l n="22">⸢abul⸣ uri2{ki}-ma abul giri17-zal-la</l>
+            <l n="23">ku4#?-ra#?-zu-ne</l>
+            <l n="24">[...]-la šegx(MURGU2) uri2{ki}-ma-ke4</l>
+            <l n="25">[...] x abul uri2{ki}-ma</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] {geš#}sag-kul {geš}suhub4 ⸢abul⸣ mah-a-ke4</l>
+            <l n="2">[...] dingir inim ⸢bala⸣-bala</l>
+            <l n="3">[...] abul mah-a-ke4</l>
+            <l n="4">[...] ⸢ha⸣-⸢ra⸣-ab-be2-ne</l>
+            <l n="5">[...] ša3#? hul2#?-la ha-ra-ab-gar-re-ne</l>
+            <l n="6">[...] ⸢sa6⸣-sa6-ga inim nig2 ša3 du10-ga</l>
+            <l n="7">⸢igi⸣-⸢zu⸣-še3 ha-ra-ab-gar-re-eš</l>
+            <l n="8">ki ku3 ki nam-ti-la giri3-zu he2-ri-ib-gub-bu-ne</l>
+            <l n="9">{d}ri-im-{d}suen nun sag-kal kur kalam-ma-ke4</l>
+            <l n="10">du6-bara2-gal-mah ki-ur3 uri2{ki}-ma</l>
+            <l n="11">du6-bara2-gal-mah {d}nig2-erim2-šu-tab-be2</l>
+            <l n="12">du6-bara2-gal-mah {d}nig2-erim2-šu-ur4-ur4</l>
+            <l n="13">du6-bara2-gal-mah {d}du11-ga-ab-šu-gi4-gi4</l>
+            <l n="14">du6-bara2-gal-mah du11-ga-ab-šu-bi-tab-be2</l>
+            <l n="15">an-gub-ba abul mah-ke4</l>
+            <l n="16">dingir ku4-ra silim-ma-ne</l>
+            <l n="17">zi-da gab2-bu-zu nam nam-ti-la-še3</l>
+            <l n="18">u4 su3-ra2-še3 he2-em-da-{+su}su8-{+su}su8-be2-eš</l>
+            <l n="19">inim sa6-ga-zu {d}nanna {d}nin-gal-ra</l>
+            <l n="20">he2-ni-ib-ku4-re-ne</l>
+            <l n="21">{geš}kim sa6-ga da-za-a muš3 nu!-tum2-mu-de3</l>
+            <l n="22">sag#? [...] sa6#?-ga#?-zu he2-eb-tuku-tuku-ne</l>
+            <l n="23">[{d}ri-im-⸢{d}]suen⸣ lugal-gu10</l>
+            <l n="24">[...]-ma abul mah ku4-ra-⸢kam⸣</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Rīm-Sîn, king of abundance</l>
+        <l n="2">Foremost and supreme among the rulers</l>
+        <l n="3">Truth and Justice are your helpers</l>
+        <l n="4">They shall establish a good .../make ... pleasant for you</l>
+        <l n="5">They shall establish ... for you</l>
+        <l n="6">Rīm-Sîn, whose name was chosen by An and Enlil</l>
+        <l n="7">When you enter the city ... the great gate of Urim</l>
+        <l n="8">The good udug spirit, peaceful/whole/greeting lamma spirit</l>
+        <l n="9">And(?) the gatekeeper of the great gate</l>
+        <l n="10">Shall make ... shine for you before you</l>
+        <l n="12">(With?) the pleasing words ... they shall bring inside(?) for Nanna and Ningal</l>
+        <l n="13">They shall return/restore life, well-being, and life(?) for you</l>
+        <l n="15">They shall bring out good ..., that which makes the heart rejoice, and a conveyed/repaying(?) oracular utterance(?) from the Ekišnugal temple(?) for you</l>
+        <l n="16">The gods of life, the ... of the great gate</l>
+        <l n="17">They shall leave behind/open(?) ...</l>
+        <l n="18">The gods of greeting/well-being, (those of) the guard of the great gate</l>
+        <l n="19">Shall rejoice before you</l>
+        <l n="20">Their faces shall shine for you</l>
+        <l n="21">... shall moan/wail for you</l>
+        <l n="23">When you enter into the gate of Ur, the gate of rejoicing</l>
+        <l n="24">... the brickwork of Urim</l>
+        <l n="25">... the gate of Ur</l>
+        <l n="1">... the bolt and bar of the great gate</l>
+        <l n="2">... the conversing/decoding deity(!?)</l>
+        <l n="3">The ... of the great gate</l>
+        <l n="4">Shall ... to you</l>
+        <l n="5">... shall put ... rejoicing for you</l>
+        <l n="7">They shalll heap up(?) pleasing words?, words that please the heart, before you</l>
+        <l n="8">They make you set foot for(?) the pure place, the place/earth(?) of life</l>
+        <l n="9">Rīm-Sîn, the foremost ruler of the land and the homeland(?)</l>
+        <l n="10">At the “mound of the great and supreme dais/tent enclosure”, the “foundation/leveled place”(?) of Urim</l>
+        <l n="11">(At?) the “mound of the great and supreme dais/tent enclosure” Nigerimšutabe</l>
+        <l n="12">(At?) the “mound of the great and supreme dais/tent enclosure” Nigerimšu'urur</l>
+        <l n="13">(At) the “mound of the great and supreme dais/tent enclosure” Dugabšugigi</l>
+        <l n="14">(At) the “mound of the great and supreme dais/tent enclosure” Dugabšutabe</l>
+        <l n="15">The tutelary deities of the great gate</l>
+        <l n="16">The gods of entering well-being/greeting</l>
+        <l n="17">(At) your right and left, on behalf of (your) life</l>
+        <l n="18">They shall stand for perpetuity</l>
+        <l n="20">They shall bring in your good word for Nanna and Ningal</l>
+        <l n="21">Good omens, unceasing at your side</l>
+        <l n="22">And your good ..., they shall acquire</l>
+        <l n="23">Rīm-Sîn, my king!</l>
+        <l n="24">..., it is that of entering(?) the great gate</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000324 OB Catalogue from Ur 2</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346208</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346208.P346208.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">nin mul-an-gin7 &amp;lt;me&amp;gt;-en</l>
+            <l n="2">bur-šum2-ma gal</l>
+            <l n="3">zi-ga</l>
+            <l n="4">lugal me-&amp;lt;en&amp;gt; ša3-ta ur-sag-me-en</l>
+            <l n="5">lugal mi3 du11-ga</l>
+            <l n="6">me-ta-am3 me-di-da!</l>
+            <l n="7">me-ta-am3 im-du</l>
+            <l n="8">nin me šar2-ra</l>
+            <l n="9">en-e kur lu2 ti-la-še3</l>
+            <l n="10">i3-a lu2-lux(URU)</l>
+            <l n="11">šul me6-kam</l>
+            <l n="12">{lu2}kin-gi4-a</l>
+            <l n="13">in-nin me huš-a</l>
+            <l n="14">e2-e huš an-ki</l>
+            <l n="15">hur!-sag an-ki-bi-a-ke4</l>
+            <l n="16">{d}en-lil2 su3-ag2-še3</l>
+            <l n="17">sag-ki gid2-da</l>
+            <l n="18">{geš}al-e {geš}al-e</l>
+            <l n="19">u4 ul-e ri-da</l>
+            <l n="20">ki-urx(SILA4) gal-e</l>
+            <l n="21">e2-u4-nir</l>
+            <l n="22">an-ne2 nam-nir-ra</l>
+            <l n="23">nam-nun-e</l>
+            <l n="24">nam-nun-e sag-na gaba? gi4</l>
+            <l n="25">nam-lugal</l>
+          </div>
+          <div n="bottom" type="textpart">
+            <l n="1">2(u) 5(diš)</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">ša3-ga-a-ni</l>
+            <l n="2">an gal-ta ki gal-še3</l>
+            <l n="3">u4 ri-a nam ba-tar-ra#?-ba#?</l>
+            <l n="4">u4 ri-a u4 su3-ra2 ri-a</l>
+            <l n="5">u4 ri-a nig2-ul-e</l>
+            <l n="6">UD ma da dam na-na</l>
+            <l n="7">di4-di4-la2 u4-da</l>
+            <l n="8">3(diš) dumu e2-dub-ba</l>
+            <l n="9">ni2 bulug6 nu-&amp;lt;mu&amp;gt;-ni!-IL2</l>
+            <l n="10">u4 ul-la uru4</l>
+            <l n="11">in-nin me gal-gal</l>
+            <l n="12">u4 ul an ki-ta</l>
+            <l n="13">šegx(MURGU2)? x ki-ta</l>
+            <l n="14">{d}lugal-banda3{+da}</l>
+            <l n="15">iri{ki} gu4 huš</l>
+            <l n="16">lugal u4 me-lam2-bi nir-⸢ra⸣</l>
+            <l n="17">an-gin7 dim2-ma</l>
+            <l n="18">1(u) 1(diš) lugal</l>
+            <l n="19">tur3-ra-na</l>
+            <l n="20">u4 šu bala ke-ta</l>
+            <l n="21">u4 huš! ki-en-gi-ra</l>
+            <l n="22">ur-sag-e</l>
+            <l n="23">u4-bi-ta</l>
+            <l n="24">u4 an-ne2</l>
+            <l n="25">i-nu an u3 {d}en-lil2</l>
+            <l n="26">{d}en-lil2 diri-še3</l>
+            <l n="27">ku6-gu10 ⸢e2⸣ du3</l>
+            <l n="28">ur-sag kur-ra</l>
+            <l n="29">iri-am3 er2 &amp;lt;a&amp;gt;-nir-ra</l>
+            <l n="30">lu2 i-lu di</l>
+          </div>
+          <div n="left" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">4(u) 2(diš)</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">šunigin 1(geš2) 7(diš)</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Your are(!?) a lady like a heavenly star.</l>
+        <l n="2">Great matron.</l>
+        <l n="3">Rise!.</l>
+        <l n="4">I am the king, I have been a hero since (emerging) from the womb.</l>
+        <l n="5">(I am) the king who has been cared for.</l>
+        <l n="6">From where are ... to go(?).</l>
+        <l n="7">From where are you coming?.</l>
+        <l n="8">Lady of the many cosmic powers.</l>
+        <l n="9">The lord towards the mountain that sustains a man.</l>
+        <l n="10">ialulu.</l>
+        <l n="11">He is the youth of battle.</l>
+        <l n="12">The messenger(s).</l>
+        <l n="13">Lady of the furious me’s.</l>
+        <l n="14">House, furious storm? in the universe.</l>
+        <l n="15">Mountain range of both(!) heaven and earth.</l>
+        <l n="16">Enlil, (his utterance is supreme) profoundly.</l>
+        <l n="17">The frown (of Enlil).</l>
+        <l n="18">Hoe, hoe!.</l>
+        <l n="19">In ancient times.</l>
+        <l n="20">The great Ki'ur complex.</l>
+        <l n="21">Eunir (temple).</l>
+        <l n="22">An (lifted his head) with authority.</l>
+        <l n="23">Princeliness.</l>
+        <l n="24">(The possessor) of princeliness opposes his head(?) (unidentified incipit)</l>
+        <l n="25">Kingship</l>
+        <l n="1">(Subtotal:) 25 (entries)</l>
+        <l n="1">His heart.</l>
+        <l n="2">From great heaven towards great earth (the netherworld).</l>
+        <l n="3">In distant days when fate was determined.</l>
+        <l n="4">In distant days, in profoundly distant days.</l>
+        <l n="5">In remote days, a distant thing (unidentified incipit)</l>
+        <l n="6">... (unidentified incipit)</l>
+        <l n="7">Little one(s), if (we do not do our work).</l>
+        <l n="8">3 (compositions bearing the incipit) “Son of the house that distributes tablets”.</l>
+        <l n="9">... does not raise/wield boasting there(?) (unidentified incipit)</l>
+        <l n="10">The one who farmed (since) long ago.</l>
+        <l n="11">Lady of all the great me.</l>
+        <l n="12">In distant days when heaven (was separated) from earth.</l>
+        <l n="13">Brickwork(?) of the shrine(?) below/from the earth (unidentified incipit)</l>
+        <l n="14">Lugalbanda.</l>
+        <l n="15">City, furious bull.</l>
+        <l n="16">King, light whose aura is authoritative/lordly.</l>
+        <l n="17">Fashioned like An.</l>
+        <l n="18">11 (compositions with the incipit) King</l>
+        <l n="19">His cattle pen.</l>
+        <l n="20">In order to overturn the day.</l>
+        <l n="21">Furious storm in/of Sumer (unidentified incipit)</l>
+        <l n="22">The hero.</l>
+        <l n="23">At that time (unidentified incipit)</l>
+        <l n="24">When An</l>
+        <l n="25">When An and Enlil</l>
+        <l n="26">Enlil exceedingly.</l>
+        <l n="27">My fish, build a house.</l>
+        <l n="28">The hero in/of the mountain/netherworld (unidentified incipit)</l>
+        <l n="29">It is the city(?) weeping and lament ... (unidentified incipit)</l>
+        <l n="30">The lamentation singer (unidentified incipit)</l>
+        <l n="1">(Subtotal:) 42 (entries)</l>
+        <l n="1">Total: 67 (entries)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

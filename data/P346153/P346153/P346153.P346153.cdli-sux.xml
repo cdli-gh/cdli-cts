@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000675, ex. 002</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346153</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346153.P346153.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">en-e an-na-ka mu-ni-in-su-ub</l>
+            <l n="2">ge6-u3-na šu tag mu-ni-in-du11</l>
+            <l n="3">{d}nanna-a an-na-ka mu-ni-in-su-ub</l>
+            <l n="4">ge6-u3-na šu tag mu-ni-in-du11</l>
+            <l n="5">kur suh3-sah4-ha-ta e3-a-ni</l>
+            <l n="6">an-bar7-ra {d}utu bi2-in-gub</l>
+            <l n="7">{d}dil-im2-babbar kur suh3-sah4-ha-ta e3-a-ni</l>
+            <l n="8">an-bar7-ra {d}utu bi2-in-gub</l>
+            <l n="9">a-a-ni ⸢inim⸣-ma-ni zi-⸢da⸣</l>
+            <l n="10">u4-de3 ge6-a [inim] mu-un-di-ni-ib2-be2</l>
+            <l n="11">{d}en-lil2-le ⸢inim⸣-[ma-ni] ⸢zi⸣-da</l>
+            <l n="12">u4-de3 ge6-a ⸢inim⸣ mu-⸢un⸣-[di-ni]-⸢ib2⸣-DU?</l>
+            <l n="13">⸢eš⸣-bar-ra ⸢nam⸣ mu-un-di-ib2-tar-re</l>
+            <l n="14">ge6-par4 ⸢mah⸣-a-ni 4(diš) na-nam</l>
+            <l n="15">⸢{du#!?}du8⸣ 4(diš) mu-un-na-gar-ra</l>
+            <l n="16">ga2-tur3 gal-a-ni 1(eše3) GAN2 4(diš)-am3</l>
+            <l n="17">{geš}al-gar-sur9-ra ⸢mu⸣-⸢na⸣-tag-tag-ge</l>
+            <l n="18">ab2-⸢bi⸣ gu2#? mu-un-⸢na⸣-di-ni-x-re</l>
+            <l n="19">ab2 hi-a-ni 1(šar'u) 1(šar2)-am3</l>
+            <l n="20">ab2 peš13 amar-a-ni 3(šar'u)-am3</l>
+            <l n="21">gu4-ab2-ka-ni 3(šar'u) 5(šar2)-am3</l>
+            <l n="22">ab2 igi gun3-bi 1(šar'u) 4(šar2)-am3</l>
+            <l n="23">ab2 babbar2-bi 2(šar'u) 5(šar2)-am3</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">ab2 dara4#!?-bi 5(diš)-ta a-ra2 5(diš)-⸢am3⸣</l>
+            <l n="2">ab2 hi-a a-a {d}nanna-ke4</l>
+            <l n="3">{ab2}šilam-a-ni 5(šar'u) na-nam</l>
+            <l n="4">ab2-za3-e3!-za3-eš5-bi 4(diš)-me-eš</l>
+            <l n="5">⸢maš2⸣-⸢PIRIG⸣-⸢maš2⸣-PIRIG-bi 7(diš)-me-eš</l>
+            <l n="6">⸢unu3⸣ SUR2 du3-bi 7(diš)-me-eš</l>
+            <l n="7">ab2-ba ti-la-ba 4(diš)-me-eš</l>
+            <l n="8">en-ra mu-un-tur-tur mu-un-bulug3-e-ne</l>
+            <l n="9">ge6-par4-ra mu-ni-ib-su3-su3-u3-ne</l>
+            <l n="10">umbisag gal-bi {d}nisaba-ke4</l>
+            <l n="11">{d}nisaba-ke4 šid-bi mu-un-dab5 im-ma bi2-ib-gub-bu-en</l>
+            <l n="12">ab2 ku3 {d}nanna-ke4 mi2 du11-ga sul {d}suen za3-mi2</l>
+            <l n="13">i3 nam-he2 gara2!? tur3 gi4#!?-gi4#?-a-ke4 šu mu-un-da-mu2-mu2</l>
+            <l n="14">kurun2 gal hur-⸢sag⸣ lal3 kurun2!-bi-da</l>
+            <l n="15">lugal-ra du8 mah sikil-la-na mu-na-da-ab-šar2-re</l>
+            <l n="16">kal-ga geškim-ti {d}en-lil2-la2 sul dingir zi-gal2-la</l>
+            <l n="17">mas-su kalam-ma {d}nin-gal ereš ge6-par4-ra</l>
+            <l n="18">a-a {d}nanna za3-mi2</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">The lord rubbed/polished that of(?) heaven</l>
+        <l n="2">He adorned the night</l>
+        <l n="3">Nanna rubbed/polished that of(?) heaven</l>
+        <l n="4">He adorned the night</l>
+        <l n="5">When he came out from the confused (i.e., complicated)/thudding(?) mountains/netherworld</l>
+        <l n="6">(It was as if!?) Utu stationed him at noon(?)</l>
+        <l n="7">When he came out from the confused (i.e., complicated)/thudding(?) mountains/netherworld</l>
+        <l n="8">(It was as if!?) Utu stationed him at noon(?)</l>
+        <l n="9">His father, whose word is true</l>
+        <l n="10">Speaks with him there day and night</l>
+        <l n="11">His father, whose word is true</l>
+        <l n="12">Speaks with him there day and night</l>
+        <l n="13">He decrees fate (via?) decisions</l>
+        <l n="14">His supreme gipar residences are indeed 4</l>
+        <l n="15">4 platform/ruin mounds(?) are established for him</l>
+        <l n="16">His great cattle pens, one eše in area, are four in number</l>
+        <l n="17">The algarsura instrument is played for him</l>
+        <l n="18">The cows are gathered for him there</l>
+        <l n="19">His various cows are 39,600</l>
+        <l n="20">His cows pregnant with a calf are 108,000</l>
+        <l n="21">His breed bulls are 126,000</l>
+        <l n="22">The cows with speckled faces are 50,400</l>
+        <l n="23">The white cows are 90,000</l>
+        <l n="1">Its brown(?) cows are 5 apiece(?) times four</l>
+        <l n="2">The various cows of father Nanna</l>
+        <l n="3">His šilam cows are indeed 180,000</l>
+        <l n="4">Its zagešzageš cows are 4</l>
+        <l n="5">The (herds of) domestic animals(?) are seven</l>
+        <l n="6">All of(?) the ... cowherds are seven</l>
+        <l n="7">The ones who dwell with the cows are 4</l>
+        <l n="8">For the lord they diminish and make (the herd?) grow</l>
+        <l n="9">They fill(!?) the cloister</l>
+        <l n="10">Its chief scribe, Nisaba</l>
+        <l n="11">Nisaba has captured their number and you(!?) will enter it on the tablet</l>
+        <l n="12">The pure cow(s) of Nanna, having been taken care of, youth Suen, praise</l>
+        <l n="13">The butter of abundance, the cream? (re)turned(i.e. restored!?) by(!?) the cattle pen, are increased</l>
+        <l n="14">Great liquor of the mountain range(?) with its alcoholic syrup(?)</l>
+        <l n="15">Is mixed for the king at the supreme and pure platform/ruin mound(?)</l>
+        <l n="16">The mighty one, the trust of Enlil, youth, god of the people(?)</l>
+        <l n="17">Leader of the land, (for whom?) Ningal is queen of the cloister</l>
+        <l n="18">Father Nanna, praise!</l>
+      </div>
+    </body>
+  </text>
+</TEI>

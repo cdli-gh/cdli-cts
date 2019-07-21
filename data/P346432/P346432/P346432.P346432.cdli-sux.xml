@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0389</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346432</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346432.P346432.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1'">[... at]-⸢ti⸣</l>
+            <l n="2'">[...-me]-⸢en⸣</l>
+            <l n="3'">[...]-x [... at]-ti</l>
+            <l n="4'">[...]-me-en</l>
+            <l n="5'">[...] x [...]</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">[...] x [...] x [...]</l>
+            <l n="2">[...]{ki#?} du3-du3-⸢ni⸣ [...]</l>
+            <l n="3">[ap]-⸢su⸣-um eridu{ki} i-na pi-x [...]</l>
+            <l n="4">⸢hal⸣-an-ku3 ša3 kuš2-u3-[...]</l>
+            <l n="5">i-na ha-la-an-ku i-na mi-⸢it⸣-[...]</l>
+            <l n="6">e2 {geš}taškarin du5 bar-ra!-[ni]</l>
+            <l n="7">bi-it ti4-is-ka3-ri-[...] i-na šu-pe-⸢el⸣-[...]</l>
+            <l n="8">abgal siki bar duh#?-[...]</l>
+            <l n="9">ab-gal-lum ⸢ša⸣ [...] u2-x-[...]</l>
+            <l n="10">temen ⸢gal⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="2'">You are ...</l>
+        <l n="4'">You are ...</l>
+        <l n="3">When he built the Abzu of Eridu</l>
+        <l n="5">When he takes counsel at the Halankug shrine</l>
+        <l n="7">(Sum) When he hews the temple of taškarin wood (Akk) When he converts(?) the temple of taskarinnum wood</l>
+        <l n="9">(Sum) When the abgal functionary lets loose his outer hair (Akk) The apkallum functionary who lets loose his hair behind him(?)</l>
+        <l n="10">When he lives (within) the marked foundation(?) of fresh cedar</l>
+      </div>
+    </body>
+  </text>
+</TEI>

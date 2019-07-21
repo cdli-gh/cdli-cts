@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000485, ex. 002</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346182</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346182.P346182.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x x [...] x x</l>
+            <l n="2'">[... a2] ⸢ag2⸣-zu a2 ⸢ag2⸣-[...] x</l>
+            <l n="3'">[...] u3-mu-un {d}li-pi2-it-eš18-dar-ra</l>
+            <l n="4'">[...] x u3-mu-ni-in-ze2-eg3</l>
+            <l n="5'">[...] x x ha#?-ra-ab-lah4-e</l>
+            <l n="6'">[...] x ki ku3? x mu-ni-in-gar su kalam-ma mu-e-du10</l>
+            <l n="7'">[...] x-la-zu mu-un-ši-bar na-ag2 zi tar-mu-ni-ib</l>
+            <l n="8'">⸢ki⸣-ru-gu2 ⸢3(diš)⸣-kam-ma</l>
+            <l n="9'">⸢[{d}]nu⸣-nam-nir nun {d}li-pi2-it-eš18-dar-ra nam-ti u4 su3-ra2 sag-e-eš rig7-ba-ab</l>
+            <l n="10'">⸢geš⸣-gi4-gal2-bi-kam</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">⸢inim⸣ du11-ga {d}nin-isin{+si-na}-ka-še3</l>
+            <l n="2">[...] x {d}en-lil2-le geštu2 ba-ši-in-gub</l>
+            <l n="3">x-ra gu3 zi mu-na-an-de2-e nam mu-ni-ib-tar-re</l>
+            <l n="4">⸢[{d}]li⸣-pi2-it-eš18-dar mu pa3-da-gu10-me-en ug3-ga2 sag mi-ni-in-il2</l>
+            <l n="5">[...]-⸢e⸣ ama a-a ugux(|U.SAG|)-bi-gin7 igi-bi he2-em-ši-gal2-le-eš</l>
+            <l n="6">[... sag]-⸢en3⸣-tar e2-kur-ra ensi2 eš3 mah-a</l>
+            <l n="7">[...] ⸢ki⸣ šen-šen-na-ka a2-tah-zu he2-a</l>
+            <l n="8">[...]-⸢gin7⸣ ha-ra-ur4-u3 zar-re-eš ha-ra-ab-sal-e</l>
+            <l n="9">[...] x ki#? x-bi?-im#!?</l>
+            <l n="10">[...] x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">Father Enlil, god who is an emergent ušum creature(?), foremost(?) of the great princes (Igigi)</l>
+        <l n="2'">Lord of the universe, your me exceed (other) me(?), your commands surpass (other) commands(?)</l>
+        <l n="3'">... for(?) lord lipit-Ištar</l>
+        <l n="4'">After you give ...</l>
+        <l n="5'">... will ...</l>
+        <l n="6'">... put ... the pure place(?), you sweetened the flesh of the land</l>
+        <l n="7'">... looked at your ..., decree a fate (for him)</l>
+        <l n="8'">It is the 3rd kirugu</l>
+        <l n="9'">Nunamnir, dedicate a life of distant days to the ruler lipit-Ištar</l>
+        <l n="10'">It is its gešgigal “response”</l>
+        <l n="1">To the spoken word of Ninisina</l>
+        <l n="2">... Enlil paid attention</l>
+        <l n="3">He cries out truthfully to ... and decrees a fate</l>
+        <l n="4">Lipit-Ištar, you are the one I chose by name, (you) have raised (your) head among the people</l>
+        <l n="5">The people looked towards (you) like their birth parents</l>
+        <l n="6">The powerful one, caretaker of the Ekur temple, ensi of the supreme shrine</l>
+        <l n="7">Utaulu, may he be your helper at the place of combat</l>
+        <l n="8">May he gather up your enemy like small birds (in a net) for you, may he spread them out into sheaves for you</l>
+        <l n="9">...</l>
+        <l n="10">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000389, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346162</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346162.P346162.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">⸢{d#}nun⸣-⸢nam⸣-[nir ...]</l>
+            <l n="2'">nibru#{ki#}-⸢e⸣ [hur]-⸢sag⸣ [...] ⸢nam⸣-[...]</l>
+            <l n="3'">uri2#{ki#}-⸢e⸣ ⸢e2⸣-[...]</l>
+            <l n="4'">{geš#?}[...]-ni suhušx(DU@s)-⸢bi⸣ [...]-⸢gin6⸣</l>
+            <l n="5'">⸢aga⸣ [...] ⸢me⸣-teš2 ⸢nam⸣-[...]-la#? sag-[...]-mi-gal2</l>
+            <l n="6'">{geš#?}[...] ⸢ku3⸣ ug3 1(šar2) si-⸢si⸣-[...] šu-ga2 ⸢im⸣-⸢mi⸣-[...]-⸢sa2⸣</l>
+            <l n="7'">[...]-giri17 zi-gal2 ⸢DU⸣-⸢DU⸣-e#? [...]-gu10-uš im-⸢ma⸣-⸢an⸣-šum2#?</l>
+            <l n="8'">[...]-e#? x [...] e2 u6 di-da-bi [...] ⸢im⸣-⸢mi⸣-⸢in⸣-sa2</l>
+            <l n="9'">[...] x [...] x x x</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">⸢gi⸣-⸢zi⸣ [...]</l>
+            <l n="2'">na-ri-gu10 u4 he2-⸢gal2⸣-la#? [...] {i7}EZEN-ku3 mu še-[...]</l>
+            <l n="3'">⸢mu⸣ da-ri ka-ge5 du-a-ba i7 pa4-[...]</l>
+            <l n="4'">[...] iri#{ki}-ga2 a-ra2-bi ku6-ab te-li-bi [mu-ši-na]</l>
+            <l n="5'">[{i7}EZEN]-⸢ku3⸣ iri-bi ku6-ab te-li-bi mu-ši-⸢na⸣</l>
+            <l n="6'">[i7 pa4-bi]-⸢luh⸣ a-ra2-bi ku6-ab te-li-bi mu-ši-⸢na⸣</l>
+            <l n="7'">[...] ku6 hu-⸢ma⸣-ra-ab-de6 e2-kiš-nu-gal2-še3</l>
+            <l n="8'">[...] ⸢gu2⸣-gu2 mu-su-ur lu2-u2 u2-lal3 gu7-e</l>
+            <l n="9'">[...]-⸢bi⸣ še gu-⸢nu⸣ mu2-mu2 {geš}tir-gin7 su-su-e-x</l>
+            <l n="10'">[...]-⸢ub⸣-⸢da⸣ limmu2-bi še-ga {d}en-lil2-la2</l>
+            <l n="11'">[...] ⸢sipa⸣ u2-a ki-en-gi uri-e ki ag2 {d}en-lil2-la2</l>
+            <l n="12'">bala#?-na nig2 uri2{ki}-ma-ke4 sila-am3 u4 mi-ni-in-za-e-en-za-e-le ⸢za⸣-e-⸢me⸣-en</l>
+            <l n="13'">ur-{d}namma lugal mu da-a-ri za3-mi2-zu du10-ga</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">Where in Sumer and Akkad will Nunamnir chose?</l>
+        <l n="2'">In Nippur, at the “mountain range of life,” he decreed my(!?) fate</l>
+        <l n="3'">At Ur, it being in the Emudkura shrine</l>
+        <l n="4'">He secured the foundations of his throne</l>
+        <l n="5'">The crown and the (accompanying) aura, (eliciting) the “praise” of kingship, he(!?) put on my(?) head</l>
+        <l n="6'">He made the pure scepter that puts the many people in order the equal of my hand(?)</l>
+        <l n="7'">He gave to my hand ... and the nose-rope that convey the people</l>
+        <l n="8'">... the temple to be admired(?) he put in order(?)</l>
+        <l n="9'">...</l>
+        <l n="1'">The gizi reed growth, “standing in silver&quot;(?), flourishes</l>
+        <l n="2'">My canal(?) (that furnishes?) a day of abundance, a reign(?) of ..., the “pure ...” canal is named</l>
+        <l n="3'">Named an everlasting name that is suitable for the mouth, the “its (outlying) ditches are clean” canal is named</l>
+        <l n="4'">(As for?) me, the way of (the canal of?) my city is fish(?), its float/excess(?) is birds</l>
+        <l n="5'">The “pure ...” canal, it flow(!?) is fish(?), its float/excess(?) is birds</l>
+        <l n="6'">The canal whose (outlying) ditches are clean, its flow is fish(?), its float/excess(?) is birds</l>
+        <l n="7'">Abundantly it brought fish to the Ekišnugal temple</l>
+        <l n="8'">... (on its banks) are munzer plants which one eats (like?) the “honey plant”</l>
+        <l n="9'">Making mottled barley/crops grow in its meadows (so that it) sways like a forest/for it to be denuded (at harvest time) like a forest(?)</l>
+        <l n="10'">The king of the four regions, obedient one of Enlil</l>
+        <l n="11'">Ur-Namma, the shepherd and provider in Sumer and Akkad, loved by Enlil</l>
+        <l n="12'">In his reign(?) that makes(?) (every)thing of Urim rejoice, you are the one who spends time there(?)</l>
+        <l n="13'">Ur-Namma, king with an eternal name, your praise is sweet</l>
+      </div>
+    </body>
+  </text>
+</TEI>

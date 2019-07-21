@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000344, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346096</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346096.P346096.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">⸢galla⸣ tur ka ba-a-ši-bad-de6 galla gu-la-ra gu3 mu-na-de2-⸢e⸣</l>
+            <l n="2">ga2-nam-ma-an-ze2-en ur2 ku3 {d}inanna-ka-še3 ga-da-re7-en-de3-en</l>
+            <l n="3">galla unu{ki}-še3 ba-ni-in-ku4-re-eš ku3 {d}inanna-ke4 mu-ni-in-dab5!?-be2-ne</l>
+            <l n="4">ga2-nu {d}inanna kaskal-zu-še3 NI-BA gen-na kur-⸢še3⸣ e11-de3</l>
+            <l n="5">ki#? ša3-ge4 de6-a-zu-še3 gen-na kur-še3 e11-de3</l>
+            <l n="6">ki {d}ereš-ki#!-gal-la-še3 gen-na kur-še3 e11-de3</l>
+            <l n="7">{tug2}ba13 ku3 {tug2}pala3-a tug2 nam-ereš-zu nam-ba#?-mur10-mur10-un kur-še3 ⸢e11⸣-⸢de3⸣</l>
+            <l n="8">men ku3 me-te ka silim-ma sag-zu-a um-ta-ga2-ar kur-še3 ⸢e11⸣-⸢de3⸣</l>
+            <l n="9">hi-li-a igi#?-⸢zu⸣ ⸢šu⸣ la-ba-ni-in-du7 kur-še3 e11-de3</l>
+            <l n="10">ur-idim tur#? giri3-zu x [...]-⸢un⸣-⸢duh⸣-duh kur-še3 e11-de3</l>
+            <l n="11">x ⸢za⸣-e e11-de3 x [...] nu-BU-BU</l>
+            <l n="12">ku3 {d}inanna-ke4 mu-un-bur2-bur2-re-eš [...]-x-x-NE-eš</l>
+            <l n="13">{d}inanna ni2-te-na {d}dumu-zi šu-še3 ba#?-an#?-⸢šum2⸣</l>
+            <l n="14">guruš-e {geš}&amp;lt;rab3&amp;gt;-mah giri3-ni im-ma-an-gar-re-en-de3-en</l>
+            <l n="15">guruš-e {geš}es2-ad šub-bu-de3-en-de3-en geš-gu2 gu2-ni gar-re-en-⸢de3⸣-⸢en⸣</l>
+            <l n="16">{uruda}ubri2 {uruda}kibir2 {uruda}šukur mah-e igi-ni-še3 ba-an-ši-ib2-il2-il2</l>
+            <l n="17">{uruda}ha-zi-in gal-gal-la u3-sar i3-ke3-e-ne</l>
+            <l n="18">guruš-e mu-ni-in-gub-bu-de3-eš mu-ni-in-durun-de3-eš</l>
+            <l n="19">eš2 murgu2-na i3-šub-bu-de3-en-de3-en gab2-⸢gaz⸣ gub-bu-de3-en-⸢de3⸣-en</l>
+            <l n="20">guruš-e a2-na mu-un-la2-e-de3-eš {tug2}eš-darax(SIKI) u3?-mu-un-ši-in-ak-eš</l>
+            <l n="21">tug2 ni2-te-na igi-na mu-ni-in-dul-⸢u3⸣-de3-eš</l>
+            <l n="22">guruš-e {d}utu-ra an-še3 šu-ni ba-an-na-zi</l>
+            <l n="23">{d}utu gu5-li-zu ga2-e-me-en šul-me-en za-e mu-GIM</l>
+            <l n="24">⸢nin9⸣-zu nam-dam-še3 ba-an-tuku-a</l>
+            <l n="25">e-ne kur-še3 e11-de3</l>
+            <l n="26">mu ⸢e⸣-ne kur-še3 e11-de3</l>
+            <l n="27">ga2-e ki-gar-ra-bi-še3 kur-še3 ba-ab-šum2-mu-de3</l>
+            <l n="28">{d}utu di-ku5 nig2-si-sa2 za-e-me-en nam-ba-šaga-de3</l>
+            <l n="29">šu-ga2 u3-mu-e-kur2-kur2 uludim2-gu10 u3-mu-e-bala</l>
+            <l n="30">šu galla-gu10-ne ga-ba-e-da-ze-er nam-mu-ha-za-aš</l>
+            <l n="31">muš-sag-kal-gin7 ša3-tum2 hur-sag-ga2 hu-mu-ni-in-bala-bala</l>
+            <l n="32">ki nin9 {d}geštin-an-na-še3 zi-gu10 ga-ba-an-ši-in-de6</l>
+            <l n="33">{d}utu er2-na šu ba-an-ši-in-ti</l>
+            <l n="34">šu-ni mu-ni-in-kur2-kur2 ulutim2-ma-ni mu-ni-in-bala</l>
+            <l n="35">muš-sag-kal-gin7 ša3-tum2 hur-sag-ga2 mu-ni-in-bala-bala</l>
+            <l n="36">{d}dumu-zi-de3 mušen šu surx(SAG)-du3{mušen} ri-a-gin7 zi-ni ur5-da i3-ak#?-x</l>
+            <l n="37">ki {d}geštin-an-na zi-ni ba-ši-in-de6</l>
+            <l n="38">[{d}]geštin-an-na šeš-a-ni igi ba-ni-in-duh-am3</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">⸢te⸣-⸢na⸣ mu-ni-in-⸢hur⸣-⸢hur⸣ ⸢giri17⸣-na mu-ni-in-hur-hur</l>
+            <l n="2">|IGI.GAG|#? za3-ga-na mi-ni-in-duh tug2-ni mi-ni-in-da-da-ra</l>
+            <l n="3">guruš ag2-gig-ra i-lu ag2-gig-ga hu-mu-ni-ib2-be2</l>
+            <l n="4">a šeš-gu10 a šeš-gu10 guruš u4-bi nu-um-x-x</l>
+            <l n="5">a šeš-gu10 su8-ba {d}ama-ušumgal-an-na guruš u4-bi x-x nu-x-x-gur?</l>
+            <l n="6">a šeš-gu10 guruš dam nu-tuku dumu nu-tuku</l>
+            <l n="7">a šeš-gu10 guruš gu5-li nu-tuku du10-us2-sa nu-tuku</l>
+            <l n="8">a šeš-gu10 guruš ama-ni sa6-ga-ni nu-duh</l>
+            <l n="9">galla {d}dumu-zi-de3 mu-ni-in-kikken2-de3 mu-ni-in-nigin-⸢de3⸣-eš</l>
+            <l n="10">galla tur galla gu-la-ra gu3 mu-na-de2-e-ne</l>
+            <l n="11">galla arhuš nu-tuku ad-da ama dam? šeš nin9 dumu nu-tuku-me-eš</l>
+            <l n="12">x-me-da gal? UN-ta#? gar-ra an-ki-ta ri-a-bi</l>
+            <l n="13">za-e-ne-ne galla &amp;lt;me&amp;gt;-en-ze2-en lu2 za3 tag?-ge x-x-me-eš</l>
+            <l n="14">šu nig2-sa6-ga nu-tuku-me-eš sa6-ga hul nu-zu me!-eš</l>
+            <l n="15">lu2-u3 e2 nu ni2-te-na zi-ni silim-ma a-ba-a igi mu-ni-in-duh</l>
+            <l n="16">ki gu5-li-bi nu-um-ši-du-de3-en ki mussa-bi nu-um-ši-du-de3-en</l>
+            <l n="17">su8-ba-ra ki {d}geštin-an-na-ka-še3 ga-an-ši-re7-en-de3-en</l>
+            <l n="18">galla-e-e-ne šu-ta ba-ab-sag3-sag3-ge-me-eš mu-ni-in-kin2?-kin2?-de3-eš</l>
+            <l n="19">i-lu-bi ka-ga14-na nu-mu-un-til-la-am3</l>
+            <l n="20">galla ki {d}geštin-an-na!-še3 ba-e-ši-re7{+re}-eš</l>
+            <l n="21">ki šeš-⸢zu⸣ la2-ma-ra-ab e-ne mu-ni-ib2-be2 e-ne inim-bi nu-mu-na-ab-be2</l>
+            <l n="22">siki ni2-te-na ur2-ra ba-ni-in-ze2-eg3 inim-bi nu-mu-na-ab-be2</l>
+            <l n="23">šu!? ni2-te-na igi#?-na ba-ni-in-hur-hur inim-bi nu-mu-na-ab-be2</l>
+            <l n="24">šu!? ni2-te-na tug2-na ba-ni-in-bir7-bir7 inim-bi nu-mu-na-ab-be2</l>
+            <l n="25">sahar#? ur2-ra-na ba-ni-in-de2-de2 inim-bi nu-mu-na-ab-be2</l>
+            <l n="26">{d}dumu-zi-de3 e2 {d}geštin-an-na-ke4 nu-um-me-ni-in-pa3-de3</l>
+            <l n="27">⸢galla⸣ [tur] ⸢galla⸣ gu-la-ra gu3 mu-na-de2-e-ne</l>
+            <l n="28">ga2-⸢nam⸣-[...]-⸢en⸣ amaš ku3-ga-še3 ga-an-ši-re7-de3-en!</l>
+            <l n="29">{d}dumu-zi-⸢de3⸣ ⸢amaš⸣ [...]-x mu-ni-in-šub-be2-de3-eš</l>
+            <l n="30.a">mu-ni-in-nigin-de3-⸢eš⸣ [...]-x-be2-de3-eš</l>
+            <l n="30.b">mu-ni-in-kin2?-⸢de3⸣-⸢eš⸣ igi ba-⸢ni⸣-in-duh-⸢am3⸣</l>
+            <l n="31">guruš-ra e2 sumun-na-gin7 {uruda}ha-zi-in šu ga-ba-ši-in-ti</l>
+            <l n="32">giri2-ur3-ra mu-ni-in-sar-sar-re-eš ki#? si-ga mu-ni-in-⸢tu10⸣-tu10-eš</l>
+            <l n="33">nin9-e na-ag2 šeš-na-še3 iri-a mušen#?-gin7#? im-ma-an-nigin</l>
+            <l n="34">šeš-gu10 ag2-gig-ga me?-še3? ga-⸢DU⸣ e2 na-me ga-an-ku4#?</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">The junior galla demon opened his mouth and was speaking to the eldest galla demon</l>
+        <l n="2">Come! let us go to the holy lap of Inanna</l>
+        <l n="3">The galla demons entered Unug and were seizing(?) Inanna there</l>
+        <l n="4">Come, Inanna! Go ... towards your path, descend to the netherworld</l>
+        <l n="5">Go to the place you have plotted against(?), descend to the netherworld</l>
+        <l n="6">Go to the place of Ereškigal, descend to the netherworld</l>
+        <l n="7">You should not wear the holy ba garment or the pala garment, the garments of your queenship, go to the netherworld</l>
+        <l n="8">After you remove the holy crown, the ornament of glorification, upon your head, in order to descend to the netherworld</l>
+        <l n="9">You (should) not equip/perfect your face(?) with allure</l>
+        <l n="10">You should unfasten(?) the small(?) uridim dogs(?) at/from your feet, descend to the netherworld</l>
+        <l n="11">... you go down, ... does not ...</l>
+        <l n="12">They released holy Inanna, they ... her</l>
+        <l n="13">Inanna herself handed over Dumuzi</l>
+        <l n="14">As for the youth, we will put his feet in the great &lt;beam(?)&gt;</l>
+        <l n="15">As for the youth, we will cast the esad trap/restraint (upon him), we will place neck in the neckstock</l>
+        <l n="16">The ubri spear, kibir weapon(?) and the great šukur spear were raised before him</l>
+        <l n="17">They were sharpening large hazin axes</l>
+        <l n="18">As for the male, they were (about) to stand, they were to sit(?)</l>
+        <l n="19">We will cast a rope upon his shoulder: position the executioner!</l>
+        <l n="20">As for the youth, they were to bind his arm, and then tighten it up(?)</l>
+        <l n="21">They were to cover his own face with his own garment</l>
+        <l n="22">The youth raised his hands heavenwards for Utu</l>
+        <l n="23">Utu, I am your comrade, like you(?) I am a youth</l>
+        <l n="24">The one who married your sister</l>
+        <l n="25">She descends to the netherworld</l>
+        <l n="26">Because she descends to the netherworld</l>
+        <l n="27">I, as a substitute, am to be given to the netherworld</l>
+        <l n="28">Utu, you are the judge of justice, you are never to oppress (anyone)</l>
+        <l n="29">After you have altered my hands and changed my form</l>
+        <l n="30">I shall elude the hand of my (pursuing) galla demons, they must not grasp (me)</l>
+        <l n="31">As a sagkal snake, I(!) shall traverse the meadows and(?) the mountain range</l>
+        <l n="32">I shall take refuge with (my) sister Gštinanna</l>
+        <l n="33">Utu accepted his weeping</l>
+        <l n="34">He altered his hands and changed his form</l>
+        <l n="35">As a sagkal snake, he traversed the meadows and(?) the mountain range</l>
+        <l n="36">Dumuzi, like a bird flying (from) the claws of a falcon, guarded for his very life</l>
+        <l n="37">He took refuge with Geštinanna</l>
+        <l n="38">geštinanna saw her brother</l>
+        <l n="1">She scratched her cheeks, she scratched her nose</l>
+        <l n="2">She unleashed a spear/thorn(?) in her side, she split apart(?) her garment</l>
+        <l n="3">She was intoning a lament of anathema for the youth (afflicted by) anathema</l>
+        <l n="4">Alas, my brother, alas, my brother, the days of the youth do not ...</l>
+        <l n="5">Alas, my brother, the shepherd Ama'ušumgalana, the days of the youth do not ...</l>
+        <l n="6">Alas, my brother, the youth who does not have a spouse, who does not have a son</l>
+        <l n="7">Alas, my brother, the youth who does not have a comrade, who does not have a friend</l>
+        <l n="8">Alas, my brother, the youth whose mother “did not release her good(ness)&quot;(?)</l>
+        <l n="9">The galla demons were seeking out Dumuzi, they were roaming around</l>
+        <l n="10">The junior galla demons were speaking to the eldest demons</l>
+        <l n="11">They were galla demons without compassion, who did not have a father, mother, spouse, brother, sister, or son</l>
+        <l n="12">... removed from(?) ..., the one set apart from the universe</l>
+        <l n="13">You are gala demons(!?), those who are to be reglected ... (!?)</l>
+        <l n="14">They did not have the power of goodness(?), they did not know good and evil</l>
+        <l n="15">Who has seen someone with a healthy life without a home and all alone?</l>
+        <l n="16">I(?) will not go to where the friend is, I will not go to where the in-law is</l>
+        <l n="17">We shall go for the shepherd where {geš}tinanna is</l>
+        <l n="18">They were the galla demons who were to smite him(!) by hand(?), they were seeking him</l>
+        <l n="19">The lament was not yet finished in her mouth</l>
+        <l n="20">(When) the galla demons came to where {geš}tinanna was</l>
+        <l n="21">&quot;(One of them(?)) was saying “Show where your brother is,” but she was saying not a word to him</l>
+        <l n="22">He made her shave(!?) her own hair in her crotch, but she was not saying a word to him</l>
+        <l n="23">He made her scratch her face(?) with her own hands(!?), but she was not saying a word to him</l>
+        <l n="24">He made her own hands(?) shred her garment, but she was not saying a word to him</l>
+        <l n="25">He poured dirt/sand(?) in her crotch, but she was not saying a word to him</l>
+        <l n="26">He did not find Dumuzi in the house of Geštinanna</l>
+        <l n="27">The junior galla demons were speaking to the eldest demons</l>
+        <l n="28">Come! let us go to the pure sheepfold</l>
+        <l n="29">Dumuzi ... the sheepfold ... they were casting/ducking down ...</l>
+        <l n="30.a">They were searching, they were ...,</l>
+        <l n="30.b">they were seeking, he was seen</l>
+        <l n="31">(Saying) “I shall take the ax to the youth like a dilapidated house”</l>
+        <l n="32">They carved him(?) with giri'ura knife, they smote him in a silent place</l>
+        <l n="33">The sister roamed around in the city like a bird(?)</l>
+        <l n="34">My brother (who suffered) this anathema! Where shall I go?(?) I shall enter no one's house(?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

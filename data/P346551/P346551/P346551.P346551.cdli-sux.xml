@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000380, ex. 048</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346551</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346551.P346551.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1'" type="textpart">
+            <l n="1'">{geš#?}[...]</l>
+            <l n="2'">⸢ab2⸣ mah-[...]-x-ku5#?</l>
+            <l n="3'">⸢gu4⸣ du7-du7-x [...]</l>
+            <l n="4'">{geš}gešimmar uruda kal-ga#? [...]-⸢ga2⸣</l>
+            <l n="5'">{u2}numun2-gin7 ba-an-⸢bur12⸣ [...]-ba#? mi-ni-ib-bala</l>
+            <l n="6'">⸢sag⸣ sahar-ra ba#?-ni#?-ib2#?-[...]-an-tuku</l>
+            <l n="7'">{geš}ze2-na#?-⸢bi⸣ ⸢gu2⸣ ba#?-[...]</l>
+            <l n="8'">[...]-⸢an⸣-⸢na⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">[...] mu2-a geš ki ba-e-⸢la2⸣-[...]</l>
+            <l n="2">[...]-ni-in-gar-gar-re-eš-a kur-ra ⸢i3⸣-[...]</l>
+            <l n="3">[...]-e-šub bad3-si-bi ba-e-⸢gul⸣</l>
+            <l n="4">[...]-da#? gab2-bu-ba gu2-⸢da⸣ la2-a-ba</l>
+            <l n="5">[...] x gaz2-a-gin7 igi-bi-ta ba-e-šu2</l>
+            <l n="6">[...] ⸢igi⸣ pirig-ga2 ni2 gur3-gur3-ru-bi</l>
+            <l n="7">[...] ⸢|SUD.NUN.TU|⸣ ba-e-šub-bu-ri ki-erim2 ba-ab-de6</l>
+            <l n="8">[... ⸢{d}]nanna⸣ tir šim {geš}erin-na!-gin7 ir-si-im-bi ba-gul</l>
+            <l n="9">[... u6]-⸢di⸣-bi i3-du10-ga-ri u6-di-bi ba-gul</l>
+            <l n="10">[...] ⸢i⸣-im-si-a {d}usan#? [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">Its throne was covered over from the front(?), she(?) could(?) (only) sit in the dust (instead)</l>
+        <l n="2'">They seized the great(?) cows at/by(?) their ... horns, ... cut their horns off</l>
+        <l n="3'">... smote goring bulls with the weapon like (they were) grazing sheep</l>
+        <l n="4'">The date palm (of? like?) strong copper, the arm of heroism</l>
+        <l n="5'">... tore it out like a rush, it was cut like a rush, it was turned sideways(?) in its roots</l>
+        <l n="6'">Its top was lodged (in the ground), it did not have a person to raise it</l>
+        <l n="7'">... trimmed its midribs and set its top on fire</l>
+        <l n="8'">... its spadix with ripe dates, ... the well</l>
+        <l n="1">The gizi reeds that grew in the holy ... (and the) trees(?) were bowed to the ground(?)</l>
+        <l n="2">The great tribute that ... deposited there was carried away into(?) the mountain</l>
+        <l n="3">In the temple, its {geš}bur ormanment(?) fell, its parapet was destroyed</l>
+        <l n="4">Its ... embracing on its right and left</l>
+        <l n="5">Like smitten heroes, they were covered from the front</l>
+        <l n="6">Its great storm(-demon)?, with an open mouth and the face of an awe-bearing pirig creature</l>
+        <l n="7">The enemy territory brought away(?) the one felled with a saman rope like a caught wild bull</l>
+        <l n="8">The scent of the dwelling of holy Nanna, which was like a juniper forest, was brought to an end</l>
+        <l n="9">(And?) the awe of the temple, which had been good(?)--the awe was (now) destroyed</l>
+        <l n="10">The one that filled(?) the lands like sunlight(?) was (re)built(?) like the evening(?) in(?) heaven (instead?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

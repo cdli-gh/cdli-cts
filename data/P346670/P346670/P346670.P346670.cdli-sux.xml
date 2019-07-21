@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0633</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346670</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346670.P346670.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...]-⸢ta⸣-am3 x-[...]</l>
+            <l n="2'">[...]-zi-ge-en-na#?-[...]</l>
+            <l n="3'">[...]-gu10 gal2 ga-ab-⸢tak4⸣ [...]</l>
+            <l n="4'">[...]-⸢zu⸣ ga-mu-ra-[...]</l>
+            <l n="5'">[...] x-de3 mu-uh2#?-⸢hu⸣-⸢um⸣ ⸢lul⸣-[...]</l>
+            <l n="6'">[...] KAB DU ba HUB2 NE#? [...] x x [...]</l>
+            <l n="7'">[...] ⸢lu2⸣-sa-gaz sag iri-ta ba-lah5-[...]</l>
+            <l n="8'">[...] ⸢nig2⸣-gig kin2-ga2 [...]</l>
+            <l n="9'">[...] ba-an-gar-re-[eš]</l>
+            <l n="10'">[...] nig2-ka9-ra na-ma-⸢an⸣-[...]</l>
+            <l n="11'">[...] x ša3?-še3 la-ba-gid2-da [...]</l>
+            <l n="12'">[...] {d#}inanna-ka tuš-a a-ab-[...]</l>
+            <l n="13'">[...] x-a-ta-am3 u4-šu2-uš an-us2 u2 [...]</l>
+            <l n="14'">[...] ⸢dam⸣-gar3 ša3 gur4 ku3 tuku še tuku-a [...]</l>
+            <l n="15'">[...] x lu2 (|SU.LU.ŠE3|%|SU.LU.ŠE3|)-šir!-[ra ...]</l>
+            <l n="16'">[...]-ni ba-ab-šum2-šum2-⸢mu⸣-[...]</l>
+            <l n="17'">[...] dumu dam-gar3-ra x-[...]</l>
+            <l n="18'">[...] x-za KUR-ta munus ZI e3-a me#?-[...]</l>
+            <l n="19'">[...]-bi nu-ra-[...]</l>
+            <l n="20'">[...]-ak-a!-gin7 ⸢teš⸣ la-ba-e-[...]</l>
+            <l n="21'">[...] ni2-za ad nu-e-ni-[...]</l>
+            <l n="22'">[...] ⸢nu⸣-⸢mu⸣-e-ni-tur-[tur]</l>
+            <l n="23'">[...] ⸢na⸣-⸢ab⸣-be2-⸢en⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">By means of your “affirmed heart,” you will be able to quarrel with me?</l>
+        <l n="2'">After you made yourself violent against me(?)</l>
+        <l n="3'">Like a cauldron, I want to open myself, after/by means of boasting(?)</l>
+        <l n="4'">Stand, I want to put an end to your abuse</l>
+        <l n="5'">Your counsel is of ..., ecstatic(?), liar</l>
+        <l n="6'">...</l>
+        <l n="7'">... the brigands are plundering the front(?) of the city</l>
+        <l n="8'">... are the taboo of working(?)</l>
+        <l n="9'">... to be ... are set/placed(?)</l>
+        <l n="10'">Do not ... for the account for me(?)</l>
+        <l n="11'">... not pondered</l>
+        <l n="12'">... dwelling in the ... of Inanna(?), ...</l>
+        <l n="13'">... daily he follows(?), ...</l>
+        <l n="14'">... exuberant(?) merchant, possessing silver and barley ...</l>
+        <l n="15'">... the man of the lubšir sack(?) (for carrying money)(?) ...</l>
+        <l n="16'">... gives ...</l>
+        <l n="17'">... the child of a merchant/member of the merchant's ranks ...</l>
+        <l n="18'">...</l>
+        <l n="19'">You do not ...</l>
+        <l n="20'">Like a person whose head is half shaved, you have had no dignity</l>
+        <l n="21'">You have not deliberated, you have not advised yourself</l>
+        <l n="22'">You did not diminish(?) the word in you heart</l>
+        <l n="23'">As if insulted, you have not said “do not speak”</l>
+      </div>
+    </body>
+  </text>
+</TEI>

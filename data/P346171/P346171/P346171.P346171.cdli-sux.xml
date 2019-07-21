@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000481, ex. 016</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346171</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346171.P346171.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">a-ra-zu-ne [...]</l>
+            <l n="2">ga2-la nu-dag-⸢ge⸣ [...]</l>
+            <l n="3">ki-ur3#?-še3 šu#? [...]</l>
+            <l n="4">nig2 tum2-tum2-e ⸢im2⸣-e [...]</l>
+            <l n="5">⸢ul4⸣-ul4-⸢la⸣ dub3 nu-⸢kuš2⸣-[...]</l>
+            <l n="6">nesag ⸢tum3⸣ e2#! UD nu-x-[...]</l>
+            <l n="7">nibru{ki}-⸢še3⸣ he2-⸢gal2⸣ [...]</l>
+            <l n="8">keš3{ki!}-a išib-bi x-[...]</l>
+            <l n="9">uri2#{ki}-⸢še3⸣ i3 ⸢sag⸣ [...]</l>
+            <l n="10">1(u) eridu{ki}-še3! ga2-la ⸢nu⸣-dag#?-[...]</l>
+            <l n="11">ki unu{ki}-še3 nindaba [...]</l>
+            <l n="12">e2-kur-ta ⸢nam⸣-⸢ti⸣ šum2-ma [...]</l>
+            <l n="13">zi-⸢ša3⸣-⸢gal2⸣ ⸢uru2⸣-⸢ni⸣-⸢še3⸣ ⸢al⸣ [...]</l>
+            <l n="14">⸢{d}li⸣-⸢pi2⸣-⸢it⸣-eš18-dar sipa kur-kur-[...]</l>
+            <l n="15">lugal me3#?-⸢še3⸣ ⸢ku⸣-kur ⸢du7⸣-⸢du7⸣ [...]</l>
+            <l n="16">⸢da⸣-⸢da⸣-ra ⸢nam⸣-šul#?-[...]</l>
+            <l n="17">giri2-ur3-ra u3#?-[...]</l>
+            <l n="18">⸢me3⸣-a nim-⸢gin7⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">suhušx(DU) gin6-na ⸢erin2⸣-[...]</l>
+            <l n="2">1(u) {na4}KA-kal#? ⸢na4⸣ x-x-[...]</l>
+            <l n="3">{kuš}gur21{+urx(SILA4)?} igi tab ⸢ugnim⸣-⸢ma⸣ [...]</l>
+            <l n="4">x-e#?-si#?-⸢A2⸣ ur-sag igi zalag-ga ⸢zu2⸣-⸢keš2⸣ gin6-ne2#?-[...]</l>
+            <l n="5">{d}li-pi2-it-eš18-dar ⸢dumu⸣ {d}en-lil2#?-me#?-en#?</l>
+            <l n="6">{kuš}ummu3 ⸢a⸣ ⸢sed4⸣ ⸢zi⸣ guruš-a#? [...]</l>
+            <l n="7">igi gal2 ⸢kaskal⸣-a an-dul7 erin2-na-⸢me⸣-[en]</l>
+            <l n="8">lugal tuš#?-a-ni bara2#?-ga gen-na-⸢me⸣-[en]</l>
+            <l n="9">ša3 dugud-da inim-še3 gal2-⸢la⸣-⸢me⸣-[en]</l>
+            <l n="10">dim2-ma kal!(KID) su13 ⸢a⸣-ra2-⸢e⸣ ⸢kin2⸣-ga2#? [...]</l>
+            <l n="11">nig2-nam nu-AN-GU-le-me-⸢en⸣ [...]</l>
+            <l n="12">1(u) ša3 su3-ra2 geštu2 dagal-la-⸢me⸣-[en]</l>
+            <l n="13">im-gid2-da {d}nin-geš-zi-[da-...]</l>
+            <l n="14">{iti#}NE-NE-gar u4 1(u) 3(diš)-[kam]</l>
+            <l n="15">mu {+i3-si}isin2-na [...]</l>
+          </div>
+          <div n="left" type="textpart">
+            <l n="1">ki 3(u)-⸢me⸣-en</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">I am one (whose) supplication/prayers make Ninlil rejoice</l>
+        <l n="2">I am the unceasing one serving Nuska</l>
+        <l n="3">I am one whose hand is oriented(?) towards the Ki'ur</l>
+        <l n="4">I am the fitting one for carrying things and running(?)</l>
+        <l n="5">I am one constantly hurrying (but) whose knees do not tire</l>
+        <l n="6">I am the bringer of the nesag offering who does not allow light to pass through(?) the Ebabbar temple</l>
+        <l n="7">I am the one who chases(?) abundance towards/on behalf of Nippur</l>
+        <l n="8">In Keš I am the one serving as(?) its išib priest</l>
+        <l n="9">On behalf of Urim I am the first rate butter and cream</l>
+        <l n="10">On behalf of Eridu I am its unceasing one</l>
+        <l n="11">On behalf of the site of Unug I am the great nindaba offerings</l>
+        <l n="12">I am the one given life by the Ekur temple(?)</l>
+        <l n="13">I am the one who wishes for vitality on behalf of his city</l>
+        <l n="14">I am lipit-Ištar, the shepherd of the lands</l>
+        <l n="15">I am the king, a wave thrashing towards battle</l>
+        <l n="16">I am one who does not loosen the knots of the bindings of youthfulness</l>
+        <l n="17">I am the one sharpening the giri'ura knife</l>
+        <l n="18">In battle I am the one flashing like lightning</l>
+        <l n="1">I am one who establishes the foundation and destroys among the troops</l>
+        <l n="2">I am the sagkal stone(?), the stone that ...(?)</l>
+        <l n="3">I am a shield, the watcher of the army</l>
+        <l n="4">I am the bright-faced hero who solidifies the troop formation</l>
+        <l n="5">I am lipit-Ištar, the son of Enlil</l>
+        <l n="6">I am a waterskin (of) cold water, the life of the young man/worker</l>
+        <l n="7">I am the one who watches the campaign, the (protective) shade of the troops</l>
+        <l n="8">I am a king that when he sits, he goes on(!?) the dais</l>
+        <l n="9">I put important thoughts to words(?)</l>
+        <l n="10">I am one (who possesses) profound intellect and counsel(!?), seeking the (correct) way</l>
+        <l n="11">I am one who does not hurry(!?) anything, ...</l>
+        <l n="12">I am one (who possesses) profound thought and broad understanding</l>
+        <l n="13">&quot;Long-tablet&quot; of Ningešzida-...</l>
+        <l n="14">month o&quot;NENEgar,&quot; 13th day,</l>
+        <l n="15">year &quot;Isin ...&quot;.</l>
+        <l n="1">... 30 (lines ...)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

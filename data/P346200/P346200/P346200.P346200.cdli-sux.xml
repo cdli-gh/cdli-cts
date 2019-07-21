@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000751, ex. 065</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346200</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346200.P346200.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">e2 an-še3 1(šar'u) GAN2 ki-še3 5(šar2) GAN2</l>
+            <l n="2">e2 an-še3 1(bur'u) GAN2 ki-še3 5(bur3) GAN2</l>
+            <l n="3">e2 an-še3 a-lim ki-še3 lu-lim</l>
+            <l n="4">e2 an-še3 šeg9-bar ki-še3 durah-maš</l>
+            <l n="5">e2 an-še3 šeg9-bar-⸢gin7⸣ gun3-a ki-še3 durah-gin7 gun3-a</l>
+            <l n="6">e2 ⸢an⸣-še3 ⸢muš⸣-gux(|SAGxNIG2|){mušen} ⸢sig7⸣-ga ki-še3 u5{mušen} a šu2-a</l>
+            <l n="7">e2 ⸢an⸣-[še3] ⸢u4⸣-gin7 DU-a ki-še3 ⸢{d}nanna⸣ ⸢bara2⸣-ga</l>
+            <l n="8">e2 an-⸢še3⸣ {geš}lam {geš}lam ki-še3 {geš}erin duru5{+ru}-am3</l>
+            <l n="9">e2 an-še3 kur-ra-am3 ki-še3 idim-ma-am3</l>
+            <l n="10">e2 an-ki-a 3(diš)-kam-ma-bi-nam</l>
+            <l n="11">keš3{ki}-gin7 rib-ba lu2 ši-in-ga-an-tum2-mu</l>
+            <l n="12">⸢ur⸣-sag-bi {d}aš7-gi4-gin7 rib-ba ama ši-in-ga-an-u3-tu</l>
+            <l n="13">⸢nin⸣-bi {d}nin-tur5-gin7 rib-ba-ra a-ba-a igi mu-ni-duh</l>
+            <l n="14">⸢e2⸣ 3(diš)-kam-ma</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Temple, towards the sky it is 10 šar2, towards the earth it is 5 šar2</l>
+        <l n="2">Temple, towards the sky it is 10 bur3, towards the earth it is 5 bur3.</l>
+        <l n="3">Temple, towards the sky it is a bison, towards the earth it is a red deer</l>
+        <l n="4">Temple, towards the sky it is a fallow deer, towards the earth it is a ram</l>
+        <l n="5">Temple, towards the sky it is speckled like a fallow deer, towards the earth it is speckled like a wild goat</l>
+        <l n="6">Temple, towards the sky it is a green mušgu bird, towards the earth it is an u bird covered by water</l>
+        <l n="7">Temple, towards the sky it comes out(!) like the sun, towards the earth it is covered by Nanna (i.e., moonlight?)</l>
+        <l n="8">Temple, towards the sky it is almond trees, towards the earth it is a sappy cedar/juniper</l>
+        <l n="9">Temple, towards the sky it is a mountain, towards the earth it is a spring</l>
+        <l n="10">It is indeed the 3rd temple of the universe</l>
+        <l n="11">Will anyone produce anything as surpassing as Keš?</l>
+        <l n="12">Has any mother given birth to anything as surpassing as its hero Ašgi?</l>
+        <l n="13">Who has seen anything as surpassing as its lady Nintur?</l>
+        <l n="14">It is the 3rd temple</l>
+      </div>
+    </body>
+  </text>
+</TEI>

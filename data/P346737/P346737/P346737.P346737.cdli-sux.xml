@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0700</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346737</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346737.P346737.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x-ba-al [...]</l>
+            <l n="2'">[...] ⸢mu⸣-un-DU-a x [...]</l>
+            <l n="3'">[...] x-gu10-ta x [...]</l>
+            <l n="4'">[...]-da#?-gu10 ⸢he2⸣-eb-x [...]</l>
+            <l n="5'">[...]-da-gu10 he2-en-x [...]</l>
+            <l n="6'">[...] mu-un-DU-⸢a⸣ [...]</l>
+            <l n="7'">[...] mu-un-gar-⸢ra⸣ [...]</l>
+            <l n="8'">[...]-⸢ra⸣ ur5-gin7 gu3 ⸢mu⸣-⸢un⸣-[...]</l>
+            <l n="9'">[...] ⸢nin⸣ ⸢{d#}nin⸣-⸢a2⸣-⸢zi⸣-⸢mu2⸣-a-ra#? [...]</l>
+            <l n="10'">[...] x x ba-an-[...]</l>
+            <l n="11'">[...] x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">From(?) the house of my mother my tilimda vessel(?) ...</l>
+        <l n="6'">The one who has ... his own house ...</l>
+        <l n="7'">The one who has established(?) his own dwelling</l>
+        <l n="8'">To lady Ninazimua ... thus spoke</l>
+        <l n="9'">Several of the messengers(?) repeated to(?) lady Ninazimua</l>
+        <l n="10'">...</l>
+        <l n="11'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

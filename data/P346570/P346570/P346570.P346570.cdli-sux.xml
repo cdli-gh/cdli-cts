@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000481, ex. 060</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346570</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346570.P346570.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">⸢a2⸣ ⸢mah⸣ ⸢šum2⸣-⸢ma⸣ [...]</l>
+            <l n="2'">{d}li-pi2-it-eš18-dar sul#? [...]</l>
+            <l n="3'">dingir-re-e-ne ⸢sag⸣-[...]</l>
+            <l n="4'">e2-⸢kur⸣-re muš3 ⸢nu⸣-[...]</l>
+            <l n="5'">lugal#? ⸢kadra⸣-še3 ⸢maš2⸣ [...]</l>
+            <l n="6'">[...]-na ⸢giri17⸣ [...]</l>
+            <l n="7'">lugal šud3-de3 ⸢gub⸣-⸢ba⸣ [...]</l>
+            <l n="8'">⸢inim⸣ sa6-sa6-ge {d}en-[...]</l>
+            <l n="9'">[a]-ra-zu-ne ⸢{d#}nin⸣-⸢lil2⸣ [...]</l>
+            <l n="10'">[...] ⸢nu⸣-⸢dag⸣-[...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[...] ka#?-aš#? bar#?-re#?-[...]</l>
+            <l n="2'">[...]-⸢kur⸣-re a2 ag2-ga2-[...]</l>
+            <l n="3'">[...]-si-sa2 ki-en-gi [...] su ⸢kalam⸣-[...]</l>
+            <l n="4'">⸢nig2⸣-gin6-na-gu10-⸢še3⸣ [...]</l>
+            <l n="5'">⸢nun⸣ {d}li-⸢pi2⸣-[...]</l>
+            <l n="6'">[...]-⸢gu10⸣-⸢še3⸣ a-⸢na⸣-[...]</l>
+            <l n="7'">[...] nig2#?-[...]</l>
+          </div>
+          <div n="left" type="textpart">
+            <l n="1">[...] x [...]</l>
+            <l n="2">[...] ⸢gin6⸣-na-me-⸢en⸣</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">I am one given strength by Enlil</l>
+        <l n="2'">I am lipit-Ištar, his attentive youth</l>
+        <l n="3'">I am the constant (attendant) of the gods</l>
+        <l n="4'">In the Ekur I am its unceasing one</l>
+        <l n="5'">I am the king who holds the goat kid to his chest as a greeting gift</l>
+        <l n="6'">I am the one humbled and touching the nose in submission</l>
+        <l n="7'">I am the king standing in prayer</l>
+        <l n="8'">I am the one who makes words pleasant, who pacifies Enlil</l>
+        <l n="9'">I am one (whose) supplication/prayers make Ninlil rejoice</l>
+        <l n="10'">I am the unceasing one serving Nuska</l>
+        <l n="1'">I am judge who sets affairs straight when he is to make a decision</l>
+        <l n="2'">I am adept at giving orders to the lands</l>
+        <l n="3'">I established justice in Sumer and Akkad and sweetened the flesh of the land</l>
+        <l n="4'">What can be abandoned because of my truth?</l>
+        <l n="5'">I am lipit-Ištar, who sets the people in order</l>
+        <l n="6'">What has ceased because of my justice?</l>
+        <l n="7'">...</l>
+        <l n="1">...</l>
+        <l n="2">I am the bright-faced hero who solidifies the troop formation</l>
+      </div>
+    </body>
+  </text>
+</TEI>

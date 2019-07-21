@@ -1,0 +1,211 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000379, ex. 025</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P464308</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P464308.P464308.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[...]-x er2-⸢ra⸣ ⸢ba⸣-[...]</l>
+            <l n="2">[...] ⸢ba⸣-⸢an⸣-da-gul-la me-ni ba-[...]</l>
+            <l n="3">geš-gi4-gal2-bi-[im]</l>
+            <l n="4">⸢u4⸣-ba u4 ⸢ne⸣-en ba-si-si-⸢ga⸣-[...]</l>
+            <l n="5">nin-da uru17#{ki}-ni ba-an-⸢da⸣-[...]</l>
+            <l n="6">iri{ki}-ni ba-an-da-⸢gul⸣ me-ni ba-[...]</l>
+            <l n="7">u4-ba u4 ne-en ba-dim2-⸢dim2⸣-[...]</l>
+            <l n="8">uru17-gu10 gul-gul-da im-⸢ma⸣-[...]</l>
+            <l n="9">uri2{ki} gul-gul-da im-⸢ma⸣-[...]</l>
+            <l n="10">ug3-bi ug5-ge-de3 im-⸢ma⸣-[...]</l>
+            <l n="11">u4-ba me-e uru17-ga2 ga2-⸢la⸣ [...]</l>
+            <l n="12">ka-na-ag2-ga2 IM šub-be2 ba-⸢ra⸣-[...]</l>
+            <l n="13">an-ra i-bi2-ga2 me-⸢e⸣ [...]</l>
+            <l n="14">{d}mu-ul-lil2-la2 ni2-gu10 ša3-ne-ša4 ⸢he2⸣-[...]</l>
+            <l n="15">uru17-gu10 nam-ma-gul [...]</l>
+            <l n="16">uri2{ki} nam-ma-gul [...]</l>
+            <l n="17">ug3-bi nam-uš2-a [...]</l>
+            <l n="18">an-ne2 e-ne-eg3-bi [...]</l>
+            <l n="19">{d}mu-ul-lil2-la2 i3-sa6-ga he2-a-bi [...]</l>
+            <l n="20">uru17-gu10 gul-gul-de3 [...]</l>
+            <l n="21">uri2{ki} gul-gul-de3 [...]</l>
+            <l n="22">ug3-bi ⸢ug5⸣-⸢ge⸣-de3 [...]</l>
+            <l n="23">2(diš@t)-⸢kam⸣-⸢ma⸣-[...]-⸢uh2⸣-ru-um ki-sag-ki ⸢a⸣-x-x-[...]-le#?-[...]</l>
+            <l n="24">{d#}a-nun-⸢na⸣-⸢ke4⸣-⸢e⸣-ne e-ne-⸢eg3⸣ [...] keš2-da#?-⸢bi⸣ ⸢ba⸣-an-da-dur2-ru-⸢ne⸣-eš</l>
+            <l n="25">⸢ur2⸣ he2-em-ma-BU-BU siki he2-em-⸢ma⸣-sur5-sur5</l>
+            <l n="26">an-ra i-bi2-ga2 me-e he2-em-ma-na-de2</l>
+            <l n="27">{d}mu-⸢ul⸣-lil2-la2 ni2-gu10 ša3-ne-ša4 he2-em-ma-ni-in-ne2</l>
+            <l n="28">iri{ki}-⸢gu10⸣ nam-ma-gul he2-em-mi-in-ne-du11</l>
+            <l n="29">uri2{ki#} nam-ma-gul he2-em-mi-in-ne-du11</l>
+            <l n="30">ug3-bi nam-uš2-a he2-em-mi-in-ne-du11</l>
+            <l n="31">an-e e-ne-eg3-bi ba-ra-ba-ra-gi4</l>
+            <l n="32">{d}mu-ul-lil2-la2 i3-sa6 he2-a-bi ša3-gu10 ba-ra-ab-sed4-de3</l>
+            <l n="33">uru17#{ki}-gu10 gul-gul-de3 he2-em-ma-ag2-eš-a-ba</l>
+            <l n="34">uri2{ki} gul-gul-de3 he2-em-ma-ag2-eš-a-ba</l>
+            <l n="35">ug3-bi ug5-ge-de3 he2-em-ma-ag2-eš-a-ba</l>
+            <l n="36">me-e nig2-KA-gu10 mu-e-de3-šum2-ma-gin7</l>
+            <l n="37">me-e uru17-⸢gu10⸣-ta#? he2-en-ga-ba-e-da-ab-la2-e</l>
+            <l n="38">uri2{ki} ga2-da he2-en-ga-ba-e-da-ab-la2-e</l>
+            <l n="39">an-ne2 e-ne-eg3-bi hur nu-kur2-ru-da</l>
+            <l n="40">mu-ul-lil2-la2-e ka-ta e3-a-ni šu nu-bala-e-de3</l>
+            <l n="41">ki-ru-gu2 4(diš)-kam-ma</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">nin-da uru17{ki}-ni ba-an-da-gul-la2</l>
+            <l n="2">uru17{ki}-ni ba-an-da-gul-la me-ni ba-an-da-kur2-ra</l>
+            <l n="3">geš-gi4-gal2-bi-im</l>
+            <l n="4">{d}en-lil2-le u4-de3 gu3 ba-an-de2 ug3-e še am3-ša4</l>
+            <l n="5">u4 he2-gal2-la kalam-e ba-da-an-kar ug3-e še am3-ša4</l>
+            <l n="6">u4 du10 ki-en-gi-ra ba-da-an-kar ug3-bi še am3-ša4</l>
+            <l n="7">u4 hul gal2 a2 ba-da-ag2 ug3-bi še am3-ša4</l>
+            <l n="8">kin2-gal u4-da u4-da gub-ba-ni šu-ni im-ma-an-šum-mu-uš</l>
+            <l n="9">u4 kalam til-til gu3 ba-an-de2 ug3-e še am3-ša4</l>
+            <l n="10">u4 gal-e an-na-ke4 gu3 ba-an-de2 ug3-e še am3-ša4</l>
+            <l n="11">{d}en-lil2-le {d}gibil6 a2#?-tah-a-ni-a mu-un-na-ni-in-ku4-re</l>
+            <l n="12">u4 gal an-na-ke4 gu3 ba-an-de2 ug3-e še am3-ša4</l>
+            <l n="13">u4 gal an-ta gu3 im-me ug3-e še am3-ša4</l>
+            <l n="14">u4 gal kalam til-til-e ki-a murum ⸢mi⸣-ni-ib2-ša4</l>
+            <l n="15">⸢tu15⸣ ⸢hul⸣ a ⸢mah⸣ [...]-gin7 a2!?-bi nu-ga2-ga2</l>
+            <l n="16">uru17{ki}-a [...]-gaz#? x-ke3-e teš2-bi i3-gu7-e</l>
+            <l n="17">an-na ur2-ba tukur2#? [...]-x-DU? ug3-e še am3-ša4</l>
+            <l n="18">u4-de3 igi-bi izi ⸢mu⸣-[...]-⸢re⸣ ⸢ug3⸣-e še am3-ša4</l>
+            <l n="19">u4 mir-mir-re izi-[...]-⸢mu⸣-un-BI</l>
+            <l n="20">an-bar7 im šeg3 il2-[...]-⸢bar7⸣-re</l>
+            <l n="21">an-bar7-GAN2 u4 babbar2 ⸢e3⸣-[...]-an-ku4</l>
+            <l n="22">kalam-ma u4 ⸢zalag⸣ la-ba-⸢ra⸣-[...]</l>
+            <l n="23">ge6 giri17-zal a sed4-de3 x [...]</l>
+            <l n="24">šika bar-bar-ra sahar im-da-x-[...]</l>
+            <l n="25">sag-gig2-ga tu15 im-ma#?-[...]</l>
+            <l n="26">ki-en-gi geš-bur2-gin7 i3-[...]</l>
+            <l n="27">ug3-e sag e2-gar8 du3 i3-ak#?-[...]</l>
+            <l n="28">u4 gig-ga er2-re na-ag2-⸢bi⸣ [...]</l>
+            <l n="29">u4 šu ur4-ur4-re [...]</l>
+            <l n="30">u4 a-ma-ru-gin7 [...]</l>
+            <l n="31">u4 kalam til-til [...]</l>
+            <l n="32">u4 izi-gin7 bar7-a [...]</l>
+            <l n="33">⸢u4⸣ [...] ⸢u2⸣-⸢gu⸣ de2-de3 hul ⸢gal2⸣-e#? ⸢bi2⸣-[...]</l>
+            <l n="34">[...] du11-ga {d}en-lil2-la2 x [...]</l>
+            <l n="35">[...]-⸢gin7⸣ im-dul gada-⸢gin7⸣ [...]</l>
+            <l n="36">[ki]-⸢ru⸣-gu2 5(diš)-⸢kam⸣-[ma]</l>
+            <l n="37">[...]-⸢ru⸣ [ug3]-⸢e⸣ še am3-[ša4]</l>
+            <l n="38">[geš-gi4]-gal2-bi-im</l>
+            <l n="39">[...] x du6-du6-da</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Urim has initiated lamentation to her detriment(?)</l>
+        <l n="2">Her city is destroyed to her detriment, her cosmic powers are changed to her detriment</l>
+        <l n="3">It is its gešgigal “response”</l>
+        <l n="4">At that time, this time after (the city) was flattened</l>
+        <l n="5">To the detriment of the lady, her city is destroyed</l>
+        <l n="6">Her city is destroyed to her detriment, her me are changed to her detriment</l>
+        <l n="7">At that time, this time after (the city) was created</l>
+        <l n="8">When they have spoken (the order for)/ordered(!?) my city to be destroyed</l>
+        <l n="9">When they have spoken (the order for)/ordered(!?) Urim to be destroyed</l>
+        <l n="10">When they have ordered(!?) its people to be killed</l>
+        <l n="11">At that time I will not be indifferent to my city</l>
+        <l n="12">(I) will not neglect my land</l>
+        <l n="13">For An, I shall pour (the tears!) of my eyes</l>
+        <l n="14">I shall supplicate myself to Enlil(?)</l>
+        <l n="15">I shall say to him “My city must not be destroyed”</l>
+        <l n="16">I shall say to him “Urim must not be destroyed”</l>
+        <l n="17">I shall say to him “Its people must not be killed(!?)”</l>
+        <l n="18">Despite this An did not rescind his word</l>
+        <l n="19">Despite this (the statement) “It is good, so be it” of Enlil was not soothing my heart</l>
+        <l n="20">Therefore when they have ordered(!) my city to be destroyed</l>
+        <l n="21">When they have ordered(!) Urim to be destroyed</l>
+        <l n="22">When they have ordered(!) its people to be killed</l>
+        <l n="23">For a 2nd time, after they convened an assembly, a “solemn place”</l>
+        <l n="24">The Anuna rested on the “organized” (i.e., finalized?) word?</l>
+        <l n="25">Therefore (I?) shall extend(?) (my) limbs/lap and tie up(?) (my) hair</l>
+        <l n="26">For An, I shall pour the tears of my eyes</l>
+        <l n="27">I shall supplicate myself to Enlil(?)</l>
+        <l n="28">I shall say to them(?) “My city must not be destroyed”</l>
+        <l n="29">I shall say to them(?) “Urim must not be destroyed”</l>
+        <l n="30">I shall say to them(?) “Its people must not be killed(!?)”</l>
+        <l n="31">Despite this An did not rescind his word</l>
+        <l n="32">Despite this (the statement) “It is good, so be it” of Enlil was not soothing my heart</l>
+        <l n="33">Therefore when they have ordered(!) my city to be destroyed</l>
+        <l n="34">When they have ordered(!) Urim to be destroyed</l>
+        <l n="35">When they have ordered its people to be killed</l>
+        <l n="36">I, as one who gave my advice(?) to my detriment(?)</l>
+        <l n="37">... therefore shall also bind me with my city</l>
+        <l n="38">... therefore shall also bind Urim with me</l>
+        <l n="39">An is never again to change this word</l>
+        <l n="40">That which issues from the mouth of Enlil is not to be changed/Enlil will not change that which issues from his mouth(?)</l>
+        <l n="41">It is the 4th kirugu</l>
+        <l n="1">To the detriment of the lady, her city is destroyed</l>
+        <l n="2">Her city is destroyed to her detriment, her cosmic powers are changed to her detriment</l>
+        <l n="3">It is the gešgigal “response”</l>
+        <l n="4">Enlil spoke to the storm, and the people wailed</l>
+        <l n="5">He deprived the land of(?) days of abundance, and the people wailed</l>
+        <l n="6">He deprived Sumer of good days, and the people wailed</l>
+        <l n="7">He commanded the malevolent storm, and the people wailed</l>
+        <l n="8">He gave them to(?) the kiggal official(?) of the storm, his attendant storm/who stood within the storm(?)</l>
+        <l n="9">He spoke to the storm annihilating the land, and the people wailed</l>
+        <l n="10">He spoke to the great storm, the one of An, and the people wailed</l>
+        <l n="11">Enlil was making Gibil (fire) into his helper</l>
+        <l n="12">He spoke to the great storm of An, and the people wailed</l>
+        <l n="13">The great storm was shouting from above, and the people wailed</l>
+        <l n="14">The storm annihilating the land roared upon the earth</l>
+        <l n="15">An evil wind, overflowing like a great flood does not set down its power/wing(?)</l>
+        <l n="16">In the city the weapon was murdering and devouring (as if) in a pack</l>
+        <l n="17">At the base of heaven (the storm?) gnawed(?), and the people wailed</l>
+        <l n="18">The storm was burning with fire at its front</l>
+        <l n="19">And therefore the raging storm(?), like a “fire-shade&quot;... at its back/... fire like deep shade(?) at its back</l>
+        <l n="20">Noon, (which usually) raises the “rainy wind” (fog?) burned fire</l>
+        <l n="21">Mid-day, (which usually) brings out bright sunlight, brought darkness along with it(!?)</l>
+        <l n="22">The shining sun did not come out in the land, it dissipated like the evening</l>
+        <l n="23">The southern wind blocked/combined with (to negate) the joyful night which initiates the cooling of water(?)</l>
+        <l n="24">Burning(?) sherds combined with the soil, and the people wailed</l>
+        <l n="25">(The storm) blew a wind upon the black-headed people, and the people wailed</l>
+        <l n="26">Sumer was tripping(?) as if (in) a snare, and the people wailed</l>
+        <l n="27">The people(?) were erecting a wall of heads(?), (the storm) devouring (as if) in a pack</l>
+        <l n="28">The bitter storm, for which weeping was not decreed as its fate(?), (because of this) the people wailed</l>
+        <l n="29">The eradicating/gathering(?) storm was sweeping the land/making the land tremble</l>
+        <l n="30">The storm utterly destroyed the city like a flood</l>
+        <l n="31">The storm that was finishing the land established silence in the city</l>
+        <l n="32">The storm burning like fire was enraged with/corporeally burned(?) the people(?)</l>
+        <l n="33">The storm that is to cause (everything) to be forgotten stood among the malevolent (ones?)</l>
+        <l n="34">The hateful storm, ordered by Enlil, the storm that ... the land</l>
+        <l n="35">It covered Ur like a garment, spread over it like linen</l>
+        <l n="36">It is the 5th kirugu</l>
+        <l n="37">The storm is a lion(?), thrashing(?), and the people wail</l>
+        <l n="38">It is its gešgigal “response”</l>
+        <l n="39">At that time(!) the storm was placed together with the city, the city was ruin heaps</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0161 + 0164 + 0619</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346246</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346246.P346246.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1'">[...]-x-da#?-⸢ne⸣ igi nam-bar-bar-en he2-sun5-ne-⸢en⸣</l>
+            <l n="2'">[...] ni2 he2-em-te-⸢ge26⸣</l>
+            <l n="3'">[...] ⸢ugula⸣-zu ki ha-ra-an-ag2</l>
+            <l n="4'">[...] {lu2}tab-ba-zu di-da-⸢ne⸣</l>
+            <l n="5'">[...] nam-ba-an-⸢na⸣-gi4-gi4-[de3]</l>
+            <l n="6'">[...] x x [...]-⸢de3⸣</l>
+            <l n="7'">[...]-de3-eš2</l>
+            <l n="8'">[...]-en</l>
+            <l n="9'">[...]-⸢e3⸣</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1'">[...] x [...]</l>
+            <l n="2'">[...]-en-na-ta geš-gi ⸢gi⸣ [...] kin2-⸢gi4⸣-a ba-⸢ra⸣-[ši-...]</l>
+            <l n="3'">[...] di4-di4-la2 tur-tur-ra-ke4-ne i-im-[...]</l>
+            <l n="4'">[...]-⸢en⸣-na-ta nu-mu-e-il2</l>
+            <l n="5'">[...] ⸢egir⸣ gu4-da-ka gub-ba? ba-ra#?-[...]</l>
+            <l n="6'">[...] us2#?-de3#? kin2-gi4-a ba-ra-ši-[...]</l>
+            <l n="7'">[...]-⸢gu10⸣-uš al ke3-de3 kinx(UR4)-gi4-a ba-ra-[ši-...]</l>
+            <l n="8'">⸢a⸣-⸢ša3⸣-gu10-uš uru4{+ru}-⸢de3⸣ kinx(UR4)-gi4-[a ba-ra-ši-...]</l>
+            <l n="9'">⸢kin2⸣ ša4#! al ak-de3 ⸢kinx(UR4)⸣-gi4-[a ba-ra-ši-...]</l>
+            <l n="10'">gen-na kin2 ša4 u3-mu-e-ak ninda gu7#?-[...]</l>
+            <l n="11'">ga2-e al-me-en-na-ta ba-ra-ra-⸢du11⸣</l>
+            <l n="12'">za-e al-me-en-na-ta kinx(UR4) ša4 nu-mu-e-ak ninda [...]</l>
+            <l n="13'">lu2 za-gin7-na-ke4 kin2 ša4 u3-mu-⸢e⸣-[ak]</l>
+            <l n="14'">ad-da-ni u3 ama-ni ninda i3-ib-gu7#?-[...]</l>
+            <l n="15'">tukumbi nig2-šu gi4-me-aš-gu10-ne-ka igi bi2#?-[...]</l>
+            <l n="16'">[e]-ne-ne-gin7-nam u še gur-ta-⸢am3⸣</l>
+            <l n="17'">[...]-ga2#? ib2-si-ge-eš</l>
+            <l n="18'">[...] ⸢sag⸣ ad-⸢da⸣-GIŠGAL#?-ne-ke4 u še gur-ta-a sag-ga2 ib2-si-ge-eš</l>
+            <l n="19'">[...]-⸢ne⸣-ne še bi2-in-tah-a</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">še i3 ⸢siki⸣ udu#!? [...]-x-x-[...]</l>
+            <l n="2">diri-zu lu2-⸢lu7⸣ i3-me-en</l>
+            <l n="3">e-ne-ne-gin7-nam lu2-lu7 nu-me-en</l>
+            <l n="4">dumu-gu10 ⸢ad⸣-da-ad-da-ne-⸢ne⸣</l>
+            <l n="5">lu2-tur-⸢ne⸣-ne kin2-gi4-a in-gi4-[...]</l>
+            <l n="6">a-ga-x e-ne-e-ne-⸢gin7⸣-[nam]</l>
+            <l n="7">⸢kin2⸣-⸢gi4⸣-[a] gi4-gi4-bi nu-mu-e-x-[...]</l>
+            <l n="8">[...]-kuš2-⸢a⸣-[...]</l>
+            <l n="9">[...]-x dumu-ni#?-[...]</l>
+            <l n="10">[...]-ab-x-[...]</l>
+            <l n="11">[...] in-nu ⸢teš2⸣ [...]</l>
+            <l n="12">[...] {geš#}šudul4 dili-a i3-sug2-ge-za#?-[...]</l>
+            <l n="13">[...] x-GI gu5!-li du10-us2-sa-zu igi nu-⸢mu⸣-[...]</l>
+            <l n="14">[...] nu-mu-un-na-ab-si-⸢ge⸣-[...]</l>
+            <l n="15">[...]-⸢ne⸣ si-ge2-⸢na⸣-⸢ab⸣</l>
+            <l n="16">[...]-ne si-ge2-na#!?-⸢ab⸣</l>
+            <l n="17">[...] gašam#?-ta ma-da ab-tuš-⸢a⸣</l>
+            <l n="18">[...] nig2-nam mu še21-a</l>
+            <l n="19">[... nam-dub]-⸢sar⸣-gin7 ⸢al⸣-gig ga-na mu-ni#?-[...]</l>
+            <l n="20">[...] ⸢tukumbi⸣ nam-nar [...]</l>
+            <l n="21">[...]-x bad#?-bad-⸢ra2⸣</l>
+            <l n="22">[...] al#?-[...]</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">[...] e?-NE-dag?</l>
+            <l n="2">[...]-⸢ra⸣-zux(SU) ba-ab-gu-⸢ul⸣</l>
+            <l n="3">[...] x-x-sag3-sag3-ge-eš</l>
+            <l n="4">[...]-ub#?-dub2#?-dub2#?-da-ke4-eš</l>
+            <l n="5">[...] x ⸢NI⸣ ma-ab-šid-de3-en</l>
+            <l n="6">[...]-ge-eš</l>
+            <l n="7">[...] x ri i ak</l>
+            <l n="8">[...]-x-⸢ak⸣-gu10 nu-⸢ŠE3⸣</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">When you are to cross the street, do not look around. If you are humble</l>
+        <l n="2'">And (you) fear your overseer</l>
+        <l n="3'">Your overseer will love you</l>
+        <l n="4'">If the objective is to be achieved, when you speak to(?) your companion</l>
+        <l n="5'">Do not turn behind for him</l>
+        <l n="6'">Do not denigrate your colleagues</l>
+        <l n="7'">If (you?) are going because the day is about to arrive(?)</l>
+        <l n="8'">How long shall I stay?</l>
+        <l n="9'">I know(?)--(until) my master has left</l>
+        <l n="2'">Because of what I am, I did not send (you?) as one charged with the task(?) to carry reeds (from) the reed bed</l>
+        <l n="3'">The old/dead reeds which (even) the tiny and little (children) carry</l>
+        <l n="4'">Because of what you are, you have not carried them</l>
+        <l n="5'">In no way/at no time(?) have I said “Stand(?) at the rear of an ox”</l>
+        <l n="6'">Regarding my ox, I did not send (you?) as one charged with the task(?) to follow it</l>
+        <l n="7'">Regarding my field, I did not send (you?) as one charged with the task(?) to hoe it</l>
+        <l n="8'">Regarding my field, I did not send (you?) as one charged with the task(?) to sow/cultivate it</l>
+        <l n="9'">I did not send (you?) as a messenger (charged with a task?) to do a task(?) (or?) to hoe</l>
+        <l n="10'">Come! After you do the work, eat food</l>
+        <l n="11'">Because of who I am, (I) have not spoken to you (about this)</l>
+        <l n="12'">Because of who you are, you have not done the task (but) you did eat the food(?)</l>
+        <l n="13'">When a person like you does(?) a task</l>
+        <l n="14'">His father and mother will eat food</l>
+        <l n="15'">If you observe the ... of my colleagues</l>
+        <l n="16'">Like (i.e., each one of?) them, ten gur of barley apiece</l>
+        <l n="17'">They place(?) at the head (i.e., provide)</l>
+        <l n="18'">(Even) the tiny ones, the “slave of their(!?) fathers,” ten gur of barley apiece they place(?) at the head (i.e., provide)</l>
+        <l n="19'">The one(s) who increase (the amount of) grain (for) their fathers</l>
+        <l n="1">They have given/brought(?) barley, oil/butter, and sheep wool(?)</l>
+        <l n="2">As a man, I(!) exceed you</l>
+        <l n="3">You are not a man like (each one of) them</l>
+        <l n="4">My son, their fathers</l>
+        <l n="5">Dispatched their children/juniors charged with a task(?)</l>
+        <l n="6">My(!?) inferior(?), like them</l>
+        <l n="7">They do not compare with you in (the performance of) assigned tasks(?)</l>
+        <l n="8">Excessive (is) my exertion for you</l>
+        <l n="9">Who is it that has exerted himself for his son more that I?</l>
+        <l n="10">My words which I recite to you (are as follows?)</l>
+        <l n="11">It has not (previously been the case?)! Have fear! It has not (previously been the case?)! Have shame!</l>
+        <l n="12">Your companion, with whom you are standing in the same yoke</l>
+        <l n="13">... your comrade, your friend, you do not observe them</l>
+        <l n="14">Why do you not assimilate with them?</l>
+        <l n="15">It has not (previously been the case?)! (Now) assimilate with (your) “big brothers”</l>
+        <l n="16">It has not (previously been the case?)! (Now) assimilate with (your) “little brothers”</l>
+        <l n="17">From the (ranks of) skilled humanity that resides in the land(?)</l>
+        <l n="18">Come!(!?) Enki (himself) has discovered that(?) nothing that has a name (among them)</l>
+        <l n="19">Is as painstaking as the assigned task(?) of the place of(?) scribal art</l>
+        <l n="20">Nothing that could be named(?), except for the art of the musician</l>
+        <l n="21">Like the shores of the sea, where one shore is separated far away from the other</l>
+        <l n="22">Thus the content of the art of the musician is esoteric</l>
+        <l n="1">You can be idle(?) for eternity</l>
+        <l n="2">Greatly your “that which is released” has been enlarged(?)</l>
+        <l n="3">Because your ... reputation has not been smitten(?)</l>
+        <l n="4">Because (your?) reputation has not been beaten into the dust(?)</l>
+        <l n="5">Because of what has been destroyed(?) I will recite to you (the following(?)) for my benefit(?)</l>
+        <l n="6">...</l>
+        <l n="7">What now to do?(!?)</l>
+        <l n="8">That which I did was not ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000761, ex. 038</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346118</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346118.P346118.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">hur-sag an-ki-bi-da-ke4</l>
+            <l n="2">u4 an-ne2 dingir {d}a-nun-na im-tu-de3-eš-a-⸢ba⸣</l>
+            <l n="3">mu {d}ašnan nu-ub-ta-tu-da-aš nu-un-da-sag12-ga#?-⸢a⸣-aš</l>
+            <l n="4">kalam-ma gu {d}uttu nu-ub-da-dim2-ma-[aš]</l>
+            <l n="5">{d}uttu-ra temen nu-mu-un-na-si-ga-a-aš</l>
+            <l n="6">u8 nu-e3-a sila4 nu-šar2-ra-am3</l>
+            <l n="7">ud5 nu-e3-a maš2 nu-šar2-ra-am3</l>
+            <l n="8">u8-e sila4 min-bi nu-ub-tu-u4</l>
+            <l n="9">ud5-e maš2 eš5-bi nu-um-tu-u4</l>
+            <l n="10">mu {d}ašnan {d}ku3-su3 {d}lahar-bi-da-ke4</l>
+            <l n="11">{d}a-nun-na dingir gal-gal-e-ne nu-mu-un-zu-uš-am3</l>
+            <l n="12">še-muš5 u4 ušu3-kam nu-gal2-la-am3</l>
+            <l n="13">še-muš5 u4 nimin-kam nu-gal2-la-am3</l>
+            <l n="14">še-muš5 u4 ninnu-kam nu-gal2-la-am3</l>
+            <l n="15">še tur-tur še kur-ra še a2-dam ku3-ga nu-gal2-la-am3</l>
+            <l n="16">tug2 nig2 mur10-mur10-bi nu-gal2-la-am3</l>
+            <l n="17">{d}uttu nu-tu-u4 men nu-il2</l>
+            <l n="18">en {d}nimgir-si en {d}kal-kal nu-tu-u4</l>
+            <l n="19">{d}šakkan bar-rim4-⸢ma⸣ la-ba-ra-e3-a</l>
+            <l n="20">nam-lu2-lu7 u4 ri-a-ke4-ne</l>
+            <l n="21">ninda gu7!-u3-de3 nu-mu-un-zu-uš-am3</l>
+            <l n="22">tug2 nig2 mur10-mur10-bi nu-mu-un-zu-uš-am3</l>
+            <l n="23">kalam-ma geš-ge-en su-bi mu-un-gen</l>
+            <l n="24">udu-gin7 ka-bi u2 mu-ni-ib-gu7!</l>
+            <l n="25">a surx(AH)-surx(AH)-ra-ke4 i-im-na8-na8-ne</l>
+            <l n="26">u4-ba ki-uludin2 NE#? [...]-re-e-ke4</l>
+            <l n="27">e2-bi du6-ku3-ga {d}[lahar ⸢{d}]ašnan⸣ x [...] mu#?-un#?-sag12#?-e#?</l>
+            <l n="28">eš3 ninda gu7 dingir-⸢re⸣-[...]</l>
+            <l n="29">he2-gal2 [...]</l>
+            <l n="30">{d}a-nun-na du6-⸢ku3⸣-[...]</l>
+            <l n="31">i-im-gux(NAG)-gux(NAG)-⸢ne⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">⸢amaš⸣ ku3-ga-ne-ne-a [...]</l>
+            <l n="2">nam-lu2-lu7 ⸢|KAxX|⸣-bi ⸢im⸣-[...]</l>
+            <l n="3">u4-ba {d}en-ki-ke4 {d}en-lil2-ra gu3 mu-⸢un⸣-x-[...]</l>
+            <l n="4">a-a {d}en-lil2 {d}lahar {d}ašnan-bi-da-ke4</l>
+            <l n="5">du6-ku3-ga um-ma-da-an-sag12-ga</l>
+            <l n="6">du6-ku3-ga-ta am3-ma-da-ra-ab-e11-de3-en-de3-en</l>
+            <l n="7">{d}en-ki {d}en-lil2-bi inim ku3-ga-ne-ne-a am3-du11-ga</l>
+            <l n="8">{d#}lahar {d}ašnan-bi du6-ku3-ga im-ma-da-ra-an-e11-de3</l>
+            <l n="9">⸢{d#}lahar⸣ ⸢amaš⸣-a-⸢ni⸣ im-ma-ab-ni10-ni10-e</l>
+            <l n="10">u2-šim nig2-dagal-la ⸢mu⸣-un-na-ba-e-ne</l>
+            <l n="11">{d}ašnan-ra GAN2 zi mu-un-⸢ga2⸣-⸢ga2⸣-⸢e⸣-⸢ne⸣</l>
+            <l n="12">{geš}apin {geš}šudul4 ⸢erin2⸣-bi mu-un-na-ba-⸢e⸣-⸢ne⸣</l>
+            <l n="13">{d}lahar-e amaš-a gub-ba-ni-ta</l>
+            <l n="14">sipa amaš-a hi-li duh-duh-a-ta</l>
+            <l n="15">{d}ašnan ab-sin2-na gub-ba-ni-ta</l>
+            <l n="16">ki-sikil sig7-ga hi-li gur3-ru-am3</l>
+            <l n="17">GAN2-ne-ta sag zi il2-la-ni</l>
+            <l n="18">he2-gal2 an-na-ta de2-de2-a-ni</l>
+            <l n="19">{d}lahar ⸢{d}ašnan⸣-bi pa e3 mu-⸢un⸣-na-ak-eš</l>
+            <l n="20">an-na he2-gal2 mu-un-ne-gal2</l>
+            <l n="21">kalam-ma zi-⸢ša3⸣-gal2 mu-un-ne-gal2</l>
+            <l n="22">me dingir-re-⸢e⸣-⸢ne⸣ si im-sa2-sa2-e-ne</l>
+            <l n="23">erimx(|E2xA|)! kalam-ma-ka ⸢nig2⸣ mu-ni-ib-lu-lu</l>
+            <l n="24">e2-kur-re ⸢sahar⸣ si us2-sa-a-ba</l>
+            <l n="25">u3-mu-un-sun5-eš he2-gal2 mu-un-ne-gal2</l>
+            <l n="26">min3-na-ne-ne ki giri3-ne-ne bi2-in-gub-bu-uš-a</l>
+            <l n="27">dugud-bi ⸢e2⸣-e nig2 tah-e-me-eš</l>
+            <l n="28">ki gub si!? sa2-me-eš ki tuš me-te-gal2-me-eš</l>
+            <l n="29">ša3 an-⸢na⸣ ša3 {d}en-lil2-la2-ke4 ba-sa6-ge-me-eš</l>
+            <l n="30">geštin nig2-du10 i-im-na8-na8-e-ne</l>
+            <l n="31">kaš nig2-du10 i-im-du10-du10-ge-e-ne</l>
+            <l n="32">geštin nig2-du10 u3-mu-un-nag-eš-a-ta</l>
+          </div>
+          <div n="bottom" type="textpart">
+            <l n="1">im-gi-da {diš}dam!-qi2!-i3-li2-šu {iti}ab-e3 u4 1(u) 4(diš)-kam</l>
+            <l n="2">($ blank space $) 1(diš)! šu-ši 2(diš)</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">On the mountain range (spanning) both heaven and earth</l>
+        <l n="2">When An fathered the Anuna gods</l>
+        <l n="3">Because no one had been able to give birth to or create Ašnan (yet)</l>
+        <l n="4">Because the flax of (the weaving goddess) Uttu had not been created along with them</l>
+        <l n="5">Because the pegs (of the loom) had not been set for Uttu</l>
+        <l n="6">(Because) the ewe had not come forth, the lamb had not multiplied</l>
+        <l n="7">(Because) the goat had not come forth, the kid had not multiplied</l>
+        <l n="8">(Because) the ewe had not given birth to its lamb</l>
+        <l n="9">(Because) the goat had not given birth to its kid</l>
+        <l n="10">The names of both Ezina-Kusu (deified grain) and lahar (deified ewe)</l>
+        <l n="11">The Anuna, the great gods, did not know</l>
+        <l n="12">The muš barley of the thirtieth day was not present</l>
+        <l n="13">The muš barley of the fortieth day was not present</l>
+        <l n="14">The muš barley of the fiftieth day was not present</l>
+        <l n="15">The small barley, the barley of the mountain, the barley of the pure settlement was not present</l>
+        <l n="16">Wearing of garments was not present</l>
+        <l n="17">Uttu was not yet born, the crown was not yet raised</l>
+        <l n="18">Lord Bridegroom (Dumuzi) and Kalkal (the gatekeeper of the Ekur) were not yet born</l>
+        <l n="19">Sumuqan had not yet come out in the dry land</l>
+        <l n="20">The humans of that distant time</l>
+        <l n="21">They did not know that food was to be eaten</l>
+        <l n="22">They did not know the wearing of garments</l>
+        <l n="23">In the land (one) went/stood (on) limbs (i.e., on all fours?) naked(?)</l>
+        <l n="24">Like sheep one ate with grass in its mouth (i.e. ruminated)</l>
+        <l n="25">They were drinking water in the ditches(?)</l>
+        <l n="26">At that time, at the place of (forming) features of the gods</l>
+        <l n="27">In their temple on the Holy Mound ... was creating lahar and Ezina</l>
+        <l n="28">They gathered them into the shrine where the gods ate food</l>
+        <l n="29">The abundance of lahar and Ašnan</l>
+        <l n="30">The Anuna gods of the holy mound</l>
+        <l n="31">Were eating(!), but none among them were able to be filled</l>
+        <l n="1">The milk/cream of their holy sheepfold, the sweet thing (the Anuna gods of the Holy Mound were drinking, but none among them were able to be filled)</l>
+        <l n="2">Humanity ...</l>
+        <l n="3">At that time Enki spoke to Enlil</l>
+        <l n="4">&quot;Father Enlil, both lahar and Ezina</l>
+        <l n="5">Because/after(?)... created (them) on the Holy Mound</l>
+        <l n="6">We shall send them down from the Holy Mound”</l>
+        <l n="7">This is (how) both(?) Enki and Enlil spoke(?) in their holy conversation</l>
+        <l n="8">They(!) were sending down both lahar and Ezina from the Holy Mound</l>
+        <l n="9">They(!) were enclosing lahar in her sheepfold</l>
+        <l n="10">They were giving vast vegetation to her</l>
+        <l n="11">For Ezina they were putting down a fertile field</l>
+        <l n="12">They were giving to her the plow, the yoke, and its plow team</l>
+        <l n="13">After lahar stood in the sheepfold</l>
+        <l n="14">After the shepherd furnished her(?) with allure in the sheepfold</l>
+        <l n="15">After Ezina stood in the furrow</l>
+        <l n="16">She was a beautiful/verdant young woman bearing allure</l>
+        <l n="17">(After) she raised her fertile head in the field</l>
+        <l n="18">After she was poured upon by the abundance of heaven(?)</l>
+        <l n="19">Both lahar and Ezina appeared</l>
+        <l n="20">In heaven abundance was there for them(?)</l>
+        <l n="21">In the land life force was there for them(?)</l>
+        <l n="22">They were properly executing the me of the gods</l>
+        <l n="23">(They were making?) things proliferate in the storehouse(!?) of the land</l>
+        <l n="24">Into the prison, founded(!?) (in?) the dust</l>
+        <l n="25">After they entered, abundance was there for them</l>
+        <l n="26">The two of them (lit. “their two&quot;), where they set their feet</l>
+        <l n="27">They are the ones who increase things in the house “heavily”</l>
+        <l n="28">Where they stand, they are correct(?), where they sit, they are appropriate</l>
+        <l n="29">They are ones that are pleasant in(?) the heart of An and the heart of Enlil</l>
+        <l n="30">The were drinking sweet/intoxicating wine</l>
+        <l n="31">They were “making (themselves) sweet” (i.e., getting drunk) with sweet/intoxicating beer</l>
+        <l n="32">After they drank sweet/intoxicating wine</l>
+        <l n="1">Single-column tablet of Damqi-ilišu, month of Abe, 14th day</l>
+        <l n="2">(Total:) 62(!) lines</l>
+      </div>
+    </body>
+  </text>
+</TEI>

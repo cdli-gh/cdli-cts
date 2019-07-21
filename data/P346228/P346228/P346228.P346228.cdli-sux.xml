@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000381, ex. 011</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346228</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346228.P346228.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x [...]</l>
+            <l n="2'">[...] ⸢x⸣ lu-a ⸢gurun⸣ [...]</l>
+            <l n="3'">[...] x tug2-gin7 im-mi-[...]</l>
+            <l n="4'">[...]-ni-in-suh3 x [...]</l>
+            <l n="5'">[...] x-ba-bi? igi-bi x [...]</l>
+            <l n="6'">[...] ⸢ba⸣-ni-in-tuku4 dingir kalam-⸢ma⸣ x [...]</l>
+            <l n="7'">[...] ba-tuku4 UN ur2 x [...]</l>
+            <l n="8'">[...] kukku5 ug3-e ⸢li⸣ [...]</l>
+            <l n="9'">⸢[{d}]en⸣-lil2-⸢le⸣ [...] x za3 hul &amp;lt;&amp;lt;im-mi&amp;gt;&amp;gt; mu-ni-[...] nam-ra-bi ba-ab-[...]</l>
+            <l n="10'">dumu nibru{ki}-a mušen dab5-ba-gin7 šu-ni-a bi2-[...]</l>
+            <l n="11'">nam-lu2-⸢lu7⸣-bi ur-gin7 gu2-na geš ba-ab-gar-x [...]</l>
+            <l n="12'">{d}en-lil2-le nibru{ki}-a ki-tuš-bi im-mi-in-kur2 x [...]</l>
+            <l n="13'">e2-kur-še3 x x ba-an-ku5#? lu2 nu-mu-un-ši-⸢in⸣-[...]</l>
+            <l n="14'">{d}lamma {d}x e2-a ba-ra-e3 u3-ku-ku#{mušen} ša3 [sag3-ga-ke4] gud3-bi ba-ni-in-[us2]</l>
+            <l n="15'">{d}en-lil2-le iri-ni nibru{ki}-a iri-ni nu-me-a erim2-e igi bi2-⸢ib2⸣-[...]</l>
+            <l n="16'">e2-kur-ke4 ki-tuš he2-em-mi-in-hu-luh e2 x [...]</l>
+            <l n="17'">itima ku3 ⸢unu6⸣ nam-dingir-ra-na sag-ki mu-ni-in-[...] a-ga-ni-še3 nu-[...]</l>
+            <l n="18'">{d}en-lil2-le x im-hul-hul-e a x bi2-in-[...]</l>
+            <l n="19'">iri ni2-te-na ⸢šu⸣ bala ba-ni-ib2-ak kur-kur-re [...]</l>
+            <l n="20'">{geš}ig e2-kur-ra#?-[...] x-an#?-šu2-šu2 si-gar-bi#? [...]</l>
+            <l n="21'">nig2-gur11-ra-ni [...] x a#? x [...]</l>
+            <l n="22'">{d}en-lil2-le ⸢iri⸣ [...]-mi-in-x-[...]</l>
+            <l n="23'">{d}en-lil2-le [...]</l>
+            <l n="24'">x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">x [...]</l>
+            <l n="2'">ka2 še nu-⸢ku5⸣-[...]</l>
+            <l n="3'">{d}en-lil2-le x [...]</l>
+            <l n="4'">GAN2-ni zi-de3 x [...]</l>
+            <l n="5'">pu2 {geš}kiri6 gurun nu-il2 ⸢{d#}en⸣-[lil2-...]</l>
+            <l n="6'">šegx(|IM.A|) an-na-ke4 im-mi-in-[...]</l>
+            <l n="7'">nig2-ur2-limmu maš2-anše ⸢{d#}šakkan⸣-ke4 MAŠ im-da-[...] u2 gu7 nu-me-a-bi im-BAD-[...]</l>
+            <l n="8'">{i7}idigna {i7}buranun-na ka-bi im-[...] a-eštub idim-bi x [...]</l>
+            <l n="9'">i7 tur-tur-re sahar im-ma-ab-si peš10-[...]</l>
+            <l n="10'">ab nig2-dagal-ba en-nu-ug3 ba-ab-gar ambar-ra ⸢ku6⸣ [...]</l>
+            <l n="11'">in-di har-ra-an-⸢na⸣ li-bi-ir ba-e-[...]</l>
+            <l n="12'">lu2-du kaskal-bi ni2 nu-te-te-en ZI x x [...]</l>
+            <l n="13'">{d}en-lil2-le abul iri-na {geš}ig IM-ma [...] abul kur-kur-ra-ke4 {geš}ig x ba-da-x-[...]</l>
+            <l n="14'">nibru{ki}-a lu2 u2-&amp;lt;zug4?&amp;gt;-bi ba-an-de6 lu2 a si-ga nu-ub-[...]</l>
+            <l n="15'">[...] x ba-e-šub nam-lu2-lu7-bi ki [...]</l>
+            <l n="16'">[...]-tuku ša3 ka tab-ba ba-[...]</l>
+            <l n="17'">[...]-tuš? er2 i3-šeš2-šeš2 a [...]</l>
+            <l n="18'">[...] x-ni-še3 a gig-ga [...]</l>
+            <l n="19'">[... n]-kam-[ma]</l>
+            <l n="20'">[...] x a x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">Teeming ..., fruit ...</l>
+        <l n="3'">... covered(?) like a garment</l>
+        <l n="4'">... threw ... into confusion there(?) ...</l>
+        <l n="5'">..., its front/face/eye ...</l>
+        <l n="6'">... shook ..., the god of the land ...</l>
+        <l n="7'">... shook, ...</l>
+        <l n="8'">... dark ... the people ...</l>
+        <l n="9'">Enlil ... an evil ..., ... its booty</l>
+        <l n="10'">The citizens of Nippur, like caught birds, he ... in his hand</l>
+        <l n="11'">like dogs, he put yokes on the necks of its people</l>
+        <l n="12'">Enlil changed the settlement of Nippur, ...</l>
+        <l n="13'">Towards the Ekur, he cut ..., no one entered? towards him</l>
+        <l n="14'">The lamma and alad/šedu(?) spirits of the temple went out, the ukuku bird, the bird of despair, made its nest there</l>
+        <l n="15'">Enlil made the enemy look at(?) his city Nippur, his city that was no more</l>
+        <l n="16'">And therefore he terrified the Ekur, the dwelling, the temple ...</l>
+        <l n="17'">He frowned at the holy shrine, the inner sanctum of his divinity, behind him ...</l>
+        <l n="18'">Enlil was destroying ..., ...</l>
+        <l n="19'">The city threw itself over, the lands ...</l>
+        <l n="20'">The door of the Ekur temple ... covered, its bolt ...</l>
+        <l n="21'">His property ...</l>
+        <l n="22'">Enlil ... the city</l>
+        <l n="23'">Enlil ...</l>
+        <l n="24'">...</l>
+        <l n="1'">...</l>
+        <l n="2'">The “gate where grain is not cut/diverted” (gate of the Ekur complex) ...</l>
+        <l n="3'">Enlil ...</l>
+        <l n="4'">His fertile field ...</l>
+        <l n="5'">The well and orchard that did not bear fruit, Enlil ...</l>
+        <l n="6'">He ... the rain of heaven</l>
+        <l n="7'">The wild and domestic herds of Sumuqan ... in a state of non-eating they came to an end(?)</l>
+        <l n="8'">The intake of the Tigris and Euphrates was blocked(?), the carp flood ... its spring</l>
+        <l n="9'">All the smaller waterways filled up with silt, the banks ...</l>
+        <l n="10'">A watch was set on the broad sea, in the marsh the fish ...</l>
+        <l n="11'">The libir demon/policeman(?) ... on the paths and roads</l>
+        <l n="12'">The highway traveler did not relax, ...</l>
+        <l n="13'">Enlil stood open the door at the gate of his city (open) in the wind(?), at(?) the gate of the lands, ... the door</l>
+        <l n="14'">He brought(?) the impure person(?) into Nippur, no one could ... clear water</l>
+        <l n="15'">You abandoned ..., its people ...</l>
+        <l n="16'">... lay fasting</l>
+        <l n="17'">... sat down(?) and wept ...</l>
+        <l n="18'">... on account of his ... a pained cry ...</l>
+        <l n="19'">It is the nth kirugu</l>
+        <l n="20'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

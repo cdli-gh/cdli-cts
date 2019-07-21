@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000623, ex. 091</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346605</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346605.P346605.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x x x [...]</l>
+            <l n="2'">⸢ib2⸣-⸢ba⸣-⸢zu⸣ ib2-x izi?-zu nu-te#?-en#?-[...]</l>
+            <l n="3'">nin#? gu2-tuku nir-gal2 gu2-en-na-[...]</l>
+            <l n="4'">⸢siskur2⸣-ra-ni šu ba-an-ši-in-[...]</l>
+            <l n="5'">ša3 ku3 {d}inanna-ke4 ⸢ki⸣-bi ba-an-na-ab-gi4#?</l>
+            <l n="6'">u4-ba an-du10 la-la ba-su13-su13 ⸢hi⸣-⸢li⸣ [...] ba-ra-an-[...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] la-la ⸢ba⸣-[...]</l>
+            <l n="2">[...] x zi-de3-eš mu#?-[...]</l>
+            <l n="3">[... ⸢{d}]nin⸣-gal-e KA-NE [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">Your anger has been maximized(?), your fire(?) does not cool</l>
+        <l n="3'">Perfect lady, the authoritative one of the assembly</l>
+        <l n="4'">She accepted her siskur offering/ritual on her (Enheduana's) behalf</l>
+        <l n="5'">And the holy heart of Inanna was restored to its place for her</l>
+        <l n="6'">At that time, it was good for her(?), she radiated plenty/happiness, she exuded joyful allure</l>
+        <l n="1">Like moonlight she bore happiness</l>
+        <l n="2">Nanna faithfully brought out awe</l>
+        <l n="3">Because(?) her mother Ningal prayed a šud prayer(?) for her</l>
+      </div>
+    </body>
+  </text>
+</TEI>

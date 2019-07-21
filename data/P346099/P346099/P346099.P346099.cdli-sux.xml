@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000339, ex. 020</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346099</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346099.P346099.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">⸢kur⸣-re in-ti-gu10 x-[...]</l>
+            <l n="2">ebih-a ka-tar-gu10 he2-si-il-x me-teš2 he2-i-⸢i⸣</l>
+            <l n="3">{d}inanna dumu {d}suen-na-ke4</l>
+            <l n="4">{tug2}pala3 ba-an-mur10 ul gu2-a ba-an-e3</l>
+            <l n="5">ni2 me-lam2 huš-a sag-ki-na še-er-ka-⸢an⸣ ba#?-ni-du11</l>
+            <l n="6">zi-pa-ag2 ku3-ga-na {na4}gug ⸢gi⸣-⸢rin⸣ si ba-ni-in-sa2</l>
+            <l n="7">udug2 sag imin-e zi-da-na nam-sul ba-ni-ak</l>
+            <l n="8">galam za-gin3-na giri3-ni bi2-in-gub</l>
+            <l n="9">u2-sa11-an-na nir mi-ni-ib2-e3</l>
+            <l n="10">ka2 u6 di sila-ba bi2-in-gub</l>
+            <l n="11">an-ra ne-sag mu-na-DU siskur2 mu-⸢na⸣-gub</l>
+            <l n="12">an {d}inanna-da hul2-la-am3</l>
+            <l n="13">mu-un-gid2 ki-na ba-e-tuš</l>
+            <l n="14">za3 gal an-na-ka ba-e-si</l>
+            <l n="15">an a-a-gu10 di! ma-ra!-ab-be2-en inim-gu10-uš geštux(|GIŠ.TUG2|)-zu</l>
+            <l n="16">an-ne2 an-ba ni2-gu10 mi-ni-in-ri</l>
+            <l n="17">za-e-me-en inim-gu10 an-ki-a gaba ⸢ri⸣ la-ba-e-ni-tuku</l>
+            <l n="18">an-bar-ra {geš}silig-ga</l>
+            <l n="19">⸢an⸣-⸢ti⸣-⸢bala⸣ ma-an-si-um</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] {geš#?}gu#?-⸢za⸣ ⸢suhuš⸣ gin6-na</l>
+            <l n="2">[...] ⸢nam⸣-šita4-ke4 šu ga2-ga2 mu-bu-um-gin7 gurum-e</l>
+            <l n="3">6(diš) la2-e ki ha-ha-ze2</l>
+            <l n="4">4(diš) la2-e zib2 gid2-gid2-i</l>
+            <l n="5">kaskal ⸢gaz⸣-⸢e⸣ har-ra-an-na za3-še3 du</l>
+            <l n="6">⸢lugal⸣-⸢bi⸣-[...] ⸢sahar⸣ du8 an-na-ka iti6-gin7 e3-a</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">The mountain should wish for(?) my way</l>
+        <l n="2">In(?) Ebih (the mountain) should praise me, (the mountain) should extol me</l>
+        <l n="3">Inanna, the child of Suen</l>
+        <l n="4">She was dressed in the pala garment; she clad herself in pleasure/allure/stars/rosettes(?)</l>
+        <l n="5">She adorned her forehead with a red/furious aura</l>
+        <l n="6">She arranged the red carnelian (beads) on her pure throat(?)</l>
+        <l n="7">She acted youthfully with the seven-headed udug/šita weapon at her right</l>
+        <l n="8">She set her foot on the staircase(?) of lapis</l>
+        <l n="9">In the evening ... brought out ...</l>
+        <l n="10">She set the door that is to be marveled at (open) in its path</l>
+        <l n="11">She established the nesag offerings for An and established the siskur rites/offerings for him</l>
+        <l n="12">An was one who rejoiced with Inanna</l>
+        <l n="13">He accepted (the offerings)(?) and sat in his place</l>
+        <l n="14">He/she(?) filled the seat of honor of An/heaven</l>
+        <l n="15">An, my father, I make a case to you, (put) your ear to my words</l>
+        <l n="16">An imposed my aura/fear of me in the heavens</l>
+        <l n="17">It is you who has made my word have no rival in the universe</l>
+        <l n="18">In the outskirts of heaven(?) there is a silig axe</l>
+        <l n="19">(There is?) a sign and a mansium royal symbol</l>
+        <l n="1">To flatten(?) the platform, to make firm the throne('s) foundation</l>
+        <l n="2">To set in place(?) the arm of weaponry(?), to bend ... like a mubum tree(?)</l>
+        <l n="3">To yoke (a team of) six and hold the position</l>
+        <l n="4">To yoke (a team of) four and “extend” the reins</l>
+        <l n="5">To smite a caravan, to go to the border in an expedition</l>
+        <l n="6">To appear for the king in the “heaped earth/sand&quot;(?) of heaven like moonlight</l>
+      </div>
+    </body>
+  </text>
+</TEI>

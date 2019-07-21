@@ -1,0 +1,206 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000666, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346229</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346229.P346229.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">ša3#?-tum2 ⸢edin⸣ [...] KA ⸢nam⸣ [...]</l>
+            <l n="2">u2 x BAD x [...] gir5-re a x [...]</l>
+            <l n="3">an-edin-na mu-un-kin2 nu-mu-ni-in-x-[...]</l>
+            <l n="4">{d}li9-si4-na er2 im-ma-an-pa3 sig7-sig7 i3-ga2-[ga2]</l>
+            <l n="5">tu15 nim-ma kin2-a-⸢ni⸣ ba-an-tum3</l>
+            <l n="6">tu15 sig-ga ka ba-a-ni ba-an-tum3</l>
+            <l n="7">{d}li9-si4-na ka2 keš2-da ni2 mu-un-še8-še8!-e</l>
+            <l n="8">ma-ra-an-gi4-gi4-ne ma-ra-an-gi4-gi4-ne</l>
+            <l n="9">dur3{+urx(SILA4)}-gu10 galla kal-ga-gu10 ma-ra-an-gi4-gi4-ne</l>
+            <l n="10">ildum2-gu10 mu-un-da-an-ku5 ma-ra-an-gi4-gi4-ne</l>
+            <l n="11">amar-gu10 haš4-bi hul-a-bi ma-ra-an-gi4-gi4-ne</l>
+            <l n="12">[ak]-⸢ka⸣-nu-um tir-ra-a-ni ku5-de3 ma-ra-an-gi4-gi4-ne</l>
+            <l n="13">[ku6-gal2] ⸢i7⸣-da šu2-šu2-ge2 ma-ra-an-gi4-gi4-ne</l>
+            <l n="14">[mu-un-gar3] ⸢a⸣-ša3-bi a de2-⸢a⸣-⸢bi⸣ ma-ra-an-gi4-⸢gi4⸣-ne</l>
+            <l n="15">[...] x ⸢dab⸣-ba-gu10#? [...] mu-un-na-šeš4-šeš4</l>
+            <l n="16">[... ⸢{geš}]dala2⸣ si-⸢ga⸣ x ⸢IGI⸣ x mu-un-⸢na⸣-šeš4-šeš4</l>
+            <l n="17">[... {geš}]u3-suh5!-&amp;lt;gu10&amp;gt; mu-da-an-ku5 {geš}lam-ba mu-un-da-an-nu2</l>
+            <l n="18">[i-lu ga]-⸢am3⸣-du11 i-lu ga-am3-du10</l>
+            <l n="19">[dur3]{+urx(SILA4)#}-gu10 mu-da-an-ku5 me-e i-lu ga-am3-du11</l>
+            <l n="20">⸢ildum2⸣-gu10 mu-da-an-ku5 me-e i-lu ga-am3-du11</l>
+            <l n="21">gibil#?-gu10 me-e i-lu ga-am3-du11</l>
+            <l n="22">henzer-gu10 me-e i-lu ga-am3-du11</l>
+            <l n="23">buru5{mušen} gud3-bi hul-a-bi me-e i-lu ga-am3-du11</l>
+            <l n="24">amar-gu10 haš4-bi hul-a-bi me-e ⸢i⸣-⸢lu⸣ ⸢ga⸣-am3-du11</l>
+            <l n="25">ak-ka-nu-um tir-ra-ni ku5-de3 me-e [i]-⸢lu⸣ ga-am3-du11</l>
+            <l n="26">ku6-gal2 i7-da šu2-šu2-ge2 me-⸢e⸣ ⸢i⸣-lu ⸢ga⸣-am3-du11</l>
+            <l n="27">mu-un-gar3 a-ša3-bi a de2-a-bi me-e ⸢i⸣-⸢lu⸣ ⸢ga⸣-am3-du11</l>
+            <l n="28">a-ba-še3 ga-di a-ba-še3 ga-di me-e a-ba-še3 ga-di</l>
+            <l n="29">ur-gu10 ama-gu10 ba-an-gurum me-e a-ba-še3 ga-di</l>
+            <l n="30">ama ugu-gu10 ga-ša-an-hur-sag-ga2-ke4</l>
+            <l n="31">ur-gu10 ba-an-gurum me-e a-ba-še3 ga-di</l>
+            <l n="32">nig arhuš nu-tuku ga-mu-un-na-di-di</l>
+            <l n="33">{d}li9-si4-na ša3 sag3-ga-ni-ta dili-ni ba-da-an-tuš</l>
+            <l n="34">me-li me-e šu ba-ni-in-ti</l>
+            <l n="35">sag-dili-gin7 ga-tuš ga-er2-ra</l>
+            <l n="36">usar-gin7 nu-tuku ni2-te-gu10-še3 ga-gu7</l>
+            <l n="37">ma-la-gin7 nu-tuku ni2-te-⸢gu10⸣-še3 ga-gu7</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">i-dub e2-gu10 nin9-gu10 he2-am3</l>
+            <l n="2">{geš}si-gar e2-gu10 šeš-gu10 he2-am3</l>
+            <l n="3">gu3-gu10 ze2-ba ambar-ambar mu-un-tuku-tuku</l>
+            <l n="4">dur3{+urx(SILA4)}-gu10-še3 er2-ra ga-an-na-an-ti</l>
+            <l n="5">dur3{+urx(SILA4)}-gu10-še3 še ša4 ga-an-na-an-ti</l>
+            <l n="6">šu-gu10 he2-e3 sag-ga2-ni-še3</l>
+            <l n="7">zi HAR he2-e3 te-ga2-a-ni-še3</l>
+            <l n="8">ab2-gin7 pel2-la2-bi gu3 im-me</l>
+            <l n="9">eme7-gin7 gu3 he2-ni-de2 dur3{+urx(SILA4)}-gu10-še3</l>
+            <l n="10">{d}li9-si4-na gig-ga!-bi gu3 im-me</l>
+            <l n="11">{d}li9-si4-na sug-e gu3 he2-ni-de2-a-ba</l>
+            <l n="12">[...] x i7-da-ke4 &amp;lt;gu3 he2-ni&amp;gt;-de2-a-ba</l>
+            <l n="13">dur3{+urx(SILA4)}-gu10 mu-da-an-gur dur3{+urx(SILA4)}-gu10 mu-un-da-an-gur</l>
+            <l n="14">[...] x x dur3{+urx(SILA4)}-gu10 mu-un-da-an-gur</l>
+            <l n="15">[...]-⸢gu10⸣ dur3{+urx(SILA4)}-gu10 mu-un-da-an-gur</l>
+            <l n="16">[...] dur3{+urx(SILA4)}-gu10 mu-un-da-an-gur</l>
+            <l n="17">[a-ba-še3] ⸢ga⸣-di me-e a-ba-še3 ga-di</l>
+            <l n="18">[... mu-da]-an-ku5 me-e a-ba-še3 ga-di</l>
+            <l n="19">[...] ⸢mu⸣-da-an-ku5 me-e a-ba-še3 ga-di</l>
+            <l n="20">[...]-gu10 mu-da-an-ku5 me-e a-ba-še3 ga-di</l>
+            <l n="21">[...] dur3#{+urx(SILA4)}-⸢gu10⸣ [...] x ⸢me⸣-⸢e⸣ a-ba-še3 ga-di</l>
+            <l n="22">[...] x? me-e [...] x AN na-ab-be2</l>
+            <l n="23">[...] x [...]-ni ga-di</l>
+            <l n="24">[...] ⸢nu⸣-mu-ni-[...] ga-di</l>
+            <l n="25">[...] x igi nu-mu-ni-duh-a {d}li9#?-[si4-na] ⸢gig⸣-ga-bi gu3 im-me</l>
+            <l n="26">šu-ni du7-e3 [sag]-ga2-ni-še3</l>
+            <l n="27">še-ni HAR?-re du7-e3 [te]-ga2-ni-še3</l>
+            <l n="28">ab2-⸢gin7⸣ pel2-la2-bi ⸢gu3⸣ ⸢im⸣-me</l>
+            <l n="29">eme7-⸢gin7⸣ gu3 de2-de2 dur3#{+urx(SILA4)#}-ni#?-⸢še3⸣</l>
+            <l n="30">{d}li9-si4-na iri{ki}-ni ba-da-an-šub bar-ta ba-da-an-tuš</l>
+            <l n="31">ama {d}li9-si4-na iri{ki}-ni ba-da-an-šub bar-ta ba-da-an-tuš</l>
+            <l n="32">sag-ga2-ni-ta kur-gar-ra in-gar te-ga2-ni-ta nam-x-RI in-gar</l>
+            <l n="33">i-bi2-ni-ta er2-ra in-gar</l>
+            <l n="34">iri tuš-u3-de3-en ba-ra-na-tuš-⸢u3⸣-de3-en</l>
+            <l n="35">iri{ki}-ni ki sikil he2-am3 me-e-li-e2#?-bi he2-am3</l>
+            <l n="36">{d}li9-si4-na iri{ki}-ni ba-ra-e3</l>
+            <l n="37">ama {d}li9-si4-na dili-ni ba-da-an-tuš</l>
+            <l n="38">u4 lu3-a-gu10 u4 gel#?-&amp;lt;&amp;lt;a&amp;gt;&amp;gt;-le-ga2-gu10</l>
+            <l n="39">{d}li9-si4-na x x ⸢kal⸣-⸢kal⸣-la am3</l>
+            <l n="40">x egir#? x x-⸢ga⸣-am3</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">In(?) the pasture(?) and the plain ...</l>
+        <l n="2">... slipping/diving(?) ...</l>
+        <l n="3">She sought ... in the high plain, she did not ... there</l>
+        <l n="4">Lisin wept, she was making sobbing noises</l>
+        <l n="5">She brought her seeking high(land) wind(?)</l>
+        <l n="6">She brought her loud (lit. mouth opened/speaking) low(land) wind(?)</l>
+        <l n="7">Lisin, who was bound to(?) the gate, weeps (by) herself(?)</l>
+        <l n="8">They will return him for me, they will return him for me</l>
+        <l n="9">They will return my young male donkey, my mighty policeman, for me</l>
+        <l n="10">... cut him off from my clan, (but now) they will return him for me</l>
+        <l n="11">My calf, the one whose thigh is shattered(?), they will return him for me</l>
+        <l n="12">The wild donkey whose thicket is being cut, they will return him for me</l>
+        <l n="13">The canal inspector whose river is being emptied(?), they will return him for me</l>
+        <l n="14">The farmer (absent due to/during?) the irrigating of the(?) field, they will return him for me</l>
+        <l n="15">(With) my chest (with) breasts/nipples seized/having seized (i.e. stopped milk flow?) (its) breasts/nipples(?) ..., ... she weeps ... for him</l>
+        <l n="16">(With) my left side filled with (i.e., pierced by)/torn by(?) a pin/thorn/lance, ... she weeps(?) ... for him</l>
+        <l n="17">At that time, ... cut down &lt;my&gt; conifer tree, ... and laid it down among its saplings</l>
+        <l n="18">I want to lament, I want to lament</l>
+        <l n="19">(For) my young male donkey(?) who ... has separated, I want to lament</l>
+        <l n="20">(For) my one who ... has separated from my clan, I want to lament</l>
+        <l n="21">(For) my sprout/neophyte(?), I want to lament</l>
+        <l n="22">(For) my baby, I want to lament</l>
+        <l n="23">(For) the sparrow, whose nest is destroyed, I want to lament</l>
+        <l n="24">(For) my calf/chick(?), the one whose thigh is broken, I want to lament</l>
+        <l n="25">(For) the wild donkey whose thicket is being cut, I want to lament</l>
+        <l n="26">(For) the canal inspector whose river is being emptied(?), I want to lament</l>
+        <l n="27">(For) the farmer (absent during?) the irrigating of his field, I want to lament</l>
+        <l n="28">I shall go to the rear (of the temple, i.e. sanctum?), I shall go to the rear (of the temple?), (as for) me, I shall go to the rear (of the temple?)</l>
+        <l n="29">My dog, my mother, has curled up, (as for) me, I shall go to the rear (of the temple?)</l>
+        <l n="30">My birth mother, Ninhursag</l>
+        <l n="31">My dog, has curled up, (as for) me, I shall go to the rear (of the temple?)</l>
+        <l n="32">The merciless bitch, I shall repeatedly go (to her) for him</l>
+        <l n="33">Lisina sits alone in (the dust?) due to her grief</l>
+        <l n="34">&quot;Woe(?) is me,” she (Ninhursag) accepted (this lamentation?)</l>
+        <l n="35">Like (one who is) alone, I want to sit and weep</l>
+        <l n="36">Like (one) who has no neighbor, I want to eat by myself</l>
+        <l n="37">Like (one) who has no girlfriend/female neighbor, I want to eat by myself</l>
+        <l n="1">May the threshold of my house be my sister</l>
+        <l n="2">May the bolt of my house be my brother</l>
+        <l n="3">My sweet voice(?) shook(?) the marshes</l>
+        <l n="4">On behalf of my young male donkey, I want to live there weeping for him</l>
+        <l n="5">On behalf of my young male donkey, I want to live there moaning for him</l>
+        <l n="6">May my hand come out towards my(!?) head</l>
+        <l n="7">May (my?) ... breath/life(?) come out towards my(!?) cheek(!?)</l>
+        <l n="8">Like a cow she cries out in desolation</l>
+        <l n="9">May she bray like a female donkey on behalf of my young male donkey</l>
+        <l n="10">Lisin cries out bitterly</l>
+        <l n="11">Lisin is the one who should(?) shout out in the marshes</l>
+        <l n="12">The ... of the river is the one who should(?) shout out in lament</l>
+        <l n="13">... has turned away(?) my young male donkey, ... has turned away my young male donkey</l>
+        <l n="14">... has turned away ..., my young male donkey</l>
+        <l n="15">... has turned away my ..., my young male donkey</l>
+        <l n="16">... has turned away ..., my young male donkey</l>
+        <l n="17">I shall go to the rear (of the temple?), I shall go to the rear (of the temple?), me, I shall go to the rear (of the temple?)</l>
+        <l n="18">... has separated ..., I shall go to the rear (of the temple?), me, I shall go to the rear (of the temple?)</l>
+        <l n="19">... has separated ..., I shall go to the rear (of the temple?), me, I shall go to the rear (of the temple?)</l>
+        <l n="20">... has separated ..., I shall go to the rear (of the temple?), me, I shall go to the rear (of the temple?)</l>
+        <l n="21">... has separated my young male donkey, I shall go to the rear (of the temple?), me, I shall go to the rear (of the temple?)</l>
+        <l n="22">... I ... shall not ...</l>
+        <l n="23">... I shall go to ...</l>
+        <l n="24">... I shall go to ...</l>
+        <l n="25">... did not look at ..., lisin shouted bitterly</l>
+        <l n="26">May her hand come out towards her head</l>
+        <l n="27">May her ... breath/throat come out towards her cheek(!?)</l>
+        <l n="28">Like a cow she cries out in desolation</l>
+        <l n="29">Braying like a female donkey on behalf of her? young male donkey</l>
+        <l n="30">Lisin abandoned her city and dwelled outside of it</l>
+        <l n="31">Mother lisin abandoned her city and dwelled outside of it</l>
+        <l n="32">Apart from/by means of(?) her head she set the kurgara perfomer, she set ... apart from/by means of her cheek(!?)</l>
+        <l n="33">Apart from/by means of(?) her eye she initiated a lamentation</l>
+        <l n="34">For him(?) I shall not dwell (in) the city(?) that I am to inhabit(?)</l>
+        <l n="35">May her city be a pure place, and may she(?) be its (exclamation of) “woe&quot;(?))</l>
+        <l n="36">Lisin went out from her city</l>
+        <l n="37">Mother lisin dwelled apart and alone</l>
+        <l n="38">My disturbed day, my destroyed/forgotten day(!?)</l>
+        <l n="39">Lisin, who is the most precious(?) ...</l>
+        <l n="40">Who is(?) behind/after ...</l>
+        <l n="40">double ruling</l>
+      </div>
+    </body>
+  </text>
+</TEI>

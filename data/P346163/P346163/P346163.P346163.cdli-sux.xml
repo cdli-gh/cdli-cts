@@ -1,0 +1,259 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000395, ex. 016</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346163</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346163.P346163.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">[...]-⸢ta⸣ ur-⸢sag⸣-[me]-⸢en⸣</l>
+            <l n="2">[...]-⸢me⸣-en ba-tu-da-na-⸢ta⸣ [...]</l>
+            <l n="3">[...] ⸢ušumgal⸣-e tu-da-x [...]</l>
+            <l n="4">lugal#? [...]-⸢ub⸣-⸢da⸣ 4(aš)-ba-me-en</l>
+            <l n="5">⸢na⸣-⸢gada⸣ sipa ⸢sag⸣-gig2-ga-me-en</l>
+            <l n="6">⸢nir⸣-gal2 dingir kur-kur-ra-me-en</l>
+            <l n="7">dumu u3-tu {d}nin-sumun2-kam-me-en</l>
+            <l n="8">ša3-ge pa3-da an ku3-ga-me-en</l>
+            <l n="9">lu2 nam tar-re {d}en-lil2-la2-me-en</l>
+            <l n="10">{d}šul-gi ki ag2 {d}nin-lil2-la2-me-en</l>
+            <l n="11">mi2 zi du11-ga {d}nin-tur5-ra-me-⸢en⸣</l>
+            <l n="12">⸢geštux(|GIŠ.TUG2|)⸣ šum2-ma {d}en-ki-kam-me-⸢en⸣</l>
+            <l n="13">[...] kal-ga {d}nanna-me-en</l>
+            <l n="14">[...] duh-a {d}utu-⸢me⸣-⸢en⸣</l>
+            <l n="15">[...]-gi hi-li pa3-da#? ⸢{d#}inanna⸣ [...]</l>
+            <l n="16">[...]-⸢gir2⸣-nun-⸢na⸣ [...-me]-⸢en⸣</l>
+            <l n="17">⸢sisix(|ANŠE.KUR|)⸣ har-⸢ra⸣-⸢an⸣-⸢na⸣ [...-me]-⸢en⸣</l>
+            <l n="18">dur3{+urx(SILA4)#?} [...]-⸢me⸣-en</l>
+            <l n="19">dub-⸢sar⸣ [...]</l>
+            <l n="20">nam#?-ur#?-[...]</l>
+            <l n="21">⸢geštux(|GIŠ.TUG2|)⸣-[...]</l>
+            <l n="22">inim#? [...]</l>
+            <l n="23">nig2#?-[...]</l>
+            <l n="24">nig2#?-[...]</l>
+            <l n="25">inim#? [...] hul#? [...]-x-⸢ga⸣</l>
+            <l n="26">[...] ⸢e3⸣-me-en</l>
+            <l n="27">[...] x x [...]-ke4#?-eš</l>
+            <l n="28">[...]-še3? šu#? ⸢he2⸣-⸢em⸣-x-x</l>
+            <l n="29">[...]-⸢en⸣ e2-gal-la he2-bi2-x</l>
+            <l n="30">[...]-x</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">[...]-še3#? ⸢ni2⸣ he2-eb-ši-te-en-te-en</l>
+            <l n="2">[...] har#?-ra#?-an#?-na#? [...] ⸢kaskal⸣-e#? ge6 ba-da-sa2-a</l>
+            <l n="3">[...]-a-ni-⸢gin7⸣ ⸢zi⸣-⸢ni⸣ ha-ba-ši-in-tum3</l>
+            <l n="4">⸢mu⸣-gu10 u4 ul-li2-a-⸢aš⸣ ⸢ga2⸣-⸢ga2⸣-⸢de3⸣ ⸢ka⸣-ta nu-šub-bu-de3</l>
+            <l n="5">a-ar2-gu10 kalam-⸢ma⸣ ⸢ke3⸣-⸢ke3⸣-⸢de3⸣</l>
+            <l n="6">dub3-tuku-⸢me⸣-en usu-gu10 im-zi-ge-en IM2 x-ga2-me-en</l>
+            <l n="7">nibru{ki}-ta#? ⸢šeg12⸣ uri2#{ki}-ma-še3</l>
+            <l n="8">danna aš-gin7 šu ⸢ni10⸣-⸢ni10⸣-x ša3#?-gu10#? ⸢ha⸣-ma-ab?-du11</l>
+            <l n="9">pirig nam-⸢sul⸣-bi#?-ta#? ⸢nu⸣-x-x ⸢ne3⸣-ba gub-ba-me-en</l>
+            <l n="10">{tug2#?}nig2-⸢lam2⸣ banda3#{+da#}-⸢gu10⸣ ib2#?-ga2#? ba-ab-du11</l>
+            <l n="11">tum12{mušen} ⸢NIR⸣-⸢DU⸣ x-x ⸢dal⸣-a-gin7 a2-⸢gu10⸣ hu-⸢mu⸣-un-su13-su13</l>
+            <l n="12">{d}anzu2{mušen} kur-⸢bi⸣-⸢še3⸣ igi ⸢il2⸣-[...] dub3-gu10 hu-⸢mu⸣-[...]</l>
+            <l n="13">⸢uru2⸣ ma-da ki gar-⸢gar⸣-[...]-⸢sug2⸣-⸢ge⸣-eš-am3</l>
+            <l n="14">ug3 sag-gig2-ga u8#?-[...] ⸢ha⸣-ma-ab-du10</l>
+            <l n="15">maš2 hur-sag-ga2 ⸢ki⸣-[...]-⸢bi⸣-⸢še3⸣ ⸢hub2⸣ sar#?-sar-re-de3</l>
+            <l n="16">{d}utu a2-⸢dam⸣-⸢ma⸣ u4 dagal-la</l>
+            <l n="17">[e2]-⸢kiš⸣-⸢nu⸣-gal2-la ha-ba-an-ku4-re</l>
+            <l n="18">KISAL#? {d}suen-na tur3 i3 gal-gal-la he2-gal2-la he2-bi2-ib2-du3</l>
+            <l n="19">gu4 ha-ba-ni-gaz udu! ha-ba-ni-šum</l>
+            <l n="20">šem5#? ⸢kuš⸣ la2-la2-e x ha-ba-gi4</l>
+            <l n="21">tigi#? ⸢nig2⸣-⸢du10⸣-e#? [...]-sa2#?</l>
+            <l n="22">⸢{d}šul⸣-⸢gi⸣ ⸢lu2⸣ NIG2#? [...]</l>
+            <l n="23">pirig#?-[...]</l>
+            <l n="24">x [...]</l>
+            <l n="25">x [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1'">u4 te-⸢eš⸣ [...]</l>
+            <l n="2'">{d}iškur-⸢re⸣ [...]</l>
+            <l n="3'">šegx(|IM.A|) an-⸢na⸣-ke4#? ⸢a⸣ ⸢ki⸣-⸢ta⸣ [...]</l>
+            <l n="4'">na4 tur-tur-bi na4 gal-⸢gal⸣-[...]</l>
+            <l n="5'">⸢murgu2⸣-ga2 dub-dab he2-em-mi-ib2-[...]</l>
+            <l n="6'">lugal-me-en ni2 ba-ra-ba-da-⸢te⸣ su ba-ra-ba-da-zi</l>
+            <l n="7'">⸢pirig⸣ banda3{+da}-gin7 guru5-uš hu-mu-bur2-bur2</l>
+            <l n="8'">⸢anše⸣-edin-⸢na⸣-ke4 hub2-ga2 hu-mu-un-šu2-šu2</l>
+            <l n="9'">⸢ša3⸣ la-la ⸢gal2⸣-⸢la⸣-gu10 kaš4 hu-mu-ni-gun3-gun3-nu</l>
+            <l n="10'">⸢du9⸣-urx(SILA4)#? aš#?-[...] ⸢im2⸣-ma-gu10-ne</l>
+            <l n="11'">{d}utu e2-a-⸢ni⸣-⸢še3⸣ ⸢igi⸣ i3-ga2-ga2-de3</l>
+            <l n="12'">kaskal 1(u)! 5(diš) danna-⸢am3⸣ ⸢šu⸣ hu-mu-nigin2</l>
+            <l n="13'">sag-ur-⸢sag⸣-gu10-⸢ne⸣ ⸢igi⸣ ⸢hu⸣-mu-un-duh-a</l>
+            <l n="14'">u4 aš-am3#? nibru{ki} uri2{ki}-ma eš3#?-eš3#?-bi ⸢hu⸣-mu-un-nigin2?</l>
+            <l n="15'">⸢šeš⸣ ⸢gu5⸣-⸢li⸣-⸢gu10⸣ sul {d}utu-am3</l>
+            <l n="16'">e2-gal an-ne2 ki gar-ra-am3 kaš hu-mu-di-ni-nag#?</l>
+            <l n="17'">⸢nar⸣-gu10 tigi imin-e šir3!-ga2 ha-ma-ab-du11</l>
+            <l n="18'">⸢gidlam⸣-gu10 ki-sikil {d}inanna ⸢nin⸣ ⸢hi⸣-li an-ki-a</l>
+            <l n="19'">⸢gu7⸣ nag-bi-a ha-ma-da-an-tuš-e</l>
+            <l n="20'">ni2-gu10 silim-še3!-am3 ba-ra-ab-x</l>
+            <l n="21'">igi il2-la-gu10 he2-em-mi-in-gen</l>
+            <l n="22'">⸢ša3⸣ gur6-gur6-a-gu10 an-ta he2-ib2-gi4</l>
+            <l n="23'">inim inim-ma im-sar-ra-gu10</l>
+            <l n="24'">zi a-a-gu10 ku3 {d}lugal-TUR-UŠ</l>
+            <l n="25'">{d}nanna lugal an-ki-ke4</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1'">[...] x x x</l>
+            <l n="2'">[...] ⸢u4⸣ ul-li2!-a-še3</l>
+            <l n="3'">x [...] x-e-a e11-de3</l>
+            <l n="4'">⸢lugal⸣ [...]-x ga2-gin7-nam ug3-e ba-ra-gal2-la!</l>
+            <l n="5'">an-[...] ⸢ku3⸣-⸢sig17⸣ sag-ga2! mu-ni-ge-en</l>
+            <l n="6'">e2-⸢kur⸣ ⸢za⸣-gin3-⸢na⸣ gidri ha-ba-ab-dab5#!-be2#?</l>
+            <l n="7'">bara2 babbar {geš}gu-za suhuš#? ⸢gin6⸣-⸢na⸣ sag#? [...]</l>
+            <l n="8'">nam-lugal-⸢la⸣ [...]-⸢mah⸣</l>
+            <l n="9'">kur hu-mu-⸢gul⸣-⸢gul⸣ [...]-⸢ge⸣-en</l>
+            <l n="10'">an-ub-⸢da⸣ limmu2 ug3 sag si-ga-a-ba mu-gu10 he2-em-mi-še21</l>
+            <l n="11'">šir3 ku3-ga2 hu-mu-un-e3-de3</l>
+            <l n="12'">nam-mah-gu10 hu-⸢mu⸣-ni-in-pa3-de3-e-a</l>
+            <l n="13'">a2 mah lugal-la-ka mi2 du11-ga</l>
+            <l n="14'">⸢{d#}suen⸣-e e2-kiš-nu-gal2-la-ta</l>
+            <l n="15'">[...]-⸢sag⸣ nam-kal-ga nam-⸢ti⸣ ⸢nig2⸣-du10 sag-e-eš ⸢rig7⸣-[...]</l>
+            <l n="16'">[...] ⸢mah⸣ šum2-ma ⸢{d}nu⸣-⸢nam⸣-⸢nir⸣-⸢ra⸣</l>
+            <l n="17'">[{d}]šul-gi kur gul-gul ⸢kalam⸣ [...]-⸢en⸣</l>
+            <l n="18'">⸢išib⸣ an-ki-a gaba-⸢ri⸣ ⸢nu⸣-⸢tuku⸣</l>
+            <l n="19'">{d}šul-gi dumu nir-⸢gal2⸣ an#?-na#?-ke4#? ⸢mi2⸣ ⸢du11⸣-⸢ga⸣</l>
+            <l n="20'">{d}nisaba ⸢za3⸣-mi2</l>
+            <l n="21'">šu-nigin 5(u)</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">I am the king, from the womb I was a hero</l>
+        <l n="2">I am Shulgi, after I was born, I was a mighty male</l>
+        <l n="3">I am a pirig creature with a furious face that was given birth to by an ušumgal creature</l>
+        <l n="4">I am the king of the 4 quarters</l>
+        <l n="5">I am the herder and shepherd of the black-headed</l>
+        <l n="6">I am the authoritative one, the god of the lands</l>
+        <l n="7">I am the child born of Ninsumun</l>
+        <l n="8">I am the one chosen in the heart by An</l>
+        <l n="9">I am the man decreed by Enlil</l>
+        <l n="10">I am Shulgi, loved by Ninlil</l>
+        <l n="11">I am the one taken care of by Nintur</l>
+        <l n="12">I am one given wisdom by Enki</l>
+        <l n="13">I am the mighty king of(?) Nanna</l>
+        <l n="14">I am the open-mouthed pirig creature (of) Utu</l>
+        <l n="15">I am Shulgi, whose allure was chosen/discovered (by) Inanna</l>
+        <l n="16">I am a girnun equid, suitable for the road</l>
+        <l n="17">I am a horse swishing its tail on the road</l>
+        <l n="18">I am a male donkey of Sumuqan, seeking to run</l>
+        <l n="19">I am the knowledgable scribe of Nisaba</l>
+        <l n="20">Like my heroism and my strength</l>
+        <l n="21">Intelligence is therefore perfected(?)</l>
+        <l n="22">The true word is therefore made compatible with me(?)</l>
+        <l n="23">Therefore justice is loved(?)</l>
+        <l n="24">Therefore(?) evil is not loved(?)</l>
+        <l n="25">Therefore(?) the speaking of evil words is hated(?)</l>
+        <l n="26">I am Shulgi, the mighty king who goes out towards the front</l>
+        <l n="27">Because I am rejoicing at my might and shoulder (=strength)(?)</l>
+        <l n="28">...</l>
+        <l n="29">I establish the (length of) the double-hour and had palace(s) built (there at that interval)(?)</l>
+        <l n="30">...</l>
+        <l n="1">Therefore shall relax towards its “cool side”</l>
+        <l n="2">The male going on the road who (otherwise) spends the night on the road</l>
+        <l n="3">Therefore has taken refuge there as if it was his built city</l>
+        <l n="4">So that my name is established to distant time, so that it is not dropped by/from the mouth</l>
+        <l n="5">So that my praise is performed in the land</l>
+        <l n="6">I am possessed of speed, I muster up my strength, I am ... running</l>
+        <l n="7">From Nibru to the brickwork of Urim</l>
+        <l n="8">My heart therefore spoke to me in order to make a round trip as if (it was only) one double-hour</l>
+        <l n="9">A pirig creature not tiring by means of its youth, I am one who stands in its strength</l>
+        <l n="10">My little niglam garment was suitable on my hips(?)</l>
+        <l n="11">Therefore, like a ... wild dove flying furiously, I pumped my arms</l>
+        <l n="12">Therefore, like the Anzud bird raising its eye towards its mountain, I spread my knees apart (in stride)</l>
+        <l n="13">Therefore the cities of the land that I founded served me</l>
+        <l n="14">Therefore my black-headed people, teeming like ewes, look to me sweetly</l>
+        <l n="15">(Like) a goat of the mountain range that is to run to its dwelling(?)</l>
+        <l n="16">(As?) Utu, broadening the daylight upon the settlements</l>
+        <l n="17">Therefore I(?) was entering the Ekišnugal temple</l>
+        <l n="18">Therefore the temple/courtyard!? of Suen, the cattlepen (of) great amounts of butter(?) was heaped up with abundance</l>
+        <l n="19">Therefore bulls were slaughtered there, sheep were slaughtered there</l>
+        <l n="20">Therefore the šem and ala drums resounded</l>
+        <l n="21">Therefore the tigi drum, the good thing, was played properly there</l>
+        <l n="22">I am Shulgi, the one who makes anything/food(?) numerous and therefore food (offerings) were offered there</l>
+        <l n="23">When I roused myself from the ... cultic area like a pirig creature</l>
+        <l n="24">...</l>
+        <l n="25">...</l>
+        <l n="1'">Therefore the howling(?) storm shook the ground</l>
+        <l n="2'">Iškur shouted in the broad heavens</l>
+        <l n="3'">Therefore the rain of heaven mingled with (lit. embraced) the water below</l>
+        <l n="4'">Its small and large (hail)stones</l>
+        <l n="5'">Therefore made a thud on my back</l>
+        <l n="6'">I am a king who therefore could not be frightened or have gooseflesh</l>
+        <l n="7'">Like a fierce pirig creature (I) therefore snarled(?)</l>
+        <l n="8'">Therefore (as) an equid of the plain (I) galloped</l>
+        <l n="9'">Therefore (with) my heart with happiness inside of it (I) was running</l>
+        <l n="10'">When I ran (as) a perfect male donkey</l>
+        <l n="11'">Utu was to look towards his house (at sunset)</l>
+        <l n="12'">And thus (I) had made the round trip, the journey being 15 double-hours</l>
+        <l n="13'">My sagursag performers saw (the feat?)</l>
+        <l n="14'">It was one day, I(!?) performed(!?) the ešeš festival in (both) Nibru and Urim</l>
+        <l n="15'">My brother and friend, who is the youth Utu</l>
+        <l n="16'">It was the palace founded by An, therefore I drank beer there with him</l>
+        <l n="17'">Therefore my singer performed my song(?) at the seven tigi drums</l>
+        <l n="18'">My spouse, the young maiden Inanna, the lady (who is) the allure of the universe</l>
+        <l n="19'">She sits with (me) in eating and drinking</l>
+        <l n="20'">Thus I myself have not been praised(i.e., I have not boasted?)</l>
+        <l n="21'">Thus my raised eye goes (where it wishes)(?)</l>
+        <l n="22'">Thus my “free will” confronts(?) (what it wishes)</l>
+        <l n="23'">My fixed sayings/affairs(?) that were written</l>
+        <l n="24'">By the life of my father, holy lugalbanda(!)</l>
+        <l n="25'">(And) Nanna, the king of the universe</l>
+        <l n="1'">...</l>
+        <l n="2'">... to distant days</l>
+        <l n="3'">...</l>
+        <l n="4'">Thus there has not been a king ... like me among the people</l>
+        <l n="5'">An has firmly placed a golden crown on my head</l>
+        <l n="6'">Thus in the shining Ekur (I) seized the scepter(?)</l>
+        <l n="7'">Thus (my) head was raised heavenwards (on) the white dais and the throne with a firm foundation</l>
+        <l n="8'">Thus (my) power was exalted in the kingship</l>
+        <l n="9'">Thus the enemy land/mountain was destroyed, the land made firm</l>
+        <l n="10'">Therefore may my name be invoked among the cared for people (of) the four regions</l>
+        <l n="11'">Therefore they shall perform(?) my pure songs</l>
+        <l n="12'">Therefore they shall discover my greatness</l>
+        <l n="13'">The one taken care of with the great might of kingship</l>
+        <l n="14'">Who Suen at the Ekišnugal temple</l>
+        <l n="15'">Gave heroism, might, and a good life</l>
+        <l n="16'">Given supreme strength by Nunamnir</l>
+        <l n="17'">Shulgi, the destroyer of the enemy land, the establisher of the land</l>
+        <l n="18'">The išib priest of the universe who has no rival</l>
+        <l n="19'">Shulgi, cared for by the noble son of An</l>
+        <l n="20'">Nisaba, praise</l>
+        <l n="21'">Total: 50 (lines).</l>
+      </div>
+    </body>
+  </text>
+</TEI>

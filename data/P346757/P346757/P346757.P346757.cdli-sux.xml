@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0720</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346757</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346757.P346757.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] KA [...]</l>
+            <l n="2'">[...]-⸢lul⸣-la-ga gaba#? [...]</l>
+            <l n="3'">[en3]-⸢tukum⸣-še3 a-x-[...]</l>
+            <l n="4'">[mu]-⸢gi17⸣-ib an-na-men3 a-gin7 x [...]</l>
+            <l n="5'">[...]-x dug? si-[...]</l>
+            <l n="6'">[...]-da#? sila-a#!? i-lu [...]</l>
+            <l n="7'">[...]-⸢da⸣-si-ig en-⸢na⸣ [...]</l>
+            <l n="8'">[...] x ⸢ba⸣-ab-tag en-na [...]</l>
+            <l n="9'">[... ku3]-⸢gal2⸣-e dug ma#!?-[...]</l>
+            <l n="10'">[... mu-un]-gar3-gu10 gi-⸢gur⸣ [...]</l>
+            <l n="11'">[... li]-⸢bi⸣-ir kur-ra-ke4 a2 [...]</l>
+            <l n="12'">[...] ⸢ge6⸣-u3#?-[na-ke4 ...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">When I enter my temple like a swallow, a lurker of the mountainside hurries forth</l>
+        <l n="3'">As long as ...</l>
+        <l n="4'">I am the nugig midwife of heaven, thus this is what was done to me</l>
+        <l n="5'">At the place of the potter(?), the pot? ...</l>
+        <l n="6'">The nursemaid(?) is covering the street with lamentation</l>
+        <l n="7'">(My) garment is torn away as long as (I am) wearing one</l>
+        <l n="8'">... touched ... my feet as long as (I was) bent over</l>
+        <l n="9'">On my canal (bank), (my?) canal inspector smashes/returns? a pot for me</l>
+        <l n="10'">In my field, my farmer returns the gigur container (empty?) for me</l>
+        <l n="11'">On my road, a libir demon of the mountain/netherworld ...</l>
+        <l n="12'">On my street, a galla demon of the nighttime robs (from) a breach (in the buildings)/executes his wish(?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

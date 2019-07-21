@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<ti:work groupUrn="urn:cts:cdli:P346280" urn="urn:cts:cdli:P346280.P346280" xml:lang="sux" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+  <ti:title xml:lang="eng">UET 6, 0195</ti:title>
+  <ti:edition urn="urn:cts:cdli:P346280.P346280.cdli-sux" workUrn="urn:cts:cdli:P346280.P346280">
+    <ti:label xml:lang="eng">CDLI P346280 UET 6, 0195</ti:label>
+    <ti:description xml:lang="eng">Test doc converted from atf.</ti:description>
+  </ti:edition>
+</ti:work>

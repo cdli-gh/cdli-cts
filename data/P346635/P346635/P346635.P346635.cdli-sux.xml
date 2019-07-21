@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000750, ex. 035</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346635</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346635.P346635.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] i#?-⸢na⸣ [...]-en-ni [...] x ZI x [... ša]-me#?-e</l>
+            <l n="2'">[...]-⸢ru⸣-zu ⸢i7⸣-[lu2-ru]-⸢gu2⸣</l>
+            <l n="3'">[...]-ki {i7}|LU2.RU|-⸢gu2⸣ [...] di-in ma-tim</l>
+            <l n="4'">[...]-tu ša3 erim2-gal2 [...]-⸢ni10⸣-⸢ni10⸣</l>
+            <l n="5'">[...] x-ti-im x [...] PI x x x [...] x gi [...]</l>
+            <l n="6'">[...]-x-zu!? nam-išib-e [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] ⸢_šu⸣-luh_ el-lu-tim [...] pa-ši-šu-tim [...]</l>
+            <l n="2">[... {d}nu]-⸢nam⸣-nir-ra u2 mu-ni-[su3]-su3#?</l>
+            <l n="3">[... pa]-ti-in {d#}en-lil2 šar-ri-im</l>
+            <l n="4">[nun]-⸢zu⸣ ⸢nun⸣ ša3 kuš2-u3 {d}en-lil2-la2 ⸢eš3⸣ mah-a tum2-ma</l>
+            <l n="5">[...]-⸢u2⸣-ka ⸢ru⸣-bu-um ma-lik {d}en-lil2 x-a#?-x bi-tim ra-bi-im</l>
+            <l n="6">[... e2]-kur-ra kin-gal {d}nuska-ke4</l>
+            <l n="7">[...]-x _e2-kur-⸢ra⸣ ab_-ša-am te-re-et [...] {d}nuska</l>
+            <l n="8">[...] x</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">(Sum) The apex of the zage of your temple, the sacred enclosure ... along with heaven</l>
+        <l n="1'">(Akk) ... in(?) ... of(?) heaven</l>
+        <l n="3'">(Sum) (Rendering) decisions, at your place where great judgements are decided, the Ordeal River</l>
+        <l n="3'">(Akk) ... the Ordeal River ... judgement of the land</l>
+        <l n="5'">Giving birth to the just man, thickening/reversing(?) the blood(?) in(?) the heart of the evildoer</l>
+        <l n="1">(Sum) The platform (that hosts?) your pure ritual cleansing, the art of the išib priest, your ... suitable for the art of the išib priest(?)</l>
+        <l n="1">(Akk) ... the pure ritual cleansing ... the art of the pašišu priest ...</l>
+        <l n="3">(Sum) He dines with(?) lord Nunamnir</l>
+        <l n="3">(Akk) ... diner of (with?) Enlil, the king</l>
+        <l n="5">(Sum) Your ruler is a ruler who takes counsel (with) Enlil, suitable for the supreme shrine</l>
+        <l n="5">(Akk) Your ruler is a ruler who is the adviser of Enlil, suitable for the great temple</l>
+        <l n="7">(Sum) Protective udug spirit of the Ekur temple, commander Nuska</l>
+        <l n="7">(Akk) ... of the Ekur temple, ... of the omen/instruction of ...? Nuska</l>
+        <l n="8">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<ti:work groupUrn="urn:cts:cdli:P254881" urn="urn:cts:cdli:P254881.P254881" xml:lang="sux" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+  <ti:title xml:lang="eng">CDLI Literary 000801, ex. 005</ti:title>
+  <ti:edition urn="urn:cts:cdli:P254881.P254881.cdli-sux" workUrn="urn:cts:cdli:P254881.P254881">
+    <ti:label xml:lang="eng">CDLI P254881 CDLI Literary 000801, ex. 005</ti:label>
+    <ti:description xml:lang="eng">Test doc converted from atf.</ti:description>
+  </ti:edition>
+</ti:work>

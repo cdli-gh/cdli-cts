@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000371, ex. 023</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346542</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346542.P346542.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1'">[...]-ak</l>
+            <l n="2'">[...] ba#?-an-šub</l>
+            <l n="3'">[...]-bi</l>
+            <l n="4'">[...]-ak#{ki}-še3 ba-de6</l>
+            <l n="5'">[...]-an-na</l>
+            <l n="6'">[...] ⸢5(šar2)⸣ 5(geš'u) ⸢i3⸣-⸢ak⸣</l>
+            <l n="7'">[...] diš ⸢lugal⸣</l>
+            <l n="8'">[...] 5(šar2) 5(geš'u) i3-⸢ak⸣</l>
+            <l n="9'">[...]-⸢ra⸣-ak{ki} ba-⸢an⸣-[...]</l>
+            <l n="10'">[...]-lugal-[...]</l>
+            <l n="11'">[...]-⸢tibirax(|URUDU.BUR2|)⸣ [...]</l>
+            <l n="12'">[...]-tibirax(|URUDU.BUR2|)[...]</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">⸢mu⸣ [...]</l>
+            <l n="2">egir [...]</l>
+            <l n="3">a-ma-⸢ru⸣ [...]</l>
+            <l n="4">nam-⸢lugal⸣-[...]</l>
+            <l n="5">kiš[{ki} ...]</l>
+            <l n="6">kiš#[{ki} ...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">x x x [...]</l>
+            <l n="2'">bala x-[...]</l>
+            <l n="3'">[...]</l>
+            <l n="4'">mu-ta [...]</l>
+            <l n="5'">bala x-[...]</l>
+            <l n="6'">[...]</l>
+            <l n="7'">⸢mu⸣-ta#? [...]</l>
+            <l n="8'">bala x [...] x [...]</l>
+            <l n="9'">⸢mu⸣-⸢ta⸣ [...]</l>
+            <l n="10'">bala adab{ki} [...]</l>
+            <l n="11'">aš3 [...]</l>
+            <l n="12'">mu-ta x x x x [...]</l>
+            <l n="13'">bala x-x{ki#} x x [...]</l>
+            <l n="14'">[...] mu#? [...]</l>
+          </div>
+          <div n="left" type="textpart">
+            <l n="1'">2(geš'u) 2(geš2) 2(u) 3(diš) [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">Two kings reigned for ... years</l>
+        <l n="2'">... abandoned Eridu(?)</l>
+        <l n="3'">...</l>
+        <l n="4'">The kingship was brought to larak</l>
+        <l n="5'">...</l>
+        <l n="6'">Ensipadziana reigned for 21,000 (/21,000+ ...?) years</l>
+        <l n="7'">...</l>
+        <l n="8'">One king reigned for 21,000 (/21,000+ ...?) years</l>
+        <l n="9'">... abandoned Larak</l>
+        <l n="10'">...</l>
+        <l n="11'">The kingship was brought to Badtibira</l>
+        <l n="12'">...</l>
+        <l n="1">(The antediluvian kings) reigned ... years</l>
+        <l n="2">...</l>
+        <l n="3">After the flood swept over the land</l>
+        <l n="4">When kingship descended from heaven</l>
+        <l n="5">...</l>
+        <l n="6">Kish was of the kingship, gušur was king</l>
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">...</l>
+        <l n="6'">...</l>
+        <l n="7'">...</l>
+        <l n="8'">...</l>
+        <l n="9'">...</l>
+        <l n="10'">...</l>
+        <l n="11'">...</l>
+        <l n="12'">...</l>
+        <l n="13'">...</l>
+        <l n="14'">...</l>
+        <l n="1'">1343 + ... (?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

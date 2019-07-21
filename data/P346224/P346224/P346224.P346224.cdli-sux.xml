@@ -1,0 +1,205 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000379, ex. 024</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346224</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346224.P346224.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[a]-⸢a⸣ {d}nanna išib-zu ⸢eš2⸣-⸢da⸣ [...] ⸢šu⸣ [...]</l>
+            <l n="2">⸢lu2⸣-mah-zu gi-gun4-na ku3-zu ša3 gada nu-mu-um#?-[...]</l>
+            <l n="3">en zi ša3 hi-li pa3-da-zu e2-kiš-nu-gal2-la</l>
+            <l n="4">eš3-ta ge6-par4-še3 hul2-la-a-ni nu-mu-ni-in-ku4</l>
+            <l n="5">a-u3-a kisal ezem-ma-zu ezem nu-mu-ni-ib2-du10-ge</l>
+            <l n="6">šem5 {kuš}a2-la2-e nig2 ša3 hul2-le-a tigi nu-mu-ra-du12</l>
+            <l n="7">sag-gig2-ga ⸢ezem⸣-zu-še3 ⸢a⸣ la-ba-tu5-tu5-a</l>
+            <l n="8">gu-gin7 sag BU-ra zi ha-ba-ni-ku5 uludin2-bi ba-kur2</l>
+            <l n="9">en3-du-zu er2-re ba-da-an-ku4 en3-tukum-bi-še3 SAR-e</l>
+            <l n="10">tigi-zu a-nir-ra ba-da-an-ku4 en3-tukum-bi-še3 SAR-e</l>
+            <l n="11">gu4-zu tur3-a-na ba-ra-ba-da-an-gub en3-tukum-bi-še3 SAR-e</l>
+            <l n="12">udu-zu amaš-bi-a ba-ra-ba-dur2-ru-un en3-tukum-bi-še3 SAR-e</l>
+            <l n="13">šu-kux(PEŠ) ku6 gur3-ru-zu hul-gal2-e ba-dab5</l>
+            <l n="14">mušen-du3 mušen gur3-ru-zu ul4-ul4-e im-⸢gen⸣</l>
+            <l n="15">i7 ma-rux(TE)-re ba-ab-du7-⸢za⸣ ša3-ba {u2}numun2 ba-an-⸢mu2⸣</l>
+            <l n="16">har-ra-an ⸢{geš}gigir⸣-⸢ra⸣ ba-ab-du7-za ša3-ba {geš}AD2 kur-ra ba-an-mu2</l>
+            <l n="17">uru2-zu e2-zu ama-bi-gin7 ⸢er2⸣ gig i3-še8-še8</l>
+            <l n="18">uri2{ki}-ma dumu sila-a ha!-lam-⸢gin7⸣ ki mu-ši-kikken2</l>
+            <l n="19">šeg12-⸢zu⸣ e2 zi-za lu2-lu7-gin7 he2-me-am3-bi im-me-e</l>
+            <l n="20">nin-gu10 e2-ta e3-me-en uru17-ta e3-me-en</l>
+            <l n="21">en3-še3-am3 iri-zu lu2-erim2-gin7 bar-ta ba-gub-be2</l>
+            <l n="22">ama {d}nin-gal e2-zu ki erim2-gin7 gaba-na ba-e-da-sa2</l>
+            <l n="23">kalam-ma-a-ni-še3 kuš2-u3 he2-me-en-na za3 e-ne ba-tag-ge</l>
+            <l n="24">gu4-gin7 tur3-zu-še3 udu-gin7 amaš-zu-še3</l>
+            <l n="25">dumu banda3{+da}-gin7 ama5-⸢zu⸣-še3 nin-gu10 e2-zu-še3</l>
+            <l n="26">an lugal dingir-re-e-ne muš2-am3-zu he2-em-me</l>
+            <l n="27">{d}en-lil2 lugal kur-kur-ra-ke4 nam-zu-še3!? he2-bi2-ib-tar-re</l>
+            <l n="28">iri{ki}-zu!(BA) ki-bi-a ha-ra-ab-gi4-gi4 nam-ereš-bi ak</l>
+            <l n="29">uri2#{ki#} ⸢ki⸣-bi-a ha-ra-ab-gi4-gi4 nam-ereš-bi ak</l>
+            <l n="30">⸢ki⸣-⸢ru⸣-gu2 ussu-kam-ma</l>
+            <l n="31">[...] ⸢mu⸣-da-kur2-ra me-zu#? ki-bi ha-ra-ab-gi4-gi4</l>
+            <l n="32">⸢geš⸣-gi4-gal2-bi-im</l>
+            <l n="33">⸢e⸣ u4-de3 u4-de3 kalam teš2-a i-ni-ib-ri</l>
+            <l n="34">u4 gal an-na-ke4 u4 gu3 dub2-dub2-be2</l>
+            <l n="35">u4 ⸢gig⸣-⸢ga⸣ kalam-ma ba-e-zal-la ri</l>
+            <l n="36">⸢u4⸣ uru2#? gul-gul-e u4 e2 gul-gul-e</l>
+            <l n="37">⸢u4⸣ tur3 gul-gul-e u4 amaš tab-tab-be2</l>
+            <l n="38">⸢garza⸣ ⸢ku3⸣-ga šu bi2-la2-a-bi</l>
+            <l n="39">garza#? ⸢aratta⸣-a-ka šu pe-el-la2 im-mi-in-du11-ga</l>
+            <l n="40">u4#!? kalam-ma nig2-du10-ge im-mi-in-⸢ku5⸣ ⸢ri⸣</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">u4 sag-gig2-ga a2 bi2-ib2-⸢la2⸣-a ri</l>
+            <l n="2">ki-ru-gu2 9(diš)-kam-ma</l>
+            <l n="3">u4 ri u4 igi teš2 ⸢nu⸣-⸢gal2⸣-⸢la⸣ ri</l>
+            <l n="4">u4 ama nu-zu ri u4 a-a nu-zu ri</l>
+            <l n="5">u4 dam nu-zu ri u4 dumu nu-zu ri</l>
+            <l n="6">u4 nin9 nu-zu ⸢ri⸣ u4 šeš nu-zu ri</l>
+            <l n="7">u4 usar nu-zu ri ma-la nu-zu ri</l>
+            <l n="8">u4 dam šub-ba u4 dumu šub-ba</l>
+            <l n="9">u4 ri u4 kalam-ma u2-gu bi2-in-de2-a-ke4</l>
+            <l n="10">u4 hul gig du11-ga {d}en-lil2-la2-ta im-mi-in-zal-la ri</l>
+            <l n="11">a-a {d}nanna u4-bi uru17-zu-še3 hur nam-ba-ga2-ga2</l>
+            <l n="12">u4-bi im an-ta šeg3-ga2-gin7 ki-bi-še3 nam-ba-gur</l>
+            <l n="13">nig2-zi-gal2 an-ki sag-gig2 ni2 im-mu-e-da-ab-ri</l>
+            <l n="14">u4 šu du3-a-ba he2-em-ma-gul-e</l>
+            <l n="15">abul ge6-u3-na-gin7 ig he2-bi2-ib2-keš2-da</l>
+            <l n="16">nig2-ka9-bi e2 {d}en-lil2-la2-ke4 {geš}gag-ta he2-em-ta-si-ig</l>
+            <l n="17">ki-ru-gu2 1(u)-kam-ma</l>
+            <l n="18">ul-la u4 kur2-ra u4-da egir-bi-še3</l>
+            <l n="19">u4 ul kalam ki gar-ra-a-ba</l>
+            <l n="20">{d}nanna lu2 sun5-na giri3-zu mu-un-dab5-ba</l>
+            <l n="21">er2-ra e2 si-ga mu-ra-an-du11 igi-zu-še3 du12-a-bi</l>
+            <l n="22">sag-gig2 ba-ra-an-šub-šub-bu-uš-a giri17 šu ha-ra-ab-tag-ge-ne</l>
+            <l n="23">iri du6-du6-dam ba-an-gar-ra-ba i-si-iš-bi hu-mu-ra-an-ga2-ga2</l>
+            <l n="24">{d}nanna uru17 ki-bi-a gi4-a-za pa e3 ha-ra-ab-ke3-e</l>
+            <l n="25">mul-an ku3-gin7 nam-mu-ha-lam-e-de3 igi-zu-še3 ba-dab5-be2</l>
+            <l n="26">dingir lu2-lux(URU)-ke4 kadra mu-ra-an-de6</l>
+            <l n="27">lu2 siskur2-ra-ke4 a-ra-zu mu-ra-ab-be2</l>
+            <l n="28">{d}nanna arhuš sug4 kalam-ma-me-en</l>
+            <l n="29">en {d}dil-im2-babbar2 ša3-zu mi-ni-ib2-du11-ga-ta</l>
+            <l n="30">{d}nanna lu2-lux(URU)-ba nam-tag-bi u3-mu-e-duh</l>
+            <l n="31">lu2 a-ra-zu im-me-a ša3 ha-ba-⸢na⸣-hun-e</l>
+            <l n="32">lu2 siskur2-ra-ke4 mu-un-gub-ba! igi zi u3-mu-un-ši-in-bar</l>
+            <l n="33">{d}nanna igi zi bar-ra-zu ša3-šu-nigin2#? ⸢sug4⸣-ga</l>
+            <l n="34">lu2-lux(URU)-bi u4 hul duh-a-ke4 he2-em-⸢da⸣-x-[...]</l>
+            <l n="35">ša3 kalam-ma-ke4 gal2-la-gin7 he2-em-⸢da⸣-⸢ši⸣-[...]</l>
+            <l n="36">⸢{d#}nanna⸣ iri ki-bi gi4-a-za ⸢me⸣-⸢teš2⸣ [...]</l>
+            <l n="37">ki-ru-gu2 1(u) [1(diš)-kam-ma]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Father Nanna, your išib priest did not perfect the holy šita prayer(?) for you</l>
+        <l n="2">Your lumah priest did not wear the šaggada garment</l>
+        <l n="3">Your true en priestess, chosen in the heart (for her) beauty, the one of the Ekišnugal temple</l>
+        <l n="4">Did not enter as she rejoices(?) into the gipar structure (coming from) the shrine</l>
+        <l n="5">The a'ua musicians are not sweetening the festival (in) your courtyard (hosting) the festival</l>
+        <l n="6">Neither the šem and ala drums, those which make the heart rejoice, nor the tigi instrument was played for you</l>
+        <l n="7">The blackheaded, who no longer bathed for your festival</l>
+        <l n="8">If(!?) like a thread ... (their) life was cut, their features were changed</l>
+        <l n="9">Your songs have become weeping, how long ...?</l>
+        <l n="10">Your tigi songs have become lamentation, how long ...?</l>
+        <l n="11">If your bull does not stand in its stall, how long ...?</l>
+        <l n="12">If your sheep does not stand in its fold, how long ...?</l>
+        <l n="13">An evildoer has seized your fisherman who brings fish</l>
+        <l n="14">Your fowler who bring birds hurriedly goes (away)</l>
+        <l n="15">In your canal, (formerly) made suitable for a barge, rushes(!?) grew in its bed</l>
+        <l n="16">On your roads, (formerly) made suitable for a chariot, thorn bushes grew in its midst</l>
+        <l n="17">Your city and you temple weep (for you) bitterly like their(?) mother</l>
+        <l n="18">Urim, like a child lost in the street, seeks (your) place</l>
+        <l n="19">The brickwork of your true temple, like a human, says “So be it!&quot;(in resignation!?)</l>
+        <l n="20">My lady, you have left the temple, you have left the city</l>
+        <l n="21">How long will (you) stand apart from your city like an enemy?</l>
+        <l n="22">Mother Ningal, (how long) will your temple align with you at its chest like a hostile place</l>
+        <l n="23">If you are one who is concerned about her land, why do (you) reject it?</l>
+        <l n="24">Like an ox towards/on behalf of(?) your cattlepen, like a sheep towards/on behalf of(?) your sheepfold</l>
+        <l n="25">Like a younger child towards/on behalf of(?) your (mother's?) chamber, my lady, towards/on behalf of(?) your temple</l>
+        <l n="26">May An, the king of the gods, speak your “It is enough”</l>
+        <l n="27">Enlil, the king of the lands, shall decree your fate</l>
+        <l n="28">He shall restore your(!) city to its place, exercise its queenship!</l>
+        <l n="29">He shall restore Urim to its place, exercise its queenship!</l>
+        <l n="30">It is the eighth kirugu</l>
+        <l n="31">Your(?) me that were changed to your detriment, may he restore your(?) me to their place</l>
+        <l n="32">It is its gešgigal “response”</l>
+        <l n="33">Oh, the storm, the storm has been cast down in the land together</l>
+        <l n="34">Great storm of An, continually shouting storm</l>
+        <l n="35">That bitter day (storm) passed in the land</l>
+        <l n="36">The storm destroying the city, the storm destroying the temple</l>
+        <l n="37">The storm destroying the cattlepen and flattening the sheepfold</l>
+        <l n="38">That one that paralyzed the pure rites</l>
+        <l n="39">The one who defiled the rites, (those) of Aratta (i.e., important?)</l>
+        <l n="40">That storm that cut off a good thing in the land</l>
+        <l n="1">That storm that bound the arms of the black-headed people</l>
+        <l n="2">It is the 9th kirugu</l>
+        <l n="3">That storm, that storm that has no shame (in) its face</l>
+        <l n="4">That storm that knows no mother, that storm that knows no father</l>
+        <l n="5">That storm that knows no spouse, that storm that knows no child</l>
+        <l n="6">That storm that knows no sister, that storm that knows no brother</l>
+        <l n="7">That storm that knows no neighbor, that storm that knows no girlfriend</l>
+        <l n="8">The storm that cast the spouse, the storm that cast down the child</l>
+        <l n="9">That storm, the storm of having made the land forgotten</l>
+        <l n="10">The hating day (storm) that was made to pass by Enlil</l>
+        <l n="11">Father Nanna, that storm must never again be placed upon your city</l>
+        <l n="12">That storm, like a rain storm raining from above, must not turn towards that place</l>
+        <l n="13">It has cast a fearful aura (upon) the creatures of the universe (and) the black-headed</l>
+        <l n="14">When the storm is bound by the hands(?), it must be destroyed</l>
+        <l n="15">Like a gate at nighttime, the door must be tied shut (to keep it out)</l>
+        <l n="16">Its balanced account in the temple of Enlil must be torn away from its peg</l>
+        <l n="17">It is the 10th kirugu</l>
+        <l n="18">In distant time and future time, today and in the future/&quot;the end of day(s)&quot;(?)</l>
+        <l n="19">In distant time, after the land(?) was founded (again, like before(?))</l>
+        <l n="20">Nanna, the humble man who took to your path (i.e., followed you)/seized your feet</l>
+        <l n="21">Has performed the lament of the silent house for you, the one/as one performing before you</l>
+        <l n="22">The black headed that had fallen away (from the path?), they shall stroke the nose in submission for you</l>
+        <l n="23">... shall initiate the wailing of the city that had been rendered into ruin heaps for you</l>
+        <l n="24">Nanna, ... shall make your city that has been restored to its place resplendent (again) for you</l>
+        <l n="25">Like a pure heavenly star which must never be forgotten, it will pass(!?) before you</l>
+        <l n="26">The personal god has brought a kadra greeting gift for you</l>
+        <l n="27">The one of the siskur prayer/rites makes an arazu prayer for you</l>
+        <l n="28">Nanna, you are the one filled with mercy of the land</l>
+        <l n="29">Lord Dilimbabbar, after your heart has spoken</l>
+        <l n="30">Nanna, after you has released the sin of that man</l>
+        <l n="31">The one who makes an arazu prayer shall pacify (your) heart for him</l>
+        <l n="32">After you have looked faithfully towards the one of the siskur prayer/rites who has served(?)</l>
+        <l n="33">Nanna, your true look is full of mercy</l>
+        <l n="34">May the man who the storm unleashed evil against shine towards (you)</l>
+        <l n="35">As one who is in the midst of the land(?) may he bow towards (you?)</l>
+        <l n="36">Nanna, may you be praised in your restored city</l>
+        <l n="37">It is the 11th kirugu</l>
+      </div>
+    </body>
+  </text>
+</TEI>

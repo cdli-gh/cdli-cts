@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000365, ex. 022</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346134</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346134.P346134.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">en-e kur ⸢lu2⸣ ti-la-⸢še3⸣ ⸢geštux(|GIŠ.TUG2|)⸣-[...] na-an-[...]</l>
+            <l n="2">en ⸢{d}gilgames3⸣-e ⸢kur⸣ [lu2] ⸢ti⸣-[la-še3] geštux(|GIŠ.TUG2|)-⸢ga⸣-⸢a⸣-ni [...]-⸢gub⸣</l>
+            <l n="3">ARAD-da-a-⸢ni⸣ ⸢en⸣-⸢ki⸣-⸢du10⸣-[...] ⸢mu⸣-⸢na⸣-[...]</l>
+            <l n="4">en-ki-du10 murgu guruš#? ti-⸢la⸣ la#?-[...]-⸢ra⸣-an-⸢e3⸣-[...]</l>
+            <l n="5">⸢kur⸣-⸢ra⸣ ⸢ga⸣-⸢x⸣-[...] mu-⸢gu10⸣ ⸢ga⸣-[...]</l>
+            <l n="6">[...] ga-⸢bi⸣-⸢ib2⸣-gub</l>
+            <l n="7">[...]-⸢gub⸣-⸢bu⸣-ba ⸢mu⸣ dingir-re-e-ne ga-bi-ib2-gub</l>
+            <l n="8">[ARAD]-⸢da⸣-⸢a⸣-⸢ni⸣ ⸢en⸣-[ki]-du10-e#!? ⸢inim⸣ mu-ni-ib2-⸢gi4⸣-⸢gi4⸣</l>
+            <l n="9">lugal-gu10 tukum-⸢bi⸣ kur-ra i-ni-in-ku4-ku4-de3 {d}utu ⸢he2⸣-⸢me⸣-e-da-zu</l>
+            <l n="10">⸢{d!?}utu⸣ ⸢šul⸣ {d#}utu ⸢he2⸣-me-e-da-zu</l>
+            <l n="11">kur ⸢{geš}erin⸣ ⸢ku5⸣ ⸢dim2⸣-⸢ma⸣-[...] sul {d}utu-⸢kam⸣</l>
+            <l n="12">⸢{d!}gilgames3⸣ maš2 babbar-ra [...]-ni im-mi-in-⸢ti⸣</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">maš2 su4 maš2-da#?-ri#!?-[...]</l>
+            <l n="2">šu-ni ⸢{geš}gidri⸣ ku3#? ⸢x⸣ [...]-da#?-gal2</l>
+            <l n="3">{d}utu an-⸢na⸣-ra#? gu3! mu-na-⸢de2⸣-[...]</l>
+            <l n="4">{d}utu kur-še3 ⸢in⸣-ku4-ku4-de3 a2-tah-gu10 he2-me-en</l>
+            <l n="5">kur {geš}erin ku5-še3 in-ku4-ku4-⸢de3⸣ a2-tah-gu10 he2-me-en</l>
+            <l n="6">⸢{d#}utu⸣ ⸢an⸣-⸢na⸣-ta inim mu-ni-ib-gi4-gi4</l>
+            <l n="7">[...] ⸢ni2⸣-za he2-me-en kur-ra a-na-bi me-en</l>
+            <l n="8">[...] ⸢ga⸣-ra-ab-du11 inim-gu10-uš geštux(|GIŠ.TUG2|)-⸢zu⸣</l>
+            <l n="9">[...]-⸢ab⸣-du11 gizzal! he2-em-ši-ak</l>
+            <l n="10">[...] lu2 ba-uš2 ša3 ba-sag3</l>
+            <l n="11">[...] ⸢u2⸣-⸢gu⸣ ⸢ba⸣-an-de2 ⸢ša3⸣ ba-an-gig</l>
+            <l n="12">⸢bad3⸣-da ⸢gu2⸣-ga2#? [...] ⸢im⸣-⸢ma⸣-an-la2</l>
+            <l n="13">adda i7 ib2-SI#?-⸢x⸣ [...] igi#? im-⸢ma⸣-x-x-[...]</l>
+            <l n="14">u3 ga2-e ur5-gin7 na-ab-ba-⸢ak⸣-[...] ur5-še3 me-en#?</l>
+            <l n="15">lu2 sukudx(UZU)-da an-še3 nu-mu-⸢un⸣-[...]</l>
+            <l n="16">lu2 dagal-la kur-⸢ra⸣ la-⸢ba⸣-[...]</l>
+            <l n="17">kur-ra ga-am3-ku4 mu-⸢gu10⸣ [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">The lord paid attention to the mountain that sustains man</l>
+        <l n="2">Lord Gilgamesh paid attention to the mountain that sustains man</l>
+        <l n="3">He was speaking to his servant Enkidu</l>
+        <l n="4">Enkidu, the shoulder of(?) a young man has not brought out the limits/secrets(?) of living</l>
+        <l n="5">I want to enter into the mountain, I want to establish my name</l>
+        <l n="6">Where a name (can) stand (be inscribed), I want to establish my name</l>
+        <l n="7">Where a name (cannot) stand (be inscribed), I want to establish the name of the gods</l>
+        <l n="8">His servant Enkidu was replying</l>
+        <l n="9">My king, if you are to enter the mountain, Utu should know of it along with us</l>
+        <l n="10">Utu, the youth Utu, should know of it along with us</l>
+        <l n="11">The decision of the mountain of cut juniper belongs to the youth Utu, (Utu should know of it along with us)</l>
+        <l n="12">Gilgamesh took a white goat kid</l>
+        <l n="1">He clasped a brown goat kid of the mašdaria delivery to his chest</l>
+        <l n="2">His hand held the pure scepter at his nose</l>
+        <l n="3">He was calling out to Utu of heaven</l>
+        <l n="4">Utu, if (I) am to enter into the mountain, will you be my helper?</l>
+        <l n="5">If (I) am to enter into the mountain of cut juniper, will you be my helper?</l>
+        <l n="6">Utu from heaven was replying to him</l>
+        <l n="7">You are of yourself a young man, a native son, what are you to the mountain?</l>
+        <l n="8">Utu, I want to speak to you, (may) your ear be oriented towards my words</l>
+        <l n="9">I shall greet you, may (my words) be listened to</l>
+        <l n="10">In my city, a man dies, and (I) am distressed</l>
+        <l n="11">One has forgotten a man, and (my) heart is pained</l>
+        <l n="12">On the city wall, I stretched out my neck(?)</l>
+        <l n="13">(I) saw a corpse floated by the river(?) &lt;in the water&gt;</l>
+        <l n="14">But I should not be done thusly! Thus I must be?</l>
+        <l n="15">A tall man has never stretched to heaven</l>
+        <l n="16">A broad man has never engulfed the land</l>
+        <l n="17">I want to enter into the mountain, I want to establish my name</l>
+      </div>
+    </body>
+  </text>
+</TEI>

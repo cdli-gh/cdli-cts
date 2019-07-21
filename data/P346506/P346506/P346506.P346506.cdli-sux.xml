@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0468</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346506</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346506.P346506.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1'">[...] x</l>
+            <l n="2'">[...]-dub2#?-dub2</l>
+            <l n="3'">[...] x-na</l>
+            <l n="4'">[...]-ši-DU</l>
+            <l n="5'">[...]-gu10</l>
+            <l n="6'">[...]-gu10</l>
+            <l n="7'">[...]-x</l>
+            <l n="8'">[...]-x-na</l>
+            <l n="9'">[...]-gu10</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1'">[...] x [...]</l>
+            <l n="2'">x ku3#? amaš?-⸢a⸣ [...] lu2-e-ne ga-⸢dur2⸣-[ru-ne-eš ...]</l>
+            <l n="3'">du5-la2 a-ra-li-ka!? x [...] ga-dur2-ru-ne-[eš ...]</l>
+            <l n="4'">du8-du8 ku3 a-ra-li-ka#!? [...] ga-dur2-ru-ne-⸢eš⸣ [...]</l>
+            <l n="5'">galla tur-tur galla gal-[gal ...] lu2-e-ne ga-dur2!-⸢ru⸣-[ne-eš ...]</l>
+            <l n="6'">galla sag-ga2 amaš#? ku3#!? [...] da?-bi!? ku3-ga#? [...]</l>
+            <l n="7'">⸢galla⸣ ⸢2(diš)⸣-⸢kam⸣-⸢ma⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">udu#?-gin7#? sag#?-⸢ga2⸣ mi-⸢ni⸣-in#?-[...]</l>
+            <l n="2'">udu ⸢a⸣-lum gu5-li-e-ne x [...] GAB-a#?-[...]</l>
+            <l n="3'">udu-gin7 egir-e mi-ni-⸢in⸣-[...]</l>
+            <l n="4'">gab-us2 gu5-li-e-ne x [...] i3#?-in?-GAB-a#?-[...]</l>
+            <l n="5'">x-⸢a⸣-ni lu2 siskur2-⸢ra⸣ [...] siskur2 mu-na-ab-[...]</l>
+            <l n="6'">[...] x-ke4#? [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="2'">... making ... tremble</l>
+        <l n="3'">...</l>
+        <l n="4'">...</l>
+        <l n="5'">My ...</l>
+        <l n="6'">My ...</l>
+        <l n="8'">...</l>
+        <l n="9'">My ...</l>
+        <l n="1'">...</l>
+        <l n="2'">The holy ... in(?) the sheepfold ... the ones(?) who said “we want to dwell/sit”</l>
+        <l n="3'">We want to dwell/sit ... in the depths of Arali</l>
+        <l n="4'">We want to dwell ... in the holy heights(?) of Arali</l>
+        <l n="5'">The young and old galla demons ... the ones(?) who said “we want to dwell/sit”</l>
+        <l n="6'">The first galla demon, the one who entered? the holy sheepfold ... its holy sides(!?) ...</l>
+        <l n="7'">The 2nd galla demon ...</l>
+        <l n="1'">Like a sheep, ... at(?) the rear (of the herd)</l>
+        <l n="2'">The aslum sheep among(?) (his) friends ...</l>
+        <l n="3'">Like a sheep, at(?) the rear (of the herd?) ...</l>
+        <l n="4'">The shepherd among(?) (his) friends ...</l>
+        <l n="5'">His ..., the one of the siskur prayer/ritual ... a siskur prayer/ritual for him</l>
+        <l n="6'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

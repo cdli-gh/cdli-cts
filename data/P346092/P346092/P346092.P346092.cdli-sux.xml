@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0007</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346092</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346092.P346092.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[lugal]-gu10 {na4}maš-da im-ma-gub</l>
+            <l n="2">{na4#}dub-ba-an {na4}u2-ru-tum-e gu3 ba-an-⸢de2⸣</l>
+            <l n="3">⸢[{d}]nin⸣-urta dumu {d}en-lil2-la2-ke4 in-ti bi2-ib2#?-kur-ku</l>
+            <l n="4">{na4#}maš-da {na4}dub-ba-an ga-an-ze2-er#? bar7-a</l>
+            <l n="5">{na4#}u2-ru-tum na-me nu-gub-bu</l>
+            <l n="6">{na4#}ga-sur-ra zi murgu2-še3 šub-bu he2-em-ta-ab-murgu3#?-a</l>
+            <l n="7">[...]-⸢bala⸣-a ⸢ur5⸣-gin7 ma-mu2-un-ze2-en</l>
+            <l n="8">[...] ⸢mu⸣-e-ši-gub-bu-un-za-na-gin7</l>
+            <l n="9">[...] udu-gin7 he2-sur-sur-ne</l>
+            <l n="10">[...] ⸢nig2⸣ ze2-re-de3 ⸢lil2⸣-e#!? he2-bi2-sag3-ge#?-ne</l>
+            <l n="11">[...] {geš}mitum2-gin7 ⸢u3⸣-sar#!? ⸢he2⸣-⸢ke3⸣-ne</l>
+            <l n="12">[...] dingir-re-e-⸢ne⸣-⸢ke4⸣</l>
+            <l n="13">[...]-⸢de3⸣ lil2#?-e he2-x-x-ne</l>
+            <l n="14">[...] {na4#}ša-ka-⸢ra⸣ ⸢im⸣-⸢ma⸣-gub#?</l>
+            <l n="15">[...] {d}en-lil2-la2-ke4#? [...]</l>
+            <l n="16">[...]-⸢ra⸣ sag edin-[...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[...] us2 ⸢gu7⸣ ⸢az⸣-gin7 giri3 hum-u3</l>
+            <l n="2'">[...]-⸢ga⸣-za mu-un-DU-de3-en i3-ne tab-ba ki-za</l>
+            <l n="3'">⸢gu2⸣-⸢ne⸣-ne-ta ki ha-ma-ab-te-en-ze2-⸢en⸣-me#!?-⸢en⸣ a-ba šu in-ne-ši-in-de6</l>
+            <l n="4'">{geš}tukul he2-me-en {geš#}ig he2-gal2</l>
+            <l n="5'">kal-ga gu2-ne ha-ba-ra-si-ig-ge?</l>
+            <l n="6'">lirum-⸢da⸣ dub3 lah5-lah5-am3-da-ab!? u4 zal-⸢le⸣ ki#? he2-te-ge26</l>
+            <l n="7'">[u4]-šu2-⸢uš⸣ x-x tuku-⸢e⸣ ⸢he2⸣-zi-zi</l>
+            <l n="8'">[...] x iri{ki#?} ⸢kalam⸣-ma#? igi he2-en-de3?-sag5-sag5</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">My king attended to the mašda stone</l>
+        <l n="2">He spoke to the dubban and urutum stones</l>
+        <l n="3">Ninurta, the son of Enlil was wishing for/observing(?) (their) way</l>
+        <l n="4">mašda and dubban stones, burning with ganzer fire</l>
+        <l n="5">urutum stone, (against) whom nothing stands</l>
+        <l n="6">gasura stone, collapsing(?) one who must rage(?)</l>
+        <l n="7">Thus(?) you burned(?) for me in the rebel land</l>
+        <l n="8">You, as one of those who stood against me (in?) the land/mountain of Saba</l>
+        <l n="9">mašda stone, ... shall squeeze/twist you(?) like a sheep</l>
+        <l n="10">dubban stone, the empty winds(?) shall strike (you) in order to break something/(as) something to be broken up(?)</l>
+        <l n="11">urutum stone, ... shall sharpen (you) like the mitum weapon</l>
+        <l n="12">Among the bronze arrowheads of the gods(!?)</l>
+        <l n="13">The empty wind(?) shall strike (you) so (hard) that the furious scorpion(?) scurries around(?)</l>
+        <l n="14">My king attended to the šagara stone</l>
+        <l n="15">Ninurta, the son of Enlil, was decreeing (its) fate</l>
+        <l n="16">šagara stone, who has struck the head of the one who went alone in the plain</l>
+        <l n="1'">Adjoining (each other?), ..., (possessing) a soothed(?) heart, whose paws are immobilized (thick at the joint?)/snapped off(?) like a bear</l>
+        <l n="2'">You are to go/stand(?) in your ..., now(?) (lie) paired to the ground(?)</l>
+        <l n="3'">For me you (pl.) shall draw near to the ground(?), away from(?) their loads, who touch/bring(?) (it) for them?</l>
+        <l n="4'">You shall be a weapon, and the door shall be open(?)</l>
+        <l n="5'">The mighty one shall tear away the load</l>
+        <l n="6'">With strength ... the knees(?), the one spending the day ...(?) shall draw near to the ground(?)</l>
+        <l n="7'">(Yet) daily “the one possessing weight&quot;(?) shall rise</l>
+        <l n="8'">And along with(?) the youth/pig(?), ... shall choose among the cities(?) of the land</l>
+      </div>
+    </body>
+  </text>
+</TEI>

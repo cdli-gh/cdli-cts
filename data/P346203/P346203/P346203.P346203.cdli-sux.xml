@@ -1,0 +1,233 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000472, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346203</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346203.P346203.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">iri{ki} me-lam2-zu</l>
+            <l n="2">an-ki-a dul9</l>
+            <l n="3">u18-ru-zu mah dab</l>
+            <l n="4">eš3 nibru{ki}</l>
+            <l n="5">ki an a-na šu2-a-aš</l>
+            <l n="6">ne3-zu za3-bi-še3 gal2</l>
+            <l n="7">šeg12 kilib3-ba</l>
+            <l n="8">kalam-ma ki gar-ra</l>
+            <l n="9">šeg12-zu šeg12 sag-bi-im</l>
+            <l n="10">kur-kur-re</l>
+            <l n="11">iri{ki} &amp;lt;a&amp;gt;-na du3-a-ba</l>
+            <l n="12">me mah šu mi-ni-ti</l>
+            <l n="13">me mah-zu-gin7</l>
+            <l n="14">mu-zu mah-am3</l>
+            <l n="15">mu-zu-gin7</l>
+            <l n="16">sahar-zu sahar du10-ga-am3</l>
+            <l n="17">iri{ki} an-ki-a</l>
+            <l n="18">mu-zu diri-ga-am3</l>
+            <l n="19">us2-sag</l>
+            <l n="20">sig igi-nim-ma</l>
+            <l n="21">dim-gal ug3 šar2-ra-me-en</l>
+            <l n="22">me-zu me galam-ma</l>
+            <l n="23">me nu-sag2-dam</l>
+            <l n="24">geš-hur-zu-u8?</l>
+            <l n="25">abzu si-ga-gin7</l>
+            <l n="26">ni2 gal ši-im-duh-duh</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">nam-mah-zu</l>
+            <l n="2">{d}uraš sig7-ga-gin7</l>
+            <l n="3">na-me nu-zu-zu-dam</l>
+            <l n="4">nam tar-ra</l>
+            <l n="5">sag-bi-še3 e3-a-zu</l>
+            <l n="6">nig2 ar2-re-eš dab-ba</l>
+            <l n="7">hur-sag sukud-ra2</l>
+            <l n="8">šu nu-te-ga2-me-en</l>
+            <l n="9">sag il2 za3 dab-ba</l>
+            <l n="10">an-ne2 us2-sa-me-en</l>
+            <l n="11">ša3-zu u18-ru-me-en</l>
+            <l n="12">bar-zu</l>
+            <l n="13">ni2 gur3-ru-me-en</l>
+            <l n="14">{d}a-nun-na-ke4-ne</l>
+            <l n="15">u2 nam-ti-la-bi-še3</l>
+            <l n="16">za-e</l>
+            <l n="17">ši-im-ma-ab-du3-en</l>
+            <l n="18">gu7 nag-bi-še3</l>
+            <l n="19">ši-im-ma-sig7-ge-en</l>
+            <l n="20">amaš zi-bi-še3 gal2-me-en</l>
+            <l n="21">a2-zu-ta</l>
+            <l n="22">gu sa-par4 gid2-gin7</l>
+            <l n="23">nig2-⸢nam⸣ la-ba-ra-e3</l>
+            <l n="24">eš3 nibru{ki}</l>
+            <l n="25">a-ra2-zu nig2 mah-am3</l>
+            <l n="26">nig2 ka-ge dab-ba</l>
+            <l n="27">me hal-ha-zu</l>
+            <l n="28">geš-šub zi-da</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="1" type="textpart">
+            <l n="1">nig2 sag2 nu-di-dam</l>
+            <l n="2">iri{ki} ša3-zu</l>
+            <l n="3">ku3-ga-am3</l>
+            <l n="4">bar-zu šen-šen-am3</l>
+            <l n="5">su-bar-ra-zu</l>
+            <l n="6">me-lam2 gur3-ru-am3</l>
+            <l n="7">ki-zu ki suh-ha-am3</l>
+            <l n="8">en geštux(|GIŠ.TUG2|)-a</l>
+            <l n="9">kur-gal {d}en-lil2-le</l>
+            <l n="10">ša3-zu-a eš3 bi2-in-du3</l>
+            <l n="11">eš3-bi</l>
+            <l n="12">eš3 za-gin3</l>
+            <l n="13">eš3 nam tar-re-dam</l>
+            <l n="14">e2-kur</l>
+            <l n="15">e2 za-gin3</l>
+            <l n="16">e2 nam tar-re-dam</l>
+            <l n="17">nun-zu</l>
+            <l n="18">{d}nu-nam-nir</l>
+            <l n="19">ninda2 me ru-a</l>
+            <l n="20">ama {d}nin-lil2</l>
+            <l n="21">nin gal ki-ur3-ra-a</l>
+            <l n="22">nin me u3-tu-da</l>
+            <l n="23">e-ne e-ne-gin7</l>
+            <l n="24">kalam-ma</l>
+            <l n="25">dingir a-ba</l>
+            <l n="26">mu-un-ti</l>
+            <l n="27">a-ne-ne</l>
+            <l n="28">umuš galgax(|NUN.LAGARxGAR|) ki u4 te</l>
+            <l n="29">šu bi2-in-gur-ru-uš</l>
+          </div>
+          <div n="2" type="textpart">
+            <l n="1">huš-bi</l>
+            <l n="2">bi2-in-dur2-ru-ne-eš</l>
+            <l n="3">me zi me gal</l>
+            <l n="4">me ar2-re-ka</l>
+            <l n="5">dur2 im-mi-in-gar-re-eš</l>
+            <l n="6">{d}a-nun-na-ke4-ne</l>
+            <l n="7">ama a-a ugu-bi-gin7</l>
+            <l n="8">igi-bi im-ši-gal2</l>
+            <l n="9">inim ku3 kal-kal</l>
+            <l n="10">zi-de3-eš di-bi</l>
+            <l n="11">gizzal</l>
+            <l n="12">ši-ma-an-ke4-eš</l>
+            <l n="13">{d}en-lil2</l>
+            <l n="14">{d}nin-lil2-bi</l>
+            <l n="15">an-na</l>
+            <l n="16">igi im-mi-in-gal2-eš</l>
+            <l n="17">ki-a</l>
+            <l n="18">za3 mi-ni-in-gar-re-eš</l>
+            <l n="19">u4-bi-a</l>
+            <l n="20">an gal</l>
+            <l n="21">ki dagal-ba</l>
+            <l n="22">ša3-bi mu-un-e3-a</l>
+            <l n="23">dingir {d}a-nun-na</l>
+            <l n="24">an-ki-ke4-ne</l>
+            <l n="25">kin2 ib2-gi4-gi4-ne</l>
+            <l n="26">{geš}al</l>
+            <l n="27">{geš}dupsik</l>
+            <l n="28">nig2 uru17 ki ga2-ga2</l>
+            <l n="29">šu-ba x</l>
+            <l n="30">mu-un-gal2</l>
+            <l n="31">x [...] {d?}ha?-ia3? {d}nisaba</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="2">City, your aura covers the universe</l>
+        <l n="3">Your might is supreme and surpassing</l>
+        <l n="4">Shrine Nibru</l>
+        <l n="5">Wherever the heavens cover (i.e., everywhere)</l>
+        <l n="6">Your strength is there (all the way to) its boundaries</l>
+        <l n="8">(Among) all of the brick (structures) founded in the land</l>
+        <l n="9">Your brickwork is the foremost brickwork</l>
+        <l n="12">The lands accept the supreme cosmic powers in all their cities</l>
+        <l n="13">Like your supreme cosmic powers,</l>
+        <l n="14">your reputation is supreme</l>
+        <l n="15">Like your reputation,</l>
+        <l n="16">your soil is good soil</l>
+        <l n="18">City, your name is surpassing in the universe</l>
+        <l n="19">You are the bond</l>
+        <l n="20">of the lowlands and highlands,</l>
+        <l n="21">the great pillar of the many people</l>
+        <l n="22">Your cosmic powers are clever and</l>
+        <l n="23">that cannot be dispersed</l>
+        <l n="24">And thus your plans,</l>
+        <l n="25">like something that occupies the subterranean waters,</l>
+        <l n="26">And thus your plans, like something that occupies the subterranean waters, emit a great aura</l>
+        <l n="1">your greatness,</l>
+        <l n="2">which is verdant like the goddess Uraš (earth personified)</l>
+        <l n="3">No one is to ascertain.</l>
+        <l n="4">Your fate,</l>
+        <l n="5">going out at the forefront,</l>
+        <l n="6">is something that surpasses (any) praise</l>
+        <l n="7">A high mountain range</l>
+        <l n="8">that no hand can approach are you.</l>
+        <l n="9">Head raised high, surpassing</l>
+        <l n="10">You are touching heaven</l>
+        <l n="11">Your interior is powerful</l>
+        <l n="12">Your exterior</l>
+        <l n="13">is filled with awe</l>
+        <l n="17">And thus you produce food (for) the Anuna for their lives</l>
+        <l n="19">You are verdant for their eating and drinking</l>
+        <l n="20">You are the sheepfold that is there for their breath</l>
+        <l n="23">Nothing can escape from you arm, which is like the extended cords of a net</l>
+        <l n="25">Shrine Nibru, your way is that of greatness</l>
+        <l n="26">Surpassing description</l>
+        <l n="1">When you divide up the cosmic powers (it results in) a true lot that cannot be dispelled</l>
+        <l n="3">City, your inside is pure</l>
+        <l n="4">Your outside is pure</l>
+        <l n="6">Your body bears an aura</l>
+        <l n="7">Your site is a chosen(?) place</l>
+        <l n="10">The lord of wisdom, the Great Mountain Enlil, has built a shrine in your midst</l>
+        <l n="13">That shrine, the sparkling shrine, it is the shrine that is to determine fate</l>
+        <l n="16">The Ekur, the sparkling temple, it is the temple that is to determine fate</l>
+        <l n="19">Your ruler, Nunamnir, the young bull who inseminates the cosmic powers</l>
+        <l n="22">Mother Ninlil, the great queen of the Ki'ur complex, lady who gave birth to the cosmic powers</l>
+        <l n="26">What other god lives in the land like he and she?</l>
+        <l n="29">They have wrapped themselves with intelligence and counsel at the place of dusk</l>
+        <l n="2">They have sat down (in their thrones) with a reddish hue(?)</l>
+        <l n="5">They have sat down (in their thrones) among the true cosmic powers, the great powers, the cosmic powers of praise</l>
+        <l n="8">The Anuna gods look to them as their birth parents</l>
+        <l n="12">And therefore they listen to their pure and most precious words, uttered faithfully</l>
+        <l n="16">Both Enlil and Ninlil looked at the sky</l>
+        <l n="18">They made a (temporary) sanctuary(?) on the earth (according to the stars they saw)</l>
+        <l n="22">At that time, the intentions for the broad earth that great An had brought forth (for Enlil and Ninlil to see)</l>
+        <l n="25">The Anuna gods of heaven and earth set to work (to fulfill them)</l>
+        <l n="30">The hoe and the earth-moving basket, those (tools) which establish a city, were ... in their hands</l>
+        <l n="31">... Haya(?) and Nisaba</l>
+      </div>
+    </body>
+  </text>
+</TEI>

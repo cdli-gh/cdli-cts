@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000764, ex. 005</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346124</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346124.P346124.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">engar-ra dumu engar-ra-ke4-⸢ne⸣ [...]</l>
+            <l n="2">nu-{geš}kiri6-ke4 pu2 {geš}kiri6-še3#? x [...]</l>
+            <l n="3">{kuš}da-lu-uš2-da DA-ni nu-ga2-⸢ga2⸣ [...]</l>
+            <l n="4">sar-sar-ra nig2 mu-ni-ib-hul-hul [...]</l>
+            <l n="5">a-ša3 ki duru5 gal2-gal2-la-ba ⸢giri3⸣-⸢zu⸣ nu-[...]</l>
+            <l n="6">⸢mušen⸣ ⸢teš2⸣ nu-zu ⸢kisal⸣-e šed6 ⸢su3⸣-[...]</l>
+            <l n="7">kisal-luh tur ⸢e2⸣-⸢a⸣ ⸢sa⸣ lax(ME)-e-de3 eš3 mu-ni#?-x-⸢sar⸣-⸢re⸣</l>
+            <l n="8">[za]-pa-⸢ag2⸣-⸢zu⸣-ta e2-x im-suh3-suh3 KA x x [...]</l>
+            <l n="9">e2 kurušda-⸢ka⸣ ⸢mu⸣-[...]-⸢ku4⸣-⸢ku4⸣-[...]</l>
+            <l n="10">gu4 udu-gin7-⸢nam⸣ mi-[...]</l>
+            <l n="11">a sed4 {dug?}epig-a [...]</l>
+            <l n="12">za-e sa2 ⸢du11⸣-še3#? [...]</l>
+            <l n="13">mušen-du3-e a2#? [...]</l>
+            <l n="14">pa-za [...]</l>
+            <l n="15">gu3 ⸢de2⸣-⸢de2⸣ [...]-zu a-⸢na⸣-[...]</l>
+            <l n="16">gu3 hul-a-[...] hu#!?-luh u3#?-[...]-⸢mu⸣-un#?-ku#?-[...]</l>
+            <l n="17">mušen sug-ta e3-⸢ba⸣-⸢ra⸣ [za]-⸢pa⸣-ag2-zu ugu-gu10-ta#?</l>
+            <l n="18">pu2-sag iš dub-ba-ka e3-⸢ni⸣ ur5-ra me-te-zu-gin7</l>
+            <l n="19">u4-bi-a ku6-e mušen-⸢ra⸣ ⸢in⸣-še3 mu-ni-in-dub2</l>
+            <l n="20">mušen bar gun3-gun3 igi gun3-gun3 ⸢sa6⸣-ga-ni ⸢mu⸣-un-zu</l>
+            <l n="21">in ku6-e a-na mu-ni-in-dub2-ba</l>
+            <l n="22">i-gi-in-zu emeda{+da} u5-a-aš mu-ni-in-du11</l>
+            <l n="23">⸢inim⸣-še3! gu2-ni nu-mu-na-⸢ab⸣-šum2-mu zu2 hul mu-da-x-[...]</l>
+            <l n="24">u4-bi-a mušen-e ku6-ra ⸢mu⸣-⸢na⸣-ni-ib-gi4-gi4</l>
+            <l n="25">[a]-gin7 ša3-zu ša3 gur4-ra [...]-DU ni2-zu ⸢sun5⸣-⸢sun5⸣</l>
+            <l n="26">[...] x-dam ⸢ib2⸣-⸢ta⸣-[...] igi-zu-še3 igi nu-bar-re</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">In the furrow(!?), the members of the ranks of farmers should not (cease?) ... a net(?) for you</l>
+        <l n="2">The gardener should not (cease!?) setting up a net towards(?) the irrigated orchard for you</l>
+        <l n="3">His arm is not set apart (to rest) from(?) the sling, he does not bend his knee (to sit) because of you</l>
+        <l n="4">(You are) one who is destroying things/food in the garden, (you are) one who cannot sweeten the flesh (of the land?)</l>
+        <l n="5">Your feet are not good (for) fields that have wet patches</l>
+        <l n="6">Bird, shameless one who sprinkle feces in the courtyard</l>
+        <l n="7">The young sweeper who is sweeping in the temple is braiding(?) a rope there (for you)</l>
+        <l n="8">The palace(?) is confused by your scream, ...</l>
+        <l n="9">(They) bring one (of your kind) into the fattener's shed</l>
+        <l n="10">They make one (of your kind) babble like livestock</l>
+        <l n="12">You can then be accepted(?) as a regular offering</l>
+        <l n="13">The fowler delivers one (of your kind) with bound wings</l>
+        <l n="14">They(?) ... your wings/feathers(?) and face/eyes</l>
+        <l n="15">Your shouting has no limit, what (worth) is your flying?</l>
+        <l n="16">You frighten the night, one does not sleep well</l>
+        <l n="17">Bird, leave the marsh, (remove) your scream from above me</l>
+        <l n="18">Bring out a pit in the sand dunes(?), thus(?) is your appropriate (role)</l>
+        <l n="19">At that time the fish insulted the bird</l>
+        <l n="20">Because of it beauty, the bird knew about (its) multicolored back and multicolored face</l>
+        <l n="21">Whatever insults fish had assailed it with, (it did not ponder them)</l>
+        <l n="22">It was as if a nursemaid sang a lullaby</l>
+        <l n="23">It was not devoting itself to words(?), laughing malevolently (instead)(?)</l>
+        <l n="24">At that time, the birds was replying to the fish</l>
+        <l n="25">Thus your heart, produces exuberance(?), you are (actually) humiliating yourself</l>
+        <l n="26">Your mouth is a hole(?) which ... surrounded with teeth(?), (you cannot) see before yourself(?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

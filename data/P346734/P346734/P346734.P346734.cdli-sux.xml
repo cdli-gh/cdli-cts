@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0697</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346734</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346734.P346734.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] ⸢{gi#}gakkul3⸣ [...]</l>
+            <l n="2'">[... e2-kur]-⸢ra⸣ ninda ⸢he2⸣-[em-...]</l>
+            <l n="3'">[... keš2]-keš2#? lu2 nu-mu-ni?-[...]</l>
+            <l n="4'">[...] x NI keš2-keš2 lu2 nu-mu-ni#?-[...]</l>
+            <l n="5'">e2#?-kur#?-ra#?-ke4 inim lugal-la-ga2 [...] gizzal#!? in-ak zu2-keš2-bi? x [...]</l>
+            <l n="6'">{geš}ig-e e2-kur-ra-ke4 gu2-bi he2-em-mi#?-[...]</l>
+            <l n="7'">[...]-bi gu2-gal an-na-ke4 bar-bi? he2-⸢em⸣-[...]</l>
+            <l n="8'">[...] e2-kur-ra še-bi {gi}gakkul3 x [...]</l>
+            <l n="9'">[...] x e2-kur-ra ninda he2-em-[...]</l>
+            <l n="10'">[...] ⸢NI⸣ keš2-keš2 lu2 nu-⸢mu⸣-[...]</l>
+            <l n="11'">[...] za#?-gin3#?-na#? x [...]</l>
+          </div>
+          <div n="reverse" type="textpart"/>
+          <div n="left" type="textpart">
+            <l n="1">[...] x x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">The grain of the ... of the Ekur, a mash tub ...</l>
+        <l n="2'">May the ... of the Ekur eat(?) bread ...</l>
+        <l n="3'">... no one ...</l>
+        <l n="4'">... no one ...</l>
+        <l n="5'">That of the Ekur? ... the word of my king ..., ... paid attention(?), its groups/bundles/joints ...</l>
+        <l n="6'">May the door of the Ekur ... its neck ...</l>
+        <l n="7'">Its ..., the foremost of heaven, may it ... its back/outside(?)</l>
+        <l n="8'">The grain of the ... of the Ekur, a mash tub ...</l>
+        <l n="9'">May the ... of the Ekur eat(?) bread ...</l>
+        <l n="10'">... no one ...</l>
+        <l n="11'">... of lapis(?) ...</l>
+        <l n="1">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

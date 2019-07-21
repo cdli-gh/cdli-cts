@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0147</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346232</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346232.P346232.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">gidlam-zu? galla gal an-ki-a ni2? gal dingir-re-e-ne im#?-x-x</l>
+            <l n="2">u4 sumur huš uru2-gin7 zi-ga-bi nu-še-ga a2 nig2-x x x-dab5?-be2</l>
+            <l n="3">ur-sag me3-zu? ušum BALAG? du7-du7 mir-gin7 ib2? KU? x a-ga-ni-še3 gi4-bi nu-DU#?</l>
+            <l n="4">za3-ša4 a-a ugu-na igi-ni dingir na-me? nu-DU SUR2?-ni kur-kur-⸢ra⸣ UŠ? x-bi#? NE x x-⸢gal2⸣</l>
+            <l n="5">muš3!? sa6-ga-zu-še3 mi-ri!-in-ur4-ur4 ša3 ki ag2-ga2-ni#? mu-ra-an-til</l>
+            <l n="6">x [...] an {d}en-lil2-bi-da#? [...] x [...]</l>
+            <l n="7">a-a {d}[...] x x [...]</l>
+            <l n="8">ur-sag {d}nimin-tab-ba x x x x-bi ⸢ME⸣ [...] a2-bi mu-⸢na⸣-ag2-e</l>
+            <l n="9">⸢šutumx(|E2.GI.NA.TUM|)⸣ ku3-zu gu4 gal udu-i3 he2-gal2 šar2-⸢šar2⸣ a-a {d}nanna ninda mu-un?-gu7#?-x</l>
+            <l n="10">dingir gal-gal-e-ne-er {ninda}nindaba ba-e-il2 ⸢kur6⸣ mu-na-an-hal-ha</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">lu2 ⸢nam⸣-tag mušen-gin7 geš-bur2 dab5-ba a? x ku3? šum2? x-gin7? {geš}gibil gu7 kal-ga gu2?-ni? peš11-a</l>
+            <l n="2">lu2 šu!?-zu ti-la du11-ga eš3#? dingir-ra-ni? gu3 mu-ra-de2 x-zu mu-un-la2</l>
+            <l n="3">lu2-zu!? gaz2-de3 sag pel2-la2-ka mušen-gin7 geš-bur2 x-MU?-ni? u4 mu-na-ab-UD#?-x x x</l>
+            <l n="4">ur-sag {d}nimin-tab-ba igi-zu-še3!? na-me nu-DU za-⸢e⸣ a2 mu-na-ag2-[...]</l>
+            <l n="5">{d}udug e2-zu MIR? nu-KU lu2-erim2 gaz2-de3 u4-šu2-uš mu-ra-DU-[...]</l>
+            <l n="6">|I.DIB|#?-zu#? x x nam MU NIGIN e3-[...] igi nu-bar-re GALAM-bi ⸢mu⸣-[...]</l>
+            <l n="7">{d}alad? e2!?-zu igi bar lu2 ⸢sa6⸣-[...] a2-zu ga2-la [...]</l>
+            <l n="8">si-gar e2-zu du5-&amp;lt;la2&amp;gt; suhub3 {geš}x-šu-DI sag#?-[...] igi-ni du3? x [...]</l>
+            <l n="9">lu2 inim sa6-ge-zu šu? nu#?-kar2-kar2 mu-x-x {d}lamma-zu gil-sa-a-aš kur-ku#?</l>
+          </div>
+          <div n="left" type="textpart">
+            <l n="1">šu gal5-la2-bi mu-da-[...] x x tum2-mu-zu [...] x ki ag2</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Your? spouse, the great ranger of heaven and earth, (whose?) great aura(?) ... the gods(?)</l>
+        <l n="2">Fierce and reddish storm, its rising like a flood, seizing(?) ... the disobedient</l>
+        <l n="3">Hero, your battle (is?) a thrashing ... ušum creature(?), ... like a northern storm, its return(?) does not go(?) behind him</l>
+        <l n="4">Rival of his father, no god goes before him, his ... in the lands ...</l>
+        <l n="5">He gathered ... for you towards/on account of your beautiful face, he stops his loving heart(?) for you</l>
+        <l n="6">... both An and Enlil ...</l>
+        <l n="7">Father ...</l>
+        <l n="8">Hero Nimintaba ..., ... they issue commands to him</l>
+        <l n="9">Father Nanna eats(?) slaughtered great bull(s) and fattened sheep, abundance, (from?) your pure storehouse</l>
+        <l n="10">You(?) carried nindaba offerings for the great gods, and divided the food rations for them(?)</l>
+        <l n="1">Catching the sinful man with a {geš}bur trap/snare like a bird, like(?) ... eating saplings, mighty (one)(?) his neck growing thick(?)</l>
+        <l n="2">Your ... saying “live&quot;(?), who shouts to you in the shrine(?) of his(?) god, binds/diminishes(?) your ...</l>
+        <l n="3">Your(?) man who is to kill(?), when he(?) ... the head of the defiler(?) with a {geš}bur trap/snare like a bird, ... daylight? ...</l>
+        <l n="4">Hero Nimintaba, no one goes before you, you issue commands to ...</l>
+        <l n="5">The udug spirit of your temple does not ..., goes(?) for you daily in order to slaughter the enemy</l>
+        <l n="6">Your staircase(?) ..., (no one) sees (into), its height/stairs ...</l>
+        <l n="7">The look of(?) the alad? spirit of your temple betters a person(?) ... you arms are idle/open(?)</l>
+        <l n="8">The bolt of your temple, your pivot(?), bar, ..., ...., his face/eye ...</l>
+        <l n="9">Your man making words good, never denigrating, ..., your lamma protective spirit rejoices(!?) in the manner of(?) treasure</l>
+        <l n="1">The hand of the ranger/demon ..., when you/your bringing ..., beloved ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

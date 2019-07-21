@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0586</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346623</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346623.P346623.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">⸢nam⸣ [...] x x [...]</l>
+            <l n="2'">{d}lamma#? ⸢ukken⸣-⸢na⸣ eb#? [...]</l>
+            <l n="3'">{d}nin-gal nin ⸢mah⸣ [...]</l>
+            <l n="4'">za-a-še3 [...]</l>
+            <l n="5'">{d}nin-gal nin ⸢mah⸣ [...]</l>
+            <l n="6'">[...] x KA? ⸢NIG2⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">⸢nindaba⸣ [...]</l>
+            <l n="2'">⸢nindaba⸣ [...]</l>
+            <l n="3'">⸢nindaba⸣ [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">The protective lamma deity(?) of the assembly, ...</l>
+        <l n="3'">Ningal, supreme lady ...</l>
+        <l n="4'">Towards you/on your behalf ...</l>
+        <l n="5'">Ningal, supreme lady ...</l>
+        <l n="6'">...</l>
+        <l n="1'">nindaba offering ...</l>
+        <l n="2'">nindaba offering ...</l>
+        <l n="3'">nindaba offering ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

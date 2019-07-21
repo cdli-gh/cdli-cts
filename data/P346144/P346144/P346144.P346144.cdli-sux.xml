@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000364, ex. 050</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346144</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346144.P346144.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">lu2#? {geš}|DAR.GAG| ra igi bi2-[duh] a-na-gin7 i3-⸢gal2⸣</l>
+            <l n="2">x-TUG2 ama-gu10 lu2 he2-en-na-⸢ab⸣-⸢be2⸣ ti bur12-ra-ni a [...]</l>
+            <l n="3">{geš#?}sag-du ninda pad-pad-ra2-ni a bi2-ib-gul-la-a#?</l>
+            <l n="4">lu2#? urx(AMA)-ta šub-ba igi bi2-duh a-na-gin7 i3-gal2</l>
+            <l n="5">[...]-gin7 al-x-ma eh im-da-ab-gu7#?</l>
+            <l n="6">[...] a#?-a ama-na-ke4 sa2 bi2-in-du11-ga#?</l>
+            <l n="7">[igi] ⸢bi2⸣-duh a-na-gin7 i3-⸢gal2⸣</l>
+            <l n="8">ibila#? ba-an-da-kar#?-ra#? [...]-x ⸢šu⸣ al-dag#?-dag#?-ge#?</l>
+            <l n="9">[...] inim#? a!-a-na u3 ama!?-na [...] nu#?-te#?-ga2?-dam igi bi2-duh</l>
+            <l n="10">[...] ⸢i3⸣-⸢gal2⸣</l>
+            <l n="11">[...] x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1'">[...]-ni [...]</l>
+            <l n="2'">[...] ⸢BU⸣ al-[...]</l>
+            <l n="3'">[...] a!? [...]</l>
+            <l n="4'">[...]-a#? šub-ba igi bi2-[duh] a-na-gin7 [i3-gal2]</l>
+            <l n="5'">[...] sag-du nu-dab#?-dab#?-[...]-ne#? ⸢dam⸣-a-ni er2 ba-ni-še8-še8</l>
+            <l n="6'">[...] edin#?-na ⸢nu2⸣-na</l>
+            <l n="7'">[...]-ma igi! bi2-duh a-na-gin7 i3-gal2</l>
+            <l n="8'">[...] x-ta x-ta im-x-LU#?</l>
+            <l n="9'">[...] ki-si-ge? nu-tuku</l>
+            <l n="10'">[...] i3-gal2</l>
+            <l n="11'">[...] pad#? ninda pad-ra2-a-ni sila#? šub#?-ba i3-gu7#?-e</l>
+            <l n="12'">[...]-gar-ra tur-⸢tur⸣ [...] ⸢ni2⸣-bi nu-zu!?</l>
+            <l n="13'">⸢a⸣-na-⸢gin7⸣ [...]</l>
+            <l n="14'">⸢{geš#}bunig⸣ ku3#?-[...]</l>
+            <l n="15'">⸢lu2⸣ izi ⸢NE⸣-[...] igi bi2-bar? [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">Did you see the man who struck (and dislodged(?)) the mast/mooring pole/loom peg(!?)? How is he (found) there?</l>
+        <l n="2">(He says?) “Now, someone should say to my mother(?) “his torn out (dislocated) rib (i.e., boat planking)(!?) (let the) water (pour in?)”</l>
+        <l n="3">The (supporting) beam(!?) (crumbling) like breads crumbs, destroyed him(!?) with water(!?)</l>
+        <l n="4">Did you see the man who had fallen from the roof(!?) How is he (found) there?</l>
+        <l n="5">He ... like an ox, eaten by parasites</l>
+        <l n="6">...</l>
+        <l n="7">Did you see the man who was overtaken by(?) the curse(?) of his mother and father? How is he (found) there?</l>
+        <l n="8">(His) heir has absconded from him, his ghost(?) roams around</l>
+        <l n="9">...</l>
+        <l n="10">Did you see the man who was (intent to) not respect the command of his mother and father? How is he (found) there?</l>
+        <l n="11">...</l>
+        <l n="1'">His food is set aside, his water is set aside</l>
+        <l n="2'">...</l>
+        <l n="3'">He is eating ... food, he is drinking ... water</l>
+        <l n="4'">Did you see the man who fell in battle(?)? How is he (found) there?</l>
+        <l n="5'">There(?) his (father and?) mother do not grasp(?) (his?) head, his wife weeps</l>
+        <l n="6'">...</l>
+        <l n="7'">Did you see (the man) whose corpse lies(!) in the plain ...? How is he (found) there?</l>
+        <l n="8'">... apart from(?) ...</l>
+        <l n="9'">...</l>
+        <l n="10'">Did you see the ghost that does not have someone (to provide) funerary offerings (for him)? I saw him. How is he treated?</l>
+        <l n="11'">..., he eats his bread crumbs that have fallen (into) the street</l>
+        <l n="12'">...</l>
+        <l n="13'">&lt;Did you see&gt;(?) the tiny stillborn babies, who do not know their own names? How are they (found) there?</l>
+        <l n="14'">They play in a trough/bucket of gold and silver (filled with) honey and ghee</l>
+        <l n="15'">Did you see the man who was set on fire(?)? I looked around for him and did not see him</l>
+      </div>
+    </body>
+  </text>
+</TEI>

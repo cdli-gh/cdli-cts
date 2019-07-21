@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0140</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346225</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346225.P346225.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[...]-x a-ama#? a-ra-bi a tur-tur-bi</l>
+            <l n="2">⸢kul⸣-⸢ab⸣-ba{ki} ⸢a⸣-ama#? i-ra-bi a tur-x-bi#?</l>
+            <l n="3">⸢di4⸣-di4-la2#?-bi gal-gal-la-bi</l>
+            <l n="4">di4-di4-la2#!? a šu-ta du11-ga-am3-ta</l>
+            <l n="5">gal-gal-⸢la⸣ ⸢giri3⸣-⸢ta⸣ la-ha-bi</l>
+            <l n="6">iri#{ki#} ⸢hu⸣-⸢ul⸣-hu#?-⸢ul⸣-ti#? ba-bi-ra-gu10</l>
+            <l n="7">LAGAB#?{ki} ⸢mu⸣-lu x-URU2!?-ta ba-ra-gub-ba-gu10</l>
+            <l n="8">LAGAB#?{ki}-gu10 mu-me#?-en ⸢en⸣ li-bi-tar-ru#?-gu10</l>
+            <l n="9">LAGAB#?{ki} {d}nin-lil2 du mu-da-gu10</l>
+            <l n="10">x-na#? sa5-ki-ne du6-ba-gu10</l>
+            <l n="11">{d}nu-dim2-mud sag dub-ba-gu10</l>
+            <l n="12">iri#{ki} nam-tar gig-ga im!-ZU-du-a-gu10</l>
+            <l n="13">iri{ki} u4-du10-⸢ta⸣-gu10 ba-zi-ga-gu10</l>
+            <l n="14">iri{ki}-gu10 u4-du10-ta ba-ra-gub-ba-gu10</l>
+            <l n="15">iri#?{ki} zi-gu10? du5 GAM? MI sag-ga2 gu4?-e gar-ra-x</l>
+            <l n="16">uri2{ki}-e nin-bi du5? ha-ra-x-x</l>
+            <l n="17">{d}nin-lil2-le IGI GILIM KA2 TA NE mu-⸢ši⸣-im#?-x</l>
+            <l n="18">me-e lugal? URU-gin7 du5?-ba-la-še3#? du6#?-ba#?-la#?-še3#?</l>
+            <l n="19">u4 A2-ri-i-a u4 A2-ri-i-a</l>
+            <l n="20">an du-ba mu-gi-ba an-na-ke5</l>
+            <l n="21">kur gul-gul nin9#!? e2-an-na</l>
+            <l n="22">x KA x-ga si-si-ga-gu10</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">x x gal lu2-erim2 kunga-la-gu10</l>
+            <l n="2">⸢a⸣-⸢ga⸣-ak-nu ⸢{geš#?}ig⸣ lu#?-lim-ma-gu10</l>
+            <l n="3">a-ga-ag-al mah še-ga-an du11-ga-gu10</l>
+            <l n="4">igi u4?-da-ke5 igi a2-mi-in-du11</l>
+            <l n="5">ša3 u4?-da-ke5 in-ga-am-DU</l>
+            <l n="6">iri#?{ki#} ⸢nam⸣ tar gig-ga! im!-ma-du-a-gu10</l>
+            <l n="7">abul? ama mah {d}nin-lil2-da-gu10</l>
+            <l n="8">⸢abul⸣ x-GI e2#?-kur-ra-gu10</l>
+            <l n="9">gu2 im-mi-a x [...]-ru na-na-a</l>
+            <l n="10">iri#{ki} na-na-a#? [...]-x na-na-a</l>
+            <l n="11">mu-gi an-[...] x-an-na [...]</l>
+            <l n="12">kur gul-gul nin#? e2?-an-[...]-x</l>
+            <l n="13">a-a na-na-am dumu na-[na]-am</l>
+            <l n="14">tu15#? hul-GIM banda3{+da}-šub#?-ba-ta</l>
+            <l n="15">tu15#? hul-GIM banda3{+da}-bu#?-la#?-ta!? am3</l>
+            <l n="16">⸢ša3⸣ u4-da-GIM igi am-mi-in-du</l>
+            <l n="17">u4-ta e2? ku3-ga im-dam-si-ge-ta</l>
+            <l n="18">šir3-sag?-ga2#?-e a-na ma-ma-la ni2 mi-lam-ma#?-bi</l>
+            <l n="19">balag#!?-di#? a-na ⸢ma⸣-ra di i-a i-NIMIN? i-NIMIN?-NIMIN?-e</l>
+            <l n="20">e2 ku3-ga-ni-a nin#? mu-ul-ti-la am3</l>
+            <l n="21">e2 ku3 e2 še {d}nanna? in-dam-x-x-da</l>
+            <l n="22">mu-bi li-i? bi?-ir-bi?-re-ba in-du11#?-ga#?-a?-x</l>
+            <l n="23">x zi-da a2#?-ba gurum-ma-ni? x x [...] MU MU x [...]</l>
+            <l n="24">x an-na sahar#? NIG2 x sa x x x še-er x [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">The city, that which is pillaged, alas, its young ones</l>
+        <l n="2">Kulab, that which is pillaged, alas, its young ones</l>
+        <l n="3">Its young(est) ones, its old ones</l>
+        <l n="4">The young(est) ones, which hands were laid upon/which were watered by hand(!?)</l>
+        <l n="5">The old ones carried off by foot(?)</l>
+        <l n="6">My plundered city that is to be destroyed!</l>
+        <l n="7">My city(!?) which ... has stood apart from(!?)</l>
+        <l n="8">My city(!?) which the lord(!?) will not inquire after</l>
+        <l n="9">My city(!?) that Ninlil has been quarreling with</l>
+        <l n="10">My city that An(?) has been frowning at(?)</l>
+        <l n="11">My city that Nudimmud has grown angry at</l>
+        <l n="12">My city (for whom) a bitter fate was established(?)</l>
+        <l n="13">My city, which my udug protective spirit(!?) has arisen (away from)(?)</l>
+        <l n="14">My city, (whose) udug protective spirit(!?) stands apart from it(!)</l>
+        <l n="15">My true city, ...</l>
+        <l n="16">Ur, may(?) its lady ...</l>
+        <l n="17">Ninlil ... the gate(?) ...</l>
+        <l n="18">I ...</l>
+        <l n="19">The ... storm(?), the ... storm(?)</l>
+        <l n="20">The one who makes heaven tremble, the nugig midwife of heaven</l>
+        <l n="21">Destroyer of the mountain, lady(?) of the Eanna temple</l>
+        <l n="22">My ...</l>
+        <l n="1">My great ... the shining standard(!?)</l>
+        <l n="2">My gate(?) (where) the door of the red deer (is situated?)</l>
+        <l n="3">My supreme decorated gate</l>
+        <l n="4">The eye? of the storm has seen her</l>
+        <l n="5">The heart of the storm also ...</l>
+        <l n="6">My city (for whom) a bitter fate was established(?)</l>
+        <l n="7">My gate of(!) supreme mother Ninlil</l>
+        <l n="8">My ... gate of the Ekur temple</l>
+        <l n="9">The one who cries, it is indeed (for her) city</l>
+        <l n="10">It is indeed (her) city, it is indeed (her) temple(?)</l>
+        <l n="11">The nugig midwife of heaven, ...</l>
+        <l n="12">The utter destroyer of the mountain, the lady(?) of the Eanna temple(?)</l>
+        <l n="13">It is indeed (her) father (that is threatened), it is indeed (her) son</l>
+        <l n="14">The destructive wind is to be cast down upon her/... is to be cast upon her like a destructive wind(?)</l>
+        <l n="15">The destructive wind(?) is blow(?) upon her/... is to be ... upon her like a destructive wind(?)</l>
+        <l n="16">The heart of the storm has seen her(?)</l>
+        <l n="17">The storm is to(?) smite the pure temple</l>
+        <l n="18">The širsag lamentation singer(?) ... initiates (a lament)/a širsag lament is initiated(?), “(the temple or city's) aura and splendor”</l>
+        <l n="19">The balagdi lamentation singer(?) ... initiates (a lament)/a lamentation is initiated “(I am the lady of the Eanna?), weeping/roaming around(!?)”</l>
+        <l n="20">She is the lady(!?) who lived in her pure temple</l>
+        <l n="21">The holy temple, the pure(?) temple that is to be ...</l>
+        <l n="22">...</l>
+        <l n="23">The true ..., when she bends over(?) ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0146</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346231</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346231.P346231.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">[...] x bar#? kankal ki dab5?-ba-gin7 PAP? NE? nu-mu-x</l>
+            <l n="2">x ⸢ka⸣-giri3-a? giri3-us2-sa-gin7 du-lumx(MURGU2) ba-an-DU?-DU#?</l>
+            <l n="3">e2?-garx(MURGU2) ša3 sur3?-za zi ⸢šub⸣-zu du3-du3-a-gin7 ur2#?-gu10 ba-da-zal?</l>
+            <l n="4">anše-edin-na DA ŠEŠ x x aga-kar2 ba-an-si-ge</l>
+            <l n="5">ur-mah ub4 nig2-huš šub-ba x [...] x TAR#? ERIM#? DU? nu-tuku</l>
+            <l n="6">en-nu-ug3 en-&amp;lt;nu&amp;gt;-ug3 nu-me-a nam-uš2-ta? sa2#?-a</l>
+            <l n="7">u2 nu-nu2-nu2 nig2-gig-ga ša3-gu10-uš? ba-an-ku4-a#? ša3 hul ba-an-sur-re-en</l>
+            <l n="8">nam-kal mu2-a du10-ga-gu10 gu7-e ib2? ir? da ba-RI?</l>
+            <l n="9">x x u3-tu-da x-gu10 an-gin7 mu-⸢da⸣-su13 ki-x-AŠ mu-da-ku4</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] x DI-DI x HI ŠEŠ ba-la2-la2 ba KAM IL2?</l>
+            <l n="2">UD#? x x nam-tag nu-zu-gu10 sag x a#? ba-su13-u4-de3#?</l>
+            <l n="3">buru5 e-ne-še3 mi-⸢ni⸣-in-ur4-ur4 muš3-zu nu-pa3-de3</l>
+            <l n="4">ša3 ib2-ba ša3 gur-ru PA-du3 in-x-x-ba?</l>
+            <l n="5">gaba gur-ru ša3-⸢la⸣ su13 gi4 gur-ru šu dab5-ba za-kam</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">... threshing floor/uncultivated land, like seized land(?) ...</l>
+        <l n="2">The ... of the path(?), like the track, brings(?) toil</l>
+        <l n="3">Like a wall built for your rescue in the midst of your ditch(?), my base/lap(?) disintegrated(?)</l>
+        <l n="4">The “donkey of the plain” (onager) ... will smite ...</l>
+        <l n="5">A lion that fell into a pitfall ... does not have ...</l>
+        <l n="6">A guard who is not on guard(?) is comparable with death(?)</l>
+        <l n="7">(I?) will not lie down in the grass (so that!?) something bad could enter my stomach, (because) I will have terrible diarrhea</l>
+        <l n="8">Eating(?) my strong-growing, sweet tasting (crops?) ...</l>
+        <l n="9">... born, my ... which is distant(?) like heaven(?), I(?) enter into(?).../... alone(?)</l>
+        <l n="1">...</l>
+        <l n="2">... my blameless ... is far away/profound/undulating(?)</l>
+        <l n="3">Birds have gathered up towards him, he cannot see your face(?)</l>
+        <l n="4">An angry heart ... a relenting heart</l>
+        <l n="5">&quot;Turning the chest” (for?) compassion, returning, turning, “seizing&quot;(?), it is yours</l>
+      </div>
+    </body>
+  </text>
+</TEI>

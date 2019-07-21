@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000793, ex. 004</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346129</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346129.P346129.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x [...]</l>
+            <l n="2'">[...] ⸢ma⸣-ra-an#?-[...] ⸢arah4⸣ [...]</l>
+            <l n="3'">e2 ⸢e2⸣-e diri-ga#? [...] amaš gid2-da ma-⸢ra⸣-[...]</l>
+            <l n="4'">e2-e dug? mu-un-[...] kaš saga mu-un-de2#?</l>
+            <l n="5'">{kaš}AŠ2-AŠ2-imgaga3 ku7-ku7-dam gi-gar-re-eš mu-un-gal2</l>
+            <l n="6'">zu-a-zu hu-mu-un-ši-du-un kal-la-zu hu-mu-un-du-⸢un⸣</l>
+            <l n="7'">dumu gu5-li-zu nam-mu-ni-ib-tak4-tak4-a</l>
+            <l n="8'">ku4-ra-ma-ni-⸢ib⸣ dumu ki ag2-gu10</l>
+            <l n="9'">ku4-ra-ma-ni-ib dumu sa6-ga-gu10</l>
+            <l n="10'">u4 nam-zal-e ge6 nam-sa2-e</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">⸢iti6⸣ &amp;lt;e2&amp;gt;-ba nam-ba-ni-ib-ku4-ku4</l>
+            <l n="2">u4 me-e-zal-la-gin7 ge6 me-e-sa2-a-gin7</l>
+            <l n="3">ku4-ra ba-ni-hun-ge26 ki gar ma-ra-ab-du7</l>
+            <l n="4">ša3-ba dur2!? gar-ke4 si ma-ra-ab-sa2-e</l>
+            <l n="5">ku6-gu10 lu2 nu2-a-gu10 ba-ra-&amp;lt;&amp;lt;ra&amp;gt;&amp;gt;-zi-zi</l>
+            <l n="6">lu2 tuš-a-gu10 du17 ba-ra-mu2-mu2</l>
+            <l n="7">ku4!-ra-ma-ni-ib dumu ki ⸢ag2⸣-gu10</l>
+            <l n="8">ku4-ra-ma-ni-ib dumu sa6-ga-⸢gu10⸣</l>
+            <l n="9">i7 mun3-na-gin7 na-ba-al [...]</l>
+            <l n="10">sahar-gar i7-gin7 zi-zi [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">... built a house for you, ... built a storeroom for you</l>
+        <l n="3'">... built a house that is more than a house(!?), a long (sided?) sheepfold for you</l>
+        <l n="4'">In the house .... pot(s)? and poured(?) good quality beer (in them)</l>
+        <l n="5'">... put sweet beer up to the fence</l>
+        <l n="6'">So that your acquaintance(s) come towards you(!?), so that your friends come towards you(!?)</l>
+        <l n="7'">Do not abandon the child of your friend</l>
+        <l n="8'">Enter it for me, my beloved child</l>
+        <l n="9'">Enter it for me, my beautiful child</l>
+        <l n="10'">Don't spend the day (idle?), don't spend the night (idle?)</l>
+        <l n="1">Do not bring moonlight into the house</l>
+        <l n="2">As I have spent the day(?), as I have spent the night(?)</l>
+        <l n="3">The one who enters is pacified there, the area(?) has been made appropriate for you</l>
+        <l n="4">Sitting down in its midst(?) is set in order for you</l>
+        <l n="5">My fish, so that my one(s) who sleep (there) do not wake up</l>
+        <l n="6">So that my one(s) who dwell (there) do not quarrel</l>
+        <l n="7">Enter it for me, my beloved child</l>
+        <l n="8">Enter for me, my beautiful child</l>
+        <l n="9">Do not dig (in it?) like a brackish waterway ...</l>
+        <l n="10">Like river silt, do not learn how to rise (i.e., be excavated(?))</l>
+      </div>
+    </body>
+  </text>
+</TEI>

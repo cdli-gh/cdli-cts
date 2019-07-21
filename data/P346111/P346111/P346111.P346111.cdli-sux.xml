@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000778, ex. 014</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346111</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346111.P346111.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1">⸢addax(|BAD.LU2|)⸣ {geš}al-e ki-ta tum-ma-am3</l>
+            <l n="2">⸢sul⸣ idim an-na šeš banda3{+da} {d}nergal-ka</l>
+            <l n="3">⸢ur⸣-sag {d}gilgames3-e {geš}al-e sa-par4-am3</l>
+            <l n="4">dumu {d}nin-sumun2-ka {geš}gisal-e dub-sag-am3</l>
+            <l n="5">{geš}al-lub i7-da kingal-am3</l>
+            <l n="6">ka2#? agrun-na-ka {geš}al-e sukkal-am3</l>
+            <l n="7">⸢hul⸣-gal2 u4-nu2-a dumu {geš}al-me-eš</l>
+            <l n="8">[...] du11-ga-ta an-ta u3-tu-de3-AN</l>
+            <l n="9">[... al]-⸢ti⸣-ri2-gu7{mušen} dingir-ra</l>
+            <l n="10">[... {geš}al]-lub#?-am3 geš-gi ur-ra-⸢am3⸣</l>
+            <l n="11">[...] ⸢ušumgal⸣-⸢am3⸣</l>
+            <l n="12">[...]-al-am3</l>
+            <l n="13">[...] {geš#?}al-lu5-hab2-ba</l>
+            <l n="14">[...] {geš}ma-al-tum-ma</l>
+            <l n="15">[...] {geš}ma-a-a-al-tum{ki?}</l>
+            <l n="16">[...] {geš#}ar-ga-bi2-lu5</l>
+            <l n="17">[...]-bi du10-ga-am3 hur-sag-ga2 mu-un-gal2?</l>
+            <l n="18">[...] {geš}al-la-nu-um-ma</l>
+            <l n="19">[...] {geš#}ar-ga-nu-um-ma</l>
+            <l n="20">[...] {na4#}sal!-⸢hub2⸣ [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...]-⸢lum⸣-ma ⸢{geš}al⸣ lam-lam-ma</l>
+            <l n="2">[...]-⸢ga⸣-am3 {geš}al sa-par4-am3</l>
+            <l n="3">[...] ⸢u3⸣-šub-ba al sag gal2-la-⸢am3⸣</l>
+            <l n="4">[...] ⸢a2⸣ ⸢nam⸣-guruš-a-ka</l>
+            <l n="5">[...] ⸢nig2⸣ uru17{ki} du3-du3-de3</l>
+            <l n="6">[...]-⸢du3⸣-e e2 zi ⸢al⸣-[ga2]-ga2</l>
+            <l n="7">[...] ⸢šu⸣ dagal-⸢la⸣-e-de3-en</l>
+            <l n="8">[...]-⸢bi⸣-ir bala-e</l>
+            <l n="9">[...]-ir gu2 ⸢nu⸣-gar-ra-⸢am3⸣</l>
+            <l n="10">[...]-⸢bi⸣-ir gu2 mu-un-na-ab-⸢ga2⸣-⸢ga2⸣</l>
+            <l n="11">[...]-hul-ba sag-ba dub2-dub2-ba</l>
+            <l n="12">[...]-re#? ⸢pa⸣-ba mu-un-zi-re</l>
+            <l n="13">[... {u2}]hirim#? hu#!?-ri2#?-in#?-na#? šu-še3 ⸢al⸣-⸢ga2⸣-⸢ga2⸣</l>
+            <l n="14">[...] ⸢nam⸣ tar-ra a-⸢a⸣ ⸢[{d}]en⸣-lil2-kam#!?</l>
+            <l n="15">{geš}al-e &amp;lt;za3&amp;gt;-mi2 du11-ga {d}nisaba ⸢za3⸣-mi2</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1">The hoe is the one that exhumes the corpse(?) from the ground</l>
+        <l n="2">The youth, the important one(?) of heaven/An, he is the younger brother of Nergal</l>
+        <l n="3">Hero Gilgamesh, (for him?) the hoe is a sabar net</l>
+        <l n="4">He who is the son of Ninsumun, (for him?) the oar is first(?)</l>
+        <l n="5">The allub tool is the kingal official on/in the river</l>
+        <l n="6">At the door(?) of the agrun chamber/building, the hoe is the vizier</l>
+        <l n="7">Evildoers are children of the hoe during the waning moon(?)</l>
+        <l n="8">By means of/in(?) the regular day(?) they(!?) are being born apart from heaven(?)</l>
+        <l n="9">...</l>
+        <l n="10">Towards the earth it is the allub tool, (in) the reedbed it is a dog</l>
+        <l n="11">In the thicket it is an ušumgal creature</l>
+        <l n="12">At the site of battle it is ... ax</l>
+        <l n="13">At the site of the fortification, it is an alluhab net(!?)</l>
+        <l n="14">At the place of the table, it is a bowl</l>
+        <l n="15">At the site of a chariot, it is a mayaltum wagon(!?)</l>
+        <l n="16">In the donkey stable, it is an argibil structure</l>
+        <l n="17">It is the hoe, its good name is present in(?) the mountain range</l>
+        <l n="18">The tree of the mountain range is the oak tree</l>
+        <l n="19">The aromatic of the mountain range is (of the) arganum tree</l>
+        <l n="20">The stone of the mountain range is algameš stone</l>
+        <l n="1">The hoe makes ... fructify, the hoe make ... flourish</l>
+        <l n="2">The hoe makes barley good(?), the hoe is (used with?) the sabar net</l>
+        <l n="3">The hoe is (used with?) the brick-mold, the hoe set the head (in it)(?)</l>
+        <l n="4">The hoe is the strength of youth</l>
+        <l n="5">The hoe and the earth-carrying basket are those that are to build the city</l>
+        <l n="6">The true temple is being built, the true temple is being established/maintained</l>
+        <l n="7">You are to broaden the fertile field(?)</l>
+        <l n="8">The field that is revolting against its master</l>
+        <l n="9">The field that does not submit to its master</l>
+        <l n="10">The hoe makes it submit to its master</l>
+        <l n="11">The smiter of the “evil rushes”</l>
+        <l n="12">It tears it out at its roots, it breaks(?) at its branches</l>
+        <l n="13">The hoe was setting the hirim grass at the hand</l>
+        <l n="14">The hoe, the wood(en implement) decreed a destiny by father Enlil</l>
+        <l n="15">Hoe, praise! Nisaba, praise!</l>
+      </div>
+    </body>
+  </text>
+</TEI>

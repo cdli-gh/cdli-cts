@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0609</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346646</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346646.P346646.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart">
+            <l n="1'">[...] x x [...]</l>
+            <l n="2'">[...]-e#?-ne u3-x [...]</l>
+            <l n="3'">[...] kalam#?-ma lu2 nu-še-[ga ...]</l>
+            <l n="4'">[...] ⸢e2⸣-kiš-nu-gal2 KA x [...]</l>
+            <l n="5'">[...] x en3 tar gu2 an-še3#? [...]</l>
+            <l n="6'">[...] x x nam-mah-ni x [...]</l>
+            <l n="7'">[...]-erim2#?-še3 šu zi-⸢ga⸣ lul zi x x [...]</l>
+            <l n="8'">[...] ki ag2 nig2-gi-na geš!?-la2-bi nu-x-[...]</l>
+            <l n="9'">[...] ⸢ug3⸣ lu-a inim ša3-⸢ga⸣ lul zi x x x</l>
+            <l n="10'">[...] x-gin7 ku-kur il2-la a-ra2-bi x nu-x-x-x</l>
+            <l n="11'">[...] NI si-ge x x DE2#? SU an-ki-a x x x</l>
+            <l n="12'">[...] x-ma x uludin2#? gu4?-alim#?-ma nun-na</l>
+            <l n="13'">[...] x x x x x x ti-ri2-da nu-gal2#?</l>
+            <l n="14'">[...] x x [...]</l>
+          </div>
+          <div n="reverse" type="textpart">
+            <l n="1">[...] x x [...] ⸢nam⸣-x [...] ⸢ku4⸣-ku4#?-da#?-zu#? x x x x [...]</l>
+            <l n="2">[...] igi bar#? lu2 sa6 inim#? sa6-ge ku4-ku4-da-zu ga2-la nu?-x-x-x</l>
+            <l n="3">[...] x-e geš tuku šu ⸢sa2⸣ giri17 šu gal2 šu si sa2-še3 igi-ni? i3#?-⸢gal2⸣</l>
+            <l n="4">[...] x-da-zu šu nu-kar2-kar2 mu-ni pa3-da {d}lamma-zu GILIM x KUR x</l>
+            <l n="5">[...] x x {geš}rab3 gal ug3 ⸢šar2⸣-ra u4 mir erim2 ru-ru-gu2?</l>
+            <l n="6">[...] a2 ag2-bi šid-šid a-ra2-bi GALAM EN</l>
+            <l n="7">⸢siskurx(|AMAR.AMAR|)⸣ dingir-re-e-ne ka ba-ni lu2 sa6-ge#? [...]</l>
+            <l n="8">[...] ni2-te-na e3 i-lim-bi kur-kur-ra ⸢dul⸣-[...]</l>
+            <l n="9">[...] nam-sa6-ge šu du7 sag-ki huš la-la x-[...]</l>
+            <l n="10">[...] x NIG2 eš3 e2-kiš-nu-gal2 nin?-zu? x [...]</l>
+            <l n="11">[...] igi#?-za? še-eb u4 nam-ti-la su3-u4 x [...]</l>
+            <l n="12">[...] x-bi he2-me-en mu ⸢pa3⸣ x x [...]</l>
+            <l n="13">[...] x x-bi2-ib u3-ma gub#?-[...]</l>
+            <l n="14">[...] x he2-eb-x-[...]</l>
+            <l n="15">[...] x ⸢{d#}nin⸣-[...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">... of/in the land, the disobedient person ...</l>
+        <l n="4'">... the Ekišnugal temple ...</l>
+        <l n="5'">... the one who inquires after ..., raising? ... above</l>
+        <l n="6'">... his greatness ...</l>
+        <l n="7'">... raising a hand (violently) against the evildoer, ... falsehood and truth ...</l>
+        <l n="8'">... lover of justice, its deathly silence did not arrive(?)</l>
+        <l n="9'">... the thriving people ..., (their?) false and true thought(s)</l>
+        <l n="10'">... forming a wave like ..., its course ... did not ...</l>
+        <l n="11'">... the flesh/skin(!?) of the universe</l>
+        <l n="12'">... its features (that of?) a “noble bison”</l>
+        <l n="13'">... the runaway/outcast/outlaw was not present?</l>
+        <l n="14'">...</l>
+        <l n="1">Your .... that brings in(?) ...(?) ...</l>
+        <l n="2">... your look(?) that brings in(?) good people who are praying/flattering(?) does not cease(?)</l>
+        <l n="3">... who pays attention to attentiveness, ..., stroking the nose in submission, and setting things in order by hand(?)</l>
+        <l n="4">Your ... does not denigrate, his chosen name, your protective lamma, ...</l>
+        <l n="5">..., great neckstock of the mult{iti}inous people, furious storm opposing the enemy(?)</l>
+        <l n="6">..., reciting its commands, ... its way</l>
+        <l n="7">... his ordering of the siskur offerings(?) of the gods betters man(kind)(?)</l>
+        <l n="8">... coming/bringing out ... by himself/his own, its aura covering the lands</l>
+        <l n="9">... perfecting goodness, fearsome temples, satisfying with (its) plentitude/happiness(?)</l>
+        <l n="10">... shrine Ekišnugal, your lady(?) ...</l>
+        <l n="11">... in your front brickwork, ... prolonging the days of lifetime ...</l>
+        <l n="12">May you be its ..., chosen name ...</l>
+        <l n="13">..., attain a victory(?)</l>
+        <l n="14">... so that ...</l>
+        <l n="15">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

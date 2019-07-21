@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0064</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346149</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern references an inscribed surface.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references a specific artefact, usually a tablet.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346149.P346149.cdli-sux" type="edition" xml:lang="sux">
+        <div n="tablet" type="textpart">
+          <div n="obverse" type="textpart"/>
+          <div n="reverse" type="textpart"/>
+          <div n="1'" type="textpart">
+            <l n="1'">⸢inim⸣ [...]</l>
+            <l n="2'">ga-ba-[al ...]</l>
+            <l n="3'">x [...]</l>
+            <l n="4'">šah2 lu#?-[...]</l>
+            <l n="5'">anše [...]</l>
+            <l n="6'">ša3 gi4-[...]</l>
+            <l n="7'">x [...]</l>
+          </div>
+          <div n="2'" type="textpart">
+            <l n="1'">[...] x x [...]</l>
+            <l n="2'">[...]-⸢ib⸣-zu-zu#?-[...]</l>
+            <l n="3'">[...]-x-x-x ⸢teš2⸣ he2-em-ma-[...]</l>
+            <l n="4'">[...] ⸢ba⸣-⸢ni⸣-[...]-x ⸢za⸣-na nu-ub-ši-si-⸢ge5⸣-[...]</l>
+            <l n="5'">[...]-en#?-⸢za⸣-na#? x ⸢la⸣-ba-an-du8-ru-ne-en-za-na-ta</l>
+            <l n="6'">[...]-⸢ze2⸣-⸢en⸣ ⸢ugula⸣-⸢me⸣ di he2-ni-ib-⸢dab5⸣-be2</l>
+            <l n="7'">[...] šu-ga2 mu-e-šum2</l>
+            <l n="8'">[... he2]-ib-šid-de3-e-ne</l>
+            <l n="9'">[... he2]-ib-gin6-ne2-e-ne</l>
+            <l n="10'">[...] mu-e-da-a-ag2</l>
+            <l n="11'">[... li]-⸢bi2⸣-in-ak-eš nigin nu-un-šid-de3-eš</l>
+            <l n="12'">[...]-⸢bi⸣-še3 du14-da ba-ni-ib-ri-⸢eš⸣</l>
+            <l n="13'">[...] a-ba ⸢me⸣-[eš]</l>
+            <l n="14'">[...]-x-gal2 u3 {diš}{d}en-ki-ta-lu2-am3 e-⸢ne⸣-[...]</l>
+            <l n="15'">[... a]-na-gin7-nam zi in-gi4-[...]</l>
+            <l n="16'">[... ba]-an-ti-eš inim-še3 la-⸢ba⸣-[...]</l>
+            <l n="17'">[...] ugu-zu-uš im-⸢ma⸣-[...]</l>
+            <l n="18'">[...] gal2-la-am3#? [...]</l>
+          </div>
+        </div>
+      </div>
+      <div type="translation">
+        <div n="tablet" type="textpart"/>
+      </div>
+      <div type="translation" xml:lang="en">
+        <l n="1'">(User of) hostile words, (creator of?) hostility, evil person(?)</l>
+        <l n="2'">You will (repeatedly) argue</l>
+        <l n="3'">... whose belly/inside is overflowing with ...</l>
+        <l n="4'">Mud-spattered pig, dog that ...</l>
+        <l n="5'">Donkey that eats its own bed</l>
+        <l n="6'">You can argue with me by means of your truthful(?) heart?</l>
+        <l n="6'">(double ruling)</l>
+        <l n="2'">I(?) spoke to him two times, thus he is aware</l>
+        <l n="3'">On account of the fact that one has insulted(?), he has aquired pride(?)</l>
+        <l n="4'">Children, you are the ones who engage in quarreling, we do not ...</l>
+        <l n="5'">After you (pl.) do not take the case, and do not sit for testimony(?)</l>
+        <l n="6'">Come, ..., our overseer should take the case</l>
+        <l n="7'">Overseer of my colleagues, you entrusted me (with a task)</l>
+        <l n="8'">&quot;They should count up the assignment”</l>
+        <l n="9'">&quot;They should correct the total”</l>
+        <l n="10'">You ordered me thus</l>
+        <l n="11'">(But) they did not ..., they did not count up the total</l>
+        <l n="12'">Today(?) and daily, they quarrel there (instead)</l>
+        <l n="13'">Who are they? Who are they?</l>
+        <l n="14'">The two are Enkihegal(!) and Enkitalu</l>
+        <l n="15'">Come, you, how will they calm down?</l>
+        <l n="16'">They did not accept the case, and did not sit for testimony(?)</l>
+        <l n="17'">You(?) are distressed, ... comes upon you</l>
+        <l n="18'">What juveniles are present in the place of instruction?</l>
+      </div>
+    </body>
+  </text>
+</TEI>
