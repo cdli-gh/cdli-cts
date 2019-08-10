@@ -18,9 +18,10 @@ will make the texts more accessible.
 ## Updating
 
 Cuneiform transcriptions are normally maintained in the
-[ATF]() format. To add new texts or update the collection
-run the export through the `atf2cts` tool from the
-[atf2tei](https://github.com/cdli-gh/atf2tei) package.
+[ATF](http://oracc.museum.upenn.edu/doc/help/editinginatf/primer/) format.
+To add new texts or update the collection run the export through
+the `atf2cts` tool from the [atf2tei](https://github.com/cdli-gh/atf2tei)
+package.
 
 For example, fetch the latest data export published by
 the cdli:
