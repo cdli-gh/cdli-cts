@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -120,91 +117,6 @@
             <l n="39">[...] x du6-du6-da</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Urim has initiated lamentation to her detriment(?)</l>
-        <l n="2">Her city is destroyed to her detriment, her cosmic powers are changed to her detriment</l>
-        <l n="3">It is its gešgigal “response”</l>
-        <l n="4">At that time, this time after (the city) was flattened</l>
-        <l n="5">To the detriment of the lady, her city is destroyed</l>
-        <l n="6">Her city is destroyed to her detriment, her me are changed to her detriment</l>
-        <l n="7">At that time, this time after (the city) was created</l>
-        <l n="8">When they have spoken (the order for)/ordered(!?) my city to be destroyed</l>
-        <l n="9">When they have spoken (the order for)/ordered(!?) Urim to be destroyed</l>
-        <l n="10">When they have ordered(!?) its people to be killed</l>
-        <l n="11">At that time I will not be indifferent to my city</l>
-        <l n="12">(I) will not neglect my land</l>
-        <l n="13">For An, I shall pour (the tears!) of my eyes</l>
-        <l n="14">I shall supplicate myself to Enlil(?)</l>
-        <l n="15">I shall say to him “My city must not be destroyed”</l>
-        <l n="16">I shall say to him “Urim must not be destroyed”</l>
-        <l n="17">I shall say to him “Its people must not be killed(!?)”</l>
-        <l n="18">Despite this An did not rescind his word</l>
-        <l n="19">Despite this (the statement) “It is good, so be it” of Enlil was not soothing my heart</l>
-        <l n="20">Therefore when they have ordered(!) my city to be destroyed</l>
-        <l n="21">When they have ordered(!) Urim to be destroyed</l>
-        <l n="22">When they have ordered(!) its people to be killed</l>
-        <l n="23">For a 2nd time, after they convened an assembly, a “solemn place”</l>
-        <l n="24">The Anuna rested on the “organized” (i.e., finalized?) word?</l>
-        <l n="25">Therefore (I?) shall extend(?) (my) limbs/lap and tie up(?) (my) hair</l>
-        <l n="26">For An, I shall pour the tears of my eyes</l>
-        <l n="27">I shall supplicate myself to Enlil(?)</l>
-        <l n="28">I shall say to them(?) “My city must not be destroyed”</l>
-        <l n="29">I shall say to them(?) “Urim must not be destroyed”</l>
-        <l n="30">I shall say to them(?) “Its people must not be killed(!?)”</l>
-        <l n="31">Despite this An did not rescind his word</l>
-        <l n="32">Despite this (the statement) “It is good, so be it” of Enlil was not soothing my heart</l>
-        <l n="33">Therefore when they have ordered(!) my city to be destroyed</l>
-        <l n="34">When they have ordered(!) Urim to be destroyed</l>
-        <l n="35">When they have ordered its people to be killed</l>
-        <l n="36">I, as one who gave my advice(?) to my detriment(?)</l>
-        <l n="37">... therefore shall also bind me with my city</l>
-        <l n="38">... therefore shall also bind Urim with me</l>
-        <l n="39">An is never again to change this word</l>
-        <l n="40">That which issues from the mouth of Enlil is not to be changed/Enlil will not change that which issues from his mouth(?)</l>
-        <l n="41">It is the 4th kirugu</l>
-        <l n="1">To the detriment of the lady, her city is destroyed</l>
-        <l n="2">Her city is destroyed to her detriment, her cosmic powers are changed to her detriment</l>
-        <l n="3">It is the gešgigal “response”</l>
-        <l n="4">Enlil spoke to the storm, and the people wailed</l>
-        <l n="5">He deprived the land of(?) days of abundance, and the people wailed</l>
-        <l n="6">He deprived Sumer of good days, and the people wailed</l>
-        <l n="7">He commanded the malevolent storm, and the people wailed</l>
-        <l n="8">He gave them to(?) the kiggal official(?) of the storm, his attendant storm/who stood within the storm(?)</l>
-        <l n="9">He spoke to the storm annihilating the land, and the people wailed</l>
-        <l n="10">He spoke to the great storm, the one of An, and the people wailed</l>
-        <l n="11">Enlil was making Gibil (fire) into his helper</l>
-        <l n="12">He spoke to the great storm of An, and the people wailed</l>
-        <l n="13">The great storm was shouting from above, and the people wailed</l>
-        <l n="14">The storm annihilating the land roared upon the earth</l>
-        <l n="15">An evil wind, overflowing like a great flood does not set down its power/wing(?)</l>
-        <l n="16">In the city the weapon was murdering and devouring (as if) in a pack</l>
-        <l n="17">At the base of heaven (the storm?) gnawed(?), and the people wailed</l>
-        <l n="18">The storm was burning with fire at its front</l>
-        <l n="19">And therefore the raging storm(?), like a “fire-shade&quot;... at its back/... fire like deep shade(?) at its back</l>
-        <l n="20">Noon, (which usually) raises the “rainy wind” (fog?) burned fire</l>
-        <l n="21">Mid-day, (which usually) brings out bright sunlight, brought darkness along with it(!?)</l>
-        <l n="22">The shining sun did not come out in the land, it dissipated like the evening</l>
-        <l n="23">The southern wind blocked/combined with (to negate) the joyful night which initiates the cooling of water(?)</l>
-        <l n="24">Burning(?) sherds combined with the soil, and the people wailed</l>
-        <l n="25">(The storm) blew a wind upon the black-headed people, and the people wailed</l>
-        <l n="26">Sumer was tripping(?) as if (in) a snare, and the people wailed</l>
-        <l n="27">The people(?) were erecting a wall of heads(?), (the storm) devouring (as if) in a pack</l>
-        <l n="28">The bitter storm, for which weeping was not decreed as its fate(?), (because of this) the people wailed</l>
-        <l n="29">The eradicating/gathering(?) storm was sweeping the land/making the land tremble</l>
-        <l n="30">The storm utterly destroyed the city like a flood</l>
-        <l n="31">The storm that was finishing the land established silence in the city</l>
-        <l n="32">The storm burning like fire was enraged with/corporeally burned(?) the people(?)</l>
-        <l n="33">The storm that is to cause (everything) to be forgotten stood among the malevolent (ones?)</l>
-        <l n="34">The hateful storm, ordered by Enlil, the storm that ... the land</l>
-        <l n="35">It covered Ur like a garment, spread over it like linen</l>
-        <l n="36">It is the 5th kirugu</l>
-        <l n="37">The storm is a lion(?), thrashing(?), and the people wail</l>
-        <l n="38">It is its gešgigal “response”</l>
-        <l n="39">At that time(!) the storm was placed together with the city, the city was ruin heaps</l>
       </div>
     </body>
   </text>

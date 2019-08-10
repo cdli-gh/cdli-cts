@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346649.P346649.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] a mu-un-x</l>
             <l n="2'">[...] ⸢im⸣-mi-in-gar</l>
             <l n="3'">[... hi]-li mu-un-gur3</l>
@@ -56,39 +54,16 @@
             <l n="18'">[...]-a sag-e-eš x rig7-ni-ib</l>
             <l n="19'">[...] ug3 sag-gig2 u6 du10-ge-eš x-[...]</l>
             <l n="20'">[...] x UN#? [...]</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x</l>
+            <note>lines broken</note>
             <l n="2'">[...] x [...] x kalam-ma ha-ba-diri</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">... put/established ...</l>
-        <l n="3'">... bore allure</l>
-        <l n="4'">Relaxing/cooling ...</l>
-        <l n="5'">... covering the lands</l>
-        <l n="6'">... to be raised</l>
-        <l n="7'">... its stature/physique/features filled with plenty</l>
-        <l n="8'">... his beloved spouse(!?)</l>
-        <l n="9'">...</l>
-        <l n="10'">... decreed a fate for you and lent weight to your command</l>
-        <l n="11'">... seeking/continually sought(?) your divine decree</l>
-        <l n="12'">They have established your/his(!?) clean(?) ... on behalf of your reign</l>
-        <l n="13'">... suitable for the many people</l>
-        <l n="14'">May ... dwell in the Ebabbar as treasure</l>
-        <l n="15'">... standing/serving</l>
-        <l n="16'">... the one who knows ... he/she shall be an unwavering lord/en functionary(?)</l>
-        <l n="17'">... the perfected plans</l>
-        <l n="18'">Bestow ...</l>
-        <l n="19'">... so that the people, the black headed gaze sweetly(?) ...</l>
-        <l n="20'">...</l>
-        <l n="1'">...</l>
-        <l n="2'">May ... be surpassing in the land</l>
       </div>
     </body>
   </text>

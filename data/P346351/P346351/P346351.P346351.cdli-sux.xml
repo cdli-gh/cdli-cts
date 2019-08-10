@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,20 +33,17 @@
       <div n="urn:cts:cdli:P346351.P346351.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>space blank</note>
             <l n="1">in-nu in dub2-ba</l>
             <l n="2">in ma-an-du11</l>
             <l n="3">su-lum nu-mu-un-mar</l>
             <l n="4">su-lum mar ma-an-du11#!?</l>
+            <note>space blank</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>space blank</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="2">There is no insulter(?), yet ... insulted me</l>
-        <l n="4">No one(?) has treated ... with contempt, yet ... treats me(?) with contempt</l>
       </div>
     </body>
   </text>

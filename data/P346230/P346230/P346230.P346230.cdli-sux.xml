@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -101,78 +98,12 @@
             <l n="28">har-ra-an-na {lu2}sa-gaz2 ba-e-tuš</l>
             <l n="29">⸢abul⸣ kalam-ma-ka {geš}ig IM-ma bi2-in-gub</l>
             <l n="30">⸢kur⸣-kur-re bad3 uru17-ne-ne-ke4 gu3 gig mi-ni-ib2-be2-ne</l>
+            <note>double ruling</note>
           </div>
           <div n="bottom" type="textpart">
             <l n="1">1(geš2)</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">As if to(?) cut/separate(?) it like the mountain range of lapis lazuli</l>
-        <l n="2">In order to bring (its) neck to the ground like a city that Iškur had poured (upon)</l>
-        <l n="3">Although the temple was not (in/of) the mountain of the cut cedar/juniper</l>
-        <l n="4">He brought(?) great hazin axes towards it</l>
-        <l n="5">He sharpened along both edges of the agasilig ax</l>
-        <l n="6">He set the gidim implement into its base</l>
-        <l n="7">It was excavated up to the foundation of the land</l>
-        <l n="8">He set the hazin ax into its “branches”</l>
-        <l n="9">The house fell with its neck to the ground like a dead young man</l>
-        <l n="10">The whole of the lands fell with their necks to the ground</l>
-        <l n="11">He split its rainpipe away from it</l>
-        <l n="12">The rain that had fallen went (back) up into heaven</l>
-        <l n="13">He removed (the ornaments?) from the gate/door, (the temple's/land's?) dignity changed</l>
-        <l n="14">He cut down barley at the gate/door where barley was not cut</l>
-        <l n="15">He cut off barley from the hand of the land</l>
-        <l n="16">He made the pickax strike the gate/door of well being</l>
-        <l n="17">The well-being of all the lands(?) changed</l>
-        <l n="18">Like(?) a great meadow in which(?) the carp flood expands(?)</l>
-        <l n="19">The great gidim implements of (i.e., for use against?) the Ekur temple he set (its metal) into molds</l>
-        <l n="20">The people saw (into) the itima chamber, the building where sunlight is unknown</l>
-        <l n="21">Agade saw (into) the holy treasure box of the gods</l>
-        <l n="22">Its lahama creatures, the great pilasters stationed at the temple</l>
-        <l n="23">Who did not commit taboo</l>
-        <l n="24">Naram-Sîn, the “renovator” struck them down</l>
-        <l n="25">Cedar, cypress, juniper, boxwood</l>
-        <l n="26">Concerning(?) the woods of its giguna structure, he ...</l>
-        <l n="27">He had its gold brought up/down in misir bags(?)</l>
-        <l n="28">He had its silver put in lubšir bags</l>
-        <l n="29">He had its copper loaded into the harbor like barley brought (in) great (quantity)</l>
-        <l n="30">(And thus) the precious metal worker would (re)fashion its precious metal</l>
-        <l n="1">(Subtotal:) 30 (lines)</l>
-        <l n="1">(And thus) the stone cutter would (re)fashion its precious stone</l>
-        <l n="2">(And thus) the metalworker would strike its copper</l>
-        <l n="3">As if(?) the property was not of a destroyed city</l>
-        <l n="4">At the temple he parked great boats in the harbor</l>
-        <l n="5">Towards/concerning the temple of Enlil he parked great boats in the harbor</l>
-        <l n="6">(Thus) the property left the city</l>
-        <l n="7">When the property left the city</l>
-        <l n="8">The reasoning/mood of Agade left (as well)</l>
-        <l n="9">(When?) the boat(s) changed(?) harbors, the mood of Agade changed</l>
-        <l n="10">The storm that erupted(?) and beset the land all together</l>
-        <l n="11">The risen flood that had not rival</l>
-        <l n="12">Enlil, because his beloved Ekur was destroyed, what was that which would be done more (than that as revenge)(?)</l>
-        <l n="13">He raised his eye towards the land/mountain of Gubin</l>
-        <l n="14">He stripped the whole (of the population) away from the broad mountain ranges</l>
-        <l n="15">(Those who were) not placed among the people, not counted among the land</l>
-        <l n="16">Gutium, a people(?) who knew no attachment</l>
-        <l n="17">(Possessing) the intellect of a man, the counsel of a dog, and the features of a monkey</l>
-        <l n="18">Enlil brought out from the mountains</l>
-        <l n="19">They(?) touched the ground like the copulation/superimposing(?) of small birds(?)</l>
-        <l n="20">They(?) stretched out their arms in the plain for him like a net (for the) herd</l>
-        <l n="21">Nothing escaped their reach</l>
-        <l n="22">Their reach spared no one</l>
-        <l n="23">The messenger did not go on the road</l>
-        <l n="24">The boat of the rider was not passing the river</l>
-        <l n="25">Towards the yellow goat(s)(?) of Enlil driven from the sheepfold, he made its herder follow</l>
-        <l n="26">Towards the cow(s) driven from the cattle pen, he made its herder follow</l>
-        <l n="27">A guard was in effect (lit. spent time) upon the trees of the riverbank(?)</l>
-        <l n="28">The robber dwelled on the highway</l>
-        <l n="29">At the gate of the land, he made the door stand ...</l>
-        <l n="30">The lands were crying out bitterly in the walls of their cities</l>
-        <l n="1">(Total:) 60 (lines)</l>
       </div>
     </body>
   </text>

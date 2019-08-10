@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000509, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P423487</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P423487.P423487.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Lord who perfectly executes supreme wisdom, and gives great advice</l>
+        <l n="2">Haya, who holds the great tablets, (which) make thick/triplicate(?) understanding</l>
+        <l n="3">Accountant of Halankug, skillful knotter and opener of the eye(?) of the “house of wisdom of Nisaba”</l>
+        <l n="4">Archivist of the palace of the universe, counting up all of the tasks</l>
+        <l n="5">One who holds the holy reed (stylus), writing/making shine the tablet of great fates(?)</l>
+        <l n="6">Wise one who listens to the word/ponders matters(?) for holy An daily</l>
+        <l n="7">Seal-bearer of father Enlil, šatam official(?) and key holder(?) of the storehouse of the Ekur temple</l>
+        <l n="8">Ornament of shrine Abzu, who ties up(?) (his) external hair for lord Nudimmud</l>
+        <l n="9">Haya, the šagadala priest of the Eunir temple, the one who passes into the holy uzga cella</l>
+        <l n="10">The one who acts sagaciously of shrine Ekišnugal, who exalts its supreme name</l>
+        <l n="11">The one with thoughts in his mind(?) who Ningal sustains in the great dining hall/sanctum</l>
+        <l n="12">(Possessor of) beautiful features, beloved spouse of Nunbaršegunu (Nisaba)</l>
+        <l n="13">Man with a great name, father-in-law of Great Mountain Enlil</l>
+        <l n="14">Junior saga functionary, wise one, examiner(?) and ... of both heaven and earth</l>
+        <l n="15">Who received the tribute of the gods, and disseminates his (Enlil's?) word about the abundance of(?) distant mountains and seas</l>
+        <l n="16">Wise one who is clad in the control/superimposition of(!?) the supreme cosmic powers of rulership(?)</l>
+        <l n="17">(Possessor) of a mind broadly “squeezed” (of every potential idea?), grasping the holy plans of the temple of Eridu</l>
+        <l n="18">Haya, he of the pure šuluh rites of the watery deep, fastened to(?) the ba garment</l>
+        <l n="19">Indagara, saga functionary, in heaven and the netherworld (he is) the mouth-opener (ritual practitioner) of the gods</l>
+        <l n="20">Who knows the contents of esoteric tablets, the skillfully acting one of the great gods</l>
+        <l n="21">The one who fixes in place the emblems set (upon) a wood(en pole)(?), caretaker(?) of the ... site of the land</l>
+        <l n="22">(As well as?) the kišutag shrines, and the verdant(?) sanctum for Anšar and Great Mountain (Enlil)</l>
+        <l n="23">Supreme one who raises the head, who is agreeable to his (Enki's) command in shrine Abzu</l>
+        <l n="24">Caretaker who requisitions pure daily rations (for?) the temples of the gods</l>
+        <l n="25">Without Kusu and Indagara the sky would not be pure, the earth would not be clean</l>
+        <l n="26">The one who dines extensively in the supreme dining hall/sanctum of An and Enlil</l>
+        <l n="27">The one whose pure face(?) is seen by lord Nudimmud/has seen lord Nudimmud(?)</l>
+        <l n="28">Who holds the pure bronze vessel/mirror(?) that gladdens the heart and improves/beautifies(?) the back/liver</l>
+        <l n="29">My king, I want to praise your greatness in song</l>
+        <l n="1">Haya, I want to constantly discover your greatness as a treasure</l>
+        <l n="2">Who is like you among the gods in being suited for the pure cosmic powers?</l>
+        <l n="3">Your beloved spouse, the young woman Nisaba, the great lady/&quot;elder sister&quot;(?) of ladies</l>
+        <l n="4">Her womb gave birth to(?) Ninlil, the supreme spouse of Nunamnir</l>
+        <l n="5">She who has raised her head in the tent enclosure/at the dais of the Ekur temple, she is able to approach(?) towards heaven</l>
+        <l n="6">She singly exercises the queenship of the gods (as) a god that has no rival</l>
+        <l n="7">You, the great breed bull that finds true counsel, who constantly inquires after the gods</l>
+        <l n="8">Haya, who gives out the cosmic powers and assigns work, you are the one who makes (others?) familiar with(?) the shrine</l>
+        <l n="9">Enki bestowed his incantations of life to you in shrine Abzu</l>
+        <l n="10">You install the en priestess in the gipar cloister, you put in place (its) caretaking(?)</l>
+        <l n="11">For the shepherd of the homeland, you take hold of the supreme scepter of(?) distant time for his hand</l>
+        <l n="12">Haya, god of the homeland, you are the one who listens to the arazu prayer of the many people</l>
+        <l n="13">You (among the?) great gods take hold of/settle(?) the broad population for his hand</l>
+        <l n="14">After Enki comes forth from the Abzu</l>
+        <l n="15">Haya, he shall measure/assign(?) its greatness for you</l>
+        <l n="16">The one(s) who are in the midst of the homeland(?) shall raise their necks towards heaven</l>
+        <l n="17">Its people will pass the time rejoicing</l>
+        <l n="18">You will compel its many people to rejoice as in ancient times</l>
+        <l n="19">You establish festivals (in) the temples of the great gods and therefore release joy</l>
+        <l n="20">The foremost among the gods(?), when he ... the great lots that sustain/finish(?) the land/people</l>
+        <l n="21">For the sake of the king, look faithfully towards him (with) your beautiful face that is filled with/surpassing with(?) life</l>
+        <l n="22">For prince Rīm-Sîn, faithfully establish a most joyous reign of distant duration</l>
+        <l n="23">Enter this name on the tablet of life, which is never to be altered</l>
+        <l n="24">So that An and Enlil shall love the lordship of shepherd Rīm-Sîn</l>
+        <l n="25">The singers shall make your praise sweet in their(?) mouths</l>
+        <l n="26">Haya, the singers shall make your praise sweet in their(?) mouths</l>
+        <l n="27">Lord of the universe, king of the watery deep, whose(?) praise is supreme</l>
+        <l n="28">Father Enki, king of the watery deep, your praise is sweet</l>
+        <l n="29">It is its uru.</l>
+        <l n="30">Haya, god of the land who loves the will to live/the ex-voto offering(?), your shall be his one who extends open arms (in protection)</l>
+        <l n="31">It is its gešgigal “response”.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

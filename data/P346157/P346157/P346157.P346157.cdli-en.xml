@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000616, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346157</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346157.P346157.cdli-en" type="translation" xml:lang="en">
+        <l n="1">True woman, the Utu (i.e., sun) of the land, I want to praise the lamma</l>
+        <l n="2">Supreme vizier of mother Bau, who engenders the life of the king</l>
+        <l n="3">Pure rider, bringing her tablet of life down from the midst of heaven</l>
+        <l n="4">Wind(?) from above going along the path, making abundance manifest(!?)</l>
+        <l n="5">The one who advances forth, the fitting one of Bau, she is the ornament of the Irikug sacred precinct</l>
+        <l n="6">Lamma, the one of the siskur prayer/ritual, (says) “I want to say a sweet word for Bau”</l>
+        <l n="7">Who loves the people, when you rejoice at their gift</l>
+        <l n="8">Lammasaga of Bau ... we praise profoundly</l>
+        <l n="9">... (with?) a beautiful(?) head(?), bearing allure, both halves (of her head) are(?) gleaming lapis</l>
+        <l n="10">..., sparkling/variegated ...</l>
+        <l n="11">... your admiration/sight</l>
+        <l n="12">... may she look at(?) the king there</l>
+        <l n="13">... when you stand/your standing, honey ...</l>
+        <l n="1'">...</l>
+        <l n="2'">... of pure limbs(?)</l>
+        <l n="3'">..., true lady, my lamma</l>
+        <l n="4'">Lammasaga of Bau ... we praise profoundly</l>
+        <l n="5'">May your saying “may ... attached ... to ...&quot;(?), ...</l>
+        <l n="6'">Noble one, beloved by Bau, the important lady of the true command</l>
+        <l n="7'">May she ... for you, may ... be sweet(?), lady to be sweetened like ... and wine?</l>
+        <l n="8'">Lord Igalima, may the(?) praise be greatly present</l>
+        <l n="9'">True lady, my protective deity, lady of your (own?) craft of proclamation(?)</l>
+        <l n="10'">Lamasaga of Bau ... we praise profoundly</l>
+        <l n="11'">The lady ... joyful(?) eating and drinking, raising ... abundance ...</l>
+        <l n="12'">The dwelling “abundance from/in(?) the Abzu,” bellowing nobly in (consuming) liquor and beer</l>
+      </div>
+    </body>
+  </text>
+</TEI>

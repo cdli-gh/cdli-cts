@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000515, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346185</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346185.P346185.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Beloved ... of An, who has established all of the cosmic powers(?)</l>
+        <l n="2">Inanna, arrayed in many ..., verdant/beautiful(?) ...,</l>
+        <l n="3">Nintur rejoiced(!?) at your birth and thus decreed a great fate for you</l>
+        <l n="4">She furnished (your) forehead with allure, stretched out your ...</l>
+        <l n="5">Your limbs (are that of) an outstanding alim bovid, your stature is tall ... and dappled(?)</l>
+        <l n="6">It is the barsud</l>
+        <l n="7">Beautified by (her) womanhood(?), filled by(?) allure</l>
+        <l n="8">Inanna, ornament of pure heaven, suitable for the queenship ...</l>
+        <l n="9">And therefore(?) you perfected ..., ...</l>
+        <l n="10">You make the people admire(?) your ...., and thus(?) you ... all the people(?)</l>
+        <l n="11">People and? living creatures, as many as there are, you are their master</l>
+        <l n="12">...</l>
+        <l n="1'">...</l>
+        <l n="2'">Rīm-Sîn ....</l>
+        <l n="3'">May the one who is suitable to disseminate(?) justice put the voice (of the people?) together in agreement</l>
+        <l n="4'">He shall exercise the shepherdship in a year of abundance (consisting of?) good days of(?) rejoicing</l>
+        <l n="5'">May Rīm-Sîn, who is suitable to disseminate(?) justice, put the voice (of the people?) together in agreement</l>
+        <l n="6'">He shall exercise the shepherdship in a year of abundance (consisting of?) good days of(?) rejoicing</l>
+        <l n="7">It is the sagar</l>
+        <l n="8">Inanna, give Rīm-Sîn, the seed of(?) justice planted(?) in your good womb, his lengthy reign</l>
+        <l n="9">The surpassing(?) nugig midwife, ... supreme roofbeam/timber(?) of heaven</l>
+        <l n="10">Inanna, the surpassing(?) midwife, ... supreme roofbeam/timber(?) of heaven</l>
+        <l n="11">One who cares for .../cared for by ...(?), when(?) you exude allure</l>
+        <l n="12">Very great.../who makes great ...(?), sustain Rīm-Sîn!</l>
+        <l n="13">It is its uru</l>
+        <l n="14">It is an adab song of Inanna</l>
+      </div>
+    </body>
+  </text>
+</TEI>

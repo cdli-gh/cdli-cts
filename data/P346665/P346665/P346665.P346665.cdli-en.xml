@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000764, ex. 020</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346665</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346665.P346665.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">It was able to(?) set its neck on the ground (sarcastically?), it was speaking freely/&quot;humbly&quot;(?)</l>
+        <l n="3'">For the 2nd time the fish replied to the bird</l>
+        <l n="4'">(Possessor of) trimmed limbs, crippled(?) feet, a ... mouth/beak, and a thinned out/flattened tongue</l>
+        <l n="5'">Roaming the harbor(!?), its .... and its mouth(?) &lt;...?&gt;, “a storm blowing away(?)” excessive amounts of(?) fodder</l>
+        <l n="6'">The cook, the brewer, and the gatekeeper who reside in the temple are distressed with (you)</l>
+        <l n="7'">...</l>
+        <l n="8'">Bird, (you) do not know my greatness, (you) did not tread behind me, (you are one who) has not inquired after me</l>
+        <l n="9'">...</l>
+        <l n="1'">When the bird got up from its nest in order to bring (back) food for its chick</l>
+        <l n="2'">...</l>
+        <l n="3'">It destroyed its built house, it tore out(?) its storeroom</l>
+        <l n="4'">It killed its eggs and its nest with water(?), it covered them in the sea</l>
+        <l n="5'">For a 2nd time the fish insulted the bird</l>
+      </div>
+    </body>
+  </text>
+</TEI>

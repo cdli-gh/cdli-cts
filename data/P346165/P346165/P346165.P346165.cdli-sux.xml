@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346165.P346165.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[... ⸢{d}]nisaba⸣-ke4</l>
             <l n="2'">[...] ⸢gizzal⸣-la šu dagal ma-ni-in-du11</l>
             <l n="3'">[...] ⸢gal2⸣ ⸢tak4⸣-a nig2-e nu-dab-be2-me-en</l>
@@ -67,42 +65,9 @@
             <l n="13">[... ⸢{d}]utu⸣ [...] šeš#?-ra ki ag2 {d}lamma {geš}tukul-ga2-kam</l>
             <l n="14">[...]-⸢mu⸣-un-kal-⸢la⸣-⸢ge⸣ la ga14-mu-un-ne3#?-e</l>
             <l n="15">[...]-⸢e3⸣</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">The beautiful Nanibgal, Nisaba</l>
-        <l n="2'">Gave wisdom and intelligence generously to me</l>
-        <l n="3'">I am experienced scribe who does not ignore (lit. pass by) anything</l>
-        <l n="4'">When I rose as (if possessing) the musculature of a leopard</l>
-        <l n="5'">When I galloped mightily like a nisku equid</l>
-        <l n="6'">The heart of An brought rejoicing for me</l>
-        <l n="7'">In my happiness Enlil spoke truthfully to me</l>
-        <l n="8'">They gave me a scepter because of my justice</l>
-        <l n="9'">(I) was able to step on the neck of the lands</l>
-        <l n="10'">... put the fame of my weapon to the Lowland</l>
-        <l n="11'">... put (news of) my conquests to the highland</l>
-        <l n="12'">After I go out(?) into combat and battle</l>
-        <l n="13'">To the place that Enil has grown angry (at) (?)</l>
-        <l n="14'">I go at the front of(?) my troops</l>
-        <l n="1">I illuminate the area (lit. field) that I see</l>
-        <l n="2">It is I who puts passion into the weapon</l>
-        <l n="3">I am in possession of the spear and the masatum weapon</l>
-        <l n="4">(I) know the slingstone of the sling (i.e., how to load it?)</l>
-        <l n="5">My discharged(?) destructive clay bullets and pellets</l>
-        <l n="6">The ones that are to fly like an aura bearing(?) northern storm</l>
-        <l n="7">In(?) my anger I do not let them pass (their mark?)</l>
-        <l n="8">I give fear and distress(?) to(?) the (enemy) land</l>
-        <l n="9">My brother and friend, who is the youth Utu</l>
-        <l n="10">I looked to him in a place of encouragement/vitality</l>
-        <l n="11">I am Shulgi, I speak a word with him openly</l>
-        <l n="12">He is the beautiful-faced god of my battle</l>
-        <l n="13">The youth Utu who makes a brother love a brother(?) is the protective spirit of my weapon</l>
-        <l n="14">Because of his word I will be strong(?), I will be mighty(?) ...</l>
-        <l n="15">Utu comes out for me in the combat of battle(?)</l>
       </div>
     </body>
   </text>

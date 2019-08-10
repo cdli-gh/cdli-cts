@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000451, ex. 004</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346170</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346170.P346170.cdli-en" type="translation" xml:lang="en">
+        <l n="1">The speech of Enlil, the king(!?), I(?) set in its place</l>
+        <l n="2">The city that is beautiful/verdant(?) like heaven inside and out</l>
+        <l n="3">Nibru, the post of the universe, therefore its flesh is sweetened</l>
+        <l n="4">Therefore I(?) removed the workforce from the carrying basket</l>
+        <l n="5">Therefore its army is separated from(?) the weapon</l>
+        <l n="6">Therefore its gold, silver, bulls and sheep, the tribute of the citizens of Nippur, is released</l>
+        <l n="7">On behalf of the temple of Enlil, my king, and Ninlil</l>
+        <l n="8">The workforce of(!?) Ninurta, the mighty hero of Enlil, I(?) therefore removed (from duty)</l>
+        <l n="9">Half loaves of bread/one half (of the following?)(!?), barley, butter, and sheep's wool was therefore tithed and prepared/taken care of(?)</l>
+        <l n="10">Therefore evil and violence were “returned into their mouths”</l>
+        <l n="11">Therefore truth was established in Sumer and Akkad</l>
+        <l n="12">I was born in Sumer, I am a citizen of Nibru</l>
+        <l n="13">I am a courageous one who continually stokes his nose in submission(?)</l>
+        <l n="14">I am one with a wise eye, valued by the intellect(?)</l>
+        <l n="15">I am an adviser who exhausts (himself) with (his) (unwavering?) way</l>
+        <l n="16">Knowing everything, I am removed from the people</l>
+        <l n="17">I am a judge who does not release (an explanation)</l>
+        <l n="18">(Via?) a decision, I am the one who sets fate (back) in order(?)</l>
+        <l n="19">(Now) the powerful do not engage in excess/behave arrogantly(?)</l>
+        <l n="20">The strong do not oppress the poor</l>
+        <l n="21">...</l>
+        <l n="1'">Therefore he sent long-fleeced sheep and ... ewes straight to me</l>
+        <l n="2'">From the highland, his(!?) far away place ...</l>
+        <l n="3'">Therefore he brought cedar, juniper, cypress, and boxwood to me by themselves(?)</l>
+        <l n="4'">Enlil, my king, who makes the lands ... submit(!?)</l>
+        <l n="5'">Therefore he made(?) the people take to a single path for me, he made them into a unified voice for me</l>
+        <l n="6'">It is me, I am present facing(?) Enlil, I am the beloved of the Ekur</l>
+        <l n="7'">After Sumer and Akkad had been dispersed</l>
+        <l n="8'">In the Ekurzagin temple of Enlil, in the Egagešua temple of Ninlil</l>
+        <l n="9'">Therefore no king had brought a statue inside for him/her</l>
+        <l n="10'">Thus by means of the loving heart of Enlil the Enamtila temple was opened for me</l>
+        <l n="11'">Thus great amounts of treasure were brought straight into the Ekur temple</l>
+        <l n="12'">Thus everlasting things were piled up in the treasury(?)</l>
+        <l n="13'">A throne whose limbs were limbs of exceeding quality, was thus set up for Enlil, my king(?)</l>
+        <l n="14'">In the Egagešua temple of the Ki'ur, the great place</l>
+        <l n="15'">A throne of Ninlil was thus set up</l>
+        <l n="16'">I am Išme-Dagan, the son of Dagan</l>
+        <l n="17'">The throne of the seven ... enclosures(?), inlaid with(?) ..., nirigi, and šuba stones(?) ...</l>
+        <l n="18'">... was thus set up for Enlil, my king</l>
+        <l n="20'">It is the 3rd time (in a series)</l>
+        <l n="21'">(The composition with the incipit) “Enlil exceedingly”</l>
+      </div>
+    </body>
+  </text>
+</TEI>

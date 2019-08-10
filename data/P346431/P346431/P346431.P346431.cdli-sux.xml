@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -35,9 +32,12 @@
     <body>
       <div n="urn:cts:cdli:P346431.P346431.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
-          <div n="obverse" type="textpart"/>
+          <div n="obverse" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="reverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">x [...] šu-ni#?-[še3 ...]</l>
             <l n="2'">i-na a#?-[...] bi-timx(MUN) x-[...] qa-ti-i-ša2 x-[...]</l>
             <l n="3'">ereš{ki} he-nun-[na] mu-un-du3-[...]</l>
@@ -46,8 +46,10 @@
             <l n="6'">i-⸢na⸣ li-bi-it-tim#? el-le-tim a-na aš#?-[...] ta-ša-ak-ka-⸢an⸣</l>
             <l n="7'">geštu2 nun galam-ma#? [...] ⸢sag⸣-[e]-eš ⸢rig7⸣-[...]</l>
             <l n="8'">⸢uz⸣-[...] x ru-bu-[...]</l>
+            <note>broken</note>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢a⸣-gu-ur i-⸢na⸣ ⸢wa⸣-⸢ša⸣-bi-⸢šu⸣</l>
             <l n="2'">abzu eridu{ki} du3-du3-a-⸢ni⸣</l>
             <l n="3'">⸢ap⸣-sa3-am e-ri-du ⸢i⸣-na e-pi-ši-i-šu</l>
@@ -65,6 +67,7 @@
             <l n="15'">[da]-⸢la⸣-at uz-⸢ni⸣ [...] ⸢šu⸣-pe-el-x-[...]</l>
           </div>
           <div n="3" type="textpart">
+            <note>broken</note>
             <l n="1.a'">[...]</l>
             <l n="1.b'">[...] x ⸢ul⸣-du-u2-ši</l>
             <l n="2.a'">[...] turx(ŠILAM)-ra i3 he2-me-en ⸢amaš⸣-e gara2 he2-me-en</l>
@@ -73,35 +76,14 @@
             <l n="3.b'">[i-na bi]-it ma-ku-ri-im [ka]-⸢ni⸣-ik-ta-šu ⸢at⸣-ti</l>
             <l n="4.a'">[...] ⸢zi⸣ he2-me-⸢en⸣</l>
             <l n="4.b'">[...]</l>
+            <note>lines broken</note>
             <l n="5'">[...] x x [...]</l>
             <l n="6'">[...] ⸢gu2⸣ gur-gur he2-me-en</l>
             <l n="7'">⸢ka⸣-re-e ti-li [ka]-⸢re⸣-e ma-a-ši [ka-re]-e ki-ša-da-⸢ti⸣-šu-nu [...] x-ba-ri</l>
             <l n="8'">[... ⸢{d}]nisaba⸣-ra [...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="2'">In Aratta he set the Ezagin temple at her disposal</l>
-        <l n="4'">He built Ereš in abudance</l>
-        <l n="6'">(Sum) Setting/set(?) the tiny bricks (of/scrubbed by?) potash in place (Akk) You will set (Ereš) in its place with a pure brick</l>
-        <l n="8'">Dedicating/dedicate(?) the wisdom (of?) the crafty ruler</l>
-        <l n="1'">(Sum) When he dwells in the E'engur temple (Akk) When he dwells (in) the subterranean waters(?)</l>
-        <l n="3'">When he builds the Abzu of Eridu</l>
-        <l n="5'">When he takes counsel at the Halankug shrine</l>
-        <l n="7'">(Sum) When he hews the temple of taškarin wood (Akk) When he changes(!?) the temple of taskarinnum wood</l>
-        <l n="9'">(Sum) When the abgal functionary lets loose his outer hair (Akk) When the apkallum functionary lets loose his hair behind him</l>
-        <l n="11'">(Sum) When he lives (within) the great foundation(?) of fresh cedar (Akk) When ... greatly ... pure(?) ...</l>
-        <l n="13'">When he opens the house of wisdom</l>
-        <l n="15'">(Sum) When he opens the door of wisdom (Akk) When he alters (the position?) of the door of wisdom ...</l>
-        <l n="1.b'">(Sum) Nisaba, the true woman, the good woman, woman who was born in the mountain/netherworld (Akk) ... which bore her</l>
-        <l n="2.b'">may you be the butter, in the sheepfold, may be the cream</l>
-        <l n="3.b'">In the treasury, you are the seal-bearer</l>
-        <l n="4.b'">In the palace, you are the true steward</l>
-        <l n="7'">You are the one who heaps up large and small grain piles</l>
-        <l n="8'">The ruler taking care of Nisaba</l>
       </div>
     </body>
   </text>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -117,88 +114,6 @@
             <l n="37">ki-ru-gu2 1(u) [1(diš)-kam-ma]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Father Nanna, your išib priest did not perfect the holy šita prayer(?) for you</l>
-        <l n="2">Your lumah priest did not wear the šaggada garment</l>
-        <l n="3">Your true en priestess, chosen in the heart (for her) beauty, the one of the Ekišnugal temple</l>
-        <l n="4">Did not enter as she rejoices(?) into the gipar structure (coming from) the shrine</l>
-        <l n="5">The a'ua musicians are not sweetening the festival (in) your courtyard (hosting) the festival</l>
-        <l n="6">Neither the šem and ala drums, those which make the heart rejoice, nor the tigi instrument was played for you</l>
-        <l n="7">The blackheaded, who no longer bathed for your festival</l>
-        <l n="8">If(!?) like a thread ... (their) life was cut, their features were changed</l>
-        <l n="9">Your songs have become weeping, how long ...?</l>
-        <l n="10">Your tigi songs have become lamentation, how long ...?</l>
-        <l n="11">If your bull does not stand in its stall, how long ...?</l>
-        <l n="12">If your sheep does not stand in its fold, how long ...?</l>
-        <l n="13">An evildoer has seized your fisherman who brings fish</l>
-        <l n="14">Your fowler who bring birds hurriedly goes (away)</l>
-        <l n="15">In your canal, (formerly) made suitable for a barge, rushes(!?) grew in its bed</l>
-        <l n="16">On your roads, (formerly) made suitable for a chariot, thorn bushes grew in its midst</l>
-        <l n="17">Your city and you temple weep (for you) bitterly like their(?) mother</l>
-        <l n="18">Urim, like a child lost in the street, seeks (your) place</l>
-        <l n="19">The brickwork of your true temple, like a human, says “So be it!&quot;(in resignation!?)</l>
-        <l n="20">My lady, you have left the temple, you have left the city</l>
-        <l n="21">How long will (you) stand apart from your city like an enemy?</l>
-        <l n="22">Mother Ningal, (how long) will your temple align with you at its chest like a hostile place</l>
-        <l n="23">If you are one who is concerned about her land, why do (you) reject it?</l>
-        <l n="24">Like an ox towards/on behalf of(?) your cattlepen, like a sheep towards/on behalf of(?) your sheepfold</l>
-        <l n="25">Like a younger child towards/on behalf of(?) your (mother's?) chamber, my lady, towards/on behalf of(?) your temple</l>
-        <l n="26">May An, the king of the gods, speak your “It is enough”</l>
-        <l n="27">Enlil, the king of the lands, shall decree your fate</l>
-        <l n="28">He shall restore your(!) city to its place, exercise its queenship!</l>
-        <l n="29">He shall restore Urim to its place, exercise its queenship!</l>
-        <l n="30">It is the eighth kirugu</l>
-        <l n="31">Your(?) me that were changed to your detriment, may he restore your(?) me to their place</l>
-        <l n="32">It is its gešgigal “response”</l>
-        <l n="33">Oh, the storm, the storm has been cast down in the land together</l>
-        <l n="34">Great storm of An, continually shouting storm</l>
-        <l n="35">That bitter day (storm) passed in the land</l>
-        <l n="36">The storm destroying the city, the storm destroying the temple</l>
-        <l n="37">The storm destroying the cattlepen and flattening the sheepfold</l>
-        <l n="38">That one that paralyzed the pure rites</l>
-        <l n="39">The one who defiled the rites, (those) of Aratta (i.e., important?)</l>
-        <l n="40">That storm that cut off a good thing in the land</l>
-        <l n="1">That storm that bound the arms of the black-headed people</l>
-        <l n="2">It is the 9th kirugu</l>
-        <l n="3">That storm, that storm that has no shame (in) its face</l>
-        <l n="4">That storm that knows no mother, that storm that knows no father</l>
-        <l n="5">That storm that knows no spouse, that storm that knows no child</l>
-        <l n="6">That storm that knows no sister, that storm that knows no brother</l>
-        <l n="7">That storm that knows no neighbor, that storm that knows no girlfriend</l>
-        <l n="8">The storm that cast the spouse, the storm that cast down the child</l>
-        <l n="9">That storm, the storm of having made the land forgotten</l>
-        <l n="10">The hating day (storm) that was made to pass by Enlil</l>
-        <l n="11">Father Nanna, that storm must never again be placed upon your city</l>
-        <l n="12">That storm, like a rain storm raining from above, must not turn towards that place</l>
-        <l n="13">It has cast a fearful aura (upon) the creatures of the universe (and) the black-headed</l>
-        <l n="14">When the storm is bound by the hands(?), it must be destroyed</l>
-        <l n="15">Like a gate at nighttime, the door must be tied shut (to keep it out)</l>
-        <l n="16">Its balanced account in the temple of Enlil must be torn away from its peg</l>
-        <l n="17">It is the 10th kirugu</l>
-        <l n="18">In distant time and future time, today and in the future/&quot;the end of day(s)&quot;(?)</l>
-        <l n="19">In distant time, after the land(?) was founded (again, like before(?))</l>
-        <l n="20">Nanna, the humble man who took to your path (i.e., followed you)/seized your feet</l>
-        <l n="21">Has performed the lament of the silent house for you, the one/as one performing before you</l>
-        <l n="22">The black headed that had fallen away (from the path?), they shall stroke the nose in submission for you</l>
-        <l n="23">... shall initiate the wailing of the city that had been rendered into ruin heaps for you</l>
-        <l n="24">Nanna, ... shall make your city that has been restored to its place resplendent (again) for you</l>
-        <l n="25">Like a pure heavenly star which must never be forgotten, it will pass(!?) before you</l>
-        <l n="26">The personal god has brought a kadra greeting gift for you</l>
-        <l n="27">The one of the siskur prayer/rites makes an arazu prayer for you</l>
-        <l n="28">Nanna, you are the one filled with mercy of the land</l>
-        <l n="29">Lord Dilimbabbar, after your heart has spoken</l>
-        <l n="30">Nanna, after you has released the sin of that man</l>
-        <l n="31">The one who makes an arazu prayer shall pacify (your) heart for him</l>
-        <l n="32">After you have looked faithfully towards the one of the siskur prayer/rites who has served(?)</l>
-        <l n="33">Nanna, your true look is full of mercy</l>
-        <l n="34">May the man who the storm unleashed evil against shine towards (you)</l>
-        <l n="35">As one who is in the midst of the land(?) may he bow towards (you?)</l>
-        <l n="36">Nanna, may you be praised in your restored city</l>
-        <l n="37">It is the 11th kirugu</l>
       </div>
     </body>
   </text>

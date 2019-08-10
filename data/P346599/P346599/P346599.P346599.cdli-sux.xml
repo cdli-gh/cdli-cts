@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -45,20 +42,9 @@
             <l n="1">IM? SAR šita4#? KA mu-gu10 he2-pa3-x nam-mu-x-da13-da13</l>
             <l n="2">geš-tug2? he2!?-gar?-ra ub igi-zu he2-DU igi il2-⸢la⸣ lu he2-ti</l>
             <l n="3">IM?-e ERIM x x x ša3-ba ha-ma-x-NE sa KA-gu10 he2-x-x?</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Do not lead me(?) to a place of treachery! Rescue me(?)!</l>
-        <l n="2">Do not forget me(!?) in an empty place! I(!?) am not to be driven from the city(?) towards it(?)</l>
-        <l n="3">Return for me(!?) “that of disappearance” ... (if?) ... is the angry heart of catastrophe, do not spew poison(?)</l>
-        <l n="4">look at (my) weeping(?) ... should not touch the true? course/channel/earth(?)</l>
-        <l n="1">Your(!?) ... should utter my name/nominate me, ... should not abandon (me)</l>
-        <l n="2">May you pay attention(?), may ... stand/be brought (into) the corner of your eye(?) i.e., your attention?) , may (your?) raised eye sustain (me)</l>
-        <l n="3">...</l>
       </div>
     </body>
   </text>

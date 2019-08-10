@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -155,126 +152,6 @@
             <l n="56">[...]-an-gar-ra-[...]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">He has ceased in the cattlepen, an empty wind (is set, smites?) his sheepfold is an empty wind</l>
-        <l n="2">The wild bull has ceased in the cattlepen, his sheepfold is an empty wind</l>
-        <l n="3">The lord of the lands has ceased there, his sheepfold is an empty wind</l>
-        <l n="4">The lord of the lands has ceased there, his sheepfold is an empty wind</l>
-        <l n="5">His spouse Ninlil has ceased there, her sheepfold is an empty wind</l>
-        <l n="6">Ninlil has ceased in the temple in the Ki'ur complex, her sheepfold is an empty wind</l>
-        <l n="7">The lady of Kesh has ceased there, her sheepfold is an empty wind</l>
-        <l n="8">Ninmah has ceased in the temple in Kesh, her sheepfold is an empty wind</l>
-        <l n="9">The one of Isin has ceased there, her sheepfold is an empty wind</l>
-        <l n="10">NinIsina has ceased in shrine Egalmah, her sheepfold is an empty wind</l>
-        <l n="11">The lady of the region of Uruk has ceased there, her sheepfold is an empty wind</l>
-        <l n="12">Inanna has ceased in the temple in the region of Uruk, her sheepfold is an empty wind</l>
-        <l n="13">Nanna has ceased in shrine Urim, his sheepfold is an empty wind</l>
-        <l n="14">Suen has ceased in his Ekišnugal temple, his sheepfold is an empty wind</l>
-        <l n="15">His spouse Ningal has ceased there, her sheepfold is an empty wind</l>
-        <l n="16">Ningal has ceased in the temple, in her holy cella, her sheepfold is an empty wind</l>
-        <l n="17">The wild bull of Eridu has ceased there, his sheepfold is an empty wind</l>
-        <l n="18">Enki has ceased in the temple of Eridu, his sheepfold is an empty wind</l>
-        <l n="19">Šara has ceased in the Emah temple, his sheepfold is an empty wind</l>
-        <l n="20">Udsahara has ceased in the temple in Umma, her sheepfold is an empty wind</l>
-        <l n="21">Baba has ceased in the Irikug precinct, her sheepfold is an empty wind</l>
-        <l n="22">She has ceased the Eduga(!?), her chamber, her sheepfold is an empty wind</l>
-        <l n="23">Her mother, Abbaba, has ceased there, her sheepfold is an empty wind</l>
-        <l n="24">Abbau has ceased in the Maguena shrine, her sheepfold is an empty wind</l>
-        <l n="25">The protective lamma spirit of the temple has ceased there, her sheepfold is an empty wind</l>
-        <l n="26">The protective lamma spirit has ceased in the Etarsirsir temple, her sheepfold is an empty wind</l>
-        <l n="27">The matron of lagaš has ceased there, her sheepfold is an empty wind</l>
-        <l n="28">gatumdug has ceased in the temple in lagaš, her sheepfold is an empty wind</l>
-        <l n="29">The one of Nina has ceased there, her sheepfold is an empty wind</l>
-        <l n="30">The greatest lady (Nanše) has ceased in the temple in Sirara(?), her sheepfold is an empty wind</l>
-        <l n="31">The one of Kinirša has ceased there, his sheepfold is an empty wind</l>
-        <l n="32">Dumuzi-Abzu has ceased in the temple in Kinirša, his sheepfold is an empty wind</l>
-        <l n="33">The one of Gu'abba has ceased there, her sheepfold is an empty wind</l>
-        <l n="34">Ninmar has ceased in the temple in Gu'abba, her sheepfold is an empty wind</l>
-        <l n="35">It is the first kirugu</l>
-        <l n="36">An empty wind is set in his sheepfold, its lament exhausts him</l>
-        <l n="37">Cow, your moo is not present in the cattlepen, the cattlepen is no longer suitable for the prince(?)</l>
-        <l n="38">It is its gešgigal “response”</l>
-        <l n="39">City whose lament is bitter, initiate your lament!</l>
-        <l n="40">Your lament is bitter, city, initiate your lament!</l>
-        <l n="41">The lament of his destroyed true city is bitter</l>
-        <l n="42">The lament of his destroyed Urim is bitter</l>
-        <l n="43">Your lament is bitter, your “great lady” (Ningal), the one who laments, how long will it exhaust her?</l>
-        <l n="44">Your lament is bitter, Nanna, the one who laments, how long will it exhaust him?</l>
-        <l n="45">Brickwork of Ekur, the lament is bitter, initiate your lament!</l>
-        <l n="46">Ki'ur, the great place, the lament is bitter, initiate your lament!</l>
-        <l n="47">Ubšu'ukken assembly place, the lament is bitter, initiate your lament!</l>
-        <l n="48">Shrine Nibru, city, the lament is bitter, initiate your lament!</l>
-        <l n="49">Brickwork of Isin, the lament is bitter, initiate your lament!</l>
-        <l n="50">Shrine Egalmah, the lament is bitter, initiate your lament!</l>
-        <l n="51">Brickwork of Urim, the lament is bitter, initiate your lament!</l>
-        <l n="52">Ekišnugal temple, the lament is bitter, initiate your lament!</l>
-        <l n="53">Shrine Agrunkuga, the lament is bitter, initiate your lament!</l>
-        <l n="54">Brickwork of Eridu, the lament is bitter, initiate your lament!</l>
-        <l n="55">Brickwork of the Irikug precinct, the lament is bitter, initiate your lament!</l>
-        <l n="56">Maguenna shrine, the lament is bitter, initiate your lament!</l>
-        <l n="57">Your lament is bitter, your “great lady” (Ningal), the one who laments, how long will it exhaust her?</l>
-        <l n="58">Your lament is bitter, Nanna, the one who laments, how long will it exhaust her?</l>
-        <l n="59">City, your name is (still) present, but you will be destroyed to my/your detriment(?)</l>
-        <l n="1">City, your walls (may be) “those of encircling/totality&quot;(i.e., they may still be complete?), but your land is finished to my/your detriment(?)</l>
-        <l n="2">My city, like a fecund ewe, your lamb is finished to my/your detriment(?)</l>
-        <l n="3">Urim, like a fecund she-goat, your kid is finished to my/your detriment(?)</l>
-        <l n="4">City, your rites are changed to my/your detriment(?)</l>
-        <l n="5">Your ordinances have been changed into strange ordinances</l>
-        <l n="6">Your lament is bitter, your “great lady” (Ningal), the one who laments, how long will it exhaust her?</l>
-        <l n="7">Your lament is bitter, Nanna, the one who laments, how long will it exhaust him?</l>
-        <l n="8">It is the 2nd kirugu</l>
-        <l n="9">When ... destroys the true city, the lament is bitter</l>
-        <l n="10">When ... destroys Urim, the lament is bitter</l>
-        <l n="11">It is its gešgigal “response”</l>
-        <l n="12">The lady, after the city was destroyed, her city initiated a lament along with her(?)</l>
-        <l n="13">Ningal, who is finished in the land to my/your detriment(?)</l>
-        <l n="14">(The former inhabitants of) Urim are inconsolable(!?) with bitter lamentation to my/your detriment(?)</l>
-        <l n="15">The true woman, the lady who is to exhaust herself on behalf of her city</l>
-        <l n="16">Ningal, who is not to sleep on behalf of her land</l>
-        <l n="17">For her the fate of the city approaches, she weeps bitterly</l>
-        <l n="18">Upon my lady/that of my lady(?) the fate of the temple approaches(?), she weeps bitterly</l>
-        <l n="19">The fate of her destroyed city approaches, she weeps bitterly</l>
-        <l n="20">The fate of her defiled city approaches, she weeps bitterly</l>
-        <l n="21">The lady, after that of the voice(!?), the balag drum/lyre of lamentation, was being 'founded'(?)</l>
-        <l n="22">She herself was minimally( i.e., softly?) intoning an ilu lament/intoning little ilu laments(?) (of) the silenced ...</l>
-        <l n="23">The storm that is set (for me), its sorrow/wailing hangs upon me</l>
-        <l n="24">I am the woman whom the storm is set (for)</l>
-        <l n="25">The storm that is set (for me), its sorrow/wailing exhausts me(!)</l>
-        <l n="26">The storm, the bitter storm, is set for me</l>
-        <l n="27">And therefore I wail because of that storm</l>
-        <l n="28">Because of the power/wing(?) of the storm, I(!) cannot bring out(?) ...</l>
-        <l n="29">And therefore, (even) for a short length of days(?), in my reign, propitious days, in my reign, propitious days ... has not seen</l>
-        <l n="30">Along with(?) the night, because of the power of the night that is set for me</l>
-        <l n="31">And therefore I wail because of that night</l>
-        <l n="32">Because of the power/wing(?) of(!) the night, I(!) cannot bring out(?) ...</l>
-        <l n="33">The storm that is about to destroy like a flood, hangs for me by itself/in its aura(?)</l>
-        <l n="34">Because of this, in my bed chamber of the night</l>
-        <l n="35">Calm sleep is not put (in?) my bedchamber of the night</l>
-        <l n="36">Because of this, the silencing of the bedchamber</l>
-        <l n="37">If only ... would also bring the silencing of the bedchamber</l>
-        <l n="38">Because anathema was placed (in?) my land for me(!?)</l>
-        <l n="39">Like a cow with its calf, it ... the ground</l>
-        <l n="40">My land, regarding itself(?), does not compare with (me)(!?)</l>
-        <l n="41">Because bitter toil was placed (in?) my city</l>
-        <l n="42">I flap my wings towards it like a bird of the sky</l>
-        <l n="43">I fly towards my city</l>
-        <l n="44">(But) so to (i.e., nevertheless?) the city is destroyed where it was founded to my detriment</l>
-        <l n="45">(But) so to (i.e., nevertheless?) Urim is finished in its bedchamber to my detriment</l>
-        <l n="46">Because the power of the storm was placed from above/superior (to me)(?)</l>
-        <l n="47">I screamed and said to him “storm, you shall stay confined to the steppe”</l>
-        <l n="48">But the breast of the storm would not rise away from me</l>
-        <l n="49">...</l>
-        <l n="50">(Saying?) The lady, they must not put distant days (for me) into the reign of the Agrunkug temple, (the temple of my ladyship)</l>
-        <l n="51">She shall found (only) weeping and lamentation</l>
-        <l n="52">Because this temple is the site of liver pleasing of the black-headed</l>
-        <l n="53">Anger and distress shall also be doubled on behalf of/by means of its festival to your detriment</l>
-        <l n="54">...</l>
-        <l n="55">They shall continually bring despair, lament and anathema, lament and anathema</l>
-        <l n="56">My temple which was established by the just man</l>
       </div>
     </body>
   </text>

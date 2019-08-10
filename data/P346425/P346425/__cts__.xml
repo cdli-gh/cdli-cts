@@ -2,7 +2,7 @@
 <ti:work groupUrn="urn:cts:cdli:P346425" urn="urn:cts:cdli:P346425.P346425" xml:lang="sux" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
   <ti:title xml:lang="eng">UET 6, 0381</ti:title>
   <ti:edition urn="urn:cts:cdli:P346425.P346425.cdli-sux" workUrn="urn:cts:cdli:P346425.P346425">
-    <ti:label xml:lang="eng">CDLI P346425 UET 6, 0381</ti:label>
-    <ti:description xml:lang="eng">Test doc converted from atf.</ti:description>
+    <ti:label xml:lang="mul">CDLI P346425 UET 6, 0381</ti:label>
+    <ti:description xml:lang="eng">Cuneiform transliteration converted from atf.</ti:description>
   </ti:edition>
 </ti:work>

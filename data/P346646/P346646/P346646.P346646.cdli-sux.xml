@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346646.P346646.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x [...]</l>
             <l n="2'">[...]-e#?-ne u3-x [...]</l>
             <l n="3'">[...] kalam#?-ma lu2 nu-še-[ga ...]</l>
@@ -67,42 +65,9 @@
             <l n="13">[...] x x-bi2-ib u3-ma gub#?-[...]</l>
             <l n="14">[...] x he2-eb-x-[...]</l>
             <l n="15">[...] x ⸢{d#}nin⸣-[...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">... of/in the land, the disobedient person ...</l>
-        <l n="4'">... the Ekišnugal temple ...</l>
-        <l n="5'">... the one who inquires after ..., raising? ... above</l>
-        <l n="6'">... his greatness ...</l>
-        <l n="7'">... raising a hand (violently) against the evildoer, ... falsehood and truth ...</l>
-        <l n="8'">... lover of justice, its deathly silence did not arrive(?)</l>
-        <l n="9'">... the thriving people ..., (their?) false and true thought(s)</l>
-        <l n="10'">... forming a wave like ..., its course ... did not ...</l>
-        <l n="11'">... the flesh/skin(!?) of the universe</l>
-        <l n="12'">... its features (that of?) a “noble bison”</l>
-        <l n="13'">... the runaway/outcast/outlaw was not present?</l>
-        <l n="14'">...</l>
-        <l n="1">Your .... that brings in(?) ...(?) ...</l>
-        <l n="2">... your look(?) that brings in(?) good people who are praying/flattering(?) does not cease(?)</l>
-        <l n="3">... who pays attention to attentiveness, ..., stroking the nose in submission, and setting things in order by hand(?)</l>
-        <l n="4">Your ... does not denigrate, his chosen name, your protective lamma, ...</l>
-        <l n="5">..., great neckstock of the mult{iti}inous people, furious storm opposing the enemy(?)</l>
-        <l n="6">..., reciting its commands, ... its way</l>
-        <l n="7">... his ordering of the siskur offerings(?) of the gods betters man(kind)(?)</l>
-        <l n="8">... coming/bringing out ... by himself/his own, its aura covering the lands</l>
-        <l n="9">... perfecting goodness, fearsome temples, satisfying with (its) plentitude/happiness(?)</l>
-        <l n="10">... shrine Ekišnugal, your lady(?) ...</l>
-        <l n="11">... in your front brickwork, ... prolonging the days of lifetime ...</l>
-        <l n="12">May you be its ..., chosen name ...</l>
-        <l n="13">..., attain a victory(?)</l>
-        <l n="14">... so that ...</l>
-        <l n="15">...</l>
       </div>
     </body>
   </text>

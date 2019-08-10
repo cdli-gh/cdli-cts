@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000736, ex. 010</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346160</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346160.P346160.cdli-en" type="translation" xml:lang="en">
+        <l n="1">That man in(?) the “house of the woman&quot;(?) is something that is cared for(?)</l>
+        <l n="2">In(?) the dust of my(!?) house his “true&quot;(?) garment ...</l>
+        <l n="3">The young man has not ... his god</l>
+        <l n="4">My house (brings) the sky/god(?) (down for the man) as if seized by liquor (i.e., drunk?)</l>
+        <l n="5">Snakes and scorpions have filled the darkened house with stunned silence</l>
+        <l n="6">His spouse has laid the warp (for) the garment(?), (she and the other weavers?) are to serve him(?)</l>
+        <l n="1">Nungal, the lady of the prison</l>
+        <l n="2">Praise!</l>
+      </div>
+    </body>
+  </text>
+</TEI>

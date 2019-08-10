@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000623, ex. 013</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P464307</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P464307.P464307.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Lady of the many me, emergent sunlight</l>
+        <l n="2">True woman, bearing an aura, beloved of An and Uraš</l>
+        <l n="3">nugig midwife of heaven, she of the greatest pectoral(?)</l>
+        <l n="4">Who loves the true crown, who is suitable for the en-ship</l>
+        <l n="5">Who actively regulates(?) the seven me</l>
+        <l n="6">My lady, you are the caretaker of all the great me</l>
+        <l n="7">You have carried the me, you have bound the me to your hand</l>
+        <l n="8">You have gathered up the me, you have clasped the me to your chest</l>
+        <l n="9">Like an ušumgal monster you have poisoned(!?) the mountain</l>
+        <l n="10">When you roar (at) the earth like Iškur, Ezina (the grain goddess) has not withstood you</l>
+        <l n="11">Flood coming down from the mountain</l>
+        <l n="12">Foremost of the universe, you are its “Inanna”</l>
+        <l n="13">Raining burning fire on the homeland</l>
+        <l n="14">(The one who) An gave the cosmic powers, lady who rode a dog</l>
+        <l n="15">Issuing commands/conversing(?) by means of(?) holy An</l>
+        <l n="16">Who has known the great rites, that which is yours(?)</l>
+        <l n="17">Destroyer of the mountain, you have given strength to the storm</l>
+        <l n="18">Beloved of Enlil who has imposed fear in the homeland</l>
+        <l n="19">You stand/serve because of(?) the command of An</l>
+        <l n="20">My lady, you are the one who makes ... bow in the mountain(!?) towards/on behalf of your shout</l>
+        <l n="21">Along with the aura, radiance, and the southern stormwind(?), the furious(?) stupor of the people</l>
+        <l n="22">you have brought(?) for yourself(?) to the fore</l>
+        <l n="23">You have taken the (most) furious of the cosmic powers for yourself</l>
+        <l n="24">... has opened the “threshold of mourning” for you(!)</l>
+        <l n="25">... goes(?) on the street of the temple(?) of greatest lamentation (i.e., the netherworld?) for you</l>
+        <l n="26">My lady, (in/with) your own power “flints&quot;(?) consume(!?)</l>
+        <l n="27">The one who is(?) to thrash like a thrashing storm</l>
+        <l n="28">(You) shout together with the shouting storm</l>
+        <l n="29">(You) scream along with Iškur</l>
+        <l n="30">You are to become exhausted together with the destructive winds</l>
+        <l n="1">(But your) anger does not cool, eldest child of Nanna</l>
+        <l n="2">Lady who surpasses the mountain/land/netherworld, who has taken from(?) your place?</l>
+        <l n="3">The mountain range extends with you in your place, (it is) the taboo of (reserved for) Ezina (the grain goddess)</l>
+        <l n="4">Fire was imposed on its gate</l>
+        <l n="5">Blood is poured into its rivers for you and therefore the people cannot drink</l>
+        <l n="6">Its army plunders(?) itself for you</l>
+        <l n="7">The formations split themselves apart for you</l>
+        <l n="8">Its able-bodied young man chases himself away(?) for you</l>
+        <l n="9">A northern storm/rage(?) has filled its cities and playgrounds(?)</l>
+        <l n="10">Its perfect young men were hurried (away) as corpses(?)</l>
+        <l n="11">The city that has not (compelled its people) to say “the land/mountain is for you”</l>
+        <l n="12">Nor has it (compelled its people to have) said “your father (...)”</l>
+        <l n="13">(Despite) your holy word being spoken (to them)(?), may your feet will stumble/churn(?) (upon that?) place</l>
+        <l n="14">May (the city?) slip away from its womb/matrix (i.e., be stillborn?)</l>
+        <l n="15">Its woman shall not say pleasant things with her husband</l>
+        <l n="16">Nor advise him at night</l>
+        <l n="17">Nor reveal the purity of her heart</l>
+        <l n="18">Aroused wild cow(?), eldest child of Suen</l>
+        <l n="19">Lady who is superior to An/heaven, who has deprived(?) you?</l>
+        <l n="20">One who validates(?) the cosmic powers, great queen of queens</l>
+        <l n="21">One who emerged from the holy womb superior to her birth mother</l>
+        <l n="22">Wise, discerning queen of the lands</l>
+        <l n="23">(And) the teeming creatures and people (alike), I want to perform your holy song</l>
+        <l n="24">True deity greatly(?) suitable for the cosmic powers, your utterance is supreme</l>
+        <l n="25">(Possessing) a profound mind, true woman, (possessing) a pure/bright heart, I want to speak to you about the true(?) cosmic powers</l>
+        <l n="26">I shall enter into my holy cloister</l>
+        <l n="27">I am the en priestess, I am Enheduana</l>
+        <l n="28">The masab basket was carried, the asila was intoned</l>
+        <l n="29">... established funerary offerings/a “good site&quot;?, (as if?) I was not living there(?)</l>
+        <l n="30">(I?) approached the sunlight, the sunlight was burning</l>
+        <l n="31">(I?) approached the shade, but it was covered by (lit. along with) a southern storm(?)</l>
+        <l n="32">My “honey mouth” was ...</l>
+        <l n="1'">In the place of life giving force/encouragement, what(!?) am I?</l>
+        <l n="2'">The rebel land, because of hatred of your Nanna/in the manner of (one) hated by your Nanna(?), may An hand it over</l>
+        <l n="3'">May An tear apart its city</l>
+        <l n="4'">May Enlil curse it</l>
+        <l n="5'">His mother shall not calm down its weeping child/citizen</l>
+        <l n="6'">Lady whose lament is under way(?)</l>
+        <l n="7'">May your boat of lamentation(?) be abandoned in a strange place</l>
+        <l n="8'">I am to “die” because of my holy song</l>
+        <l n="9'">(But) as for me, my Nanna has not judged my case</l>
+        <l n="10'">He is to cause my destruction(?) in a “place of violence”</l>
+        <l n="11'">Dilimbabbar has not undertaken my case</l>
+        <l n="12'">(If) he did, what is to me? (If) he did not, what is it to me?</l>
+        <l n="13'">After(?) triumphing(!?), he (Lugalane) drove me out from the temple</l>
+        <l n="14'">Like a swallow, he made me fly away from the window, my life was consumed</l>
+        <l n="15'">I am the one who he makes go(?) in the brambles of the mountain</l>
+        <l n="16'">He removed the true crown of the en priestess from (my head)</l>
+        <l n="17'">He gave a knife and dagger to me and said to me “it is suitable for you”</l>
+        <l n="18'">Most precious lady, loved by An</l>
+        <l n="19'">May your holy heart, which is supreme, be restored to its place for me</l>
+        <l n="20'">Beloved spouse of (Ama)'ušumgalana (Dumuzi)</l>
+        <l n="21'">You are the great queen of the horizon and zenith (i.e., the whole of heaven)</l>
+        <l n="22'">The Anuna have submitted to you</l>
+        <l n="23'">(Since) birth you have been the younger sister (of Utu)</l>
+        <l n="24'">And thus (you) have been superior to the Anuna, the great gods</l>
+        <l n="25'">The Anuna kiss the ground with their lips for you</l>
+        <l n="26'">My case has not been finalized, (but the threat of) a hostile decision, that of his (Lugalane's?) case(!?), prowls around(?) in my face</l>
+        <l n="27'">He (Lugalane) has not defiled the flowered bed</l>
+        <l n="28'">The uttered word of Ningal was not ... to him</l>
+        <l n="29'">I am the pure/bright en priestess of Nanna</l>
+        <l n="1'">The charcoal has been piled up, the cleansing rites have been set in order</l>
+        <l n="2'">The “holy tavern” has been set up for you(?) so that you heart is cooled to me</l>
+        <l n="3'">After it (the matter) filled up and became too much, my(?) lady and queen, (as has) been spoken to you</l>
+        <l n="4'">That which was said to you in the nighttime</l>
+        <l n="5'">The lamentation priest should repeat as if (at) midday (for you)</l>
+        <l n="6'">Because of your captured spouse, because of your captured child</l>
+        <l n="7'">Your anger has been maximized, your heart does not cool</l>
+        <l n="8'">You are the perfect lady, the authoritative one of the assembly</l>
+        <l n="9'">She accepted her siskur offering/ritual on her (Enheduana's) behalf</l>
+        <l n="10'">And the holy heart of Inanna was restored to its place for her</l>
+        <l n="11'">At that time, it was good for her(?), she radiated plenty/happiness, she exuded joyful allure</l>
+        <l n="12'">Nanna faithfully brought out awe</l>
+        <l n="13'">Because(?) her mother Ningal prayed a šud prayer(?) for her</l>
+        <l n="14'">The gate of heaven/An(?) was greeting her</l>
+        <l n="15'">Destroyer of the mountain, allocated the cosmic powers by(?) An</l>
+        <l n="16'">My lady, clad in allure</l>
+        <l n="17'">Inanna, praise</l>
+        <l n="1">lady (of the many me)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

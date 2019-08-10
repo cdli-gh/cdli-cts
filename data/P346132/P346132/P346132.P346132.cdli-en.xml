@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000369, ex. 010</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346132</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346132.P346132.cdli-en" type="translation" xml:lang="en">
+        <l n="1">The utterance of your king is nothing to me(? lit. my non-existence), his reiteration is nothing to me(?)</l>
+        <l n="2">When my king was born, he was suitable for lordship</l>
+        <l n="3">The lord of Unug, a sagkal snake living in Sumer, crushing heads like flour</l>
+        <l n="4">A mountain goat whose strength is in the mountain peak</l>
+        <l n="5">The šilamza bovine, the mountain(?) goat purified with soap and plucked of its wool(?)</l>
+        <l n="6">Given birth to by the true cow in the mountain midst</l>
+        <l n="7">Enmerkar, the son of Utu, has sent me to you</l>
+        <l n="8">In his city, I(!) shall make (the people) fly from the trees like pigeons</l>
+        <l n="9">I(!) shall terrify (the people) in their founded nests like birds</l>
+        <l n="10">According to the current market rate I will tear away/silence(?) (the people)</l>
+        <l n="11">I will make (the people) hold dust as if (they inhabited) a destroyed city</l>
+        <l n="12">Aratta, the settlement that Enki has cursed</l>
+        <l n="13">I too shall destroy the place like the one who has destroyed places</l>
+        <l n="14">Inanna has raised ... behind them</l>
+        <l n="15">She has shouted and screamed</l>
+        <l n="16">(I) too shall devastate like the one who has devastated</l>
+        <l n="17">After (an inhabitant) has packed leather bags with gold ore</l>
+        <l n="18">(After) (an inhabitant) has placed kugmea metal in its ore(?) beside it</l>
+        <l n="19">After (an inhabitant) fashions the metal into pouches(?)</l>
+        <l n="20">After one fastens sacks(?) upon donkeys of the mountains(?)</l>
+        <l n="21">On my behalf, the junior Enlil of the lands</l>
+        <l n="22">The lord that Nudimmud has chosen in (his) pure heart</l>
+        <l n="23">(They) will therefore build ... for me in the manner of(?) the mountain of the pure me</l>
+        <l n="24">Make it alluring like the box tree for me</l>
+        <l n="25">Make (its) rays sparkle for me like Utu coming out of his agrun chamber</l>
+        <l n="26">And make its thresholds sparkle (like) a standard for me</l>
+        <l n="27">When(?) the holy songs and incantations are sung in its agrun chambers</l>
+        <l n="28">Say the spell of Nudimmud for me</l>
+        <l n="29">After you have spoken what you are saying to me(?)</l>
+        <l n="30">To the scion who grows(?) a lapis beard</l>
+        <l n="1'">I shall speak the words to him in the shrine of Eanna</l>
+        <l n="2'">In the gipar complex, bearing fruit like a new mes tree</l>
+        <l n="3'">I shall repeat it for my king, the lord of Kulaba</l>
+        <l n="4'">Thus in (i.e. contemporaneously?) that of what he (the messenger) should be saying to him (the lord of Aratta said)(?)</l>
+        <l n="5'">Messenger, to your king, the lord of Kulaba</l>
+        <l n="6'">When you speak to him, when you repeat</l>
+        <l n="7'">It is I, the lord who is suitable for the pure hands(!?)</l>
+        <l n="8'">And therefore the neck stock of heaven, the queen of the universe</l>
+        <l n="9'">The lady of the many cosmic powers, holy Inanna</l>
+        <l n="10'">It is I(?) who she brought to Aratta, the mountain of the pure me</l>
+        <l n="11'">It is I(?) who she has made block your face(?) from(?) the mountain like a great door</l>
+        <l n="12'">How could Aratta submit to Unug?</l>
+        <l n="13'">Aratta's submission to Unug does not exist</l>
+        <l n="14'">Speak (that) to him</l>
+        <l n="15'">Thus in (i.e. contemporaneously?) that of what he (the lord of Aratta) should be saying to him (the messenger said)(?)</l>
+        <l n="16'">The messenger was replying to(!) the lord of Aratta</l>
+        <l n="17'">The great lady Inanna, riding on/superimposed by the furious me</l>
+        <l n="18'">Seated in the mountain range of the mountain of šuba stones</l>
+        <l n="19'">Having adorned the dais of the mountain of šuba stones</l>
+        <l n="20'">My lord and king, in the manner of her servant(?)</l>
+        <l n="21'">The lady has made him enter into the Eanna temple(?)</l>
+        <l n="22'">(Saying) “The lord of Aratta has bowed his neck (to) the ground on behalf of Kulaba&quot;(?)</l>
+        <l n="23'">Thus in (i.e. contemporaneously?) that of what he (the messenger) should be saying to him (the lord of Aratta said)(?)</l>
+        <l n="24'">The lord of Unug, a sagkal snake living in Sumer, crushing heads like flour</l>
+        <l n="25'">A mountain goat whose strength is in the mountain peak</l>
+        <l n="26'">The šilamza bovine, the mountain(?) goat purified with soap and plucked of its hair(?)</l>
+        <l n="27'">(Total) 60 (lines)</l>
+        <l n="28'">It is the 4th “long-tablet” (in the composition:)</l>
+        <l n="29'">“The city, a furious bull bearing a great aura.”</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -103,82 +100,11 @@
             <l n="32">[...] ⸢geš3⸣ a2 zi na-an-e3 GIŠ-e ⸢ba⸣-⸢e⸣-x-du11?</l>
             <l n="33">[...] x igi#?-bi x ši-sir5-⸢re⸣</l>
             <l n="34">[...] ša3-ge nu-mu-e-⸢KAR2⸣-[...]</l>
+            <note>space blank</note>
             <l n="35">[...] {diš}dam-qi2-i3-li2-šu</l>
             <l n="36">[...] ⸢u4⸣ 3(diš)-kam</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">In those distant days, in those (even more) distant days</l>
-        <l n="2">In those distant nights, in those (even more) distant nights</l>
-        <l n="3">In those distant years, in those (even more) distant years</l>
-        <l n="4">At that time he was the one of wisdom, the one aware of events, was resident in the land</l>
-        <l n="5">(The resident of?) Šuruppak, he was the one of wisdom, the one aware of events, was resident in the land</l>
-        <l n="6">(The resident of?) Šuruppak instructed</l>
-        <l n="7">(The resident of?) Shuruppak, the son of Ubartutu</l>
-        <l n="8">Was instructing his son Ziusudra</l>
-        <l n="9">My son, I shall instruct, may my instruction be grasped</l>
-        <l n="10">One should not forget my instruction</l>
-        <l n="11">One should not transgress (my) spoken word</l>
-        <l n="12">The advice of an elder is something precious, one should pay attention to it</l>
-        <l n="13">One should not buy a braying male donkey, it will split apart your workforce</l>
-        <l n="14">One should not put down a field (on) a road, there will be crushing/growling(!?) force</l>
-        <l n="15">One should not cultivate a field on a road or pathway, there will be ... of the boundary stake(s)</l>
-        <l n="16">Do not dig(?) a well/cistern in(!) your field, the people will(?) destroy it for you</l>
-        <l n="17">Do not attach a house(?) to the broad street/town square, there is “binding&quot;(?) (there)</l>
-        <l n="18">If one has not accepted(?) a pledge(?) (on his behalf?), that man will seize (you)(?)</l>
-        <l n="19">You, do not make a pledge(?), the one (on whose behalf it was made) will denigrate it(?)</l>
-        <l n="20">One should not look at (spy on, inspect?) a man, the flood will devastate you(?)</l>
-        <l n="21">One should not stand (i.e., remain) where there is a quarrel</l>
-        <l n="22">One should not become a witness in the quarrel</l>
-        <l n="23">Do not make yourself known in the quarrel (i.e., conceal your identity?)</l>
-        <l n="24">...</l>
-        <l n="25">Set quarreling aside</l>
-        <l n="26">Regarding abuse, go around it with a different street (instead)</l>
-        <l n="27">One should not steal anything (and thus) kill yourself (by incurring punishment)</l>
-        <l n="28">One should not break into a house (and thus) desire the treasure box</l>
-        <l n="29">The thief is indeed a pirig monster, (but) after he is caught, he is indeed a slave</l>
-        <l n="30">My son, one should not rob, do not “hew” yourself(?)</l>
-        <l n="31">Do not sexually penetrate(?) the bridegroom, do not ... yourself</l>
-        <l n="1">Do not “play”(?) with a married young woman, the slander (arising from it) is formidable</l>
-        <l n="2">My son, one should not sit in a chamber(?) with someone who is married</l>
-        <l n="3">One should not quarrel and (thus) spoil yourself</l>
-        <l n="4">Do not ... lies, (the act?) “thins out/flattens the head/denigrates and ...?”</l>
-        <l n="5">One should not boast/(overly) praise, your word is set (within it)</l>
-        <l n="6">One should not advise, a serious gaze is(?) never lifted away from him(?)</l>
-        <l n="7">One should not eat/consume something stolen(?) with someone else</l>
-        <l n="8">If your hands are bloody(?) one should not submerge them in ...(?)</l>
-        <l n="9">One should replace a scratched/ground down(?) bone/foot(?) with an (entire) ox or a sheep(?)</l>
-        <l n="10">One should not speak ... with inappropriateness</l>
-        <l n="11">Or else in the future(?), like a trap, ... will bind ... to you(?)</l>
-        <l n="12">One should not scatter your sheep towards (a place where) pasture has not been sought (before)</l>
-        <l n="13">One should not hire the ox of another man for (work on) a property line that is not set</l>
-        <l n="14">A set property line is a set road</l>
-        <l n="15">Do not go (on) a road (at) night, its midst is (both) good and evil (portending?)</l>
-        <l n="16">One should not buy an onager you will have spend the day with at its side</l>
-        <l n="17">One should not have sex with your female worker, she will chew you up(?)</l>
-        <l n="18">One should not curse(!) with/at your right side(?), ... will return ... towards (your?) hand(?)</l>
-        <l n="19">Do not pour/bring out(?) water that has not been examined/accepted(?), weakened arms(?) are there for you</l>
-        <l n="20">Abandon something that is long/offered(?) with pomp(?) and it will abandon ...(?)</l>
-        <l n="21">One should not kill a strong man or destroy the outer wall</l>
-        <l n="22">One should not kill a young man/worker(?) (or) turn him away from the city</l>
-        <l n="23">One should not remove a debt-bearer, that man will be(?) estranged to you</l>
-        <l n="24">One should not put down a field adjacent to an arrogant/shy(?) (person)</l>
-        <l n="25">He will leave it to you to go to(?) that female worker</l>
-        <l n="26">One should not rebel from the ... of that man</l>
-        <l n="27">(Even if?) “Lead, lead!” they say to you</l>
-        <l n="28">One should not release the bond(?) at the reed fence of an orchard</l>
-        <l n="29">“Replace it, replace it!” they will say on (the owner's) behalf(?)</l>
-        <l n="30">Do not feed a dog/stranger, one should not drag around(?) a quarrel(?)</l>
-        <l n="31">My son, do not use(!?) force, do not put a man on the ground</l>
-        <l n="32">One should not rape the child of a man, ...</l>
-        <l n="33">The slanderer, (like) a spindle(?), spins his(!) eyes/gaze</l>
-        <l n="34">One is not to stand at the front, you will not have changed your mind (once getting there?)</l>
-        <l n="35">&quot;Long-tablet&quot; of Damqi-ilišu</l>
-        <l n="36">It is the month of ..., 3rd day</l>
       </div>
     </body>
   </text>

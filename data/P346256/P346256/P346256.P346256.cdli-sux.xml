@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -88,57 +85,6 @@
             <l n="1">($ blank space $) 4(u@v) 6(diš)</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Do not remove a debt-bearer, that man will be(?) estranged to you</l>
-        <l n="2">Do not put down a field adjacent to an arrogant/shy(?) (person)</l>
-        <l n="3">He will leave it to you to go to(?) that female worker</l>
-        <l n="4">You are not to rebel from the resident city of that man</l>
-        <l n="5">(Even if?) “Lead, lead!” they(!) will say to you</l>
-        <l n="6">Do not release the bond(?) at the reed fence of an orchard</l>
-        <l n="7">“Replace it, replace it!” they(!) will say</l>
-        <l n="8">One should not feed a dog/stranger, one should not drag around(?) a quarrel(?)</l>
-        <l n="9">Do not use force, put(!?) a man on the ground</l>
-        <l n="10">Do not rape the child of a man, it will be learned of(?) in the assembly(?)</l>
-        <l n="11">Do not kill a strong man, do not destroy the outer wall(?)</l>
-        <l n="12">Do not kill a young man, do not return him ... the city(?)</l>
-        <l n="13">The slanderer, like a spindle, spins his eyes/gaze</l>
-        <l n="14">Do not to stand at the front, you(?) may have changed your mind(?)</l>
-        <l n="15">Do not (overly) praise/boast like a liar in a tavern(?)</l>
-        <l n="16">After you have approached the “place of manhood(?),” do not make your hand shake</l>
-        <l n="17">He is indeed a hero, he alone is (the equivalent) of many men</l>
-        <l n="18">He is indeed Utu, he alone is (the equivalent) of many men</l>
-        <l n="19">In order to stand with the hero, he must have your life with him</l>
-        <l n="20">In order to stand with Utu, he must have your life with him</l>
-        <l n="21">(The resident of?) Šuruppak instructed his son</l>
-        <l n="22">He was instructing his son Ziusudra</l>
-        <l n="1">My son, I shall instruct, may (you) grasp my instruction</l>
-        <l n="2">Ziusudra, I want to speak a word to you, may (you) pay attention to it</l>
-        <l n="3">Do not forget my instruction</l>
-        <l n="4">Do not transgress my spoken word</l>
-        <l n="5">The mouth that drinks beer(?)</l>
-        <l n="6">My child, you are corrupting (another) man(?)</l>
-        <l n="7">You multiply things with (your) mouth that drinks beer</l>
-        <l n="8">Ninkasi ... his heart/stomach ...</l>
-        <l n="9-10">... drags ...</l>
-        <l n="11">... raised ...</l>
-        <l n="12">... chases ...</l>
-        <l n="13">...</l>
-        <l n="14">&quot;Your own man&quot;(?) should not(!) repay(?) ... because of you(?)</l>
-        <l n="15">The reed bed is indeed (consisting of) reeds and plants/reeds of one cubit length(?), its midst is slander</l>
-        <l n="16">The palace, the great river, its midst is a bull that is to gore</l>
-        <l n="17">That which enters is not to be regular</l>
-        <l n="18">That which leaves is to be unceasing(!)</l>
-        <l n="19">That of a man(?) (which makes him say?) “I want to give ... to you&quot;(?) is close (i.e., easy?)</l>
-        <l n="20">(But) the (actual) giving to be done is distant (like) the heavens (i.e., hard?)</l>
-        <l n="21">(You say) I shall follow the (one who says) I shall give ... to you</l>
-        <l n="22">But he will not give it to you(?), (saying) “that which is before it(?) is used up”</l>
-        <l n="23">Property is something to be ...</l>
-        <l n="24">My child, nothing compares with it</l>
-        <l n="1">(Total:) 46 (entries).</l>
       </div>
     </body>
   </text>

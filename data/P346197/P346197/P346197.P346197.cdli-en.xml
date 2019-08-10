@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000750, ex. 015</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346197</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346197.P346197.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">Named a good name</l>
+        <l n="2'">Your interior is the river ordeal</l>
+        <l n="3'">Egalgasud temple, storehouse that makes silver and lapis</l>
+        <l n="4'">Into treasure</l>
+        <l n="5'">Etarsirsir temple, enunciating/effecting(?) decisions and the cosmic powers, one who strokes the nose (in submission)</l>
+        <l n="6'">Your ruler, possessed of pity ...</l>
+        <l n="7'">Lady, great physician of the black headed</l>
+        <l n="8'">Who decrees the fate of her city</l>
+        <l n="9'">Eldest child of holy An, mother Bau</l>
+        <l n="10'">Temple of the Irikug sacred precinct</l>
+        <l n="11'">She erected a temple in your sacred space</l>
+        <l n="12'">She sat on your dais</l>
+        <l n="13'">Ebursagsag temple, (where beautiful stone bowls) are set up under heaven</l>
+        <l n="14'">The dining hall/sanctum, consistently supplied (with offerings?) like the lord of the pure mouth(!?)</l>
+        <l n="15'">The abundance of the midst of the sea, ... inner sanctum</l>
+        <l n="16'">Pure(?) roof/hair?(?), ..., ..., ... interceding</l>
+        <l n="17'">Rejoicing ...</l>
+        <l n="18'">The Emah temple, temple of Šara, the temple(?) where the faithful man in(?) abundance</l>
+        <l n="19'">Prayed to you</l>
+        <l n="20'">Your temple, the Emah, your prince, the princely son of the nugig midwife (Inanna)(?)</l>
+        <l n="21'">It voice thinned/spread out(?), (its) sacred space(?) producing(?) abundance</l>
+        <l n="1'">Ešerzidguru temple, inner sanctum hung with šuba stones</l>
+        <l n="2'">(Possessing) a great aura, the nigar sanctary of holy Inanna</l>
+        <l n="3'">Adorning/touching the true me, the emerging(?) me, broadly</l>
+        <l n="4'">Zabalam, shrine ..., shrine at daybreak(?)</l>
+        <l n="5'">She has found the voice of (i.e. found expression for?) the wish(?)</l>
+        <l n="6'">In your true inner sanctum, the nugig midwife</l>
+        <l n="7'">Laid down the wish</l>
+        <l n="8'">Your lady, Inanna, singular ...</l>
+        <l n="9'">ušumgal creature grabbing the limbs(?) of the single(?) man, ...</l>
+        <l n="10'">Shining as something white, advancing toward the rebel land</l>
+        <l n="11'">The firmament in the evening made beautiful by her own (doing)</l>
+        <l n="12'">The eldest child of Suen, Inanna</l>
+        <l n="13'">Temple of Zabalam</l>
+        <l n="14'">She erected a temple in your sacred space</l>
+        <l n="15'">She sat on your dais</l>
+      </div>
+    </body>
+  </text>
+</TEI>

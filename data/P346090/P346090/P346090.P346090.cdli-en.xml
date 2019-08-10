@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000351, ex. 047</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346090</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346090.P346090.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">The king who establishes his name (for) distant days</l>
+        <l n="2'">The one who after(?) he fashioned a statue as in ancient times</l>
+        <l n="3'">In my Eninnu temple, a shrine filled with joy</l>
+        <l n="4'">After you stand in the place(!) of libations (for the dead), you shall be established as something appropriate</l>
+        <l n="5'">My king attended to the (next) stone</l>
+        <l n="6'">Utilizing the na stone/grinding surface(?), he “worked the leather&quot;(?)</l>
+        <l n="7'">Ninurta, the son of Enlil, was decreeing (its) fate</l>
+        <l n="8'">Stone, as if(?) you had said “I (...?)”(?)</l>
+        <l n="9'">na stone/grinding surface(?), as one (of a group) who was casting lots for (the use of?) my cosmic powers</l>
+        <l n="10'">You, lie down like a pig in order to fashion (things)/be fashioned(?)</l>
+        <l n="11'">Be cast aside, you who are worked by no one(?), end up/ending up as tiny pieces</l>
+        <l n="12'">My king attended to the eleli stone</l>
+        <l n="13'">Ninurta, the son of Enlil, was decreeing (its) fate</l>
+        <l n="14'">eleli stone, who pays attention, when the mountain sowed discord, I cast down my aura upon you</l>
+        <l n="15'">...</l>
+        <l n="1'">Thus (you) inquired after my coming</l>
+        <l n="2'">In my workshop, the one who goes at the fore</l>
+        <l n="3'">algameš stone, you shall be the daily regular fare brought by(?) the precious stone workers</l>
+        <l n="4'">My king attended to the dušia stone</l>
+        <l n="5'">He spoke to the nir stone, carnelian, and lapis</l>
+        <l n="6'">The amašpa'e, šaba, and hurizum stones</l>
+        <l n="7'">The guggazi and marhali stones</l>
+        <l n="8'">The egizaga and girinhiliba stones</l>
+        <l n="9'">The anzugulme and nirmušir stones</l>
+        <l n="10'">The lord, ...</l>
+        <l n="11'">Ninurta, the son of Enlil, was decreeing (their) fate</l>
+      </div>
+    </body>
+  </text>
+</TEI>

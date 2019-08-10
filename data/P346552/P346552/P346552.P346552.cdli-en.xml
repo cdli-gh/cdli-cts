@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000380, ex. 049</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346552</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346552.P346552.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">People who did not know butter were churning its butter</l>
+        <l n="2'">People who did not know cream were ... its cream</l>
+        <l n="3'">In the cattle pen the churning churn was not bellowing nobly</l>
+        <l n="4'">The heavy coals that had been lit(?), their smoke ceased</l>
+        <l n="5'">... the great dining hall of Nanna ...</l>
+        <l n="6'">Suen wept to his father Enlil</l>
+        <l n="7'">My birth father, my city was ... for him(?), why did you turn away from me?</l>
+        <l n="8'">Enlil, my Ur was ... for him(!?), why did you turn away from me?</l>
+        <l n="9'">My Ekišnugal temple was ... for him(?), why did you turn away from me?</l>
+        <l n="10'">The nesag offering ships of my(?) birth father no longer brought the nesag offering for him</l>
+        <l n="11'">... could not bring its nindaba offerings to Enlil (of/at) Nibru for him</l>
+        <l n="12'">The wind(s) carried off the en priest(ess) of the outer city and the en priest(ess) of the inner city</l>
+        <l n="13'">Ur, like a city struck by a pickax, has been broken up into ruin heaps</l>
+        <l n="14'">The Ki'ur? shrine, the place of relaxation of Enlil, has been made into a windblown shrine</l>
+      </div>
+    </body>
+  </text>
+</TEI>

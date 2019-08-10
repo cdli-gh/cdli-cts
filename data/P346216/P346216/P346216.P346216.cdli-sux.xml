@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -106,77 +103,6 @@
             <l n="32">($ blank space $) {iti}ab-e3 u4 2(u) 1(diš)-kam</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Enlil made starvation (in the form of?) an evil person dwell in the city</l>
-        <l n="2">He made that which destroys cities, that which destroys temples, dwell in the city</l>
-        <l n="3">He made that which before it a weapon does not stand (against) dwell in the city</l>
-        <l n="4">He made the hungry/dissatisfied and the eye-roller dwell in the city</l>
-        <l n="5">In Ur, even (the fear/disdain of) head shaking like a single planted reed was not established</l>
-        <l n="6">Its people took refuge like a fish living in a well/pond</l>
-        <l n="7">Meager and great alike spread out, no one arose/was mustered</l>
-        <l n="8">The king(?) mounted atop the gate tower(?), there was no food there for him</l>
-        <l n="9">The king who had ate and drank(?) good things, (had to now) clutch at a (mere) ration(?)</l>
-        <l n="10">The sun was clouded over, (one) was being envious/watching(?) and knew fasting</l>
-        <l n="11">He did not have beer in his brewery, its ... was not present</l>
-        <l n="12">There was no food for him in his palace, it was not suitable for dwelling</l>
-        <l n="13">His supreme storehouse was not filled with grain, no one could take refuge there(?)</l>
-        <l n="14">(The) grain (goddess) was not present in the large and small grain heaps</l>
-        <l n="15">The afternoon meal of the gods was actively diminished there</l>
-        <l n="16">In the great banquet the honeyed liquor ceased</l>
-        <l n="17">(As for?) the giriPAa knife that consumes oxen and sheep, it lay (abandoned) in the plants</l>
-        <l n="18">In the great oven the oxen and sheep were not being prepared (i.e., roasted?), one could no longer smell it(?)</l>
-        <l n="19">The cry/breath of the “pure-armed” bursag building/functionary(?) stopped(?)</l>
-        <l n="20">The temple that had once belowed like a bull ... silently</l>
-        <l n="21">The deposit of the properly executed deliveries was (a) distant (memory)</l>
-        <l n="22">The millstone, the mortar, and the pestle sat idle, no one bends down towards them</l>
-        <l n="23">In the lapis harbor of Nanna (boats?) were “bound in the water” (due to silt?)</l>
-        <l n="24">The water of the prow did not scream(?), it did not cast joy(?)</l>
-        <l n="25">Sand(?) was piled up in the unuRIbanda building/shrine of Nanna</l>
-        <l n="26">The ... rushes grew, the ... rushes grew, the reed of mourning(?) grew</l>
-        <l n="27">Boats and barges quit the shining harbor</l>
-        <l n="28">In “your” canal that was made suitable for barges, no one was rowing anymore</l>
-        <l n="29">The plans of the festival at the place of rites was changed</l>
-        <l n="30">The nesag offering ships of his birth father (Enlil) no longer brought the nesag offering</l>
-        <l n="31">... could not bring its nindaba offerings to Nibru for him</l>
-        <l n="32">There was emptiness in the river/canal, barges were not traversing it</l>
-        <l n="33">No foot was set/present on its two banks, tall plants grew</l>
-        <l n="34">The fence of the broad cattle pen of Nanna was torn apart</l>
-        <l n="1">The reed fence of the orchard was ..., ... established a breach</l>
-        <l n="2">The cow was seized along with its calf</l>
-        <l n="3">The munzer fed cows took to a strange path in an unknown part of the plain</l>
-        <l n="4">Gayau, who loves cows, dropped his weapon in the bedding/dung</l>
-        <l n="5">Šunidug, the one who stores butter and cheese, did not store butter and cheese</l>
-        <l n="6">People who did not know butter were churning its butter</l>
-        <l n="7">People who did not know milk were ... its milk</l>
-        <l n="8">In the cattle pen the churning churn was not bellowing nobly</l>
-        <l n="9">The heavy coals that had been lit(?), their smoke ceased</l>
-        <l n="10">Suen wept to his father Enlil</l>
-        <l n="11">My birth father, my city was ... for you/him(!?), why did you turn away from me?</l>
-        <l n="12">Enlil, my Ur was ... for you/him(!?), why did you turn away from me?</l>
-        <l n="13">The nesag offering ships of his birth father no longer brought the nesag offering for him</l>
-        <l n="14">... could not bring its nindaba offerings to Enlil (at) Nibru for him</l>
-        <l n="15">The wind(s) carried off the en priest(ess) of the outer city and the en priest(ess) of the inner city</l>
-        <l n="16">Ur, like a city struck by a hoe, has been broken up into ruin heaps</l>
-        <l n="17">The Ki'ur(?) shrine, the place of relaxation of Enlil, has been made into a windblown shrine</l>
-        <l n="18">Enlil, ... your eye at your city, it is an empty wasteland</l>
-        <l n="19">The dogs of Ur are not sniffing at the base of the city wall</l>
-        <l n="20">The one who burrows/demarcates(?) wells is not gathering earth at the market price(?)</l>
-        <l n="21">My birth father, turn around my city back to your arms from its loneliness</l>
-        <l n="22">Enlil, turn around my Ur back to your arms from its loneliness</l>
-        <l n="23">Turn around my Ekišnugal temple back to your arms from its loneliness</l>
-        <l n="24">So that my Ur is brought out, so that the people are broadened</l>
-        <l n="25">So that he returns the me of Sumer which were destroyed to their place</l>
-        <l n="26">It is the 3rd kirugu</l>
-        <l n="27">Alas, the true temple, the true temple, its man, its man</l>
-        <l n="28">It is the gešgigal “response”</l>
-        <l n="29">Enlil was replying to his son Suen</l>
-        <l n="30">(Total:) 60 (lines)</l>
-        <l n="31">&quot;Long-tablet&quot; of Damqi-ilišu</l>
-        <l n="32">Month &quot;Abe,&quot; 21st day.</l>
       </div>
     </body>
   </text>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346215.P346215.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] u2-⸢a⸣ ⸢ba⸣-⸢ši⸣-⸢in⸣-[...]</l>
             <l n="2'">[... u2]-⸢a⸣ ba-ši-in-x-[...]</l>
             <l n="3'">[...] ⸢gub⸣-bu-bi šukur2 mah-gin7 ba-e-x-[...]</l>
@@ -73,51 +71,13 @@
             <l n="35'">[...] x x [...]</l>
             <l n="36'">[...] x x [...]</l>
             <l n="37'">[...] x [...]</l>
+            <note>broken</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>broken</note>
+            <note>space blank</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">... the provider(? i.e., the king?) ...</l>
-        <l n="2'">... the provider(?) ...</l>
-        <l n="3'">Its standing/serving ... like a supreme ration ...</l>
-        <l n="4'">At its great gate Enlil stood the door (open) in the wind(?)</l>
-        <l n="5'">In Ur, no one went towards food, no one went towards water</l>
-        <l n="6'">The people were circling around like water poured into a well/pond</l>
-        <l n="7'">Its strength was not present in its aura(?) and thus its strength did not dwell (there)(?)</l>
-        <l n="8'">Enlil made starvation (in the form of?) an evil person dwell in the city</l>
-        <l n="9'">He made that which destroys cities, that which destroys temples, dwell in the city</l>
-        <l n="10'">He made that which before it a weapon does not stand (against) dwell in the city</l>
-        <l n="11'">He made the hungry/unsatfisfied and the eye-roller dwell in the city</l>
-        <l n="12'">In Ur, even (the fear/disdain of) head shaking like a single planted reed was not established</l>
-        <l n="13'">Its people took refuge like a caught fish</l>
-        <l n="14'">Meager and great alike spread out, no one arose/was mustered</l>
-        <l n="15'">The king(?) was mounted atop the gate tower(?), there was no food there for him</l>
-        <l n="16'">The king who had ate and drank good things, (had to now) clutch at a (mere) ration(?)</l>
-        <l n="17'">The sun was clouded over, (one) was being envious/watching(?) and knew fasting</l>
-        <l n="18'">There was no beer in the “house of the plain&quot;(!?), its ... was not present</l>
-        <l n="19'">There was no food for him in his palace, it was not good(?) for dwelling</l>
-        <l n="20'">His supreme storehouse was not filled with grain, no one could take refuge there(?)</l>
-        <l n="21'">(The) grain (goddess) was not present in the large and small grain heaps</l>
-        <l n="22'">The afternoon meal of the gods was not? eaten, funerary offerings(?) ...</l>
-        <l n="23'">In the great banquet the honeyed liquor and ... wine ceased?</l>
-        <l n="24'">The giriPAa knife that consumes oxen and sheep ...</l>
-        <l n="25'">In the great oven the oxen and sheep were not being prepared (i.e., roasted?), one could no longer smell it(?)</l>
-        <l n="26'">The cry/breath of the “pure-armed” bursag building/functionary(?) stopped(?)</l>
-        <l n="27'">The temple that had once belowed like a bull ... silently</l>
-        <l n="28'">... did not execute deliveries properly, ...</l>
-        <l n="29'">The millstone, the mortar, and the pestle sat idle, no one bends down towards them</l>
-        <l n="30'">In the lapis harbor of Nanna (boats?) were “bound in the water” (due to silt?)</l>
-        <l n="31'">The water of the prow did not scream(?), it did not cast joy?</l>
-        <l n="32'">Sand(?) was piled up in the unuRIbanda building/shrine of Nanna</l>
-        <l n="33'">The ... rushes grew, the ... rushes grew, the reed of mourning(?) grew</l>
-        <l n="34'">Boats and barges quit the shining harbor</l>
-        <l n="35'">...</l>
-        <l n="36'">...</l>
-        <l n="37'">...</l>
       </div>
     </body>
   </text>

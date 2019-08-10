@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,7 +33,9 @@
       <div n="urn:cts:cdli:P346280.P346280.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[ga]-ša-an [...]</l>
+            <note>double ruling</note>
             <l n="2'">2(u) 3(diš) [...]</l>
             <l n="3'">⸢u4⸣-da nam-ba-⸢ra⸣-[e3 ...]</l>
             <l n="4'">⸢e⸣-ne-eg3 an ⸢gu⸣-[la ...]</l>
@@ -50,29 +49,13 @@
             <l n="12'">AN [...] x [...]</l>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢a⸣-⸢a⸣ [...]</l>
             <l n="2'">ki x [...]</l>
             <l n="3'">ama [...]</l>
             <l n="4'">e2 [...]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">Lady ...</l>
-        <l n="2'">It is the 23rd kirugu</l>
-        <l n="3'">During the day may it not come out ...</l>
-        <l n="4'">May the word of greatest An not come out, (but, alas,) the storm came out</l>
-        <l n="5'">May the word of Enlil not come out, (but, alas,) the storm came out</l>
-        <l n="6'">You, storm, do not wash ...</l>
-        <l n="7'">Do not wear your clean garment ...</l>
-        <l n="8'">Do not anoint yourself with your sweet oil</l>
-        <l n="9'">You, storm, do not strip down on behalf of the sweet lap of (your spouse)</l>
-        <l n="10'">You, do not kiss (your) son, the sweet thing</l>
-        <l n="11'">You, do not eat fish, ...</l>
-        <l n="12'">...</l>
       </div>
     </body>
   </text>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -50,6 +47,7 @@
           </div>
           <div n="reverse" type="textpart">
             <l n="1">ki-sikil x sahar si sa2 da? MU [...]</l>
+            <note>space blank</note>
             <l n="2">A2 MI siki-gu10 A2 MI PA-a-gu10#!</l>
             <l n="3">A2 MI pa siki-gu10 lum-ma-gin7</l>
             <l n="4">A2!? MI siki-gu10 ba-|U.DIM|?-|U.DIM|?-be2</l>
@@ -57,28 +55,6 @@
             <l n="6">gi-ru di?-ta mu-hul2-hul2-e</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">On behalf of(?), the very young woman? who has not known a man</l>
-        <l n="2">On behalf of(?) the young woman?, who has not known my penis</l>
-        <l n="3">My ..., a furious(?) lamma protective deity at my(?) head(?)</l>
-        <l n="4">... saw inside(?)</l>
-        <l n="5">...</l>
-        <l n="6">My big toe(?) carried(?) dirt for ...(?)</l>
-        <l n="7">I(?) ... my tiny feet(?) for ...</l>
-        <l n="8">What have you learned(?)? My mother, what have you learned(?)</l>
-        <l n="9">My birth mother, What have you learned about its midst/womb(?)</l>
-        <l n="10">I ... illuminate(?) the covered over (i.e. dark, hidden) place(?)</l>
-        <l n="11">(I?) ... the raised/aroused ...(?)</l>
-        <l n="1">The young woman ... the straightened/correct(?) ...</l>
-        <l n="2">... my hair, ..., my ...</l>
-        <l n="3">... like my flowing locks</l>
-        <l n="4">..., my hair that ...</l>
-        <l n="5">... my crimson ...(?) is of(?) ...</l>
-        <l n="6">The singular(?) (male) lover will rejoice</l>
       </div>
     </body>
   </text>

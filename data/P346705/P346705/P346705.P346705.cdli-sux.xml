@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346705.P346705.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">x [...] x x [...]</l>
             <l n="2'">uga#{mušen#}-⸢bi⸣ ⸢adda⸣ im-da#!?-gu7#?</l>
           </div>
@@ -44,19 +42,10 @@
             <l n="2">mu-lu egir-ra ma2 egir-⸢ra⸣ ba-ab-⸢ug5⸣</l>
             <l n="3">⸢uru17⸣ ša3-ba uru17 ša3 šu? mu-[da-gul]</l>
             <l n="4">uru17 bar-ra uru17 bar šu? mu-[da-gul]</l>
+            <note>space blank</note>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">Its raven(s) are eating the corpse(s)</l>
-        <l n="1">The men of the front died at the bow of the boat</l>
-        <l n="2">The men of the rear died at the stern</l>
-        <l n="3">In the middle of the city, ... destroyed the middle of the city</l>
-        <l n="4">In the outside of the city, ... destroyed the outside of the city</l>
       </div>
     </body>
   </text>

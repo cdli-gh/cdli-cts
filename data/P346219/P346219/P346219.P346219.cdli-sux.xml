@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346219.P346219.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢{geš#}gu⸣-⸢za⸣ ki di ku5-ru-bi#? [...]-um#?-[...]</l>
             <l n="2'">{d}alamuš gidri ba-an-da-šub šu-⸢ni⸣ [...]</l>
             <l n="3'">a2-nu2-da ku3 {d}nanna-ka giri3-na nu#?-x-ge-NE#!?</l>
@@ -51,8 +49,11 @@
             <l n="13'">a-a ugu-gu10 en3-tukum-še3 nig2-ka9 igi erim2-⸢e⸣ mu-e-duh x [...]</l>
             <l n="14'">nam-en nam-lugal šum2-⸢ma⸣-za-am3 na-mu-e-ši-NE?</l>
             <l n="15'">a-a {d}en-lil2 lu2 a2 ag2-e du11-ga zi</l>
+            <note>space blank</note>
             <l n="16'">a-a {d}en-lil2 nam mu-e-tar-ra ⸢galga⸣ ba-ra-an-du8-du8-x</l>
+            <note>space blank</note>
             <l n="17'">siki-pa nam-en-na suh keš2-da#?-⸢ga2⸣</l>
+            <note>space blank</note>
             <l n="18'">{d}en-lil2-le dumu-ni {d}suen-ra inim zi mu-un-na-ab-be2</l>
             <l n="19'">dumu-gu10 iri nam-he2 giri17-zal ša-ra-da-du bala-zu ba-ši-ib-kin2!?</l>
           </div>
@@ -83,8 +84,12 @@
             <l n="24'">[...]-⸢um⸣-ma-ka#? he2-eb-⸢zal⸣ [kur]-⸢re⸣ he2-eb#!-zal</l>
             <l n="25'">[...]-⸢na⸣-ka!? he2-eb-⸢zal⸣ [...] ⸢he2⸣-⸢eb⸣-⸢zal⸣</l>
             <l n="26'">[...] x x [...]</l>
+            <note>broken</note>
+            <note>broken</note>
           </div>
-          <div n="left" type="textpart"/>
+          <div n="left" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="1'" type="textpart">
             <l n="1">uri2{ki}-ma bala nam-he2 u4! he2-ni-ib-su3-u4-de3</l>
             <l n="2">⸢ug3⸣-bi u2-sal-la he2-em-nu2 e-ne su13-u4-bi im-ak?</l>
@@ -96,61 +101,6 @@
             <l n="2">ki-ru-gu 5(diš)-kam-ma#?-am3#?</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">The throne (where) cases had been decided no longer stood(?), cases were not undertaken correctly</l>
-        <l n="2'">(Nanna/Suen's vizier) Alamuš dropped the scepter (with) his hand shaking</l>
-        <l n="3'">In the holy bed chamber of Nanna ... he(?) does not ... at/on his feet(?)</l>
-        <l n="4'">The holy treasure box, which no one(!) is to see, the enemy saw (inside of it)</l>
-        <l n="5'">... did not set up the pure bed/bed of flowers, ... did not spread out shining plants (upon it)</l>
-        <l n="6'">They were cutting down the statue that occupied(?) the uzga shrine</l>
-        <l n="7'">The engiz temple cook, dream interpreter, and seal bearer did not use the ešda vessel(?) properly</l>
-        <l n="8'">They stood in the manner of one whose neck is pushed to the ground(?) the mountain(dwellers?) carried(?) them away</l>
-        <l n="9'">In the holy uzga shrine, the šagadala priests of the pure washing rites</l>
-        <l n="10'">They(?) were forsaking the pure plans and the me, they(?) went to another city</l>
-        <l n="11'">Suen brought his ruined heart there for his father</l>
-        <l n="12'">He knelt there before his birth father Enlil</l>
-        <l n="13'">My birth father, how long will the eye of the enemy have looked at the accounts(?), how long ...</l>
-        <l n="14'">When you give lordship and kingship, do not ... towards me/on my behalf</l>
-        <l n="15'">Father Enlil, the one of the true order and command</l>
-        <l n="16'">Father Enlil, it is the fate that you decreed and therefore no one can release (its) logic(?)</l>
-        <l n="17'">On(?) my hair, bound up with the suh headress/pectoral(?)</l>
-        <l n="18'">Enlil was speaking a true word to his son Suen</l>
-        <l n="19'">My son, a city of abundance was built(?) for you, your turn of office sought (you?) out(?)</l>
-        <l n="1">The destroyed city, the flattening of the parapet of the great wall by the storm, this too is (a part of) the turn of office</l>
-        <l n="2">One who ..., for the dark days of you term of office, may “open (the temple(?))” be known(?)</l>
-        <l n="3'">Previous dweller, in your dwelling, the Etemenniguru temple, which was built faithfully</l>
-        <l n="4'">May ... (re)build it in joy, may the people bow down towards it</l>
-        <l n="5'">May ... have bread (?) at its base, may Ašnan rejoice with him</l>
-        <l n="6'">May ... have joy in its branches, may Utu rejoice</l>
-        <l n="7'">On its table may the abundance of Ašnan embrace ...</l>
-        <l n="8'">May Ur, the city decreed by An, be returned to its place for you</l>
-        <l n="9'">May Enlil, who is the true speaker, raise his neck towards heaven</l>
-        <l n="10'">For Nanna may the high and low (land) assemble(?)</l>
-        <l n="11'">For Suen may he set the roads of the land of land in order</l>
-        <l n="12'">Touching the ground like a rainstorm(?) ...</l>
-        <l n="13'">It was the spoken word of An and Enlil, and therefore it was being carried out faithfully(?)</l>
-        <l n="14'">Nanna stood(?) in his city, Ur, with head held high</l>
-        <l n="15'">Suen was able to enter the Ekišnugal temple</l>
-        <l n="16'">Ningal was relaxing in her pure chamber</l>
-        <l n="17'">The youth Suen was able to enter into his Ekišnugal temple</l>
-        <l n="18'">Bitter storm, storm, raise you chest (depart), storm, turn back/confine yourself in your house</l>
-        <l n="19'">Storm, destroyer of cities, storm, raise you chest (depart), storm, turn back/confine yourself in your house</l>
-        <l n="20'">Storm, destroyer of temples, storm, raise you chest (depart), storm, turn back/confine yourself in your house</l>
-        <l n="21'">May the storm that once spent time in Sumer spend time in the (other) lands instead</l>
-        <l n="22'">May the storm that once spent time in the land spend time in the (other) lands instead</l>
-        <l n="23'">May it spend time in the land of Tidnum instead, may it spend time in (that) land</l>
-        <l n="24'">May it spend time in the land of Gutium instead, may it spend time in (that) land</l>
-        <l n="25'">May it spend time in the land of Anšan instead, may it spend time in (that) land</l>
-        <l n="1">So that in Ur the term of office and abundance last long</l>
-        <l n="2">(So that) the people lay down in the meadows and copulate</l>
-        <l n="3">Alas, humanity is stricken(?) and gathered up(?)</l>
-        <l n="4">The princess(?) the one (of) weeping and lament (says)</l>
-        <l n="1">“Nanna, alas, your city, alas, your temple, alas, your humanity”</l>
-        <l n="2">It is the 5th kirugu</l>
       </div>
     </body>
   </text>

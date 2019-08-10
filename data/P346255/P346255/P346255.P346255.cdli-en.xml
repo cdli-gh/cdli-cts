@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000782, ex. 009</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346255</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346255.P346255.cdli-en" type="translation" xml:lang="en">
+        <l n="1">... at the gate(?) of the palace</l>
+        <l n="2">... occupies for you(?)</l>
+        <l n="3-4">Set the quarrelling(?) aside, regarding abuse, ... a different street</l>
+        <l n="5-6">Do not steal anything, do not kill yourself (by incurring punishment)</l>
+        <l n="7-8">Do not break into a house, do not desire the treasure box</l>
+        <l n="9-10">The thief(!) is indeed a pirig monster, (but) after he is caught, he is indeed a slave</l>
+        <l n="11-12">My son, one should not rob, do not “hew” yourself(?)</l>
+        <l n="13-14">Do not sexually penetrate(?) the bridegroom, do not ... yourself</l>
+        <l n="15-16">Do not “play”(?) with a married young woman, the slander/whisper(?) (arising from it) is formidable</l>
+        <l n="17-18">My son, do not sit in a chamber(?) with someone who is married</l>
+        <l n="19">One should not quarrel and (thus) spoil yourself</l>
+        <l n="20-21">Do not ... lies , (the act?) “thins out/flattens the head/denigrates and ...(?)”</l>
+        <l n="22-23">Do not (overly) praise, your word is set (within it)</l>
+        <l n="24-25">One should not advise, a serious gaze is(?) never lifted away from him(?)</l>
+        <l n="26">One should not eat food(?) with someone else</l>
+        <l n="27">If your hands are bloody(?) do not submerge them in ...(?)</l>
+        <l n="28">Replace a scratched/ground down(?) bone/foot(?) with an (entire) ox or a sheep(?)</l>
+        <l n="1'">Do not scatter (your) sheep towards (a place where) pasture has not been sought (before)</l>
+        <l n="2'">Do not hire the ox of another man for (work on) a property line that is not set</l>
+        <l n="3'">A set property line is a set road</l>
+        <l n="4'">Do not(!) go (on) a road (at) night, its midst is (both) good and evil (portending?)</l>
+        <l n="5'">One should not buy an onager, the day will be spent at its side</l>
+        <l n="6-7'">Do not have sex with your female worker, she will chew you up(?)</l>
+        <l n="8'-9">One should not(!) curse violently(?), (it) will return towards (your?) hand(?)</l>
+        <l n="10-11'">Do not ... water that is not “held&quot;/&quot;perfect&quot;(?), weakened arms(?) are there for you</l>
+        <l n="12'">One should not put down a field adjacent to ...(?)</l>
+        <l n="13'">He will leave it to you to go to(?) that female worker</l>
+        <l n="14'">One is not to rebel from the dwelling of that man</l>
+        <l n="15'">(Even if?) “He leads, he leads(?)!” they say to you</l>
+        <l n="16'">One should not release the bond(?) at the reed fence of an orchard</l>
+        <l n="17'">“Replace it, replace it!” they will say on (the owner's) behalf(?)</l>
+        <l n="18-19'">Do not feed a dog/stranger, one should not drag around(?) a quarrel(?)</l>
+        <l n="20-21'">My son, one should not use force, one should not put a man on the ground</l>
+        <l n="22-23'">One should not rape the child of a man, it will be learned of(?) in the courtyard(?)</l>
+        <l n="24-25'">Do not kill a strong man, do not destroy the outer wall</l>
+        <l n="26'">Do not kill a young man/worker(?), the city will turn him back for you/roll him up (in a reed mat) for you(?)</l>
+        <l n="27'">Like a slanderer, the “eye” of a spindle(?) spins</l>
+        <l n="28'">One is not to stand at the front, you(?) may have changed your mind(?)</l>
+        <l n="29-30'">... do not boast/(overly) praise like a liar in a tavern, your word is set (within it)</l>
+        <l n="31'">After you have approached the “place of manhood,” do not make your hand shake(?)</l>
+        <l n="32'">He is indeed a hero, he alone is (the equivalent) of many men</l>
+        <l n="1">He is indeed Utu, he alone is (the equivalent) of many men</l>
+        <l n="1">In order to stand with the hero, he must have your life with him</l>
+        <l n="1">In order to stand with Utu, he must have your life with him</l>
+      </div>
+    </body>
+  </text>
+</TEI>

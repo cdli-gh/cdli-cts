@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -65,6 +62,7 @@
           <div n="reverse" type="textpart">
             <l n="1">[...] {geš#}sag-kul {geš}suhub4 ⸢abul⸣ mah-a-ke4</l>
             <l n="2">[...] dingir inim ⸢bala⸣-bala</l>
+            <note>double ruling</note>
             <l n="3">[...] abul mah-a-ke4</l>
             <l n="4">[...] ⸢ha⸣-⸢ra⸣-ab-be2-ne</l>
             <l n="5">[...] ša3#? hul2#?-la ha-ra-ab-gar-re-ne</l>
@@ -86,58 +84,10 @@
             <l n="21">{geš}kim sa6-ga da-za-a muš3 nu!-tum2-mu-de3</l>
             <l n="22">sag#? [...] sa6#?-ga#?-zu he2-eb-tuku-tuku-ne</l>
             <l n="23">[{d}ri-im-⸢{d}]suen⸣ lugal-gu10</l>
+            <note>double ruling</note>
             <l n="24">[...]-ma abul mah ku4-ra-⸢kam⸣</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Rīm-Sîn, king of abundance</l>
-        <l n="2">Foremost and supreme among the rulers</l>
-        <l n="3">Truth and Justice are your helpers</l>
-        <l n="4">They shall establish a good .../make ... pleasant for you</l>
-        <l n="5">They shall establish ... for you</l>
-        <l n="6">Rīm-Sîn, whose name was chosen by An and Enlil</l>
-        <l n="7">When you enter the city ... the great gate of Urim</l>
-        <l n="8">The good udug spirit, peaceful/whole/greeting lamma spirit</l>
-        <l n="9">And(?) the gatekeeper of the great gate</l>
-        <l n="10">Shall make ... shine for you before you</l>
-        <l n="12">(With?) the pleasing words ... they shall bring inside(?) for Nanna and Ningal</l>
-        <l n="13">They shall return/restore life, well-being, and life(?) for you</l>
-        <l n="15">They shall bring out good ..., that which makes the heart rejoice, and a conveyed/repaying(?) oracular utterance(?) from the Ekišnugal temple(?) for you</l>
-        <l n="16">The gods of life, the ... of the great gate</l>
-        <l n="17">They shall leave behind/open(?) ...</l>
-        <l n="18">The gods of greeting/well-being, (those of) the guard of the great gate</l>
-        <l n="19">Shall rejoice before you</l>
-        <l n="20">Their faces shall shine for you</l>
-        <l n="21">... shall moan/wail for you</l>
-        <l n="23">When you enter into the gate of Ur, the gate of rejoicing</l>
-        <l n="24">... the brickwork of Urim</l>
-        <l n="25">... the gate of Ur</l>
-        <l n="1">... the bolt and bar of the great gate</l>
-        <l n="2">... the conversing/decoding deity(!?)</l>
-        <l n="3">The ... of the great gate</l>
-        <l n="4">Shall ... to you</l>
-        <l n="5">... shall put ... rejoicing for you</l>
-        <l n="7">They shalll heap up(?) pleasing words?, words that please the heart, before you</l>
-        <l n="8">They make you set foot for(?) the pure place, the place/earth(?) of life</l>
-        <l n="9">Rīm-Sîn, the foremost ruler of the land and the homeland(?)</l>
-        <l n="10">At the “mound of the great and supreme dais/tent enclosure”, the “foundation/leveled place”(?) of Urim</l>
-        <l n="11">(At?) the “mound of the great and supreme dais/tent enclosure” Nigerimšutabe</l>
-        <l n="12">(At?) the “mound of the great and supreme dais/tent enclosure” Nigerimšu'urur</l>
-        <l n="13">(At) the “mound of the great and supreme dais/tent enclosure” Dugabšugigi</l>
-        <l n="14">(At) the “mound of the great and supreme dais/tent enclosure” Dugabšutabe</l>
-        <l n="15">The tutelary deities of the great gate</l>
-        <l n="16">The gods of entering well-being/greeting</l>
-        <l n="17">(At) your right and left, on behalf of (your) life</l>
-        <l n="18">They shall stand for perpetuity</l>
-        <l n="20">They shall bring in your good word for Nanna and Ningal</l>
-        <l n="21">Good omens, unceasing at your side</l>
-        <l n="22">And your good ..., they shall acquire</l>
-        <l n="23">Rīm-Sîn, my king!</l>
-        <l n="24">..., it is that of entering(?) the great gate</l>
       </div>
     </body>
   </text>

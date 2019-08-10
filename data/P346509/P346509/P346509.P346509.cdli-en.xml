@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0471</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346509</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346509.P346509.cdli-en" type="translation" xml:lang="en">
+        <l n="1">I want to seek ..., I want to know about(?) the plain(?), my inlaw, I want to return/send a runner</l>
+        <l n="2">I want to know about the sweet ..., Inanna, I want to return/send a runner</l>
+        <l n="3">I want to put ..., Ninegala, I want to return/send a runner</l>
+        <l n="4">... Dumuzid(?) scattered his sheep(?)</l>
+        <l n="5">... went/brought</l>
+        <l n="1'">...</l>
+        <l n="2'">...</l>
+        <l n="3'">... embraced</l>
+        <l n="4'">... entered ...</l>
+        <l n="5'">...</l>
+        <l n="6'">... like one treating well(?)</l>
+        <l n="7'">... like one treating well(?)</l>
+        <l n="8'">... having treated Dumuzid well</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346275.P346275.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...]-gi ki-⸢uri⸣-ke4 ⸢nam⸣-[...]</l>
             <l n="2'">[...]-gin7#?-nam im nu-⸢mu⸣-[...]</l>
             <l n="3'">[...] ki#? nam-ku3-zu-gin7 ir ⸢im⸣-[...]</l>
@@ -49,24 +47,9 @@
           </div>
           <div n="reverse" type="textpart">
             <l n="1">[...]-lil2-⸢le⸣ ⸢gu3⸣ ⸢zi⸣ ma#?-[...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">I learned the tablets of (both) Sumer and Akkad, the scribal art</l>
-        <l n="2'">Like (a mere member of?) the indigenous population(?) I did not write tablets</l>
-        <l n="3'">The scribal art(?), like(!?) a place of wisdom ... a scent(?)</l>
-        <l n="4'">Adding(?), subtracting(?), counting, computation(?), I did in their entirety</l>
-        <l n="5'">The beautiful Nanibgal, Nisaba</l>
-        <l n="6'">Gave wisdom and intelligence generously to me</l>
-        <l n="7'">I am experienced scribe who does not pass by anything</l>
-        <l n="8'">When I rose as (if possessing) the sinew of a leopard</l>
-        <l n="9'">When I galloped mightily like a nisku equid</l>
-        <l n="10'">The heart of An rejoiced for me</l>
-        <l n="1">In my happiness Enlil spoke truthfully to me</l>
       </div>
     </body>
   </text>

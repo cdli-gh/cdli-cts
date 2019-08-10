@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000349, ex. 025</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346110</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346110.P346110.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">Nanna-Suen made a resolution</l>
+        <l n="2'">To that of Enlil, to that of Ninlil</l>
+        <l n="3'">Dilimbabbar made a resolution</l>
+        <l n="4'">I am a hero, I want to go to my city</l>
+        <l n="5'">I want to go to my city, I want to go to my father</l>
+        <l n="6'">I am Suen, I want to go to my city</l>
+        <l n="7'">I want to go to my city, I want to go to my father</l>
+        <l n="8'">I want to go to my father Enlil</l>
+        <l n="9'">I want to go to my city</l>
+        <l n="1'">(For) its miriza planking towards the forest/thicket of hašhur trees Dilimbabbar dispatched a man</l>
+        <l n="3'">(For) its emesig planking(?) towards the kugnuna forest(?) Nanna-Suen dispatched a man</l>
+        <l n="5'">(For) its cabin(?) towards the mountain of juniper resin Dilimbabbar dispatched a man</l>
+        <l n="7'">(For) its u planking Nanna-Suen dispatched a man towards the forest of Ebla(?)</l>
+        <l n="9'">(For) its ... to the forest of juniper resin Dilimbarbar dispatched a man</l>
+        <l n="1'">His? birth father ...</l>
+        <l n="2'">Kalkal ...</l>
+        <l n="3'">...</l>
+        <l n="4'">His? birth father ...</l>
+        <l n="5'">...</l>
+        <l n="6'">Kalkal ...</l>
+        <l n="7'">...</l>
+        <l n="8'">Kalkal ...</l>
+        <l n="9'">Rejoicing ...</l>
+        <l n="1'">I want to go (back) to Ur</l>
+        <l n="2'">He gave to him syrup and wine in the irrigated orchard</l>
+        <l n="3'">I want to go (back) to Ur</l>
+        <l n="4'">He gave to him life force (in) the palace</l>
+        <l n="5'">I want to go (back) to Ur</l>
+        <l n="6'">My king, on your throne, the one of Enlil</l>
+        <l n="7'">Nanna-Suen! May he be born(?) in (a span of?) seven days</l>
+        <l n="8'">(On your?) holy throne, the one of great mother Ninlil</l>
+        <l n="9'">Lord Dilimbabbar! May he be born(?) in (a span of?) seven days</l>
+      </div>
+    </body>
+  </text>
+</TEI>

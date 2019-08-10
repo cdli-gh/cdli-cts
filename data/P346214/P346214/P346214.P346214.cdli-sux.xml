@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -64,55 +61,20 @@
             <l n="26">[...] ⸢giri3⸣ kur2 ba-ra-an-[dab5]</l>
             <l n="27">[...]-x er2 gig ⸢mu⸣-[...]</l>
             <l n="28">[... gul]-⸢la⸣-⸢gu10⸣ [...]</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]</l>
             <l n="2'">[...] x x [...]</l>
             <l n="3'">[...] x x [...]</l>
             <l n="4'">[...] x ba x [...]</l>
             <l n="5'">[...] x x [...]</l>
+            <note>lines broken</note>
             <l n="6'">x [...]</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">(In?) Eridu, which had been riding(?) on a flood, drinking water ceased(?)</l>
-        <l n="2">In its outskirts, which had been made into a windblown plain ...</l>
-        <l n="3">The true person ... in an ambush ...</l>
-        <l n="4">KAhegal? and Igihegal? ...</l>
-        <l n="5">You(?) are a young man, the day/storm ...</l>
-        <l n="6">Day/storm that does not destroy/is not restrained, you(?) are one whose allure is not exhausted ...</l>
-        <l n="7">They (the two gatekeepers?)) who are beautiful of body(?) like ..., we will ...</l>
-        <l n="8">They who are speckled of face like an alim creature(?), we will ...</l>
-        <l n="9">They who are poured like a statue into molds, we will ...</l>
-        <l n="10">Gutium, the people who destroy(?), will break them</l>
-        <l n="11">We sent by hand to father? Enki in the Abzu of Eridu</l>
-        <l n="12">... what is it that will we say, what is it that we will add?</l>
-        <l n="13">... what is it that will we say, what is it that we will add?</l>
-        <l n="14">If(?) it is (the case that) we go out from(?) Eridu</l>
-        <l n="15">If we stand ... in the day? shade will not ...</l>
-        <l n="16">If we stand ... at night, the day/storm would not acquire ...</l>
-        <l n="17">(While) standing in the day(?) with(?) our distress, what will we take from you(?)?</l>
-        <l n="18">(While) standing in the night(?) with(?) our sleeplessness, what will we forget (i.e., leave behind)?</l>
-        <l n="19">Enki, if your city is cursed, it will be given to(?) the enemy land</l>
-        <l n="20">Why do they diminish us in the status of(!?) being apart from Eridu?</l>
-        <l n="21">Why do they destroy us(?) (in our state of) not being touched (with care?) like a date palm?</l>
-        <l n="22">Why do they break us(?) (in our state of) not being coated (in bitumen) like a new boat?</l>
-        <l n="23">It is the case that Enki has set his gaze at a different place</l>
-        <l n="24">The storm(?) ... of grievous sin gave/placed an evil tree/weapon(?) for him</l>
-        <l n="25">They are arisen ... who lie down in their packs</l>
-        <l n="26">Enki took to a different path away from Eridu</l>
-        <l n="27">Damgalnuna, the mother of the Emah temple, wept bitterly</l>
-        <l n="28">She was saying “Alas, my destroyed city, alas, my destroyed temple” bitterly</l>
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">...</l>
-        <l n="4'">...</l>
-        <l n="5'">...</l>
-        <l n="6'">...</l>
       </div>
     </body>
   </text>

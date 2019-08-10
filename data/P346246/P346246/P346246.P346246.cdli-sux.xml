@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -37,6 +34,7 @@
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">[...]-x-da#?-⸢ne⸣ igi nam-bar-bar-en he2-sun5-ne-⸢en⸣</l>
             <l n="2'">[...] ni2 he2-em-te-⸢ge26⸣</l>
             <l n="3'">[...] ⸢ugula⸣-zu ki ha-ra-an-ag2</l>
@@ -48,6 +46,7 @@
             <l n="9'">[...]-⸢e3⸣</l>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]</l>
             <l n="2'">[...]-en-na-ta geš-gi ⸢gi⸣ [...] kin2-⸢gi4⸣-a ba-⸢ra⸣-[ši-...]</l>
             <l n="3'">[...] di4-di4-la2 tur-tur-ra-ke4-ne i-im-[...]</l>
@@ -104,68 +103,6 @@
             <l n="8">[...]-x-⸢ak⸣-gu10 nu-⸢ŠE3⸣</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">When you are to cross the street, do not look around. If you are humble</l>
-        <l n="2'">And (you) fear your overseer</l>
-        <l n="3'">Your overseer will love you</l>
-        <l n="4'">If the objective is to be achieved, when you speak to(?) your companion</l>
-        <l n="5'">Do not turn behind for him</l>
-        <l n="6'">Do not denigrate your colleagues</l>
-        <l n="7'">If (you?) are going because the day is about to arrive(?)</l>
-        <l n="8'">How long shall I stay?</l>
-        <l n="9'">I know(?)--(until) my master has left</l>
-        <l n="2'">Because of what I am, I did not send (you?) as one charged with the task(?) to carry reeds (from) the reed bed</l>
-        <l n="3'">The old/dead reeds which (even) the tiny and little (children) carry</l>
-        <l n="4'">Because of what you are, you have not carried them</l>
-        <l n="5'">In no way/at no time(?) have I said “Stand(?) at the rear of an ox”</l>
-        <l n="6'">Regarding my ox, I did not send (you?) as one charged with the task(?) to follow it</l>
-        <l n="7'">Regarding my field, I did not send (you?) as one charged with the task(?) to hoe it</l>
-        <l n="8'">Regarding my field, I did not send (you?) as one charged with the task(?) to sow/cultivate it</l>
-        <l n="9'">I did not send (you?) as a messenger (charged with a task?) to do a task(?) (or?) to hoe</l>
-        <l n="10'">Come! After you do the work, eat food</l>
-        <l n="11'">Because of who I am, (I) have not spoken to you (about this)</l>
-        <l n="12'">Because of who you are, you have not done the task (but) you did eat the food(?)</l>
-        <l n="13'">When a person like you does(?) a task</l>
-        <l n="14'">His father and mother will eat food</l>
-        <l n="15'">If you observe the ... of my colleagues</l>
-        <l n="16'">Like (i.e., each one of?) them, ten gur of barley apiece</l>
-        <l n="17'">They place(?) at the head (i.e., provide)</l>
-        <l n="18'">(Even) the tiny ones, the “slave of their(!?) fathers,” ten gur of barley apiece they place(?) at the head (i.e., provide)</l>
-        <l n="19'">The one(s) who increase (the amount of) grain (for) their fathers</l>
-        <l n="1">They have given/brought(?) barley, oil/butter, and sheep wool(?)</l>
-        <l n="2">As a man, I(!) exceed you</l>
-        <l n="3">You are not a man like (each one of) them</l>
-        <l n="4">My son, their fathers</l>
-        <l n="5">Dispatched their children/juniors charged with a task(?)</l>
-        <l n="6">My(!?) inferior(?), like them</l>
-        <l n="7">They do not compare with you in (the performance of) assigned tasks(?)</l>
-        <l n="8">Excessive (is) my exertion for you</l>
-        <l n="9">Who is it that has exerted himself for his son more that I?</l>
-        <l n="10">My words which I recite to you (are as follows?)</l>
-        <l n="11">It has not (previously been the case?)! Have fear! It has not (previously been the case?)! Have shame!</l>
-        <l n="12">Your companion, with whom you are standing in the same yoke</l>
-        <l n="13">... your comrade, your friend, you do not observe them</l>
-        <l n="14">Why do you not assimilate with them?</l>
-        <l n="15">It has not (previously been the case?)! (Now) assimilate with (your) “big brothers”</l>
-        <l n="16">It has not (previously been the case?)! (Now) assimilate with (your) “little brothers”</l>
-        <l n="17">From the (ranks of) skilled humanity that resides in the land(?)</l>
-        <l n="18">Come!(!?) Enki (himself) has discovered that(?) nothing that has a name (among them)</l>
-        <l n="19">Is as painstaking as the assigned task(?) of the place of(?) scribal art</l>
-        <l n="20">Nothing that could be named(?), except for the art of the musician</l>
-        <l n="21">Like the shores of the sea, where one shore is separated far away from the other</l>
-        <l n="22">Thus the content of the art of the musician is esoteric</l>
-        <l n="1">You can be idle(?) for eternity</l>
-        <l n="2">Greatly your “that which is released” has been enlarged(?)</l>
-        <l n="3">Because your ... reputation has not been smitten(?)</l>
-        <l n="4">Because (your?) reputation has not been beaten into the dust(?)</l>
-        <l n="5">Because of what has been destroyed(?) I will recite to you (the following(?)) for my benefit(?)</l>
-        <l n="6">...</l>
-        <l n="7">What now to do?(!?)</l>
-        <l n="8">That which I did was not ...</l>
       </div>
     </body>
   </text>

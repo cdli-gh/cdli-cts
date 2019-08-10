@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000623, ex. 092</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346606</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346606.P346606.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">(If) he did, what is to me? (If) he did not, what is it to me?</l>
+        <l n="2'">In order to(?) triumph, he (Lugalane) drove me out from the temple</l>
+        <l n="3'">Like a swallow, he made me fly away from the window, my life was consumed</l>
+        <l n="4'">I am the one who he makes go(?) in the brambles of the mountain</l>
+        <l n="5'">He removed the true crown of the en priestess from (my head)</l>
+        <l n="6'">He gave a knife and dagger to me and said to me “it is suitable for you”</l>
+        <l n="7'">Most precious lady, loved by An</l>
+      </div>
+    </body>
+  </text>
+</TEI>

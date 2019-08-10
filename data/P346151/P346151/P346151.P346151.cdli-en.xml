@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000733, ex. 002</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346151</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346151.P346151.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Lady who is sparkling like a heavenly star, perfecting/equipped with a lapis tablet</l>
+        <l n="2">Nisaba, given birth to by the great wild cow Uraš</l>
+        <l n="3">Fallow deer(?) purified by potash(?), suckling nourishing milk</l>
+        <l n="4">&quot;Opening the mouth” of the seven flutes/pipes</l>
+        <l n="5">Perfecting the fifty cosmic powers</l>
+        <l n="6">My lady, the strong one of the Ekur temple</l>
+        <l n="7">ušumgal creature that is manifest in the assembly</l>
+        <l n="8">Aruru of the land, speaking words by means of clay(?)</l>
+        <l n="9">Taking counsel in the place filled with awe(?), of/in the day</l>
+        <l n="10">Taken care of by(?) the mountain(?) by means of the oil of abundance(?)</l>
+        <l n="11">One (possessing) great wisdom, sired by the Great Mountain (Enlil)</l>
+        <l n="12">True lady, the supreme scribe of An, the land recorder of Enlil</l>
+        <l n="13">Wise and attentive one of the gods</l>
+        <l n="14">In order to make barley and flax grow in the furrows</l>
+        <l n="15">In order to admire/see the grain goddess Ezina of lordship (i.e., high quality)</l>
+        <l n="16">In order to faithfully take care of(?) the seven great thrones/rulers</l>
+        <l n="1'">Nisaba, the true woman, the good woman, woman who was born in the mountain/netherworld</l>
+        <l n="2'">Nisaba, in the cattlepen you shall be the oil, in the sheepfold, you shall be the cream</l>
+        <l n="3'">In the treasury, you are the seal-bearer</l>
+        <l n="4'">In the palace, you are the true steward</l>
+        <l n="5'">You are the one who heaps up large and small grain piles</l>
+        <l n="6'">The ruler who has taken care of Nisaba</l>
+        <l n="7'">Father Enki, your praise is sweet</l>
+      </div>
+    </body>
+  </text>
+</TEI>

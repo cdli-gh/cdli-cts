@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,27 +33,25 @@
       <div n="urn:cts:cdli:P254894.P254894.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>space blank</note>
             <l n="1">inim ab-ba-še3</l>
             <l n="2">gizzal ke3-de3 u3?-te-qi2-a-am</l>
             <l n="3">ni2 šu-a gi4-gi4-de3 ra-ma-an-šu šu-lu-ma-am</l>
+            <note>single ruling</note>
             <l n="4">dumu ama-ni-ir sun5-na &amp;lt;ni2&amp;gt; te-ga2</l>
             <l n="5">nam-ab-ba šid-de3</l>
+            <note>single ruling</note>
             <l n="6">en-na ku3-zu ku3 banda3{+da}-na</l>
             <l n="7">na-ga2-ah a2-aš2 sa2 e3-de3-en</l>
+            <note>single ruling</note>
             <l n="8">šeš gal šeš banda3{+da} dugud-de-⸢dam⸣</l>
             <l n="9">⸢nam⸣-lu2-lu7 ⸢ke3⸣-de3</l>
+            <note>space blank</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>space blank</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="3">(Sum) So that he listens to (Akk to wait for(?)) the word of the father, and (thus) succeeds (Akk repays himself)</l>
-        <l n="5">The son (is to) humbly revere his mother (so that?) he is reckoned(?) (as possessor of) old age</l>
-        <l n="7">As long as you(!) can assign a price(?) to wisdom(?), idiot, you will achieve your wish regularly(?)</l>
-        <l n="9">The older brother is to honor the younger brother and behave with humanity</l>
       </div>
     </body>
   </text>

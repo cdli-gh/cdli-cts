@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -35,14 +32,18 @@
     <body>
       <div n="urn:cts:cdli:P346103.P346103.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
-          <div n="obverse" type="textpart"/>
+          <div n="obverse" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">[... di4]-⸢di4⸣-la2 [...] ⸢na⸣-pa3-de3</l>
             <l n="2'">[...] ⸢gal⸣-gal-e ga-šub [...]-pa3-de3</l>
             <l n="3'">[...]-⸢li⸣-ka [...]-pa3 [...]-⸢pa3⸣-de3</l>
             <l n="4'">[...] x-NE-NE [...]-gu7-e</l>
           </div>
           <div n="2'" type="textpart">
+            <note>broken</note>
             <l n="1'">[...]-re7#{re}-eš-am3 lu2 he2-a-he2-me-eš</l>
             <l n="2'">u2 nu-gu7-me-eš a nu-zu-me-eš</l>
             <l n="3'">zi3 dub-dub nu-gu7-me-eš</l>
@@ -58,35 +59,14 @@
             <l n="4">lugal-la dumu adab{ki} min-am3 [mu]-⸢un⸣-ši-re7{+re}-eš</l>
             <l n="5">[...]{ki} [...]-a2? [...] la2#!?-a#?</l>
             <l n="6">[...] unu#{ki}-ga [...]-⸢am3⸣ [mu-un-ši-re7]{re}-eš</l>
+            <note>broken</note>
           </div>
           <div n="2" type="textpart">
             <l n="1">[...] ⸢ki⸣ šeš-am3 [mu]-un-pa3-de3-a [...] ⸢ul⸣-la2-ta [...] ⸢igi⸣ mu-ni-in-duh</l>
             <l n="2">[...]-x-an#?-ze2-en [...]-ir [...]-⸢en⸣</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">I will drop into the tiny plants, no one should find my whereabouts</l>
-        <l n="2'">I will drop into the large plants, no one should find my whereabouts</l>
-        <l n="3'">I will drop(!?) among the dikes of Arali, no one should find my whereabouts</l>
-        <l n="4'">...</l>
-        <l n="1'">Those who went towards the king, they were an admixture of people</l>
-        <l n="2'">They were those who did not eat food, they did not know water</l>
-        <l n="3'">They were those who did not eat heaped up flour</l>
-        <l n="4'">They do not drink drawn/libated water</l>
-        <l n="5'">They were those who are not tearing off clothes in the lap of the sweet spouse</l>
-        <l n="6'">They were those who are not accepting good kadra presents</l>
-        <l n="1">They were those who did not chew garlic, that which is bitter</l>
-        <l n="2">They were those who did not eat fish</l>
-        <l n="3">They were those who did not eat leeks</l>
-        <l n="4">Citizens of Adab, two of them, went towards the king</l>
-        <l n="5">Citizens of Akšak (two of them, went towards the king?), (they were) urnim predator/Elamite dog(?) with crimson attached to their necks (splashed as/like blood)?</l>
-        <l n="6">Citizens of Uruk, two of them, went towards the king</l>
-        <l n="1">Who has seen a sister who will reveal the whereabouts of a brother?</l>
-        <l n="2">Come! We shall go to his friend</l>
       </div>
     </body>
   </text>

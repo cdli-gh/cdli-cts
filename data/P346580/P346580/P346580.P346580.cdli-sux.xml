@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -39,24 +36,16 @@
             <l n="1">x x x [...]</l>
             <l n="2">x mu nu-x [...] mu-DU x [...]</l>
             <l n="3">[x x] x [...]</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x [...] ⸢nam⸣-ti-⸢zu⸣ x [...]</l>
             <l n="2'">ki-ag2 u4 ti-zu [...]</l>
             <l n="3'">x KA x mah!? x [...]</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">...</l>
-        <l n="2">...</l>
-        <l n="3">...</l>
-        <l n="1'">... your life ...</l>
-        <l n="2'">... beloved, your lifetime ...</l>
-        <l n="3'">...</l>
       </div>
     </body>
   </text>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000364, ex. 052</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346520</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346520.P346520.cdli-en" type="translation" xml:lang="en">
+        <l n="2'">Was attacking in a pack like wolves</l>
+        <l n="3'">For Enki the water of the stern</l>
+        <l n="4'">Was slaughtering like a lion</l>
+        <l n="5'">At that time, there was a single tree, a halub tree</l>
+        <l n="6'">The one that was planted on the bank of the (Euphrates at the junction with the?) Iturungal canal(!?)</l>
+        <l n="7'">The one that was to drink water (from) the (Euphrates at the junction with the?) Iturungal canal(?)</l>
+        <l n="8'">The power of the southern wind tore it out at its roots, it ripped it out at its branches</l>
+        <l n="9'">The (Euphrates at the junction with the?) Iturungal canal(?) struck it with (flood)water</l>
+        <l n="10'">I, the woman, fearing(?) the command of An, was coming (by)</l>
+        <l n="11'">Fearing(?) the command of Enlil, I was coming by</l>
+        <l n="1'">The Iturungal canal(?) struck it with (flood)water</l>
+        <l n="2'">I, the woman, who was fearing(?) the command of An, was coming (by)</l>
+        <l n="3'">Fearing(?) the command of Enlil, (I) was coming by</l>
+        <l n="4'">I grasped the tree in my hand and brought it to Uruk</l>
+        <l n="5'">I was bringing it towards the flowering orchard of Inanna</l>
+        <l n="6'">I, the woman, did not plant the tree as it was in(?) my hand</l>
+        <l n="7'">It was by means of my foot that I planted it</l>
+        <l n="8'">I, the woman, did not plant the tree as it was in(?) my hand</l>
+        <l n="9'">It was by means of my foot that I watered it</l>
+        <l n="10'">I said “When am I to sit on its flowering throne?”</l>
+      </div>
+    </body>
+  </text>
+</TEI>

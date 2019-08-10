@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000641, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346107</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346107.P346107.cdli-en" type="translation" xml:lang="en">
+        <l n="1">... beloved sister of Dumuzi</l>
+        <l n="2">Exuding/bearing ..., beloved of Durtur</l>
+        <l n="3">(Whose) seed was planted in the womb by the true ...</l>
+        <l n="4">My sister, born into ladyship</l>
+        <l n="5">She is able to ... fill the cattle pen with butter and cream</l>
+        <l n="6">In the sheepfold she is able to ...</l>
+        <l n="7">In the plain ... you are my ..., {geš}tinanna</l>
+        <l n="8">Oh, the young woman is indeed ...</l>
+        <l n="9">Your little ones/children ... are indeed ...</l>
+        <l n="10">She is indeed the ... of Unug</l>
+        <l n="11">She is indeed the ... of Kulaba</l>
+        <l n="12">You are ..., indeed she is ...</l>
+        <l n="13">The young lady ... for her brother</l>
+        <l n="14">Scratched her face, scratched(?) her nose</l>
+        <l n="15">Scratched her upper thighs, the place not seen (when) with a man,</l>
+        <l n="16">She made straight away to the tavern of(?) the palace</l>
+        <l n="17">The young woman, she(!) was inquiring of the minister who was leaving the palace</l>
+        <l n="18">The minister who was leaving the palace was answering the young woman</l>
+        <l n="19">Your brother is setting his hands upon(?) the en-ship</l>
+        <l n="20">The en-ship of Unug ...</l>
+        <l n="1">The ones dividing up the me, ten išib priests</l>
+        <l n="2">The ones bowing down, the lustration priests, the susbu priests</l>
+        <l n="3">The ones that leave(?) the great shrine monthly/in the moonlight(?), the unceasing ones, (in their presence?) your brother is setting his hands upon(?) the en-ship</l>
+        <l n="4">At that time there should be seven for him, there should be seven for him</l>
+        <l n="5">The song performers of Unug are seven</l>
+        <l n="6">In Zabalam there were fifty lamenters</l>
+        <l n="7">They know the stars in heaven, they know the roads (on) earth</l>
+        <l n="8">The ones that know the stars in heaven are “carrying/raising the middle&quot;(?)</l>
+        <l n="9">They were “raising” the song and “putting down” the song</l>
+        <l n="10">In (performing) the song they(?) could not find “its head” (beginning, soloist, director or (proper) tuning?) for themselves(?)</l>
+        <l n="11">It was them who were not “putting” (the song?) into the (proper) voice and “station&quot;(?)</l>
+        <l n="12">The little sister dwelling in the midst was speaking/singing?</l>
+        <l n="13">She was making (her) chest great (i.e., inhaling, or a technical musical term?), she was ... her chest, she was speaking/singing</l>
+        <l n="14">We will “raise” the song, and you(!) will “put down” the song</l>
+        <l n="15">... did not live in ...</l>
+        <l n="16">... lived in the ... of(?) ...</l>
+        <l n="17">She lived in the ..., the mountain of silver and lapis lazuli, in its ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

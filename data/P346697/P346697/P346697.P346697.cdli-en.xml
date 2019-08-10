@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0660</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346697</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346697.P346697.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">... (The city) that Enlil did not inquire ... after</l>
+        <l n="2'">(The city) that An(?) frowned at</l>
+        <l n="3'">(The city) that Nudimmud who was angry at</l>
+        <l n="4'">The city that ... fashioned a bitter fate ... (for)(?)</l>
+        <l n="5'">The city in which the slave raises weapons (against)</l>
+        <l n="6'">(The city) that (the enemy) did not quit the weapon against</l>
+        <l n="7'">(The city that) ... will say(?) “its young woman does not rejoice”</l>
+        <l n="8'">(The city that) ... will say(?) “its young man does not rejoice”</l>
+        <l n="9'">(The city) whose trees and reeds are sick</l>
+        <l n="10'">(The city) that ... destroyed in battle</l>
+        <l n="11'">(The) city that the slave beat the chest (against) in battle (i.e., revolted)</l>
+        <l n="12'">(The city) that the spouse abandoned, that the son abandoned</l>
+        <l n="1'">(The city) that young woman abandoned, the young man abandoned</l>
+        <l n="2'">The deity of the temple (?) was not suitable(!?) for his/her temple anymore</l>
+        <l n="3'">He/she did not retain(?) his/her possessions(?)</l>
+        <l n="4'">Its ... did not wear(?) a garment</l>
+        <l n="5'">Its ... did not eat bread</l>
+        <l n="6'">Its dogs laid down among the corpse(s) (instead of devouring them)</l>
+        <l n="7'">The ... bird(s) were eating the corpse(s)</l>
+        <l n="8'">The men of the front died at the bow</l>
+        <l n="9'">The men of the rear died at the stern</l>
+        <l n="10'">In the middle of the city, ... destroyed the middle of the city</l>
+        <l n="11'">In the outside of the city, ... destroyed the outside of the city</l>
+        <l n="12'">In the harbor(?) of my city ... killed ...</l>
+        <l n="13'">...</l>
+        <l n="14'">... bent over (i.e., died?)</l>
+        <l n="15'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

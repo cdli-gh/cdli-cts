@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0030 + 0499</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346115</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346115.P346115.cdli-en" type="translation" xml:lang="en">
+        <l n="2'">After approaching the mountain range the pure place ...</l>
+        <l n="3'">Enki ... red clay/carnelian paste</l>
+        <l n="4'">The upper hinge ... carnelian</l>
+        <l n="5'">Enki set up the brickwork and ...</l>
+        <l n="6'">Make/prepare(?) a carnelian temple (for) my father(?) so that ...</l>
+        <l n="7'">Therefore he felled trees for you, he felled trees for you</l>
+        <l n="8'">Therefore he felled reeds for you, he felled trees for you</l>
+        <l n="9'">Therefore the long(?) ... by itself ...</l>
+        <l n="10'">I will enter(?) into the Ekur ...</l>
+        <l n="11'">The ... of heaven/An begat there ...</l>
+        <l n="12'">He begat the water along with its river, he ... abundance</l>
+        <l n="13'">He begat the field along with its barley, he ... abundance</l>
+        <l n="14'">He begat the bull along with its pen, he ... abundance</l>
+        <l n="15'">He begat the sheep along with its fold, he ... abundance</l>
+        <l n="16'">(On?) the dikes and ditches he begat plants, he ... abundance</l>
+        <l n="17'">He begat the fruit of the orchard, honey/syrup and wine</l>
+        <l n="18'">In the steppe he begat plants, he ... abundance</l>
+        <l n="19'">In the thicket he begat ... and the fallow deer</l>
+        <l n="20'">In the palace he begat encouragement/life-giving force, he ... abundance</l>
+        <l n="21'">In our city, where there is no new barley, plant(?) among(?) the old barley</l>
+        <l n="22'">In Nibru, where there is no new barley, plant(?) among(?) the old barley</l>
+        <l n="23'">In our city, where there are no new dates, plant(?) among(?) the old dates</l>
+        <l n="24'">In Nibru, where there are no new dates, plant(?) among(?) the old dates</l>
+        <l n="25'">Enlil ... water ... with his lahtan vessel(?)</l>
+        <l n="26'">Enlil established your word ...</l>
+        <l n="27'">... was speaking to Nuska</l>
+        <l n="28'">And said(!?) “Nuska, he who is (of?) distant days”</l>
+        <l n="29'">... Nuska ...</l>
+        <l n="30'">Embrace ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

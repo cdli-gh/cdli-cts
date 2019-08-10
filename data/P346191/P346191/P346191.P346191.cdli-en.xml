@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000514, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346191</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346191.P346191.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Your pure properly executed nindaba offerings</l>
+        <l n="2">Your choosing of the pure and holy siskur ritual</l>
+        <l n="3">Your chosen offerings</l>
+        <l n="4">Your enunciated thoughts</l>
+        <l n="5">Your nose stroking, your raising of pure hands</l>
+        <l n="6">If you shall make Nanna, king of the universe, lord, your good protective spirit, amenable(?)</l>
+        <l n="7">If you shall make Ningal, supreme queen, (the one of?) your good omen(?), amenable(?)</l>
+        <l n="8">The king that dispels hunger, both Nanna and Ningal (and) the great gods</l>
+        <l n="10">Rīm-Sîn, the king, will fill the temples of the gods with abundance for you</l>
+        <l n="11">King nominated by Enlil, his reign (of) abundance</l>
+        <l n="12">Days of abundance, years of joy</l>
+        <l n="13">A fate of ...(?), a fate of abundance shall be present as your fate</l>
+        <l n="15">The king has spent(?) day, night and night-time (with) abundance never to be exhausted for you for you ... for you, he shall secure ... for you</l>
+        <l n="16">King, the first of your nindaba offerings in the midst of the Abzu shrine ... are ... for you</l>
+        <l n="17">King, the last of your nindaba offerings in the great courtyard</l>
+        <l n="18">(Its) abundance never to cease</l>
+        <l n="19">King, in the ... of the temple abundance has been set in order for you</l>
+        <l n="20">Rīm-Sîn, king of Ur, the supreme rites of the Ki'ur complex</l>
+        <l n="21">Restored their place</l>
+        <l n="23">And therefore Nanna, king of the universe, shall make the true and supreme crown that is perfect for kingship firm on your head</l>
+        <l n="24">And therefore Ningal, the supreme queen, your hunger reliever</l>
+        <l n="25">By means of her consenting heart, daily(?), a good life ...</l>
+        <l n="26">She(?) shall make the days of your life good(!?)</l>
+        <l n="27">By her pure hand, the great aura of kingship ...</l>
+        <l n="1">The supreme ... of the universe, as if it was fastened to your hand by a rope(?) she(?) shall ...</l>
+        <l n="2">Rīm-Sîn, king of the Ki'ur, abundance ...</l>
+        <l n="3">So that it is constant and unceasing(?)</l>
+        <l n="4">King, the Tigris shall bring(?) abundance(?) for you</l>
+        <l n="5">The Euphrates by means of the fullness inside of its bed shall bring(?) flowing water for you(?)</l>
+        <l n="6">The Idnun, the fertile Idnun canal, the canal where living creatures drink ...</l>
+        <l n="7">Shall bring fishes and birds for you</l>
+        <l n="8">From/at the replaced/deepened(?) lakes(?), where the canal's end stands still (i.e., there is no current)</l>
+        <l n="9">Shall bring unceasing birth because of(?) your king</l>
+        <l n="10">In the broad steppe, the broad place, the quadrupeds and living creatures ...</l>
+        <l n="11">The dikes, ditches (i.e., irrigation system) and irrigated fields(?) shall yield (crops, literally, raise their hand) for you</l>
+        <l n="12">Life shall established for you</l>
+        <l n="13">The šud prayer and an oracular utterance (of?) goodness shall be established for you</l>
+        <l n="14">A heart of rejoicing shall be established for you</l>
+        <l n="15">The most favorable omen shall be established for you</l>
+        <l n="16">Your heart shall be sweetened</l>
+        <l n="17">May your flesh be sweetened</l>
+        <l n="18">May your liver(?), a reliable omen(!?) ... be sweetened in the flesh(?)</l>
+        <l n="20">You make Nanna and Ningal desire(?) the most favorable omens and a fate of life (for you) forever</l>
+        <l n="21">Rīm-Sîn, the appropriate king, holder of abundance of (i.e. for?) the great gods</l>
+        <l n="22">The land shall be stable for him, the foundation of the land shall be stable for him</l>
+        <l n="23">Nanna, king of the universe, shall put the mood(?) of the land in unison for you</l>
+        <l n="24">Rīm-Sîn, my king</l>
+      </div>
+    </body>
+  </text>
+</TEI>

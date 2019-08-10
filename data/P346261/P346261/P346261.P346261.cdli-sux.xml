@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -58,6 +55,8 @@
           <div n="reverse" type="textpart">
             <l n="1">ki nam tar-ra nu-ub-da-gen-na-aš</l>
             <l n="2">du11-ga {d}en-lil2-le muš3-me-zu igi he2-bi2-duh</l>
+            <note>double ruling</note>
+            <note>space blank</note>
             <l n="3">im-gid2-da {d}nanna-me-ša4</l>
             <l n="4">na-zi-iq-ka uš-ta-mi-na-ni#?</l>
             <l n="5">qu2-lum i-na x-ri-ia uš-te-si-ra-an-ni</l>
@@ -65,36 +64,6 @@
             <l n="7">aq-ta-na-al</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">After you speak to Enlilmassu, (the provider of) sweet words and good advice, the (possessor of) a “honey mouth, who is charming</l>
-        <l n="2">...</l>
-        <l n="3">you repeat,</l>
-        <l n="4">My alad spirit, my lamma spirit, my valued (personal) god (Akkadian, the one of the side(?)), with good features and stature</l>
-        <l n="5">Embodiment of the scribal art</l>
-        <l n="6">Hero of the šatam officials, who restores commands to their place</l>
-        <l n="7">Who sweetens the heart of the king, after you (say) a third time to him</l>
-        <l n="8">Lugalnesage, the nu'eš priest of Enlil, the jester of his king</l>
-        <l n="9">Son of Zuzu, master (scribe) of Nibru, it is (him who) speaks (thusly)</l>
-        <l n="10">When I was abandoned, (I) was “cut down&quot;(?)</l>
-        <l n="11">My heart fell, my (interest in) eating and drinking diminished</l>
-        <l n="12">Your destiny(?) consumed me, your lament silenced me(?)</l>
-        <l n="13">Your greatness (i.e., arrogance) has twisted(?) me</l>
-        <l n="14">Your fog(?) has killed me</l>
-        <l n="15">(For the time being) I have abandoned my attentiveness (to you)</l>
-        <l n="16">I was silent to(?) listening (to you) and pondering (you?)</l>
-        <l n="17">(I) have been distressed to inquire after (you)</l>
-        <l n="18">(In order) to be afraid(?), my heart has filled with blood and pus</l>
-        <l n="1">(But) because(?) it (this plight?) not yet gone into the “place of fate&quot;(?)</l>
-        <l n="2">May the command of Enlil make me(?) see your face (again)</l>
-        <l n="3">&quot;Long-tablet&quot; of Nannameša</l>
-        <l n="4">Your annoyance has killed me</l>
-        <l n="5">The silence confines me in my place(!?)</l>
-        <l n="6">My ear is set (to hear) you</l>
-        <l n="7">And I am quiet</l>
       </div>
     </body>
   </text>

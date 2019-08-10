@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000380, ex. 020</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346217</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346217.P346217.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Enlil was replying to his son Suen</l>
+        <l n="2">In the ... of of the windswept city(?), the reed of mourning grows in lamentation</l>
+        <l n="3">In the ..., the reed of mourning grows in lamentation</l>
+        <l n="4">In the ..., he spends time in lamentation</l>
+        <l n="5">My son, if you yourself are a native son, then it is you who is the one whose tears (they are)</l>
+        <l n="6">Nanna, if you yourself are a native son, then it is you who is the one whose tears (they are)</l>
+        <l n="7">There is no revocation of a final verdict, the word of the assembly</l>
+        <l n="8">The uttered word of An and Enlil knows no change</l>
+        <l n="9">If Ur was given kingship, ... did not give an eternal term of office</l>
+        <l n="10">From the distant day when the land was founded to the (current) limit of teeming people</l>
+        <l n="11">Who has seen a reign of kingship taking precedence (forever)</l>
+        <l n="12">In order to lengthen the term of kingship(?), in order to take counsel (to that effect?)</l>
+        <l n="13">My Nanna, do not become exhausted (doing this), leave your city</l>
+        <l n="14">At that time, my king, the native son, quit/killed his liver/lungs</l>
+        <l n="15">Lord Dilimbabbar “fashioned a destroyed/evil heart”</l>
+        <l n="16">Nanna, who loved his city, left his city</l>
+        <l n="17">Ningal, in order to go (as a) stranger(?) of her city to a strange place</l>
+        <l n="18">Hurriedly she got dressed/braided a rope (for escape?) and left the city</l>
+        <l n="19">The Anuna of Ur stood outside</l>
+        <l n="20">In Ur fire(?) that ... by itself was extinguished(?)</l>
+        <l n="21">In Ur its trees were sick, its reeds were sick</l>
+        <l n="22">A lament was competing with the wall up to its circuit (in terms of completeness)</l>
+        <l n="23">Daily weapons were smashing heads before it</l>
+        <l n="24">In Ur great hazin axes were sharpened before it</l>
+        <l n="25">They were setting the spears, the arms of battle, in order</l>
+        <l n="26">Great bows, throw sticks, and shields were consuming together</l>
+        <l n="27">Barbed(?) arrows filled its outside like a rainstorm</l>
+        <l n="28">Great stones made a thudding pudpad noise by themselves</l>
+        <l n="29">Daily an evil wind returns among the city</l>
+        <l n="1">In Ur the noble one, divested of his(?) strength, stood among the murderer(s)</l>
+        <l n="2">The enemy defeated the people, (those who?) stood among the weapons</l>
+        <l n="3">(In?) the city the ones who did not advance against the weapons dwelled/sat in hunger</l>
+        <l n="4">Starvation thus filled the city, it was not ceasing</l>
+        <l n="5">In hunger they were bowing their heads and twisting their muscles</l>
+        <l n="6">Its people filled the ponds, they were ...</l>
+        <l n="7">Its king breathed painfully in his own(?) house</l>
+        <l n="8">Its humanity dropped their hands, (their) weapons touched the ground</l>
+        <l n="9">They gathered/clasped their hands to their necks(?), they were weeping</l>
+        <l n="10">Together they advised, they discussed</l>
+        <l n="11">Alas, what is it that we will say, what is it that we will add?</l>
+        <l n="12">How long until we are to be finished in the mouth of catastrophe?</l>
+        <l n="13">The inside of Ur is death, the outside is death</l>
+        <l n="14">(How long until) we are to be finished within that of starvation inside (the city)?</l>
+        <l n="15">(How long until) we are to be finished among the weapon(s) of Elam outside (the city)?</l>
+        <l n="16">The enemy stands in Ur, we must come to an end(?)</l>
+        <l n="17">Acting on behalf of their life and their back(?) they spoke together</l>
+        <l n="18">They opened the bolt of the gate, the storm was making its door stand (in the street)</l>
+        <l n="19">Elam set foot there like a great onrushing flood</l>
+        <l n="20">In Ur (they) were crushing their heads with weapons like a porous pot(?)</l>
+        <l n="21">(They) could not sprint away(?) as fugitives, (they) were seized(?) within the wall's limits</l>
+        <l n="22">Like fish living in a pond, they were seeking refuge</l>
+        <l n="23">The enemy dwelled in the Ekišnugal temple of Nanna</l>
+        <l n="24">They were breaking the holy “having heavy possessions” bird(!?)</l>
+        <l n="25">They cut down the statue that occupied(?) the uzga shrine</l>
+        <l n="26">Nine'igara, the supreme steward, abandoned the storehouse(!?)</l>
+        <l n="27">Its throne was covered over from the front(?), she(?) could(?) (only) sit in the dust (instead?)</l>
+        <l n="28">They seized the great(?) cows at/by(?) their ... horns, ... cut their horns off</l>
+        <l n="29">... smote goring bulls with the weapon like (they were) grazing sheep</l>
+        <l n="30">... was cut down and bound together like a date palm</l>
+        <l n="31">The date palm (of? like?) strong copper, the arm of heroism</l>
+        <l n="32">It was torn out like a rush, it was cut like a rush, it was turned sideways(?) in its roots</l>
+        <l n="33">Its top was lodged in the ground, a person to raise it was not available</l>
+        <l n="34">... trimmed its midribs and set its top on fire</l>
+        <l n="35">... its spadix with ripe dates, ... the well</l>
+        <l n="36">The gizi reed that grew in the holy ... were actively diminished(?)</l>
+        <l n="37">(Total:) Sixty+ (lines ...)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

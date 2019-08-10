@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,8 @@
       <div n="urn:cts:cdli:P346159.P346159.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>(surface unclear)</note>
+            <note>broken</note>
             <l n="1'">[...] LUH#? x [...] dingir#? ⸢na⸣-⸢me⸣ ⸢e⸣-ne-gin7 nu-mu-ni-in-dim2 [...]</l>
             <l n="2'">[...] ⸢ba⸣-an-gi4 gal-an-zu geštux(|GIŠ.TUG2|)#!? bad a-ra2 sag2 ka ba-ni x [...]</l>
             <l n="3'">[...] x ⸢muš3⸣ hi-li su3 TAB-NIG2 sikil-⸢la⸣ alan nir-nir alan gar-ra x [...]</l>
@@ -57,30 +56,6 @@
             <l n="19'">[...] x x ⸢zi⸣-zi lugal#?-gu10#?-ur2#? ⸢u3⸣-ne-⸢de3⸣-[peš]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">..., no (other) god acts like him</l>
-        <l n="2'">..., wise (with his) responses, open minded one, (his) way &lt;cannot be?&gt; dispersed(!?), his utterance ...</l>
-        <l n="3'">... (possessor of a) face exuding allure, pure ..., stretched-out form(?), a statue(?) inlaid with(?) ...</l>
-        <l n="4'">... in an aura, lighting up with an aura brightly like the day</l>
-        <l n="5'">Supreme ..., ornament of the temple of An(?), for the great gods his (attentive) silence(?) ...</l>
-        <l n="6'">Supervisor of the (mortal) rulers, his word is unreachable within the heights(?) of the universe, ...</l>
-        <l n="7'">... hero, god who regularly (furnishes offerings!?) ..., holy lagar vizier(?), bringing attention to the command(?) ...</l>
-        <l n="8'">... suitable for admiration, whose limbs bearing happiness ..., a beautiful stature that has not(?) ...</l>
-        <l n="9'">Examining the content of important speech(?) (and then) begets (additional) words (i.e., revises?) while leaving (the message intact), who betters(?) the secret of the universe (which reside?) in the mind of An(?), and the foremost cosmic powers</l>
-        <l n="10'">Advocate and kingal overseer of the Anuna gods, who was bestowed knowledge of everything by Enki</l>
-        <l n="11'">Foremost of the great princes (Igigi), (possessing) excessive and surpassing knowledge, without him An and Enlil(?) do not issue orders to the great gods</l>
-        <l n="12'">True god, beloved by holy An, paying attention to ...(?), guardian of life-giving force who loves to sustain(?), ...</l>
-        <l n="13'">Ninšubur, lord whom the lamma protective spirits have as (their) (personal) god(?), who has known compassion and mercy, to my king, when you repeat(?) to him</l>
-        <l n="14'">Putting a good word to the heart of Inanna, before An the great gods have paid attention to(?) his utterance</l>
-        <l n="15'">Raising the scepter, issuing commands, clad in(?) the ritual arrangements(?), his(?) advice giving(?) face charming(?) with pleasure and allure</l>
-        <l n="16'">..., his cosmic powers are purer than (other) cosmic powers(?), (its) skillful way/decree supremely surpassing(?), ... in totality everything ...</l>
-        <l n="17'">Holy? Ninšubur, taking counsel (with) Inanna, undoing punshment, the one “struck upon the hand,” murgig disease(?) ...</l>
-        <l n="18'">... listening to ..., his(!) praying/good words never disparaging(?), ... sin(?)</l>
-        <l n="19'">... when you (say it) a 3rd time(?) to my king</l>
       </div>
     </body>
   </text>

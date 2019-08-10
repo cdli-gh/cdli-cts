@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -70,41 +67,6 @@
             <l n="15">[min]-⸢na⸣-ne-ne#? a#? ki-lul#?-[...] bi2-⸢ib2⸣-⸢nag⸣-[...]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Did you see the man who fell from the roof? I saw him. How is he treated?</l>
-        <l n="2">His bones were not mended(?)</l>
-        <l n="3">Did you see the man who Iškur trampled (with a storm?)? I saw him. How is he treated?</l>
-        <l n="4">He ... like an ox, eaten by parasites</l>
-        <l n="5">Did you see the man who fell in battle(!?)? I saw him. How is he treated?</l>
-        <l n="6">His food is set aside, his water is set aside, eating ... food and ... water</l>
-        <l n="7">He is living in the city of his god(!)</l>
-        <l n="8">Did you see the man who was (intent to) not respect the command of his mother and father? I saw him. How is he treated?</l>
-        <l n="9">He does not cease screaming “Alas, my self/wind (i.e., breath?)(!?)! Alas, my limbs(?)”</l>
-        <l n="10">Did you see the man who was overtaken by(?) the curse(?) of his mother and father? I saw him. How is he treated?</l>
-        <l n="11">His heir has absconded, his ghost roams around</l>
-        <l n="12">Did you see the man who disregarded the oath of his god? I saw him. How is he treated?</l>
-        <l n="13">His ghost eats bitter food and drinks bitter/brackish water</l>
-        <l n="14">Did you see the ghost that does not have someone to place food (for him)? I saw him. How is he treated?</l>
-        <l n="15">He eats scrapings of the bowl, bread crumbs ... that have fallen into the street</l>
-        <l n="1">Did you see the tiny stillborn babies, who do not know their own name? I saw them. How are (they) treated?</l>
-        <l n="2">They play in a trough/bucket of gold and silver (filled with) honey and ghee</l>
-        <l n="3">Did you see the man who was set on fire(?) I did not see him</l>
-        <l n="4">His smoke has risen into heaven, his ghost is not held on the ground/in the netherworld</l>
-        <l n="5">Did you see the man who deceives the god (by) having sworn an oath?</l>
-        <l n="6">I saw him. How is he treated?</l>
-        <l n="7">At the libation place for the dead at the top(?) of the netherworld, ..., he drinks with (perpetual) thirst/thirst consumes him(?)</l>
-        <l n="8">Did you see the citizen of girsu, the ... of his father and mother?</l>
-        <l n="9">I saw him. How is he treated?</l>
-        <l n="10">From before that single man (i.e., per man) there are a thousand citizens of Martu, he cannot beat them away, I(!?) do not “heap the chest” against ...(!?)</l>
-        <l n="11">The citizens of Martu captured me (as I was trying to escape?) before(?) the place of libations for the dead, at the top/opening(?) of the netherworld</l>
-        <l n="12">Did you see the citizens of Sumer and Akkad? I saw (them). How are (they) treated?</l>
-        <l n="13">They are made to drink the water of a place of ambush, roiled water</l>
-        <l n="14">Where do my father and mother dwell? I saw (them). How are (they) treated?</l>
-        <l n="15">The two were made to drink the water of a place of ambush ...(?)</l>
       </div>
     </body>
   </text>

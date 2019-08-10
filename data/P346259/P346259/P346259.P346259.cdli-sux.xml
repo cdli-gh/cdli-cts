@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -37,6 +34,7 @@
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] kur#?-kur#?-⸢ra⸣</l>
             <l n="2'">[...]-⸢du11⸣</l>
             <l n="3'">[...] ku5-da#?</l>
@@ -57,6 +55,7 @@
             <l n="18'">[...] x x</l>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x [...]</l>
             <l n="2'">[...]-ga2-na ⸢5(diš)⸣ ⸢li⸣-⸢mu⸣-[...]</l>
             <l n="3'">zi#?-da#? gab2-bu-ba ib2-ta-gub#?-⸢bu⸣-[...]</l>
@@ -77,6 +76,7 @@
             <l n="18'">⸢lu2⸣ ⸢mu⸣-un-ši-⸢in⸣-⸢gi4⸣-⸢gi4⸣</l>
             <l n="19'">⸢u4⸣ nu-mu-un-⸢da⸣-sa9 ⸢šen⸣-⸢e⸣ ba-te</l>
             <l n="20'">⸢lugal⸣-gu10 he2-en-zu</l>
+            <note>double ruling</note>
             <l n="21'">[...]-⸢ra⸣ u3-na-a-⸢du11⸣</l>
             <l n="22'">[...] lugal#?-zu#? na-⸢ab⸣-[...]-⸢a⸣</l>
             <l n="23'">[...]-x lu2-x-x</l>
@@ -84,7 +84,9 @@
             <l n="25'">a-na-aš-am3 nig2-nam-bi? x ur5 i-me nu-um-me#?-x</l>
           </div>
           <div n="3" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x x-ne</l>
+            <note>double ruling</note>
             <l n="2'">i3-bi2-{d}suen lugal-gu10-ra</l>
             <l n="3'">u3-a-na-du11</l>
             <l n="4'">{diš}puzur5-{d}šul-gi! ensi2 ka-zal-lu!(KU){ki}</l>
@@ -107,6 +109,7 @@
           </div>
           <div n="reverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">x-[...]</l>
             <l n="2'">⸢ša3⸣ ⸢i3⸣-⸢si⸣-in#?{ki#?}-[...]</l>
             <l n="3'">{geš}za3-gu-la2-ne-ne#?</l>
@@ -125,8 +128,10 @@
             <l n="16'">[...] x ga-bi?-NE-[...]</l>
             <l n="17'">[...]-⸢in⸣-⸢du11⸣-ga#?-⸢gin7⸣-[...]</l>
             <l n="18'">[...] x [...]</l>
+            <note>broken</note>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]</l>
             <l n="2'">[...]-⸢ma⸣-ra ⸢u3⸣-⸢ne⸣-du11#!?</l>
             <l n="3'">[...]-⸢ga⸣-a-ni ⸢ug3⸣ ⸢1(šar2)⸣ ti-⸢le⸣</l>
@@ -143,78 +148,12 @@
             <l n="14'">[...]-du3</l>
             <l n="15'">[...]-tuš</l>
             <l n="16'">[...]-x</l>
+            <note>broken</note>
           </div>
-          <div n="3" type="textpart"/>
+          <div n="3" type="textpart">
+            <note>broken</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="2'">When you speak to the king whose shining is like the moon manifested in the lands</l>
-        <l n="6'">When you repeat (the message) to the king who justly decides legal decisions, who properly executes decisions like Ištarān, who is attentive to the šud prayer</l>
-        <l n="7'">Thus says lugal-nesag, a citizen of Nibru, &lt;you servant(?)&gt;</l>
-        <l n="8'">... has cast (me) into (the role of?) eating plants with my mouth like a sheep</l>
-        <l n="9'">I ceased scrubbing (myself)</l>
-        <l n="11'">Like a bull that is not held in the yoke, I was compelled to go in the plain</l>
-        <l n="13'">Like a cow not in the proximity of its calf, (I) shout with compassion</l>
-        <l n="15'">Like a ewe whose lamb was seized in the milking pen, ...'s hand has seized (me)</l>
-        <l n="17'">Like a boat that was not left behind in a reliable harbor, the wind has floated (me) downstream</l>
-        <l n="1'">...</l>
-        <l n="2'">His elite soldiers, which were 5 thousand in number</l>
-        <l n="3'">Stood apart from ... at its right and left</l>
-        <l n="4'">He established six fattened bulls and sixty fattened sheep as a meal</l>
-        <l n="5'">He had appropriated/regularly performed(?) the šuluh rite of my king</l>
-        <l n="6'">They(?) were standing (idle) at the gate of the palace</l>
-        <l n="7'">No one was letting (me) enter towards him</l>
-        <l n="8'">When I was to enter</l>
-        <l n="10'">Someone brought(?) a chair whose knobs were inlaid with gold for me and said “sit!”</l>
-        <l n="11'">(I said:) It is the orders of my king that I am serving, who has said not to sit</l>
-        <l n="12'">They placed one fattened bull and six fattened sheep (on) the table</l>
-        <l n="13'">In order to not insult (me?), the soldiers of my king overturned the table</l>
-        <l n="14'">The 15th day of the month &quot;festival of Ninazu,” (the day) elapsing</l>
-        <l n="15'">My king thereupon(?) made orders</l>
-        <l n="16'">It is the 1st day of the month &quot;Ubi,” (the day) elapsing</l>
-        <l n="18'">To my king, (I) am sending someone as a messenger</l>
-        <l n="19'">The day has not yet been half completed, and it has (already) approached battle</l>
-        <l n="20'">My king should know (this)</l>
-        <l n="21'">When you speak to Aradgu</l>
-        <l n="22'">Thus Shulgi, your king, speaks</l>
-        <l n="23'">Your man who I sent to ..., ...</l>
-        <l n="24'">Aren't orders(!?) taken from your own hand ...?</l>
-        <l n="25'">Why do you not ... anything ..., such as it is(?)</l>
-        <l n="1'">Come into agreement, establish the foundation of the land!</l>
-        <l n="3'">When you speak to Ibbi-Sîn, my king</l>
-        <l n="5'">Thus Puzur-Shulgi, the governor of Kazallu, speaks</l>
-        <l n="7'">The messenger of Išbi-Erra ... before me</l>
-        <l n="8'">He devoted his attention to me (and said)</l>
-        <l n="10'">Išbi-Erra, my king, has sent a message to you</l>
-        <l n="12'">Enlil, my king, has expounded upon(?) the shepherdship of the land</l>
-        <l n="15'">The banks of the Tigris, Euphrates, Abgal and Me-Enlil canals</l>
-        <l n="17'">Their cities, gods, and ... armies</l>
-        <l n="18'">From the land of Hamazi</l>
-        <l n="19'">Until the Persian Gulf(?)</l>
-        <l n="20'">And Magan</l>
-        <l n="1'">...</l>
-        <l n="4'">I shall have their shrines/places of honor built inside Isin</l>
-        <l n="5'">I shall ... their ...</l>
-        <l n="8'">I shall make my statues and emblems and my en and erešdigir priestesses dwell in their cloisters</l>
-        <l n="11'">Before Enlil in the Ekur temple, before Nanna in the Ekišnugal temple my children(?) shall enact the siskur rites</l>
-        <l n="12'">And you, the one who you trust(!?)</l>
-        <l n="13'">I shall stand him apart from his land</l>
-        <l n="14'">I shall build the walls of Isin</l>
-        <l n="16'">And shall name them(?) Idil-pašunu</l>
-        <l n="17'">It was as he said</l>
-        <l n="18'">...</l>
-        <l n="2'">When your speak to Nintinuga, the true steward of the Ekur temple, the physician of the land</l>
-        <l n="4'">The lady whose performed spell sustains the many people, whose incantations/murmuring ... the people</l>
-        <l n="5'">Lady of compassion who sustains a man</l>
-        <l n="6'">... when you repeat to her</l>
-        <l n="8'">Thus says Inannaka, daughter of Enlilamah</l>
-        <l n="9'">Twice/twofold(?) (in) the midst of my bedroom</l>
-        <l n="12'">...</l>
-        <l n="15'">My mistress, ... built a house for me (and) (I) dwell (in it) suspiciously(?)</l>
-        <l n="16'">...</l>
       </div>
     </body>
   </text>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -46,6 +43,7 @@
             <l n="9">{geš}tukul!(TUG2) sag3-ge ur-sag ug5-ga-ga2 šu gal-bi? he2-ni!-du7</l>
             <l n="10">x-mah-ga2-a ki-gal ha-ra-an-ri</l>
             <l n="11">kalam-e ⸢u6⸣ du10-ge-eš mu-e kur-kur he2-il2-i</l>
+            <note>double ruling</note>
             <l n="12">ur-sag {na4#}ka-gin6-e ba-gub</l>
             <l n="13">nam-kal-ga-⸢bi⸣-⸢še3⸣ ⸢gu3⸣ ba-de2-e</l>
             <l n="14">{d}nin-urta dumu {d}en-lil2-la2-ke4 nam am3-ib-tar-re</l>
@@ -53,8 +51,10 @@
             <l n="16">⸢{na4#}ka⸣-gin6-na ki-bala-ta ⸢gu3⸣ mu-e-re-gal2-la</l>
             <l n="17">[...]-⸢gu10⸣ sa2 mu-ri-ib2-⸢du11⸣</l>
             <l n="18">[...] ⸢ba⸣-ra#?-[...]</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">{na4#}za#?-[...]</l>
             <l n="2'">{na4#}x-[...]</l>
             <l n="3'">{na4}gug-x [...]</l>
@@ -73,44 +73,6 @@
             <l n="16'">lugal-gu10 {na4}gir2-zu2-gal-⸢la⸣-ke4 ba-gub igi dul2? ⸢ba⸣-an-ak</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">My king attended to the eleli stone</l>
-        <l n="2">Ninurta, the son of Enlil, was decreeing (its) fate</l>
-        <l n="3-4">eleli stone, possessed of wisdom, when the mountain sows discord, I shall cast down my aura upon you</l>
-        <l n="5">Upon my rebel land (whose) people confront together, you(?) shall invoke my name</l>
-        <l n="6">You shall not diminish from your healthy/intact state</l>
-        <l n="7">The reduction of your thickness shall be difficult(?)</l>
-        <l n="8">My cosmic powers shall regulate (your) rites(!?)</l>
-        <l n="9">You shall be greatly suited for my smiting weapon which kills the hero</l>
-        <l n="10">In my supreme courtyard(!?) a pedestal shall be set down for you</l>
-        <l n="11">(May) the land(?) admire (you) sweetly, the (foreign) lands shall raise (you)</l>
-        <l n="12">The hero attended to the kagina stone</l>
-        <l n="13">He spoke (to it) because of its might</l>
-        <l n="14">Ninurta, the son of Enlil, was decreeing (its) fate</l>
-        <l n="15">Reverent youth who sets (saturated) light to the outside</l>
-        <l n="16">kagina stone, you who put down a shout for me in the rebel land</l>
-        <l n="17">My hand did not conquer you (as) an arrogant one(?)</l>
-        <l n="18">And therefore(?) I did not bind you(?) together with the hostile ones</l>
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">The guggazi and marhali stones</l>
-        <l n="4'">The egizaga, girinhiliba, anzugulme and nirmušir stones</l>
-        <l n="5'">The lord, ...</l>
-        <l n="6'">Ninurta, the son of Enlil, was decreeing (its) fate</l>
-        <l n="7'">Whatever(?) ... you go, (whether) formed as(?) male and female, you thus(?) “towards my place”</l>
-        <l n="8'">You possessed no sin, your hand “pushes&quot;(?) that which is a wall (demonstrating solidarity or inactivity as a conspirator?)</l>
-        <l n="9'">As a witness(?), (you) boasted about me/yourself(?)</l>
-        <l n="10'">I will rear you(!) in/on (my lap, etc.) together with “an adviser&quot;(?)</l>
-        <l n="11'">Like one who made the claim(?) “I am the general” in the assembly(?)</l>
-        <l n="12'">nir stone(?), (you) shall chose among(?) the wine and syrup for me(?)</l>
-        <l n="13'">You (pl.) shall faithfully care for gold (which you are inlaid with?)</l>
-        <l n="14'">Among(?) the ... of the gods</l>
-        <l n="15'">The lands shall touch the nose in submission when you(?) grovel(?)</l>
-        <l n="16'">My king attended to the flint, he looked at it angrily</l>
       </div>
     </body>
   </text>

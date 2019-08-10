@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346328.P346328.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>space blank</note>
             <l n="1">lu2-lux(URU) dingir-da nu-me-a</l>
             <l n="2">u2 la-ba-gu-le-en</l>
             <l n="3">u2 la-ba-tur-en</l>
@@ -45,22 +43,12 @@
             <l n="7">di gal-gal-la sa2 nu-ub-⸢du⸣</l>
             <l n="8">tukumbi nig2 dingir-ra-ni a#?-na#?-[...]</l>
             <l n="9">⸢nig2⸣ ⸢mu⸣ [...] a#?-na#? x [...]</l>
+            <note>space blank</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>space blank</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">If a man is without a personal god</l>
-        <l n="3">You will neither be increased nor diminished</l>
-        <l n="4">(While) passing through the water(?) in the river, a fish has not passed by(?)</l>
-        <l n="5">(While) passing through his field, a gazelle has not passed by(?)</l>
-        <l n="6">The ritual arrangement(?) has not occurred regularly(?)</l>
-        <l n="7">Great judgments(?) have not occurred regularly</l>
-        <l n="8">If “that of his god” is approval(?)</l>
-        <l n="9">Anything that is named is given approval(?)</l>
       </div>
     </body>
   </text>

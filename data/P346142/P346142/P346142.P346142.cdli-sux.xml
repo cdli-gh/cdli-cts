@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -64,39 +61,10 @@
             <l n="11">{geš}ellag-a-ni u3 {geš}ke4-me-e-gu10 dur2 kur-ra ba-da-an-šub</l>
             <l n="12">šu-ni mu-ri-in-de6 šu nu-mu-de3-in-tag</l>
             <l n="13">giri3-ni mu-ri-in-de6 giri3 mu-de3-in-tag</l>
+            <note>double ruling</note>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">The ibbaru harness, there was fifty mina within it, ... on his hips</l>
-        <l n="2">He tied on the fifty (mina)</l>
-        <l n="3.a">of his hazin axe, (the weapon of) his campaign,</l>
-        <l n="3.b">which weighed 7 talents and 7 mina, he took hold</l>
-        <l n="4">At the base (of the halub tree) he smote the snake that was immune to incantations</l>
-        <l n="5">In its branches, the Anzu bird took its chick and dragged it away(?) to the mountain range</l>
-        <l n="6.a">The demon maidens(?) of the empty wind who had built(?) a house in its middle(!?</l>
-        <l n="6.b">fled to the wasteland</l>
-        <l n="7">He struck the tree at its trunk and cut its branches</l>
-        <l n="8.a">The citizens of his city who had come to him</l>
-        <l n="8.b">made it submit/gathered (the branches)(?)</l>
-        <l n="9">They gave it to his sister, holy Inanna, as her throne</l>
-        <l n="10">They gave it to her as her bed</l>
-        <l n="11">He(!?) took(?) the base of the tree for his ball/How the base of the tree was taken for his ball!(?)</l>
-        <l n="1">He(!?) took(?) the branches of the tree for his mallet</l>
-        <l n="2">The one who always played ball(?) brings out the ball in the smoothed(!?) street</l>
-        <l n="3-4">The one who always boasted about himself(?) brings out the ball in the smoothed(!?) street; the young men(?) of his city who always played ball(?)</l>
-        <l n="5">(Because of?) him, (the one by whom?) the force of widow's children was ridden(?)</l>
-        <l n="6">They lamented (with the phrase) “oh, my neck, oh, my hips(?)!”</l>
-        <l n="7">Those who had a mother, she was bringing food for her son</l>
-        <l n="8">Those who had a sister, she was pouring(?) water for her brother</l>
-        <l n="9">Away from/by means of(?) the accusation of the widows</l>
-        <l n="10">And the cries to Utu of the young maidens</l>
-        <l n="11">He dropped(?) his ball and my(!) mallet into the bottom of the netherworld</l>
-        <l n="12">He brought his hand (up to it), and could not touch it</l>
-        <l n="13">He brought his foot (up to it), and could not touch it</l>
       </div>
     </body>
   </text>

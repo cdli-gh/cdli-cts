@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -57,32 +54,9 @@
             <l n="7">{d}suen-i-din-na-am inim sa6-sa6-ge mu-un-ba ti-le nig2-ba-bi he2-me-x</l>
             <l n="8">{geš}gu-za nam-lugal-la sag he2-il2-x-x du-ri2-še3 he2-x-x</l>
             <l n="9">u4 ul-še3 mu-ni i3-gal-e kur šu4-mu-un-na-ab-ze2-en</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">He greatly perfected(?) the abundance of the pure shrine/sea(?), the nesag offering of the New Year</l>
-        <l n="2">To the harbor of life, the harbor of Ur he rode (with?) the load/tribute(?)</l>
-        <l n="3">Suen conveyed the nindaba food offering, he brought (it) to Nibru</l>
-        <l n="4">He brought it into the Ekur, the temple of Enlil</l>
-        <l n="5">Enlil, who was rejoicing at the nindaba offering, decreed a fate</l>
-        <l n="6">His birth mother, the great lady Ninlil, was faithfully treating him well</l>
-        <l n="7">Suen ... to Enlil and Ninlil</l>
-        <l n="8">He prayed so that the fate of Sîn-iddinam would be determined(!?) in perpetuity</l>
-        <l n="9">The humble shepherd who you speak with faithfully, ... life for him</l>
-        <l n="10">Sîn-iddinam, who you speak with faithfully ... life for him</l>
-        <l n="1">May a true decreed fate where there is long life(?) be decreed (for him)</l>
-        <l n="2">May a lot of living eternally be given (to him) as a gift(?)</l>
-        <l n="3">I fashioned(?) for you (food using?) the highest quality grain on behalf of(?) the shining Ekur</l>
-        <l n="4">So that the reputation of(?) the thick loaves sifted like sieved barley(?) is great/May its name(?) be collected/pecked at? like the open/divided/sieved(?) barley of a thick bread loaf with sifted (grain)(?)</l>
-        <l n="5">In order that you(?) establish (for?) him good years, days of living and months of well-being</l>
-        <l n="6">You will bring a suitably glad liver and rejoicing heart into his palace</l>
-        <l n="7">Sîn-iddinam has spoken good (words)/prayed and therefore you(?) will ... living as a gift/the gift (of?) living</l>
-        <l n="8">May the throne of kingship be exalted, may it ... forever</l>
-        <l n="9">(So that?) his name will be great until distant days, overwhelm (pl.) the land for him</l>
       </div>
     </body>
   </text>

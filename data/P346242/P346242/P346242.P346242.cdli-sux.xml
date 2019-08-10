@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346242.P346242.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x-zu-še3 im#?-x</l>
             <l n="2'">[...]-da-ni</l>
             <l n="3'">[...]-KU-KU</l>
@@ -43,6 +41,7 @@
             <l n="5'">bun2 du11-⸢du11⸣ ⸢guruš⸣ ⸢iri⸣-[...] ⸢si⸣-si-ge</l>
             <l n="6'">ki-sikil tur dag-gi4-a ti-⸢la⸣ ⸢u3⸣ [...]-ku#?-ku</l>
             <l n="7'">gaba-ri-gu10-me-⸢en⸣</l>
+            <note>double ruling</note>
             <l n="8">e-ne-eg3 diri inim bala-e nu-⸢sa6⸣</l>
             <l n="9'">nu-nuz sun7-na šu-um-du-um nu-kal-la ša3 gur4 du14#? mu2-mu2</l>
             <l n="10'">gu3 de2-de2 ze2-za ⸢galga⸣ suh3-⸢e⸣</l>
@@ -50,6 +49,7 @@
             <l n="12'">šu dag-dag-⸢ge⸣ ha-la-ni</l>
             <l n="13'">gu7-gux(KA) na8-na8 eg3-gig-ga kin2-ga2 bid3-⸢da⸣-[...]</l>
             <l n="14'">⸢en⸣-na-bi-še3-am3 du14 mu-da-ak-[...]</l>
+            <note>double ruling</note>
             <l n="15'">i-bi2 duh um-ma-ne muš3-me-bi ⸢gi4⸣-[...]</l>
             <l n="16'">sag-du LAGAB siki sal ugu ze2 sag ⸢sal⸣-[...]</l>
             <l n="17'">mu-x-na arkab |MU.TUG2.PI| ša3 x-[...]</l>
@@ -57,6 +57,7 @@
           </div>
           <div n="reverse" type="textpart">
             <l n="1">ga-ba-al mu-du3-du3-[...]</l>
+            <note>double ruling</note>
             <l n="2">hul de3 kalam-⸢ma⸣ nu-ga nu-nuz-[...]</l>
             <l n="3">sig7-sig7-ga ša3 lugud [...]</l>
             <l n="4">gig2-ga me-luh-ha{ki} dimx(LUGAL@s) zi3 mil lu2-⸢tu15⸣ [...]</l>
@@ -65,6 +66,7 @@
             <l n="7">pe-[...] lu2 gal4-la pa4-⸢hal⸣-la</l>
             <l n="8">x [...] x KU GAB-GAB-uš-a</l>
             <l n="9">[... na]-an-ba-dim2-⸢me⸣-en</l>
+            <note>double ruling</note>
             <l n="10">[...]-x še-en-ka6 ⸢mu⸣-[du11]-du11!</l>
             <l n="11">[...] ⸢ga⸣-ab-[...]-e-ne</l>
             <l n="12">[...]-a</l>
@@ -73,43 +75,6 @@
             <l n="15">[...] x</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">Her(?) two tongues ...</l>
-        <l n="2'">Your(?) weakness ...</l>
-        <l n="3'">Diluted beer ...</l>
-        <l n="4'">Wheeler-dealer who is always standing around(?), the speech of humanity (for gossip)</l>
-        <l n="5'">Enflaming, setting lies among the young men of the city</l>
-        <l n="6'">The little girl(s) living in the district cannot sleep</l>
-        <l n="7'">You are (really) my opponent?</l>
-        <l n="8">(Producer of) excess words(?), conversationalist/interpreter that is not good</l>
-        <l n="9'">Haughty woman whose lips are worthless, feeling (too) wonderful (about herself?), starting arguments</l>
-        <l n="10'">Shouter, croaker, (one whose) counsel is confused</l>
-        <l n="11'">She has destroyed(!?) ... house/temple, it has not been suitable for the women's quarters</l>
-        <l n="12'">Roaming/loitering (is) her inheritance share</l>
-        <l n="13'">Eating and drinking, seeking the taboo item, her anus is scratched/cracked</l>
-        <l n="14'">How long can she argue?</l>
-        <l n="15'">(Possessing) the eyesight of the old women and the face of a servile laborer</l>
-        <l n="16'">Thick/square-headed, (possessing) thin hair, a scraped/cut head?, a thin head(?)</l>
-        <l n="17'">(Your) spouse (is like) a bat, you have emptied the contents of (his) ear/mind(!?)</l>
-        <l n="18'">&quot;Trapezoid,” “cut/scraped eyes,” “seizing mouth,” scratched/cracked lips</l>
-        <l n="1">You will (really) quarrel with me?</l>
-        <l n="2">Destructive one/evildoer(?) of the land(?), unsuitable one among women</l>
-        <l n="3">(Emitting) sobbing noises/pale, (possessing) a heart pumping pus</l>
-        <l n="4">Black one of Meluhha, weak one (who eats only?) malt flour, idiot, one who is not set/inappropriate for (her) way</l>
-        <l n="5">(Possessor of) long hips, a bloated stomach, a thick neck, and a “broken” chest</l>
-        <l n="6">(Possessor of) an anus that is a “sheaf&quot;(?), a small vagina, extremely long pubic hair</l>
-        <l n="7">A cracked/scratched(?) vagina, who (has) a blocked and afflicted womb(?)</l>
-        <l n="8">...</l>
-        <l n="9">You are one (who says(?)) “do not behave like my ...”</l>
-        <l n="10">Prostitute who acts like a mongoose(?) in the tavern</l>
-        <l n="11">Marrying a spouse (and then) divorcing a spouse, idiot, an “I want to follow” among young women</l>
-        <l n="12">Coming up towards the vagina(?), a birth mother daily</l>
-        <l n="13">A dog with its paw raised ... behind men</l>
-        <l n="14">She does not let the young ... living in the district sleep</l>
       </div>
     </body>
   </text>

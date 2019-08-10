@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0639</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346676</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346676.P346676.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Standing in the street, prowling the street, sitting at the thresholds of men (you have learned the counsel in the houses of men)</l>
+        <l n="2">The wife of the man, the daughter of the man living in the district do not sleep</l>
+        <l n="3">In order to start arguments between neighbors</l>
+        <l n="4">Her ears are open(?), her eyes are planted</l>
+        <l n="5">By means of/after? the “she came&quot;(?), she causes ... to approach ...</l>
+        <l n="6">She places an argument in their midst</l>
+        <l n="7">She hangs what they(!) have not said from ...</l>
+        <l n="8">She causes ... to say something and they drag it about in order to prove it</l>
+        <l n="9">...</l>
+        <l n="1'">My spouse, like her spouse, ...</l>
+        <l n="2'">My son, like her son, I, (un)like her, ...</l>
+        <l n="3'">Have not abused, she behaved as a prostitute towards me, she has divorced (her) spouse</l>
+        <l n="4'">Undertake proper legal action (against her)</l>
+        <l n="5'">Who is she? Ninkuzu, daughter of my(?) lord</l>
+      </div>
+    </body>
+  </text>
+</TEI>

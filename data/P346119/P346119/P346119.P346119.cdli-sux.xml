@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -66,6 +63,7 @@
             <l n="28">[...] x x [...]</l>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]</l>
             <l n="2'">[...] ⸢en⸣-⸢nu⸣-ug3 [...]</l>
             <l n="3'">[...]-guruš-a ⸢me⸣-[en]</l>
@@ -96,67 +94,6 @@
             <l n="28'">im-gid2-da {diš}dam!-qi2!-i3-li2-šu {iti}ab-e3 u4 2(u) 4(diš)-kam</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">After they drank sweet/intoxicating wine</l>
-        <l n="2">After they “made (themselves) sweet” (i.e., getting drunk) with sweet/intoxicating beer</l>
-        <l n="3">They were arguing in the meadows</l>
-        <l n="4">It was at the site of the banquet that they were having a adamin debate</l>
-        <l n="5">Ezina was speaking to lahar</l>
-        <l n="6">Sister, I am your superior, at the front I stand(?) relative to you</l>
-        <l n="7">I am the joy of the shine(?) of the land</l>
-        <l n="8">I give my strength to the sagursag functionary/first of the warriors(?)</l>
-        <l n="9">(So that?) in the palace he casts an aura</l>
-        <l n="10">In the land ... established the name/reputation(?) up to (its) borders</l>
-        <l n="11">I am the greeting gift/bribe of the Anuna gods</l>
-        <l n="12">I am the heart/rage(?) of (mortal) rulers</l>
-        <l n="13">When my strength approaches the hero</l>
-        <l n="14">When he stands in the battle site</l>
-        <l n="15">He has not “known flesh&quot;(!?), he has not “known sinew” (i.e., corporeal injury?)</l>
-        <l n="16">It is as if I go towards(?) “the play of Inanna” for him(?)</l>
-        <l n="17">I(!?) sweeten (male and female) neighborliness</l>
-        <l n="18">I(!?) release quarreling neighbor(s)</l>
-        <l n="19">When I(!?) approach the captive young man</l>
-        <l n="20">When I(!?) allocate/offer his fate</l>
-        <l n="21">He forgets his distress</l>
-        <l n="22">I(!?) undo the manacles and the neck stock</l>
-        <l n="23">I am Ezina-Kusu, the child of Enlil</l>
-        <l n="24">One who is bound to the sheep hut, the milking building, and the plain</l>
-        <l n="25">What of yours can be present (in response)? What is it that which is my speaking(!?)? Answer!</l>
-        <l n="26">When(?) she stood on behalf of/towards(?) her property, before her ...</l>
-        <l n="27">...</l>
-        <l n="28">...</l>
-        <l n="1'">...</l>
-        <l n="2'">The looking over of the organized (weapons, troops?) and the guard is mine(?)</l>
-        <l n="3'">In the field I am the life of the status of laborer</l>
-        <l n="4'">The waterskin of(?) cold water and the sandal are mine</l>
-        <l n="5'">The sweet oil/butter, which is the scent of divinity</l>
-        <l n="6'">The regular provision of ... oil, oil of cedar resin is mine</l>
-        <l n="7'">My suluhu ceremonial garment(?), a garment of white wool</l>
-        <l n="8'">Makes the king rejoice</l>
-        <l n="9'">(The wool from) my back glistens on the bodies of the great gods</l>
-        <l n="10'">The gudug, pašeš, and lustration priests</l>
-        <l n="11'">Because/after they are wearing me(!?) in my pure lustration rites</l>
-        <l n="12'">I am (effectively) stepping in my pure reed hut(?)</l>
-        <l n="13'">(Your) harrow, ploughshare, the binding and the strap (are nothing more than) destroyed tools</l>
-        <l n="14'">What of yours can be present (in response)? What is it that which is my speaking(!?)? Answer!</l>
-        <l n="15'">A 2nd time Ezina was replying to lahar</l>
-        <l n="16'">After one has baked(?) the leavened dough in the oven</l>
-        <l n="17'">After one made/stood upright(?) the cooked malt in the oven</l>
-        <l n="18'">One mixes it for me as (if I was?) Ninkasi</l>
-        <l n="19'">Your big goat bucks and rams</l>
-        <l n="20'">... brings to an end(?) for ... at the site of the banquet</l>
-        <l n="21'">By means of my food? they have stood on thick forelegs</l>
-        <l n="22'">Your shepherd has looked to my food(?) (in) the plain</l>
-        <l n="23'">On my behalf (while) being on the stalk in the field</l>
-        <l n="24'">My farmer chases your(!) herder brandishing a weapon</l>
-        <l n="25'">After you(!) seek out a silent place below</l>
-        <l n="26'">(As for) you, your fear does not depart from you</l>
-        <l n="27'">(Total:) 61 (lines)</l>
-        <l n="28'">&quot;Long-tablet&quot; of Damqi-ilišu, month &quot;Abe,&quot; 24th day.</l>
       </div>
     </body>
   </text>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346240.P346240.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]</l>
             <l n="2'">[...] x x [...]</l>
             <l n="3'">[...] x [...] x x [...]</l>
@@ -51,6 +49,7 @@
             <l n="13'">lu2-⸢tu15⸣ [...] x [...]</l>
             <l n="14'">nig2-HAR-ra eh-eh#?-⸢NE⸣ [...]-⸢zu⸣</l>
             <l n="15'">gaba-ri-gu10-me-⸢en⸣</l>
+            <note>double ruling</note>
             <l n="16'">⸢a⸣-⸢na⸣-aš-⸢am3⸣ ga2 x [...] ⸢nu⸣-me-⸢en⸣</l>
             <l n="17'">lu2-⸢tu15⸣ lul du11-⸢du11⸣ [...]</l>
             <l n="18'">gu4 šab ku5-ku5 [...]-x [...]</l>
@@ -62,6 +61,7 @@
             <l n="24'">kiši-⸢a⸣ ak [...]</l>
             <l n="25'">lil hu-⸢ru⸣-[um ...]</l>
             <l n="26'">a-na-gin7-⸢nam⸣ [...]</l>
+            <note>double ruling</note>
           </div>
           <div n="bottom" type="textpart">
             <l n="1">4(u@v) 9(diš@v)</l>
@@ -76,6 +76,7 @@
             <l n="7">gi-gur nisi-ga-ta zu2 e-da-ra-ah! gi-gur ⸢šu⸣-[...]</l>
             <l n="8">u4 didli {geš}pu2 da-gum-ta igi-zu#? al#?-gu4#?-[...]</l>
             <l n="9">ga-ab-sa10 ganba ⸢lu2⸣-[...]</l>
+            <note>double ruling</note>
             <l n="10">lu2-ni2-su-ub-ba-gin7 igi-⸢zu⸣-[...]</l>
             <l n="11">udun bahar2-ka x-[...]</l>
             <l n="12">gu2-mur7-zu-ta za3 ⸢gu⸣-[du-zu-še3 ...]</l>
@@ -84,57 +85,9 @@
             <l n="15">geme2 lukur-ra al-⸢tur⸣-[...]</l>
             <l n="16">igi-zu šah2-tur-gin7 am3-ur4-ur4-re#?-⸢de3⸣-[...]</l>
             <l n="17">e2 dingir eš3 didli-ka i3#?-du8#? gudug-⸢bi⸣ u3-[sa2 ...] x x x [...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">...</l>
-        <l n="4'">...</l>
-        <l n="5'">Your tongue does not function properly for the Sumerian language</l>
-        <l n="6'">If multiplication (tables) are (i.e., have to be manually) counted(?), you did not (actually) know them</l>
-        <l n="7'">If you (manage to) solve(?) the reciprocals, but the foundation (i.e. basis) is not grasped for you</l>
-        <l n="8'">The problem involving the computation of river silt (volume?)(?) ... is not put in its place for you</l>
-        <l n="9'">The topics/vocabularies(?) of the art of the scribal student</l>
-        <l n="10'">By your hand they are produced(?)</l>
-        <l n="11'">(But) when ... asks after you, (they say(?)) “do not entrust(?) it (your tablet?) (to anyone?)”</l>
-        <l n="12'">(Possessor) of a hand that is not good that is not read aloud in the school (lit. place of the scribal art)</l>
-        <l n="13'">Idiot who attempts(?) to remove(!?) parasites and is dying from hunger</l>
-        <l n="14'">Going along with(?) parasites and ..., debt(?) is your appropriate thing (i.e., debt typifies you?)</l>
-        <l n="15'">You are (really) my opponent?</l>
-        <l n="16'">Why would I not be your opponent?</l>
-        <l n="17'">Idiot, liar (who is like a) rider of a distant land</l>
-        <l n="18'">Ox with crippled hips, lying down in the yoke</l>
-        <l n="19'">Ox that is distressed by means of (its own) mooing(?)</l>
-        <l n="20'">Female laborer (of?) a fisherman(?) spending time near the ban measure (to alter it in her favor?)</l>
-        <l n="21'">Slave(?), idiot lying next to the potter's kiln</l>
-        <l n="22'">Merchant apprentice/purse bearer that exhausts the silver of the merchant</l>
-        <l n="23'">Brewer eating the zidmunu ration</l>
-        <l n="24'">One who has half (his hair shaved), come, ...</l>
-        <l n="25'">Childish fool, driveller/stammerer(?)</l>
-        <l n="26'">How is it that you compare with me?</l>
-        <l n="1">Forty? nine? (entries, total of entire tablet?)</l>
-        <l n="1">Lunatic, idiot, (possessing) the intellect of a monkey</l>
-        <l n="2">Homeless one lying in the street</l>
-        <l n="3">Spreading out residue left from fermentation at the “oven of mankind” (a collective oven?)</l>
-        <l n="4">When you bring out the bowl (filled with) groats up from the oven</l>
-        <l n="5">It shatters to your detriment(?) due to the heat of the bowl(?)</l>
-        <l n="6">Your heel and you Achilles tendon tear away at (your) flesh/skin</l>
-        <l n="7">You gnaw at (food from) the vegetable basket, and steal fish from the fisherman's basket</l>
-        <l n="8">Many days your face/eye jumps/twitches from/by crushing holds(?)</l>
-        <l n="9">Peddlar (who haggles over?) the market price(?), the grain roasters</l>
-        <l n="10">They/we(?) fled from before you like lunatics</l>
-        <l n="11">When you ... at the potter's kiln</l>
-        <l n="12">From your spine to the edge of your anus</l>
-        <l n="13">(Your) verterbrae are filled with “sores” (i.e., ruptured disks and hemorrhoids?)</l>
-        <l n="14">When you(?) drop the basket (containing) the rations of the lukur priestesses</l>
-        <l n="15">(Even) the female laborer of the the lukur priestess are belittled(?)</l>
-        <l n="16">Your face, like a piglet, they are to pluck (bald, in retaliation?)</l>
-        <l n="17">At the temple of the god (and its) various shrines, its gatekeeper and gudug priest roam around for you (as if there was?) a deep sleep before them(?), they stand guard (i.e., are suspicious?) for you</l>
       </div>
     </body>
   </text>

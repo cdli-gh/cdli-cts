@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -37,6 +34,7 @@
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢šu⸣ du11-ga [...]</l>
             <l n="2'">{d}en-lil2-⸢le⸣ [...]</l>
             <l n="3'">{d}utu-gin7 u4 kur-⸢kur⸣-[...]</l>
@@ -53,34 +51,17 @@
             <l n="14'">dumu mah {d}en-ki-⸢ke4⸣</l>
             <l n="15'">gal-zu mas-x</l>
             <l n="16'">[nig2]-⸢zi⸣-gal2 tum2-tum2-[...]</l>
+            <note>broken</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">AN#?-[...]</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">The one wrought by An</l>
-        <l n="2'">The one lifted up by Enlil</l>
-        <l n="3'">Like Utu, the light of the lands</l>
-        <l n="4'">Born on behalf of rulership</l>
-        <l n="5'">Cloaked in the many me</l>
-        <l n="6'">...</l>
-        <l n="7'">On behalf of the extensive(?) people who dwell within the extremities of heaven and earth</l>
-        <l n="8'">The one seen by Enlil</l>
-        <l n="9'">The one paid attention to by Ninlil</l>
-        <l n="10'">The good provider</l>
-        <l n="11'">(Possessed) of stretched-out limbs</l>
-        <l n="12'">Who settles(?) the great many people with the staff and the nose rope</l>
-        <l n="13'">Enlil-bani</l>
-        <l n="14'">Supreme son of Enki</l>
-        <l n="15'">Wise one, leader(!?)</l>
-        <l n="16'">Who brings along living creatures</l>
-        <l n="1'">...</l>
       </div>
     </body>
   </text>

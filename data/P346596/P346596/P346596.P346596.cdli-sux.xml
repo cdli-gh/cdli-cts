@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -64,6 +61,7 @@
             <l n="23">[... nu]-mu-un-duh {tug2}nig2-la2 nu-mu-⸢sed4⸣-e</l>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x [...]</l>
             <l n="2'">[...] x x [...]</l>
             <l n="3'">[...] x x [...]</l>
@@ -80,51 +78,6 @@
             <l n="14'">[...] x x [...] ⸢ga2⸣-x hu-⸢mu⸣-[...]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">When you speak to Ninisina, beloved child of supreme An, great lady</l>
-        <l n="2">Throne-bearer(?) of the place(?) where the sun rises, purifier of Arali(?)</l>
-        <l n="3">Beloved spouse of hero Pabilsag, supreme bride of the Ki'ur complex</l>
-        <l n="4">Supreme land recorder of An and Enlil, who holds her head high among the ladies</l>
-        <l n="5">Suited for the many(?) cosmic powers of the bond of the universe in Nibru</l>
-        <l n="6">(In) the supreme palace, the temple of your queenship, your greatness is manifest</l>
-        <l n="7">The temple of(?) larak(!?), the Enigar... temple, the Esabad temple and the Esa... temple ...(?)</l>
-        <l n="8.a">... physician, her incantation procedure is(?) life, (her) incantations/murmuring ... illness &lt;to my lady, repeat(?)&gt;</l>
-        <l n="8.b">...</l>
-        <l n="8.c">...</l>
-        <l n="9-10">... this is what Sîn-iddinam, the king of Larsa; your servant, says:</l>
-        <l n="11">Since the day I was born, after you have spoken to Utu (on my behalf), he gave me the shepherdship of his land</l>
-        <l n="12">..., I do not sleep well(?) ...</l>
-        <l n="13">When I was to greatly(?) flatter/pray to the great gods</l>
-        <l n="14">My ..., ... apart from(?) the nindaba offering/nigba gift(?), I withheld(?) nothing</l>
-        <l n="15">Asalluhi, king of Babylon, son of Ilurugu ...</l>
-        <l n="16">Daily that city was plotting against my city</l>
-        <l n="17">Its king(?) was continually seeking after larsa malevolently(?)</l>
-        <l n="18">(As if?) I was not the shepherd of the land, the food offerings were not(?) ...</l>
-        <l n="19">The youth, who stood near to me at night (in) a dream</l>
-        <l n="20.a">Stood at (my) head, I became aware of(?) its furious gaze</l>
-        <l n="20.b">...</l>
-        <l n="20.c">...</l>
-        <l n="21">... the one who drove out my aura seized me with illness(?)</l>
-        <l n="22">My illness, which established a darkness (that cannot be) illuminated, no one could see it</l>
-        <l n="23">No doctor could see (diagnose) it, no bandage could not cool it</l>
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">...</l>
-        <l n="4'">Like a small bird fleeing from before a falcon, I fight for my life</l>
-        <l n="5'">I, before the Namtar demon, ...</l>
-        <l n="6'">I, within the power of the Namtar demon, lamenting ...</l>
-        <l n="7'">Have mercy, like a merciful cow</l>
-        <l n="8'">Have mercy, like ...</l>
-        <l n="9'">My ..., have mercy(?)</l>
-        <l n="10'">...</l>
-        <l n="11'">Damu(?) ...</l>
-        <l n="12'">...</l>
-        <l n="13'">...</l>
-        <l n="14'">Asalluhi is the one who shall say “may he live” to me(!?)</l>
       </div>
     </body>
   </text>

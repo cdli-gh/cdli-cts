@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -51,6 +48,7 @@
             <l n="13">[...] ⸢en⸣-te-en he2-gal2 zi ⸢kalam⸣-ma! ša3-ga ⸢ba⸣-⸢ni⸣-in-[...]</l>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...]-tum2#?-[...]</l>
             <l n="2'">[{d}en]-⸢lil2⸣-⸢le⸣-ke4 e2#?-[...]</l>
             <l n="3'">[e2-me]-⸢eš⸣-ra [...]</l>
@@ -59,34 +57,9 @@
             <l n="6'">[...]-⸢ra⸣ ⸢he2⸣-⸢gal2⸣ ⸢a⸣-eštub#{ku6} [...] ⸢zi⸣ ⸢kalam⸣-[...]</l>
             <l n="7'">[...] ⸢zi⸣-⸢de3⸣ ⸢še⸣ ⸢ga2⸣-⸢ga2⸣ [...]</l>
             <l n="8'">[...] ⸢en⸣-⸢te⸣-⸢en⸣-[...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">An raised his head with authority, he brought forth a good day</l>
-        <l n="2">He placed designs within the borders of heaven and earth, and made the people interact with them broadly(?)</l>
-        <l n="3">Enlil took a step upon the earth like a great bull</l>
-        <l n="4">So that the day reared abundance</l>
-        <l n="5">In order that the night made joy manifest</l>
-        <l n="6">In order that flax grows and barley spreads wide</l>
-        <l n="7">In order that the spring carp-flood is established in the harbor</l>
-        <l n="8">In order that the land perpetuates in abundance</l>
-        <l n="9">In order that that Summer “makes a knot” in heaven (blocking rain?)</l>
-        <l n="10">In order that Winter establishes water in the quay in abundance</l>
-        <l n="11">Enlil, the king of the lands, resolved</l>
-        <l n="12">He copulated with the great mountain ranges, he gave an inheritance share to(?) the mountain</l>
-        <l n="13">He poured (the seed of) Summer and Winter (which are) abundance and the life of the land, into the womb</l>
-        <l n="1'">He made (their) necks thicken in the pasture lands of the mountain range</l>
-        <l n="2'">Enlil(!) was determining a destiny for Summer and Winter</l>
-        <l n="3'">For Summer founding cities and settlements</l>
-        <l n="4'">Bringing in the harvest of abundance for Great Mountain Enlil</l>
-        <l n="5'">Sending (personnel) as “task bound” (into) the great meadows, (causing) the ox to establish the field(!?)</l>
-        <l n="6'">For Winter abundance, the carp flood, plenty, the life of the land</l>
-        <l n="7'">Establishing grain in the field, the fertile field(?), the piling up of everything</l>
-        <l n="8'">He was deciding (this) as a destiny (for) both Summer and Winter</l>
       </div>
     </body>
   </text>

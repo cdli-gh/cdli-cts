@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -37,6 +34,7 @@
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] ⸢nu2⸣-a ma-ra-ab#?-[...]</l>
             <l n="2'">[...] ⸢tuš⸣-a du17 ma-ra-ab#?-[...]</l>
             <l n="3'">⸢ku4⸣-ra-ma-ni dumu ki! ag2-a-⸢gu10⸣</l>
@@ -56,6 +54,7 @@
             <l n="17'">⸢ku6⸣-gu10 {d}dumu-zi {lu2}sipa-da he2-da-hul2</l>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢ku6⸣-[gu10 ...]</l>
             <l n="2'">x [...]</l>
             <l n="3'">⸢ku6⸣-gu10 eštub#{ku6#}-gu10 ⸢he2⸣-[...]</l>
@@ -97,6 +96,7 @@
             <l n="17">SU dugud gar3? RU HU x [...]</l>
             <l n="18">ku6-gu10 muš#?[{ku6} ...]</l>
             <l n="19">du5 x x [...]</l>
+            <note>broken</note>
           </div>
           <div n="2" type="textpart">
             <l n="1">sug i7-da-ka gu3 hul-bi de3-de3</l>
@@ -115,83 +115,10 @@
             <l n="14">[ku6]-gu10 u4 zal-zal za-e ⸢ugu⸣-gu10-⸢uš⸣ ga2-nu</l>
             <l n="15">[u4] ⸢zal⸣-zal za-e ugu-gu10-&amp;lt;uš&amp;gt; ga2-nu</l>
             <l n="16">[...] ⸢ga⸣-ša-an {lu2}šu-ku6-da za-ra he2-en-da-hul2</l>
+            <note>space blank</note>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">My fish, so that the one(s) who sleep (there) are not(!?) woken up</l>
-        <l n="2'">So that the one(s) who dwell (there) do not(!?) quarrel</l>
-        <l n="3'">Enter for me, my beloved child</l>
-        <l n="4'">Enter for me, my beautiful child</l>
-        <l n="5'">Like a brackish waterway, do not discover the irrigation ditch(?)</l>
-        <l n="6'">Like river silt, do not learn how to rise (i.e., be excavated(?))</l>
-        <l n="7'">Like flowing water, do not diminish(!?) your recumbency(?)</l>
-        <l n="8'">Do not bring moonlight into the(?) house when you lie down(?)</l>
-        <l n="9'">May you also not be able to go away from(?) me, (set) your face to where I am</l>
-        <l n="10'">May you also not be able to go (away) like a dog sniffing the ground, (set) your face to where I am</l>
-        <l n="11'">May you also not be able to go away like a ... towards your fodder, (set) your face to where I am</l>
-        <l n="12'">In your manner of going like a prostitute towards the tavern</l>
-        <l n="13'">May you not be able to go away from(?) me, (set) your face to where I am</l>
-        <l n="14'">In your manner of entering like a bull into the cattlepen</l>
-        <l n="15'">My fish, may Dilimbabbar rejoice with you</l>
-        <l n="16'">In your manner of entering like a sheep into the sheepfold</l>
-        <l n="17'">My fish, may Dumuzi, the shepherd, rejoice with you</l>
-        <l n="1'">My fish, my ... fish, may it too enter with you</l>
-        <l n="2'">...</l>
-        <l n="3'">My fish, my eštub carp, may it too enter with you</l>
-        <l n="4'">A black boat pole cast into the field</l>
-        <l n="6'">Nursemaid giving birth(?), taking away(?) dough (from) the riverbank</l>
-        <l n="7'">My fish, my gubi eel, may it too enter with you</l>
-        <l n="8'">(Possessing) a spiked tail, a spiked dorsal fin(?), plundering from the u land(?)</l>
-        <l n="9'">My fish, my great ubi fish, may it too enter with you</l>
-        <l n="10'">A fish which within its lips is like a crying child</l>
-        <l n="11'">My fish, my thin? ubi fish, may it too enter with you</l>
-        <l n="12'">(Its) head is a hoe, (its) teeth are a comb</l>
-        <l n="13'">Its skeleton is the top of a conifer tree</l>
-        <l n="14'">Its air bladder(!?) is the waterskin of Dumuzi</l>
-        <l n="15'">Its thin tail is the whip of (i.e., that threatens?) fishermen</l>
-        <l n="16'">(Its) skin is dehaired (i.e., scaled?) and does not need to be worked by hand(?)</l>
-        <l n="17'">My fish, my mur fish, may it too enter with you</l>
-        <l n="18'">The fins (of) that fish turned back roiled water (i.e., it leaves a wake)</l>
-        <l n="19'">My fish, my kin fish, may it too enter with you</l>
-        <l n="1">(Its) head is millstone (with) its pounding stone, (with the) paws and head of a dog(?)</l>
-        <l n="2">Its shoulder is to smite/it is to make its shoulder leap(?), its back(?) is to plant a (mooring) post (i.e., it is difficult to remove from the water?)</l>
-        <l n="3">My fish, my pešgid fish, may it too enter with you</l>
-        <l n="4">The cry of its intestines(?), the base of its neck (are ...?)</l>
-        <l n="5">My fish, my peš fish, may it too enter with you</l>
-        <l n="6">... placing/preparing ..., a fish who has discovered(?) how to escape a “reed fence” (i.e., fish trap?)</l>
-        <l n="7">A fish (to whom?) fighting is taboo(?)</l>
-        <l n="8">My fish, my absuhur carp, may it too enter with you</l>
-        <l n="9">The fish who sets up(?) derision/derides (like a clown?), placing bile in(?) its jaw</l>
-        <l n="10">My fish, my agargara fish, may it too enter with you</l>
-        <l n="11">My child of the merchant, sprinkling(?) dairy products(?)</l>
-        <l n="12">My fish, my kamar fish, may it too enter with you</l>
-        <l n="13">The child of the Martu nomads, ... by(?) back/from the outside(?)</l>
-        <l n="14">My fish, my nunbarhuš fish, may it too enter with you</l>
-        <l n="15">A fish that does not eat edible plants(?), ... water ...</l>
-        <l n="16">My fish, my azaggur fish, may it too enter with you</l>
-        <l n="17">(Possessing) heavy skin(?), ...</l>
-        <l n="18">My fish, my “snake” fish(?) ...</l>
-        <l n="19">...</l>
-        <l n="1">The one shouting(?) malevolently in the marshes of the river</l>
-        <l n="2">My fish, my akanni bird would bind you to (its) claws</l>
-        <l n="3">When(?) the sabar net is stretched out in the water(?), prowling around(?) the sapar net</l>
-        <l n="4">My fish, my uburri bird would bind you to (its) claws</l>
-        <l n="5">(Possessing) feet that raise, laughing</l>
-        <l n="6">Darting from the shallows</l>
-        <l n="7">My fish, my kišibar bird would bind you to (its) claws</l>
-        <l n="8">Not adorning ...</l>
-        <l n="9">... of a bird, ... of a fish</l>
-        <l n="10">My fish, my kib bird would bind you to (its) claws</l>
-        <l n="11">A quadruped that dives and dwells in/passes through(?) the marshes</l>
-        <l n="12">My fish, my kuda animal (otter?) would bind you to (its) paw</l>
-        <l n="13">They(?) will not bind you to (their) claws/front paws, they will not bind you to (their) claws/rear paws</l>
-        <l n="14">My fish, time elapses, come before me</l>
-        <l n="15">Time elapses, come before me</l>
-        <l n="16">May Nanše?, the lady of the fisherman, rejoice for you</l>
       </div>
     </body>
   </text>

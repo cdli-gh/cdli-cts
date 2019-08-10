@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000364, ex. 050</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346144</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346144.P346144.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Did you see the man who struck (and dislodged(?)) the mast/mooring pole/loom peg(!?)? How is he (found) there?</l>
+        <l n="2">(He says?) “Now, someone should say to my mother(?) “his torn out (dislocated) rib (i.e., boat planking)(!?) (let the) water (pour in?)”</l>
+        <l n="3">The (supporting) beam(!?) (crumbling) like breads crumbs, destroyed him(!?) with water(!?)</l>
+        <l n="4">Did you see the man who had fallen from the roof(!?) How is he (found) there?</l>
+        <l n="5">He ... like an ox, eaten by parasites</l>
+        <l n="6">...</l>
+        <l n="7">Did you see the man who was overtaken by(?) the curse(?) of his mother and father? How is he (found) there?</l>
+        <l n="8">(His) heir has absconded from him, his ghost(?) roams around</l>
+        <l n="9">...</l>
+        <l n="10">Did you see the man who was (intent to) not respect the command of his mother and father? How is he (found) there?</l>
+        <l n="11">...</l>
+        <l n="1'">His food is set aside, his water is set aside</l>
+        <l n="2'">...</l>
+        <l n="3'">He is eating ... food, he is drinking ... water</l>
+        <l n="4'">Did you see the man who fell in battle(?)? How is he (found) there?</l>
+        <l n="5'">There(?) his (father and?) mother do not grasp(?) (his?) head, his wife weeps</l>
+        <l n="6'">...</l>
+        <l n="7'">Did you see (the man) whose corpse lies(!) in the plain ...? How is he (found) there?</l>
+        <l n="8'">... apart from(?) ...</l>
+        <l n="9'">...</l>
+        <l n="10'">Did you see the ghost that does not have someone (to provide) funerary offerings (for him)? I saw him. How is he treated?</l>
+        <l n="11'">..., he eats his bread crumbs that have fallen (into) the street</l>
+        <l n="12'">...</l>
+        <l n="13'">&lt;Did you see&gt;(?) the tiny stillborn babies, who do not know their own names? How are they (found) there?</l>
+        <l n="14'">They play in a trough/bucket of gold and silver (filled with) honey and ghee</l>
+        <l n="15'">Did you see the man who was set on fire(?)? I looked around for him and did not see him</l>
+      </div>
+    </body>
+  </text>
+</TEI>

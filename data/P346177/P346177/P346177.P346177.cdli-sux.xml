@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -53,26 +50,6 @@
             <l n="15">x {d}utu?</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Lord, bull(?) ...</l>
-        <l n="2">Great prince that stands (within?) the firmament like holy Uraš(?) ...</l>
-        <l n="3">Youth Utu, spread out ..., (in) the lands ... the teeming and vast(ly populated) people</l>
-        <l n="4">Great and mighty(?) hero, (from the) of the Anuna gods, no god can advance against his cosmic powers</l>
-        <l n="5">Wise one who pays attention to(?) everything, (whose) justice(?) is without rival(?)</l>
-        <l n="6">The hero, the youth Utu, (the one whose) utterance is weighty and word is true, his divinity is without rival</l>
-        <l n="7">The sunlight(?), the mighty(?) and great god(?) of the gods, (whose) supreme dwelling is a pure place</l>
-        <l n="8">In order to restore the people of the lands (to) their place and to give life to its king</l>
-        <l n="9">He has faithfully planned with a pure heart to greatly ... the plans and rites of the gods</l>
-        <l n="10">... Enlil planted this true hero/mes tree(?) as an offshoot(?)</l>
-        <l n="11">On behalf of(?) my Rīm-Sîn, who suckled milk at the teat of the great wild cow (for!? his) rulership</l>
-        <l n="12">He faithfully looked(?) with his raised eye at (remote) larsa, the mountain of šuba stones(?)</l>
-        <l n="13">Shepherd who rejoices in his heart due to the black-headed people(?) and faithfully greets(?) ...</l>
-        <l n="14">May he look towards him with his shining forehead(?)</l>
-        <l n="15">... of Utu(?)</l>
       </div>
     </body>
   </text>

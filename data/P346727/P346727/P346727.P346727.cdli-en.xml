@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0690</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346727</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346727.P346727.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">... you(pl.) are to ... you(pl.)(?)</l>
+        <l n="3'">May(?) ... kill us? ... and not sustain us(?)</l>
+        <l n="4'">... they did not return/kill(?) ...</l>
+        <l n="5'">... they did not return/kill(?) ...</l>
+        <l n="6'">...</l>
+        <l n="1">... does not rejoice(?)</l>
+        <l n="2">[May(?) ... kill us?] ... and not sustain us(?)</l>
+        <l n="3">... does not have ... in the cattle pen</l>
+        <l n="4">... does not have ... in the sheepfold</l>
+        <l n="5">... did not ... a standing place(?) and will not ...</l>
+        <l n="6">... the morning meal that is to be worked on(?) ... did not bring(?) ... towards ...</l>
+        <l n="7">... did not bring(?) ... into ...</l>
+        <l n="8">... is not cooled</l>
+        <l n="9">May(?) ... kill us, ... and not sustain us(?)</l>
+        <l n="10">... his(?) ... do not dwell/are not seized(?)</l>
+        <l n="11">... you(pl.) are to ... you(pl.)(?)</l>
+        <l n="12">... they are ...</l>
+        <l n="13">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

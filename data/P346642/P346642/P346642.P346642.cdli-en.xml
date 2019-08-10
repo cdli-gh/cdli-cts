@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000751, ex. 070</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346642</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346642.P346642.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">Who has seen anything as surpassing as its lady Nintur?</l>
+        <l n="2'">It is the first house(?)</l>
+        <l n="3'">The good temple built in a good place</l>
+        <l n="4'">The temple of Keš, the good temple built in a good place</l>
+        <l n="5'">Floating like a noble barge in heaven</l>
+        <l n="6'">Casting ... like a holy barge</l>
+        <l n="7'">Like the boat of An, (it is) the sacred space/face(?) of the lands</l>
+        <l n="8'">Waddling away from the shore like the junior/wild u bird</l>
+        <l n="9'">Temple roaring like a bull, bellowing like a bull calf</l>
+        <l n="10'">Temple, from its midst is the heart of the land</l>
+        <l n="11'">From behind it is the life of Sumer</l>
+        <l n="12'">Temple, great oval touching heaven</l>
+        <l n="13'">Great Ezida shrine touching heaven</l>
+      </div>
+    </body>
+  </text>
+</TEI>

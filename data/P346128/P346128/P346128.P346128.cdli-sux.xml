@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346128.P346128.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢a⸣-⸢gar3⸣-⸢a⸣-⸢gar3⸣-ra#? [...]</l>
             <l n="2'">geš-gi-⸢geš⸣-[...]</l>
             <l n="3'">ix(|A.SUG|#) ⸢u3⸣-mu-ku5 [...]</l>
@@ -45,6 +43,7 @@
             <l n="7'">[... ⸢{tu15}]mir⸣-e nu-mu-un-si-il-si-il-le</l>
             <l n="8'">[...] nunuz#!? ib2-de5-⸢de5⸣-⸢ge⸣</l>
             <l n="9'">[...]-de3#? ⸢ku6⸣ mi-[...]</l>
+            <note>lines broken</note>
             <l n="10'">ug3#?-[...] x [...]</l>
             <l n="11'">⸢ne⸣-⸢eš2⸣ [...]</l>
             <l n="12'">a-gar3-⸢ta⸣ ⸢a⸣ [...]</l>
@@ -82,6 +81,7 @@
             <l n="16">geš-dal-ta kur#?-ra#? um-ta-ke3-e#?-[...]</l>
             <l n="17">⸢i⸣-bi2-gu10 ⸢e2⸣-[...] ⸢mu⸣-⸢ni⸣-⸢ib2⸣-sig7-⸢sig7⸣-[...]</l>
             <l n="18">⸢{geš#}ninda2⸣-[...]</l>
+            <note>lines broken</note>
             <l n="19'">[... ⸢{geš}]al⸣-me-en iri#?-[...] ⸢ga⸣-⸢an⸣-da-[...]</l>
             <l n="20'">[e2]-⸢tur3⸣ [...]-da-me-en amaš#? dagal-la-me-en</l>
             <l n="21'">ARAD lugal-a-ni ⸢us2⸣-sa-me-en</l>
@@ -90,65 +90,9 @@
             <l n="24'">uš8 ki i3-ga2-ga2-an e2 ⸢i3⸣-[...]</l>
             <l n="25'">e2-gar8 sumun-e ⸢ur2⸣-bi [...]</l>
             <l n="26'">[...] x x [...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">I fill the meadows with water</l>
-        <l n="2'">When the reedbed is irrigated/flooded,</l>
-        <l n="3'">When a canal is cut (open), when the ditch is cut (open), when water as a great flooding river imposes water(?)</l>
-        <l n="4'">The carrying basket, my little one, is put down with me (to work)/does not bend down with you</l>
-        <l n="5'">When, in(?) the marsh, an edge is made(?)</l>
-        <l n="6'">I, the hoe, serve comprehensively (in these situations)(?)</l>
-        <l n="7'">(Neither) the southern (nor) the northern wind tear apart (my work) there(?)</l>
-        <l n="8'">The fowler gathers eggs</l>
-        <l n="9'">The fisherman catches fish</l>
-        <l n="10'">The people have taken the bird (hoop) traps (that have sprung?)</l>
-        <l n="11'">Now, my abundance sprinkles with its hands in the lands</l>
-        <l n="12'">After the water has been cut off from the meadow</l>
-        <l n="13'">After the water has been set down/materializes for(?) working the damp ground</l>
-        <l n="14'">Plow, before you I emerge in the field</l>
-        <l n="15'">For you I loosen the “set aside” field</l>
-        <l n="16'">In the “hideout&quot;(?) of the dike I cut (away the weeds) for you</l>
-        <l n="17'">I remove(?) the ukul weed in the field</l>
-        <l n="18'">I collect the dead/old reeds(?) and the roots for you in the field</l>
-        <l n="19'">The field working (crew)(?) set in the path(?) for you</l>
-        <l n="20'">Six oxen, four men, and you are the 11th</l>
-        <l n="21'">The “labor of my preparation (as a tool?)&quot;(?) takes away ...</l>
-        <l n="22'">When you go out in the field apart from(?) me</l>
-        <l n="23'">One cannot look favorably upon your furrow which is alone</l>
-        <l n="24'">When you lodge your head (in the ground) working</l>
-        <l n="25'">You are bound to(?) ... roots and thorns</l>
-        <l n="26'">When you break your ploughshare and re-create(?) your ploughshare, your ploughshare does not(?) ... at your disposal(?)</l>
-        <l n="1">Your farmer names you “this(?) plow is finished”</l>
-        <l n="2">Again, a carpenter is hired for you, a leatherworker is hired(?) for you</l>
-        <l n="3">The house of the artisans scurry around ...(?) for you</l>
-        <l n="4">I(!?), the feltworker, “cut” the teasel brush(?) for you</l>
-        <l n="5">He brings up a twisting picket(?) for you</l>
-        <l n="6">And therefore(?) he is to “exhaust” the braiding lever for you</l>
-        <l n="7">A piece of leather not cut into strips(?) is made to sit(?) towards your head</l>
-        <l n="8">Your “raising/carrying” is small, but your “way” is supreme</l>
-        <l n="9">The day of the new year is (i.e., begins a period of) twelve months</l>
-        <l n="10">(But) your service time is four months (per year)</l>
-        <l n="11">Your fugitive (i.e., absentee) time is eight months (per year)</l>
-        <l n="12">As many as your served (time), it is two (times) you go (elsewhere)</l>
-        <l n="13">On your raft/freight boat(?) you pile up(?) a cabin</l>
-        <l n="14">When you set yourself(!?) in place there(?), and you remove/accept(?) the beams(?)</l>
-        <l n="15">When you remove your face/front from the water(?) like a vessel of wine(!?)</l>
-        <l n="16">When I(?) prepare a pile (lit. “mountain&quot;) by means of the beams(?)</l>
-        <l n="17">My smoke makes ... green(?) in the house</l>
-        <l n="18">Your seed funnel, where is it cast?</l>
-        <l n="19'">I am the hoe, I shall ... along with ... in the city</l>
-        <l n="20'">I am one who has extended the cattlepen, I am one who has broadened the sheepfold</l>
-        <l n="21'">I am a servant who has followed his master</l>
-        <l n="22'">I am one who always built/rennovated the house of his master</l>
-        <l n="23'">I stir clay, I spread (it out to make) bricks</l>
-        <l n="24'">I lay foundations, I build houses</l>
-        <l n="25'">I follow the foundation of an old wall</l>
-        <l n="26'">...</l>
       </div>
     </body>
   </text>

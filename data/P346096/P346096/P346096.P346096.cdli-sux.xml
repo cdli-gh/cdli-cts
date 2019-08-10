@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -113,84 +110,6 @@
             <l n="34">šeš-gu10 ag2-gig-ga me?-še3? ga-⸢DU⸣ e2 na-me ga-an-ku4#?</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">The junior galla demon opened his mouth and was speaking to the eldest galla demon</l>
-        <l n="2">Come! let us go to the holy lap of Inanna</l>
-        <l n="3">The galla demons entered Unug and were seizing(?) Inanna there</l>
-        <l n="4">Come, Inanna! Go ... towards your path, descend to the netherworld</l>
-        <l n="5">Go to the place you have plotted against(?), descend to the netherworld</l>
-        <l n="6">Go to the place of Ereškigal, descend to the netherworld</l>
-        <l n="7">You should not wear the holy ba garment or the pala garment, the garments of your queenship, go to the netherworld</l>
-        <l n="8">After you remove the holy crown, the ornament of glorification, upon your head, in order to descend to the netherworld</l>
-        <l n="9">You (should) not equip/perfect your face(?) with allure</l>
-        <l n="10">You should unfasten(?) the small(?) uridim dogs(?) at/from your feet, descend to the netherworld</l>
-        <l n="11">... you go down, ... does not ...</l>
-        <l n="12">They released holy Inanna, they ... her</l>
-        <l n="13">Inanna herself handed over Dumuzi</l>
-        <l n="14">As for the youth, we will put his feet in the great &lt;beam(?)&gt;</l>
-        <l n="15">As for the youth, we will cast the esad trap/restraint (upon him), we will place neck in the neckstock</l>
-        <l n="16">The ubri spear, kibir weapon(?) and the great šukur spear were raised before him</l>
-        <l n="17">They were sharpening large hazin axes</l>
-        <l n="18">As for the male, they were (about) to stand, they were to sit(?)</l>
-        <l n="19">We will cast a rope upon his shoulder: position the executioner!</l>
-        <l n="20">As for the youth, they were to bind his arm, and then tighten it up(?)</l>
-        <l n="21">They were to cover his own face with his own garment</l>
-        <l n="22">The youth raised his hands heavenwards for Utu</l>
-        <l n="23">Utu, I am your comrade, like you(?) I am a youth</l>
-        <l n="24">The one who married your sister</l>
-        <l n="25">She descends to the netherworld</l>
-        <l n="26">Because she descends to the netherworld</l>
-        <l n="27">I, as a substitute, am to be given to the netherworld</l>
-        <l n="28">Utu, you are the judge of justice, you are never to oppress (anyone)</l>
-        <l n="29">After you have altered my hands and changed my form</l>
-        <l n="30">I shall elude the hand of my (pursuing) galla demons, they must not grasp (me)</l>
-        <l n="31">As a sagkal snake, I(!) shall traverse the meadows and(?) the mountain range</l>
-        <l n="32">I shall take refuge with (my) sister Gštinanna</l>
-        <l n="33">Utu accepted his weeping</l>
-        <l n="34">He altered his hands and changed his form</l>
-        <l n="35">As a sagkal snake, he traversed the meadows and(?) the mountain range</l>
-        <l n="36">Dumuzi, like a bird flying (from) the claws of a falcon, guarded for his very life</l>
-        <l n="37">He took refuge with Geštinanna</l>
-        <l n="38">geštinanna saw her brother</l>
-        <l n="1">She scratched her cheeks, she scratched her nose</l>
-        <l n="2">She unleashed a spear/thorn(?) in her side, she split apart(?) her garment</l>
-        <l n="3">She was intoning a lament of anathema for the youth (afflicted by) anathema</l>
-        <l n="4">Alas, my brother, alas, my brother, the days of the youth do not ...</l>
-        <l n="5">Alas, my brother, the shepherd Ama'ušumgalana, the days of the youth do not ...</l>
-        <l n="6">Alas, my brother, the youth who does not have a spouse, who does not have a son</l>
-        <l n="7">Alas, my brother, the youth who does not have a comrade, who does not have a friend</l>
-        <l n="8">Alas, my brother, the youth whose mother “did not release her good(ness)&quot;(?)</l>
-        <l n="9">The galla demons were seeking out Dumuzi, they were roaming around</l>
-        <l n="10">The junior galla demons were speaking to the eldest demons</l>
-        <l n="11">They were galla demons without compassion, who did not have a father, mother, spouse, brother, sister, or son</l>
-        <l n="12">... removed from(?) ..., the one set apart from the universe</l>
-        <l n="13">You are gala demons(!?), those who are to be reglected ... (!?)</l>
-        <l n="14">They did not have the power of goodness(?), they did not know good and evil</l>
-        <l n="15">Who has seen someone with a healthy life without a home and all alone?</l>
-        <l n="16">I(?) will not go to where the friend is, I will not go to where the in-law is</l>
-        <l n="17">We shall go for the shepherd where {geš}tinanna is</l>
-        <l n="18">They were the galla demons who were to smite him(!) by hand(?), they were seeking him</l>
-        <l n="19">The lament was not yet finished in her mouth</l>
-        <l n="20">(When) the galla demons came to where {geš}tinanna was</l>
-        <l n="21">&quot;(One of them(?)) was saying “Show where your brother is,” but she was saying not a word to him</l>
-        <l n="22">He made her shave(!?) her own hair in her crotch, but she was not saying a word to him</l>
-        <l n="23">He made her scratch her face(?) with her own hands(!?), but she was not saying a word to him</l>
-        <l n="24">He made her own hands(?) shred her garment, but she was not saying a word to him</l>
-        <l n="25">He poured dirt/sand(?) in her crotch, but she was not saying a word to him</l>
-        <l n="26">He did not find Dumuzi in the house of Geštinanna</l>
-        <l n="27">The junior galla demons were speaking to the eldest demons</l>
-        <l n="28">Come! let us go to the pure sheepfold</l>
-        <l n="29">Dumuzi ... the sheepfold ... they were casting/ducking down ...</l>
-        <l n="30.a">They were searching, they were ...,</l>
-        <l n="30.b">they were seeking, he was seen</l>
-        <l n="31">(Saying) “I shall take the ax to the youth like a dilapidated house”</l>
-        <l n="32">They carved him(?) with giri'ura knife, they smote him in a silent place</l>
-        <l n="33">The sister roamed around in the city like a bird(?)</l>
-        <l n="34">My brother (who suffered) this anathema! Where shall I go?(?) I shall enter no one's house(?)</l>
       </div>
     </body>
   </text>

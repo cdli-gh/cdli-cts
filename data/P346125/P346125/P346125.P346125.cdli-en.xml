@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000764, ex. 007</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346125</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346125.P346125.cdli-en" type="translation" xml:lang="en">
+        <l n="1">No one holds/catches your eating (i.e., food?) properly with reed(?), a cord(?), or a caulked (container)(?)</l>
+        <l n="2">Your plunderer does not touch his hand to his skin</l>
+        <l n="3">In the great swamp, in the broad marsh, I am your ranger</l>
+        <l n="4">One cannot eat (its) good food because of me(?), my voice(?) approaches there(?)</l>
+        <l n="5">One cannot move(?) in the river/canal confidently(?), my “south wind&quot;(?) covers completely</l>
+        <l n="6">From before me they are diving into the reed-bed and marsh(?)</l>
+        <l n="7">From among your little ones, you (might as well) pile up for me as a regular offering, for my sustenance ...</l>
+        <l n="8">Your large ones are indeed the “solution&quot;(?) of the site of a banquet</l>
+        <l n="9">I am the beautiful and knowledgable bird</l>
+        <l n="10">Beautiful work (occurred) on behalf of my adornment</l>
+        <l n="11">But there is no one who has prepared the working of your pure wax/mold(?)</l>
+        <l n="12">In the palace of the king, I am the ornament of movement</l>
+        <l n="13">In the courtyard(?) my noise is a fitting thing, one established (it as such!?)/set it apart(!?)</l>
+        <l n="14">My cry is “that of a sweet thing&quot;(?)</l>
+        <l n="15">On the body of Shulgi(?) it is a fitting thing, one established(?) (it as such!?)/set it apart(!?)</l>
+        <l n="16">Fruits of the orchard (are for) my many regular offerings</l>
+        <l n="17">babaza porridge, malt(?), hulled grain(?), and emmer(?) flour(?) (are for) my things/food that sweetens the mouth</l>
+        <l n="18">Thus(?) (you?) do not know my greatness! Bow (your) neck to the ground!</l>
+        <l n="19">At that time, the bird insulted the fish</l>
+        <l n="20">The fish, possessed of anger, trusting in the heroic might of the deep water(?)</l>
+        <l n="21">Like a heavy rain cloud it touched the ground, it stood in an adamin contest</l>
+        <l n="22">Whatever insults the bird had struck it with, it did not ponder</l>
+        <l n="23">It was able to(?) set its neck on the ground (sarcastically?), it was speaking freely/humbly(?)</l>
+        <l n="24">For the 2nd time the fish replied to the bird</l>
+        <l n="25">Bird, (you) do not know my greatness, (you) did not tread behind me, (you are one who) has not inquired after me</l>
+        <l n="26">You cannot know (either) my weakness(?) or my strength, (you) have spoken an inflammatory(?) word</l>
+        <l n="27">(Possessor of) trimmed limbs, crippled(?) feet, a ... mouth/beak, and a thinned out/flattened(?) tongue</l>
+        <l n="28">By means of ignorance you have been able to sneer/shout/chew(?), (but) you have not advised yourself</l>
+        <l n="29">I, the fish, am the one who piles up(?) the abundance of the pure shrine/sea(?) together</l>
+        <l n="30">I am the one who brings/goes/stands among(?) the great nindaba offerings of the Ekur proudly</l>
+        <l n="1">Like (the grain goddess) Ezina (I) am here for the sustenance of the land, I am her helper</l>
+        <l n="2">The harvest(?) rejoices with me as if (it was) a festival, my inquirer is there(?)</l>
+        <l n="3">Bird, what is your great thing that (you) accomplished? I will make you known your (over) exuberance</l>
+        <l n="4">I want to return (back into) your mind(?) your arrogance and mendacious speech</l>
+        <l n="5">At that time the fish was to make plans against the bird</l>
+        <l n="6">Silently and deceptively(?) it went on its “arms”</l>
+        <l n="7">When the bird got up from its nest in order to bring (back) food for its chick</l>
+        <l n="8">The fish sought the place silently</l>
+        <l n="9">It struck (the bird's) established nest, its prepared plants, (making it?) a windswept shrine</l>
+        <l n="10">It destroyed its built house, it tore out(?) its storeroom</l>
+        <l n="11">It killed its eggs and its nest with water(?), it covered them in the sea</l>
+        <l n="12">For a 2nd time the fish insulted the bird</l>
+        <l n="13">At that time the bird, with the face of a pirig creature and the claws of a hurin bird</l>
+        <l n="14">It was beating(!?) its wings towards its nest, (but) its flight (path) was blocked(?)</l>
+        <l n="15">(With) its mouth(?) it was screaming in the midst of heaven like the nugig midwife (of heaven, i.e., Inanna)</l>
+        <l n="16">At that time the bird, which was looking (carefully), (its) limbs were spread out(?)</l>
+        <l n="17">(Like) a stormwind that is to shake(?) to the midst of heaven, it roamed(?) in heaven</l>
+        <l n="18">The bird was searching the fish in the deep water, it sought it in the marshes</l>
+        <l n="19">The bird saw the fish in the deep water and planned against it</l>
+        <l n="20">It seized it, (it tried to) flee in the water (but) (the bird) held it with its claws</l>
+        <l n="21">It heaped up its little spawn(?) together, it heaped them in the manner of sheaves</l>
+        <l n="22">The bird took out revenge, (but) its heart was not cooling</l>
+        <l n="23">For a 2nd time the bird was replying to the fish</l>
+        <l n="24">&quot;Clever” one(?), inferior one, deaf one, with muddled plans, fish, (you) should not come out(?)</l>
+        <l n="25">Roaming the harbor(!?), its mouth(?) not eating, “a storm blowing away(?)” fodder</l>
+        <l n="26">Pig, rogue, eating its own excrement, ...</l>
+        <l n="27">Guard who dwells in a bound-up house, slithering by itself</l>
+        <l n="28">The fish burned ... for me like fire, it sought the place silently(!?)</l>
+        <l n="29">Out of ignorance it got angry, it spattered(?) (its) hands in blood(?)</l>
+        <l n="30">In making itself feel wonderful it has destroyed itself</l>
+        <l n="1">I am the one who flies in heaven, I am the one who goes about on earth</l>
+        <l n="2">(Wherever) I am going, whatever is its name, I am the happiness that is present on behalf of ...(?)</l>
+        <l n="1">Month of baragzaggar, day ...</l>
+        <l n="1">(Total) 62 lines</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000343, ex. 033</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346094</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346094.P346094.cdli-en" type="translation" xml:lang="en">
+        <l n="1">As Inanna was entering the5th gate</l>
+        <l n="2">The man removed the toggle pin/pectoral (that says) “Come, man, come!”</l>
+        <l n="3">What? How?</l>
+        <l n="4">Be satisfied, Inanna! This is the rite of the netherworld that is being completed</l>
+        <l n="5">Inanna! This is the procedure of the netherworld, you should not speak aloud (to anyone to interrupt it)</l>
+        <l n="6">As Inanna was entering the 6th gate</l>
+        <l n="7">The man removed the allure(?) from upon her forehead</l>
+        <l n="8">What? How?</l>
+        <l n="9">Be satisfied, Inanna! This is the rite of the netherworld that is being completed</l>
+        <l n="10">Inanna! This is the procedure of the netherworld, you should not speak aloud (to interrupt it)</l>
+        <l n="11">As Inanna was entering the 7th gate</l>
+        <l n="12">The man removed the pala garment, the garment of queenship</l>
+        <l n="13">What? How?</l>
+        <l n="14">Be satisfied, Inanna! This is the rite of the netherworld that is being completed</l>
+        <l n="15">Inanna! This is the procedure of the netherworld, you should not speak aloud (to interrupt it)</l>
+        <l n="16">When she bent over, upon the shoulder(?) ...</l>
+        <l n="17">When she split apart(?), the man brought ... away</l>
+        <l n="18">He sister raised her up from her throne</l>
+        <l n="19">She sat upon the throne of her sister</l>
+        <l n="1">The seven judges of the Anuna were judging her</l>
+        <l n="2">The one who brought out .../appeared in ... was speaking a bitter word(?)</l>
+        <l n="3">They(?) shouted at her, it was a(n accusatory) cry of wrongdoing</l>
+        <l n="4">The man(?) ... her from ... as something ... hung(!?) like ...</l>
+        <l n="5">After seven months had passed</l>
+        <l n="6.a">Her vizier Ninšubur</l>
+        <l n="6.b">paid attention to the word of the lady</l>
+        <l n="7">She made “the lament of ruin heaps” for her(?)</l>
+        <l n="8">She played(?) the šem drum of the assembly/throne room for her</l>
+        <l n="9">She circled(?) the temples of the gods for her</l>
+        <l n="10">She scratched her face, she scratched her nose</l>
+        <l n="11">The place unseen (when) with a man, she scratched her (inner) thigh</l>
+      </div>
+    </body>
+  </text>
+</TEI>

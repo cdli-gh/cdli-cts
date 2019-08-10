@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,10 +33,13 @@
       <div n="urn:cts:cdli:P346598.P346598.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x-MU</l>
             <l n="2'">[...] x</l>
+            <note>lines broken</note>
             <l n="3'">[...]-bar?</l>
             <l n="4'">[...]-kin2#?</l>
+            <note>double ruling</note>
           </div>
           <div n="reverse" type="textpart">
             <l n="1">[...] x e3#? [...] ⸢a⸣ x [...]</l>
@@ -57,31 +57,9 @@
             <l n="13">[...] x-la-gu10 x-bi in-ne-la2</l>
             <l n="14">[...] x-am3 ur-dun šu in-⸢ne⸣-zi-zi-x</l>
             <l n="15">[...] x x [...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="3'">...</l>
-        <l n="4'">...</l>
-        <l n="1">...</l>
-        <l n="2">... going up from the great horizon(?) to (its) zenith</l>
-        <l n="3">... the servant of the house of my king/master ...</l>
-        <l n="4">Regarding the matter of Urdun the merchant that my king answered/dispatched to me</l>
-        <l n="5">Urdun as your servant is given orders(?) (as) my king knows</l>
-        <l n="6">... Urdun by means of not being good ... his ... propagated lies(?)</l>
-        <l n="7">If my king asks after my well being, if he ... that of his heart/mind for me</l>
-        <l n="8">My ... thus spoke to you deceitfully (not) once (but) twice, my king knows (this)</l>
-        <l n="9">... Urdun the merchant thus chatted on (about?):</l>
-        <l n="10">..., nirbabbardili stone, chlorite(?), lapis lazuli, carnelian, their outsides equalled (i.e., made proportional, by cutting?)</l>
-        <l n="11">... are heaped up(?)</l>
-        <l n="12">From/by means of ..., a strand of glowing(?) alabaster (beads), ... very good(?) ...,</l>
-        <l n="13">... of my ...(?) is bound/diminished for them(?)</l>
-        <l n="14">... Urdun “raised his hand for them”</l>
-        <l n="15">...</l>
       </div>
     </body>
   </text>

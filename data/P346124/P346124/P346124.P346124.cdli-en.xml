@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000764, ex. 005</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346124</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346124.P346124.cdli-en" type="translation" xml:lang="en">
+        <l n="1">In the furrow(!?), the members of the ranks of farmers should not (cease?) ... a net(?) for you</l>
+        <l n="2">The gardener should not (cease!?) setting up a net towards(?) the irrigated orchard for you</l>
+        <l n="3">His arm is not set apart (to rest) from(?) the sling, he does not bend his knee (to sit) because of you</l>
+        <l n="4">(You are) one who is destroying things/food in the garden, (you are) one who cannot sweeten the flesh (of the land?)</l>
+        <l n="5">Your feet are not good (for) fields that have wet patches</l>
+        <l n="6">Bird, shameless one who sprinkle feces in the courtyard</l>
+        <l n="7">The young sweeper who is sweeping in the temple is braiding(?) a rope there (for you)</l>
+        <l n="8">The palace(?) is confused by your scream, ...</l>
+        <l n="9">(They) bring one (of your kind) into the fattener's shed</l>
+        <l n="10">They make one (of your kind) babble like livestock</l>
+        <l n="12">You can then be accepted(?) as a regular offering</l>
+        <l n="13">The fowler delivers one (of your kind) with bound wings</l>
+        <l n="14">They(?) ... your wings/feathers(?) and face/eyes</l>
+        <l n="15">Your shouting has no limit, what (worth) is your flying?</l>
+        <l n="16">You frighten the night, one does not sleep well</l>
+        <l n="17">Bird, leave the marsh, (remove) your scream from above me</l>
+        <l n="18">Bring out a pit in the sand dunes(?), thus(?) is your appropriate (role)</l>
+        <l n="19">At that time the fish insulted the bird</l>
+        <l n="20">Because of it beauty, the bird knew about (its) multicolored back and multicolored face</l>
+        <l n="21">Whatever insults fish had assailed it with, (it did not ponder them)</l>
+        <l n="22">It was as if a nursemaid sang a lullaby</l>
+        <l n="23">It was not devoting itself to words(?), laughing malevolently (instead)(?)</l>
+        <l n="24">At that time, the birds was replying to the fish</l>
+        <l n="25">Thus your heart, produces exuberance(?), you are (actually) humiliating yourself</l>
+        <l n="26">Your mouth is a hole(?) which ... surrounded with teeth(?), (you cannot) see before yourself(?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

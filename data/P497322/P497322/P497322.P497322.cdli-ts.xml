@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary Descent of Ishtar (composite)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P497322</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P497322.P497322.cdli-ts" type="translation" xml:lang="ts">
+        <l n="1">ana kurnugi’a qaqqari ereškigal</l>
+        <l n="2">ištar mārat sîn uzunša iškun</l>
+        <l n="3">iškumma mārat sîn uzunša</l>
+        <l n="4">ana bīt eṭê šubat irkalla</l>
+        <l n="5">ana bīti ša ēribūšu lā āṣû</l>
+        <l n="6">ana ḫarrāni ša alaktaša lā tayyārat</l>
+        <l n="7">ana bīti ša ēribūšu zummû nūra</l>
+        <l n="8">ašar eprū bubūssunu akalšunu ṭīṭṭu</l>
+        <l n="9">nūru ul immarū ina eṭûṭi ašbū</l>
+        <l n="10">labšūma kīma iṣṣūri ṣubāt kappī</l>
+        <l n="11">eli dalti u sikkūri šabuḫ epru</l>
+        <l n="12">ištar ana bāb kurnugi’a ina kašādiša</l>
+        <l n="13">ana ati bābi amātu izzakkar</l>
+        <l n="14">atûmē pitâ bābka</l>
+        <l n="15">pitâ bābka lūruba anāku</l>
+        <l n="16">šumma lā tapattâ bābu lā erruba anāku</l>
+        <l n="17">amaḫḫaṣ daltu sikkūru ašabbir</l>
+        <l n="18">amaḫḫaṣ sippūma ušabalakkat dalāti</l>
+        <l n="19">ušellâ mītūti ikkalū balṭūti</l>
+        <l n="20">eli balṭūti ima’’idū mītūti</l>
+        <l n="21">atû pâšu īpuš-ma iqabbi</l>
+        <l n="22">izzakkara ana rabīti ištar</l>
+        <l n="23">izizzī bēltī lā tanaddâšši</l>
+        <l n="24">lullik zikirki lušanni ana šarrati ereškigal</l>
+        <l n="25">ērum-ma atû izzakkara ana ereškigal</l>
+        <l n="26">annītumē ahātaki ištar izzaz ina bābi</l>
+        <l n="27">mukiltu ša keppê rabûti dālihat apsî mahar ea šarri</l>
+        <l n="28">ereškigal annīta ina šemîša</l>
+        <l n="29">kīma nikis bīni ēriqū pānūša</l>
+        <l n="30">kīma šapat kunīni iṣlimā šapātuša</l>
+        <l n="31">mīnâ libbaša ublanni mīnâ kabtassama ušpardannima</l>
+        <l n="32">annītumē anāku itti anunnaki mê ašatti</l>
+        <l n="33">kīma aklī akkal ṭīṭṭa kīma šikārī ašattâ mê dalḫūte</l>
+        <l n="34">lubki ana eṭlūti ša ezzibū ḫīrēti</l>
+        <l n="35">lubki ana ardāti ša ultu sūni ḫā’irīšina šallupāni</l>
+        <l n="36">ana šerri lakê lubki ša ina lā ūmīšu ṭardu</l>
+        <l n="37">alik atû pitâšši bābka</l>
+        <l n="38">uppissima kīma parṣī labirūti</l>
+        <l n="39">illik atû iptašši bābšu</l>
+        <l n="40">erbī bēltī kutâ lirīški</l>
+        <l n="41">ekal kur-nugi'a liḫdu ina pāniki</l>
+        <l n="42">išten bāba ušēribšima umtaṣṣi ittabal agâ rabâ ša qaqqadiša</l>
+        <l n="43">ammīni atû tatbal agâ rabâ ša qaqqadiya.</l>
+        <l n="44">erbī bēltī ša bēlet-erṣeti kīam parṣūša</l>
+        <l n="45">šanâ bāba ušēribšima umtaṣṣi ittabal inṣabāte ša uznīša</l>
+        <l n="46">ammīni atû tatbal inṣabāte ša uznīya</l>
+        <l n="47">erbī bēltī ša bēlet-erṣeti kīam parṣūša</l>
+        <l n="48">šalšu bāba ušēribšima umtaṣṣi ittabal erimmāti ša kišādīša</l>
+        <l n="49">ammīni atû tatbal erimmāti ša kišādiya</l>
+        <l n="50">erbī bēltī ša bēlet-erṣeti kīam parṣūša</l>
+        <l n="51">rebû bāba ušēribšima umtaṣṣi ittabal dudināte ša irtiša</l>
+        <l n="52">ammīni atû tatbal dudināte ša iritīya</l>
+        <l n="53">erbī bēltī ša bēlet-erṣeti kīam parṣūša</l>
+        <l n="54">hamšu bāba ušēribšima umtaṣṣi ittabal šibbu aban-alādi ša qablīša</l>
+        <l n="55">ammīni atû tatbal šibbu aban-alādi ša qablīya</l>
+        <l n="56">erbī bēltī ša bēlet-erṣeti kīam parṣūša</l>
+        <l n="57">šeššu bāba ušēribšima umtaṣṣi ittabal šemērī qātiša u šēpiša</l>
+        <l n="58">ammīni atû tatbal šemērī qātiya u šēpiya</l>
+        <l n="59">erbī bēltī ša bēlet-erṣeti kīam parṣūša</l>
+        <l n="60">šebû bāba ušēribšima umtaṣṣi ittabal ṣubāt balti ša zumriša</l>
+        <l n="61">ammīni atû tatbal ṣubāt balti ša zumriya</l>
+        <l n="62">erbī bēltī ša bēlet erṣeti kīam parṣūša</l>
+        <l n="63">ištu ullânumma ištar ana kurnugi’a ūridu</l>
+        <l n="64">ereškigal īmuršima ina pāniša ir’ub</l>
+        <l n="65">ištar ūl immallik elēnušša itbi</l>
+        <l n="66">ereškigal pâša īpušma iqabbi</l>
+        <l n="67">ana namtar šukkalliša amātu izzakkar</l>
+        <l n="68">alik namtar ...ru ina ekalliyama</l>
+        <l n="69">šuṣašši išten šuši murṣī ana ištar</l>
+        <l n="70">muruṣ ināti ana inātiša</l>
+        <l n="71">muruṣ aḫi ana aḫiša</l>
+        <l n="72">muruṣ šepî ana šepîša</l>
+        <l n="73">muruṣ libbi ana libbiša</l>
+        <l n="74">muruṣ qaqqadi ana qaqqadiša</l>
+        <l n="75">ana šâša gabbišama ana zumriša</l>
+        <l n="76">arki ištar bēlti ana kurnugi’a ūridu</l>
+        <l n="77">ana būrti alpu ul išaḫḫiṭ imēru atānu ul ušâra</l>
+        <l n="78">ardatum ina sūqi ul ušâra eṭlu</l>
+        <l n="79">ittīl eṭlu ina kummišu</l>
+        <l n="80">ittīl ardatum ina aḫiša]</l>
+        <l n="81">papsukkal šukkalli ilī rabûti quddud appašu pānūšu</l>
+        <l n="82">karru labiš malê naš ...</l>
+        <l n="83">illik anḫiš ina pān sin abišu ibakki ...</l>
+        <l n="84">ina pān ea šarri illaka dimāšu [...]</l>
+        <l n="85">ištar ana erṣetim ūrid ul īlâ</l>
+        <l n="86">ultu ullânumma ištar ana kurnugi’a ūridu</l>
+        <l n="87">ana būrti alpu ul išahhiṭ imēru atānu ul ušâra</l>
+        <l n="88">ardatu ina sūqi ul ušâra eṭlu</l>
+        <l n="89">ittīl eṭlu ina kummišu</l>
+        <l n="90">ittīl ardatu ina aḫiša</l>
+        <l n="91">ea ina emqi libbišu ibtani zikru</l>
+        <l n="92">ibnima aṣûšu-namir assinnu</l>
+        <l n="93">alka aṣûšu-namir ina bāb kurnugi’a šukun pānīka</l>
+        <l n="94">šebû bābī kurnugi’a lippettû ina pānīka</l>
+        <l n="95">ereškigal līmurkama ina pānīka liḫdu</l>
+        <l n="96">ultu libbiša inuḫḫu kattassa ippereddû</l>
+        <l n="97">tummešima zikir ilī rabûti</l>
+        <l n="98">šuqi rēšīka ana ḫalziqi uzna šukun</l>
+        <l n="99">ē bēltī ḫalziqi lidnuni mê ina libbi lultati</l>
+        <l n="100">ereškigal annīta ina šemîša</l>
+        <l n="101">tamhaṣ pemša taššuka ubanša</l>
+        <l n="102">tetiršanni erēštu lā erēši</l>
+        <l n="103">alka aṣûšu-namir luzirka izra rabâ</l>
+        <l n="104">aklī epenēt āli lū akalka</l>
+        <l n="105">ḫabanāt āli lū maltika</l>
+        <l n="106">ṣillī dūri lū manzazūka</l>
+        <l n="107">askuppātu lū mušabūka</l>
+        <l n="108">šakrū u ṣamû limḫaṣū lētka</l>
+        <l n="109">ereškigal pâša īpušma iqabbi</l>
+        <l n="110">ana namtar šukkalliša amāta izzakkar</l>
+        <l n="111">alik namtar maḫaṣ egalgina</l>
+        <l n="112">askuppāti za’ina ša ayyarāti</l>
+        <l n="113">anunnakī šūṣâ ina kussi ḫurāṣi šūšib</l>
+        <l n="114">ištar mê balāṭi suluḫšima leqâšši ina maḫriya</l>
+        <l n="115">illik namtar imhaṣ egalgina</l>
+        <l n="116">askuppāti uza’’inā ša ayyarāti</l>
+        <l n="117">anunnakī ušēṣâ ina kussi hurāṣi ušēšib</l>
+        <l n="118">ištar mê balāṭi isluhšima ilqâšši ana mahriša</l>
+        <l n="119">ištēn bāba ušēṣišima utterši ṣubāt balti ša zumriša</l>
+        <l n="120">šanâ bāba ušēṣišima utterši šemer qātīša u šēpīša</l>
+        <l n="121">šalša bāba ušēṣišima utterši šibbu aban alādi ša qablīša</l>
+        <l n="122">rebû bāba ušēṣišima utterši dudinnāte ša irtiša</l>
+        <l n="123">hamšu bāba ušēṣišima utterši erimmāti ša kišādiša</l>
+        <l n="124">šeššu bāba ušēṣišima utterši inṣabāte ša uznīša</l>
+        <l n="125">sebû bāba ušēṣišima utterši agû rabâ ša qaqqadiša</l>
+      </div>
+    </body>
+  </text>
+</TEI>

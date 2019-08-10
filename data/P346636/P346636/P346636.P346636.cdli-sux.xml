@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -37,8 +34,10 @@
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart"/>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x</l>
             <l n="2'">⸢bara2⸣-⸢za⸣ ⸢dur2⸣-bi in-gar</l>
+            <note>space blank</note>
             <l n="3'">e2 me gal kul-ab-ba</l>
             <l n="4'">⸢muš⸣ nun-e ⸢eš3⸣ gal mu2-a</l>
             <l n="5'">gibil gurun-na sag12-ga</l>
@@ -46,8 +45,10 @@
             <l n="7'">hi-li ni2 gur3</l>
             <l n="8'">an-ša3-ta e11-de3</l>
             <l n="9'">eš3#? gu4#?-e#? du3-⸢a⸣</l>
+            <note>broken</note>
           </div>
           <div n="2'" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢a2⸣ ⸢nu2⸣-da#? ku3 {d}inanna-ka</l>
             <l n="2'">ki ša3 kuš2 innin edin-na-ka</l>
             <l n="3'">šeg12 e2-muš-a gi-rin-a ku3</l>
@@ -55,9 +56,11 @@
             <l n="5'">en edin-na u8 lug-⸢ra⸣</l>
             <l n="6'">a2 an bad#?-zu#?</l>
             <l n="7'">x [...]</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">x [...]</l>
             <l n="2'">⸢en⸣ {d#?}[...]</l>
             <l n="3'">ha-mun [...]</l>
@@ -76,8 +79,10 @@
             <l n="16'">[dingir] ⸢gal⸣-gal-e-ne</l>
             <l n="17'">[...] x-la</l>
             <l n="18'">[...] x EN</l>
+            <note>broken</note>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x</l>
             <l n="2'">[...] ⸢dalla⸣</l>
             <l n="3'">[...]-ra#? gun3!-a</l>
@@ -91,54 +96,9 @@
             <l n="11'">[...] x</l>
             <l n="12'">[...] ⸢AN⸣</l>
             <l n="13'">[...] x</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="2'">Sat on you dais</l>
-        <l n="3'">Temple of the great cosmic powers of Kulaba</l>
-        <l n="4'">Platform(?) grown by the ruler (in) the great shrine</l>
-        <l n="5'">Green sprouts of fruit(-bearing trees?)</l>
-        <l n="6'">In order to be admired</l>
-        <l n="7'">Bearing allure and awe</l>
-        <l n="8'">Descending from the midst of heaven</l>
-        <l n="9'">Shrine, goring bull</l>
-        <l n="1'">The recumbent arms of Inanna</l>
-        <l n="2'">Where there is contemplation by the lady of the plain</l>
-        <l n="3'">Brickwork of the Emuša temple, the holy flower</l>
-        <l n="4'">Its exuding aura/self undulation? established/set</l>
-        <l n="5'">For the lord of the plain, the pasturer of the ewe</l>
-        <l n="6'">Your arms (of) distant heaven(!?)</l>
-        <l n="2'">(For) lord Ningirsu(?)</l>
-        <l n="3'">Flows together(?)</l>
-        <l n="4'">At(?) the gate of the Irikug precinct ...</l>
-        <l n="5'">Pure ... stone bowl(s), (into which) liquor is poured</l>
-        <l n="6'">When(?) they are set up near heaven</l>
-        <l n="7'">That which enters (into the temple)</l>
-        <l n="8'">Is something that is not to occur regularly</l>
-        <l n="9'">That which goes out</l>
-        <l n="10'">Is something that is not to cease</l>
-        <l n="11'">šugalam shrine(?), with the face of an equine(!?)</l>
-        <l n="12'">In(?) the temple with an aura</l>
-        <l n="13'">The place where cases are decided</l>
-        <l n="14'">by lord Ningirsu</l>
-        <l n="15'">He decrees a true fate(?)</l>
-        <l n="16'">(For?) the great gods(?)</l>
-        <l n="17'">...</l>
-        <l n="18'">...</l>
-        <l n="2'">Manifest city</l>
-        <l n="3'">Multicolored for the ruler</l>
-        <l n="4'">Sirara</l>
-        <l n="5'">Platform of(?) the ruler</l>
-        <l n="6'">... of(?) the sea</l>
-        <l n="7'">...</l>
-        <l n="8'">...</l>
-        <l n="9'">... flood(?)</l>
-        <l n="10'">Riding ...</l>
-        <l n="12'">...</l>
       </div>
     </body>
   </text>

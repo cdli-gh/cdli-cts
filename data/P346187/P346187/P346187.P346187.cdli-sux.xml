@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -66,45 +63,12 @@
             <l n="1">bala nig2-du10 nig2-si-&amp;lt;sa2&amp;gt;-e? diri šu-zu-še3 hu-mu-ra-ab-gar</l>
             <l n="2">an gal-e su3-ra2-še3 a2-bad-gal2 nam-lugal-la-zu he2-a</l>
             <l n="3">{d}ri-im-{d}suen lugal-gu10</l>
+            <note>double ruling</note>
             <l n="4">2(u) 8(diš) mu-ni</l>
             <l n="5">šud3-de3 an</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Shepherd nominated by holy An, (for whom) a great fate was determined in heaven</l>
-        <l n="2">Rīm-Sîn, nominated by holy An, (for who) a great fate was determined in heaven</l>
-        <l n="3">The ruler has attained/met (the demands of)(?) the kingship from (the moment he emerged from) the fertile womb</l>
-        <l n="4">You are the one who(?) continually executes/pursues(?) the en-ship greatly on behalf of the many people</l>
-        <l n="5">In larsa, ... mountain that fashions(?) the cosmic power of rulership</l>
-        <l n="6">You have been faithfully chosen for the shepherdship of Sumer and Akkad</l>
-        <l n="7">Great An, supreme one of the universe, lord who is wise (in) everything</l>
-        <l n="8">Father of the gods who looks to determine fate on behalf of its place</l>
-        <l n="9">(Whose) command is weighty, his(!?) word cannot be replied to(?)</l>
-        <l n="10">... in the holy midst of heaven</l>
-        <l n="11">Ruler Rīm-Sîn, you are the shepherd who is to come out in the midst (of the people)(?)/make (his) intentions clear(?)</l>
-        <l n="12">And therefore great An made his loving heart shine for you</l>
-        <l n="13">Because of your justice, he(!) spoke faithfully to you</l>
-        <l n="14">In(?) the distant midst of heaven, the days of your life shall be made surpassing for you</l>
-        <l n="15">Kingship of the vast land has been made supreme for you for a long time</l>
-        <l n="16">In their holy mouths a fate of life has been decided for you</l>
-        <l n="17">With(?) the utterance from which nothing is to be changed a long life shall be added for you</l>
-        <l n="18">The holy crown shall be firm upon your head</l>
-        <l n="19">The throne of life shall be seated down(!?) greatly for you</l>
-        <l n="20">The uluh scepter shall be given over to your hand</l>
-        <l n="21">The nose-rope(?) that solidifies the land has been fastened to your flesh(!?)</l>
-        <l n="22">The staff shall seize/pasture(?) the teeming people for you</l>
-        <l n="23">The breast of shining heaven shall be opened for you, the rain of heaven shall be poured for you</l>
-        <l n="24">A year of abundance and a day of plenty shall be arrayed(?) ... the midst of heaven(!?) for you</l>
-        <l n="25">A month/moonlight(?), that of joy and rejoicing, shall be established for you on behalf of your days/time</l>
-        <l n="1">A good reign, surpassing in justice(?), shall be placed at your disposal</l>
-        <l n="2">Great An protecting you profoundly, this shall be (what characterizes) your kingship</l>
-        <l n="3">Rīm-Sîn, my king</l>
-        <l n="4">28 (are) its lines</l>
-        <l n="5">šude prayer of An</l>
       </div>
     </body>
   </text>

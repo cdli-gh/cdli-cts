@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -35,8 +32,11 @@
     <body>
       <div n="urn:cts:cdli:P346572.P346572.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
-          <div n="obverse" type="textpart"/>
+          <div n="obverse" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]</l>
             <l n="2'">[...] šud3? mu-x-[...]</l>
             <l n="3'">[...] NE hul2-la [...]</l>
@@ -62,9 +62,11 @@
             <l n="23'">[...] sa6-sa6-ge x [...]</l>
             <l n="24'">[...] he2-[...]</l>
             <l n="25'">[...] x x [...]</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart"/>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x x [...]</l>
             <l n="2'">[...]-ba ⸢mu⸣-[...]</l>
             <l n="3'">[...] dingir-ra mu-[...]</l>
@@ -94,67 +96,9 @@
             <l n="27'">[...] x kilib3 nun gal-gal-[e-ne ...]</l>
             <l n="28'">[...] ki#?-bi-še3 ma-ra-x-[...]</l>
             <l n="29'">[...] x ma-ra#?-[...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">... prayed(?)</l>
-        <l n="3'">... rejoicing ...</l>
-        <l n="4'">...</l>
-        <l n="5'">... the strong ... who oppress the weak(?)</l>
-        <l n="6'">... you have destroyed(?) its ...</l>
-        <l n="7'">... Rīm-Sîn</l>
-        <l n="8'">... bearded one of kingship</l>
-        <l n="9'">... ordered(?) ...</l>
-        <l n="10'">... Urim, the city (that is) a mountain of abundance</l>
-        <l n="11'">... forming the me of rulership</l>
-        <l n="12'">... the Ekišnugal temple, the stepped/artfully made(?) shrine</l>
-        <l n="13'">... the Anuna gods</l>
-        <l n="14'">... the temple of Suen</l>
-        <l n="15'">Unceasing ..., daily ...</l>
-        <l n="16'">... is constant on behalf of the morning and afternoon meal</l>
-        <l n="17'">... uttered(?)</l>
-        <l n="18'">... holy ... will praise</l>
-        <l n="19'">... when I(?) rejoice? in its midst(?)</l>
-        <l n="20'">... made ... shine(?) as in ancient times</l>
-        <l n="21'">... youth and elder ... dwelling</l>
-        <l n="22'">... your kingship daily ...</l>
-        <l n="23'">... made good(?) ...</l>
-        <l n="24'">...</l>
-        <l n="25'">...</l>
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">... of the god(?) ...</l>
-        <l n="4'">... the ešusiga temple/building ...</l>
-        <l n="5'">... your kingship ... profoundly</l>
-        <l n="6'">... a reign spent with goodness(?) ...</l>
-        <l n="7'">... Rīm-Sîn ...</l>
-        <l n="8'">... raised by holy An(?) ...</l>
-        <l n="9'">... nominated by Enlil ...</l>
-        <l n="10'">Your ... the word of An and Enlil</l>
-        <l n="11'">..., who has no rival, may ...</l>
-        <l n="12'">... is that of a furious rising flood wave</l>
-        <l n="13'">...</l>
-        <l n="14'">... made good/very good</l>
-        <l n="15'">...</l>
-        <l n="16'">...</l>
-        <l n="17'">... the people rejoice for you</l>
-        <l n="18'">... brought out sweetly for you</l>
-        <l n="19'">..., hero, leader of the lands</l>
-        <l n="20'">... Ninurta(?) named (you) faithfully</l>
-        <l n="21'">... you are Ninlil's pure one</l>
-        <l n="22'">... the beloved of her heart</l>
-        <l n="23'">... Rīm-Sîn</l>
-        <l n="24'">... An and Enlil</l>
-        <l n="25'">... head raised(?) ... the lands ...</l>
-        <l n="26'">... your ... seated (pl.) ...</l>
-        <l n="27'">... all of the great princes (Igigi) ...</l>
-        <l n="28'">... returned(?) to its place(?) for you ...</l>
-        <l n="29'">...</l>
       </div>
     </body>
   </text>

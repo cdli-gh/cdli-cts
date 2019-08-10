@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -56,28 +53,9 @@
             <l n="6">ga2-e me-na-am3</l>
             <l n="7">ša3 {d}šul-gi lugal-ga2</l>
             <l n="8">ki-bi ma-gi4-gi4</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">After you speak to my king</l>
-        <l n="2">To my buck of the mountain range with beautiful horns</l>
-        <l n="3">Horse of the mountain range with claws of an eagle</l>
-        <l n="4">Date palm grown in a pure place</l>
-        <l n="5">From which shining dates hang down from</l>
-        <l n="6">After you repeat to him</l>
-        <l n="7">Like someone who has taken away(?) a tree in my forest, (I) bend over as one who is dirty(?)</l>
-        <l n="8">The one who is near to(?) the royal throne has bound my hands with rope</l>
-        <l n="9">In my city, I, the one who wore a clean garment, (now) wears a dirty garment</l>
-        <l n="10">As one who has washed with mud clods, I caked(?) dirt to serve as facial makeup(?)</l>
-        <l n="1">A dog that has eaten carrion has (also) retreated</l>
-        <l n="2">An ušumgal creature that kills has (also) left behind scraps(?)</l>
-        <l n="3">After the reedbed is consumed by fire, the ponds remain</l>
-        <l n="5">After Utu has eaten butter and cream, he touches(?) the churn (to make it more productive?)</l>
-        <l n="8">As for me, when will the heart of Shulgi my king be return to its place on my behalf?</l>
       </div>
     </body>
   </text>

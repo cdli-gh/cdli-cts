@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346569.P346569.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">{d#}li-pi2-it-eš18-⸢dar⸣ [...]</l>
             <l n="2'">e2-gal nam-lugal-la ki-tuš ku3 ⸢du10⸣-[...]</l>
             <l n="3'">gidlam-gu10 ku3 {d}inanna-ke4#?</l>
@@ -45,20 +43,9 @@
             <l n="2">su3-ra2 u4 ul-li2-a-še3 gu2-da#? [...]</l>
             <l n="3">ki-na2 nig2-⸢du10⸣-[...]</l>
             <l n="4">[{d}]li#?-[...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">I am Lipit-Ištar, the son of Enlil;</l>
-        <l n="2'">in my palace of kingship, the pure and sweet dwelling,</l>
-        <l n="3'">my spouse, holy Inanna,</l>
-        <l n="1">established the foundation of my throne for me,</l>
-        <l n="2">and therefore (will) embrace (me) until distant (time) and far-off days;</l>
-        <l n="3">for the lady, I will spend the day with her in the sweet bedroom, the place where the heart is to rejoice;</l>
-        <l n="4">I am Lipit-Ištar, the mighty heir,</l>
       </div>
     </body>
   </text>

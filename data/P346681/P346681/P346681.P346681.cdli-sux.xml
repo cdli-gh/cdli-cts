@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -35,9 +32,14 @@
     <body>
       <div n="urn:cts:cdli:P346681.P346681.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
-          <div n="obverse" type="textpart"/>
-          <div n="reverse" type="textpart"/>
+          <div n="obverse" type="textpart">
+            <note>broken</note>
+          </div>
+          <div n="reverse" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢{geš}al⸣-e u3#? ix(|A.SUG|)-da#? [...]</l>
             <l n="2'">dagx(KA2) ki agrun-na-ka {geš}[...]</l>
             <l n="3'">hul-gal2 u4-nu2-a dumu {geš#}[...]</l>
@@ -46,21 +48,9 @@
             <l n="6'">[...] ⸢geš⸣-gi-a ⸢ur⸣-[...] ušumgal-⸢am3⸣</l>
             <l n="7'">[...]-lu#?-am3</l>
             <l n="8'">[...]-lu-hab2-am3</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">The hoe is the kingal official on/in the u land(?) of the river</l>
-        <l n="2'">At the chamber/door(?) of the site(?) of the agrun chamber, the hoe is the vizier</l>
-        <l n="3'">Evildoers are children of the hoe during the waning moon(?)</l>
-        <l n="4'">By means of/in(?) the regular day(?) they are born towards(!?) heaven(?)</l>
-        <l n="5'">Towards heaven the altirigu bird is the bird of a god</l>
-        <l n="6'">Towards the earth it is the hoe, in the reedbed it is a dog, in the thicket it is an ušumgal creature</l>
-        <l n="7'">At the site of battle it is a durallu ax</l>
-        <l n="8'">At the site of the fortification, it is an alluhab net(?)</l>
       </div>
     </body>
   </text>

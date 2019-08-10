@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346161.P346161.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] mu-un-ba-[al-e]</l>
             <l n="2'">⸢i7⸣ [pa4-bi]-luh-ha a-ba ⸢mu⸣-⸢un⸣-[ba-al-e]</l>
             <l n="3'">⸢i7⸣ {geš}gisal-a-gar-⸢ra⸣ ⸢a⸣-⸢ba⸣ ⸢mu⸣-[un-ba-al-e]</l>
@@ -73,48 +71,9 @@
             <l n="14">lugal an-⸢ub⸣-[...]-bi še-ga {d#?}[...]</l>
             <l n="15">ur#?-{d#?}[namma ... ki]-⸢en⸣-gi ⸢uri⸣-[...]</l>
             <l n="16">[...] x [...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">Who will dig the canal here?</l>
-        <l n="2'">The canal whose (outlying) ditches are clean, who will dig the canal here?</l>
-        <l n="3'">The canal in which the oar is set (to start a journey?), who will dig the canal here?</l>
-        <l n="4'">Who will dig the canal here?</l>
-        <l n="5'">Ur-Namma, the one who has silver, will dig here</l>
-        <l n="6'">Who will dig the canal here?</l>
-        <l n="7'">Shulgi, the one who has possessions, will dig here</l>
-        <l n="8'">Who will dig the canal here?</l>
-        <l n="9'">The king whose fate was decided in the fertile womb, who raises his head in authority</l>
-        <l n="10'">Ur-Namma, the youth who is watched by the Great Mountain, the storm of (i.e. that is?) Enlil</l>
-        <l n="11'">Where in Sumer and Akkad will Nunamnir chose?</l>
-        <l n="12'">In Nippur, at the “mountain range of life,” he decreed my(!?) fate</l>
-        <l n="13'">At Ur, it being in the Emudkura shrine</l>
-        <l n="14'">He secured the foundations of his throne</l>
-        <l n="15'">The crown and the (accompanying) aura, (eliciting) the “praise” of kingship, he(!?) put on my(?) head</l>
-        <l n="16'">He made the pure scepter that puts the many people in order the equal of my hand(?)</l>
-        <l n="17'">He gave to my hand the enkara weapon, the staff(?) and the nose-rope that convey the people</l>
-        <l n="18'">...</l>
-        <l n="19'">...</l>
-        <l n="1">... possessing a head and tail (i.e., the beginning and end of a canal?)/present at the head and tail(?)</l>
-        <l n="2">... bearing ..., a dwelling that makes the heart rejoice</l>
-        <l n="3">... made its foundation firm</l>
-        <l n="4">...</l>
-        <l n="5">The gizi reed growth, “standing in silver&quot;(?), flourishes</l>
-        <l n="6">My canal(?) (that furnishes?) a day of abundance, a reign(?) of ..., the “pure ...” canal is named</l>
-        <l n="7">Named an everlasting name that is suitable for the mouth, the canal whose (outlying) ditches are clean canal is named</l>
-        <l n="8">(As for?) me, the way of (the canal of?) my city is fish(?), its float/excess(?) is birds</l>
-        <l n="9">The “pure ...” canal, it flow(!?) is fish(?), its float/excess(?) is birds</l>
-        <l n="10">The canal whose (outlying) ditches are clean, its flow is fish(?), its float/excess(?) is birds</l>
-        <l n="11">Abundantly it brought fish to the Ekišnugal temple</l>
-        <l n="12">On its banks are munzer plants which one eats (like?) the “honey plant”</l>
-        <l n="13">Making mottled barley/crops grow in its meadows (so that it) sways like a forest/for it to be denuded (at harvest time) like a forest(?)</l>
-        <l n="14">The king of the four regions, obedient one of Enlil</l>
-        <l n="15">Ur-Namma, the shepherd and provider in Sumer and Akkad, loved by Enlil</l>
-        <l n="16">...</l>
       </div>
     </body>
   </text>

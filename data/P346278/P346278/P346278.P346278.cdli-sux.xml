@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346278.P346278.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...]-x</l>
             <l n="2'">[...] x [...]-x</l>
             <l n="3'">[...] x [...]-x-x</l>
@@ -56,6 +54,7 @@
           <div n="reverse" type="textpart">
             <l n="1">[...]-še#?-ṣi di-x-[...]</l>
             <l n="2">tu#?-u2 ⸢en⸣-[...]</l>
+            <note>double ruling</note>
             <l n="3">iti#? mah2-e nam#? [...]</l>
             <l n="4">iti mah2-e [...]</l>
             <l n="5">engur? mah-e? AN#? [...]</l>
@@ -73,39 +72,6 @@
             <l n="17">[...] x x x [...]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="4'">...</l>
-        <l n="5">...</l>
-        <l n="6'">... the flesh of an ox</l>
-        <l n="7'">In ..., the day of the moon's disappearance</l>
-        <l n="9'">In the month, on the seventh and 15th day, the reed shelter (for fumigating) sorcery</l>
-        <l n="10'">Go around with a torch</l>
-        <l n="11'">Sulfur, maštakal plant</l>
-        <l n="12'">Wood of releas(ing ...)</l>
-        <l n="13'">The šalālum reed, tamarisk, ...</l>
-        <l n="14'">Date palm offshoot ...</l>
-        <l n="15'">The pure ...</l>
-        <l n="16'">[In order to release? the house of a man</l>
-        <l n="1">And to drive out the di'u disease?</l>
-        <l n="2">enuru incantation(?)</l>
-        <l n="3">The great river(?) ...</l>
-        <l n="4">The great river(?) ...</l>
-        <l n="5">The great watery deep? ...</l>
-        <l n="6">Below/from the earth ...</l>
-        <l n="7">In the vastness of(?) the sea, the wave is not subsiding</l>
-        <l n="8">In the vastness of(?) the sea, the flood wave is not touching (the shore?)</l>
-        <l n="9">The snake and scorpion(?) are not set(!?) in the distant(?) mountain(?)</l>
-        <l n="10">... conveyed water, he conveyed water from the mountain</l>
-        <l n="11">The great(?) prince ... Enki conveyed water, he conveyed water from the mountain</l>
-        <l n="12">... the large stone vessels were filled with water(?) for him</l>
-        <l n="13">After you mix together ... with the cream of the cow</l>
-        <l n="14">After you posit ... and(?) the incantation of Eridu</l>
-        <l n="15">After you ... the basket, after you ... the basket?</l>
-        <l n="16">... shall be great/made great</l>
       </div>
     </body>
   </text>

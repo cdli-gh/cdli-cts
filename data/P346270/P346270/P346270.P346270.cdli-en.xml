@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000335, ex. 049</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346270</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346270.P346270.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">Your gate is a lion seizing a man</l>
+        <l n="2'">Your threshold is an ug creature going out towards a man</l>
+        <l n="3'">The Abzu, a pure place, fitting</l>
+        <l n="4'">E'engura temple, your king has set foot (there) for you</l>
+        <l n="5'">Enki, the king of the Abzu</l>
+        <l n="6'">He has made the carnelian equal along/matched carnelian with(?) your foundation</l>
+        <l n="7'">With incantations/noise(?) he has taken care of (your) lapis(?)</l>
+        <l n="8'">Temple whose pure wax design(?) has been inspected by Enki</l>
+        <l n="9'">A bull that is set on track for its master</l>
+        <l n="10'">Roaring on behalf of its aura(?) and advising (on behalf of) its dignity(?)</l>
+        <l n="11'">The lord of wisdom, king Enki</l>
+        <l n="12'">Nudimmud, the lord of Eridu</l>
+        <l n="13'">(In) the “heart of the fallow deer,” into which no one can see</l>
+        <l n="14'">He has made(?) your abgal priest loosen (his) hair upon the back</l>
+        <l n="15'">When Enki loves Eridu(!?) the midst of the E'engura temple is(?) filled with abundance)</l>
+        <l n="16'">Abzu, the life of the land, beloved by Enki</l>
+        <l n="17'">Temple build on the edge, suitable for the elaborate me</l>
+        <l n="18'">Eridu, your shade extends into the midst of the sea</l>
+        <l n="19'">Risen sea that has no rival</l>
+        <l n="1">Supreme river possessing an aura and giving the land gooseflesh</l>
+        <l n="2">In the engur(?) it is a great flood(?) that touches the ground</l>
+        <l n="3">Temple adjoining the deep water, pirig creature in/of the inner Abzu</l>
+        <l n="4">The supreme temple of Enki is giving wisdom in the land</l>
+        <l n="5">Your shout, like a great risen river</l>
+        <l n="6">Is singing for king Enki</l>
+      </div>
+    </body>
+  </text>
+</TEI>

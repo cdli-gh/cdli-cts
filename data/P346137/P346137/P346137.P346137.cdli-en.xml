@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000365, ex. 025</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346137</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346137.P346137.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">They laid it down at the base of the mountain range</l>
+        <l n="2'">His 2nd terror, his 3rd terror ...</l>
+        <l n="3'">His 4th terror, his 5th terror, his 6th terror ...</l>
+        <l n="4'">After his 7 terrors were exhausted, he approached his side</l>
+        <l n="5'">Like a gargeština snake, he went from (a hiding place?) onto his shoulder</l>
+        <l n="6'">As if(!?) he had kissed him, he struck him on his cheek with his fist</l>
+        <l n="7'">Huwawa “flashed his teeth&quot;/laughed(?), ... his forehead(?)</l>
+        <l n="8'">Huwawa spoke to Gilgamesh</l>
+        <l n="9'">Deceiving hero ...</l>
+        <l n="10'">The great two(?) ... upon him ...</l>
+        <l n="11'">The hero by means of his own strength ..., he said? to him “sit”</l>
+        <l n="12'">Huwawa by means of his own strength ..., he said? to him “sit”</l>
+        <l n="13'">The hero sat down, wept, and made sobbing noises</l>
+        <l n="1">Huwawa sat down, wept, and made sobbing noises</l>
+        <l n="2">His eye/face ... weeping</l>
+        <l n="3.a">Gilgamesh! ...</l>
+        <l n="3.b">I want to speak to Utu!</l>
+        <l n="4">Utu, (I) do not know the mother that bore me, (I) do not know the father that reared me</l>
+        <l n="5">... bore me in the mountain, you reared me</l>
+        <l n="6">Gilgamesh swore an oath by heaven, he swore an oath by earth, he swore an oath by the netherworld</l>
+        <l n="7">He seized his hand(?) saying(?) he(? Enkidu) shall not dig your grave!(?)</l>
+        <l n="8">Gilgamesh was speaking to Enkidu</l>
+        <l n="9">Enkidu, may the captured bird go (back) to its place for me(?)</l>
+        <l n="10">May the captured youth be returned to the lap of his mother</l>
+        <l n="11">Enkidu replied to Gilgamesh</l>
+        <l n="12">The tall, (if) he lacks intellect</l>
+      </div>
+    </body>
+  </text>
+</TEI>

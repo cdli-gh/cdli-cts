@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -35,11 +32,16 @@
     <body>
       <div n="urn:cts:cdli:P346272.P346272.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
-          <div n="obverse" type="textpart"/>
+          <div n="obverse" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]-RU</l>
+            <note>broken</note>
           </div>
           <div n="2'" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] ⸢dumu⸣ unu#?{ki#} min#?-am3 mu-un-ši-re7{+re}-eš</l>
             <l n="2'">[...]-GIR2#? a-a šu-ru-ub-ba {geš#}šukur a-a hab2-ba šu-ni geš gur5-ra eme-a-ni e2-gal-la</l>
             <l n="3'">⸢lugal⸣-am3 dumu ummax(|UD.GIŠ.KUŠU2|){ki}-am3 mu-un-ši-re7{+re}-eš</l>
@@ -55,6 +57,7 @@
           <div n="1" type="textpart">
             <l n="1">⸢a⸣-⸢ša3⸣ še-⸢ba⸣ ⸢mu⸣-[...]-e-⸢ne⸣ ⸢šu⸣ ⸢nu⸣-⸢um⸣-⸢ma⸣-⸢gid2⸣-⸢de3⸣</l>
             <l n="2">galla tur ⸢galla⸣ ⸢gu⸣-⸢la⸣-[...]-⸢un⸣-⸢na⸣-⸢de2⸣-e#?</l>
+            <note>lines broken</note>
             <l n="3'">[...] ⸢ki⸣ ⸢šeš⸣-am3 ⸢mu⸣-un#?-⸢pa3⸣-[...]</l>
             <l n="4'">⸢u4⸣ ⸢ul⸣-ta a-ba-gin7 mu-ni-[...]</l>
             <l n="5'">⸢ga2⸣-⸢nam⸣-⸢ma⸣-ze2-en ⸢gu5⸣-li-⸢a⸣-ni-[...] ga-an-ši-⸢re7⸣-en-de3-⸢en⸣</l>
@@ -63,41 +66,15 @@
             <l n="8'">[...] ⸢še⸣-⸢ba⸣ ⸢mu⸣-⸢un⸣-na-⸢ba⸣-e-ne ⸢šu⸣ ⸢am3⸣-⸢ma⸣-gid2-de3</l>
             <l n="9'">⸢gu5⸣-li-gu10 ⸢sag⸣ ⸢u2⸣-⸢a⸣ he2-en-⸢šub⸣ ⸢ki⸣-⸢ni⸣ ⸢ba⸣-ra-zux(SU)</l>
             <l n="10'">[...]-⸢de3⸣ ⸢sag⸣ u2-a he2-en-šub ⸢ki⸣-⸢ni⸣ ⸢ba⸣-ra-zux(SU)</l>
+            <note>broken</note>
           </div>
           <div n="2" type="textpart">
             <l n="1">[...] x x x</l>
             <l n="2">[...] mu x x</l>
             <l n="3">[...] x x x</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">He who was the king, it was two citizens of Uruk that went towards him</l>
-        <l n="2'">(They were) thornbushes that are ... in the water(?), lances/points(?) that are fetid in the water(?), his hand chops trees(?), his tongue is “of/in the palace”</l>
-        <l n="3'">He who was the king, it was two citizens of Umma that went towards him</l>
-        <l n="4'">(They were those who had) bound a weapon that cuts off heads to the loin</l>
-        <l n="5'">He who was the king, it was two citizens of Ur that went towards him</l>
-        <l n="6'">(They) had/set(?) their clean garments in the harbor (leaving them behind?)</l>
-        <l n="7'">He who was the king, it was two citizens of Nibru that went towards him</l>
-        <l n="8'">(Saying) “run, one man after(?) the other,” they sent to the sheepfold and cattlepen</l>
-        <l n="9'">They were catching {geš}tinanna there (en route to) the sheepfold and cattlepen</l>
-        <l n="10'">They were offering her water of the river(!), she was not accepting</l>
-        <l n="1">They were offering her barley of the field, she was not accepting</l>
-        <l n="2">The small/junior galla demon was speaking to the largest/eldest galla demon</l>
-        <l n="3'">A sister who reveals the whereabouts of her brother</l>
-        <l n="4'">Like whom from ancient time ...</l>
-        <l n="5'">Come! We shall go to his friend</l>
-        <l n="6'">... to his friend</l>
-        <l n="7'">They were offering him water of the river(!), he(!?) was accepting</l>
-        <l n="8'">They were offering him barley of the field, he was accepting</l>
-        <l n="9'">If my friend dropped his head in the plants then no one can know(?) his place</l>
-        <l n="10'">If Dumuzi dropped his head in the plants then no one can know(?) his place</l>
-        <l n="1">...</l>
-        <l n="2">...</l>
-        <l n="3">...</l>
       </div>
     </body>
   </text>

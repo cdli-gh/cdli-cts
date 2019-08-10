@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -72,43 +69,6 @@
             <l n="16">an-ne2 an-ba ni2#?-gu10#? mi-ni-[...]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Like one who should not/indeed did(?) drag (its) beard(!?) in the dust for me</l>
-        <l n="2">I want to fill my hand with(?) the risen(?) mountain, I want to make it know my fear</l>
-        <l n="3">I want to bring a great bull against its supreme power(?)</l>
-        <l n="4">I want to bring a small bull against its small power(?)</l>
-        <l n="5">I want to run there, I want to chase the skipping rope there</l>
-        <l n="6">In the mountain I want to continually go(?) to(?) battle, I want to have battle set in order(?)</l>
-        <l n="7">I shall set the arrow of my quiver straight(!?)</l>
-        <l n="8">I want to have slingstones twisted (together) like a heavy rope</l>
-        <l n="9">I want to ... my chisel/boundary stake(?)</l>
-        <l n="10">I want to have the throwstick, shield and weapon(?) set in order</l>
-        <l n="11">I want to strike (with) fire towards its adjoining forests</l>
-        <l n="12">I want to employ(?) the hazin axe against its evildoers</l>
-        <l n="13">I want to station Gibil the purifier to work in its standing water</l>
-        <l n="14">I want to submerge/make distant(?) its aura among(?) the mountain range of Aratta, which no hand can approach</l>
-        <l n="15">Like a city cursed by An, it shall not return it to its place, to its place!</l>
-        <l n="16">Like one frowned at by Enlil, it shall not raise its neck there(?)</l>
-        <l n="1">The mountain should wish for(?) my way</l>
-        <l n="2">Ebih should praise me, Ebih should extol me</l>
-        <l n="3">Inanna, the child of Suen</l>
-        <l n="4">She was dressed in the pala garment; she clad herself in pleasure/allure/stars/rosettes(?)</l>
-        <l n="5">She adorned her forehead with a red/furious aura</l>
-        <l n="6">She arranged the red carnelian (beads) on her pure throat(?)</l>
-        <l n="7">She acted youthfully with the seven-headed udug/šita weapon at her right</l>
-        <l n="8">She set her foot on the staircase(?) of lapis</l>
-        <l n="9">In the evening ... brought out ...</l>
-        <l n="10">She set the door that is to be marveled at (open) in its ...</l>
-        <l n="11">She established(?) that of(?) the nesag offerings for An and was establishing the siskur rites/offerings for him</l>
-        <l n="12">An was rejoicing for Inanna</l>
-        <l n="13">He accepted (the offerings)(?) and sat in his place</l>
-        <l n="14">He/she(?) filled the seat of honor of An/heaven</l>
-        <l n="15">An, my father, I(!?) make a case to you, (put) your ear to my words</l>
-        <l n="16">An imposed my aura/fear of me in the heavens</l>
       </div>
     </body>
   </text>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000623, ex. 091</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346605</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346605.P346605.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">Your anger has been maximized(?), your fire(?) does not cool</l>
+        <l n="3'">Perfect lady, the authoritative one of the assembly</l>
+        <l n="4'">She accepted her siskur offering/ritual on her (Enheduana's) behalf</l>
+        <l n="5'">And the holy heart of Inanna was restored to its place for her</l>
+        <l n="6'">At that time, it was good for her(?), she radiated plenty/happiness, she exuded joyful allure</l>
+        <l n="1">Like moonlight she bore happiness</l>
+        <l n="2">Nanna faithfully brought out awe</l>
+        <l n="3">Because(?) her mother Ningal prayed a šud prayer(?) for her</l>
+      </div>
+    </body>
+  </text>
+</TEI>

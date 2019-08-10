@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000619, ex. 083 &amp; 000623, ex. 106</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346604</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346604.P346604.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Its able-bodied young men were chased away into captivity/as corpses(?) by themselves for you</l>
+        <l n="2">The city that has not (compelled its people) to say “the land/mountain is for you”</l>
+        <l n="3">Nor has (its people) said “your father (...)”</l>
+        <l n="4">(Despite) your holy word being spoken (to them)(?), may that place back in its tracks(!?)</l>
+        <l n="5">And (the city?) slip away from its womb/matrix (i.e., be stillborn?)</l>
+        <l n="6">Its woman will not say pleasant things with her husband</l>
+        <l n="7">Nor advise him at night</l>
+        <l n="8">Nor reveal the purity of her heart</l>
+        <l n="9">Aroused wild cow, eldest child of Suen</l>
+        <l n="10">Lady who is superior to An, who has deprived(?) you?</l>
+        <l n="11">One who validates(?) the cosmic powers/rites, great queen of queens</l>
+        <l n="12'">One who emerged from the holy womb superior to her birth mother</l>
+        <l n="13'">She is the wise, discerning queen of the lands</l>
+        <l n="1">He has caused my utter destruction(?) in a “place of violence”</l>
+        <l n="2">Dilimbabbar has not undertaken my case</l>
+        <l n="3">(If) he did, what is to me? (If) he did not, what is it to me?</l>
+        <l n="4">Victorious, he (Lugalane) drove me out from the temple</l>
+        <l n="5">Like a swallow, he made me fly away from the window, my life was consumed</l>
+        <l n="6">He(!) makes (me) go(!?) in the ... brambles of the mountain</l>
+        <l n="7">He removed the true crown of the en priestess from (my head)</l>
+        <l n="8">Most precious lady, loved by An</l>
+        <l n="9">Most precious lady, loved by An</l>
+        <l n="10">May your holy heart, which is supreme, be restored to its place for me</l>
+        <l n="11">Beloved spouse of (Ama)'ušumgal(ana) (Dumuzi)</l>
+        <l n="12">Who is the great queen of the horizon and zenith (i.e., the whole of heaven)</l>
+        <l n="13">The Anuna have submitted to you(!?)</l>
+        <l n="14">Since birth you have been the younger sister (of Utu)</l>
+        <l n="15">And thus (you) have been superior to the Anuna, the great gods</l>
+        <l n="16">The Anuna kiss the ground with their lips for you</l>
+        <l n="17">My case has not been finalized, (but the threat of) a hostile decision, like my case(?), lingers(?) in my face</l>
+        <l n="1'">The enemy and the evildoer have not escaped its grasp</l>
+        <l n="2'">(In) the city that has been endowed with truth</l>
+        <l n="3'">Which has made righteousness and justice into a treasure</l>
+        <l n="4'">Where clean clothes are at the quay</l>
+        <l n="5'">The older brother is to honor the younger brother and behave with humanity</l>
+        <l n="6'">One is to listen to the word of the father, and (thus) succeeds (repays himself)</l>
+        <l n="7'">The son is to humbly revere his mother (so that?) he endures until(?) (his) old age</l>
+        <l n="8'">It is at the holy city and settlement of Enlil</l>
+        <l n="9'">It is at Nibru, the beloved shrine of the Great Mountain</l>
+        <l n="10'">(And thus?) its(?) ... of(?) abundance, the temple(?) ..., he raised</l>
+        <l n="11'">Like(!?) a towering(?) mountain range, he made it grow in a pure place</l>
+        <l n="12'">Its ruler, the Great Mountain, father Enlil</l>
+        <l n="13'">In the Ekur, the supreme shrine, he has sat on its dais</l>
+        <l n="14'">No one can disperse the cosmic powers of that temple</l>
+        <l n="15'">Its pure place(!) of washing rites(?), like the earth, does not cease</l>
+        <l n="16'">Its cosmic powers are the cosmic powers of the Abzu, which no one is to see</l>
+        <l n="17'">Its inside it a vast sea (whose) horizon is unknown</l>
+        <l n="18'">On its platform/retaining wall? (with?) sparkling standards(?)</l>
+        <l n="1'">Your Ekur, the lapis temple, supreme dwelling bearing an aura</l>
+        <l n="2'">Its aura touches heaven</l>
+        <l n="3'">And therefore(?) its shade stretches over the lands</l>
+        <l n="4'">And therefore(?) its sacred space(?) opens up towards the midst of heaven</l>
+        <l n="5'">The lords and rulers</l>
+        <l n="6'">Brought the holy nindaba offerings there properly</l>
+        <l n="7'">And ... prays/beseeches him with šud prayers(?) and siskur rites</l>
+        <l n="8'">Enlil, your shepherd that you looked at faithfully</l>
+        <l n="9'">The one (you) called to faithfully, the one (you) elevated in the land</l>
+        <l n="10'">The land to his hand, the land to his feet</l>
+        <l n="11'">(You make?) the (most) distant place of the land(s) submit to him</l>
+        <l n="12'">Accumulated(?) like frost, that which is all over the ground(?)</l>
+        <l n="13'">Its weighty mašdaria deliveries and tribute</l>
+        <l n="14'">He brought in regularly into the treasury</l>
+        <l n="15'">He conveyed nindaba offerings into the supreme courtyard</l>
+        <l n="16'">He brought(?) them into the Ekur in the manner of heaps</l>
+        <l n="17'">Enlil, true shepherd of that which teems(?) together</l>
+        <l n="18'">He is the herder and leader of living things</l>
+        <l n="19'">He made his great rulership manifest(?)</l>
+        <l n="20'">He made the pure crown and pectoral(?) verdant/beautiful(?) on (his body)</l>
+        <l n="21'">In the Tumuhursag temple, where he resides on the dais</l>
+        <l n="22'">He shall lay across(?) heaven like a rainbow</l>
+        <l n="23'">He went by himself as a floating cloud</l>
+        <l n="24'">He is the only ruler(?) of heaven, he is the ušumgal creature of the earth</l>
+        <l n="25'">He is the supreme god of the Anuna</l>
+        <l n="26'">And therefore he decrees his own fate</l>
+        <l n="27'">(Subtotal:) ...+17</l>
+        <l n="1'">...</l>
+        <l n="2'">Enlil, your craftiness is full of (i.e., induces?) stupor</l>
+        <l n="3'">Its contents are a tangled thread that is not to be set straight</l>
+        <l n="4'">It is tangled threads that the eye is not to follow</l>
+        <l n="5'">...</l>
+        <l n="6'">You are your own deliberator, advisor, and lord</l>
+        <l n="7'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

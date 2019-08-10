@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -83,61 +80,11 @@
             <l n="16">a-ba-am3 gu3 e-ra-an-de2-ma</l>
             <l n="17">a-na-zu al-gal2-ma du14-še3 im-ta-e3</l>
             <l n="18">gub-ba lu2-tu15 ga-ba-al he2-mu-e-du3 nam-mu-ni-du3-du3-en</l>
+            <note>double ruling</note>
+            <note>space blank</note>
             <l n="19">a-ra2 3(diš)-kam šid-bi 4(u@v) 5(diš) ga2-nu ga-na ga-⸢ab⸣-sa2#!-sa2!-en</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Going, spending time, you(!?) have diminished(?) the working(?)</l>
-        <l n="2">Boaster (who goes) towards the field holding an agala sack</l>
-        <l n="3">Hireling (always) behind the prostitute</l>
-        <l n="4">Who carries a basket for collecting plants/food</l>
-        <l n="5">At harvest time, your labor does not match your sustenance</l>
-        <l n="6">Your are the one who(?) disappears from work, (yet) you stand/serve at the market price ...</l>
-        <l n="7">After you are to go to the house of a man (giving) a drinking party for a god(?)</l>
-        <l n="8">After you enter behind the man of the drinking party</l>
-        <l n="9">Beer foam is to be spattered upon you</l>
-        <l n="10">After you set your neck upon the ground (Akk. you bow down ...)</l>
-        <l n="11">Your own self, which (is so drunk) does not (even) know (how to use?) a hand, is denigrated</l>
-        <l n="12">(You) raise an afflicted hand in order to(?) eat food(?)</l>
-        <l n="13">Prowling about in that of the summer (for) shade</l>
-        <l n="14">Prowling about in that of the cooling day for the edge of the sunlight</l>
-        <l n="15">Idiot, slave(?) lying at the edge of the fire</l>
-        <l n="16">When you move (your joints)(?), your appendages split apart (your) skin/flesh</l>
-        <l n="17">Breaking into houses, digging</l>
-        <l n="18">Why would you quarrel (with me)?</l>
-        <l n="19">You are the one who has insulted, but it is not there in my flesh/skin (i.e., does not linger?)</l>
-        <l n="20">Come! Go out into the street with (me?)</l>
-        <l n="21">So that my(?) acquaintances have seen me(?)</l>
-        <l n="22">You (by contrast) are a barbarian who has not known the “rear” (i.e., impact?) of your words</l>
-        <l n="23">You are an uncouth one has not known anything</l>
-        <l n="24">You are one who does not abandon being a rogue</l>
-        <l n="25">(Mentally) blocked person, you cannot take hold of words</l>
-        <l n="26">Screamer(?) lying in the middle of the fire</l>
-        <l n="27">Prisoner/One who seizes from(!?) the basket of the temples, (the domain of?) its sagbur functionary(!?) is not valuable for him</l>
-        <l n="1">Squawker, shouter, the district is disturbed for (i.e., because of?) you</l>
-        <l n="2">Defiler who has not known any dignity</l>
-        <l n="3">Scorner who eats/consumes “that of the lap/limbs/base&quot;?</l>
-        <l n="4">One (struck upon) the head(?), you(?) have not known the son of a man (i.e., the status of a man?))</l>
-        <l n="5">&quot;Slippery place,” you have not known a friend</l>
-        <l n="5">the expression ki ma-an-ze2-er, see Civil leichty FS, 60.</l>
-        <l n="6">(Self-proclaimed?) hero, stand and hold (a tablet?)</l>
-        <l n="7">(You) stand, and you do not (do it) right, (you) sit, and (you) did not (make it) good</l>
-        <l n="8">(You) count (up the lines to be entered on the tablet), and you do it (too) quickly (Akk. ... makes ... get lost), (you) write, and you(?) have to erase from it (because it was wrong)</l>
-        <l n="9">You(?) cannot read aloud from that which was written (on) the tablet (i.e., you can't read your own handwriting)</l>
-        <l n="10">You incise it (too) heavily, your(!) hand is pierced(?) (by the stylus?)</l>
-        <l n="11">For the purposes of counting (out the proper number of textual lines), it (the tablet) has not been made suitable, in order to be written upon, (its appropriate(ness)) is non-(existent)</l>
-        <l n="12">(And yet you say(?)) “if the tablet is too small (i.e., short(?)) for me, I will finish it quickly”</l>
-        <l n="13">(You are one who) has forgotten where he(?) stood (i.e., started?)</l>
-        <l n="14">(You are one whose) place where he(?) sat (i.e., stopped?) is scattered about</l>
-        <l n="15">One who has quit from good sense, one who shouts(?) (out of frustration) because of (his predicament?)</l>
-        <l n="16">Who was it that spoke to you?</l>
-        <l n="17">And what is it that is yours (that made you) come out for an argument?</l>
-        <l n="18">Stand, idiot, in order to have an argument! (But) you should not have an argument (again)</l>
-        <l n="19">It is the 3rd time (i.e., the 3rd extract in a series). Its (line) count is 45. (The composition) “Come, come on, let us compare.”</l>
       </div>
     </body>
   </text>

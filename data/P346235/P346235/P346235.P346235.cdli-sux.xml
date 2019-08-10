@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346235.P346235.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>(surface unclear)</note>
             <l n="1">dumu e2-dub-ba-a u4-da egir dub-me-ka a-na-am3 ga-ab-⸢sar⸣-[...]</l>
             <l n="2">u4-da u-ta KA-inim-ma didli-me nu-sar-en-de3-en</l>
             <l n="3">na-an-ga-ma um-mi-a ba-zu-zu-ma mu-e-da-urin-en-de3-en</l>
@@ -49,6 +47,7 @@
             <l n="11">šu zu-hu-ul šu gi-dub-ba-a šu nu-du7</l>
             <l n="12">im-ma nu-tum2-ma šu ka-ta ⸢nu⸣-[...]</l>
             <l n="13">ga2-e-gin7 nam dub-sar-me-en</l>
+            <note>double ruling</note>
             <l n="14">[...] za-e-⸢gin7⸣ dub-sar nu-me-en</l>
             <l n="15">[...] x x [...]-gin7#? nu-ub-be2-en</l>
             <l n="16">[...] ⸢bala⸣-a-⸢ab⸣ [...] ⸢bala⸣-e-de3 ba-ab-du7-un</l>
@@ -63,6 +62,7 @@
             <l n="25">šeš šeš-da teš2-bi bi2-ib2-dab5-be2-[...]</l>
             <l n="26">lu2-tu15 nu-ub-tum2 dub-sar-e-ne-[...]</l>
             <l n="27">a-na-še3 ba-ab-du7-un me-še3 lu2 he2-en-x-[...]</l>
+            <note>double ruling</note>
             <l n="28">a-na-aš nig2-na-me-še3 la-ba#?-ab-du7-un#?</l>
             <l n="29">e2 ba-e-de3 ga-gen e2 mu-da-ba-e-en#?</l>
             <l n="30">a-ša3 si-ge-de3 ga-gen ki si-ge-x [...]</l>
@@ -82,6 +82,7 @@
             <l n="10">puzur5-puzur5 bar-ra šu ur3-ru-še3 x [...]</l>
             <l n="11">eme x eme hul-gal2 in ⸢dub2⸣-[...]</l>
             <l n="12">⸢u3⸣ ⸢za⸣-e ša3 dumu e2-dub-ba-a-[...]</l>
+            <note>double ruling</note>
             <l n="13">[...] ⸢ša3⸣ dumu ⸢e2⸣-dub-ba-a-ke4-ne nu-me-en</l>
             <l n="14">[...]-⸢sar⸣-⸢ra⸣-zu dub nam-dub-sar-gu10 za3 ba-ab-⸢tag⸣</l>
             <l n="15">[...]-⸢lu7⸣-zu! nam-lu2-lu7-gu10-da ba-ab-gar</l>
@@ -104,82 +105,10 @@
             <l n="32">mu ni2-za nu-e-da-sar-re im šu-za nu-du7</l>
             <l n="33">al ke3-de3 gub-ba al-šub he2-da-gal2</l>
             <l n="34">lil hu-ru geštu2 šu2-a-ab šu2-a-ab ga2-e-gin7-nam eme-gir15-ra-me-en</l>
+            <note>double ruling</note>
             <l n="36">a-na-aš geštu2 šu2-a-ab šu2-a-ab-gu10 ma-ra-šid-de3-en</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Son of the scribal school, if (we reach) the end of our tablet (assignment), what should we write?</l>
-        <l n="2">If we do not write our various texts/text sections ten times</l>
-        <l n="3">It will indeed also be (that when) the master finds out, we will be on guard with you(?)</l>
-        <l n="4">What should we reply to him with there?</l>
-        <l n="5">Come! I shall write what I please, I will give you orders</l>
-        <l n="6">If he(!) has ordered me, (he has to admit?) I am not your “big brother”</l>
-        <l n="7">What if(?) I enter into my status as “big brother”</l>
-        <l n="8">After (I) surpass over the scribal art and an appropriate for status as “big brother”</l>
-        <l n="9">(I will say to you) ..., (possessor of) cumbersome intelligence, backwards facing towards (i.e., inferior one of) the scribal school</l>
-        <l n="10">Deaf one of the scribal art, deaf one(?) of the Sumerian language</l>
-        <l n="11">(Possessor of a) ... hand, a hand that is not suitable for the stylus</l>
-        <l n="11">Attinger NABU 2018 no. 43, who translates “main déficient.”</l>
-        <l n="12">One who is not suitable for clay/tablet, with a hand that does not align with the mouth (i.e., dictated content or rate of speech?)</l>
-        <l n="13">You are (really) a scribe like me?</l>
-        <l n="14">Why are you not a scribe like me?</l>
-        <l n="15">And why(?) do you not say thus:</l>
-        <l n="16">Converse, I am suitable for conversation</l>
-        <l n="17">I did not gnaw at sourdough, I(?) enter as the one standing(?)</l>
-        <l n="18">Looking two, 5 times (at a text) and being one of reciting(?) 5 texts/text sections, you say “I am a scribe”</l>
-        <l n="19">You write a tablet and then you(!) cannot bring (its contents) into the intellect</l>
-        <l n="20">You write a letter, and that is the extent of it for you (i.e., no comprehension)</l>
-        <l n="21">Go to divide up an estate! You cannot divide it</l>
-        <l n="22">Go to “fill&quot;(? i.e., map out?) a field! You cannot hold the measuring line and rod</l>
-        <l n="23">You cannot drive a stake into the ground, you cannot bring it into (your) intellect (i.e., comprehend it?)</l>
-        <l n="24">You do not calm down arguing people</l>
-        <l n="25">You will make brother seize brother</l>
-        <l n="26">Unsuitable idiot among scribes</l>
-        <l n="27">What are you suitable for? Where should someone bring (employ?) you(?)?</l>
-        <l n="28">Why am I not suitable for anything?</l>
-        <l n="29">If I go to divide up an estate, I can divide it</l>
-        <l n="30">If I go to “fill&quot;(?! i.e., map out?) a field, “filling out” the space ...</l>
-        <l n="31">I(!) pacify the hearts of the arguing people, I can calm them down</l>
-        <l n="32">I(!) sweeten brother together with brother, I can cool their hearts</l>
-        <l n="1">You are a scoundrel among scribes, a ground dweller among people</l>
-        <l n="2">If you count up//recite a multiplication table, the calculation(?) is labored</l>
-        <l n="3">If you solve the inverted numbers, you cannot return them to one side (invert them again?)</l>
-        <l n="4">Volume calculations, “length to front eating each other” (calculation of the volume of a triangle?)</l>
-        <l n="5">Squares, triangles, circles, semi-circles</l>
-        <l n="6">Trapezoids, “field of a bow,” “field of a boat”</l>
-        <l n="7">(If) someone posits them to you, you cannot(!?) produce them, you are blocked in your mouth</l>
-        <l n="8">You do not know the solutions of texts/text sections and the contents of Sumerian tablets</l>
-        <l n="9">After approach a stela, shining light darkens for you</l>
-        <l n="10">In order to erase extraneous secrets(?), spit(?) is not ... for you, you are blocked in your mouth</l>
-        <l n="11">(Possessor of) a ... tongue, (possessor) of an evil tongue, abuser, arguer</l>
-        <l n="12">And you are among the students of the scribal school?</l>
-        <l n="13">Why am I not among the students of the scribal school?</l>
-        <l n="14">My tablet of the scribal art supplants your tablet of the scribal art</l>
-        <l n="15">..., your humanity has been set with my humanity</l>
-        <l n="16">I want to roll up/wipe clean ..., I want to speak to you</l>
-        <l n="17">Among the work of the scribal art, you are not above me in your ...</l>
-        <l n="18">Among the work of the “son of a man” as a “son of a man” you are not above me</l>
-        <l n="19">I want to say, I want to repeat “you are not the son of an established man”</l>
-        <l n="20">I want to say “peace,” I am the son of a (famous?) family/clan</l>
-        <l n="21">The clay/tablet is(?) good ..., my hand compares with the mouth (in dictation speed, content?)</l>
-        <l n="22">When(?) I bring my hand somewhere(?), I bring ... there for myself(?)</l>
-        <l n="23">The design(?), the measuring rod, the waterclock and its(?) weight</l>
-        <l n="24">Hanging from it(?), fully equipped tools(?) that are not to be checked(?), I shall find with my finger(?)</l>
-        <l n="25">... on behalf of a friend/companion(?)</l>
-        <l n="26">In order to bring on behalf of their labor/wage(?) the merchant's silver (for) buying wool, a total of four gin stone weights' worth(?)</l>
-        <l n="27">To initiate and conclude/to raise and set (the warp and weft?) the daily labor of the servile female weaver</l>
-        <l n="28">The completed task of the metalworker, the member of the experts, I(?) also have known its particulars</l>
-        <l n="29">My engenderer is Sumerian, I am the son of a scribe</l>
-        <l n="30">You are a “defiled child,” stupid</l>
-        <l n="31">You cannot form a tablet, you cannot pat out a ligin extract tablet</l>
-        <l n="32">You cannot write your own name, the tablet is not suited to your hand</l>
-        <l n="33">Get up to do hoeing work, so that the šub hoe is with you</l>
-        <l n="34">Childish fool, cover your ears(?), cover your ears! Are you Sumeran like me?</l>
-        <l n="36">Why do you recite(?) “cover your ears(?), cover your ears&quot;? for me(?)</l>
       </div>
     </body>
   </text>

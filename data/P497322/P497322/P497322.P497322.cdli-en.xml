@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary Descent of Ishtar (composite)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P497322</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P497322.P497322.cdli-en" type="translation" xml:lang="en">
+        <l n="1">To Kurnugi’a, domain of Ereškigal,</l>
+        <l n="2">did Ištar, daughter of Sîn, her ear direct;</l>
+        <l n="3">indeed did direct the daughter of Sîn her ear</l>
+        <l n="4">to the house of darkness, the dwelling of Irkalla,</l>
+        <l n="5">to the house where those who enter are not such who exit,</l>
+        <l n="6">to the route whose path is one of he who does not return,</l>
+        <l n="7">to the house where those who enter are deprived of light,</l>
+        <l n="8">Where dust (satisfies) their hunger, their food is clay,</l>
+        <l n="9">(where) light they do not see, in darkness they sit</l>
+        <l n="10">(where) they are clothed like birds, in garments of feathers,</l>
+        <l n="11">over the door and lock, dust was settled,</l>
+        <l n="12">Ištar, at the gate of Kurnugi’a arriving,</l>
+        <l n="13">to the gatekeeper speaks:</l>
+        <l n="14">“Gatekeeper, open your gate for me;</l>
+        <l n="15">open your gate for me, that I, indeed I, may enter;</l>
+        <l n="16">if you do not open the gate for me, so that I, indeed I, cannot enter,</l>
+        <l n="17">I will strike the door, the lock I will break;</l>
+        <l n="18">I will strike the posts, I will push the doors aside,</l>
+        <l n="19">I will raise up the dead; they will devour the living,</l>
+        <l n="20">that the dead will outnumber the living.”</l>
+        <l n="21">The gatekeeper worked his mouth, saying,</l>
+        <l n="22">speaking to great Ištar:</l>
+        <l n="23">“Stand, my lady, do not knock it down,</l>
+        <l n="24">let me go and your words repeat to queen Ereškigal.”</l>
+        <l n="25">He entered, and the gatekeeper speaks to Ereškigal:</l>
+        <l n="26">“Here now, your sister Ištar is standing at your gate,</l>
+        <l n="27">she who holds the great hunting loops, who roils up the Apsu before king Ea.”</l>
+        <l n="28">Ereškigal, hearing this,</l>
+        <l n="29">like cut tamarisk went yellow her face,</l>
+        <l n="30">like the edge of a drinking reed went black her lips.</l>
+        <l n="31">“What brought her heart to me? What caused her liver to light up for me?</l>
+        <l n="32">Here now, shall I, even I, with the Anunnaki water drink?</l>
+        <l n="33">As if bread, shall I eat clay? As if beer, shall I drink murky water?</l>
+        <l n="34">Let me weep for the young men who leave behind wives?</l>
+        <l n="35">Let me weep weep for the maidens who from the lap of their spouses are torn?</l>
+        <l n="36">For the weak young one let me weep, who before his days was lead away?</l>
+        <l n="37">Go, gatekeeper, open for her your gate,</l>
+        <l n="38">treat her according to the ancient rules!”</l>
+        <l n="39">Off went the gatekeeper, and opened for her his gate.</l>
+        <l n="40">“Enter, my lady, let Kuthâ rejoice over you.”</l>
+        <l n="41">May the palace of Kurnugi’a be happy at your presence!”</l>
+        <l n="42">The 1st gate he let her enter, and he spread out and took away the great crown of her head.</l>
+        <l n="43">“Why, gatekeeper, did you take away the great crown of my head?”</l>
+        <l n="44">“Enter, my lady, of the lady of the netherworld thus are her rules.”</l>
+        <l n="45">The 2nd gate he let her enter, and he spread out and took away the earrings of her ears.</l>
+        <l n="46">“Why, gatekeeper, did you take away the earrings of my ears?”</l>
+        <l n="47">“Enter, my lady, of the lady of the netherworld thus are her rules.”</l>
+        <l n="48">The 3rd gate he let her enter, and he spread out and took away the beads of her neck.</l>
+        <l n="49">“Why, gatekeeper, did you take away the beads of my neck?”</l>
+        <l n="50">“Enter, my lady, of the lady of the netherworld thus are her rules.”</l>
+        <l n="51">The 4th gate he let her enter, and he spread out and took away the pectoral of her chest.</l>
+        <l n="52">“Why, gatekeeper, did you take away the pectoral of my chest?”</l>
+        <l n="53">“Enter, my lady, of the lady of the netherworld thus are her rules.”</l>
+        <l n="54">The 5th gate he let her enter, and he spread out and took away the belt of birthstones of her hips</l>
+        <l n="55">“Why, gatekeeper, did you take away belt of birthstones of my hips?”</l>
+        <l n="56">“Enter, my lady, of the lady of the netherworld thus are her rules.”</l>
+        <l n="57">The 6th gate he let her enter, and he spread out and took away the bracelets of her hand and her foot.</l>
+        <l n="58">“Why, gatekeeper, did you take away the bracelets of my hand and my foot?”</l>
+        <l n="59">“Enter, my lady, of the lady of the netherworld thus are her rules.”</l>
+        <l n="60">The 7th gate he let her enter, and he spread out and took away the garment of modesty of her body.</l>
+        <l n="61">“Why, gatekeeper, did you carry off the garment of modesty of my body?</l>
+        <l n="62">“Enter, my lady, of the lady of the netherworld thus are her rules.”</l>
+        <l n="63">away from there, Ishtar to Kurnugi’a descended.</l>
+        <l n="64">Ereshkigal saw her and in her presence began to shake.</l>
+        <l n="65">Ishtar did not reflect; above her she rose.</l>
+        <l n="66">Ereshkigal her mouth worked, speaking,</l>
+        <l n="67">to Namtar, her high minister, the words speaking:</l>
+        <l n="68">“Go, Namtar, ... in my palace, and</l>
+        <l n="69">send out against her, the sixty diseases against Ishtar:</l>
+        <l n="70">the disease of the eyes against her eyes,</l>
+        <l n="71">the disease of the side against her side,</l>
+        <l n="72">the disease of the feet against her feet,</l>
+        <l n="73">the disease of the stomach against her stomach,</l>
+        <l n="74">the disease of the head against her head,</l>
+        <l n="75">against her, all of her, against her body!”</l>
+        <l n="76">After lady Ištar to Kurnugi’a descended,</l>
+        <l n="77">the cow the bull does not mount, the donkey the jenny does not impregnate;</l>
+        <l n="78">the young woman in the street does not impregnate the young man;</l>
+        <l n="79">lay the young man in his chamber,</l>
+        <l n="80">lay the young woman on her side.</l>
+        <l n="81">Papsukkal, minister of the great gods: bent low was his nose, his face;</l>
+        <l n="82">in rags clad, unkempt hair bearing, ...</l>
+        <l n="83">he went, tired, before Sîn, his father, weeping, ...</l>
+        <l n="84">before Ea, the king, he was going, his tears ...:</l>
+        <l n="85">“Ištar to the underworld descended, but did not ascend;</l>
+        <l n="86">since Ištar to Kurnugi’a descended,</l>
+        <l n="87">the cow the bull does not mount, the donkey the jenny does not impregnate;</l>
+        <l n="88">the young woman in the street is not impregnated by the young man;</l>
+        <l n="89">lay the young man in his chamber,</l>
+        <l n="90">lay the young woman on her side;</l>
+        <l n="91">Ea, in the wisdom of his stomach, has created a man,</l>
+        <l n="92">and he created Aṣûšu-namir, a she-man,</l>
+        <l n="93">come, Aṣûšu-namir, in the gate of Kurnugi’a set you face!</l>
+        <l n="94">may the 7 gates of Kurnugi’a be opened in your face!</l>
+        <l n="95">May Ereškigal see you and in your face rejoice!</l>
+        <l n="96">when her stomach is calmed, her liver happy,</l>
+        <l n="97">make her utter the oath of the great gods!</l>
+        <l n="98">Raise your head, to the waterskin ear give!</l>
+        <l n="99">“O Lady, the waterskin let them give me, that water therefrom I may drink!”</l>
+        <l n="100">Ereškigal, hearing this,</l>
+        <l n="101">struck her thigh, bit her finger:</l>
+        <l n="102">“You made a request of me that is not to be requested!</l>
+        <l n="103">Come, Aṣûšu-namir, let me lay a great curse on you!</l>
+        <l n="104">May the breads of the plows of the city be your bread!</l>
+        <l n="105">May the drainpipes of the city be your drink,</l>
+        <l n="106">the shadows of the wall your stations,</l>
+        <l n="107">the threshold your residence!</l>
+        <l n="108">May drunks and parched strike your cheek!”</l>
+        <l n="109">Ereškigal worked her mouth, saying,</l>
+        <l n="110">to Namtar, her minister, words speaking:</l>
+        <l n="111">“Go, Namtar, strike Egalgina!</l>
+        <l n="112">The thresholds adorn in coral stone!</l>
+        <l n="113">The Anunna bring out and on thrones of gold seat them!</l>
+        <l n="114">Ištar with water of life sprinkle and take her into(?) my presence!”</l>
+        <l n="115">Off went Namtar and knocked at Egalgina;</l>
+        <l n="116">the thresholds he decorated with coral stone;</l>
+        <l n="117">the Anunna he brought out and on thrones of gold sat them;</l>
+        <l n="118">Ištar with water of life he sprinkled and took her into(?) her presence;</l>
+        <l n="119">out of the first gate he brought her and returned to her the loincloth of her body;</l>
+        <l n="120">out of the second gate he brought her and returned to her her bracelets and anklets;</l>
+        <l n="121">out of the third gate he brought her and returned to her the girdle of birth-stones around her waist;</l>
+        <l n="122">out of the fourth gate he brought her and returned to her her breast pins;</l>
+        <l n="123">out of the fifth gate he brought her and returned to her the beads around her neck;</l>
+        <l n="124">out of the sixth gate he brought her and returned to her the earrings on her ears;</l>
+        <l n="125">out of the seventh gate he brought her and returned to her the great tiara on her head.</l>
+      </div>
+    </body>
+  </text>
+</TEI>

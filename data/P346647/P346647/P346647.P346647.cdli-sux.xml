@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346647.P346647.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x x [...]</l>
             <l n="2'">[... gur3]-ru ni2 gal TUG2 x x [...]</l>
             <l n="3'">[...] geš? gibil gu2 me-er-[...]</l>
@@ -52,8 +50,10 @@
             <l n="14'">[...] an? {d}en-lil2-la2-še3 sul ⸢{d}suen⸣ x x e2-kur-ta x [...]</l>
             <l n="15'">[...] ⸢eš3⸣ ⸢e2⸣-⸢kiš⸣-nu-⸢gal2⸣-še3!?(TUG2) x x mu-ni-in-x-[...]</l>
             <l n="16'">[... ga2]-nun#? ⸢mah⸣ [...] x x x ME x x [...]</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]</l>
             <l n="2'">[...] ⸢zi⸣ nam-⸢ti⸣-[...]</l>
             <l n="3'">en-an-na-e-du7 me-te [...]</l>
@@ -67,42 +67,9 @@
             <l n="11'">[...] ki#?-tuš nam-ti-la ša3 hul2? x [...]</l>
             <l n="12'">[...] x iti nam-he2 mu giri17-[zal ...] ša3 [...]</l>
             <l n="13'">[...]-⸢nun⸣ mah me ku3-ga#? [...] x [...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">Bearing a ... aura, wearing(?) a great aura ...</l>
-        <l n="3'">... flourishing sapling(?) ...</l>
-        <l n="4'">... towards/on behalf of the true(?) ...</l>
-        <l n="5'">...</l>
-        <l n="6'">... in/of the universe, the supreme vizier ...</l>
-        <l n="7'">... of Enlil, a name/year(s) ...</l>
-        <l n="8'">An(?) and Enlil ... to/for Suen, ...</l>
-        <l n="9'">Protective aegis(?) of the universe, authoritative(?) ušum creature, supremely singular(?) ...</l>
-        <l n="10'">Your vizier Alamuš, suited for justice like Utu ...</l>
-        <l n="11'">In the Ekišnugal, (possessing) the greatest(?) name, exalted(?) ...</l>
-        <l n="12'">May he (Alamuš?) serve you in the ... of the land, your eye/face ...</l>
-        <l n="13'">... your eye/face ... in heaven, ...</l>
-        <l n="14'">... towards/on behalf of(?) the ... of Enlil, the youth Suen ... from the Ekur ...</l>
-        <l n="15'">... towards(?) shrine Ekišnugal ...</l>
-        <l n="16'">... the supreme storehouse(?) ...</l>
-        <l n="1'">...</l>
-        <l n="2'">... breath of(?) life ...</l>
-        <l n="3'">Enannedu, appropriate one of ...</l>
-        <l n="4'">Ornament of(?) the Ekišnugal temple, pious one, who fears(?)...</l>
-        <l n="5'">May her(!?) head be raised (wearing) the crown of en-ship, ...</l>
-        <l n="6'">Her breath of life ... in the Ekišnugal temple, may? she(?) be an unwavering en priestess ...</l>
-        <l n="7'">Enannedu, en priestess, your free will offering/heart's desire(?) ..., in the manner of(?) ancient days</l>
-        <l n="8'">... en priestess, radiating light of heaven ... planned/paid attention to ...</l>
-        <l n="9'">Beloved of the heart, true word(?) ...</l>
-        <l n="10'">Enannedu, true en priestess, attentive ...</l>
-        <l n="11'">... dwelling(?) of life, rejoicing heart ...</l>
-        <l n="12'">... month of abundance, a year of joy(?) ... heart ...</l>
-        <l n="13'">... the supreme storehouse(?) ... the pure cosmic powers ...</l>
       </div>
     </body>
   </text>

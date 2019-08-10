@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -53,8 +50,10 @@
             <l n="15">[...]-ab igi-zu he2-in-ši-ku4</l>
             <l n="16">[...]-e#?-da-[...]-⸢ag2⸣</l>
             <l n="17">[...]-x</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...]-⸢ensi2⸣-[...] ⸢garza2⸣ nam-⸢garza2⸣-[...]</l>
             <l n="2'">[...]-⸢am3⸣ li-bi2-⸢ib⸣-[...]-ta-gub-bu</l>
             <l n="3'">[...] nu-un-hul</l>
@@ -67,41 +66,9 @@
             <l n="10'">⸢tukumbi⸣ ama-a-tu-gu10 za-e-me-en</l>
             <l n="11'">[...]-ne-ne im sar-ra ⸢gu3⸣ he2-em-ta-de2-de2-e</l>
             <l n="12'">[...] si-ge5 suhuš ma-da gi-en-gin6-ne</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">When you speak to Aradgu,</l>
-        <l n="2">thus says Shulgi, your king:</l>
-        <l n="3">Your man who I sent to ..., isn't he your trusted subordinate(?)</l>
-        <l n="4">Doesn't he take orders from your own hand?</l>
-        <l n="5">Why do have (you) not been aware of that which he has done, such as it is(?)</l>
-        <l n="6">I myself and that which is like me (my representatives/my instruction?) are to solidify the land</l>
-        <l n="7">To ..., to strengthen the foundations of the land</l>
-        <l n="8">Your (dissemination of the news that?) “I approach the cities of the land,” to ascertain its thoughts (i.e., reaction)</l>
-        <l n="9">One should learn the speech of the dignitaries</l>
-        <l n="10">My scream should cover the lands</l>
-        <l n="11">My might, the arms of my heroism should be cast continually into the land</l>
-        <l n="12">My “southern storm” should be imposed in the homeland</l>
-        <l n="13">Forget about the empty breezes of the plain and the robbers(?) of the field</l>
-        <l n="14">Until you reach(!?) Apliaša, my prefect</l>
-        <l n="15">Bring out your face/eye, so that you bring your face/eye towards him(?)</l>
-        <l n="16">I have ordered you</l>
-        <l n="1'">Governor(s) from the office of governor, office holder(s) from the practice of holding office</l>
-        <l n="2'">If he himself had not installed and removed them</l>
-        <l n="3'">If he had not killed or blinded(?) anyone</l>
-        <l n="4'">If a man is (not deemed) surpassing by that of his own observation</l>
-        <l n="5'">How could he establish the land?</l>
-        <l n="6'">If I(?) love him(?)</l>
-        <l n="7'">Your heart should not become a heart bound up (by wrath?) for him</l>
-        <l n="8'">You are “thick,” (you) do have not understood your own soldiers</l>
-        <l n="9'">You eyes have seen his manpower(?) and that of his heroism(?)</l>
-        <l n="10'">If you are my house-born slave</l>
-        <l n="11'">Your two eyes(?) shall read this inscribed tablet aloud</l>
-        <l n="12'">Come into agreement, establish the foundation of the land!</l>
       </div>
     </body>
   </text>

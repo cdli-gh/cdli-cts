@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000573, ex. 003</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346262</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346262.P346262.cdli-en" type="translation" xml:lang="en">
+        <l n="1">After you to my king, the speckled-faced/eyed one who wears a lapis beard,</l>
+        <l n="2">speak:</l>
+        <l n="3">To the golden statue born on a propitious day</l>
+        <l n="4">Pure zebu reared by the holy breast(?)</l>
+        <l n="5">My lord who is trusted by Inanna</l>
+        <l n="6">You, your intellect is that of a child of An</l>
+        <l n="7">Your command is divine, it is never again to be reversed</l>
+        <l n="8">Your word(s), like rain precipitating from the sky, (its) number is not to be ascertained</l>
+        <l n="9">It is Ursaga, your servant, who speaks (thusly)</l>
+        <l n="10">My king has (not) inquired after me, (even though) I am a citizen of Urim</l>
+        <l n="11">If it is amenable to(!) my king</l>
+        <l n="12">No one should carry off my patrimonial inheritance</l>
+        <l n="13">No one should deprive me of the foundation of my patrimonial inheritance</l>
+        <l n="1">My king should know of this!</l>
+      </div>
+    </body>
+  </text>
+</TEI>

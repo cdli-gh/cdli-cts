@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -37,6 +34,7 @@
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">x x x [...]</l>
             <l n="2'">[...] ma [...]</l>
             <l n="3'">x x-še3? im-mi#?-[...]</l>
@@ -51,9 +49,13 @@
             <l n="12'">[zi]-⸢de3⸣-eš x [...]</l>
             <l n="13'">x-e-eš#? [...]</l>
             <l n="14'">[...] x [...]</l>
+            <note>broken</note>
           </div>
-          <div n="2" type="textpart"/>
+          <div n="2" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="3" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x</l>
             <l n="2'">[...] mi-ni-x</l>
             <l n="3'">[...] ⸢dingir⸣-re-e-ne</l>
@@ -65,9 +67,11 @@
             <l n="9'">[...] x-aš?</l>
             <l n="10'">[...] x</l>
             <l n="11'">[...] x</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart"/>
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">x [...]</l>
             <l n="2'">ka2 x [...]</l>
             <l n="3'">nig2 da-⸢ri2⸣ [...]</l>
@@ -106,6 +110,7 @@
             <l n="36'">[...] x [...] ⸢mi⸣-ni-x</l>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] sag [...]</l>
             <l n="2'">{d}utu ⸢e3⸣-⸢gin7⸣</l>
             <l n="3'">u6 ⸢zi⸣-de3-eš he2-e</l>
@@ -146,6 +151,7 @@
             <l n="38'">[...] x x [...]</l>
           </div>
           <div n="3" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x [...]</l>
             <l n="2'">[...] x [...]</l>
             <l n="3'">[...] larsa{ki}-ma</l>
@@ -158,124 +164,9 @@
             <l n="10'">nun nir-gal2</l>
             <l n="11'">su3-ra2-še3</l>
             <l n="12'">⸢sag⸣ he2-il2</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">...</l>
-        <l n="4'">...</l>
-        <l n="5'">Larsa</l>
-        <l n="6'">Forever(?) ...</l>
-        <l n="7'">Its place ...</l>
-        <l n="8'">...</l>
-        <l n="9'">...</l>
-        <l n="10'">...</l>
-        <l n="11'">...</l>
-        <l n="12'">Faithfully(?) ...</l>
-        <l n="13'">...</l>
-        <l n="14'">(one column entirely missing)</l>
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">... of(?) the gods</l>
-        <l n="4'">...</l>
-        <l n="5'">The ancient/old plans, rites?</l>
-        <l n="6'">He inquired after</l>
-        <l n="7'">... and siskur rituals</l>
-        <l n="8'">He restored to their place</l>
-        <l n="9'">...</l>
-        <l n="10'">...</l>
-        <l n="11'">...</l>
-        <l n="1'">...</l>
-        <l n="2'">The gate ...</l>
-        <l n="3'">An everlasting thing ...</l>
-        <l n="4'">Larsa ...</l>
-        <l n="5'">Like a risen &lt;wave?&gt; ...</l>
-        <l n="6'">In(?) shrine Ebabbar</l>
-        <l n="7'">An (oracular) utterance</l>
-        <l n="8'">Utu ...</l>
-        <l n="9'">Shall make good for him</l>
-        <l n="10'">The great divine decree ...</l>
-        <l n="11'">Of(?) Nanna and Utu</l>
-        <l n="12'">Sîn-idinnam</l>
-        <l n="13'">Profoundly(?) ...</l>
-        <l n="14'">...</l>
-        <l n="15'">... greatness/a great fate(?) ...</l>
-        <l n="16'">Manifest among in the land</l>
-        <l n="17'">Forever</l>
-        <l n="18'">Your supreme name ...</l>
-        <l n="19'">...</l>
-        <l n="20'">Authoritative one, your(?) heroism is greatly suitable for battle</l>
-        <l n="21'">...</l>
-        <l n="22'">Goring the enemy like a wild bull</l>
-        <l n="23'">(Who then?) bow(?) towards your feet</l>
-        <l n="24'">...</l>
-        <l n="25'">Iškur, your god, decreed as a fate for you</l>
-        <l n="26'">...</l>
-        <l n="27'">He ... your(?) care until distant times</l>
-        <l n="28'">...</l>
-        <l n="29'">He ... the supreme scepter because of (your?) great destiny</l>
-        <l n="30'">The reputation of your scepter(?) ...</l>
-        <l n="31'">(In?) the days of(?) (your?) reign</l>
-        <l n="32'">In order to praise</l>
-        <l n="33'">The people continually rejoice for you</l>
-        <l n="34'">The people continually make merry(!?) for you</l>
-        <l n="35'">...</l>
-        <l n="36'">...</l>
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">May ... faithfully marvel/see ... like the risen sun</l>
-        <l n="4'">...</l>
-        <l n="5'">...</l>
-        <l n="6'">...</l>
-        <l n="7'">The youth Utu, the lord of the decisions of the universe, shall be your helper of affairs(?)</l>
-        <l n="8'">...</l>
-        <l n="9'">...</l>
-        <l n="10'">May the one greatly aware of news and advice look with his beautiful/good eye towards you</l>
-        <l n="11'">...</l>
-        <l n="12'">...</l>
-        <l n="13'">Your everlasting name, given by the tablets of Nisaba</l>
-        <l n="14'">...</l>
-        <l n="15'">On clay (tablets) may it never cease (in) (that of) the eduba'a school</l>
-        <l n="16'">...</l>
-        <l n="17'">...</l>
-        <l n="18'">...</l>
-        <l n="19'">...</l>
-        <l n="20'">(In) the eduba'a school, the ... shall pay attention to instruction(?)</l>
-        <l n="21'">...</l>
-        <l n="22'">...</l>
-        <l n="23'">...</l>
-        <l n="24'">The one who does not neglect his/her work, who perfectly executes the counting (of the proper number of lines?) and incising of the tablet(?)</l>
-        <l n="25'">...</l>
-        <l n="26'">...</l>
-        <l n="27'">And therefore afterwards Nisaba, the lady (possessing) cunning wisdom, will have given perceptiveness to him</l>
-        <l n="28'">...</l>
-        <l n="29'">...</l>
-        <l n="30'">And she will have bestowed upon him very beautiful handwriting, the alluring feature of the scribal art</l>
-        <l n="31'">...</l>
-        <l n="32'">...</l>
-        <l n="33'">...</l>
-        <l n="34'">...</l>
-        <l n="35'">Sîn-iddinam, your(?) beloved, the youth Utu, the ... of the black-headed, shall solidify the foundations of his(!) land for you</l>
-        <l n="36'">...</l>
-        <l n="37'">Sîn-iddinam, true ... of his land</l>
-        <l n="38'">...</l>
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">... of larsa</l>
-        <l n="4'">...</l>
-        <l n="5'">Your crafty intelligence is surpassing in the lands</l>
-        <l n="6'">...</l>
-        <l n="7'">You are the son possessed of noble strength of Iškur</l>
-        <l n="8'">...</l>
-        <l n="9'">...</l>
-        <l n="10'">...</l>
-        <l n="11'">...</l>
-        <l n="12'">The foremost of rulers, Sîn-iddinam, prince, authoritative one, shall therefore raise his head profoundly</l>
       </div>
     </body>
   </text>

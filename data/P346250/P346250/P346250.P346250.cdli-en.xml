@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0165</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346250</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346250.P346250.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Veteran(?) son of the scribal school, where are you going?</l>
+        <l n="2">I am going to the scribal school</l>
+        <l n="3">What(?) have (you) done at the scribal school?</l>
+        <l n="4">I tallied up (the lines to be entered on) my tablet, I ate my meal(?), I fashioned my tablet, I wrote it and finished it</l>
+        <l n="5">They assign my line assignment/passage for me</l>
+        <l n="6">Come to where I am, ...</l>
+        <l n="7">That which my master revealed (to?) me(?), I will reveal for you</l>
+        <l n="8">Like you (I) was a novice, one who had(?) a “big brother” mentor/supervisor</l>
+        <l n="9">From his instruction (only) the (foolish) novice passes by freely/forgetfully(?)</l>
+        <l n="10">Fear that is to scare(?) the (writing) hand, wearing(?) on my figure/trunk and limbs(?) in order to stand before him in the “place of prostration”</l>
+        <l n="11">In order to ameliorate the rage, to attend to(?) the anger</l>
+        <l n="12">I(?) did ... correctly for you</l>
+        <l n="13">When (I go) in the street with neck bowed to the ground</l>
+        <l n="14">Laughing(?) does not ...</l>
+        <l n="15">In order to humbly enter the house of my father</l>
+        <l n="16">... is before my father, mother, older brother, older sister, and female servant(!?)</l>
+        <l n="17">(With?) affirmed intention, in order that ... could be seen(!?) &lt;he instructed&gt;</l>
+        <l n="18">(At?) the eduba'a school, the learned scribe ... into my(!) hand(?)</l>
+        <l n="19">Within the tablets of Sumer and Akkad, I(?) grasped the scribal art</l>
+        <l n="20">My explicated 'sayings'(?), I am a scribe ...</l>
+        <l n="21">...</l>
+        <l n="22">The addition and subtraction of(?) tabulation, ...</l>
+        <l n="23">Reciprocals(?), multiplication, ...</l>
+        <l n="24">The arrangment of the short and long side of(?) a triangle (within) a square (? i.e., subdivisions of a square?)</l>
+        <l n="25">The semicircle, like(?) a trapezoid/right triangle(?)</l>
+        <l n="26">'I make the side consume side' (shape of a trapezoid), I(?) grasp their division</l>
+        <l n="27">Your bow(?), one side(?) to expand(?) a field(area?), to survey with the measuring line and measuring rod ...</l>
+        <l n="28">When I carry the ban measuring container(?) towards(?) the hidden places</l>
+        <l n="29">I? ..., establishing(?!) ... in the field</l>
+        <l n="30">... the height and depth of ...</l>
+        <l n="31">Raising a mud wall, ..., the daily task(?)</l>
+        <l n="32">The weaver ... wool</l>
+        <l n="1">Cattlepen, furrow, ...</l>
+        <l n="2">The building of a house (and?) a storehouse and brickpiles</l>
+        <l n="3">Subjugating (a workforce)(?) in order to dig a canal</l>
+        <l n="4">Raising dikes, putting down ditches</l>
+        <l n="5">I want to know how to complete the task skillfully(?)</l>
+        <l n="6">A 2nd time may my master ... and “establish”</l>
+        <l n="7">I am a scribe, one of the temple of Ninegala (i.e., Nungal, a prison?)</l>
+        <l n="8">The lady with whose possessions nothing compares</l>
+        <l n="9">She has covered those who do not raise a glance (in acknowledgement?)/did not muster scouts(?) with the šugal net</l>
+        <l n="10">...</l>
+        <l n="11">... stood ... in order to strike ...</l>
+        <l n="13">... in order to strike ...</l>
+        <l n="14">... in order to stand(?)</l>
+        <l n="15">The arrogant, indiscreet(?), boasting, self-important</l>
+        <l n="16">... circle towards ...</l>
+        <l n="17">... removed from you/me(?), ... rejoicing</l>
+        <l n="18">... the angry man should not speak unsuitable(?) ... to ...</l>
+        <l n="19">It is the ... of Ninegala</l>
+        <l n="20">... that which is present in(!?) the heart</l>
+        <l n="21">..., the man should have dignity</l>
+        <l n="22">... is very important and very good</l>
+        <l n="22">DUGUD in Gadd's UET 6 copy.</l>
+        <l n="23">... who(?) should/should not(?) place</l>
+        <l n="24">... should/should not(?) vocalize ...</l>
+        <l n="25">... shall vie with(?) ... in the palace(?)</l>
+        <l n="26">... an aura, unceasing strength</l>
+        <l n="27">It is the possession of the king</l>
+        <l n="28">... evil ... you are(?)</l>
+        <l n="29">It is you whose ... is set in order(?) for you</l>
+        <l n="30">...</l>
+        <l n="31">... my master, in order to write/foster(?) instruction</l>
+      </div>
+    </body>
+  </text>
+</TEI>

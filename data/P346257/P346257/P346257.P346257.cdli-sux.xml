@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -70,6 +67,7 @@
             <l n="31">⸢{geš}bar⸣-dili-bi {geš}apin-[...] ⸢u3⸣-bi2-ak tug2-⸢gur⸣-⸢ra⸣-ab</l>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">u4#? ⸢mul⸣ [...]</l>
             <l n="2'">u ⸢{geš#}apin⸣ x [...]</l>
             <l n="3'">{geš}al ⸢du3⸣-[...]</l>
@@ -145,114 +143,10 @@
             <l n="12">na de5 {d}nin-urta engar {d}en-lil2-la2</l>
             <l n="13">{d}nin-urta en dumu {d}en-lil2-la2-ke4</l>
             <l n="14">za3-mi2-zu du10-ga-am3</l>
+            <note>double ruling</note>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">The one who sows (since) ancient time was the one who instructed his son</l>
-        <l n="2">When you pass through the field</l>
-        <l n="3">Inspect the dikes, ditches, and/of the threshing floor(?) that are to be opened</l>
-        <l n="4">When you irrigate the field, its water (should) not rise (too high) in its midst</l>
-        <l n="5">When (the field) (re)emerges from the water</l>
-        <l n="6">Watch the wet patches of the field, after it has been fenced/reached the appropriate limit</l>
-        <l n="7">Do not let the suhub oxen trample it</l>
-        <l n="8">After you cut down the bundles (for reinforcement) and establish the suitable area (of) the field</l>
-        <l n="9">Ten (times) level it with a light hoe weighing two-thirds mana</l>
-        <l n="10">The alšub implement should cover up the oxen hoof (marks), may it sweep (the field clean)</l>
-        <l n="11">The utag tool should touch the places (of?) “narrow intake&quot;(?) for you</l>
-        <l n="12">The hoe should encircle the four edges of the field</l>
-        <l n="13">Until (the field) is dried, ... should be employing (the tools) together(?) for you</l>
-        <l n="14">The implements should be prepared (their bindings restored?) for you</l>
-        <l n="15">The equipment of your yoke should be bound for you</l>
-        <l n="16">May your new whip hang from a nail for you</l>
-        <l n="17">The handle bindings of your old whip</l>
-        <l n="18">The craftsmen should repair (! this ms.: “pray”!?) it for you</l>
-        <l n="19">The adze, chisel/drill, dur maul(?) and šumme saw, that which does/makes(??), your implements, your strength(?), should be constant(?) for you</l>
-        <l n="20">The leather thong, braiding lever, cover/wrapping, and whip should be at your disposal</l>
-        <l n="21">... (should) check your basket for you, you should strengthen your arms</l>
-        <l n="22">You should have what you require (for) the field in your house(?), do not neglect anything (pertaining) to your work</l>
-        <l n="23">The plow ox has acquired an extra ox for you</l>
-        <l n="24">The bond between oxen was made (sufficiently) slack</l>
-        <l n="25">The plow was made to have an extra plow</l>
-        <l n="26">The assignment(?) of 1 plow is 10 bur</l>
-        <l n="27">(When) it is eight bur, (re)build the wood(en) object(?)</l>
-        <l n="28">... will make ... for you according to what you are to toil(?)</l>
-        <l n="29">It is ... gur of barley that will be expended (for oxen feed)(?) in the 1 bur area</l>
-        <l n="30">After working the field (with) the bardili plow by means of the force of one seed plow</l>
-        <l n="31">After working the field (with) the bardili plow and the tugsig plow, use the tuggur plow</l>
-        <l n="1'">After the stars of heaven are appropriate (in the proper place)</l>
-        <l n="2'">Ten (times) the plow ...</l>
-        <l n="3'">The hoe should work everything for you</l>
-        <l n="4'">When you sow the field</l>
-        <l n="5'">Your plow should be marked/aligned</l>
-        <l n="6'">Lay down a ... on the kašu of your plow (to prepare it for seeding?)</l>
-        <l n="7'">Lay down your beam (with) a thin nail</l>
-        <l n="8'">Your boards/ears should be spread out, ... your furrow</l>
-        <l n="9'">Set up eight furrows per one ninda (of width)</l>
-        <l n="10'">The barley would have lodged in ... furrows</l>
-        <l n="11'">When you sow a field</l>
-        <l n="12'">Look (carefully) towards the one planting the barley seed</l>
-        <l n="13'">At a depth of two fingers, he should drop grain</l>
-        <l n="14'">He should set one gig of barley per one ninda</l>
-        <l n="15'">If the barley seed was not “incised/scratched in the stall”</l>
-        <l n="16'">Change your wedge(?) of the plowshare</l>
-        <l n="17'">If the bindings have slackened, reduce (i.e. tighten) the bindings</l>
-        <l n="18'">Where straight furrows were sown(?), sow “shepherd's crook” furrows</l>
-        <l n="19'">Where “shepherd's crook” furrows were sown(?), sow straight furrows</l>
-        <l n="20'">The straight furrow will not(!?) be ... with ... and ... edges(?) for you</l>
-        <l n="21'">Your twisted furrows should be straightened out</l>
-        <l n="22'">... the “unobstructed&quot;(?) furrows, ... the traversal furrows, and sow your “separated field”</l>
-        <l n="23'">Its brick(like?) clods should be collected for you</l>
-        <l n="24'">The blocking(?) deposits of the furrow should be beaten</l>
-        <l n="25'">The covering(?) deposits of(?) the furrow should be thinned out/weakened</l>
-        <l n="26'">Regarding the seedlings, it is good for you</l>
-        <l n="1">After the seedlings have split the ground</l>
-        <l n="2">Perform the rites of Ninkilim</l>
-        <l n="3">Turn away the bite of the locust</l>
-        <l n="4">When the barley exceeds the “narrow intake” of the furrow</l>
-        <l n="5">Water it with the water of the first seed</l>
-        <l n="6">When the barley stands in (the form of?) a reed mat, water it</l>
-        <l n="7">Water the ripe grain</l>
-        <l n="8">When the grain is filled with(?) offshoots, you should not water it, you would have(?) afflicted it in the manner of the samana disease</l>
-        <l n="9">When the grain has become suitable for dehusking, water it</l>
-        <l n="10">It(?) will acquire a profit of one sila grain for each ban</l>
-        <l n="11">When you are to harvest the grain, do not let the grain bend itself over (overripe)</l>
-        <l n="12">Harvest at that of its appropriate time</l>
-        <l n="13">There is one cutter(?) and two(!?) people to bind the barley sheaves</l>
-        <l n="14">And one who will “touch” the barley sheaves before him</l>
-        <l n="15">(They) are three, they should harvest for you</l>
-        <l n="16">Your grain gatherers should not break(?) the barley</l>
-        <l n="17">They(!?) are not to split apart the barley of the stacks of sheaves</l>
-        <l n="18">Your work of the day, when the day is young (i.e. at dawn)</l>
-        <l n="19">The force of your “little ones” and your grain gatherers</l>
-        <l n="20">Store/gather its number(?), lay down (the grain) in the manner of sheaves</l>
-        <l n="21">Your work should be executed with care</l>
-        <l n="22">After having old grain (for so long before the harvest?)</l>
-        <l n="23">Do not have someone thresh the barley for your eating(?)</l>
-        <l n="24">Give your barley sheaves a rest</l>
-        <l n="25">The rites of the barley sheaf should be performed for you daily</l>
-        <l n="26">When you bring up the barley (for transportation)</l>
-        <l n="27">Set your paths in order</l>
-        <l n="28">...</l>
-        <l n="29">...</l>
-        <l n="30">...</l>
-        <l n="1">The leather (straps) that bind together the teeth of your threshing sledge should be coated with bitumen for you</l>
-        <l n="2">When your oxen ..., the ones threshing the grain (by sledge) should stand for you (by their own?) strength</l>
-        <l n="3">When he ... the barley</l>
-        <l n="4">Perform the rites of grain that is not winnowed (impure grain)</l>
-        <l n="5">When you are to bring up(!?) the barley</l>
-        <l n="6">When you are to have someone who is to bring up(!?) the barley</l>
-        <l n="7">Station an intelligent person (in the role of) standing “below” (winnowing/bringing up(!?)) the barley</l>
-        <l n="8">Three grain movers(?) should be stationed there for you</l>
-        <l n="9">Lay your winnowed grain down for the (measuring) stick</l>
-        <l n="10">Perform the rites of its evening and night</l>
-        <l n="11">When it is midday, spread out the grain</l>
-        <l n="12">The instruction of Ninurta, the farmer of Enlil</l>
-        <l n="13">Ninurta, lord, son of Enlil</l>
-        <l n="14">Your praise is sweet</l>
       </div>
     </body>
   </text>

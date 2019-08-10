@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0024</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346109</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346109.P346109.cdli-en" type="translation" xml:lang="en">
+        <l n="2'">... prowled(?)</l>
+        <l n="3'">... struck(?)</l>
+        <l n="4'">... they are ...</l>
+        <l n="5'">... they are striking</l>
+        <l n="6'">I/you sit in the dust</l>
+        <l n="7'">... may ... turn ...</l>
+        <l n="8'">... seized ... together(?), ... was crying out bitterly(?)</l>
+        <l n="9'">... bloodily/towards the standard(?)</l>
+        <l n="10'">Give(?) ...</l>
+        <l n="11'">Give(?) ...</l>
+        <l n="1'">When ... entered, (he said?) “... I want to cast fire”(?)</l>
+        <l n="2'">When ... entered, he snatched away the ... of the shepherd</l>
+        <l n="3'">When ... entered, ..., his face sickened/darkened(?)</l>
+        <l n="4'">When ... entered, he tore away ... from his ..., (his) features were changed</l>
+        <l n="5'">When ... entered, (saying?) “... do not carry a billy goat”</l>
+        <l n="6'">When ... entered, ... left the sheep shed</l>
+      </div>
+    </body>
+  </text>
+</TEI>

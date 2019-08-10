@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000381, ex. 011</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346228</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346228.P346228.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">Teeming ..., fruit ...</l>
+        <l n="3'">... covered(?) like a garment</l>
+        <l n="4'">... threw ... into confusion there(?) ...</l>
+        <l n="5'">..., its front/face/eye ...</l>
+        <l n="6'">... shook ..., the god of the land ...</l>
+        <l n="7'">... shook, ...</l>
+        <l n="8'">... dark ... the people ...</l>
+        <l n="9'">Enlil ... an evil ..., ... its booty</l>
+        <l n="10'">The citizens of Nippur, like caught birds, he ... in his hand</l>
+        <l n="11'">like dogs, he put yokes on the necks of its people</l>
+        <l n="12'">Enlil changed the settlement of Nippur, ...</l>
+        <l n="13'">Towards the Ekur, he cut ..., no one entered? towards him</l>
+        <l n="14'">The lamma and alad/šedu(?) spirits of the temple went out, the ukuku bird, the bird of despair, made its nest there</l>
+        <l n="15'">Enlil made the enemy look at(?) his city Nippur, his city that was no more</l>
+        <l n="16'">And therefore he terrified the Ekur, the dwelling, the temple ...</l>
+        <l n="17'">He frowned at the holy shrine, the inner sanctum of his divinity, behind him ...</l>
+        <l n="18'">Enlil was destroying ..., ...</l>
+        <l n="19'">The city threw itself over, the lands ...</l>
+        <l n="20'">The door of the Ekur temple ... covered, its bolt ...</l>
+        <l n="21'">His property ...</l>
+        <l n="22'">Enlil ... the city</l>
+        <l n="23'">Enlil ...</l>
+        <l n="24'">...</l>
+        <l n="1'">...</l>
+        <l n="2'">The “gate where grain is not cut/diverted” (gate of the Ekur complex) ...</l>
+        <l n="3'">Enlil ...</l>
+        <l n="4'">His fertile field ...</l>
+        <l n="5'">The well and orchard that did not bear fruit, Enlil ...</l>
+        <l n="6'">He ... the rain of heaven</l>
+        <l n="7'">The wild and domestic herds of Sumuqan ... in a state of non-eating they came to an end(?)</l>
+        <l n="8'">The intake of the Tigris and Euphrates was blocked(?), the carp flood ... its spring</l>
+        <l n="9'">All the smaller waterways filled up with silt, the banks ...</l>
+        <l n="10'">A watch was set on the broad sea, in the marsh the fish ...</l>
+        <l n="11'">The libir demon/policeman(?) ... on the paths and roads</l>
+        <l n="12'">The highway traveler did not relax, ...</l>
+        <l n="13'">Enlil stood open the door at the gate of his city (open) in the wind(?), at(?) the gate of the lands, ... the door</l>
+        <l n="14'">He brought(?) the impure person(?) into Nippur, no one could ... clear water</l>
+        <l n="15'">You abandoned ..., its people ...</l>
+        <l n="16'">... lay fasting</l>
+        <l n="17'">... sat down(?) and wept ...</l>
+        <l n="18'">... on account of his ... a pained cry ...</l>
+        <l n="19'">It is the nth kirugu</l>
+        <l n="20'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

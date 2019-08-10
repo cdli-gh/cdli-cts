@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000364, ex. 058</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346526</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346526.P346526.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">You should not kiss your beloved son</l>
+        <l n="2'">You should not pelt your hated son</l>
+        <l n="3'">The complaint of the netherworld would seize you</l>
+        <l n="4'">For the recumbent one, for the recumbent one</l>
+        <l n="5'">For hero(?) Ninazu, the recumbent one</l>
+        <l n="6'">...</l>
+        <l n="7'">...</l>
+        <l n="1'">...</l>
+        <l n="2'">Where will ... be brought to (how will ... succeed?) ...</l>
+        <l n="3'">Because of my uttered words, ... does not ... weeping</l>
+        <l n="4'">If I tell you about the regulations of the netherworld</l>
+        <l n="5'">You must sit and weep, and I shall sit and weep</l>
+        <l n="6'">The penis that ... has “planted&quot;(?), by which you have pleased your libido</l>
+        <l n="7'">Like the wood of a dilapidated house(?), it is infested by parasites(?)</l>
+        <l n="8'">Having said “where is the vagina? I shall go to her”</l>
+        <l n="9'">(That) vagina is filled with dust like a crevice</l>
+        <l n="10'">The lord said “alas” and sat in the dust</l>
+        <l n="11'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

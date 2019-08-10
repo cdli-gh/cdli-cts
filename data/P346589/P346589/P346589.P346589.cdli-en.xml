@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000380, ex. 050</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346589</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346589.P346589.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">So that its people do not dwell in their dwelling, so that they are given into enemy territory</l>
+        <l n="3'">So that Šimašgi and Elam, the destructive people, dwell in their dwellings</l>
+        <l n="1">So that the enemy seizes its shepherd in his very own palace</l>
+        <l n="2">So that Ibbi-Sîn is brought to the land of Elam in a {geš}bur trap/restraint</l>
+        <l n="3">From the sand dunes of Zabu on the shore of the sea to the border of Anšan</l>
+        <l n="4">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

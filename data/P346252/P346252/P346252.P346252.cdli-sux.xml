@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -85,56 +82,6 @@
             <l n="24">⸢e2⸣ ⸢a⸣-⸢ša3⸣ {geš#?}[kiri6 ...]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Young man, are you a student of the eduba'a? (Yes,) I am a student of the eduba'a</l>
-        <l n="2">If you are a student of the eduba'a</l>
-        <l n="3">Do you know Sumerian?</l>
-        <l n="4">I can converse by means of Sumerian</l>
-        <l n="5">... (if) you are young/junior, how can you converse in/translate your ...</l>
-        <l n="6">If I hear that of the mouth of my master once or twice</l>
-        <l n="7">I can repeat that speech (lit. answer) for you</l>
-        <l n="8">(But even) if your reproduction of that is present, what will you write?</l>
-        <l n="9">If you(?) inquire after that which I write (you will find out that)</l>
-        <l n="10">... my dwelling in the eduba'a ... could not have been less than three months(?)</l>
-        <l n="11">... of Sumer and Akkad, from the “syllable alphabet(s)” a-a (Syllable Alphabet B) and me-me (Syllable Alphabet A)</l>
-        <l n="12">To ... (I) counted out (the number of lines in a given manuscript?) and (I) wrote</l>
-        <l n="13">From the various entries/names of (the personal name list) Inanna</l>
-        <l n="14">Until “the animals of the steppe” (commentary or perhaps the ur5-ra list of animals) to the end of “person” (=) “he” (the lexical list lu2 = ša), (I) wrote</l>
-        <l n="15">I can find their signs</l>
-        <l n="16">Thus I explain their writings and solutions</l>
-        <l n="17">Follow me (lit. seize behind me)</l>
-        <l n="18">I cannot block anything for you</l>
-        <l n="19">And the (extract of) the professions list lu2 = šu that was assigned to me on my “hand tablet”</l>
-        <l n="20">I(?) can produce a sequence of six hundred entries</l>
-        <l n="21">The account of my days residing in the school are established</l>
-        <l n="1">My idle days are three days per month</l>
-        <l n="2">The various festivals are three days per month</l>
-        <l n="3">In the midst (of what remains) in the month there are 24 days</l>
-        <l n="4">My dwelling in the school is not (measured with) deductible days</l>
-        <l n="5">In each single day, my master (requires) that I produce my nigsuru assignment(?) 4 times</l>
-        <l n="6">The account having been established, my knowledge of the scribal art is not taken away(?)</l>
-        <l n="7">Now I can apply myself(?) to the contents of tablets, to multiplication tables and calculations(?)</l>
-        <l n="8">The scribal art, putting entries (in their context)(!?), without(?) nigsuru assignments(?) ...</l>
-        <l n="9">My master, speaking pleasantly, (his) prayer (on my behalf!?)</l>
-        <l n="10">(His) treating (me) as a colleague, it is something that is to make the heart rejoice</l>
-        <l n="11">I know my scribal art</l>
-        <l n="12">I do not restrict ... concerning anything</l>
-        <l n="13">My master selects one sign</l>
-        <l n="14">From my memory I add one or two (more)</l>
-        <l n="15">At the agreed point, after I reside (there)</l>
-        <l n="16">Regarding the Sumerian language, the scribal art, (its) content, counting and accounting(?)</l>
-        <l n="17">I equal you</l>
-        <l n="18">I (would) converse with you by means of Sumerian</l>
-        <l n="19">But (even) if it (the option of my answering!?) is present(?), on account of the fact that Sumerian is obscure for you</l>
-        <l n="20">I shall go to write a tablet (instead)</l>
-        <l n="21">The tablet of one gur of barley until 600 gur of barley (metrological table)</l>
-        <l n="22">The tablet of one gin silver until 10 mana of silver (metrological table)</l>
-        <l n="23">Partnership (model contracts), so that one can choose (to include) the inspection of a one gun amount (of silver)</l>
-        <l n="24">Purchasing a house, field, orchard, or male or female slave (model contracts)</l>
       </div>
     </body>
   </text>

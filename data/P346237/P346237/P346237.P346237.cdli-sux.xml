@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -50,6 +47,7 @@
             <l n="12">tukumbi ni2-gu10 ba-ab-⸢bulug5⸣</l>
             <l n="13">ni2 bulug5-e-de3-⸢e⸣ la-ba-ab-du-⸢e⸣-[...]</l>
             <l n="14">ni2 bulug5-e-de3 la-ba-ab-du-⸢e⸣-[...]</l>
+            <note>double ruling</note>
             <l n="15">en-na-bi-še3-am3 ga2-e KA-inim-ma x x [...]</l>
             <l n="16">a-da-lam eš2-gin7 in-tar-re-en a2-⸢ga2⸣ [...]</l>
             <l n="17">zilulu sipa ša3-gal-⸢na⸣ [...]</l>
@@ -58,15 +56,18 @@
             <l n="20">an-[ta ...]</l>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">⸢ukur3⸣ [...]</l>
             <l n="2'">giri17-zal-[...]</l>
             <l n="3'">lu2-hun-[ga2 ...]</l>
             <l n="4'">u3 za-e [...]</l>
+            <note>double ruling</note>
             <l n="5'">in#? x [...]</l>
             <l n="6'">gu3 de2-[de2 ...]</l>
             <l n="7'">mah-bi#!? [...]</l>
             <l n="8'">dim2-ma [...]</l>
             <l n="9'">ma-ni-[...]</l>
+            <note>double ruling</note>
             <l n="10'">ug3-e x-[...] x [...]</l>
             <l n="11'">šu dag-⸢dag⸣-[ge ...]</l>
             <l n="12'">e2 lu2-u3-⸢ne⸣ [...]</l>
@@ -74,45 +75,6 @@
             <l n="14'">inim gaba-ri-[...]</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">In our city, the poor and the rich take the omens(?) together</l>
-        <l n="2">As for you, when you possess things, they cover (you) as a garment</l>
-        <l n="3">But when you do not possess things, you(?) wear no garment at all</l>
-        <l n="4">(Whatever) is yours, you attach it (to yourself)</l>
-        <l n="5">The “pointed&quot;(?) man and the “existing&quot;(?) man are praised ...</l>
-        <l n="6">You yourself are praised</l>
-        <l n="7">(But) if you yourself are praised</l>
-        <l n="8">You(?) are not suitable(?) for praising</l>
-        <l n="9">You(?) are not suitable(?) for praising</l>
-        <l n="10">Do not boast, indeed, you have no limit (i.e., control)</l>
-        <l n="11">Lost (one), who is not found!</l>
-        <l n="12">If I have boasted</l>
-        <l n="13">I am not suitable(?) for boasting</l>
-        <l n="14">I am not suitable(?) for boasting</l>
-        <l n="15">How long must I be quarreling with you(!?) in these subjects(?)</l>
-        <l n="16">Now, I cut you like a rope(?), I hang you from my arm</l>
-        <l n="17">Peddlar, shepherd of his own sustenance</l>
-        <l n="18">Gir fish of the sea who thins its head out by itself/denigrates itself?</l>
-        <l n="19">Liar, rider of a distant country</l>
-        <l n="20">I will cut you from above like a rope(?)</l>
-        <l n="1'">Poor person, thief, transgressor of the oath</l>
-        <l n="2'">Who joyfully serves (among) the slaves</l>
-        <l n="3'">Hireling, taboo of the temple</l>
-        <l n="4'">And you are my opponent?</l>
-        <l n="5'">...</l>
-        <l n="6'">Shouter, croaker among the singers</l>
-        <l n="7'">Eating a great deal, with the sustenance having a destructive effect(?)</l>
-        <l n="8'">(Possessor of) a confused intellect, with malevolent counsel</l>
-        <l n="9'">You advise</l>
-        <l n="10'">The people are diminished(?) (because of you?), the people are diminished(?) (because of you?)</l>
-        <l n="11'">Roamer who prowls in the street</l>
-        <l n="12'">Casing out the houses of men (until) you know the ways of that house (in order to rob it)</l>
-        <l n="13'">Weakling, child reared in toil</l>
-        <l n="14'">(As if) you can posit the word of an opponent</l>
       </div>
     </body>
   </text>

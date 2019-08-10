@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -48,6 +45,7 @@
             <l n="10">ur-sag gal ur-sag ug5-ga-za</l>
             <l n="11">u3-mu-un a-a-ni-gin7 du11-ga-ni nu-kur2-ru na-ag2 nu-um-mi-tar</l>
             <l n="12">[...]-e {na4}u2-e gu3 ba-de2-e in-ti bi2-ib2-ku-kur</l>
+            <note>double ruling</note>
             <l n="13">en#? ib2-ba kalam-ma inim mu-na-ni-ib-be2</l>
             <l n="14">[{d}]nin-urta en dumu {d#}en-lil2-la2-ke4 aš2? im-mi-ib2-sar-re</l>
             <l n="15">{na4#}u2 kur-ra ⸢ma⸣-an#?-zi-⸢ge⸣-en-na-gin7</l>
@@ -68,47 +66,12 @@
             <l n="13">⸢en⸣-me-⸢en⸣ {na4}gug me-re-kul-la-za mu-bi he2-še21</l>
             <l n="14">⸢i3⸣-ne-eš nam tar-ra {d}nin-urta-ka</l>
             <l n="15">u4-da {na4}u2 ub-tag {na4}gug buru3-da ur5 he2-en-na-nam-ma</l>
+            <note>double ruling</note>
             <l n="16">⸢ur⸣-⸢sag⸣-e {na4}šu-u {na4}ka-⸢sur⸣-ra-⸢ke4⸣ gu3 im-ma-de2-⸢e⸣</l>
             <l n="17">[en-e a ri-a] bi2#?-[ib2-šid-de3]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">The mountain shall make the livestock teem for you</l>
-        <l n="2">The mountain range shall make the quadrupeds proliferate for you</l>
-        <l n="3">You, a lady with whose cosmic powers no other cosmic powers compare, who wears a furious/reddish aura like heaven</l>
-        <l n="4">Digirmah, who hates excessive speech</l>
-        <l n="5">The true lady, Ninhursag, the young woman</l>
-        <l n="6">Nintur, who ... when it cools (in the evening?)</l>
-        <l n="7">Draw near(?), lady, I(!) have given you supreme cosmic powers so that you shall be exalted/shall wield them</l>
-        <l n="8">True lady(!?), her cosmic powers surpass (other) cosmic powers, lady, “carpenter of the womb”</l>
-        <l n="9">Aruru, the elder sister of Enlil, stood at his front</l>
-        <l n="10">&quot;Great hero, when you killed the hero</l>
-        <l n="11">Lord, who like his father his utterance cannot be changed, you have not (yet) decreed a fate”</l>
-        <l n="12">The lord was speaking to the emery stone, he was wishing for/observing (its) path(?)</l>
-        <l n="13">In the homeland, the angry lord(?) spoke a word to him</l>
-        <l n="14">Ninurta, lord, son of Enlil was cursing him</l>
-        <l n="15">Emery stone, you who (the Asag) mustered against me in the mountain</l>
-        <l n="1">As one who seized ... in order to render/place my hands(?) ...</l>
-        <l n="2">As one who swore to commit(?) my murder</l>
-        <l n="3">As one who terrified me, lord Ninurta, in my own supreme dwelling</l>
-        <l n="4">Mighty one, youth possessed of form, your surpassing(ness) and you stature shall be diminished</l>
-        <l n="5">Leopards that rely on their strength shall tear you up</l>
-        <l n="6">The powerful one shall accept a test of strength(?) (with you)</l>
-        <l n="7">Young man emery, your brother(s) shall heap you like flour</l>
-        <l n="8">You, young man, your shout shall be present and tremble(!?), (but) it shall end(?)</l>
-        <l n="9">You shall raise a hand (violently) against your offspring, show the teeth against their corpses!</l>
-        <l n="10">Like a great bull killed by many men/a slaughterer(?), make (yourself) into/set (yourself) apart as(!?) something divided into shares(?)</l>
-        <l n="11">Emery, by means of(?) the weapon dog, away from battle,</l>
-        <l n="12">like something chased away by the junior shepherd</l>
-        <l n="13">I am the lord, (you) shall be named according to(?) your having pecked at/demolished(?) carnelian</l>
-        <l n="14">Now, (this) is the decreed fate of Ninurta</l>
-        <l n="15">Today (and henceforth), when emery touches (another stone), it will be in order to perforate carnelian, thus it is so!</l>
-        <l n="16">The hero was speaking to the šu'u and gasura stones</l>
-        <l n="17">...</l>
       </div>
     </body>
   </text>

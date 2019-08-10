@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -123,100 +120,10 @@
             <l n="38">šegx(|IM.A|) an-ta a-eštub idim-ta he2-en-na-ge-en</l>
             <l n="39">e2-gal zi su3-u4 gal2 he2-en-da-ab-si</l>
             <l n="40">{d}ri-im-{d}suen lugal-gu10</l>
+            <note>double ruling</note>
             <l n="41">šu-nigin2 1(geš2){+šu-ši} 2(u) 5(diš) mu-ni igi duh-a lugal</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">..., suitable for the holy cleansing ritual</l>
-        <l n="2">Rīm-Sîn, išib priest of An, suitable for the pure siskur offering/ritual</l>
-        <l n="3">Your ..., chosen in/by means of the pure ..., the one raised towards the lordship of the land</l>
-        <l n="4">The one whose shepherdship was established upon the black-headed people</l>
-        <l n="5">(Whose) nose rope that solidifies the land was made to fill his hand</l>
-        <l n="6">(Whose) crook moves the people and animals, attached to his shoulder</l>
-        <l n="7">If he is able to serve you, he should have made everything satisfactory involving(?) his hand purification</l>
-        <l n="8">The cream/milk(!?) of Ezina(?), sweet-scented, the abundance of the land</l>
-        <l n="9">The plenty of the pasture, unceasing abundance</l>
-        <l n="10">(10) “Manifest”(?) liquor and wine</l>
-        <l n="11">Sweet emmer beer, mixed by pure arms/mixed with pure water(?)</l>
-        <l n="12">Red beer(?) pure hands ..., the drink of your en priesthood</l>
-        <l n="13">Marked (i.e., choice(?)) beer(?), superb beer, suitable for your pure hands</l>
-        <l n="14">White/dry? honey , your gift(?) that was brought down from the mountain range</l>
-        <l n="15">Butter of a pure cow and ghee, the symbol of princeliness</l>
-        <l n="16">Filtered vegetable oil, first quality clear fine oil</l>
-        <l n="17">Yellowed milk, the symbol of(?) the cattlepen, the dining hall of your divinity</l>
-        <l n="18">Your attentive youth, your beloved king</l>
-        <l n="19">Shepherd Rīm-Sîn, who is to bring and make permanent (these offerings) on behalf of his life</l>
-        <l n="20">At the holy “royal standing place”, which is appropriate for the šita prayer/vessel/priest(?), he shall libate the siskur offerings/rites that make the heart rejoice</l>
-        <l n="21">The pure food, this food (for) eating(?), the pure water, this water (for) drinking?</l>
-        <l n="22">Accept your ... first-fruit offering by means of your joyful heart</l>
-        <l n="23">Consent to his arazu prayer, so that you trust him</l>
-        <l n="24">Humbly he makes his speech pleasant to you/prays, (so) order (his) life!</l>
-        <l n="25">Faithfully ... in the holy “standing place of the en functionary,” the supreme “standing place of the en functionary”</l>
-        <l n="26">Initiate a greeting at his station</l>
-        <l n="27">His kingship shall ... before you forever</l>
-        <l n="28">He shall be foremost ...</l>
-        <l n="29">By means of(?) ..., which, like the universe(?), cannot be scattered</l>
-        <l n="30">(10) ... shall ... the ... of the many people</l>
-        <l n="31">Your(?) (personal) god and goddess(?) like(?) ... shall pay attention to his speech</l>
-        <l n="32">According to his command, they shall sit (in assembly?)</l>
-        <l n="33">Life and pardon/repaid life(?) shall be brought there</l>
-        <l n="34">He shall make the people rejoice</l>
-        <l n="35">At that time he (Rīm-Sîn) shall their true provider</l>
-        <l n="36">His furious aura shall cover kings that hate him like a heavy fog</l>
-        <l n="37">He shall bring everything that is good (to him) as a mašdaria delivery</l>
-        <l n="38">The true shepherd Rīm-Sîn looks(?) to you like his(?) personal god(?)</l>
-        <l n="39">Set in place his loving of life (as) his lot</l>
-        <l n="40">(10) Bestow a rejoicing heart (upon him), so that (his face?) shines like the sun</l>
-        <l n="41">... prays to you, hear his šud prayer</l>
-        <l n="42">When he is to make his speech (to you) pleasant(?), sustain his life</l>
-        <l n="43">If he trusts ..., he shall have no rival</l>
-        <l n="44">(If) he strokes his nose (in submission) to you(?), allocate (a reign of) distant days</l>
-        <l n="45">In the ... of his life(?) ... kingship</l>
-        <l n="1">... his speech/when he speaks(?) ... shall be a treasure</l>
-        <l n="2">... his ... rejoicing</l>
-        <l n="3">Repaid/avenged ... lion ... shall drive ... from .... towards(?) ...</l>
-        <l n="4">May (you) examine(?) his plea</l>
-        <l n="5">Give(?) ... your ..., life ...</l>
-        <l n="6">Your holy word shall bring life(?) ...</l>
-        <l n="7">... towards his raised hands (in prayer), decree him a good fate</l>
-        <l n="8">So that life, like beer(?) ... shall be sweetened in the ... of his land</l>
-        <l n="9">Make the four corners of the world bow to his feet, so that he is their king/how he shall be their king(?)</l>
-        <l n="10">..., having laid down in the meadows</l>
-        <l n="11">... spends time rejoicing</l>
-        <l n="12">The ... ruler, your obedient king who is present on your behalf</l>
-        <l n="13">Rīm-Sîn, named by lord Dilimbabbar</l>
-        <l n="14">Make distant the days of his reign, ... his life(?)</l>
-        <l n="15">(10) A true and supreme tiara ...</l>
-        <l n="16">... his life, ...</l>
-        <l n="17">Your(!?) throne, ..., may its foundations(?) be firm</l>
-        <l n="18">May the exuberance of a (mood typified by a) pleased liver and brightened heart fill his(?) heart</l>
-        <l n="19">... shall be well</l>
-        <l n="20">Entrust a scepter of justice ... to his hand, so that the many people ...</l>
-        <l n="21">... shining light ... for him</l>
-        <l n="22">Give him a month of happiness and rejoicing as a gift</l>
-        <l n="23">Bestow upon him an assortment/multitude of(?) years, as inexhaustible as the stars of blue heaven</l>
-        <l n="24">May he exercise the kingship, a reign of rejoicing, forever</l>
-        <l n="25">(10) May the king, the faithful provider, live</l>
-        <l n="26">May Rīm-Sîn, the faithful provider, live</l>
-        <l n="27">May his kingship be made pleasing in your flesh</l>
-        <l n="28">Make the days of his life extensive</l>
-        <l n="29">Give to him the overlordship of restoring the (cultic) places of the land</l>
-        <l n="30">Sweeten the heart of the land for him, set the paths of the land in order for him</l>
-        <l n="31">Put the voice of the land in unison/the land in agreement for him</l>
-        <l n="32">So that Rim-Suen, your obedient-hearted shepherd, lives</l>
-        <l n="33">May its canal irrigate water for him</l>
-        <l n="34">In the field may barley grow for him</l>
-        <l n="35">(10) May the irrigated orchard bring syrup and wine for him</l>
-        <l n="36">May the swamp pile up fishes and birds joyfully/in a swollen state for him</l>
-        <l n="37">In the holding pen may the ram(?) and the ox(?) teem for him</l>
-        <l n="38">May rain from above and the carp-flood from the (river) source be constant for him</l>
-        <l n="39">May (his) palace fill him/be filled with possession of a long life</l>
-        <l n="40">Rīm-Sîn, my king!</l>
-        <l n="41">Total: 85 (are) its(!) lines, viewed by the king/(for the) seeing (of Nanna?) by the king(?).</l>
       </div>
     </body>
   </text>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000733, ex. 010</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346621</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346621.P346621.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">Taking counsel in the place filled with awe(?) by the day/sunlight</l>
+        <l n="2'">Taken care of by the mountain by means of the oil of abundance(?)</l>
+        <l n="3'">One (possessing) great wisdom, sired by the Great Mountain (Enlil)</l>
+        <l n="4'">True lady, the supreme scribe of An, the land recorder of Enlil</l>
+        <l n="5'">Wise and attentive one of the gods</l>
+        <l n="6'">In order to make ... barley and flax grow in the furrows(?)</l>
+        <l n="7'">In order to admire/see the grain goddess Ezina of lordship</l>
+        <l n="1'">When he builds the Abzu of Eridu</l>
+        <l n="2'">When he takes counsel at the Halankug shrine</l>
+        <l n="3'">When he hews the temple of taškarin wood</l>
+        <l n="4'">When the abgal functionary lets loose his outer hair</l>
+        <l n="5'">When he lives (within) the marked foundation(?) of fresh cedar</l>
+        <l n="6'">When he stands the door of wisdom (open) in the street</l>
+        <l n="7'">When he (uses) the šita mace made of date palm(?) perfectly(?)</l>
+        <l n="8'">When he beats the ba garment against(?) the šita mace</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -37,12 +34,17 @@
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart"/>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x UŠ TUG2 [...]</l>
             <l n="2'">[...] x gal2-la x [...]</l>
             <l n="3'">[...] x [...]</l>
+            <note>broken</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>broken</note>
+          </div>
           <div n="1'" type="textpart">
+            <note>broken</note>
             <l n="1'">dingir-⸢gu10⸣ [...]</l>
             <l n="2'">guruš zu#? x si zu ha-lam-ma!-⸢bi⸣ a x x x [...]</l>
             <l n="3'">ukken-e nu#?-silig? dugud-bi ⸢muru9⸣-gin7#? ugu#?-gu10#? [...]</l>
@@ -54,27 +56,14 @@
             <l n="9'">⸢dingir⸣-ra-ni ⸢šu⸣ ba-an-[...]</l>
             <l n="10'">⸢guruš⸣-e inim a-ar2-zu#? am3-mi-ni#?-x-[...]</l>
             <l n="11'">x ku3-ug2 su2 dingir-⸢re⸣-e-⸢ne⸣-ke4#? i3 li#?-[...]</l>
+            <note>broken</note>
           </div>
-          <div n="2'" type="textpart"/>
+          <div n="2'" type="textpart">
+            <note>broken</note>
+            <note>space blank</note>
+            <note>broken</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="1'">My god, after you made my eyes know(?) my ... and sin</l>
-        <l n="2'">The young man ... the forgetting/destruction(?) of ...</l>
-        <l n="3'">In the assembly/the assembly(?), unceasing(ly)(?), heavily(?) like(?) a rain cloud rains(? my sins?) upon me(?)</l>
-        <l n="4'">May my tears ... my compassion and mercy (i.e. for me)(?)</l>
-        <l n="5'">(For) me, who is a youth, may your pure heart ... my compassion and mercy (i.e. for me)</l>
-        <l n="6'">(For) me, who is a youth, your heart which is a floodwave exuding an aura returns to its (former) place</l>
-        <l n="7'">His god heard the bitter weeping the man</l>
-        <l n="8'">His true word, his holy word, his ...</l>
-        <l n="9'">His god accepted</l>
-        <l n="10'">The youth brought out(?) the words of an arazu prayer(?)</l>
-        <l n="11'">On the body of the gods(!) the holy ... was spread like fine oil</l>
       </div>
     </body>
   </text>

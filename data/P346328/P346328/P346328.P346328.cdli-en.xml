@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000621, ex. 004</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346328</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346328.P346328.cdli-en" type="translation" xml:lang="en">
+        <l n="1">If a man is without a personal god</l>
+        <l n="3">You will neither be increased nor diminished</l>
+        <l n="4">(While) passing through the water(?) in the river, a fish has not passed by(?)</l>
+        <l n="5">(While) passing through his field, a gazelle has not passed by(?)</l>
+        <l n="6">The ritual arrangement(?) has not occurred regularly(?)</l>
+        <l n="7">Great judgments(?) have not occurred regularly</l>
+        <l n="8">If “that of his god” is approval(?)</l>
+        <l n="9">Anything that is named is given approval(?)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

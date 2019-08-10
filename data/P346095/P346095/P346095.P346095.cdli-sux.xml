@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346095.P346095.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1.a'">[...]</l>
             <l n="1.b'">[...] gada nu-x-[...]</l>
             <l n="2'">[...] {dug}šagan nu-um-[...]</l>
@@ -117,6 +115,7 @@
             <l n="67'">kar-⸢kid⸣ haš2#!?-a-ni [...]-x-dab5</l>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] mu-na-ra-dub-dub-bu-[...]</l>
             <l n="2'">[...] mu-⸢na⸣-tuku4-tuku4-⸢e⸣-[...]</l>
             <l n="3'">[...]-⸢mu⸣-[...]-⸢tag⸣-⸢tag⸣-[...]</l>
@@ -184,162 +183,11 @@
             <l n="65'">⸢ku3⸣ {d}inanna-ke4 ⸢{d#}dumu⸣-zi sag-bi-⸢še3⸣ e3#? bi2-in-šum2-⸢mu⸣</l>
             <l n="66'">ku3 {d}ereš-⸢ki⸣-gal-la-ke4</l>
             <l n="67'">za3-mi2-zu du10-ga-am3</l>
+            <note>double ruling</note>
             <l n="69'">šu-nigin2 geš2-geš2-ninnu-eš5</l>
             <l n="70'">im-gid2-da 3(diš)-kam za3 til-la an gal-ta ki gal-še3!</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1.b'">Linen does not spread over her holy knees</l>
-        <l n="2'">Her chest does not protrude like a flask</l>
-        <l n="3.a'">Her fingernails are lodged (in her flesh?) like lubi axes,</l>
-        <l n="3.b'">her hair is plucked like leeks upon her head</l>
-        <l n="4.a'">When she cries “alas, my heart,”</l>
-        <l n="4.b'">say “you are exhausted, our lady, (from saying) “alas, my heart&quot;(!?)</l>
-        <l n="5.a'">When she cries “alas, my liver,”</l>
-        <l n="5.b'">say “you are exhausted, (from saying) “alas, my liver&quot;(!?)</l>
-        <l n="6.a'">(She will say) Who are you?</l>
-        <l n="6.b'">Speak, to my heart, my heart(!?), to my liver, my liver(?)</l>
-        <l n="7.a'">If you are gods, I will speak a word to you,</l>
-        <l n="7.b'">if you are humans, I will(?) determine your fate (of death)</l>
-        <l n="8.a'">Invoke the life of heaven and earth (in an oath)</l>
-        <l n="8.b'">...</l>
-        <l n="9.a'">The river water will be offered to you but not accepted,</l>
-        <l n="9.b'">the barley of the field will be offered to you but not accepted</l>
-        <l n="10'">Say “Give the beaten meat that hangs from the peg”</l>
-        <l n="11'">The beaten meat (was) their lady</l>
-        <l n="12'">Say “that, whether it is the king or the queen&quot;(!?) give it to us”</l>
-        <l n="13'">You will give the beaten meat hanging from the peg</l>
-        <l n="14.a'">They(!?) will have cast upon her, it was one (with the) food of life, it was one (with the) water of life,</l>
-        <l n="14.b'">and Inanna will stand (alive again)</l>
-        <l n="15'">Ereškigala ... the lamentation singer and the kurgara priest</l>
-        <l n="16'">&quot;Bring their lady ...”</l>
-        <l n="17'">Inanna, brought from the netherworld by the orders of Enki</l>
-        <l n="18'">When Inanna ascended from the netherworld, Anuna seized her</l>
-        <l n="19'">(Saying) “Who is it that ascends from the netherworld, who is brought up from the netherworld intact?”</l>
-        <l n="20.a'">If Inanna is to be brought up(?) from the netherworld,</l>
-        <l n="20.b'">she is to give an able-bodied (replacement) on her own head</l>
-        <l n="21.a'">...</l>
-        <l n="21.b'">The one before her, although he was not a vizier, held a weapon(?)</l>
-        <l n="22'">The one behind her, although he was not a vizier, ...</l>
-        <l n="23.a'">...</l>
-        <l n="23.b'">The small galla demons, as a šukur enclosure, the large galla demons, (as) a dubban fence, held fast at her side</l>
-        <l n="24'">They came for her</l>
-        <l n="25'">They came for Inanna</l>
-        <l n="26'">They were not consumers of heaped flour, they were not drinkers of drawn water</l>
-        <l n="27'">They lifted the child from the lap of a man(?), they tore away the spouse from the lap(?) of a man</l>
-        <l n="28'">They drove out ... from her quarters(?)</l>
-        <l n="29'">They did not crush bitter garlic, they were people who did not eat fish, they were people who did not eat(!) leeks</l>
-        <l n="30'">... went towards Inanna(?)</l>
-        <l n="31'">After Inanna came up from the netherworld, Ninšubur fell at her feet before her at(?) the gate of Ganzer</l>
-        <l n="32'">She sat in the dirt, she wore a filthy garment</l>
-        <l n="33'">The galla demons spoke to holy Inanna, “Inanna, go towards your city, we shall take him away (as a corpse)</l>
-        <l n="34'">Holy Inanna replied to the galla demons, “My ...</l>
-        <l n="35'">My flattering vizier, my rider of the verified word</l>
-        <l n="36'">My(?) ... the word</l>
-        <l n="37'">When she initiates the lament of the ruin heaps, play the šem drum of the assembly/throne room</l>
-        <l n="38'">When she circled the temples of the gods, she scratched her face for me, she scratched her nose(!?) for me</l>
-        <l n="39'">She scratched her ear, a visible place, for me, she scratched a place unseen with a man(?), her (inner) thigh, for me</l>
-        <l n="40'">To the Ekur(?), the temple of Enlil, to Urim and the temple of Nanna</l>
-        <l n="41'">To Eridu and the temple of Enki she singularly set out</l>
-        <l n="42'">...</l>
-        <l n="43'">She wept before(?) Enki, and Enki(?) sustained me(?)</l>
-        <l n="44'">How could I give her to you? ...</l>
-        <l n="45'">We shall go to Umma and the Ešegkuršaga temple</l>
-        <l n="46'">Šara! fell at her feet before her(?), ... sat in the dirt, and wore a filthy garment</l>
-        <l n="47'">The galla demons were speaking to Inanna, “Inanna, go to your city”</l>
-        <l n="48'">We shall bring him away (as a corpse)</l>
-        <l n="49'">Holy Inanna replied to the galla demons ...</l>
-        <l n="50'">He is scratching(?) ..., ..., my hairdresser(!?)</l>
-        <l n="51'">How could I give him (as a corpse) to you?</l>
-        <l n="52'">We shall go to Badtibira and the Emuškalama temple</l>
-        <l n="53'">Lulal fell before(?) her</l>
-        <l n="54'">Lulal sat in the dirt</l>
-        <l n="55'">Lulal wore a dirty garment</l>
-        <l n="56'">The galla demons were speaking to Inanna, “Inanna, go to your city</l>
-        <l n="57'">We shall bring him away (as a corpse)”</l>
-        <l n="58'">Holy Inanna replied to the galla demons</l>
-        <l n="59'">Lulal, fixed (at) my right side</l>
-        <l n="60'">Lulal, fixed (at)(?) my left side</l>
-        <l n="61'">Lulal, fixed (at)(?) my outer pillar/as my foremost one(?)</l>
-        <l n="62'">..., why would I give him(!) to you?</l>
-        <l n="63'">The greatest apple tree in the plain(?) of larsa ...</l>
-        <l n="64'">Let us go to the great apple tree in the plain(?) of larsa</l>
-        <l n="65'">Dumuzi sat upon the supreme dais(!?)</l>
-        <l n="66'">He sat in splendor in the seat(!?)</l>
-        <l n="67'">A prostitute held his thigh tightly(?)</l>
-        <l n="1'">... poured out the seven churns(?)</l>
-        <l n="2'">... shook the head at him</l>
-        <l n="3'">The shepherd(?) was not playing the reed pipe ...(?)</l>
-        <l n="4'">... seized/assailed at his side</l>
-        <l n="5'">She looked at him, it was the look of death</l>
-        <l n="6'">She shook her head at(?) him, it was the head(shake that accused one of) grievous sin</l>
-        <l n="7'">Holy Inanna was replying to the galla demons</l>
-        <l n="8'">... who is (one of the ones) who came towards him</l>
-        <l n="9'">..., you will not release him</l>
-        <l n="10'">They seized ...</l>
-        <l n="11'">He was the man (among those) whom the lady compelled to come towards him(!?)</l>
-        <l n="12'">They came towards Dumuzi</l>
-        <l n="13'">Dumuzi wept, he was emitting sobs</l>
-        <l n="14'">Thus the youth: “What has been done, what ...”</l>
-        <l n="15'">... the holy(?) ... not ...</l>
-        <l n="16'">...</l>
-        <l n="17'">... who is to die(?)</l>
-        <l n="18'">He raised his hands heavenwards for Utu</l>
-        <l n="19'">I am ..., I am the one who does not ...</l>
-        <l n="20'">I am the one who brings butter to the temple of your mother</l>
-        <l n="21'">I am the one who brings cream to the temple of Ningal</l>
-        <l n="22'">I am the one who brings ... to ...</l>
-        <l n="23'">I am the one who makes the bridal payment on behalf of Unug</l>
-        <l n="24'">I am the one who kisses the holy lips(?)</l>
-        <l n="25'">I am the one who plays among the holy knees of Inanna(?)</l>
-        <l n="26'">After you prepare my hands (as those of) a gazelle/snake</l>
-        <l n="27'">After you prepare my feet (as those of) a gazelle/snake</l>
-        <l n="28'">I shall escape my galla demon, they shall not seize me</l>
-        <l n="29'">Utu accepted his tears</l>
-        <l n="30'">He prepared his hands (as those of) a gazelle/snake</l>
-        <l n="31'">He prepared his feet (as those of) a gazelle/snake</l>
-        <l n="32'">...</l>
-        <l n="33'">I shall escape my galla demon, they shall not seize me</l>
-        <l n="34'">...</l>
-        <l n="35'">...</l>
-        <l n="36'">...</l>
-        <l n="37'">...</l>
-        <l n="38'">Holy Inanna wept bitterly for her spouse(?)</l>
-        <l n="39'">... Dumuzi ...</l>
-        <l n="40'">...</l>
-        <l n="41'">...</l>
-        <l n="42'">...</l>
-        <l n="43'">She tore out rushes, she cut rushes</l>
-        <l n="44'">Spouses who lie in your (spouse's) lap(!?), where is my precious spouse?</l>
-        <l n="45'">Sons who lie in your (father's) lap(!?), where is my precious son(?)</l>
-        <l n="46'">...</l>
-        <l n="47'">...</l>
-        <l n="48'">...</l>
-        <l n="49'">...</l>
-        <l n="50'">... what ...?</l>
-        <l n="51'">...</l>
-        <l n="52'">...</l>
-        <l n="53'">...</l>
-        <l n="54'">The fly ... holy Inanna</l>
-        <l n="55'">Young woman Inanna was decreeing a fate for the fly(?)</l>
-        <l n="56'">In the tavern may you (pl.) make the bronze vessel of wine drinking(?) flow over for yourself(!?)</l>
-        <l n="57'">As members of(?) the “wise men” ...</l>
-        <l n="58'">Thus was the decreed fate of Inanna(?)</l>
-        <l n="59'">... Inanna(!?) was weeping</l>
-        <l n="60'">My(?) ... arrived, and is ... to the hand</l>
-        <l n="61'">... alas(?) ...</l>
-        <l n="62'">You, (when) the year is half (completed)(?), your sister, (when) the year is half (completed)(?)</l>
-        <l n="63'">The days that you desire/are requested(?), those days shall be (of) captivity(!?)</l>
-        <l n="64'">The days that your sister desires/is requested(?), those days shall be long(er)(?)</l>
-        <l n="65'">Holy Inanna gave Dumuzi, the precedent maker(?) (as a replacement)</l>
-        <l n="66'">Holy Ereškigal,</l>
-        <l n="67'">your praise is sweet</l>
-        <l n="69'">Total, one hundred seventy three(!?) lines</l>
-        <l n="70'">The 3rd (in a series of) single-column extract(s), in its entirety, (text with the incipit) “from great heaven towards great earth”</l>
       </div>
     </body>
   </text>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0064</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346149</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346149.P346149.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">(User of) hostile words, (creator of?) hostility, evil person(?)</l>
+        <l n="2'">You will (repeatedly) argue</l>
+        <l n="3'">... whose belly/inside is overflowing with ...</l>
+        <l n="4'">Mud-spattered pig, dog that ...</l>
+        <l n="5'">Donkey that eats its own bed</l>
+        <l n="6'">You can argue with me by means of your truthful(?) heart?</l>
+        <l n="6'">(double ruling)</l>
+        <l n="2'">I(?) spoke to him two times, thus he is aware</l>
+        <l n="3'">On account of the fact that one has insulted(?), he has aquired pride(?)</l>
+        <l n="4'">Children, you are the ones who engage in quarreling, we do not ...</l>
+        <l n="5'">After you (pl.) do not take the case, and do not sit for testimony(?)</l>
+        <l n="6'">Come, ..., our overseer should take the case</l>
+        <l n="7'">Overseer of my colleagues, you entrusted me (with a task)</l>
+        <l n="8'">&quot;They should count up the assignment”</l>
+        <l n="9'">&quot;They should correct the total”</l>
+        <l n="10'">You ordered me thus</l>
+        <l n="11'">(But) they did not ..., they did not count up the total</l>
+        <l n="12'">Today(?) and daily, they quarrel there (instead)</l>
+        <l n="13'">Who are they? Who are they?</l>
+        <l n="14'">The two are Enkihegal(!) and Enkitalu</l>
+        <l n="15'">Come, you, how will they calm down?</l>
+        <l n="16'">They did not accept the case, and did not sit for testimony(?)</l>
+        <l n="17'">You(?) are distressed, ... comes upon you</l>
+        <l n="18'">What juveniles are present in the place of instruction?</l>
+      </div>
+    </body>
+  </text>
+</TEI>

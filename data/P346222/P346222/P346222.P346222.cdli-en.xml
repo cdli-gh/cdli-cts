@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000379, ex. 022</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346222</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346222.P346222.cdli-en" type="translation" xml:lang="en">
+        <l n="1">My temple which was established by the just man</l>
+        <l n="2">Therefore (the storm) has beaten it at its outside</l>
+        <l n="3">In(?) my Ekišnugal, the temple of kingship</l>
+        <l n="4">My true temple that initiates lamentation there along with her (i.e., me?)</l>
+        <l n="5">After being built falsely and destroyed truthfully ... must not establish as its allocated share for me</l>
+        <l n="6">Therefore like a tent, a building torn out at the harvest site, like a building torn out at the harvest site, it was subjected to(?) wind and rain</l>
+        <l n="7">Urim, my grain storage filled with food(!?)</l>
+        <l n="8">Therefore the empty wind howls in the silent city</l>
+        <l n="9">Like the sheepfold of the shepherd, it was torn out</l>
+        <l n="10">The possessions which the city acquired for me are eradicated(!)</l>
+        <l n="11">It is the 3rd kirugu refrain</l>
+        <l n="12">Urim has initiated lamentation to her detriment(?)</l>
+        <l n="13">Her city is destroyed to her detriment, her cosmic powers are changed to her detriment</l>
+        <l n="14">It is the gešgigal “response”</l>
+        <l n="15">At that time, this time after (the city) was flattened</l>
+        <l n="16">To the detriment of the lady, her city is destroyed</l>
+        <l n="17">Her city is destroyed to her detriment, her cosmic powers are changed to her detriment</l>
+        <l n="18">At that time, this time after (the city) was created</l>
+        <l n="19">When they have ordered(!) my city to be destroyed</l>
+        <l n="20">When they have ordered(?!) Urim to be destroyed</l>
+        <l n="21">When they have ordered(?!) its people to be killed</l>
+        <l n="22">At that time (I) will not be indifferent to my city</l>
+        <l n="23">(I) will not neglect my land</l>
+        <l n="24">For An, (I) shall pour the tears of my eyes</l>
+        <l n="25">I shall supplicate myself to Enlil(?)</l>
+        <l n="26">I shall say to him/them(?) “My city must not be destroyed”</l>
+        <l n="27">I shall say to him/them(?) “Urim must not be destroyed”</l>
+        <l n="28">I shall say to him/them(?) “Its people must not be killed(!?)”</l>
+        <l n="29">Despite this An did not rescind his word</l>
+        <l n="30">Despite this (the statement) “It is good, so be it” of Enlil was not soothing my heart</l>
+        <l n="31">Therefore when they have ordered(!) my city to be destroyed</l>
+        <l n="32">When they have ordered(!) Urim to be destroyed</l>
+        <l n="33">When they have ordered(!) its people to be killed</l>
+        <l n="34">For a 2nd time, after they convened an assembly, a “solemn place”</l>
+        <l n="35">The Anuna rested on the “organized” (i.e., finalized?) word</l>
+        <l n="36">Therefore (I?) shall extend(?) (my) limbs/lap and tie up(?) (my) hair</l>
+        <l n="37">For An, I shall pour the tears of my eyes</l>
+        <l n="38">I shall supplicate myself to Enlil(?)</l>
+        <l n="39">I shall say to him/them(?) “My city must not be destroyed”</l>
+        <l n="40">I shall say to him/them(?) “Urim must not be destroyed”</l>
+        <l n="41">I shall say to him/them(?) “Its people must not be killed(!?)”</l>
+        <l n="42">Despite this An did not rescind his word</l>
+        <l n="43">Despite this (the statement) “It is good, so be it” of Enlil was not soothing my heart</l>
+        <l n="44">Therefore when they have ordered(!) my city to be destroyed</l>
+        <l n="45">When they have ordered(!) Urim to be destroyed</l>
+        <l n="46">When they have ordered(!) its people to be killed</l>
+        <l n="47">I, as one who gave my advice(?) to my detriment(?)</l>
+        <l n="48">... therefore shall also bind me with my city</l>
+        <l n="49">... therefore shall also bind Urim with me</l>
+        <l n="50">An is never to change this word</l>
+        <l n="51">That which issues from the mouth of Enlil is not to be changed</l>
+        <l n="52">It is the 4th kirugu</l>
+        <l n="53">To the detriment of the lady, her city is destroyed</l>
+        <l n="54">Her city is destroyed to her detriment, her cosmic powers are changed to her detriment</l>
+        <l n="55">It is the gešgigal “response”</l>
+        <l n="56">Enlil spoke to the storm, and the people wailed</l>
+        <l n="1">He deprived the land of(?) days of abundance, and the people wailed</l>
+        <l n="2">He deprived Sumer of good days, and the people wailed</l>
+        <l n="3">He commanded the malevolent storm, and the people wailed</l>
+        <l n="4">He gave them to(?) the kiggal official(?) of the storm, his attendant storm/who stood within the storm(?)</l>
+        <l n="5">He spoke to the storm annihilating the land, and the people wailed</l>
+        <l n="6">He spoke to the great storm, the one of An, and the people wailed</l>
+        <l n="7">Enlil was making Gibil (fire) into his helper</l>
+        <l n="8">He spoke to the great storm of An, and the people wailed</l>
+        <l n="9">The great storm was shouting from above, and the people wailed</l>
+        <l n="10">The storm annihilating the land roared upon the earth</l>
+        <l n="11">An evil wind, overflowing like a great flood, which does set down its power/wing(?)</l>
+        <l n="12">In the city the weapon was murdering and consuming (as if) in a pack</l>
+        <l n="13">At the base of heaven (the storm?) gnawed(?), and the people wailed</l>
+        <l n="14">The storm was burning with fire at its front, and the people wailed</l>
+        <l n="15">And therefore(?) the raging storm, like a “fire-shade,” ... at its back</l>
+        <l n="16">Noon, (which usually) raises the “rainy wind” (fog?) was burning with fire (instead)</l>
+        <l n="17">Mid-day, (which usually) brings out bright sunlight, brought darkness along with it(!?)</l>
+        <l n="18">The shining sun did not come out in the land, it dissipated like the evening</l>
+        <l n="19">The southern wind seized(?) the joyful night which initiates the cooling of water(?)</l>
+        <l n="20">Burning(?) sherds combined with the soil, and the people wailed</l>
+        <l n="21">(The storm) blew a wind upon the black-headed people, and the people wailed</l>
+        <l n="22">Sumer was tripping(?) as if (in) a {geš}bur snare, and the people wailed</l>
+        <l n="23">The people(?) (were erecting) a wall of heads(?), (the storm) devouring (as if) in a pack</l>
+        <l n="24">The bitter storm, for which weeping was not decreed as its fate(?), (because of this) the people wailed</l>
+        <l n="25">The eradicating/gathering(?) storm was sweeping the land/making the land tremble</l>
+        <l n="26">The storm utterly destroyed the city like a flood</l>
+        <l n="27">The storm that was finishing the land established silence in the city</l>
+        <l n="28">The storm burning like fire was enraged with/corporeally burned(?) the people/land(?)</l>
+        <l n="29">The storm that is to cause (everything) to be forgotten stood among the malevolent (ones?)</l>
+        <l n="30">The hateful storm, ordered by Enlil, the storm that ... the land</l>
+        <l n="31">It covered Ur like a garment, spread over it like linen</l>
+        <l n="32">It is the 5th kirugu</l>
+        <l n="33">The storm is a lion(?), thrashing(?), and the people wail</l>
+        <l n="34">It is the gešgigal “response”</l>
+        <l n="35">At that time(!) the storm was placed together with the city, the city was ruin heaps</l>
+        <l n="36">Father Nanna, the city has been placed into ruins, and the people wailed</l>
+        <l n="37">The storm deprived the land of ..., and the people wailed</l>
+        <l n="38">The land was devastated (until) there was not even a broken sherd, and the people wailed</l>
+        <l n="39">(The storm) made a breach in the wall, and the people wailed</l>
+        <l n="40">At the great gate where there was a path, it was piling up corpses</l>
+        <l n="41">In the broad lane prepared as if for a festival, head(s) were placed as seeds</l>
+        <l n="42">In the streets, where there were paths, it was piling up corpses</l>
+        <l n="43">In the playground, where there was a festival, it spread out people (as) sheaves</l>
+        <l n="44">Ditches/burial pits were put down (for) the blood of land like (it would be done for?) the drainpipe of heaven(?)</l>
+        <l n="45">(That of) the corpses, (like) sheep fat in sunlight, dissolved by themselves</l>
+        <l n="46">Like a man ended by a hazin axe, one was not (bothering to) “clothe his head&quot;/wear a turban (as a bandage?)</l>
+        <l n="47">Like a goat buck caught by a snare, (one) lodged his mouth in the dirt</l>
+        <l n="48">And therefore(?) like a man ended by the mitum weapon, one did not (bother to) wear bandages</l>
+        <l n="49">As if lying in the birthing place of their mother, one laid in his(!) blood</l>
+        <l n="50">Those who had not drunk wine nonetheless hung their necks down (lit. on the shoulder)</l>
+        <l n="51">Those who served with weaponry(?) were slaughtered by weaponry</l>
+        <l n="52">The storm took away(?) fugitive men and gazelles (alike?), and the people wailed</l>
+        <l n="53">In Urim the weak and strong alike came to an end out of hunger</l>
+        <l n="54">The elder women and men who did not leave the house were set on fire</l>
+        <l n="55">Water brought away(?) the tiny ones ... (from) the lap of the mother like(!) fish</l>
+        <l n="56">The strong grasp of the wetnurse, (this) grasp was loosened</l>
+        <l n="57">Allegiance/sense was forgotten, and the people wailed</l>
+        <l n="58">The treasury &lt;of the land was eradicated, and the people wailed&gt;</l>
+      </div>
+    </body>
+  </text>
+</TEI>

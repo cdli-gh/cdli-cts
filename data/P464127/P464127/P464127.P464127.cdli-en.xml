@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000778, ex. 015</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P464127</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P464127.P464127.cdli-en" type="translation" xml:lang="en">
+        <l n="1">The lord also made manifest an ancient thing</l>
+        <l n="2">The lord, in order to never change his decreed fate</l>
+        <l n="3">The lord, in order to bring out the seed of the land from the earth</l>
+        <l n="4">He also moved forward to make heaven far apart from earth</l>
+        <l n="5">He also moved forward to make heaven far apart from earth</l>
+        <l n="6">In order to make heads grow in (the place where) flesh comes out</l>
+        <l n="7">He set the axis in place at the bond of heaven and earth</l>
+        <l n="8">The hoe! He put it in place(?) and sunlight came forth</l>
+        <l n="9">He created work assignments, (he was) decreeing fate</l>
+        <l n="10">He was setting in order the labor (of/for) the hoe and the earth-carrying basket</l>
+        <l n="11">Enlil praised his hoe</l>
+        <l n="12">His hoe was gold, its head was lapis</l>
+        <l n="13">His (properly) bound hoe was kumea and gold</l>
+        <l n="14">His hoe, at the side of its “chisel/needle&quot;(?), its side is of lapis lazuli</l>
+        <l n="15">Its blade was a battering ram that is to bring down great fortifications</l>
+        <l n="16">The lord chose(?) the hoe, he was decreeing a fate (for it)</l>
+        <l n="17">He set the earth/a cone/a passage(?), the holy crown, on (its) head</l>
+        <l n="18">At (the place where) flesh comes out he dug (with?) the hoe</l>
+        <l n="19">He placed the head of humanity into the brick-mold</l>
+        <l n="20">Towards/on behalf of Enlil, his land was splitting its earth(?)</l>
+        <l n="21">He looked faithfully towards his black-headed people</l>
+        <l n="22">The Anuna served him</l>
+        <l n="23">Their hands were on their noses (in submission)</l>
+        <l n="24">They were pacifying Enlil with what was an arazu prayer</l>
+        <l n="25">On behalf of the black-headed people(?) they made a request “with him”</l>
+        <l n="26">The lady who gave birth(!?) to the lord and gave birth(!?) to the king</l>
+        <l n="27">Ninmena was establishing childbirth</l>
+        <l n="28">The leader of the universe, lord Nunamnir</l>
+        <l n="29">He was the one naming the “true head,” the “precious head”</l>
+        <l n="30">He brought out the head/the first, it was (on?) a single thread</l>
+        <l n="1">For the gods ... was acquiring(?) food rations</l>
+        <l n="2">Enki praised his (Enlil's) hoe</l>
+        <l n="3">Young lady Nisaba ... in the decision</l>
+        <l n="4">The hand was upon(?) the shining hoe, the pure hoe for ...(?)</l>
+        <l n="5">The hoe was the one establishing the Ekur temple, the temple of Enlil</l>
+        <l n="6">In the day it was building, (at?) night it was growing(?)</l>
+        <l n="7">Founded in(?) Nibru it is the women's quarters of Tummal</l>
+        <l n="8">Tummal, which is the food basket of mother Ninlil</l>
+        <l n="9">(Into) the Emi temple of Tummal with food of the regular offering(?)</l>
+        <l n="10">Hero Ninurta was entering for Enlil</l>
+        <l n="11">With a black kid and the nesag offering of the lord(?)</l>
+        <l n="12">Holy Ninisina was entering for Enlil</l>
+        <l n="13">The Abzu, with the face of a pirig creature, (whose) cosmic powers are not to be requested</l>
+        <l n="14">(The hoe) was building the Abzu, Eridu was the work assignment(?)</l>
+        <l n="15">The mother of the gods, Ninhursaga</l>
+        <l n="16">Made her Udaltar (a name of Šulpa'e/Jupiter) dwell with her (in) Keš</l>
+        <l n="17">It was indeed Šulpa'e, who served in the work assignment(?) with her</l>
+        <l n="18">In shrine Eanna, the hoe is pure/a purifier(?)</l>
+        <l n="19">NinEana, the true wild cow(!)</l>
+        <l n="20">The hoe is among the ruin heaps, the hoe is among the hirim weeds</l>
+        <l n="21">At the site of Zabalam, the hoe, the one of Inanna</l>
+        <l n="22">She(?) was determining a fate (for) the hoe(!?)/was making a work assignment(!?). The one wearing (lit. bringing out) a lapis beard</l>
+        <l n="23">Utu served in her work assignment</l>
+        <l n="24">The work assignment and praise/proverb(?) was of(?) the youth Utu</l>
+        <l n="25">The lady of broad wisdom, she who is Nisaba</l>
+        <l n="26">She made(!?) a work assignment(?) in the assembly of the Eanna temple(?)</l>
+        <l n="27">It is indeed the Ehamun temple (where) she had(?) a work assigment (for)(?)</l>
+        <l n="28">The ... king who is spending his time breaking up(!?) and trampling/following(?) (with the hoe?)</l>
+        <l n="29">Hero Ninurta, he served(?) in the work assignment in the rebel land(?)</l>
+        <l n="30">He was setting the city that was not obedient to its lord “at the hand”</l>
+        <l n="1">Heavenwards he is a storm, screaming</l>
+        <l n="2">Towards earth he is an ušumgal creature, ...</l>
+        <l n="3">Šara sat(?) on the knee of Enlil</l>
+        <l n="4">They(!) were able to give what he desired to him</l>
+        <l n="5">He had desired the udug/šita weapon, the tukul weapon, and barbed(?) arrows for the quiver</l>
+        <l n="6">Dumuzi is the one who makes flourish of the highland(!)</l>
+        <l n="7">Gibil raised the head of his hoe towards heaven</l>
+        <l n="8">The hoe, which was pure, suspended fire (there, i.e., acted like a torch)</l>
+        <l n="9">The Anunua were rejoicing</l>
+        <l n="10">In(!?) the temple of Geštinanna, the algarsur instrument is (there?)</l>
+        <l n="11">It belongs to mother Geštinanna, the algarsur instrument is “that of a good noise”</l>
+        <l n="12">The lord bellows at his hoe like a bull(?)</l>
+        <l n="13">It is the netherworld/grave, the hoe is the one that buries a person (lit. head) (there)</l>
+        <l n="14">The hoe is the one that exhumes the corpse(?) from the ground</l>
+        <l n="15">The youth, the important one(?) of heaven/An, he is the younger brother of Nergal</l>
+        <l n="16">Hero Gilgamesh, (for him?) the hoe is a sabar net</l>
+        <l n="17">He who is the son of Ninsumun, (for him?) the oar is first(?)</l>
+        <l n="18">The hoe is the outer(?) kingal official on/in the river</l>
+        <l n="19">At the door(?) of the agrun chamber, the hoe is the vizier</l>
+        <l n="20">Evildoers are children of the hoe during the waning moon(?)</l>
+        <l n="21">By means of/in(?) the regular day(?) they are born apart from heaven(?)</l>
+        <l n="22">Towards heaven the altirigu bird is the bird of a god</l>
+        <l n="23">Towards the earth it is the hoe, (in) the reedbed it is a dog, in the thicket it is an ušumgal creature</l>
+        <l n="24">At the site of battle it is a durallu ax</l>
+        <l n="25">At the site of the fortification, it is an alluhab net(?)</l>
+        <l n="26">At the place of the table, it is a bowl</l>
+        <l n="27">At the site of a chariot, it is a mayaltum wagon</l>
+        <l n="28">In the donkey stable, it is an argibil structure</l>
+        <l n="29">It is the hoe, its good name is present in the mountain range</l>
+        <l n="30">The tree of the mountain range is the oak tree</l>
+        <l n="31">The aromatic of the mountain range is (of the) arganum tree</l>
+        <l n="1">The stone of the mountain range is algameš stone</l>
+        <l n="2">The hoe makes ... fructify, the hoe make ... flourish</l>
+        <l n="3">The hoe makes barley good(?), the hoe is (used with?) the sabar net</l>
+        <l n="4">The hoe is (used with?) the brick-mold, the hoe set the head (in it)(?)</l>
+        <l n="5">The hoe is the strength of youth</l>
+        <l n="6">The hoe and the earth-carrying basket are those that are to build the city</l>
+        <l n="7">The true temple is being built, the true temple is being established/maintained</l>
+        <l n="8">It is the one that broadens it the fertile field</l>
+        <l n="9">The field that is revolting against its master</l>
+        <l n="10">The field that does not submit to its master</l>
+        <l n="11">The hoe makes it submit to its master</l>
+        <l n="12">The smiter of the evil rushes”</l>
+        <l n="13">It tears it out at its roots, it cuts off at(?) its branches</l>
+        <l n="14">The hoe was setting the hirim grass at the hand</l>
+        <l n="15">The hoe, the wood(en implement) decreed a destiny by father Enlil</l>
+        <l n="16">Hoe, praise!</l>
+        <l n="17">Nisaba, praise</l>
+        <l n="18">(Total:) 108? lines</l>
+      </div>
+    </body>
+  </text>
+</TEI>

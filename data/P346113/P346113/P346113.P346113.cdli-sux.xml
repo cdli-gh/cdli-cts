@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -49,22 +46,6 @@
             <l n="11">ambar-ra ku6 ⸢mušen⸣ lu-lu-de3 sa &amp;lt;...&amp;gt;</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">In distant times, so that Enki founded/demarcated ...(!?) by means of abundance</l>
-        <l n="2">So that “its Enlil&quot;(?) resided in a supreme dwelling, in order to purify its inner sanctum/banquet hall</l>
-        <l n="3">In order to give distributed rations to the great gods, to behold(?) their shrines</l>
-        <l n="4">In order to establish good siskur rituals/prayers for the Anuna, in order to ... from/at? the Dukug</l>
-        <l n="5">So that Nanna, who comes out in the zenith of heaven, shines(?), so that the supreme horns illuminate the darkness</l>
-        <l n="6">So that Utu fills the horizon with great awe, so that ...</l>
-        <l n="7">In order to incise designs, in order to return the land to its place</l>
-        <l n="8">So that both the Tigris and Euphrates return(?) from/by means of the spring (i.e., Abzu?), in order to bring the high flood in their midst</l>
-        <l n="9">In order to set the sea and the seashore(?) in order, so that lord Dilimbabbar goes to the Ekur</l>
-        <l n="10">So that the offshoot rises, so that barley grows, so that lord Dilimbabbar goes to the Ekur at the month at the beginning of the year</l>
-        <l n="11">So that fishes and birds teem in the marshland, so that the net ...</l>
       </div>
     </body>
   </text>

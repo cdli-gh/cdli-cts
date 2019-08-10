@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0160</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346245</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346245.P346245.cdli-en" type="translation" xml:lang="en">
+        <l n="3'">Your beatings of (during?) instruction(?), (in which) nothing compares with you</l>
+        <l n="4'">You behave(?) as if the regulations have never been taught</l>
+        <l n="5'">In(?) your ..., you are not a man</l>
+        <l n="6'">Among my colleagues, comparing with each man(?) I conducted(?)</l>
+        <l n="7'">(And) no one who compares with you is present</l>
+        <l n="8'">This is what I recite to you</l>
+        <l n="9'">(By it) deafness/stupidity turns into wisdom</l>
+        <l n="10'">(By it) wisdom is made (from?) ... inferiority</l>
+        <l n="11'">It seizes the snake(!?) (as if using!?) incantations/murmuring(?)</l>
+        <l n="12'">I have become weary of always having to beat (you) and have let (that form of punishment) go</l>
+        <l n="13'">Bringing about reconciliation(?) by means of lies(?), I will not consent to you (on this?)</l>
+        <l n="14'">After I fill my heart and it overflows, (therefore, I scorn you)</l>
+        <l n="15'">On your own (behalf), you have not ceased(?) your wailing</l>
+        <l n="16'">(But) I have set aside(?) your wailing</l>
+        <l n="17'">Because of the content/intent of what you are to speak(!?)</l>
+        <l n="18'">And (the fact that) I go forth from (according to?) my word(?)</l>
+        <l n="19'">In order to go away from (according to?) my words(?) “here”</l>
+        <l n="20'">I am going(?) away from “here” (according to my?) words</l>
+        <l n="21'">Because you have not “observed (your) humanity” (reflected upon yourself?)</l>
+        <l n="22'">My heart is carried away by(?) an evil wind</l>
+        <l n="23'">You cannot pay attention to your “humanity” ...</l>
+        <l n="1">You wailing has finished/killed me(?)</l>
+        <l n="2">You make my heart go(?) in the plain</l>
+        <l n="3">Because of what I am, I did not send (you?) as one charged with the task(?) to carry reeds (from) the reed bed</l>
+        <l n="4">The ... old/dead reeds(?) which (even) the tiny (children) carry</l>
+        <l n="5">Because of what you are, you have not carried them</l>
+        <l n="6">In no way/at no time(?) have I said “Stand(?) at the rear of an ox”</l>
+        <l n="7">I did not send (you?) as one charged with the task(?) to follow the ox(?)</l>
+        <l n="8">I did not send (you?) as one charged with the task(?) to hoe the field</l>
+        <l n="9">I did not send (you?) as one charged with the task(?) to sow/cultivate the field</l>
+        <l n="10">I did not send (you?) as a messenger (charged with a task?) to do a task(?) (or?) to hoe</l>
+        <l n="11">Come! After you do the work, eat food</l>
+        <l n="12">Because of who you(?) are, (I) have not spoken to you (about this)</l>
+        <l n="13">Because of who you are, you have not done the task (but) you did eat the food(?)</l>
+        <l n="14">When a person like you does(?) a task</l>
+        <l n="15">His father and mother will eat food</l>
+        <l n="16">If you observe the ... of my colleagues</l>
+        <l n="17">Like (i.e., each one of?) them, ten gur of barley apiece they fill at the outset/per head(?)</l>
+        <l n="18">(Even) the tiny ones, the “slave of their(!?) fathers”</l>
+        <l n="19">Ten gur of barley apiece they place(?) at the head (i.e., provide)</l>
+        <l n="20">They have given/brought(?) barley, oil/butter, and sheep wool(?)</l>
+        <l n="21">As a man(?), they(?) exceed you(?)</l>
+        <l n="22">You are not a man like (each one of) them</l>
+        <l n="23">Exceeding you, they do not compare with you in (the performance of) assigned tasks(?)</l>
+        <l n="24">Like them ...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

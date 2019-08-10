@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346514.P346514.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...]-bu#?</l>
             <l n="2'">[...] gal2#?</l>
             <l n="3'">[...]-bu#?</l>
@@ -90,61 +88,6 @@
             <l n="28">[...]-⸢re⸣ mu-un-gal2</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">Hero standing “on his ribs&quot;(?) for battle</l>
-        <l n="2'">Lord whose powerful/right hand opens on behalf of/is set upon(?) the mitum weapon</l>
-        <l n="3'">Who gleans the necks of the disobedient like barley</l>
-        <l n="4'">Ninurta, king, son whose father rejoices at his might</l>
-        <l n="5'">Hero covering the mountain like a southern storm</l>
-        <l n="6'">Ninurta, your(?) crown/(whose) true crown is a rainbow(?), (your) face thrashing(?) lightning</l>
-        <l n="7'">... ruler(?) engendered by a shining seed(?), ušum serpent that turns upon itself(?)</l>
-        <l n="8'">(Possessing) the strength/shoulder of a lion sticking out its tongue in the manner of a snake, hissing(?) in the manner of ...</l>
-        <l n="9'">Ninurta, king who Enlil made superior (to) himself</l>
-        <l n="10'">Hero, šušgal net that overwhelms the enemy</l>
-        <l n="11'">Ninurta, your aura and shade are stretched over the land</l>
-        <l n="12'">Bringing anger to the rebel land, gathering up the assembly</l>
-        <l n="13'">Ninurta, the king, the son who profoundly humbles himself to his father</l>
-        <l n="14'">When he occupied the throne (upon) the supreme dais, when he bore a great aura</l>
-        <l n="15'">When he initiated a festival, when he rejoiced, when he sat “broadly”</l>
-        <l n="16'">When he was rivaling An and Enlil, when he was to be sweetened by liquor</l>
-        <l n="17'">When Bau was to plead with arazu prayers of the king</l>
-        <l n="18'">When Ninurta, the son of Enlil, was to determine fate</l>
-        <l n="19'">At that time the weapon of the lord looked at the mountain</l>
-        <l n="20'">Šarur “above” (on the one hand) was speaking to the king</l>
-        <l n="21'">Lord of heavenly station(?), who occupies the dais (in) the assembly/throne room(?)</l>
-        <l n="22'">Ninurta, you utterance never wavers, your decreed fate is put faithfully in effect</l>
-        <l n="1">My king, heaven mated with the verdant earth</l>
-        <l n="2">Ninurta, it gave birth to a warrior that knows no fear, the Asag</l>
-        <l n="3">One that did not sit(?) (as a child) with a wetnurse, who suckled milk by itself/suckled fear (as) milk(!?)</l>
-        <l n="4">My king, one that did not know the rearing of a father, the slaughterer of the mountain</l>
-        <l n="5">A youth that has left (his) scent/sweat (i.e., has no odor?), (possessor) of a face that has no shame</l>
-        <l n="6">Ninurta, one that lifts itself and rejoices with (its) form</l>
-        <l n="7">My hero, who is a bull I shall lean upon</l>
-        <l n="8">My king, it is one who turns to his city, acting as a mother</l>
-        <l n="9">It procreated in the mountains, it spread out its seed</l>
-        <l n="10">Together they shall name it, the plants, as their king</l>
-        <l n="11">In their midst like a great bull it raises its horn</l>
-        <l n="12">The šu'u, sagkal, diorite, usium, and kagina stones</l>
-        <l n="13">Hero, (along with) alabaster, as warriors(?) they plundered the city</l>
-        <l n="14">It grew the tooth of the kušu creature in the mountain, ... were shaking/dragging the trees there</l>
-        <l n="15">Its power makes(?) the city (and) its gods bow to the ground</l>
-        <l n="16">My king, this one has cast down a dais, its slacked arm does not relent</l>
-        <l n="17">Ninurta, lord, it has decided its cases just like you</l>
-        <l n="18">Against the Asag, against its aura, who penetrates with their hand?</l>
-        <l n="19">Who could set out against its great temples?</l>
-        <l n="20">The flesh shakes, fear has lodged in the flesh</l>
-        <l n="21">Its gaze has been set towards that place</l>
-        <l n="22">My lord, the mountain has conveyed its nindaba offerings to that place</l>
-        <l n="23">Hero, it has inquired about you because of your father (your lineage)</l>
-        <l n="24">Son of Enlil, lord, it has sought after your location because of your supreme power</l>
-        <l n="25">My king, it has advised you because of your might</l>
-        <l n="26">It said “Ninurta, you shoulder, singular warrior, never idle(?)”</l>
-        <l n="27">It has ordered you because of/as ...</l>
-        <l n="28">Hero, (the intent) to carry away your kingship is present in these queries(!?)</l>
       </div>
     </body>
   </text>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -78,47 +75,6 @@
             <l n="1">{iti}NE-NE-gar!? 2(u)? 4(diš)?-kam</l>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Lady who bears an aura amongst the furious me, who rides the great me</l>
-        <l n="2">Inanna, equipped with the ... a'ankar weapon, cloaking the battle(field) with its blood/terror(?)</l>
-        <l n="3">Who leans the shield upon the ground like one who runs amid the great battles(?)</l>
-        <l n="4">Who clutches(?) the storm and the stormwind</l>
-        <l n="5">For(!?) great lady Inanna, counsel is dispensed in battle, wise one</l>
-        <l n="6">Destroyer of the mountain, she unleashed the arrow towards ... by means of (her) power, who smote(?) with the arm(?) in the mountain</l>
-        <l n="7">She screamed in the universe like a pirig creature and made the people tremble</l>
-        <l n="8">Like a great wild bull she stands wildly in the hostile land</l>
-        <l n="9">Like a furious pirig creature you(!) extinguish ... among(?) the mighty/clever(?) and those disobedient to you in your bile</l>
-        <l n="10">My lady, as you grow like heaven</l>
-        <l n="11">Young woman Inanna, as you are supreme like the earth</l>
-        <l n="12">As you come out like Utu, the king, as you move widely about</l>
-        <l n="13">As you move in/are suitable for(?) heaven, as you bear a furious aura</l>
-        <l n="14">As you carry the brilliant sunlight on the earth</l>
-        <l n="15">One who goes in the mountain range, as you bring out a lapis net</l>
-        <l n="16">As you bathe in the pure/flowering mountain</l>
-        <l n="1">As you fashion the šuba mountain, the mountain, the pure place</l>
-        <l n="2">As your wear the udug/šita mace(!?) like (the ancestral deities) Enšar and Enul</l>
-        <l n="3">As you make heads roll(?) in its battles like (you were using?) a ... weapon</l>
-        <l n="4">The black-headed (shout) (this) with song</l>
-        <l n="5">In(?) all the lands (the blackheaded) sing this ilulama song sweetly</l>
-        <l n="6">The lady of battle(?), the great/eldest child of Suen</l>
-        <l n="7">Young woman Inanna, I want to praise you</l>
-        <l n="8">(Inanna said) I am the lady, when I go around heaven, when I go around earth</l>
-        <l n="9">I am Inanna, when I go around heaven, when I go around earth</l>
-        <l n="10">When I go around the earth, (namely?) Elam and Subir</l>
-        <l n="11">When I go around the earth, (namely?) the land of lulubi</l>
-        <l n="12">When I am to thrash around in the inner mountain</l>
-        <l n="13">I am the lady, I am the one that had approached the mountain, it should not/indeed it did(?) act fearfully towards me(?)</l>
-        <l n="14">I am Inanna, I am the one that had approached the mountain, it should not/indeed it did(?) act fearfully towards me(?)</l>
-        <l n="15">I am the one that had approached the mountain range (with?) the mountain of Ebih, it should not/indeed it did(?) act fearfully towards me(?)</l>
-        <l n="16">Like one who should not/indeed did(?) ... towards me(?) from/by means of its fear</l>
-        <l n="17">Like one who should not/indeed did(?) bring its nose(?) near to the ground towards me</l>
-        <l n="18">Like one who should not/indeed did(?) drag (its) beard in the dust for me</l>
-        <l n="19">Ibni-Sîn (was the scribe)</l>
-        <l n="1">(It is the month of) NENEgar, the 24th(?) day</l>
       </div>
     </body>
   </text>

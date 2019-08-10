@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,29 +33,21 @@
       <div n="urn:cts:cdli:P346310.P346310.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>space blank</note>
             <l n="1">ur-gir15-re kaš-de2-a-še3 al-du-un</l>
             <l n="2">giri3-pad-ra2 igi mu-ni-in-duh ba-gub</l>
             <l n="3">ki al-du-na-am3</l>
             <l n="4">diri ne-en-⸢na⸣-am3</l>
             <l n="5">al-gu7-[...] ⸢e⸣-⸢še⸣</l>
+            <note>space blank</note>
           </div>
           <div n="reverse" type="textpart">
+            <note>space blank</note>
             <l n="1">⸢hal⸣-la ur-⸢gir15⸣-⸢ra⸣-ka</l>
             <l n="2">giri3-pad-ra2 al-de5-de5-ga</l>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">A dog going to a banquet</l>
-        <l n="2">saw a bone and stopped(?):</l>
-        <l n="3">&quot;Where I go,</l>
-        <l n="4">more of this(?)</l>
-        <l n="5">I will eat” he said.</l>
-        <l n="1">The “inheritance share&quot;(?) of a dog:</l>
-        <l n="2">bones are selected.</l>
       </div>
     </body>
   </text>

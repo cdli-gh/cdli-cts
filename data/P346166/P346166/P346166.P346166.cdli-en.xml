@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000396, ex. 012</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346166</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346166.P346166.cdli-en" type="translation" xml:lang="en">
+        <l n="1">As (i.e., like) my brother and friend Utu</l>
+        <l n="2">Of my ones standing (with) shoulders like a pirig creature</l>
+        <l n="3">Of my dust covered(?) equids screaming like ug creatures, I am their good groom</l>
+        <l n="4">Like a male donkey, my strength never wavers as a runner</l>
+        <l n="5">I come out (ahead) from the (other) runners</l>
+        <l n="6">I bear no sin, I jump around continually in mirth(?)</l>
+        <l n="7">My word is something never to be abandoned by the mouth</l>
+        <l n="8">My praise(?) is present in the mouth on my behalf (manifested) in legal decisions of truth</l>
+        <l n="9">I am a ritually pure diviner</l>
+        <l n="10">I am the Nintur (mother goddess) of the procedures of omens</l>
+        <l n="11">In order to perfect the lustration rites of the išib priesthood</l>
+        <l n="12">In order to praise the en priestess and install (her) on behalf of the gipar building</l>
+        <l n="13">In order to choose the lumah priest and erešdigir priestess in the holy heart</l>
+        <l n="14">To advance towards the lowland and inflict defeat against the highland</l>
+        <l n="15">To open the “house of the emblem”</l>
+        <l n="16">To wash the lance with the “water of battle”</l>
+        <l n="17">To enact clever plans in the rebel land</l>
+        <l n="18">The words of the gods is(?) a most precious thing (for these matters)</l>
+        <l n="19">After I(?) establish an oracular utterance with/in the white lamb, the sheep suitable for extispicy</l>
+        <l n="20">After I(?) pour water and eša flour in the place where the name is uttered/the oath is taken</l>
+        <l n="21">I will prepare the sheep with/according to(?) the words of the siskur ritual</l>
+        <l n="22">My diviner ... there(?) like a barbarian</l>
+        <l n="23">The prepared sheep “passes into my hand&quot;(?)</l>
+        <l n="24">I do not “hold” good (omens) with bad (omens)</l>
+        <l n="25">A brilliant mind is mine, I go by my (own) eyes</l>
+        <l n="26">I am the king, the entrails of a single sheep</l>
+        <l n="27">I see the orders of the whole world</l>
+        <l n="28">I shall boast about my deeds</l>
+        <l n="29">I have made the reputation of my might spread wide</l>
+        <l n="30">My intellect is full of cleverness</l>
+        <l n="31">What of mine does not surpass description?</l>
+        <l n="32">I am Shulgi, the king of Urim</l>
+        <l n="1">And therefore I am devoted to the art of the musician</l>
+        <l n="2">Nothing about it is blocked to me(?)</l>
+        <l n="3">(I) have learned the depth and width of tigi and adab songs (or instruments?), perfected by/equipped for the musician's craft(?)</l>
+        <l n="4">The (playing of) the šukar instrument was grasped in the mind(?)</l>
+        <l n="5">In order to adjust the frets(?), I did not cause the arm to break(?)</l>
+        <l n="6">I made plans for/drew its “raising” and “lowering&quot;(?)</l>
+        <l n="7">I have known how to tune(?) the three ... gu instrument and the lyre well</l>
+        <l n="8">I have known the “three stringed” instrument and the “heart of the art of the musician (soundbox?), and the “howling heart”</l>
+        <l n="9">I have known the fingering technique/plectrum(?) of the algar and sabitum instruments, which the king created(?)</l>
+        <l n="10">(I) accepted(?) the “Mari” instrument, that which silences the temple(?)</l>
+        <l n="11">The “(king) Urzababa” instrument, the harhar instrument, the harhar instrument</l>
+        <l n="12">The “lion” instrument, the “post of the boatman” instrument, and zanaru instrument, I brought out (their) noises ...</l>
+        <l n="13">Like a pure-handed/skilled(?) member of the musicians</l>
+        <l n="14">(If) someone brings(?) a gudi instument never heard before to where I am (my place)</l>
+        <l n="15">When I “make it speak&quot;(?), its essence(?) is made known</l>
+        <l n="16">I can make it like something at its (appropriate) time</l>
+        <l n="17">Finding the sound (by?) tightening(?), slackening, and correcting has not escaped my hand</l>
+        <l n="18">(I) do not play the reed flute like (a mere) reed (pipe) of the shepherd</l>
+        <l n="19">Intoning a šumunša song, wailing in lament</l>
+        <l n="20">In the heart(?) (I) have known how to do this, like (one who does it) regular(ly)</l>
+        <l n="21">I am one who causes rejoicing, I am one who makes things sweet</l>
+        <l n="22">I am one who spends the day in joy and princeliness</l>
+        <l n="23">If a man pays attention to his fear</l>
+        <l n="24">The matter(?), that which the eye surveys</l>
+        <l n="25">The circumscribed limits of life</l>
+        <l n="26">The bile/poison of the “land/netherworld of oppression,” a man cannot cast aside(?)</l>
+        <l n="27">He is(!?) one who trusts in his own might</l>
+        <l n="28">And thus one who trusts his great name</l>
+        <l n="29">Makes (everything) the best, why would he diminish them?</l>
+        <l n="30">(Total) 61 lines,</l>
+        <l n="31">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

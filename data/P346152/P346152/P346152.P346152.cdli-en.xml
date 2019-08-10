@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000674, ex. 001</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346152</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346152.P346152.cdli-en" type="translation" xml:lang="en">
+        <l n="1">Princely son, emerged from the pure ..., spending time(?), ... his(?) horn ...</l>
+        <l n="2">The mountain of the pure me, shrine Abzu, broad ..., mountain of the ... cosmic powers</l>
+        <l n="3">The supreme foundation ...</l>
+        <l n="4">Your reddish aura ... from/in the marshland/throne(?)</l>
+        <l n="5">(You are) the one whose(?) head is raised on behalf of your goodness as well as your greatness and supremacy</l>
+        <l n="6">You sail/run/spread out supremely(?) in order to(?) determine fate</l>
+        <l n="7">Great An broadly put your kingship of the universe at your disposition</l>
+        <l n="8">(As for?) you great status as princely son, Enlil has perfected your lordship(?)</l>
+        <l n="9">Enlil has made (your) supreme divinity manifest</l>
+        <l n="10">The determination of fate on behalf of the way (i.e. flow?) of(?) your supreme cold water(?), the sweet earth, the sweet mother(?)</l>
+        <l n="11">Enki at the inner(?) ... has set at your feet</l>
+        <l n="12">Enlil engendered you into (a role of) supremacy and lordship</l>
+        <l n="13">Nanna, your crescent is invoked by the name “the seven crescents&quot;(?)</l>
+        <l n="14">Enlil uttered your name, which is holy, for you in the universe</l>
+        <l n="15">Princely son, he made your greatness manifest in the universe</l>
+        <l n="16">The supreme assembly has bestowed upon you his Enlil-ship</l>
+        <l n="17">Enki at the mound(?) of Eridu determined your lordship and supremacy for you</l>
+        <l n="18">At the supreme Abzu, the mound(?) of shrine Eridu, on behalf of your great lordship</l>
+        <l n="19">The king of the universe, ..., spoke on account of your greatness</l>
+        <l n="20">Nanna, he has selected as (your) share your(?) exaltedness among the Anuna gods</l>
+        <l n="21">He seated you/made you dwell (in?) the holy dwelling(!?) among(?) their heart-gladdening(?) pure cosmic powers</l>
+        <l n="22">He has chosen the great gods for nindaba offerings</l>
+        <l n="23">They sat in the family shrine(?), (its) midst filled with supreme allure</l>
+        <l n="24">He has given the gods heart-gladdening siskur offering/ritual there</l>
+        <l n="25">He sat you in the supreme place, a pure place</l>
+        <l n="26">He sat(!?) you in the supreme place, a pure place</l>
+        <l n="27">Enki purifies the dwelling, he sanctifies the ... place(?)</l>
+        <l n="28">He purifies heaven for you, he sanctifies earth for you</l>
+        <l n="29">The Ekišnugal temple, the temple that is a forest of cedar trees, ...</l>
+        <l n="30">He prepares your supreme dais (in?) a pure place for you, it is(?) the torch(?) of the universe</l>
+        <l n="31">He properly executes your supreme plans and cleansing ritual for you</l>
+        <l n="1">He purifies the Dumah, your ... dining hall (and?) the table of(?) the pure place for you</l>
+        <l n="2">In you morning meal, in the afternoon meal, your afternoon and morning meal(!?)</l>
+        <l n="3">He has set the loads of(?) nindaba offerings in order for you</l>
+        <l n="4">He purifies and sanctifies the temple of(?) the cleansing rites(?) for you</l>
+        <l n="5">...</l>
+        <l n="6">... chose/named ... there</l>
+        <l n="7">Enki, the engenderer of his Abzu(?), sets up/initiates the cleansing ritual for you there</l>
+        <l n="8">Kusu has served in conjunction with(?) the cleansing ritual, in(?) the temple fashioned by itself</l>
+        <l n="9">At the outside of the inner ... the oven (for) bulls, sheep, and bread(?) at the outside of the shrine, (with?) the holy cleansing ritual</l>
+        <l n="10">In the temple he purifies, he(?) has been ready(?), (his) limbs sit (idle?)</l>
+        <l n="11">In order that the holy cleansing ritual is not abandoned, (from) the supreme marsh</l>
+        <l n="12">From the broad and pure ..., its fate emerges</l>
+        <l n="13">The Ekišnugal temple, supreme and holy dais, equipped with the great and supreme me of the universe</l>
+        <l n="14">When you wash at the holy ..., (on?) the supreme bank</l>
+        <l n="15">When you put (i.e., apply?) oil of the mountains (on your) pure body</l>
+        <l n="16">Nanna, (when) you sit on your supreme dais</l>
+        <l n="17">The gadamah garment, the exalted crown (with) shining horns, the pectoral of lordship</l>
+        <l n="18">Pure oil, holy oil, sanctified oil</l>
+        <l n="19">The supreme oil, the oil of lordship/en priesthood, the oil of the great assembly, it is of (i.e., on?) the holy body</l>
+        <l n="20">In his blue quay, his supreme quay, his pure quay</l>
+        <l n="21">Ningublaga, the lord who has purified the hands</l>
+        <l n="22">(And?) Enki purify the hands in the Abzu of Eridu</l>
+        <l n="23">In order that you set pure hands(?) towards(?) your food and drink(?) (upon?) the table (of?) your dining hall (on?) the platform</l>
+        <l n="24">Kusu, the one who(?) purifies hand and sanctifies hands, will purify the hands</l>
+        <l n="25">Enki purifies the hands in the Abzu of Eridu</l>
+        <l n="26">Determining a good and great destiny (for both?) shrine Abzu and the supreme throne of Ur</l>
+        <l n="27">The Ekišnugal temple is a pure and good dwelling, (and) Ningal is its supreme queen</l>
+        <l n="28">The holy ... is a pure place of your queenship for Nanna the king</l>
+        <l n="29">The Ekišnugal temple, the pure cella, the temple of your kingship</l>
+        <l n="30">Nanna and Ningal have rejoiced (in) the dwelling</l>
+        <l n="31">Suen, supreme knowing lord of the universe, your crown is a supreme crown</l>
+        <l n="32">Casting(?) a red/furious aura throughout the universe, ... Dilimbabbar, thus the hands(?) are pure for him</l>
+        <l n="33">Thus they are pure like heaven for him, thus they are sanctified like earth for him</l>
+        <l n="34">Thus they are clean for him like the midst of heaven(?)</l>
+        <l n="35">Thus ... in/of the universe raises (his) head (with) a pure crown</l>
+        <l n="36">Suen, supreme knowing lord of the universe, ideally suited for the pure dais</l>
+        <l n="37">Dilimbabbar(?), the crown, ... the true crown (with) supreme shining horns,</l>
+        <l n="38">Raises (his head)</l>
+      </div>
+    </body>
+  </text>
+</TEI>

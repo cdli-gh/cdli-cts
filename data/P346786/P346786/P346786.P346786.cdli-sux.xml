@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346786.P346786.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="obverse" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] x x</l>
             <l n="2'">[...]-kam?</l>
             <l n="3'">[...]-ra#?-du11</l>
@@ -46,24 +44,12 @@
             <l n="8'">[...] x x i-ni-x-[...]</l>
             <l n="9'">[...] x [...] x</l>
             <l n="10'">[...] x [...]</l>
+            <note>broken</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>broken</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">Because of who your are/I am(?), (I) have not spoken to you (about this)(?)</l>
-        <l n="4'">Come! after you do the work, eat food(?)</l>
-        <l n="5'">When a person like you does(?) a task(?)</l>
-        <l n="6'">His father and mother will eat food(!?)</l>
-        <l n="7'">If you observe the ... of my colleagues</l>
-        <l n="8'">Like (i.e., each one of?) them, ten gur of barley apiece they fill at the outset/per head(?)</l>
-        <l n="9'">...</l>
-        <l n="10'">...</l>
       </div>
     </body>
   </text>

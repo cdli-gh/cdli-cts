@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>UET 6, 0577</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346614</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346614.P346614.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">...</l>
+        <l n="2'">... supreme ...</l>
+        <l n="3'">It is the sagida</l>
+        <l n="4'">... Nanna, lord ...</l>
+        <l n="5'">... of lordship ... forever</l>
+        <l n="6'">It is its gešgigal “response”</l>
+        <l n="7'">... chosen on account of ..., ...</l>
+        <l n="8'">... bearing an aura, ... face ...</l>
+        <l n="9'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

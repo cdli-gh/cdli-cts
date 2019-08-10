@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -36,6 +33,7 @@
       <div n="urn:cts:cdli:P346579.P346579.cdli-sux" type="edition" xml:lang="sux">
         <div n="tablet" type="textpart">
           <div n="1" type="textpart">
+            <note>broken</note>
             <l n="1'">[...] di#?</l>
             <l n="2'">[...] x-ma</l>
             <l n="3'">[...] x-zu?</l>
@@ -44,32 +42,19 @@
             <l n="6'">[...] x</l>
           </div>
           <div n="2" type="textpart">
+            <note>broken</note>
             <l n="1'">en [...]</l>
             <l n="2'">{d}suen x [...]</l>
             <l n="3'">a2-tah-zu he2?-[...]</l>
             <l n="4'">tug2 tanx(|GA2xX|)#? gal-⸢gal⸣-le#?-eš#? [...]</l>
             <l n="5'">igi sa6-ga-a-ni [...]</l>
             <l n="6'">x x x ri en#? [...]</l>
+            <note>broken</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>broken</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1'">...</l>
-        <l n="2'">...</l>
-        <l n="3'">...</l>
-        <l n="4'">...</l>
-        <l n="5'">...</l>
-        <l n="6'">...</l>
-        <l n="1'">Lord ...</l>
-        <l n="2'">Suen ...</l>
-        <l n="3'">May he be(?) your helper</l>
-        <l n="4'">A clean(?) garment greatly(?) ...</l>
-        <l n="5'">His beautiful face ...</l>
-        <l n="6'">...</l>
       </div>
     </body>
   </text>

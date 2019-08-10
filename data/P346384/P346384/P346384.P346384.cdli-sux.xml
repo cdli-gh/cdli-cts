@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -38,86 +35,77 @@
           <div n="obverse" type="textpart">
             <l n="1">{geš#}tukul!(TUG2) mu-ni nu-pa3-da</l>
             <l n="2">su-ni i3-pa3-da</l>
+            <note>single ruling</note>
             <l n="3">iri{ki} mu hu-mu-kur2-kur2</l>
             <l n="4">mu-gu10 hu-mu-⸢gin6⸣-na</l>
+            <note>single ruling</note>
             <l n="5">{d}nin-ka6 ni2 dingir-⸢ra⸣ nu-zu</l>
+            <note>single ruling</note>
             <l n="6">geš-šub us2-sa ama-zu hul2-⸢la⸣</l>
             <l n="7">kaš4 tuku-ma dingir-zu hul2-⸢la⸣</l>
+            <note>single ruling</note>
             <l n="8">ti8#{mušen#} ka adda#?-kam ba-an-⸢ku4⸣</l>
+            <note>single ruling</note>
             <l n="9">nim ku4-ra-am3 ka-zu ba-HUB2#?-am3</l>
+            <note>single ruling</note>
             <l n="10">{geš}gidri gu4 ha-⸢pa⸣-gaz {kuš}a2-si</l>
             <l n="11">udu ha-pa-šum2#? ki sag-ki nu-gal2-ta</l>
             <l n="12">lu2 nu-tuš e-ne sukkal-a</l>
             <l n="13">ša3 {geš}gidri-kam i3 he2-en-de2</l>
+            <note>single ruling</note>
             <l n="14">lu2 dingir-ra-a-ni nu-mu-un-kal-kal</l>
             <l n="15">adda-bi ki nu-tum4 ibila-a-ni</l>
             <l n="16">a nu-de2 ⸢{d}gidim⸣-[...]-⸢nag⸣</l>
+            <note>single ruling</note>
             <l n="17">ha-ma?-da-gub-be2? [...]</l>
+            <note>single ruling</note>
             <l n="18">er2 geme2-kam u8-[...]</l>
             <l n="19">dumu geme2-kam ⸢dam⸣ [...]</l>
             <l n="20">sug-a-ni ma2 nu#?-[...]</l>
             <l n="21">gu2 sug-a-ni x [...]</l>
+            <note>single ruling</note>
             <l n="22">[...] x BU igi x [...]</l>
             <l n="23">[...] x [...]</l>
+            <note>broken</note>
           </div>
           <div n="reverse" type="textpart">
+            <note>broken</note>
             <l n="1'">x ŠEŠ-ŠEŠ [...]</l>
+            <note>single ruling</note>
             <l n="2'">dam nu-gar-ra ⸢TU⸣ [...]</l>
+            <note>single ruling</note>
             <l n="3'">TU-ra x-ga ⸢lu2⸣ x [...]</l>
+            <note>single ruling</note>
             <l n="4'">UD-ma e2 nu-tuku e2 x-a-x [...]</l>
+            <note>single ruling</note>
             <l n="5'">KAM? TU KA šu bar gal2 sahar nu-x-[...]</l>
             <l n="6'">nig2-gig {d}utu-kam</l>
+            <note>single ruling</note>
             <l n="7'">nita DU-DU nig2 pa3-da</l>
             <l n="8'">munus DU-DU nig2 ugux(GUL) bi2-ib-⸢de2⸣</l>
+            <note>single ruling</note>
             <l n="9'">lu2-hun še sa-ke4 ha-ab-ib-gi4</l>
             <l n="10'">sag i-bi2 du11-ga</l>
+            <note>single ruling</note>
             <l n="11'">e2-gal {geš}tir-ra-am3 lugal</l>
             <l n="12'">ur-mah-e {d}nun-gal</l>
             <l n="13'">{geš}sa-us2-sa guruš-e šu4-šu4</l>
+            <note>single ruling</note>
             <l n="14'">e2-ta e3 sila-ta ku4-ra?</l>
             <l n="15'">geme2 nin-a-ni-ta {geš}bun-ni bi2-in-gar</l>
+            <note>single ruling</note>
             <l n="16'">še nu-gal2 šu? iri{ki}-kam</l>
             <l n="17'">gi ⸢nu⸣-⸢gal2⸣ nam-|LAL2.SAR|-nam-|LAL2.SAR|-|LAL2.SAR|? diri-ga</l>
+            <note>single ruling</note>
             <l n="18'">hu-su ga-me-en ašgab!(LU2)-e-ne</l>
             <l n="19'">zi {d}en-ki ⸢a⸣ lu3 za3-le {lu2}azlag2-e-ne</l>
+            <note>single ruling</note>
             <l n="20'">ku6 al-še6-ga2 ha-ra-ba-sed6-sed6-de3</l>
             <l n="21'">[... giri3]-pad-ra2 de5-de5-ga</l>
             <l n="22'">[...] x ba-DU ga2-e!? [...] x-le-e</l>
+            <note>single ruling</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="2">The weapon is not one that utters his name, it is one that finds his flesh</l>
-        <l n="4">If the city changes (its) name/year(?), I would (have to) affirm my name/year(?)</l>
-        <l n="5">The mongoose does not know the aura of divinity</l>
-        <l n="7">Follow your lot and make your mother rejoice, run(?) and make your god rejoice</l>
-        <l n="8">The buzzard entered the mouth of a corpse(?)</l>
-        <l n="9">The fly is the one that enters, your mouth is the one that strikes/jumps?</l>
-        <l n="12">If the scepter slaughters the bull, if the whip slaughters the sheep, in the place where there is no assembly/mourning place(?), the man who is not seated(?), he is a vizier single ruling?</l>
-        <l n="13">If ... pours oil inside a scepter, (no one will know)</l>
-        <l n="16">The person who has not valued his god, his corpse is not buried, his heir does not pour water, his ghost does not drink</l>
-        <l n="17">May/if ... stands for me(?) ...</l>
-        <l n="18">The weeping of the female laborer ...</l>
-        <l n="19">The child of the female laborer, the spouse of the female laborer? ...</l>
-        <l n="20">A boat does not ... her(?) marsh</l>
-        <l n="21">(On?) the bank(?) ... of her(?) marsh(?) reed(s) do not(?) ...</l>
-        <l n="22">...</l>
-        <l n="23">...</l>
-        <l n="1'">...</l>
-        <l n="2'">A malicious spouse ...</l>
-        <l n="3'">Illness? ...</l>
-        <l n="4'">... that does not have a house ...</l>
-        <l n="6'">... to not ...dust/earth(?), it is anthema of Utu</l>
-        <l n="8'">A man going about is one who has found something, a woman going about has lost something</l>
-        <l n="10'">If a hireling who parches grain returns/answers, (his) head is smoking(?)</l>
-        <l n="13'">The prison is a thicket, the king is a lion, Nungal is a šuša net covering the young men</l>
-        <l n="15'">Having left the house and entered into(?) the street, the female worker set up a banquet apart from her lady</l>
-        <l n="17'">No barley being present is the (destructive) hand(?) of the city, no reeds being present is extreme poverty/execessive neighborliness(?)</l>
-        <l n="19'">&quot;I am bent at the thigh” is what the leatherworker (says)(?), “By the life of Enki, murky water flows (away?)” is what the fuller (says)(?)</l>
-        <l n="22'">May(?) the hot fish cool for you, the bones gathered from the fish ... I ...</l>
       </div>
     </body>
   </text>

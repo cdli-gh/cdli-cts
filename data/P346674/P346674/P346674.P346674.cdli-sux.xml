@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -41,19 +38,13 @@
             <l n="3">⸢ta⸣-⸢aš⸣ ga-ba-al nu-du3-e-en ta-am3 i-ri-ak</l>
             <l n="4">[...] ⸢mu⸣-⸢a⸣-ak-e ⸢šu⸣-bi na de5-ge4 u3 ba-⸢ra⸣-x-⸢ku⸣-⸢ku⸣-un</l>
             <l n="5">[...]-sig#?-⸢zu⸣-⸢um⸣ i3-⸢gu7⸣</l>
+            <note>broken</note>
           </div>
-          <div n="reverse" type="textpart"/>
+          <div n="reverse" type="textpart">
+            <note>broken</note>
+            <note>space blank</note>
+          </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Where do you come from?</l>
-        <l n="2">Do not fight, your arm/power should not be too small for me(?)</l>
-        <l n="3">Why (should) I not fight? What did I(?) do?</l>
-        <l n="4">You(?) ..., and therefore(?), “one with the consecrated/instructing/separating hand(?)” I(?) cannot sleep</l>
-        <l n="5">What, idiot, have you slandered?</l>
       </div>
     </body>
   </text>

@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000750, ex. 016</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346198</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346198.P346198.cdli-en" type="translation" xml:lang="en">
+        <l n="1'">Son of Enlil, lord Ningirsu</l>
+        <l n="2'">Eninnu temple</l>
+        <l n="3'">...</l>
+        <l n="4'">Egalgasud temple, storehouse that makes silver and lapis</l>
+        <l n="5'">Into treasure</l>
+        <l n="6'">Etarsirsir temple, enunciating/effecting(?) decisions and the cosmic powers, the hero who strokes the nose (in submission)</l>
+        <l n="7'">Your prince, possessed of pity ...</l>
+        <l n="8'">Lady, great physician of the black headed</l>
+        <l n="1'">Šara, ... a good thing</l>
+        <l n="2'">Who allocates the cosmic power to his mother</l>
+        <l n="3'">Temple of Umma</l>
+        <l n="4'">He erected a temple in your sacred space</l>
+        <l n="5'">He sat on your dais</l>
+        <l n="6'">Ešerzidguru temple</l>
+        <l n="7'">Inner sanctum hung with šuba stones</l>
+        <l n="8'">Great spring(?), the nigar sanctary of ...</l>
+        <l n="9'">Adorning/touching the true me, the exercised(?) me broadly</l>
+        <l n="10'">Zabalam, shrine ...</l>
+        <l n="11'">Your shrine at daybreak(?)</l>
+        <l n="12'">She has found the voice of(i.e. found expression for?) the wish(?)</l>
+        <l n="13'">(In) your true sanctum, the nugig midwife</l>
+        <l n="14'">Laid down the wish</l>
+        <l n="15'">Your lady Inanna, ...</l>
+        <l n="16'">ušumgal creature grabbing the limbs(?) of the single(?) man</l>
+        <l n="17'">Shining as something white</l>
+        <l n="18'">Advancing toward the rebel land</l>
+        <l n="19'">By her own doing the firmament is made beautiful(?)</l>
+        <l n="20'">The child of Suen, Inanna</l>
+        <l n="21'">Temple of Zabalam</l>
+        <l n="22'">She erected a temple in your sacred space</l>
+        <l n="23'">She sat on your dais</l>
+        <l n="24'">Temple bearing a reddish aura like great awe(?)</l>
+        <l n="25'">Decision (renderer?), in(?) the plain an attacking(?) storm</l>
+        <l n="26'">Temple of Iškur, before you is abundance, behind you is joy</l>
+        <l n="27'">Your intact(!?) foundation(?) is a ... with the horn of a pirig creature(?)</l>
+        <l n="28'">Pure drainpipe, breast/nipple of heaven, rain producing ...(?) barley</l>
+        <l n="29'">At your pilaster, at your temple, (you are) a wild elephant</l>
+        <l n="30'">True brickwork, your foundation (with?) a wall that bears an aura(?)</l>
+        <l n="31'">... thick(?) clouds(?), ... snakes and scorpions/GIRI snake(?)</l>
+        <l n="32'">... moonlight</l>
+        <l n="33'">... oppression(?), Iškur, a flood(?)</l>
+        <l n="34'">The seven ... southern and northern winds</l>
+        <l n="35'">... the northern wind, the dust storm</l>
+        <l n="36'">... running from the horizon</l>
+        <l n="37'">... the mountain of diorite and ... stone</l>
+        <l n="1'">Both(?) Enlil and Enki determine her(?) destiny</l>
+        <l n="2'">Esuga temple, sharpened dagger(?)</l>
+        <l n="3'">(At?) the throat of the black headed, the me that are great</l>
+        <l n="4'">An gave to you from the midst of heaven</l>
+        <l n="5'">Emah temple, the temple of Adab</l>
+        <l n="6'">(In?) your temple, (in which there is?) flowing water(?)</l>
+        <l n="7'">The holy shrine/treasury, your established shrine</l>
+        <l n="8'">Ninhursaga for Keš</l>
+        <l n="9'">Establishes(?) sweetly</l>
+        <l n="10'">The great me, the pure ruin mound, the pure cleansing</l>
+        <l n="11'">Ašgi, the god of Adab</l>
+        <l n="12'">Adab, (possessing) a temple attached to the river/canal</l>
+        <l n="13'">He erected a temple in your sacred space</l>
+        <l n="14'">He sat on your dais</l>
+        <l n="15'">Isin, city founded by An</l>
+        <l n="16'">He has built(?) it on a low center</l>
+        <l n="17'">Its front is a flood, its midst is skillfully knotted(!?)</l>
+        <l n="18'">Resounds(?) with the seven wishes(?)</l>
+        <l n="19'">Lady, great physician of the land</l>
+        <l n="20'">NinIsina, child of An</l>
+        <l n="21'">The temple of Isin</l>
+        <l n="22'">She erected in your sacred space</l>
+        <l n="23'">She sat on your dais</l>
+        <l n="24'">Eigikalam temple, (its) foundation set upon the earth</l>
+        <l n="25'">Growing mountain range, set on the ground broadly(?)</l>
+        <l n="26'">The enemy land</l>
+        <l n="27'">Seeking? ...</l>
+        <l n="28'">...</l>
+        <l n="2'">He erected a temple in your sacred space</l>
+        <l n="3'">He sat on your dais</l>
+        <l n="4'">Dēr, greatly(?) effecting a decision, blocking(?) ...</l>
+        <l n="5'">At your gate which possesses an aura and radiance</l>
+        <l n="6'">Your(?) ornament/trap(?) embraced (i.e., catches?) the muššatur and mušhuš creatures</l>
+        <l n="7'">Your ruler, the leader of the gods</l>
+        <l n="8'">Exalted one of issuing advice, ornament(?)</l>
+        <l n="9'">Of the true cosmic power of cleverness</l>
+        <l n="10'">The wise one, Ištarān, king of the foundation(?) of heaven</l>
+        <l n="11'">Edimgalkalam temple</l>
+        <l n="12'">He erected a temple in your sacred space</l>
+        <l n="13'">He sat on your dais</l>
+        <l n="14'">Esikil temple, its pure me are surpassing in the lands</l>
+        <l n="15'">Its me are elaborate(?) and mighty</l>
+        <l n="17'">When he opens his knees (as a predatory bird?), the evildoer does not escape</l>
+        <l n="18'">When he establishes a triumph, rebel lands and cities(?) are destroyed</l>
+        <l n="19'">When he frowns, the people are gathered(?) into sand dunes(?)</l>
+        <l n="20'">Your ruler is a great lion who binds the enemy to his hand</l>
+        <l n="21'">Your king is a reddish storm, a flood in the middle of battle</l>
+        <l n="2'">Your(!?) right arm makes the mountain tremble</l>
+        <l n="3'">Your left arm spreads out(?) (over) the enemy/spreads out the enemy (like sheaves?)</l>
+        <l n="4'">Your ruler, supreme flood, storm touching the earth</l>
+        <l n="5'">Exuding a great reddish/furious aura</l>
+        <l n="6'">Eduba temple, your king</l>
+        <l n="7'">Great ... Zababa</l>
+        <l n="8'">He erected a temple in your sacred space</l>
+        <l n="9'">He sat on your dais</l>
+        <l n="10'">Egeškešedakalam temple</l>
+        <l n="11'">(Bull) whose horn cannot be turned back(?) of the gods</l>
+        <l n="12'">The wild cow ... relaxing</l>
+        <l n="13'">Wild bull establishing a lament(?)</l>
+        <l n="14'">Kutha(!), your harbor is a clear harbor, (enough so) to drink water (from)</l>
+        <l n="15'">Your interior is skillfully knotted</l>
+        <l n="16'">Your mitum weapon is released(?) from heaven</l>
+        <l n="17'">Your sacred space is a lapis pectoral(?) attached to the Meslam temple</l>
+        <l n="18'">Your prince is Erra, king/god of the Meslam temple</l>
+        <l n="19'">...</l>
+      </div>
+    </body>
+  </text>
+</TEI>

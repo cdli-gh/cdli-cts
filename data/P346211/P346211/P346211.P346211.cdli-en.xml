@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CDLI Literary 000380, ex. 023</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Converted from ATF by atf2tei.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            CDLI
+            <idno type="CDLI">P346211</idno>
+          </title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pattern references a specific line.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:cdli:P346211.P346211.cdli-en" type="translation" xml:lang="en">
+        <l n="1">In order to overturn the day, in order to destroy the plans</l>
+        <l n="2">The storm ravages like a stormwind</l>
+        <l n="3">In order to overturn the cosmic powers of Sumer</l>
+        <l n="4">In order to confine the good reign in its house</l>
+        <l n="5">In order to destroy the city, in order to destroy the temple</l>
+        <l n="6">In order to destroy the cattlepen, in order to flatten the sheepfold</l>
+        <l n="7">So that the ox does not does not stand in its cattlepen</l>
+        <l n="8">So that the sheep does not expand (in number?) in the sheepfold</l>
+        <l n="9">So that the canal irrigates with (only) brackish water</l>
+        <l n="10">So that the mother does not seek the whereabouts of her child</l>
+        <l n="11">So that the father does not say “ah, my wife”</l>
+        <l n="12">So that the junior spouse does not delight in (his) lap</l>
+        <l n="13">So that the little ones do not grow on the knee</l>
+        <l n="14">So that the nursemaid does not sign a lullaby</l>
+        <l n="15">So that the dwelling of kingship is changed</l>
+        <l n="16">In order to paralyze/actively diminish(?) decision making</l>
+        <l n="17">In order to take away the kingship of the land</l>
+        <l n="18">So that it (the destructive storm) sets its gaze on the entire world</l>
+        <l n="19">So that it ruins the plans according to the command of An and Enlil</l>
+        <l n="20">It was the time when An frowned upon the lands</l>
+        <l n="21">It was the (time) that Enlil set his gaze on another place</l>
+        <l n="22">It was the (time) that Nintur rejected her creations</l>
+        <l n="23">It was the (time) that Enki changed (the course of) the Tigris and Euphrates</l>
+        <l n="24">It was the (time) that Utu cursed the journeys and caravans</l>
+        <l n="25">In order to destroy the me of Sumer, in order to alter its plans</l>
+        <l n="25">(several lines missing)</l>
+        <l n="26'">From the sand dunes of Zabu on the shore of the sea to the border of Anšan</l>
+        <l n="27'">Like a swallow that has flown (from) its house (i.e., nest), he is not to return to his city</l>
+        <l n="28'">So that malevolent plants grow on both(?) banks of the Tigris and Euphrates</l>
+        <l n="29'">So that no one sets foot on the road, so that no one seeks the path</l>
+        <l n="30'">In order to break up the founded city and (outlying) settlements into ruin mounds</l>
+        <l n="31'">In order to smite the teeming black-headed people with the haš weapon</l>
+        <l n="32'">So that the hoe does not penetrate the fertile field, ...</l>
+        <l n="33'">So that the e'ellu, the song of the going oxen, is not sung in the plain</l>
+        <l n="34'">So that butter and cream are not made in the cattlepen, so that ... is destroyed</l>
+        <l n="35'">So that the ilulama song, the churning of the churn, is not sung in the sheepfold</l>
+        <l n="36'">In order to diminish the herd, in order to finish the wild animals</l>
+        <l n="37'">So that the dung/bedding(?) of the quadrupeds of Sumuqan does not touch the ground</l>
+        <l n="38'">So that in the marshes (wet land) is turned into cracked land, so that they do not acquire seeds</l>
+        <l n="1'">In order to take away the kingship of the land</l>
+        <l n="2'">So that it (the destructive storm) sets its gaze on the entire world</l>
+        <l n="3'">So that it ruins the plans according to the command of An and Enlil</l>
+        <l n="4'">It was the time when An frowned upon the lands</l>
+        <l n="5'">It was the (time) that Enlil set his gaze on another place</l>
+        <l n="6'">It was the (time) that Nintur rejected her creations</l>
+        <l n="7'">It was the (time) that Enki changed (the course of) the Tigris and Euphrates</l>
+        <l n="8'">It was the (time) that the youth(?) Utu cursed the journeys and caravans</l>
+        <l n="9'">In order to destroy the me of Sumer, in order to alter its plans</l>
+        <l n="10'">In order to obfuscate the me and the reign of kingship in Ur</l>
+        <l n="11'">In order to defile the princely son in his Ekišnugal temple</l>
+        <l n="12'">In order to tear apart the “mesh” of the people ... like ... of Nanna</l>
+        <l n="1">In order to change the nindaba offering of Ur, the shrine of great nindaba offerings</l>
+        <l n="2">So that its people do no dwell in their dwelling, so that enemy territory gives it away(?)</l>
+        <l n="3">So that Šimašgi and Elam, the foreign/enemy people, dwell in their dwellings</l>
+        <l n="4">So that the enemy seizes its shepherd in his very own house</l>
+        <l n="5">So that Ibbi-Sîn is brought to the land of Elam in a {geš}bur trap/restraint</l>
+        <l n="6">From the sand dunes of Zabu on the shore of the sea to the border of Anšan</l>
+        <l n="7">Like a swallow that has flown from its house (i.e., nest), he is not to return to his city</l>
+        <l n="8">(So that) malevolent plants (grow) on both(?) banks of the Tigris and Euphrates</l>
+        <l n="9">So that no one sets foot on the road, so that no one seeks the path</l>
+        <l n="10">In order to break up the founded city and (outlying) settlements into ruin mounds</l>
+        <l n="11">In order to smite the teeming black-headed people with the haš weapon</l>
+        <l n="12">So that the hoe does not penetrate the fertile field, so that the seed is not planted</l>
+        <l n="13">So that the e'ellu, the song of the going oxen, is not sung in the plain</l>
+        <l n="14">So that butter and cream are not made in the cattlepen, so that ... is destroyed</l>
+        <l n="16'">It was something unseen (before), and (for which) there was no word, something not to be accepted(?)</l>
+        <l n="17'">The lands were confused all by themselves(?)</l>
+        <l n="18'">The gods of that city stood outside</l>
+        <l n="19'">Humanity breathed painfully in their very own homes(?)</l>
+        <l n="20'">In order to overturn the day, in order to destroy the plans</l>
+        <l n="21'">The storm ravages like a stormwind</l>
+        <l n="22'">In order to overturn the cosmic powers of Sumer</l>
+        <l n="23'">In order to confine the good reign in its house</l>
+        <l n="24'">In order to destroy the city, in order to destroy the temple</l>
+        <l n="25'">In order to destroy the cattlepen, in order to flatten the sheepfold</l>
+        <l n="26'">So that the ox does not does not stand in its cattlepen</l>
+        <l n="27'">So that the sheep does not expand (in number?) in the sheepfold</l>
+        <l n="28'">So that the canal irrigates with (only) brackish water</l>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -38,6 +35,7 @@
           <div n="obverse" type="textpart">
             <l n="1">[zi-ga] u5-de3 ⸢zi⸣-[ga] ⸢u5⸣-de3 x [...]</l>
             <l n="2">[...] x x [...]</l>
+            <note>lines broken</note>
             <l n="3">⸢{d}ištaran⸣ [...]</l>
             <l n="4'">⸢dal⸣-[la ...]</l>
             <l n="5'">{d}lugal-x-[...]</l>
@@ -90,68 +88,12 @@
             <l n="23'">[...] x ma2 ⸢egir⸣-⸢ra⸣-[...]</l>
             <l n="24'">[...]-nigin-x-en lu2#? [...]</l>
             <l n="25'">[...] x x x x [...]</l>
+            <note>lines broken</note>
             <l n="26'">[...] x x x x [...]</l>
             <l n="27'">[...]-x e2-za gi4-bi GIŠGAL e2-⸢za⸣ [...]</l>
+            <note>broken</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Get up in order to sail, get up in order to sail, ...</l>
-        <l n="2">(several lines missing)</l>
-        <l n="3">Ištarān, with the face of šuba stones, his mother is to receive the downstream sailing barge(?)</l>
-        <l n="4'">Alla, lugalsapar, the barge that his mother is to receive (in the netherworld)(?)</l>
-        <l n="5'">LugalKANE, his mother is to receive the downstream sailing barge(?)</l>
-        <l n="6'">Ningešzida, his mother is to receive the downstream sailing barge(?)</l>
-        <l n="7'">His younger sister sang a lament in the cabin at the front of the boat</l>
-        <l n="8'">His older sister ... in the cabin at the rear of the boat</l>
-        <l n="9'">I want to sail with you, I want to sail with you, my brother, I want to sail with you</l>
-        <l n="10'">My brother, I want to ride your barge with you, my brother, I want to sail with you</l>
-        <l n="11'">I want to ride(?) your ...</l>
-        <l n="12'">At the front of the boat I shall intone a lament/seize the ladder(?), I want to sail with you</l>
-        <l n="13'">At the back of the boat I shall kill (intruders?)(?), I want to sail with you</l>
-        <l n="14'">Youth Damu, I want to sail with you, my brother, I want to sail with you</l>
-        <l n="15'">..., I want to sail with you, my brother, I want to sail with you</l>
-        <l n="16'">Ištarān, with the face/eye of šuba stones, I want to sail with you, my brother, I want to sail with you</l>
-        <l n="17'">Alla, lugalsapar (lord of the net), I want to sail with you, my brother, I want to sail with you</l>
-        <l n="18'">LugalKANE, I want to sail with you, my brother, I want to sail with you</l>
-        <l n="19'">Ningešzida, I want to sail with you, my brother, I want to sail with you</l>
-        <l n="20'">The evil galla demon dwelling in the middle was speaking to Ningešzida</l>
-        <l n="21'">Lugalkisuna, look at your sister</l>
-        <l n="22'">Lugalkisuna, having looked at his sister, was speaking to her</l>
-        <l n="23'">I have ridden with him, I have ridden with him, why are you to sail (with me)?</l>
-        <l n="24'">My sister, I have ridden with my galla demon, why are you to sail (with me)?</l>
-        <l n="25'">I have ridden with my man who pelts (me), why are you to sail (with me)?</l>
-        <l n="26'">I have ridden with my man who binds (my) hands, why are you to sail (with me)?</l>
-        <l n="27'">I have ridden with my man who binds (my) arms, why are you to sail (with me)?</l>
-        <l n="1">The river of the netherworld does not convey water/irrigate, its water is not drunk/it is not full of water(?), why are you to sail (with me)?</l>
-        <l n="2">The field of the netherworld does not grow barley, flour is not ground(?) (utilizing it), why are you to sail (with me)?</l>
-        <l n="3">The sheep of the netherworld does not wear wool, a garment is not woven (utilizing it), why are you to sail (with me)?</l>
-        <l n="4">(Because of this journey?) I, whom my mother excavated like a canal/planted on the river (bank)(!?), my water is not drunk(?)</l>
-        <l n="5">I(?) am not watered by hand like a tamarisk, no one sits in my shade(?)</l>
-        <l n="6">No one(?) ... the allure of my date-bearing like a date palm</l>
-        <l n="7">My galla demon gouged(?) with a stick(?), causing you to scream</l>
-        <l n="8">He placed ... on my hands, causing you to scream</l>
-        <l n="9'">He placed ... on my neck, causing you to scream</l>
-        <l n="10'">Amašilama was speaking to? Ningešzida</l>
-        <l n="11'">If(?) ... makes a gift(?) for(?) the grievous(?) ..., ...</l>
-        <l n="12'">If(?) ... makes a gift(?) for(?) your galla demon ...</l>
-        <l n="13'">I want to ..., it is becoming too much for you</l>
-        <l n="14'">I want to ..., it is becoming too much for you</l>
-        <l n="15'">I want to ... the little ones(?) (on?) my lap, it is becoming too much for you</l>
-        <l n="16'">I want to ... (on?) my lap like my(?) ..., it is becoming too much for you</l>
-        <l n="17'">I(?) am ..., ..., it is becoming too much for you</l>
-        <l n="18'">My brother, you have been acted upon(?), my brother, you have been acted upon(?), it is becoming too much for you</l>
-        <l n="19'">..., you have been acted upon(?), my brother, you have been acted upon(?), it is becoming too much for you</l>
-        <l n="20'">... the stern(?) ...</l>
-        <l n="21'">...</l>
-        <l n="22'">...</l>
-        <l n="23'">... the stern(?) ...</l>
-        <l n="24'">... encircled you(?), ...</l>
-        <l n="26'">...</l>
-        <l n="27'">..., sequester yourself in your house, city(!)/southern storm(?), sequester yourself in your house</l>
       </div>
     </body>
   </text>

@@ -19,14 +19,11 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern matchPattern="(\w+)\.(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+        <cRefPattern matchPattern="(\w+)\.(\w+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
           <p>This pattern references a specific line.</p>
         </cRefPattern>
-        <cRefPattern matchPattern="(\w+)\.(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pattern references an inscribed surface.</p>
-        </cRefPattern>
-        <cRefPattern matchPattern="(\w+)" n="object" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pattern references a specific artefact, usually a tablet.</p>
+        <cRefPattern matchPattern="(\w+)" n="surface" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:div[@n='$1'])">
+          <p>This pattern references an inscribed surface on an object.</p>
         </cRefPattern>
       </refsDecl>
     </encodingDesc>
@@ -55,6 +52,7 @@
             <l n="17">e2-šu-me-ša4 e2 {d}nin-urta-ke4</l>
             <l n="18">muš-za e2 bi2-in-gub</l>
             <l n="19">bara2-za dur2 bi2-in-gar</l>
+            <note>double ruling</note>
             <l n="20">e2-ga2-⸢du6⸣-da x sag-ta il2-⸢la⸣</l>
             <l n="21">men an-edin-na ki ku3 sikil x [...]</l>
             <l n="22">⸢e2⸣ temen-zu dim gal nun-[...]</l>
@@ -68,6 +66,7 @@
             <l n="5">e2-du6-sag-dili [...]</l>
             <l n="6">muš-za e2 bi2-in-[...]</l>
             <l n="7">bara2-za dur bi2-in-⸢gar⸣</l>
+            <note>double ruling</note>
             <l n="8">kešx(|ŠU2.HI.AN|){ki} uru16 uludinx(|SIG7.NA2|) an-ki</l>
             <l n="9">ša3-tur3 gal-gin7 ni2 ri-a</l>
             <l n="10">e2 {d}nin-hur-sag-ga2-ka ki-šurx(SAG)-a du3-a</l>
@@ -83,58 +82,10 @@
             <l n="20">e2 kešx(|ŠU2.HI.AN|){ki}</l>
             <l n="21">⸢muš⸣-za e2 bi2-in-gar</l>
             <l n="22">bara2-za ⸢dur2⸣ bi2-in-gar</l>
+            <note>double ruling</note>
+            <note>space blank</note>
           </div>
         </div>
-      </div>
-      <div type="translation">
-        <div n="tablet" type="textpart"/>
-      </div>
-      <div type="translation" xml:lang="en">
-        <l n="1">Temple that gathers up the me of heaven, standing on the platform</l>
-        <l n="2">The true me of the hero(?), grown by the ruler(?) and the prince</l>
-        <l n="3">Carrying an aura along with(!?) the weapons of battle (including) the mitum weapon, the bow and the quiver</l>
-        <l n="4">Mighty brickwork that is unceasing, foundation of your storm/day of the southern wind/humanity(!?)</l>
-        <l n="5">Founded by the (ancestral deity) Enul(?), which was(?) the decision of (i.e., guided by?) the princely cosmic powers</l>
-        <l n="6">Great city(?) surpassing(?) in the mountain/land, one who holds the head high (among) the rulers</l>
-        <l n="7">Supreme temple, your emerging awe spreads (over?) the holy space like daylight</l>
-        <l n="8">Ešumeša, Enlil upon your name</l>
-        <l n="9">Has cast a reddish/furious aura</l>
-        <l n="10">Your ruler, the wind!(?), the mountain, hero, exuding an aura, surpassing</l>
-        <l n="11">Great ensi official of Enlil</l>
-        <l n="12">Authoritative one who rivals(?) heaven and earth</l>
-        <l n="13">Seal keeper of the bolt of father Enlil, perfecting the cosmic powers of greatness</l>
-        <l n="14">Forceful one, with a head that casts a reddish (aura)(?), foremost one of father Enlil</l>
-        <l n="15">He will destroy the land of the enemy for him</l>
-        <l n="16">Foremost one, pirig creature, engendered by the great mountain</l>
-        <l n="17">Ešumeša, temple of Ninurta</l>
-        <l n="18">He erected a temple in your sacred space</l>
-        <l n="19">He sat on your dais</l>
-        <l n="20">Egaduda temple, ... raised by(!?) the head</l>
-        <l n="21">Crown of the plain, holy and pure place ...</l>
-        <l n="22">Temple, your foundation is the great bond of the ruler</l>
-        <l n="23">Your lady, the singular woman occupying the house and(?) dais</l>
-        <l n="1">Dusagdili temple, she gladdens your face/appearance(?) in the cella(?)</l>
-        <l n="2">Your ruler, who will not grow angry, surpassing in wisdom</l>
-        <l n="3">Princely child, who causes flourishing with the great mountain</l>
-        <l n="4">Šuziana, junior spouse of Enlil</l>
-        <l n="5">Edusagdili temple, ...</l>
-        <l n="6">She erected a temple in your sacred space</l>
-        <l n="7">She sat on your dais</l>
-        <l n="8">Mighty/exalted(?) Keš, with the features(?) of the universe</l>
-        <l n="9">Exuding an aura like a great šatur snake</l>
-        <l n="10">Temple of Ninhursaga, built/planted(?) in a hole</l>
-        <l n="11">Important(?) Keš, your midst is a deep(?) midst, your outside is raised(!?)</l>
-        <l n="12">Great pirig creature who ... in the high plain, ... of(?) the plain</l>
-        <l n="13">Great mountain range laid down by means of noise/incantations</l>
-        <l n="14">(Possessing) an interior of twilight, (from whose) interior moonlight does not escape, beautified(?) by(?) Nintur</l>
-        <l n="15">Temple of Keš, your brickwork, your fashioned(?) brick</l>
-        <l n="16">(Your) temple-terrace, a lapis crown(!?) which is fashioned/planted at(?) your outside(!?)</l>
-        <l n="17">Your ruler (is) a “silent ruler,” the great egizid priestess of heaven</l>
-        <l n="18">Her command shakes heaven, her utterance (is) a loud(?) storm</l>
-        <l n="19">Aruru, the elder sister of Enlil</l>
-        <l n="20">Temple of Keš</l>
-        <l n="21">She erected(!) a temple in your sacred space</l>
-        <l n="22">She sat on your dais</l>
       </div>
     </body>
   </text>
