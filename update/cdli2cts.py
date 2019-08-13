@@ -29,7 +29,20 @@ included_ids = [
         'P497322',
 ]
 
-'ATF records to include by catalogue entry.'
+'''ATF records to include by catalogue entry.
+
+This is a dictionary of key, value pairs which, when the given
+key in present in the catalogue metadata for an ATF record and
+the entry exactly matches the given value, the record will be
+converted and included in the output.
+
+Other examples:
+        'genre': 'Literary',
+        'object_type': 'seal',
+        'period': 'Hellenistic (323-63 BC)',
+
+More specific checks can be added to the included() function below.
+'''
 included_metadata = {
         'museum_no': 'BM — PJ',
 }
