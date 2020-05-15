@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<ti:work groupUrn="urn:cts:cdli:P346885" urn="urn:cts:cdli:P346885.P346885" xml:lang="sux" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
-  <ti:title xml:lang="eng">UET 6, 0848</ti:title>
-  <ti:edition urn="urn:cts:cdli:P346885.P346885.cdli-sux" workUrn="urn:cts:cdli:P346885.P346885">
-    <ti:label xml:lang="mul">CDLI P346885 UET 6, 0848</ti:label>
-    <ti:description xml:lang="eng">Cuneiform transliteration converted from atf.</ti:description>
-  </ti:edition>
-</ti:work>
